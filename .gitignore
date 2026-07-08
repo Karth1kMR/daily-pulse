@@ -1,2 +1,6 @@
 .DS_Store
 __pycache__/
+.vapid_keys
+.ntfy_topic
+worker/node_modules/
+worker/.wrangler/

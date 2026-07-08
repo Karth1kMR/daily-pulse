@@ -1,0 +1,19 @@
+name = "daily-pulse-push"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Created with: npx wrangler kv namespace create SUBS
+# Paste the generated id below before deploying.
+[[kv_namespaces]]
+binding = "SUBS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+# Public VAPID key (same value goes in app/config.js). Not secret.
+VAPID_PUBLIC = "REPLACE_WITH_VAPID_PUBLIC"
+# Restrict CORS to the deployed app origin, e.g. "https://<user>.github.io"
+ALLOWED_ORIGIN = "*"
+
+# Secrets (set with `npx wrangler secret put <NAME>`, never in this file):
+#   VAPID_PRIVATE — private VAPID key (from ../.vapid_keys)
+#   SEND_SECRET   — random bearer token the cloud routine uses to call /send
