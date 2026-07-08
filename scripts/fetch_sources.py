@@ -16,7 +16,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "app" / "data" / "raw.json"
+OUT = ROOT / "docs" / "data" / "raw.json"
 IST = ZoneInfo("Asia/Kolkata")
 
 FEEDS = {

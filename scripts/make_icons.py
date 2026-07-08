@@ -3,7 +3,7 @@
 from PIL import Image, ImageDraw
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "app" / "icons"
+OUT = Path(__file__).resolve().parent.parent / "docs" / "icons"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

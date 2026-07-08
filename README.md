@@ -6,11 +6,11 @@ on free keyless data sources.
 
 ## Layout
 
-- `app/` — static mobile-first web app (no build step). Serve with any static
-  server, e.g. `python3 -m http.server 4174 --directory app`.
-- `app/data/brief.json` — the current brief the app renders.
-- `app/data/raw.json` — raw fetched inputs (news RSS + weather).
-- `app/data/archive/` — past briefs, one per edition.
+- `docs/` — static mobile-first web app (no build step). Serve with any static
+  server, e.g. `python3 -m http.server 4174 --directory docs`.
+- `docs/data/brief.json` — the current brief the app renders.
+- `docs/data/raw.json` — raw fetched inputs (news RSS + weather).
+- `docs/data/archive/` — past briefs, one per edition.
 - `scripts/fetch_sources.py` — pulls Google News RSS, Times of India RSS and
   Open-Meteo weather (stdlib only, no API keys).
 - `GENERATE.md` — the playbook the scheduled Claude job follows to turn raw
@@ -20,7 +20,7 @@ on free keyless data sources.
 
 1. Scheduled job runs at ~7:30 AM and ~8:00 PM IST.
 2. It executes `scripts/fetch_sources.py`, then follows `GENERATE.md` to write a
-   fresh `app/data/brief.json` (+ archive copy).
+   fresh `docs/data/brief.json` (+ archive copy).
 3. (Planned) It then pushes a notification to the phone — channel TBD
    (options: Telegram bot, ntfy.sh, or iOS web push once installed as a PWA).
 

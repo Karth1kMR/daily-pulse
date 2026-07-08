@@ -2,7 +2,7 @@
 
 This is the instruction set for the scheduled job (a Claude session) that refreshes
 the app twice a day. Follow it exactly; the app renders whatever lands in
-`app/data/brief.json`.
+`docs/data/brief.json`.
 
 ## Steps
 
@@ -10,11 +10,11 @@ the app twice a day. Follow it exactly; the app renders whatever lands in
    ```
    python3 scripts/fetch_sources.py
    ```
-   This writes `app/data/raw.json` with ~75 headlines (Bengaluru news, traffic/metro,
+   This writes `docs/data/raw.json` with ~75 headlines (Bengaluru news, traffic/metro,
    events, national/world) and today's weather. If it reports errors for some feeds,
    continue with what fetched; only abort if *everything* failed.
 
-2. **Read `app/data/raw.json`** and write `app/data/brief.json` with this shape
+2. **Read `docs/data/raw.json`** and write `docs/data/brief.json` with this shape
    (see the existing file for a full example):
    - `date` (IST, YYYY-MM-DD), `edition` ("morning" if before 12:00 IST else "evening"), `city`, `generated_at`
    - `weather` — copy numbers from raw; write a one-line practical `tip`
@@ -41,9 +41,9 @@ the app twice a day. Follow it exactly; the app renders whatever lands in
      ~2 evergreen GK (civics, geography, economics, science). `answer` is the
      0-based index. `why` teaches one extra fact beyond the answer.
 
-3. **Archive**: copy the finished brief to `app/data/archive/YYYY-MM-DD-{edition}.json`.
+3. **Archive**: copy the finished brief to `docs/data/archive/YYYY-MM-DD-{edition}.json`.
 
-4. **Verify**: `python3 -c "import json; json.load(open('app/data/brief.json'))"` must pass.
+4. **Verify**: `python3 -c "import json; json.load(open('docs/data/brief.json'))"` must pass.
 
 ## Street-smart evergreen rotation (when no news-based scenario fits)
 
@@ -53,7 +53,7 @@ engineering · two-wheeler theft prevention · medical emergency response (108, 
 basics) · tenant/landlord rights · consumer court basics · phone snatching response
 (CEIR blocking) · loan-app harassment · credit-card skimming.
 
-Keep a note of recently used topics by scanning `app/data/archive/` filenames'
+Keep a note of recently used topics by scanning `docs/data/archive/` filenames'
 recent briefs to avoid repeats within ~3 weeks.
 
 ## Tone
