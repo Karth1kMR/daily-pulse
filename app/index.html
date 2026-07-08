@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#253d9e">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>Daily Pulse — Bengaluru</title>
+<script src="config.js"></script>
+<style>
+  :root {
+    --bg: #f4f5f7; --card: #ffffff; --ink: #1a1d23; --muted: #6b7280;
+    --line: #e5e7eb; --accent: #2563eb; --accent-ink: #ffffff;
+    --good: #15803d; --good-bg: #ecfdf3; --bad: #b91c1c; --bad-bg: #fef2f2;
+    --warn: #b45309; --warn-bg: #fffbeb; --chip: #eef2ff; --chip-ink: #3730a3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1116; --card: #161b22; --ink: #e6e8eb; --muted: #9aa3ad;
+      --line: #262d36; --accent: #4f8cff; --accent-ink: #0b0e13;
+      --good: #4ade80; --good-bg: #0c2517; --bad: #f87171; --bad-bg: #2a1214;
+      --warn: #fbbf24; --warn-bg: #271d07; --chip: #1d2433; --chip-ink: #a5b8e8;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding-bottom: 48px;
+  }
+  .wrap { max-width: 620px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 8px; }
+  .brand { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-size: 26px; letter-spacing: -0.02em; margin-top: 2px; }
+  .dateline { color: var(--muted); font-size: 14px; margin-top: 2px; }
+  .weather {
+    display: flex; gap: 12px; align-items: center; background: var(--card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; margin: 14px 0 4px;
+  }
+  .weather .temp { font-size: 26px; font-weight: 700; }
+  .weather .cond { font-size: 13px; color: var(--muted); }
+  .weather .tip { font-size: 13px; border-left: 3px solid var(--accent); padding-left: 10px; color: var(--ink); }
+  section { margin-top: 26px; }
+  h2 { font-size: 15px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px 16px; margin-bottom: 10px;
+  }
+  .chip {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; background: var(--chip); color: var(--chip-ink);
+    border-radius: 999px; padding: 3px 9px; margin-bottom: 7px;
+  }
+  .card h3 { font-size: 16px; line-height: 1.35; letter-spacing: -0.01em; }
+  .card p { font-size: 14px; color: var(--muted); margin-top: 6px; }
+  .card .src { font-size: 12px; color: var(--muted); opacity: .75; margin-top: 8px; }
+  .event { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  .event .when { font-size: 12px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .event p { margin-top: 3px; }
+  .scenario-context { font-size: 13px; color: var(--warn); background: var(--warn-bg); border-radius: 10px; padding: 9px 12px; margin: 10px 0; }
+  .situation { font-size: 15px; margin: 10px 0 14px; }
+  .choice {
+    display: block; width: 100%; text-align: left; font: inherit; font-size: 14px;
+    background: var(--bg); color: var(--ink); border: 1.5px solid var(--line);
+    border-radius: 12px; padding: 12px 14px; margin-bottom: 8px; cursor: pointer;
+  }
+  .choice:active { transform: scale(.99); }
+  .choice.best { border-color: var(--good); background: var(--good-bg); }
+  .choice.trap { border-color: var(--bad); background: var(--bad-bg); }
+  .choice.risky { border-color: var(--warn); background: var(--warn-bg); }
+  .choice .verdict { display: block; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }
+  .choice.best .verdict { color: var(--good); }
+  .choice.trap .verdict { color: var(--bad); }
+  .choice.risky .verdict { color: var(--warn); }
+  .choice .fb { display: block; margin-top: 6px; font-size: 13px; color: var(--muted); }
+  .takeaways { margin-top: 14px; }
+  .takeaways li { font-size: 14px; margin: 8px 0 8px 18px; }
+  .hidden { display: none; }
+  .q { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+  .qnum { color: var(--accent); font-weight: 800; margin-right: 6px; }
+  .opt {
+    display: block; width: 100%; text-align: left; font: inherit; font-size: 14px;
+    background: var(--bg); color: var(--ink); border: 1.5px solid var(--line);
+    border-radius: 10px; padding: 10px 13px; margin-bottom: 7px; cursor: pointer;
+  }
+  .opt.correct { border-color: var(--good); background: var(--good-bg); }
+  .opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .why { font-size: 13px; color: var(--muted); margin-top: 8px; border-left: 3px solid var(--accent); padding-left: 10px; }
+  .score {
+    text-align: center; padding: 18px; font-size: 15px;
+  }
+  .score .big { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; display: block; }
+  .streak { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 36px; }
+  .notify-btn {
+    display: none; width: 100%; font: inherit; font-size: 15px; font-weight: 600;
+    background: var(--accent); color: var(--accent-ink); border: none;
+    border-radius: 12px; padding: 13px; margin-top: 24px; cursor: pointer;
+  }
+  .notify-btn.on { background: var(--good-bg); color: var(--good); }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <header>
+    <div class="brand">Daily Pulse</div>
+    <h1 id="city">…</h1>
+    <div class="dateline" id="dateline">Loading today's brief…</div>
+    <div class="weather hidden" id="weather"></div>
+  </header>
+
+  <section id="around-section" class="hidden">
+    <h2>Around you today</h2>
+    <div id="around"></div>
+  </section>
+
+  <section id="events-section" class="hidden">
+    <h2>Happenings</h2>
+    <div id="events"></div>
+  </section>
+
+  <section id="street-section" class="hidden">
+    <h2>Street Smart — today's scenario</h2>
+    <div class="card" id="scenario"></div>
+  </section>
+
+  <section id="quiz-section" class="hidden">
+    <h2>Daily GK — 5 questions</h2>
+    <div id="quiz"></div>
+    <div class="card score hidden" id="score"></div>
+  </section>
+
+  <button class="notify-btn" id="notify-btn">🔔 Enable daily notifications</button>
+  <footer>Daily Pulse · built with free open sources · refreshed morning &amp; evening</footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, html) => {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (html !== undefined) n.innerHTML = html;
+  return n;
+};
+const esc = (s) => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+async function main() {
+  const brief = await (await fetch("data/brief.json?ts=" + Date.now())).json();
+  const d = new Date(brief.date + "T00:00:00");
+  $("city").textContent = brief.city;
+  $("dateline").textContent = d.toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long" }) +
+    " · " + brief.edition + " edition";
+
+  // Weather
+  const w = brief.weather;
+  if (w) {
+    $("weather").innerHTML =
+      `<div><span class="temp">${Math.round(w.now_c)}°</span><div class="cond">${esc(w.condition)} · H ${Math.round(w.high_c)}° L ${Math.round(w.low_c)}° · rain ${w.rain_chance_pct}%</div></div>` +
+      (w.tip ? `<div class="tip">${esc(w.tip)}</div>` : "");
+    $("weather").classList.remove("hidden");
+  }
+
+  // Around you
+  for (const item of brief.around) {
+    const c = el("div", "card");
+    c.append(el("span", "chip", esc(item.category)));
+    c.append(el("h3", null, esc(item.headline)));
+    c.append(el("p", null, esc(item.summary)));
+    c.append(el("div", "src", esc(item.source)));
+    $("around").append(c);
+  }
+  $("around-section").classList.remove("hidden");
+
+  // Events
+  for (const ev of brief.events) {
+    const c = el("div", "card");
+    const row = el("div", "event");
+    row.append(el("h3", null, esc(ev.name)), el("span", "when", esc(ev.when)));
+    c.append(row, el("p", null, esc(ev.note)));
+    $("events").append(c);
+  }
+  $("events-section").classList.remove("hidden");
+
+  // Street-smart scenario
+  const s = brief.street_smart;
+  const sc = $("scenario");
+  sc.append(el("h3", null, esc(s.title)));
+  sc.append(el("div", "scenario-context", "📍 " + esc(s.based_on)));
+  sc.append(el("div", "situation", esc(s.situation)));
+  const takeaways = el("div", "takeaways hidden");
+  takeaways.append(el("h3", null, "Remember"));
+  const ul = el("ul");
+  for (const t of s.takeaways) ul.append(el("li", null, esc(t)));
+  takeaways.append(ul);
+  let answered = false;
+  const buttons = s.choices.map((ch) => {
+    const b = el("button", "choice", esc(ch.text));
+    b.onclick = () => {
+      if (answered) return;
+      answered = true;
+      buttons.forEach((btn, j) => {
+        const v = s.choices[j].verdict;
+        btn.classList.add(v);
+        btn.disabled = true;
+        const label = v === "best" ? "✓ Best move" : v === "trap" ? "✗ The trap" : "△ Risky";
+        btn.prepend(el("span", "verdict", label));
+        if (btn === b || v === "best") btn.append(el("span", "fb", esc(s.choices[j].feedback)));
+      });
+      takeaways.classList.remove("hidden");
+      saveProgress("scenario", true);
+    };
+    sc.append(b);
+    return b;
+  });
+  sc.append(takeaways);
+  $("street-section").classList.remove("hidden");
+
+  // Quiz
+  let score = 0, done = 0;
+  brief.quiz.forEach((q, i) => {
+    const c = el("div", "card");
+    c.append(el("div", "q", `<span class="qnum">${i + 1}</span>` + esc(q.q)));
+    let locked = false;
+    const opts = q.options.map((opt, j) => {
+      const b = el("button", "opt", esc(opt));
+      b.onclick = () => {
+        if (locked) return;
+        locked = true;
+        done++;
+        if (j === q.answer) { score++; b.classList.add("correct"); }
+        else { b.classList.add("wrong"); opts[q.answer].classList.add("correct"); }
+        opts.forEach((o) => (o.disabled = true));
+        c.append(el("div", "why", esc(q.why)));
+        if (done === brief.quiz.length) showScore(score, brief.quiz.length, brief.date);
+      };
+      c.append(b);
+      return b;
+    });
+    $("quiz").append(c);
+  });
+  $("quiz-section").classList.remove("hidden");
+}
+
+function showScore(score, total, date) {
+  const streak = updateStreak(date);
+  $("score").innerHTML =
+    `<span class="big">${score}/${total}</span>` +
+    (score === total ? "Perfect — sharp today! " : score >= 3 ? "Solid. " : "Tomorrow's another day. ") +
+    `<div class="streak">🔥 ${streak}-day quiz streak</div>`;
+  $("score").classList.remove("hidden");
+  saveProgress("quiz", score);
+}
+
+function updateStreak(date) {
+  const key = "pulse-streak";
+  const prev = JSON.parse(localStorage.getItem(key) || "null");
+  let streak = 1;
+  if (prev) {
+    const gap = (new Date(date) - new Date(prev.date)) / 86400000;
+    if (gap === 0) streak = prev.streak;
+    else if (gap === 1) streak = prev.streak + 1;
+  }
+  localStorage.setItem(key, JSON.stringify({ date, streak }));
+  return streak;
+}
+
+function saveProgress(what, val) {
+  const key = "pulse-progress";
+  const p = JSON.parse(localStorage.getItem(key) || "{}");
+  p[what] = val;
+  p.date = $("dateline").textContent;
+  localStorage.setItem(key, JSON.stringify(p));
+}
+
+main().catch((e) => { $("dateline").textContent = "Could not load today's brief: " + e.message; });
+
+// ---- PWA: service worker + web push subscription ----
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").then(setupPush).catch(() => {});
+}
+
+function urlB64ToUint8Array(b64) {
+  const pad = "=".repeat((4 - (b64.length % 4)) % 4);
+  const raw = atob((b64 + pad).replace(/-/g, "+").replace(/_/g, "/"));
+  return Uint8Array.from([...raw].map((c) => c.charCodeAt(0)));
+}
+
+async function setupPush(reg) {
+  const cfg = window.PULSE_CONFIG || {};
+  const btn = $("notify-btn");
+  // Web push needs a configured worker + browser support. On iOS it also
+  // requires the app to be installed to the Home Screen (standalone mode).
+  if (!cfg.pushWorkerUrl || !("PushManager" in window) || !("Notification" in window)) return;
+  const isIOS = /iPhone|iPad/.test(navigator.userAgent);
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (isIOS && !standalone) return;
+
+  const existing = await reg.pushManager.getSubscription();
+  btn.style.display = "block";
+  if (existing) { btn.textContent = "🔔 Notifications on"; btn.classList.add("on"); return; }
+
+  btn.onclick = async () => {
+    try {
+      if ((await Notification.requestPermission()) !== "granted") return;
+      const sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlB64ToUint8Array(cfg.vapidPublicKey),
+      });
+      const res = await fetch(cfg.pushWorkerUrl + "/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(sub),
+      });
+      if (!res.ok) throw new Error("subscribe failed: " + res.status);
+      btn.textContent = "🔔 Notifications on";
+      btn.classList.add("on");
+    } catch (e) {
+      btn.textContent = "Could not enable: " + e.message;
+    }
+  };
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-08",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-07-08T21:40:00+05:30",
+  "weather": {
+    "now_c": 22.4,
+    "condition": "Partly cloudy",
+    "high_c": 28.6,
+    "low_c": 21.1,
+    "rain_chance_pct": 94,
+    "tip": "94% rain chance — carry an umbrella and expect slower traffic on ORR and Old Airport Road."
+  },
+  "around": [
+    {
+      "category": "Getting around",
+      "headline": "500-km metro, 40-km tunnels: CM unveils Bengaluru's big mobility plan",
+      "summary": "Karnataka announced a roadmap to expand the metro to 500 km and build tunnel roads (Hebbal, and now possibly Goraguntepalya and a 4.5-km Dr Rajkumar Memorial–BEL Circle link) to chase 500 global capability centres by 2029. Expect years of construction — and near-term disruption around Hebbal.",
+      "source": "The Indian Express / Moneycontrol"
+    },
+    {
+      "category": "Safety",
+      "headline": "Road-rage mob attack on Bengaluru–Mysuru Expressway; 3 arrested",
+      "summary": "A family was chased and assaulted on the expressway; the dashcam video went viral and three people were arrested. A reminder: in a road-rage situation, don't stop in an isolated stretch — drive to the nearest toll plaza or police checkpost.",
+      "source": "The News Minute / NDTV"
+    },
+    {
+      "category": "Scam alert",
+      "headline": "Retired professor loses ₹61 lakh to deepfake 'Nirmala Sitharaman' investment ad",
+      "summary": "A Bengaluru retiree saw a deepfake video of the Finance Minister endorsing an investment platform and wired ₹61 lakh in instalments. Deepfake celebrity-endorsement scams are exploding — today's scenario below is built on this case.",
+      "source": "Times of India"
+    },
+    {
+      "category": "Civic",
+      "headline": "Street vendors ask Greater Bengaluru Authority: is footpath sale banned?",
+      "summary": "Vendors are pushing back against eviction drives, and the High Court separately issued notices to the government and election commissions over the parallel SIR (voter-roll revision) for civic ward polls — both signs the new GBA's first ward elections are heating up.",
+      "source": "Times of India / Economic Times"
+    },
+    {
+      "category": "Getting around",
+      "headline": "Minor fire at Nagasandra metro station; Kavach commissioned on SWR routes",
+      "summary": "A small fire broke out at Nagasandra station (Green Line) with no reported injuries. Meanwhile the Kavach anti-collision system passed field trials and was commissioned on key Bengaluru Division rail routes — a genuine safety upgrade for train travel.",
+      "source": "The News Mill / The Hindu"
+    },
+    {
+      "category": "India & world",
+      "headline": "US strikes Iran; oil surges — expect fuel-price pressure",
+      "summary": "The US struck Iran and oil prices jumped, with India seeking safe Hormuz passage for nine ships. If tensions persist, petrol/diesel and flight prices in India could climb — worth factoring into monthly budgets.",
+      "source": "Al Jazeera / Economic Times"
+    }
+  ],
+  "events": [
+    {
+      "name": "BSides Bangalore — annual cybersecurity conference",
+      "when": "Tomorrow, July 9",
+      "note": "Free/low-cost community security con; great for tech networking."
+    },
+    {
+      "name": "Bengaluru International Short Film Festival (BISFF)",
+      "when": "This week",
+      "note": "Pre-show gala already held; screenings citywide."
+    },
+    {
+      "name": "Chess Festival at Bhartiya Mall of Bengaluru",
+      "when": "This week",
+      "note": "Featuring AGM Praveen Sagar; open to walk-ins."
+    },
+    {
+      "name": "'Swararchana' cultural evening with Rahul Deshpande",
+      "when": "This week",
+      "note": "Deccan Herald–Prajavani classical music platform."
+    }
+  ],
+  "street_smart": {
+    "title": "The minister in the video wants to double your money",
+    "based_on": "Real case reported today: a retired Bengaluru professor lost ₹61 lakh to a deepfake Nirmala Sitharaman investment ad.",
+    "situation": "You see a Facebook video of the Finance Minister announcing a 'government-backed trading platform' that guarantees 15% monthly returns. The video looks completely real — her voice, her mannerisms. A friendly 'relationship manager' on WhatsApp shows you a dashboard where your first ₹10,000 test deposit has already 'grown' to ₹13,400 in a week. He now suggests moving ₹2 lakh from your FD to 'the growth plan'. What do you do?",
+    "choices": [
+      {
+        "text": "The test deposit worked and I can see my balance growing — invest the ₹2 lakh but withdraw the moment it doubles.",
+        "verdict": "trap",
+        "feedback": "This is exactly how the professor lost ₹61 lakh. The dashboard is a fake website — the numbers are typed in by the scammers. The 'successful test withdrawal' is the hook: they return small money to win trust, then block withdrawals once the big transfer lands."
+      },
+      {
+        "text": "Ask the relationship manager for the platform's SEBI registration number before investing.",
+        "verdict": "risky",
+        "feedback": "Right instinct, wrong execution — scammers will happily send you a forged certificate or a real company's stolen registration number. Never verify credentials with the person you're verifying. Check independently on sebi.gov.in's intermediary list, or better: assume any 'guaranteed return' pitch is fraud."
+      },
+      {
+        "text": "Exit the chat, report the ad on the platform, and call 1930 to flag the ₹10,000 already paid.",
+        "verdict": "best",
+        "feedback": "Correct. 1930 is India's cyber-fraud helpline — reporting within hours ('the golden hour') is the only realistic chance of freezing the money before it's layered through mule accounts. Also file at cybercrime.gov.in. And the tell was there from the start: no legitimate investment guarantees returns, and ministers don't endorse trading apps."
+      },
+      {
+        "text": "Forward the video to family to warn them, but stay invested with just the ₹10,000 to see what happens.",
+        "verdict": "risky",
+        "feedback": "Warning family is good, but 'staying to watch' keeps you in the scammer's funnel — they escalate pressure with fake deadlines and 'tax refund' demands. The ₹10,000 is already gone; treat it as gone, report to 1930, and cut contact completely."
+      }
+    ],
+    "takeaways": [
+      "Deepfakes have broken 'seeing is believing' — verify the claim, not the video. A minister endorsing a trading app is a claim you can check in 10 seconds on any news site.",
+      "Golden hour: report cyber fraud to 1930 / cybercrime.gov.in immediately — banks can freeze transfers only in the first few hours.",
+      "Any 'guaranteed' return above ~8% is either extremely high-risk or a scam. Guaranteed 15% monthly (≈435% a year) is arithmetic for 'fraud'."
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Bengaluru's announced long-term metro expansion target, unveiled this week, is closest to:",
+      "options": ["150 km", "250 km", "500 km", "1,000 km"],
+      "answer": 2,
+      "why": "CM D.K. Shivakumar outlined a 500-km metro network plus ~40 km of tunnel roads, pitched at attracting 500 global capability centres by 2029."
+    },
+    {
+      "q": "'Kavach', commissioned on Bengaluru Division rail routes this week, is a system for:",
+      "options": ["Ticketless-travel detection", "Automatic train collision protection", "Onboard Wi-Fi", "Crowd management at stations"],
+      "answer": 1,
+      "why": "Kavach is Indian Railways' indigenous automatic train protection system — it applies brakes automatically if a driver misses a signal or two trains risk collision."
+    },
+    {
+      "q": "What number do you call to report a cyber/financial fraud in India within the 'golden hour'?",
+      "options": ["100", "112", "1930", "155260"],
+      "answer": 2,
+      "why": "1930 is the national cyber-fraud helpline (155260 was the old number). Reporting fast lets banks freeze money before it moves through mule accounts."
+    },
+    {
+      "q": "Oil prices surged this week primarily because:",
+      "options": ["OPEC cut production", "US strikes on Iran raised fears for the Strait of Hormuz", "A refinery fire in Gujarat", "New EU sanctions on Russia"],
+      "answer": 1,
+      "why": "US strikes on Iran spooked markets — about a fifth of the world's oil passes through the Strait of Hormuz, and India has sought safe passage for nine ships."
+    },
+    {
+      "q": "The Greater Bengaluru Authority (GBA), in the news over vendor evictions and ward polls, replaced which body?",
+      "options": ["BDA", "BBMP", "BMRDA", "BWSSB"],
+      "answer": 1,
+      "why": "The GBA superseded the BBMP (Bruhat Bengaluru Mahanagara Palike) as the city's top civic structure, splitting the city into multiple corporations under one authority."
+    }
+  ]
+}
