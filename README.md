@@ -18,11 +18,15 @@ on free keyless data sources.
 
 ## Daily flow
 
-1. Scheduled job runs at ~7:30 AM and ~8:00 PM IST.
+1. A scheduled job (Claude cloud routine; local desktop task as fallback) runs at
+   ~7:30 AM and ~7:30 PM IST.
 2. It executes `scripts/fetch_sources.py`, then follows `GENERATE.md` to write a
-   fresh `docs/data/brief.json` (+ archive copy).
-3. (Planned) It then pushes a notification to the phone — channel TBD
-   (options: Telegram bot, ntfy.sh, or iOS web push once installed as a PWA).
+   fresh `docs/data/brief.json` (+ archive copy), commits, and pushes — GitHub
+   Pages redeploys the site at https://karth1kmr.github.io/daily-pulse/.
+3. It notifies the phone via ntfy.sh (topic kept out of the repo) and, once the
+   push worker in `worker/` is deployed, via iOS web push to the installed PWA.
+   See `ROUTINE-SETUP.md` for the cloud-routine recipe and `worker/README.md`
+   for the push-worker deploy steps.
 
 ## Features
 

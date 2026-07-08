@@ -45,6 +45,28 @@ the app twice a day. Follow it exactly; the app renders whatever lands in
 
 4. **Verify**: `python3 -c "import json; json.load(open('docs/data/brief.json'))"` must pass.
 
+5. **Publish**: commit all changes with message `Brief: YYYY-MM-DD {edition}` and push
+   to `main`. GitHub Pages (https://karth1kmr.github.io/daily-pulse/) redeploys
+   automatically from `docs/`.
+
+6. **Notify (ntfy)**: send the phone notification — title
+   `Daily Pulse — {morning|evening} brief`, body = the single most important headline
+   plus the weather tip. The topic name is a secret: read it from the `NTFY_TOPIC`
+   environment variable, or from the gitignored `.ntfy_topic` file when running
+   locally. Skip this step (without failing) if neither exists.
+   ```
+   curl -H "Title: Daily Pulse — morning brief" \
+        -H "Click: https://karth1kmr.github.io/daily-pulse/" \
+        -d "<top headline>. <weather tip>" \
+        "https://ntfy.sh/${NTFY_TOPIC:-$(cat .ntfy_topic)}"
+   ```
+
+7. **Notify (web push, optional)**: if `docs/config.js` has a non-empty
+   `pushWorkerUrl` and a `PULSE_SEND_SECRET` secret is available in the environment,
+   also POST `{pushWorkerUrl}/send` with header `Authorization: Bearer $PULSE_SEND_SECRET`
+   and JSON body `{"title": "...", "body": "...", "url": "https://karth1kmr.github.io/daily-pulse/"}`.
+   Skip silently if either is missing.
+
 ## Street-smart evergreen rotation (when no news-based scenario fits)
 
 digital-arrest scams · UPI fraud & fake payment screenshots · auto/cab overcharging
