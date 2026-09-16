@@ -1,25 +1,43 @@
 {
-  "fetched_at": "2026-09-16T07:40:21.393379+05:30",
+  "fetched_at": "2026-09-16T19:40:05.357062+05:30",
   "city": "Bengaluru",
   "feeds": {
     "google_news_bengaluru": [
       {
-        "title": "Large stock of counterfeit medicines seized from private facility in Bengaluru - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSzhkbmY3aFo3Zm5JY0c3Z0hBNUp6SVlCZFNqWVdmeDlDVkM1Wk03RnNnaGlwR1dXYlJwYkNwbW8ydG1OcGxTeUZJU05qX0Rib29CY1djc005aDJZTEFhQU9mRXpyYkhNZHhVX1RRZWJ0OUxRV3VueE5rLV9OZGlTT1pLdFpFOEppOHAwQ0g2ZW1IMk1mRW1sYmVPS29NREJDSDJYcWFRbUdVSjM2WW9acnpLYWNsYmNxMmRwS0dFbmgwQnRVbXY4d3EtekdNWkE4VmJmVUQ5QnI1SG5RVl8ydNIB5wFBVV95cUxOajNSRnZfdG0tVlNfcFgzZmJ3bFJYaXlMM2JRLWM0VUJwOFh0Rl9KM2RTQ0F1NmdwYUZZdlRVTUxpX212Q25fQlRIZGRlUS14WFdLajZUYWh6SDhwOW1wTTByV2ZFeVQ3N2d2cHlSTEZTemJTTEFHbWlWa1B6WnZOVW1mRnlkdGNwV3pPWWFiZ2hnWTZIdHVpNEtZUFBHZWlEZnlRN21qZnh1SXBCTENNREh0a0RLaDFnelRIaHFjdjNaMHVkblBsWF96QmptNWFQZ1pGV0t2NGlhb3E5NXpSWmlLNElId0E?oc=5",
-        "published": "Sat, 12 Sep 2026 19:30:52 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "Fake drug racket: Bengaluru healthcare firm owner held, SIT probes supply to hospitals, clinics - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPM3E0MUZWYjFha3lWY2RpQ0hJNVl3Z0hBWUVDNDh1dzJkSnJ4THFlX2x3Q05qQ3daNHZhT0ZiTExTRVlieUdOYldsczdNTDZ6eEwxRkVUSXV0RFkxQ3dGWHhwcWw2alphUUp5Qy1KZl9UcUNwY2k3MmUtSE1Pb0RqeHkyXzlKUXJULXhKVlZsRFVpYk5YNjdpbUFpTS1ZVGtiRzJEVU1LQWJTeFBKc1JZVkEzdzFLVllvWFlmMEZZbXZPaHpGUGtvQTFTWHJkWkdVbldubnpUV0pBa0xnMVQ2SFROTHZaLXdIcERzRF9qdFlOS21sajNrM09ibHpHQdIBgwJBVV95cUxPNFFrMXJHUThIZC1XdkQ1eGVtQ3BuZy1hamI4RUYySnpaOEFQRkszNVBQeERyQ2V6dWNhV3l3REJBVnhHNDY2ajVXTGNoU0FkeFpUa3F0d2xRNElVQmNpcWJfRFZRTU1VUzNIcjA3UmxiX0xqUmg1OTBzenp6Y3BuVEtReHVKbFBEcmYzMlNFUERhNTFZanN1bkswd2NxOGNnSjRWN1dQRXdYSWhRQWlzcUF4bUVqM2hYbFYzQ2xEeDhycTdBakpQTVRCay1KXzdYcDgyNmk2TDVBaXRRQUNVdzJKYnNwV3UtczVUS1ZNRjRzVEhrU1dTOHR3RVNTX0NwV3Fv?oc=5",
-        "published": "Tue, 15 Sep 2026 17:44:00 GMT",
+        "title": "LPG geyser, no ventilation: Bengaluru woman dies under suspicious circumstances at Hassan lodge - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOQjhubWJsNDZTNXBjZUR0Njc0T3o5cXdCODRMbWRfMXNVeEhWaE8tR0VCWmZ2cEhhR0oybkhNaEttZ01Ual81MHk1dWpwOVctMFVJM0JFUS1yd2VTV2JSZzNuZS1YZWNnQ1FSaFJkR1FrZ21keEs4RzJDRGh1LUlYTFRJdS1qZ0EtUzlPd2JDVjVWT2NhS1NaSDkwQ2VXdHRqd2NodHhPMFY1bXlPYUN3UUJYaEtoRXBUajFES1BFcVRPUHN4eTJHRlUtRWtnb1N2VkpOWEVmVDllODdXaWpmX3JnR3NqMHB1aVdQYmlpUkJfT3BTSVJxUW1rVWktYWPSAYQCQVVfeXFMT2o2cHQ5M2hzT0RDeHdCUXN4NXFfbzc1WFVpWHJBSkowTzBEclh1UzVqUE5RSWJodmlleVVaT1Q4RHF0YWtqYTN5dDlJZXdNdW1MbHJDTlRzRERyY2tGU0JmOFkyQlE5ZGJ2R0o4c0ZTUGdITGx2Y1dlN2c2S0V2ZmtLbDNjVUtTT3VZdXl3RHZrQzBHQzNhLS1kOXlIMllQd3gzNXNkZUYzTzdSZTZINjJZSmV6YXdVQlhNbmJDcXN4NG9oNzBVWmxfTUdpbnpCdk4zM1YxZmZKSi15ZndwYURfWkh3OE9fOVU4WTJLeU5CTnl6amdsOTZ6Q1Q5VGwxcWFMbDk?oc=5",
+        "published": "Wed, 16 Sep 2026 12:35:00 GMT",
         "source": "The Times of India"
       },
       {
-        "title": "Fake drug ring found to have supplied to 100+ Bengaluru pharmacies - Bangalore Mirror",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVklXU0l1ZWR0MmpnVTAtb3luZlpqdG1DMmdEbG9CUnZval9yVVZvUS1aOGJoelAzUmtfM2RRTC1WOGdQYmNkcXNSMWlCaHV4N29VVU54c1BLdjE5WHphWkdDVVlxWUlJbjBKM1JkMExNX3RuSDUzVGtKNWs0VlNnOW9RWGhOSDdSU2FPQU5KS0FUNUJmT0k0Um83d0FhVWZjdGY1Z2phZnVZNy1qRC05Q05fYjlneThDa3NOYk1LQkNVeWNZRzZvV0tkXzJ0UG1teHVhSGRWRjFpaFlRMFpR0gHkAUFVX3lxTE9SbzFkVktlcGRIWDhoa2NOTEZCbU9WVVRxTGgzV0lSai1SY1RoLThiQkFFOWNsNWRqSExSQ1NHYmU4QjMtaFozdWpQaVRhb1g1M0ptOEt6UXVVdlRFRlE0ME53Z2lTajZzNFY5TEhORjA4OEczTS1XYV9sd0JtZU5LeFo0NXVMSW16eWF3Y2hvaHhiMkZlSW9sc2FKS1I5bFQ2MjRuZ0o3QkhFVTE2R0RjTXlDeFpORHFzZFgxM1ZBajRJa183VU9jNjFCbjNPUUdIbnRoaHlZRlR4amVJM0NUblFrWg?oc=5",
-        "published": "Wed, 16 Sep 2026 00:30:00 GMT",
-        "source": "Bangalore Mirror"
+        "title": "Bengaluru woman eats chocolate, says she's going to take bath, dies minutes later - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUdaTVZNZmJlQi1oMnlnVWNjNWhkNDVmSnRTMUhuQWFpVzhIUGZPRUVwelRralpQTUFqbTVGWkhQcld6Z1RXQ2h0clF3bjE1dHNSVEpEOW5heU1xdHU2MmJUZU1HeUJoRk00eWFGdjJ1MENhYzFkbm5WRDZ3b2ZtSk1VWGk1ZXVhd25paFVZbm9iNGxGSWVWdzNHR3YxMUU2bHRNUklINHVDbDhLZ21KeVp6Y3BoX24xdUVpMHFoUmhVWUgyekFXTDJKM0M4UkltdFVZSjVrc09OUdIB3wFBVV95cUxQV3B6aDlYenN2d1E0RnZldlNtOUZ3UHVLTHctOE1sUzExWjVqSVpERG1ZWkNpSGJITGtGZGp2Tjg0dTZPWTJBWklwQnJoY1dVLUlzRWRRRUFnN0t4Y1lpSzQxbjEzTnRna0c4NzBISlVoa2txM1BZQWdMN2NIaGV2UEJySE9NR0hLTkFSZ0Uxb0NkOVRWMl9nLUdSWGNIeXdCZjRuR1pIWDBOTVl6QjZWVUo3UjFRUUNMTHdtc3hOcWpjeVR5Nk5YWVA4R21CSFNaSTVsemMzRG1QUnBlNDRJ?oc=5",
+        "published": "Wed, 16 Sep 2026 06:51:18 GMT",
+        "source": "India Today"
+      },
+      {
+        "title": "Bengaluru woman’s mysterious death in Sakleshpur sparks family’s police complaint - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSnJyNkU3WEY4bHVDczFCUkNnWXdBYndsX3ByN3hRSkxPSUpvcUNrRld0aXpFdHcwM01mU0NqYmNlMXNhaUlONzkxSUVLTTJvNUdoTXhuSExHU3pwT0pxcUwtcldjU3d0a1gtVmFrYlNXM1d4RUpXdHlkT2R4aS1hNEJMc05HSGMzWERiazRmQ2Vta0lnOVdWV2IxVFJIVjRBX2hlQ3RfMll4a3pRNGFWS0R5X19vODFKUENTLWZTWEp4VllsWF9vZGpacjVWSEhYMDJTOFVXNU05bFNSUmVHa1JR0gHoAUFVX3lxTFBSQi1aMF9lWFlIX2NlVGxMY0JFcTBwRVVzbk4yclNtM1VySEhNNzhKSUJyTlZhSklUX1U4a3ZaZjF5R0FaR0tfWkduWVZZY3hNNHVGcjNmNVpTMjA1ZFJEbDlocjFQZU1pTmc3TXVGTGVZWjZEeHdKVmJ0ZzMyZVQxYkNVdFkwRmFrbUl6cGwzS0kxbDlnRWdLSlRFYVREM2loRl9kVG9WSjItUUZUTHlnZGUxZ3NhcjhaVGlSdEFmTmFySTdsSDlFMUY5UEliMlcyc2QzcmQwVGlXdkdTTEZPdW9WVWpiblI?oc=5",
+        "published": "Wed, 16 Sep 2026 13:37:54 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Despite curbs, over 4,000 PoP Ganesha idols immersed in Bengaluru - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR0JtcW9pemNsekhwbUxwMzNDejduSEVMZkhDc05NTjIzdXhiamdIOGFjSEdSVFRXbkpyVUxjOHNvekdHTFl5UWM1M1B0QXcwbkMyLXdxSHAxLUxiZnJmQjR6TUpPS0dnOWFveWdMOEk4T2hYTHJXamMtY0pLZUFZQmcyQVZ2aTd1RXIxeXNadGZEM29VVW9TY3ZzYXl0eUNiLWw3UEtlbk9wM2pIV3ZGbGcwejNwYUtaODZhNF93OGhuUHRrU1BCMzFB0gHQAUFVX3lxTE5zMkpPZUo4UjhfMTFJNXdoWVFGR3BtN1YxaC1Oa09DNDhjMDh5eFNLMzdmNFB2RXMxS1JDc29RQW5pNVdfcENwZjJKU2JYYnhHa2hBdHhHNlBPWVRvSDBWMzJPeEpuVmJRVWtXYUlfYWgyUFludWVrMmtkdXVLVXNjRG9OTzRYdlNvejVwNmFiWUZ6NWpZU1ltZlpHWmJvMU9Idk5MWmUzTEZvYTNQcmtvdER6MEVqTVl4VlB2eDNOTTdNaU1WNFJHQ2hEa1NldWk?oc=5",
+        "published": "Wed, 16 Sep 2026 13:13:24 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Almost 2L Ganesha idols immersed on first day in Bengaluru - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdTBFWTlpVjVZSS1mOHhselRxd3FxUU02c0swOTdUTE9ZWmttd3NXVEs0RGtwNGk5RmF5MFAzSEJra1Q2eG5LaldkamFSVTNrTlJ1emp2N1FLZHBwTl9OMkoxR0FLZ2tJV0Rib2ZfX3NNbVhiRk1fYkpZWnlSVV9WTlRyUUJ5RVJqblkyQWN5bVJ1bjlrRnAzLV9rMEJHY0Q4YmZSY1hLLXpTVmE3MV9hRU1aRmc0NWNwV0FtbmxKblBvTWJMelNCMDFSU2VvVkVC0gHWAUFVX3lxTE1VMkptWmg4Z3ZwWm9tWmtxVU5oRVRpOXNZUGlfcmJ6ZWhfS0hnUldneUlPMFM3WTRjYm44bHJzdGF3d3hLZVFSLTBnUnNVb2l4VE5qTWRrWWpIcndtVjZEdGZVVkVEWkttci1Bcjg5Nk80VjZoak1ZY3FuVHlUUHp0TDBkMFZTUjRVNFp0OGhhOFNTbTV0YU9DRWt5Tzctend3aWZFN2tiUU13U1hRTTIyQTBDbnBjQjZVVGxtUlJsLUx5U3RuQTdPbEtGdXJlbmJ2XzNoNFE?oc=5",
+        "published": "Tue, 15 Sep 2026 16:38:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Ganeshsa Chaturthi procession: Liquor ban in parts of Bengaluru from September 16 to 20 - Deccan Herald",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOF9HWXZKQ25JcjcwcmhlWW5fUDlWNWZwNDBvR2xXZGZoYXF5d0VuY1RrMmhHS29GSXQwNVFza3h2ZjVJNzVBOTBEN2NQNkRsTmZMQnZ1QkRMaGVfbWNrWmE4alVQTE5xOHhVWFViTnZwQXpuTEVweFA4S1pPMXlULXZBbm0wRXBOSURJMmVZXzd2UnMzXzFCZ0RsZ0czTFJwd2JGZ2IzU3JuSlZvQXJ0VkhKbWhWQnVsaHFfdWZmOEZLakRjdEt2am04Q1o2eUR6WFViTEw3eXBhbEIxTDNrOGhtbw?oc=5",
+        "published": "Tue, 15 Sep 2026 14:28:00 GMT",
+        "source": "Deccan Herald"
       },
       {
         "title": "Heavy rains throw Bengaluru commuters off guard - Deccan Herald",
@@ -28,7 +46,7 @@
         "source": "Deccan Herald"
       },
       {
-        "title": "Heavy rain paralyses traffic in several parts of Bengaluru - The Hindu",
+        "title": "Heavy rain hits traffic in Bengaluru, 4 cows trapped under debris as wall collapses - The Hindu",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbnYzeno4dGowblQwOHRucUIwSzUyei0xQnRVbGtGaDFaQjBYUXVaOUlqdmdMVXpVYTRWTW1hUXRTeDNVM0tCaTFiRnJxNTZQTG1WdElvcjZmR0p1UE5EczVmcG9EdGhJMXdrd3dYRFJHTjBPR2pVQVBzY1FzeU00UkhKdi1vaGM2TmhSTjdIRmc1R2tKZElReEtsN19vZmRoZ3ZMa08tNGxqR0Z3R3pjakxqRTRyLVpmcjZxM0Vid2ZlYWfSAcoBQVVfeXFMTXB5dF8wRkMtR0ZoOTNnNGpHbEloM3ZidFdMWVV3RTV5cVVqY1R3MUtJZWR4cEY3eGp4eDRGWEQ5Wll2d0dlLWNiV29PT0RDVG43dWFnYURPQ0gyVDRfeE5vanZ5WUk4TUU1RkhZbGpndm1JdGFkUVV1NGNzcFNpQi1RYnhTRXhXSTJhRTlUX0lWYTB1ZVJnbXYzUW1lX1RXMnc3TDhPNExXMXFPQTFTQjJ2Qy1OZkZzUHZzTkw0ZkpfcVRXVlJmM19mZw?oc=5",
         "published": "Tue, 15 Sep 2026 17:53:21 GMT",
         "source": "The Hindu"
@@ -40,66 +58,54 @@
         "source": "The Times of India"
       },
       {
-        "title": "Hundreds stranded as tree blocks Talaguppa-Bengaluru train route - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ0V1M3VqdWhBSFZUYkp5ZkRsX0JEX211TUIwOEFqTzg1c3plYzQxR1g0MjQ5RnBTMWFld1NabDhKeWtaVnZSdlNUNjZkdUtBVjRkSEJVeEpzRUxiZTZEWGZtSTlzZUc5UnM5TWdMS0s0NDRqdnNTeU9jMnZUUGVMQ2ZmbzBJTW1Uck1CUHZhNGJtdU1yYmt1WWt3SWQ1YnZmd0VuaEhLTmpYeEZIVEdaUVFlazNQdVc1SEJwNWtBUFdQbm9jWGJtVEdvclFnWkxYU2p6U9IB2gFBVV95cUxQc0Q5THAwejFjUF9LdzVqbjByazhHQUg1SGV1ekxIN280Q2hJVTNIVFhmeXhKWnFSemNPR29JdVBTMFZHZ3VpRlJReDlvbFZVYWdudnI1cEp5R2t2WVdIbjhLMVhpVERRcUhJOUhCWURoTmhvcThEWk9jOVhfR2hHRFNvejJxeG91V2dDZTZnNFRwTHAzMUYwQTFzZHVFUDcwQVN0SW5Hb0lBdlcxcjhiZGJ1b19yQTdkX0ZCRUFQT291MFNvOFNGa2l2Um1hVVgzVWlEaENubHJLdw?oc=5",
-        "published": "Tue, 15 Sep 2026 17:25:00 GMT",
-        "source": "The Times of India"
+        "title": "Days After Miss Universe India Finale, Finalist Resumes Work As Google Cloud Engineer In Bengaluru - ndtv.com",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVzJZSUtCWDlOWTBlQlNmQlI0aXlTbmJiRERvOHFyeGlqRE5VdkJVVk5CaVlVWjVqNjRXcnBveG5PS0JuT25XWUg0TUFtcFhLT1dId3lpcHhhaHNSWkJkbE1EaGZBbUJ2NTFQYjlMX1k5ckxQZzg5MkdwSGpMRE56V2VkRUZTNkc5VUoydFhGS1ItdjJhOF9KUl9kMDJhMlFNQWdjZEpETmZnOWlGZnNwcDhCeG4tMV8walNlNmt0VFJlUDVIQW1nQ0JENVYyYzRzeDQ5adIB3AFBVV95cUxQdzNuNGhfWEc1Z2x1Qng0YkxhQUNDdk9xdTZJZndTYzhPT0EwaEtMeDlQdmI2RFF2cjhsUTdXSDExQnR4OXJvX0JFbjBvblI3aENqYVpCSmxydWtBLTVObENzTXNPYzNRYjY2S3RqZ29IZTdmeUR1MUxhcVh3YmQ2ekNMU3d4WW5wektyUTJXdFBIenRKeVhKTFZmcW8tbUljU09jdjdZLWVYeU9iSTBYRHZESG9Tbzgxc0FWeXpGUWJCbUhDeHFVSzd3eWNadnV5N1RUcDcxX2JTZFU2?oc=5",
+        "published": "Tue, 15 Sep 2026 10:49:47 GMT",
+        "source": "ndtv.com"
       },
       {
-        "title": "Talaguppa-Bengaluru train delayed for four hours - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZk14UU1xN1o0Mldka21nLTlBeEVIekxiR0duUVJINFRMcGFEOVFlNk53cl9oTHc5b19fbTNTZ3RRdXAyX19ENklIT0pybnZ3OTFRUFFkekRWMVE2UVFhQ3hJSWlRMUVTLWlHU3pIYUJ1VTJib3V2M0daWTdBdDl2ZXNNTktOMjN4bkw3SU41Rk5XRjdib1J4YVBEU3MzODZUWmY2cmVZYlU1ZmpNZ3BOYUxnOEc2LWJ30gG_AUFVX3lxTE1UM1JnZENRQ2RORklBaUtKbXJyU2s0QzJXMjJiMWVZdTZRaTlraVE2QW5oSF83aTdONnh0S0NzZGdrMDlCRmlCYzBETzlnN3locXhmMGd1ZFg0ZDAySmhpQ3FYaElGSzltaERneGdTRXh1Zkpua0o5cWRacnRwdElMTFkxRlMyUUZZU3l1Z2p1ZkFEdHV4M3FybXBSMXhfUlFGZzhSbU81djh6ZXZBUmNRQ3FCeEVwMEp2RmJuaUUw?oc=5",
-        "published": "Tue, 15 Sep 2026 12:50:44 GMT",
+        "title": "‘Beauty with brains’: Miss Universe India finalist resumes work at Google in Bengaluru - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYzQ5c3VXTTRTMHhwRkNGVXN5aTRUTEhtSjVwQjRXek9lLXVUQlg5ZDBudHJlSm1nS1dNcUJiM1VhdEtOMFpES0RXazVlUTVQeEdVdlZaS2pLRXJNRDZkQmp6cS1oR2I0d045NnZNcXpvVEJhdnFIem00V1o0OVhVUjRvOFRBT2lvM09kNzRvV2xiclA1cjA5OXJuS25uNV9vbm8yMmtmazE3SHZXNFhNMVM0WmhYX2ZuVEZNblpPWWFhVF9Zcm43WUU0Um1kTldVSEo1LS1uQXRFUEhu0gHjAUFVX3lxTE45bllTNEsxUFUwWEx2WGpmZS16UG8zYlRsZXZsYnluWjNaOVAyYVZHOVNtbFhhdFdma0NpT0dSbG5HZHJzUjhrR0VSUlJzRnpvZnZzU1lRZW9HRDZLcFhRWGNZZno3VFZkRUlEbnRraE1sWGRIV3pNX0pnSmg3TXVTY3ZxbGFYeWs1aVFEZzNVX05HMnFRc0JZNTdqQkM3UWZablFMMUl3NjdZQ3pOM0NScGNQSHFWODlHUG0wRmhFQ0VablRTU2J1b2F2cFJHR29aRzhqWWZCaFh3Ri1ScVpiWTNF?oc=5",
+        "published": "Wed, 16 Sep 2026 05:36:09 GMT",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Bengaluru techie Umanga Kumawat returns to Google after Miss Universe India 2026 finale: Who is she? - Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbGtOVUV0aUV0Ni1TMDdKdkJBa1hXQnFsbksyd0otcHNTVkZwQUVxdl8wSEtHdmw3QU5wVFQ5VnhvUUFOM0djQzVFRGNQLWxya1hOLWNYaF92b3NZNGg2MHF6Rkk2NDd2WXNTTTBnNkVIbDQyb1NKMmdHMWZVSWZSb0JkazhNN3pEOUZXVzY3bFNyVXQzUnJEUTFUT3d0VEdPa3g4dHNaR3IxdUVWT0dOREEyX0w0TjY0TjRKYjVOYjYyWDczbDFyb3FfLUtxSUVla3FiWVhNaU9WQmw5NzM2ZXBXblRBNGZ60gHuAUFVX3lxTFBuNnRjZGY1b19qNnUzamZXT0hkdm9VS3c2ZzY0di1VWUdidUxOd0xLbHJFdGJybXFVUzNlRUJPNGQ3dldPN29MR3dIYmUxRHBOUVU5WkE4RUpHYi1pYllTUmJWVjhMaTYzYllFaGhUMGh4Q3ZlVk1fTGg5NTNLLVk3TWFpMUhYdUNKMU1DcDdRLVN1RXNVeFh0cEVuVVRITG83T1NRNmRKamc3NGJxS0lqVGg0N2J5ZHFYWW4zYkRlU1NSSUU4aXIzQjN0TjhWWHJKVlVjS2hld0R5WVhBQ1RrOFNYSW41dFdNOGZ1Y3c?oc=5",
+        "published": "Wed, 16 Sep 2026 07:58:44 GMT",
+        "source": "Moneycontrol.com"
+      },
+      {
+        "title": "Bengaluru police move 11,000 seized vehicles off footpaths to city outskirts - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa1AzeFhQTjRXTGs0OFdBdVhFNnRVb21rWmVLa3hmYjdrSWRzN1RiYWM5ZmhaYTMzRHMxR0JJR2FlNkg5eVdXMXBfWlJRdzMzQWI3WEZDMGEzdURNN3FJcnA2VGd1UmVqRHZGYWZlUHNtY0NMRHJfVzNHU0l3N25fOU5paFNHM2hvY2Y0ZWFjN1NJNWVQWW1HVGpOQU1xX3pxQ2drY2plclJYY1FpUUlOdUNyZXRNNVVGNEFtLUF1Y9IBxgFBVV95cUxOdXNKTnpUQkZNTlp2b1VRLVBPeXVyM3lqcTRhX0diQTUwR1pRX2VHeV84SVJob1VvY3JxcHNHSWN2R0M4MjZVXzZ0QXdfVm14T3ltcV9VUHZwNm1ZYVZieFhVTTZwQjZqcG9PNUY3cndBQy1lalRfTjYzNlUwME1iWkMtRFRGS3JfTmN4QklLODZNdXhZZ29aellweF95Vy1yWFQ4elpvckdSbTl2VTFseVdiX2xaTkxsUkVZOE5sZkk5YVZjUGc?oc=5",
+        "published": "Wed, 16 Sep 2026 11:43:50 GMT",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "11,346 seized vehicles clogging Bengaluru police stations to be shifted - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFRWOEpXYllkdDNSSDZpZUNmZUZFVDVLb1dQVGpUN1JjUkp2dVdNY09JTnVuMGZtS181LTJkcF8tWVozTW9FSk1BWE82NmlfNkp0aEppUlFLWlgxdktWMlQwOGxKcFFwTThja2laQ1Rtb0ZOOUJ1cU1uQ1B2M0p1V2JHQlk1azNQWW0xLWUwbHlXWmNxRmFSc09fbkJ6Tjltanh4LWhTOFBGRzNVN3ZkMzdxdU1nUW5YaFY2MTB4bVVDUmp0dkduTHVPU1lQdTV5enFZ0gHaAUFVX3lxTE1ZTGEyNFVCcjAzOUpvM0FhWXdLRzVTYklyVGNrWmhiRmdfWXpieWdaMFRscDcyVVNTTUdnMDlLU1drUU11OUtNUnVyb2NkaElDSzFJWE5rSDIxcHJPNXdWSTNKdnE3T19lSzBCTjlBQ0pOT2RJODNibzJuT1BRRFU1ZmRONmxwSnlrb2dtb0RCQnJ4cE9vZC1rTUN1NWc1VzlWV0Q1aU5hRnphcEZ3TWJnd1lMNU5mVmwwTENKaENyWk54RE5DcVdkMnByTGRvRlppTE9vRGJweHlB?oc=5",
+        "published": "Wed, 16 Sep 2026 12:46:54 GMT",
         "source": "The Hindu"
       },
       {
-        "title": "Talaguppa-Bengaluru Express Delayed At Anandapura, Passengers Stranded - Asianet Newsable",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUlZ2cThJVE1WbG9QTC1uZjdBUlZ0SG5SMUpPZ1RfM2EyVzZVVFhXUEVZbzNRN3dRS3JjWmhDeXBlV3lJWmMzazY1NXRVYm9TcVk5NU5OemlwZC1aQUdZbl9VeFJpT0NnbDZ5WW0zYUN3UlRjaTB3UmU4N0RNMFRSRGxIempHazhwTzJXUGNZWjA1M2lkbDVGcUlZU0dkdXY0M1RxOXNxUHJkY3NDQ1BhRWxIMlNpUG9KTHRvVHlfVnllMDg2WDhsT00xZnZzUdIB0wFBVV95cUxNeTNmUjd1Z1FTR3VyeFFHMGVNUks3U3ZSZ25jV0x0ZXN2TU1KSERqdlNfVEg3MG02bGdyeE5LSmpMYTJpekx1RjdkemRuX2VtVDliNjNHdmZIVm5YTWhxSFVtSVBnVzhGV0xET204UnJVVWdCSXlJallQMEFDZGFSeXlDaGplV1VGUDdiUlZUQWtXZnRHcFRTY2hjbTZWT2k0NFMzVTBkckVsekktV1pVcGp4WlhrdlNudEVvMS1KdHJoWlNySEZpREdPSU5wV0hmZVM4?oc=5",
-        "published": "Tue, 15 Sep 2026 14:34:25 GMT",
-        "source": "Asianet Newsable"
-      },
-      {
-        "title": "Teradyne Opens Bengaluru Office to Expand Semiconductor Support in India - analyticsindiamag.com",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOGlNNkJNTi1ZTGlScG1NOVdOa0VKalBvZXpHUnVXblh5TWxCN1hPSTFqdTZUTV9rOW1YTTN4Ykpkei1fTWN2VEk0cXZtSm00NWtMZWxnUllBSWdWbnRfTnBZTnR2eTkwU2ZodHpTcjJidlpneC1naHM0QXJrZnIxcjc5RS1QdGRHUkpSVTZIUnYtS0hyck1IcEFWZndnSXk0d20xR2FJQjU1WjhadXZ3?oc=5",
-        "published": "Tue, 15 Sep 2026 09:43:26 GMT",
-        "source": "analyticsindiamag.com"
-      },
-      {
-        "title": "Chip test gear provider Teradyne opens new office in Bengaluru to deepen India presence - electronics.economictimes.indiatimes.com",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaXpqdzc4ZzNKNVB3WFgwTlFaVUFEcG12VmstaHgtVlJJd3FJZVJvVkc1SVNZXzVFUVdTTWJveDJSa1FNR1pXQ1FzNUx5VV9jbHU0anBlV2ZSNmpabzNwNGVqRXhESFhyTDliSEdvd2Q5MzlGRmVyZ2lNSWN2RkNMVC1lLWkya1RWejU2TFdGQmlza1RfZnZlWUVIeEY3ek96MGlJcW1oZzRENmpTNWF1dm5wVzdqNVJaamlScmZiWnc4cjdhSUxVdGRXbkpvMlpmeXc4aWo2djV5a2dVSXBpMExoMnA4bllTV0Rrd1BKMHlFQkVCWDZV0gH8AUFVX3lxTE1rWnFmWk9nYjJEaGZQQU9xenFVS192blNoejBXdmxZSDV5el85X1owOExlTVJMb2pzTG9MWU5SVGQzMFdLam1uY3FWd3cwTlNmTE96TmZzdnE0LWJOMEE0S25mVVY2ZFNwZmFvc0hHMG1mbzlKVVJza1RjNWZNaEhHSEtwb3BpYl9ScWxVMEJrNUFvbFVHMWZxaUVySEl5QzJMblRVRUlVTV80bTluMDF1eEU0SDZXVTJmc1Azb3F4cUdSaE1XMGQtRHh6WjN6elVoaTAzdUFIcF94akdRYWRFZ3lXS0ZPRDU4a3J1eFFXelp2Y2ZLMTNEbzJfVA?oc=5",
-        "published": "Tue, 15 Sep 2026 08:15:23 GMT",
-        "source": "electronics.economictimes.indiatimes.com"
-      },
-      {
-        "title": "Teradyne opens first dedicated India office in Bengaluru - BusinessLine",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeF9la2pWVDNRb2lESHROT3VTVHZpVzdoMXRBMUFuSTdpU25vNjNmcURBVmgwVDd5a2NkenBGam0weDl2Wk9VcVVEWHZKRU8tMHBPV3JzZ1Zva0otZWtuMVp6UXRzdnNiMmEyM09La3p6QktyYV9sTURJbFhKUlJ1SFhvN2dOM0xWVndBb0VUWjBJVlg4ZkFsN2w3MUJpQnc5YXB4OTlpLXM4R0w2YllUNklEdnRmNWFQNzdFNGNQbkjSAccBQVVfeXFMUHhIRU0xTkNRVWd6LUhLQS1QNTBselFGZWZyYWlBZmhRd1Rsc2pKMUhZOF9wRTdMZG1pdG9uOTF6WVBNREdCbzN2enVvZFRVSXRoMkNhNkY5a0xjYkphNW9IV0pKcU5SdUxtZ0daVmJIeEFST19tdGZJZEp1SkU4WlB3QkpOZmJsR0ltMTM2M09pcGoyejkyWHVGOFl3d1JXQ0syWVFkbk5NRTdmMXNjRlkwRWlWR2g0OXk0SWpvekF2YXd2WlY3UQ?oc=5",
-        "published": "Tue, 15 Sep 2026 13:10:12 GMT",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Embassy Developments launches ₹4,500 crore Bengaluru housing projects - BusinessLine",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQX2dBLXBzNWdCazZncWtKaVJrd0RJb3RGN3ZJNjB4ZTd3VWdTUDlfaEsyOEUyVDZVb2dadkFZU0ZucWlwclhtbE1rTldoWnh4UTNOLS11d2UxZHlmSHhPN3p6VmxvQUUtTUJRaHFmX1FFTEh4ZGFndXozcjNNckN6blJOdFdpbzdhYUw5U05fZ3hvX1p2T3c3am1vT3BJQmc2SUQ4bUx5T2ZTOW9xeUxhRFRsZzZPYzRISHBuUVlHcTZxVWx2N1NwNUNqcWJ4aVNBendFa2tUQTRVOVlsWkFBZzZQNHJNSlRLZ1YxdEFSVDJPZC1LRVM1bUJn0gGAAkFVX3lxTE9VRFJDOEhqZTlOQjU1WGxXbGM3WVpsdW1OS0VKWHpKTXRDQThQMEJDb2h4TVpMVGt1SHVUeHNXQU9YYUJENWdVaXlmblFvMFlRS2hmdXlTZ1AzTGt4ODlmZ2hqQWYwVkd5QlhJZGZ6djlzSzdCM3Myb2F0Ym1fcF82Y0huRXMxV25LZWYzVWN2OU5hV2FWTXFHd1lNYldUbFdfM0s3SE5KRXktYmJLM24xU3I4SFE4XzJBQWFPNk9iRTVPam1DWlQyWVJkOTlZV2JDU1NsV3JDVzZtejBuV2EwRFRJNmJIM3RmYmExSFNpcFczU0FxX2Z4SEl2TmI0enU?oc=5",
-        "published": "Tue, 15 Sep 2026 11:33:46 GMT",
-        "source": "BusinessLine"
-      },
-      {
-        "title": "Embassy launches Rs 4,500 cr housing projects in North Bengaluru - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQS1Zud1AzdHoyRWh1SG1kYW10VDdhSzVOZkZHdkRvNzVUYkFqeExYUERCMnFraUJqWG1hWWthQ0lpMXlsVklsRUNhRm9TR0YwTUNmNU5MS3VpQUxXOEhUMkRxR0VQcGZJRDBRd2g5aGxCNUlPekU2NE9TYlJic1RWM09Pb0doN0Nsa0tNN1NKNzBGWG9CZFc5c0dSUW9NX0hFRU9HenZKSjdXLUp6YllPS0gycTN5NFFGTDRGdk1XdWtYNjFGV0k4MHRzZHR4VUFZcm9Iak5NU2dyNnkyNG1PaFNHNNIB6AFBVV95cUxPQWpHQnY4WUVqTG5mTGpGelpwZm9TcGRKZEM1WjFnOVJncFZSY2FFaDlnc0F2Nk5LajhYV0pod05zZ0FTdUNkUU13U1FleVh0OUJCWHZ3RG9leXJCWUw2b2tmelVUcHB3dW5UQW1kYl9uQUpwVGZONVRkZkhjN25OTWNzRFoyNVplRDBrM3RFcGJOT2VGNEJSVHB6bTRJdVBRbnYxUDYtZUdwbThMZWlOcllKMEVDOVFIN1dSQ19RdEJNMmpqejJQdHZNZkxEbGVhU2owRllaME45eXpzZlRwZG9SUGx4Wmli?oc=5",
-        "published": "Tue, 15 Sep 2026 15:36:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Embassy Developments Announces 85-Acre Residential Development in North Bengaluru with First-Phase GDV of ₹4,500 Crore - therealtytoday.com",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNUk1jTGlMUjNIbml6RTU0RXBmMVdJNnNaOWI4Z29vZ0hGd3hqaTJfRVhrOFZocUVDZ0JFUllHTFJkXzdiTTZjYnNBWU0tXzdJdGRiWXJZc0NVdkc4aGlTRkJaUWNiOGFHajUxSXlzNS1TMWxQT1RiZVNsR1AzUVpJU0lub1FpZWFWRnVnWkcxWmY0Ukc2YzFSV0Y5R212ejZkTGlLWDVBM3JVRWRyXzdrMFc5ZWRPbFlTSkJhenJXMTd4TjZsMmJpaEYxTlU5b3VCLWZkMW54eDA4NDR1RVU1UDB3aUZoelVLX3BPeG9OWjhjaHM?oc=5",
-        "published": "Mon, 14 Sep 2026 18:30:00 GMT",
-        "source": "therealtytoday.com"
+        "title": "Bengaluru clears 11,346 seized vehicles from police stations after years of delay - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcHlLcUZKd1dlN0ZaTE9xalhWRnZuYXRFR2NHTFJyZ1ZfRnJieGdpeDdaTXU1ck5NNkhKWmhxcms5RUVIcXJvcGhJdENUcDRicU92OEVLYVhNQUhDQ09qakh2NlgzVXdjLVM5OG5iVHRibHMySnRRd1JWMUJuZkxWRVdabnE5eWxNdUJUUVp5RkoxSVhxV2hMYnhoWmVaMzBtSnFHUHRxVDNTRWw2czdkZGJtUHpaSW9iNGpnWkUwWjlpM2QwLUgwNEM4WTlaNzBsUGl5Z1k3a9IB3AFBVV95cUxPZmhsN0V0UmZGSXBuQ2lURFJwUldTMjM0ZWZQczVaZ2VYSzJlUnV6Z0VSNkRBQ2NqXzVIZ0ZLQjdTUk5wS3dnWHhxTGlqNTYtektzN2hIWEE5UVZBZ1JaQzdWUVhXQVZQZjQwYWxkdVVYb3l6andqUzJHZmJpQjQyTFRyQjZOUUtJUmVHZFJyVUhab2pXUENPc3YwUnh0VVMxSU12N1V1OWhBd0ZBR0M1NWZQYWJqSG45a0tEclYxdkJoNURHWnlWb3RHTHZtWlVJUUV6UkxabGFQZmVK?oc=5",
+        "published": "Wed, 16 Sep 2026 11:22:46 GMT",
+        "source": "India Today"
       }
     ],
     "google_news_traffic": [
       {
-        "title": "Heavy rain paralyses traffic in several parts of Bengaluru - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbnYzeno4dGowblQwOHRucUIwSzUyei0xQnRVbGtGaDFaQjBYUXVaOUlqdmdMVXpVYTRWTW1hUXRTeDNVM0tCaTFiRnJxNTZQTG1WdElvcjZmR0p1UE5EczVmcG9EdGhJMXdrd3dYRFJHTjBPR2pVQVBzY1FzeU00UkhKdi1vaGM2TmhSTjdIRmc1R2tKZElReEtsN19vZmRoZ3ZMa08tNGxqR0Z3R3pjakxqRTRyLVpmcjZxM0Vid2ZlYWfSAcoBQVVfeXFMTXB5dF8wRkMtR0ZoOTNnNGpHbEloM3ZidFdMWVV3RTV5cVVqY1R3MUtJZWR4cEY3eGp4eDRGWEQ5Wll2d0dlLWNiV29PT0RDVG43dWFnYURPQ0gyVDRfeE5vanZ5WUk4TUU1RkhZbGpndm1JdGFkUVV1NGNzcFNpQi1RYnhTRXhXSTJhRTlUX0lWYTB1ZVJnbXYzUW1lX1RXMnc3TDhPNExXMXFPQTFTQjJ2Qy1OZkZzUHZzTkw0ZkpfcVRXVlJmM19mZw?oc=5",
-        "published": "Tue, 15 Sep 2026 17:53:21 GMT",
+        "title": "Karnataka State Pollution Control Board bats for carpooling to curb vehicular emissions in Bengaluru - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdEg3ZTZ6TWhIbkcyNXNaWjJFYV91dm44aGlIakpJLWVETEpqWDBJM21zZ1I2cEhRVTJQQTdKckx1Sk1hLWMwQmNLazJCWGhVVndMSW5IMVVoOVhPUDhYOEpjWUxCZG9qR1FpSS1fZDJNc3pmNDV0SFBUaElqVHMzUU5HSjdGdG9URmVXdk5oYXFFbVdIRW5sTF9TR3dEQTJSbXJTazRxbnF3ZnhBeVF3a3JhMVd4UzFWQm1zb05RN01fclpBbVdDX2owendVSmxRY0l6RE9SVkVmV09ZOVF3U2VYS1pQQ0tvNWRjTjEyYzZ4c21KbVhyMlRzQdIBggJBVV95cUxOcmtiWG5xRE9DX1pMQUdiS2txamNyaVJ6TWFCVkt0Y2E1U0F6S19tbnk2UUdhSjBtdno2dGFqUG01WjBSd1FXZWFsNzZSeUhmNGxUTlhDcnJxNE1uSmxBaHAzNDUwazExcFJISnZFTnNfTUJ4QUs4ZHZQUVc4MGF3ZDdvdjVGQ09NdG9kdllXazdhZEVoVndsSjVtNHpLUGtKMDBqZWFOc3RCQ3RoV3h5d2lBWno2dDByUG45UlNpYlpSZG1pTGxuWWNWMzBxckZHVXZGa3REZ01NMzFKSDFudWNLLW1vMWdYdzFxb1JIT3RkUzYwTEE4LVJNbTFPZW9ucEE?oc=5",
+        "published": "Wed, 16 Sep 2026 13:51:27 GMT",
         "source": "The Hindu"
+      },
+      {
+        "title": "Bengaluru’s Hebbal tunnel: A shortcut to traffic relief, or a new flood risk? - The News Minute",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbkR6aVAzZm1oZHRHU3lzX0ZJY3poSHBTM2NjV0JCSWFQckxfOTEwYWVDeVRrdE9UbzFyTnNTMmo5OFZwU3NkUWtjT0hoNzI4NnJ2VkZ0LXF6YXo2Q1hyRWJ4QWdYSDB2cnFPNmQ5cXNqdW5aUEdVN1Y1UlNESm4zUnpwUnp0dEs0WUF4c0xDRWxScnFXR2I4c2Q0RzI1ZENvQkpyVHVGUDI3dk1w0gG6AUFVX3lxTFBKTTFHUXI1UnY3ZV95b0t4TV8tUzYxX0lza2ZPSmtwNmRYQVNLRU5UbTRhLXo0MlJ5M054SFNpSEQ1cm0tSWJsbUJiZTdrQThzU1BWaUJ4aVp0YzR2U25ya1RGclJEdV9ENGhHby1BSE4tbEUxeUJrZEMxelotcjlaUS1NamtWYkJxN21hTkFQLVRaVUd5c1c1RVcyZWJoVlZJczNNV1hXUEZkeWFHS1lqTmVlSVlGaGtmQQ?oc=5",
+        "published": "Wed, 16 Sep 2026 13:14:04 GMT",
+        "source": "The News Minute"
       },
       {
         "title": "Bengaluru Pink Line set to open: What commuters say about phase 1 - The Federal",
@@ -108,10 +114,46 @@
         "source": "The Federal"
       },
       {
+        "title": "'Do Bengaluru Roads Exist Only To Generate Bills?': Minister Krishna Byre Gowda Pulls Up Officials - ETV Bharat",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQMVhyQnktSklIbFN2NFhCMzVjUnhaMm1pdFVqQzZoVHZiaHFQaTE4RFV5Rmx1akJNV3EwMkxoUUtKTThNSzRTeFNiMm0taGE3X2xpWEtkVlNfVlRYZGg3UTg5MXh0SEFPRjRrbFdnSE96Sjd1YTR5X2twd09Ja0VwelFjbUl6UlNqVVdHRmZfeDRubzlkNWR1TXZNbVl1bVBNQXljaHl4SVQyR0NaY19FOXRyUk8wcGQ3ZnZRWjJrYWo1VmhpTlB5ZXVYRllIaFFGV283S1p6NGZiclpWNVBLaGRiaU5CNHNBTmlVQmx5UXFVYVowWTRFSmNDa1JvU3JHX1hV0gGIAkFVX3lxTE5KSjVhX2NBRDZNaC03RFNPNHhlR2FMQUp4VVBrOGUxZ3MwYVp3V3Q3RE9OQ1gybmEydnJxb1lkbXZaanVRdkRWbW4ybXBETS1HTEw4Zk14aXNzM1RHWlhHNzhVbXFINkNReklXMDRpNFlvLS0zRkZkQWFORlRma2FQenBYWlB1NjJIc1lXeWNoVVFqV28wYUIzUEVQTkxRUHBjNVByZFVIaTNOdTVPWWJPR1JvNG45MlY5VmM2QWtRSW1SWC1ncUlWSmw1NXhvY1d1X282VTFwV3NScEZDVnNuTmlxTXMwOVhwUnNFYlpnNTRxSi1la1VuZUlBSVB0emdJdXBqZG9YeA?oc=5",
+        "published": "Wed, 16 Sep 2026 10:56:10 GMT",
+        "source": "ETV Bharat"
+      },
+      {
+        "title": "Evening rain blitz leaves Bengaluru waterlogged - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORzg5UkVFaGRhUWZZR2VwdkRxSDZmMkcwZHFYb0xWRnVwemt0QXlkMlYtZUhMYjFORkVaajdBTXJ6ekxyRWpvRk1waWNwMFFMUVZRRjlfM1E3ZEZlV1I5MVJNeFhNTEtfWFFnU2xWbE1CaDQ5SV9SSnVBYWdqUUhLLVE2X2dEMThveXRXVnh0MDJnc0FfYzkta204eEw4QUJIbHZpWkVWYUgyMTJQTVHSAbsBQVVfeXFMUGRWcFR3ZVJMYnZnRThkMkQ2ZWx6djRPbDBOSTRJUWI0QlN5SC1HRTRXeDMyVElmNnVKb0x0dmVEUGQ0Y1F5bnpPZ2xMeUo3S1Jldk96R09FTlU5a2NBOElfZUlReGUxaFRsMVNXTmNMS0tCQnJ3UDlwb1FsNXBCeWZNZHYydEpQZmpPX0dVNy1fazlhWGRtQkFaUlJxVV9paWV2SFN3eXNGbDZPR2dpR2Z4SmtfVjIyTXVfZw?oc=5",
+        "published": "Wed, 16 Sep 2026 02:32:46 GMT",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Bengaluru rain: Roads flooded as IMD forecasts showers until Sept 21 - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1pGWmFEN3dWVUVZV2FXQlRMRV84SGE4LVNSZmhiRXAzWkUxcE1VQkh0MDlfTmo5VWFJOWE3OU5HVGlYek9uZ25mWFRDM2ktcTdxbEEwajhtRzdWMG1vLVJsMlRoQjI2Tkl3Q1FsT28xSzFHRFlEUGlTX213VGNIY05Fc0UwY3lSdl9CR05ybzlKRDJIX1N5Q28zVTQ4RzRQVzlLU1VNUmMxU1hEaTA1UFZFcnYwR2VUR1htRzBHSGVab2JaYWlr0gHOAUFVX3lxTE1DN1B6STlPN05pR0V1bVZPN1lkVm5EV3RRMGVUdjhycmhGczlxRy0zRDF0UE5ocEVlQVdtRzVTMl9paENTZjlSQUZ4N29weXVrZFRDUklPQ2tvVXdOd1A3c09fTHJmRUpnRUpvTE8xMjA4R1NyT20wajBpaVN5ellPNno0SS1ZaGhJWERmdE9WNUo1VFJPdy1na0VlcjNFN0M0emdyZ2JiY1VMcFJnRDBjVHJyZm1vOWUzUDNFRXpQekJ0NmtWYWhQd1FPVDZR?oc=5",
+        "published": "Wed, 16 Sep 2026 13:26:39 GMT",
+        "source": "The Indian Express"
+      },
+      {
         "title": "Are camera-based fines working in Bengaluru? - Deccan Herald",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU0J5RG1HUmVzbGtXWEFYUHlvR0g0X1ptSTI2Y3RCeEp4NVRIaGhfNmg0b0wwX2Z5VjljQkxmYUREQk5IZjdIMmF1d3JZLS03QzZPb1FncDRlaGZPeUFIX3lVSGpaaTZQS1ltNDQzTy1WUnVPTXBNRF8weUxMX2xOa1NmQmhZSUZibmFaZk84YnZmUlItbTExTHVjcWVuN3JTM1ZSX04yemFiQWlMMUlHQXk5OXFtV0lYd0VfNEdCUdIBvwFBVV95cUxPU0J5RG1HUmVzbGtXWEFYUHlvR0g0X1ptSTI2Y3RCeEp4NVRIaGhfNmg0b0wwX2Z5VjljQkxmYUREQk5IZjdIMmF1d3JZLS03QzZPb1FncDRlaGZPeUFIX3lVSGpaaTZQS1ltNDQzTy1WUnVPTXBNRF8weUxMX2xOa1NmQmhZSUZibmFaZk84YnZmUlItbTExTHVjcWVuN3JTM1ZSX04yemFiQWlMMUlHQXk5OXFtV0lYd0VfNEdCUQ?oc=5",
-        "published": "Tue, 15 Sep 2026 21:57:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0lKRlk0SGtfZExRdHdpV0pKajNpWmx5N05Ub1ZTb1FfZ1BUaEVScHZWdk90VU11a0FhMkNLNUM4LUJUX3FGNFoycHpVa1NoU2tweEpYem9ScUU5cVhtUV9jNU9raHkzVkg4dFlmemJDWjdwMllOYXdQc2M4Q2dmYW14eFRJWDdiMEdSdDg4SUVVak1SUGM5MmluZlNGanJsQ1NCWU81MmVyUQ?oc=5",
+        "published": "Tue, 15 Sep 2026 21:57:40 GMT",
         "source": "Deccan Herald"
+      },
+      {
+        "title": "Tavarekere Metro station rename to Bismallah Nagar Row: Hindu groups slam Karnataka Congress’ appeasement politics - organiser.org",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSFBGWEpXUnR3VWRITVNVek9nbGtlc19IM0h1NU5sRjFmOVhzb1lSVjBOc0RlNkhSWVBSYWlxbjl2dnpoRVo5X3dVbUtrcDZTQVZtVHlrUC1XZTRsdm1uZVljb3NkOTktMEVRdG1zek9WSFVFY0tLTUV4NV9lNFpobFdJX0JCVjl5R2YzQVpmNFZ0Xy1Sa1JwVzNOX3VYeFU2UTdFeHluRXhOSnVqTHlFaVpaQkFsVnJFaU1BSEZiRmFHMktfLXVUU0xsQ2ZsUEY1RElnNFNoREZhSmMyckZoSS1IYUpqT0RhVm9oT3gwMnV6QdIB9wFBVV95cUxPOVVTaTRHZ0pPR3R3aVdiSDhJNkFZQ0liUkhObjBudC1mTG9xdnhqZE5TdDdQemI0a0llNENfRjQ5d3FIdHRSWUR3Q2xlZWdBeU5iOUJSUTJNVmFaVlQxM1lqUnBxa2x3eFZWa1RWWk9QQkhDWUhWaGdpN2F5SVR1X0x5VFNqTEhGd2lfLVBzWXNEWU85UXJNd3pORkRPZExkcmtLbDJCOVRMbHJvNlBaZG1BZTJXWHRjNXBZanNIRkItcDlWX3hhazBPMXZSeEhNZXBoTFlMQ2J1VkpEd1pJMkZoaFNzVnpvRXpkQW1hM3E2ck5TZDBZ?oc=5",
+        "published": "Wed, 16 Sep 2026 10:33:49 GMT",
+        "source": "organiser.org"
+      },
+      {
+        "title": "Bengaluru gets 60 mm rain after a month, traffic hit | Tap to know more | Inshorts - Inshorts",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV3hnQjJJTW9kVzdlYUJBOFFnSEhRNXpHTm5WSzVwWWJXUHFBZkhCblYtTzYwMV9pbXhvTDFQUnRrX0h5S0RqOHMwUmowekZxdnRMTmM0cVY4SXhRNFNmMExYY2tQcUdpXzlPcHJtMkJFOHJ3TmR4ZF9POHNmOFY2aTRCTkhEVmNUcGkxMkNfVzQ2cWsyS0pJTnJTaEJ6THFD0gGgAUFVX3lxTFBXeGdCMklNb2RXN2VhQkE4UWdISFE1ekdOblZLNXBZYldQcUFmSEJuVi1PNjAxX2lteG9MMVBSdGtfSHlLRGo4czBSajB6RnF2dExOYzRxVjhJeFE0U2YwTFhja1BxR2lfOU9wcm0yQkU4cndOZHhkX084c2Y4VjZpNEJOSERWY1RwaTEyQ19XNDZxazJLSklOclNoQnpMcUM?oc=5",
+        "published": "Wed, 16 Sep 2026 10:29:06 GMT",
+        "source": "Inshorts"
+      },
+      {
+        "title": "Heavy rain hits traffic in Bengaluru, 4 cows trapped under debris as wall collapses - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbnYzeno4dGowblQwOHRucUIwSzUyei0xQnRVbGtGaDFaQjBYUXVaOUlqdmdMVXpVYTRWTW1hUXRTeDNVM0tCaTFiRnJxNTZQTG1WdElvcjZmR0p1UE5EczVmcG9EdGhJMXdrd3dYRFJHTjBPR2pVQVBzY1FzeU00UkhKdi1vaGM2TmhSTjdIRmc1R2tKZElReEtsN19vZmRoZ3ZMa08tNGxqR0Z3R3pjakxqRTRyLVpmcjZxM0Vid2ZlYWfSAcoBQVVfeXFMTXB5dF8wRkMtR0ZoOTNnNGpHbEloM3ZidFdMWVV3RTV5cVVqY1R3MUtJZWR4cEY3eGp4eDRGWEQ5Wll2d0dlLWNiV29PT0RDVG43dWFnYURPQ0gyVDRfeE5vanZ5WUk4TUU1RkhZbGpndm1JdGFkUVV1NGNzcFNpQi1RYnhTRXhXSTJhRTlUX0lWYTB1ZVJnbXYzUW1lX1RXMnc3TDhPNExXMXFPQTFTQjJ2Qy1OZkZzUHZzTkw0ZkpfcVRXVlJmM19mZw?oc=5",
+        "published": "Tue, 15 Sep 2026 17:53:21 GMT",
+        "source": "The Hindu"
       },
       {
         "title": "Heavy rain, gusty winds lash Bengaluru after prolonged dry spell - The Times of India",
@@ -120,73 +162,49 @@
         "source": "The Times of India"
       },
       {
-        "title": "Authenticity, adaptability, zero aggression: Bengaluru entrepreneur shares 3 life lessons the city taught - The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQXd1NHlwcnJJY0dkOHRyVzFZSzljZnJuMmhzSXlvUUExdjFDS2dRdFRyaEJhaW5SaE42ZXJuYUl4VUxhQTJLcHJReFZ4Q0VRNVBuVE9QQ3lwX1F0VmxIZUY3dXh4b2ZPb195RF9tdFVaSVVKVmszY0ktQS1Oc3Q1SHhTcmljY0dOZk91MjZQUXNjVU5RQ3h4bzlYY3BfeWJ3dlBCeWJYTlZ2bTJ5enRPa2xRWUVJNjY5V2NENVA0aFZaaHhVNGtfUFl6Y1RMaGZyLVZlTWgtaXJneFBEei02NEt3eWZ4VldkNnU3Rm5WdEQ5cUlwQ3NfeWdxVmpVYUlfRWZNaktGM2xqd9IBjwJBVV95cUxPc3VUaW1rWGJ3Wk1QUElaUE5rOE1KTWJ3b2FwNmloTW9nWXQxUWt3M2FZZndJRFhDYXBYTHRWRDZBLURJa2NaZlNNWlNtLXhONjlaY2lKV3I0bW1fZm9ZS19zZnZabmZJTS0xTUdHTFM0Rm1kV2NpOGZ1N19CTmE4ZWxSaTAya2VOLXVQbnB1NVpoRzJ2OUZ3Q3NLVnplNnhPOWZzdGpueEc4OExvc3RRZThuTzRqYVktdXNaVDI2VTNmdnE1VEk1UkZERkZIbUlGUVI0UVhtanR0b0VLQXYwZ3IzU0lvWFppVjV6bS1FdTF5ellCVTNBQm9LVDd5N3lveXFJcEFaWUZkZHNjbnZV?oc=5",
-        "published": "Wed, 16 Sep 2026 00:04:16 GMT",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "My experience of the NAO-2025 held at Toyota Kirloskar Motors Bengaluru - team-bhp.com",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOV9rVk94TEhtZkZJXzJoYzhUZGlkdWpSdDVKRTQtRzVFUG5rcVZfLWR6Q01PWUk5NDNGbmd1LVJ6aHhXcGJkdUpadkZrWUg0UEcxbnFfS1FNZTlJNU5ORndaYndLYkFKdWNqRDhmS0ZQUFBCcjdLc2NFdGptOGNkblR5Z0hFYV8zYXFTenFCT0Rzd1V4elHSAZsBQVVfeXFMUFdCWkdoR2trcWk1R2R2REkzaENQTTM0eDVjQ3JUSWp2MnRtOFNETVBUR3RWT2VDQU5kbVRqTW1hTW9UcFNTSzROblZ2WXcteFJJZnlLbEtsVGlsNXNuZFUzY0VXUjgxRTZCWURDN0VuTmJoQXNmWEVMbWdFeTdkSmlhRW5MbVBkM1BBa1huT2tlV19ma1VieVhLRGM?oc=5",
-        "published": "Tue, 15 Sep 2026 09:00:57 GMT",
-        "source": "team-bhp.com"
-      },
-      {
-        "title": "KTPO site in Bengaluru's Whitefield to get world-class convention, exhibition facilities on lines of... - Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOcWU0YnBBeTd0UEdHQ3VGNl9vY2hoa0RFWGNrd2tHUGN6Y21vN240U0tUUFFxc0xnTW1RczdFWU9vZm9QRkprYURLMWdqSWt2V3JEMTVCa00tWnJHWFpsX0piTnJWTU41UUpIMWljYXdDeHFMV0VsQnpaQ0FNWC1vaG1EUXhaWlZIbXRYbGdTbDZlWks0SzJNZ0FQaEVDWmRUcWg2RzF4UzRuc2NxMlBILUlRdl9zMHVOTWUyeHJLbXJfY29MODZZMUVhLVo3MWpaOHZGMG40U0hERWt4cTg2aERKT09wNjFCN3g1MVFOd0JfT1VudUo5VW1hN1FBMnhZMjRzM1dDX05Td9IBjwJBVV95cUxPYk9qc3k2TFAwYkJLd1NHaTNhUDl6UDdGUFFQS1JBa2pmRmNzR0NtemNIbFZSQVFmdVFEYnRUSVBESXJobXBFQkxrQkZuVlhZN1pqaWVWS3BraS1POTlJWHZ6UHpPV0hDVGNxSk9nNHM5dVpyU3M3ci1xUi1Ld2lmWU8tWXVzVFBrVGo0ZWNUUzlEZ05GclREZllQNkdGb0ZoWGtNTndaTmdUUjJfdDlnU2ZNbzJiRGpPMnktVV9IbkRpcndFcXRqa0RuMTdTdmY4SEVyNkgyRUNzVGFuQWJvOEVaS2ZlSzVXbWp1TVdTdktOYmJ0X0xnZTR0UU1vV1U5SFV1NmY5R0M0WGFVdm04?oc=5",
-        "published": "Tue, 15 Sep 2026 15:47:05 GMT",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "Asia's Biggest Road Exhibition - RAHSTA Expo",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OVlVkWFRRSGVXWWlYTFhWdzRkZGVxVFNpdXI1S1Vya3MzVGxmckNLYnh1TlpGWTZNZUkwTV9TN3Rpb1BqVFN4NjEzZXg2Y2tSYnQw?oc=5",
-        "published": "Tue, 15 Sep 2026 11:17:09 GMT",
-        "source": "RAHSTA Expo"
-      },
-      {
-        "title": "Bengaluru Woman Says Working Life Is Better Than College Despite Traffic, Hectic Days. Here’s Why - News18",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaVg4RU5uNFhYMG1rSm43ZHh6UjZ3dWNQV0FCUlBsV09wT0l1WUpTQW4zZlg1ZVVhSTU2ZDVlWGFmVlZFX2NKSWd2SVMwODJnT1BqbFNQX25JRjJwcGdwVUVpaUZiLTlJbmJISUlyaUlmcWlrTlhFdk54MmdFQ0tBeE9LamZnWUU4aTNycXdJdk05Sk1aR1ltNGZZT25nSy1LNC1nNk5OYU5SeENvZjZBWlZYX3kzVk9rMXZieFZ4ZFpROUpYbEVWV0toeUhHRWpHQXpDeUpmaHNBcFg5Qm800gHfAUFVX3lxTFBpWDhFTm40WFgwbWtKbjdkeHpSNnd1Y1BXQUJSUGxXT3BPSXVZSlNBbjNmWDVlVWFJNTZkNWVYYWZWVkVfY0pJZ3ZJUzA4MmdPUGpsU1BfbklGMnBwZ3BVRWlpRmItOUluYkhJSXJpSWZxaWtOWEV2TngyZ0VDS0F4T0tqZmdZRThpM3Jxd0l2TTlKTVpHWW00ZllPbmdLLUs0LWc2Tk5hTlJ4Q29mNkFaVlhfeTNWT2sxdmJ4VnhkWlE5SlhsRVZXS2h5SEdFakdBekN5SmZoc0FwWDlCbzQ?oc=5",
-        "published": "Tue, 15 Sep 2026 08:45:15 GMT",
+        "title": "Bengaluru Drenched, Cows Killed In Wall Collapse: Will More Rain Lash Karnataka And Other States? - News18",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZnVUQ1p4X1ZZT0Qwb3BLaHJ0b2Y4eGJjbko0VEhyQ3RKbUh6TGMyWk13YnpYMjRXUFdPeFBqU3FNXzRtUDAzc3l1Q1Z5UjRsWTNrUkNENnR1MUlGeHNYS2Y0SmFLSGlOQURqOGF3QnVLYzktQ1FKbkJBZ1gxMHY3bFVjdnRLQW0zOEtDSzdxd3Q0eXZqeGpMOHdvcTNSalQ5Uk9OMFlUQUdSSGY2NjJ3b2YxME9INVM4MEJBWEV3VS1taDMyTWF6QWo4UzF6WGN0enR0MW5WMF9pMmxVMkJrbEE3aHdxOFZVQnJHZW4tQ09Lb3hkN2c3TmpzWFlieVha0gGGAkFVX3lxTE9yN0dOZkdJUE5qbDlxcWpqb0lCeUFxZGZfd05CU0Z0MjZmNnRQc2M3ZWRma1pyNGg0elBSQ3o4elYxVnAzcTJsVWE1NXQxVlBYSWVtWFRLT2N3Sk55V3VTWW1xODUtUWdRZGhfSnI5Y21xVkZrUngxYndvNXRtT1FEYWJYRGVyc2s4SlhaUllkRjJtTWhIZXZKcjIwTkY2d1d4eWJDeGx5N3lTLXBUZ2Jvclc2U0FvbkVXUTI1R0dSVXo2T1dmY1NtaXExWldYUFItZGpXbE5RenYzN0RFYVdpUGF4QkJLUEZmRzhOZWM5U3ptMk9hOHJCdlJxXzZ4Yjlfck91OFE?oc=5",
+        "published": "Wed, 16 Sep 2026 06:10:17 GMT",
         "source": "News18"
       },
       {
-        "title": "Muslim residents seek renaming of Tavarekere Metro station as Bismillah Nagar, netizens, Hindu groups oppose - Public TV English",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcmNKZGt6cm1JVXZCOFl0cXlhOTI1R0NtVWM4VWMwSGFYM0tfcF9qSF85Z05UV3dKTnZ2YnBDZzhPSWNXUEZGRnY4Tkczblo4d0Y4UmZ0ZWV6UUhYRkRxblFITGlaWDRfNWVUUHBIWjM0MkJJeVRTMEtLc0pVWjVjaXhGLVItd0U5Ql9mVURJaVktZXdBRWdIV3U0anpwOG1Ld0UzYkczX3BfSDdjT3BUTy1GZWQxcXpzTkp1azhqWHRpSHVCRkdOdHVQeUtJZVgx?oc=5",
-        "published": "Tue, 15 Sep 2026 12:25:44 GMT",
-        "source": "Public TV English"
+        "title": "Karnataka Government to celebrate Engineers’ Day officially from next year - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON3lKRmpYN3ozSHEtYnFsVlBjenl0eXk2Mms2cFdETnF5MllZZjFPeGpWWG9QTHBXS0ttQ29HOFhBVTR4dG9qYWV2Q0JnZjd4OEVnM1NlWUhwdUVzcVRCZHpfSGtJMXM1ZWZBRkM0Tkx0LU8xSjZoemRyaHFMSXBqRkZqU25pdUhtOXZpNjVXVFR6aEZwRkdfRHZTVmVtbmdzNTZxVk43Z0tSSFFaUkpRNlJ2akhQOWVpVGlIU090TFNoRHhBNmhfaVMwMWxEMzVi0gHeAUFVX3lxTE1ONWZCb1hzNGxzbnRXX0pLNjNXMXNjVExoeXNqSWtLN0NCb2l0VFE5SEt0RXc5ak1MSzJoX3p0M3BhMEFXd05sRXNNbEVMRE9YdlhCUzNaX0l3R2ZqWllaR29UbFZjOFNRaXhTUS1WUUF5R29jUzFjM0pGck9BOUNmUlRTZ2FIN2V3UldrYnlhQXZsbFhQMWVnd09MU1hKV0hHVndvT2RKM2lraG1vQmM1OGNFODhBbTFFSmxZWkhObmduNE5kSlRHUUlHd0RjZ01SVlhaTnBvVVl1MUE1dw?oc=5",
+        "published": "Wed, 16 Sep 2026 02:19:16 GMT",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Metro passengers seek feeder buses to close gaps in connectivity - Bangalore Mirror",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOE81Z1NFQ3JzbVFhektnWXlBZWhoanF1c2EwQnJVX0QzSEtyMG1jckRxZGdON1N4M2RUOUlsR0stdWcwSlIyU2l5WXZzZmJuTXhSMHp5MTROb2swM2JGclhrTVUzYklpcUROZDRva2lLeEpSNE01cGtXcm4wV3cyWEZUQ3ZPc294SGJBLS0yZTBUX1AwUzdLaGJmTUtVYlNLRGRnR0I5WmEydDJLbGdMcWdVdnhYb29TS0M1WlZ6cUw4QUdjR0t2NS1Wak1CUFI3alJLSUZZOVY1eWpTbERj0gHkAUFVX3lxTE83MkZJZENZS1VFSDdVM3Q3RjlkVGs4YTlDQVVrTnRuQmZrYmhlam5YWkYtdy05d0NFVGQtUDY4MHA3SEFjYWg2QmxjNE00N1hBS2k1Z2I2OXEwTWpFemxNTnhuQ3lnczRSemF3cnN5c0ItVGdOd1FlTktjZ01YcEF6MnlnZmpYOWVEWW1sRlE2aWxjNGlNc2xkWXgtWjVsXzV5c2pxcDdrM3ZyRkJDdjk5dlJNWUdGZExQaVZMNUlJbnhzRlRNRHltZGFPUWJGVFhBQ3dHa01HTV8xcGxJVTAxOWRYZg?oc=5",
+        "published": "Wed, 16 Sep 2026 00:30:00 GMT",
+        "source": "Bangalore Mirror"
       },
       {
         "title": "Heavy rains throw Bengaluru commuters off guard - Deccan Herald",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb0dVeFIxU0U0VGlhR0EtaFlkTkJmaEJscVIwYU1nQWJVUEpOU2J6SEJaTDIzRjB1YWd0YTlhU252Ny1IWnVuVG15Z2hxbVpYVHJmWGROSzNEa2ZjbDltUU1mWjRHT0tzZnpWV04zSjNxWW4waUhOWU5MUjV5V1c2TDlDRE9TaUVNUUtqeENPbTg3VTRtcUNQd1MxTWdhczVjb0J0NS1wbVRiSnpQc01N?oc=5",
         "published": "Tue, 15 Sep 2026 17:12:10 GMT",
         "source": "Deccan Herald"
-      },
-      {
-        "title": "Early days, mixed ride: BMTC app revamp gets mixed response in Bengaluru - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRmpvVC1CVUdmN1RJYzhpaUNycFU3N1NkTWFUdHlIR05PRko2Q2REWkpoLWZtYXpSX2I3Z1ZLVTFQNWZzRGdWMDItMlNoVHlOdnA0Z2ZmelZXUkt1dWlkQkdsZGRkM1MzNEFRZ09aamJLaEcwdmZ3RWh2UDJaNEVVZjN4NUJHdGJnNXRibVN4YUZTMFNmb2F1ZnhFejA0ZWIweF84VFZoSXFsTld2U3BYOFMxWWVLcW1OdVNnS0RBT2lmcURubTViUkpsWlpWcm9CUzM3a0VKMnZzalBFNXlncHRRZDRvd9IB5gFBVV95cUxPRmpvVC1CVUdmN1RJYzhpaUNycFU3N1NkTWFUdHlIR05PRko2Q2REWkpoLWZtYXpSX2I3Z1ZLVTFQNWZzRGdWMDItMlNoVHlOdnA0Z2ZmelZXUkt1dWlkQkdsZGRkM1MzNEFRZ09aamJLaEcwdmZ3RWh2UDJaNEVVZjN4NUJHdGJnNXRibVN4YUZTMFNmb2F1ZnhFejA0ZWIweF84VFZoSXFsTld2U3BYOFMxWWVLcW1OdVNnS0RBT2lmcURubTViUkpsWlpWcm9CUzM3a0VKMnZzalBFNXlncHRRZDRvdw?oc=5",
-        "published": "Tue, 15 Sep 2026 15:40:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Namma Metro Phase III: What the 45km project means for Bengaluru commuters - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcWRUQjNJUFBzVUsydDNGUy1UVnhGc2gtWld1WTZaY2xCenVIRjU0R3pDWi16bE5YOHozVVAzUEhudGh5emhnTGJuYTR4UTFEc1BtZFBqY0dvNEtUUUcwZXVyS0M4ZDVNeDloUGxxN19abEFtVW44ZUR6aW83aXJMSnBsMjBoQkp5el9VSm8zMFhBX3BLVHZIZjFWanBjd3ZMdHdwejdlY2laNVl3LVdFMWlpa1NCeXVMdWRMQ0xpTmNnRkVTcVFvZlZhQWtjRjNPYmZVWTg2STlYd0NnQXBfZzRXeDNkb0VmLTY40gHrAUFVX3lxTE5xZFRCM0lQUHNVSzJ0M0ZTLVRWeEZzaC1aV3VZNlpjbEJ6dUhGNTRHekNaLXpsTlg4ejNVUDNQSG50aHl6aGdMYm5hNHhRMURzUG1kUGpjR280S1RRRzBldXJLQzhkNU14OWhQbHE3X1psQW1VbjhlRHppbzdpckxKcGwyMGhCSnl6X1VKbzMwWEFfcEtUdkhmMVZqcGN3dkx0d3B6N2VjaVo1WXctV0UxaWlrU0J5dUx1ZExDTGlOY2dGRVNxUW9mVmFBa2NGM09iZlVZODZJOVh3Q2dBcF9nNFd4M2RvRWYtNjg?oc=5",
-        "published": "Tue, 15 Sep 2026 13:25:46 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Karnataka plans global convention hub on 48-acre KTPO land in Whitefield - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOHVQY0p1UlRKOUVtaVRiQW9vNDNQLXhtUUpOOVdtNzRzUm94ZlFrVTF2OXBsUFZNWXNSdE1wMEVzbm9RcVZhUzRYX1Y2cGpOeUo3ejk4cUtLVW03QmlRZDJiRTNiMHdiSW51Vy0zaXViaWZleDNsYXZGdXVsVVNCV3ZHRk5YZ2NZOTVJU3ZyVFFKUG9FT1BXVmktVjlXODBYRHJpNjgwOHFvUTRHZXRQSTNXbGY5MXhTWlF5SG1udFZGd0lDUGxaYTdEQktyeklzbUY3ZkhlbDhwNjlnY0ZjUktDZ9IB6AFBVV95cUxQSm5vZXB1ZGt5ZHU4d01aV2F0c2t5c3RMbENHT3ZDSkJNeVJBZEJxTTdzSXpCRTlQdXppQ1FaSE9sNHpZdmw5V3U4djhuLUl2SU95UUU3dFZBajdsSy1XTDdIdEUyU2hYcGJoSE1zdVZwMHZkSHA2eE13anFyNURfZ2pzMGZNY1B4SWNRQ1ZuM3BFMWhRMTVqMmwxQ0VUUm85YzlSY2pZSXg1UGNYOE1HbzdGaUhjT2puTlk2OHM4VlZMQXZwQ1N6RkRLdGZ0dnVicmFYOE5qVWxXd01jb1QwdHZLNVE0WGlS?oc=5",
-        "published": "Tue, 15 Sep 2026 15:59:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Don’t politicise jail jammer issue: Congress Legal Cell - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTVJpMklRZlNQRGhJMUJvODZLSDA3aU9HTzhaWVZJUnN6ZENDbnMwN3FGVzRkYmN2M1I4YVJ0UlR0c2pTMlQ2U3UtOTNLUFF5VEZlNTNBSUdxVEV0SUFZMDl6ZGh3R2E2dVlyNHBJNzBCVldfSDk0dkJ5aTk4cGl2Y1hYcGpvQ1lYNXRLR0V0Mm0zUWo4RzFtX0Y4dHZqRXRoWDZlNmxQTjIzalhoRkxTbDZmeVkzZlpUdmdTSWlGMVFLcjRiSWhMOFh6amRFWHfSAc8BQVVfeXFMT01SaTJJUWZTUERoSTFCbzg2S0gwN2lPR084WllWSVJzemRDQ25zMDdxRlc0ZGJjdjNSOGFSdFJUdHNqUzJUNlN1LTkzS1BReVRGZTUzQUlHcVRFdElBWTA5emRod0dhNnVZcjRwSTcwQlZXX0g5NHZCeWk5OHBpdmNYWHBqb0NZWDV0S0dFdDJtM1FqOEcxbV9GOHR2akV0aFg2ZTZsUE4yM2pYaEZMU2w2ZnlZM2ZaVHZnU0lpRjFRS3I0YkloTDhYempkRVh3?oc=5",
-        "published": "Tue, 15 Sep 2026 13:57:00 GMT",
-        "source": "The Times of India"
       }
     ],
     "google_news_events": [
+      {
+        "title": "Viva Money Hosts Fourth Edition of Viva Gala, Bringing Customers Together for an Evening of Celebration in Bengaluru - Deccan Herald",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPS1dQX2p4bXNoTzVMSnpzTUxKYzZ5STY5bE9lb0t4amR5SUgtV0YxM2ZaUTQyc0ItVUY1TUJlbGJIZi1sM0hrLU1nTlRlMzBfX0VfTTAyc0l2NDB3eHRRNEV3UzZLRU1wQm11VHF6aTlDbmJnblByMXltb09vRzVoTkt4cXRXUVVYOGs0TlNEdkJrWGFkSGswX2JoSUFDNFV5SktEaGRkUjl4YWttUU5RRHF0THl6clpxcy1GQTBUVjFoREs0Szh1SktrdGhpZjVqdm8yMXhvSG1YeVFXVDNBdERtU29zV19JOTEzejgxbWFvRFptVkc3a1p5N3FhZFc5dFE?oc=5",
+        "published": "Wed, 16 Sep 2026 12:30:00 GMT",
+        "source": "Deccan Herald"
+      },
+      {
+        "title": "Karnataka Govt plans convention center, exhibition halls at KTPO site - Biltrax Media",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdU92cFc3RUFDazN2R25STE9USjlNVXJFQmpJdWNJZG5NMElvVDZ3Y0drUWw2eVNuTmVPMlYzMElrTDhjQ2xlUGw4Q1Zxa21fU3hkZXBjVVotNjlYS2tsZGJQZEpaNW1DRm1UdFdIYUR1Y1Z2T2x3b2RPTTNneEZUczBibmlrUk94MkRZZDJTSlh0Skk3T1d1Zw?oc=5",
+        "published": "Wed, 16 Sep 2026 09:22:35 GMT",
+        "source": "Biltrax Media"
+      },
+      {
+        "title": "The Great Indian Brew Festival Returns to The Bay at Ecoworld with an Oktoberfest Edition - eventfaqs",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZVBCQzRaRHV3QnhUZEZoSk5nTGUwUGFJZnl1Y0tpM18xaXdIcjZpekVRSGVHdmJuREpyRnM2TGlWaWJhOEotaUlEOVpFUm9tYU4wS0pybjJpOGNrWFM2OGljSjM0MG5JWVhtMjhaY2w2QTE2VGE0T1FmeFdXVGktWnowWEprMlNJU1l3T1FfdWpueFRqZFZjVEFoT3l1ZUNHU3pCSUpGZm1yS0pvcllEd21KQk9VbW8xYW4wY1BkMVB2Z3dq?oc=5",
+        "published": "Wed, 16 Sep 2026 08:54:27 GMT",
+        "source": "eventfaqs"
+      },
       {
         "title": "KTPO site in Bengaluru's Whitefield to get world-class convention, exhibition facilities on lines of... - Moneycontrol.com",
         "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOcWU0YnBBeTd0UEdHQ3VGNl9vY2hoa0RFWGNrd2tHUGN6Y21vN240U0tUUFFxc0xnTW1RczdFWU9vZm9QRkprYURLMWdqSWt2V3JEMTVCa00tWnJHWFpsX0piTnJWTU41UUpIMWljYXdDeHFMV0VsQnpaQ0FNWC1vaG1EUXhaWlZIbXRYbGdTbDZlWks0SzJNZ0FQaEVDWmRUcWg2RzF4UzRuc2NxMlBILUlRdl9zMHVOTWUyeHJLbXJfY29MODZZMUVhLVo3MWpaOHZGMG40U0hERWt4cTg2aERKT09wNjFCN3g1MVFOd0JfT1VudUo5VW1hN1FBMnhZMjRzM1dDX05Td9IBjwJBVV95cUxPYk9qc3k2TFAwYkJLd1NHaTNhUDl6UDdGUFFQS1JBa2pmRmNzR0NtemNIbFZSQVFmdVFEYnRUSVBESXJobXBFQkxrQkZuVlhZN1pqaWVWS3BraS1POTlJWHZ6UHpPV0hDVGNxSk9nNHM5dVpyU3M3ci1xUi1Ld2lmWU8tWXVzVFBrVGo0ZWNUUzlEZ05GclREZllQNkdGb0ZoWGtNTndaTmdUUjJfdDlnU2ZNbzJiRGpPMnktVV9IbkRpcndFcXRqa0RuMTdTdmY4SEVyNkgyRUNzVGFuQWJvOEVaS2ZlSzVXbWp1TVdTdktOYmJ0X0xnZTR0UU1vV1U5SFV1NmY5R0M0WGFVdm04?oc=5",
@@ -194,28 +212,10 @@
         "source": "Moneycontrol.com"
       },
       {
-        "title": "Play It By Ear: How Offline Music Experiences Are Shaping Artist Discovery - rollingstoneindia.com",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVjlpM3dJYWRUUjl6OUEtRk0wLWJETUJRNFBhUU92RXd5aFVxQnhNN1lwUDhVYzZVTlJPS2xpN3l3dlV2N2RGZVZsXzhGdnUwVUpXU3ptTzI0b1pqRVRGa2Z4WUExMjB5R1BkRG5jOU5sRnQ2TnRoMDd1TWZFN2R3QzRIM2JVUzFtSk9RQmdlRErSAZYBQVVfeXFMTUJuZmlUWWlHZF9YVTU2bGs2Qi15N2cwdnMxb244a0Q4U0xGbWxvWWtTQTd6T3VpaERWMmxKNHoxUnM0VUNxT2NubTZxYjd5RHFMMmJmMGRLbmtSM1BqV1NYS1BLRkRsN0E3YkYzV2ZITjNlYzhYYVFqRTJDNUFKSkdNNWxPUzVTVDNONlZWaUNwWVF0RWRB?oc=5",
-        "published": "Tue, 15 Sep 2026 13:03:27 GMT",
-        "source": "rollingstoneindia.com"
-      },
-      {
-        "title": "NASH Group to showcase intelligent electronics at Electronica Bengaluru 2026 - Manufacturing Today India",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsZTJTR3FHcThZbW1uX1VBeU12U3F4Q0RiOF9XUkE1SWs2eDRjM3JFVUo1ekVDaDdUMWQ5NXlwU3lqVnlRRFRwWkxndS10cF8tTUhDaXE4TE0xeUxkRjJvMnVWUU9SUWZNVGdwYmF2NUhBMjFmZmJROGxBYzZud2M?oc=5",
-        "published": "Tue, 15 Sep 2026 10:47:35 GMT",
-        "source": "Manufacturing Today India"
-      },
-      {
-        "title": "Hundreds stranded as tree blocks Talaguppa-Bengaluru train route - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ0V1M3VqdWhBSFZUYkp5ZkRsX0JEX211TUIwOEFqTzg1c3plYzQxR1g0MjQ5RnBTMWFld1NabDhKeWtaVnZSdlNUNjZkdUtBVjRkSEJVeEpzRUxiZTZEWGZtSTlzZUc5UnM5TWdMS0s0NDRqdnNTeU9jMnZUUGVMQ2ZmbzBJTW1Uck1CUHZhNGJtdU1yYmt1WWt3SWQ1YnZmd0VuaEhLTmpYeEZIVEdaUVFlazNQdVc1SEJwNWtBUFdQbm9jWGJtVEdvclFnWkxYU2p6U9IB2gFBVV95cUxQc0Q5THAwejFjUF9LdzVqbjByazhHQUg1SGV1ekxIN280Q2hJVTNIVFhmeXhKWnFSemNPR29JdVBTMFZHZ3VpRlJReDlvbFZVYWdudnI1cEp5R2t2WVdIbjhLMVhpVERRcUhJOUhCWURoTmhvcThEWk9jOVhfR2hHRFNvejJxeG91V2dDZTZnNFRwTHAzMUYwQTFzZHVFUDcwQVN0SW5Hb0lBdlcxcjhiZGJ1b19yQTdkX0ZCRUFQT291MFNvOFNGa2l2Um1hVVgzVWlEaENubHJLdw?oc=5",
-        "published": "Tue, 15 Sep 2026 17:25:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "ABVP tells Union ministers not to allow screening of Umar Khalid docu at NLSIU-Bengaluru - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPUDc5TWNVSExhSER2ejAyM2I5eXg1ZS12NkhVQUJZOHVxbDJuUE1xbjNNTV9VZFlZbkVHLV9IRG81ZjVzZW1IZTZCa2syeThKbnM0ZmREN3IxTmpYYk9zSHB5aGZmQU1lOWF1bkRTNUhKTldIcUxJX0ZpUXQ4TktnSTBvR1J1LUFuYk44Z3FfVlF3ek84MXd4MkFlZlNab2NQcVVaSHZKWG5BdVVXTlZELXYxaTF4YWZ5UXh6N0szR3p3NmJ0QXo4SHBaYkVYUG92aGI3SVVEYktMR3FzVnFzYjRiaFpxT2xIay0xTzkxUlFtOXVfTUdaaFRoS2tpcEpIelB1TElUTDB5TnZYRFBJUVFsX1R4cUdtVmtqVWNORdIBnwJBVV95cUxPUDc5TWNVSExhSER2ejAyM2I5eXg1ZS12NkhVQUJZOHVxbDJuUE1xbjNNTV9VZFlZbkVHLV9IRG81ZjVzZW1IZTZCa2syeThKbnM0ZmREN3IxTmpYYk9zSHB5aGZmQU1lOWF1bkRTNUhKTldIcUxJX0ZpUXQ4TktnSTBvR1J1LUFuYk44Z3FfVlF3ek84MXd4MkFlZlNab2NQcVVaSHZKWG5BdVVXTlZELXYxaTF4YWZ5UXh6N0szR3p3NmJ0QXo4SHBaYkVYUG92aGI3SVVEYktMR3FzVnFzYjRiaFpxT2xIay0xTzkxUlFtOXVfTUdaaFRoS2tpcEpIelB1TElUTDB5TnZYRFBJUVFsX1R4cUdtVmtqVWNORQ?oc=5",
-        "published": "Tue, 15 Sep 2026 06:46:56 GMT",
-        "source": "The Hindu"
+        "title": "BigLilChefs Hosts Kids Culinary Competition in Bengaluru - Passionate In Marketing",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZmp1ZjU1Zjc4UHdpbVlvQl94OTFhWjJHbjBmYS1DOGhUNGxNYjJfckVnR1FzUUVxVkhEd0huei1VeXpHcENPZXpBeU5TeUx3dkdVQUFub1hWMlRKN1dVR0xsRS1LSXZqV1hHMExUNVd3UngzX3lxdFdXb0hwc2YtbXREMk5BMkRRQUlDb3MtVGlabTBiZjh4Ni1hU053SXhBYUJQRHhqUXNNS2VMM3JYekxQMF9LbUZPY3lkOFVZa19lNGU5eWtpNjFIUDNPczBDSHNqeHZSaHIzS1U3bWo0?oc=5",
+        "published": "Wed, 16 Sep 2026 09:01:05 GMT",
+        "source": "Passionate In Marketing"
       },
       {
         "title": "Google's search team returns to India after 3 years for Bengaluru event - PPC Land",
@@ -224,46 +224,46 @@
         "source": "PPC Land"
       },
       {
-        "title": "element14 to Showcase Smart Engineering Solutions at electronica India Bengaluru 2026 - TimesTech",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS3JoR3plalFkd1M3VkNFbi1JemQtWUN1WTBSMG9UWXdUZk05OWRfMUI3cHJIcXRxQnh1bzJiY3VoNkxwb1NZdVNReUxRZGYyMG1XMlRlMFo0RVlKZ21HWFBsa0ZMTFRNMk1NT29zc1R4V3RqRU1sWGp0S3pXZ3hoZlgtZFkzV2dKc2g4TFZJWW1YZFVySVN0aHZ2ckpINXRwX3c5NXNUR29kdVk?oc=5",
-        "published": "Tue, 15 Sep 2026 11:23:37 GMT",
-        "source": "TimesTech"
+        "title": "Hundreds stranded as tree blocks Talaguppa-Bengaluru train route - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ0V1M3VqdWhBSFZUYkp5ZkRsX0JEX211TUIwOEFqTzg1c3plYzQxR1g0MjQ5RnBTMWFld1NabDhKeWtaVnZSdlNUNjZkdUtBVjRkSEJVeEpzRUxiZTZEWGZtSTlzZUc5UnM5TWdMS0s0NDRqdnNTeU9jMnZUUGVMQ2ZmbzBJTW1Uck1CUHZhNGJtdU1yYmt1WWt3SWQ1YnZmd0VuaEhLTmpYeEZIVEdaUVFlazNQdVc1SEJwNWtBUFdQbm9jWGJtVEdvclFnWkxYU2p6U9IB2gFBVV95cUxQc0Q5THAwejFjUF9LdzVqbjByazhHQUg1SGV1ekxIN280Q2hJVTNIVFhmeXhKWnFSemNPR29JdVBTMFZHZ3VpRlJReDlvbFZVYWdudnI1cEp5R2t2WVdIbjhLMVhpVERRcUhJOUhCWURoTmhvcThEWk9jOVhfR2hHRFNvejJxeG91V2dDZTZnNFRwTHAzMUYwQTFzZHVFUDcwQVN0SW5Hb0lBdlcxcjhiZGJ1b19yQTdkX0ZCRUFQT291MFNvOFNGa2l2Um1hVVgzVWlEaENubHJLdw?oc=5",
+        "published": "Tue, 15 Sep 2026 17:25:00 GMT",
+        "source": "The Times of India"
       },
       {
-        "title": "Devotees Throng Temples in Bengaluru on Gauri-Ganesh Festival - Deccan Chronicle",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTUloTFlMQTJWWXVDS1Q2eXd0bHJUTi1wbXFvQlh6Rll6d1FSSFpRUWd5UjNnOEVMZUFrdTlzcEpJaDJlZjNXYktuR1g3OWUzUWlCUnVxa25GbC1hZDNiWDlpMjdHZUZpZm44OFlBczI0TEQ3OGFOMC0yeGhTYkpIcE1ua09wbXNWaDRzRWtQbm5SRzI0cTdtQTZ2MlN6a2M5NGg5eFMzcVVjdUVvOWwwVjZwMF9DLTJsSk0tSXhscnRpcmN6dEHSAcsBQVVfeXFMTW4tVmhKN00wOWwySWgzOFhIaENjamo2emhSVXVNX2VNR3hvc1MzakV6dFZXZDM3WUpJS3F3ZDBzSXVhNHNHSzV3RGEtRHU1RWhoSEdCNFZFaUs0S0hscmxrTVl5cDROeHZtT0VZRzJlbkRrTGJuQ19VQ3ROQTlrMkhMZlViY1RxMk9aZHB2a2VTc2ZTTGRjYk9aYVJPUllhYVdiZzhQemN0WmVUc21sUXdFblo4UUttZmJnWXVYTjdpbEIzSzljNFVTVzg?oc=5",
-        "published": "Mon, 14 Sep 2026 06:45:34 GMT",
-        "source": "Deccan Chronicle"
+        "title": "Play It By Ear: How Offline Music Experiences Are Shaping Artist Discovery - Rolling Stone India",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVjlpM3dJYWRUUjl6OUEtRk0wLWJETUJRNFBhUU92RXd5aFVxQnhNN1lwUDhVYzZVTlJPS2xpN3l3dlV2N2RGZVZsXzhGdnUwVUpXU3ptTzI0b1pqRVRGa2Z4WUExMjB5R1BkRG5jOU5sRnQ2TnRoMDd1TWZFN2R3QzRIM2JVUzFtSk9RQmdlRErSAZYBQVVfeXFMTUJuZmlUWWlHZF9YVTU2bGs2Qi15N2cwdnMxb244a0Q4U0xGbWxvWWtTQTd6T3VpaERWMmxKNHoxUnM0VUNxT2NubTZxYjd5RHFMMmJmMGRLbmtSM1BqV1NYS1BLRkRsN0E3YkYzV2ZITjNlYzhYYVFqRTJDNUFKSkdNNWxPUzVTVDNONlZWaUNwWVF0RWRB?oc=5",
+        "published": "Tue, 15 Sep 2026 13:03:27 GMT",
+        "source": "Rolling Stone India"
       },
       {
-        "title": "Bengaluru temples see huge crowds as Gauri-Ganesh festival begins. Details - India Today",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSWdLQktNOHYxX3h6clk4NHJya3hCOXJ1TmtXeEZTSEJiY2EtRjZuOEZ1bGVVQi1lTkJIYmxVcHVYVElIbEk2cHpBakFPNWJEZzJNNHR1b2ZzYnJJaFU5VzE5VU5GWVpYM2hfc2FWZzhZOTRfNjlqbHB4YjVDUldoUW9hT2tTNGg4ZUJXOXlUU3pRUzBCUHFhQUtyRnVxVnFGaTZUT1l6QTl3UUdYR1MtRVVSWktZMFM5MkJVRWctMmlOcGpwdERRcnFDWmhWNFhlVGVScEpaS25MU20xSVlaanl30gHnAUFVX3lxTE9CU3IySVl0NkRjWWVpU0poMXRpaHJVbU03MDVOdTNPVVJSa0NpcXZ0ZkRUWW9DN0hiWHJYaDRtZ1VhZGVTOTNiQjM4ajhPV3dJTVQ1M0JQS1Y3N0N6d3NuUnFWVEZMelJZb3ltS0F6Zi01NGRZQzlERGFNNnBtR3h6VmlJNVNGYXV0dm52U1ZfSVNvTGpzUzBPV3lrUnlhXy1vUWVhbmhMVlhSakNsOTFfdjJ2b0Yxc25HSUZCSkw3OV9VbnVUSEZwSTlrSkgwMWp0WGtkRmxhbmJHZEstUEdxbFlWVlhsaw?oc=5",
-        "published": "Mon, 14 Sep 2026 06:58:25 GMT",
+        "title": "Running clubs are becoming India’s new meet-cute - Prestige Online - Singapore",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWnhhcTdKUFJ4R0FydjVwQWt0d05DaEctaWdXeXNkNVI0VGNKRkdnQzJUWHFrMjhYd3lKLTh2ZkVDcExLWUJQMHNwdnRlZmE4dDZNYkZvbGJia1N0TGpVX1dPcXpxdmplbWJZMmYxU2V2YjJKM2ZfaTJYSlZyVU5TMndhZ2RyNjJUT2ZqMUxXLThZa1A4OG9QNVJGQmxiRVdMRWIwbkFlSzhIdXUwMUlXY2wtWlQwUdIBtgFBVV95cUxPWnhhcTdKUFJ4R0FydjVwQWt0d05DaEctaWdXeXNkNVI0VGNKRkdnQzJUWHFrMjhYd3lKLTh2ZkVDcExLWUJQMHNwdnRlZmE4dDZNYkZvbGJia1N0TGpVX1dPcXpxdmplbWJZMmYxU2V2YjJKM2ZfaTJYSlZyVU5TMndhZ2RyNjJUT2ZqMUxXLThZa1A4OG9QNVJGQmxiRVdMRWIwbkFlSzhIdXUwMUlXY2wtWlQwUQ?oc=5",
+        "published": "Wed, 16 Sep 2026 05:14:50 GMT",
+        "source": "Prestige Online - Singapore"
+      },
+      {
+        "title": "NASH Group to showcase intelligent electronics at Electronica Bengaluru 2026 - Manufacturing Today India",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsZTJTR3FHcThZbW1uX1VBeU12U3F4Q0RiOF9XUkE1SWs2eDRjM3JFVUo1ekVDaDdUMWQ5NXlwU3lqVnlRRFRwWkxndS10cF8tTUhDaXE4TE0xeUxkRjJvMnVWUU9SUWZNVGdwYmF2NUhBMjFmZmJROGxBYzZud2M?oc=5",
+        "published": "Tue, 15 Sep 2026 10:47:35 GMT",
+        "source": "Manufacturing Today India"
+      },
+      {
+        "title": "Sheraton Grand Bangalore Hotel at Brigade Gateway Pays Tribute to the Timeless Festival of Mehregan - HospiBuz",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVkdnUldNQUVQTEVOc2Mwek5CWDIxZjhEcDZvNDQ2VkludkY5cUxOcXBvTHFkdzBkWnc0SW1HZm5hNEpBWG9jRE9fV2pkajJWdENOVzQ4Vm1zYmRRVF9Tajg5MFBGdHJ3eTRzbmtmdFVia3ZqMzNFM0tyaHRaS2N6SGpEX2FVN3djR3l2R3p2eDlmZlMwNEtqVm9uMUZReEFLU1poWEQ2QUdyTGNvMmFVWldIdXJBbGhaYkJ1QVAzSW1pTkM0MWJDRlY0bkJJeWotdUdzdUpobnFMbjdpOFg2bFlkbkRlUdIB5gFBVV95cUxNVkdnUldNQUVQTEVOc2Mwek5CWDIxZjhEcDZvNDQ2VkludkY5cUxOcXBvTHFkdzBkWnc0SW1HZm5hNEpBWG9jRE9fV2pkajJWdENOVzQ4Vm1zYmRRVF9Tajg5MFBGdHJ3eTRzbmtmdFVia3ZqMzNFM0tyaHRaS2N6SGpEX2FVN3djR3l2R3p2eDlmZlMwNEtqVm9uMUZReEFLU1poWEQ2QUdyTGNvMmFVWldIdXJBbGhaYkJ1QVAzSW1pTkM0MWJDRlY0bkJJeWotdUdzdUpobnFMbjdpOFg2bFlkbkRlUQ?oc=5",
+        "published": "Wed, 16 Sep 2026 09:59:45 GMT",
+        "source": "HospiBuz"
+      },
+      {
+        "title": "ABVP tells Union ministers not to allow screening of Umar Khalid docu at NLSIU-Bengaluru - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPUDc5TWNVSExhSER2ejAyM2I5eXg1ZS12NkhVQUJZOHVxbDJuUE1xbjNNTV9VZFlZbkVHLV9IRG81ZjVzZW1IZTZCa2syeThKbnM0ZmREN3IxTmpYYk9zSHB5aGZmQU1lOWF1bkRTNUhKTldIcUxJX0ZpUXQ4TktnSTBvR1J1LUFuYk44Z3FfVlF3ek84MXd4MkFlZlNab2NQcVVaSHZKWG5BdVVXTlZELXYxaTF4YWZ5UXh6N0szR3p3NmJ0QXo4SHBaYkVYUG92aGI3SVVEYktMR3FzVnFzYjRiaFpxT2xIay0xTzkxUlFtOXVfTUdaaFRoS2tpcEpIelB1TElUTDB5TnZYRFBJUVFsX1R4cUdtVmtqVWNORdIBnwJBVV95cUxPUDc5TWNVSExhSER2ejAyM2I5eXg1ZS12NkhVQUJZOHVxbDJuUE1xbjNNTV9VZFlZbkVHLV9IRG81ZjVzZW1IZTZCa2syeThKbnM0ZmREN3IxTmpYYk9zSHB5aGZmQU1lOWF1bkRTNUhKTldIcUxJX0ZpUXQ4TktnSTBvR1J1LUFuYk44Z3FfVlF3ek84MXd4MkFlZlNab2NQcVVaSHZKWG5BdVVXTlZELXYxaTF4YWZ5UXh6N0szR3p3NmJ0QXo4SHBaYkVYUG92aGI3SVVEYktMR3FzVnFzYjRiaFpxT2xIay0xTzkxUlFtOXVfTUdaaFRoS2tpcEpIelB1TElUTDB5TnZYRFBJUVFsX1R4cUdtVmtqVWNORQ?oc=5",
+        "published": "Tue, 15 Sep 2026 06:46:56 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Super 6: Big investment drawn, but London event cancelled: VIjay UK visit hit or miss? - India Today - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMW51b3N4aFUwY0RtUFVCZkI3Nm43bFhHX1I2YlZqMENsSXdWZWMtN01zVjI3UXE4QjhfYnBYb0diLTkyLUc1Ny1MX09McVp1dUFjeEpkMkhLTDZuUjBmUnZoY0VGTU95ZThGQW9FaGhTaU8wMWdKWmR5ZkJYTmVTdGJ1VEpnN1pIU2FIcGhoUTBWMV91a1NZSU5rZlhFVjVKZnl4dEpOc2ZMd2ZaSlZIUTh2MmlSOFdRYkZwaW5kWE5KRFMxSENjQkgxNnJIamhXRjFNaWtqVXVQSDM1MTNRYTFZcm53MzRPdkFfdmJ30gHuAUFVX3lxTE8xbnVvc3hoVTBjRG1QVUJmQjc2bjdsWEdfUjZiVmowQ2xJd1ZlYy03TXNWMjdRcThCOF9icFhvR2ItOTItRzU3LUxfT0xxWnV1QWN4SmQySEtMNm5SMGZSdmhjRUZNT3llOEZBb0VoaFNpTzAxZ0paZHlmQlhOZVN0YnVUSmc3WkhTYUhwaGhRMFYxX3VrU1lJTmtmWEVWNUpmeXh0Sk5zZkx3ZlpKVkhROHYyaVI4V1FiRnBpbmRYTkpEUzFIQ2NCSDE2ckhqaFdGMU1pa2pVdVBIMzUxM1FhMVlybnczNE92QV92Ync?oc=5",
+        "published": "Wed, 16 Sep 2026 14:01:00 GMT",
         "source": "India Today"
-      },
-      {
-        "title": "Karnataka to develop KTPO site with convention centre, exhibition halls: MB Patil - The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWUlLa19FQ0NFVUVERGdIUHJCX2pzTzlJUEZYaXpkUkFCeDZYMkV2MC1qMXMyRFVrald2cTZ3TlN2ZFBudTF6TVA4MC1kVmpWUG9zeDZPSTFtbzFhUE9lMk1fLTdaX2p2S01ab1VwSnZvMTR3NVhGNUxval9ZUUdZa05HSEh1SUhMaHNURDVGT19ZX0pFRWpNRDJkN2J1YVRKNkdQSFZkVV9VaE8zN01ZWDRxQlZaZzhKR2JUdS1YWkhlYmFBZWlOSTBuRmdhaEp5RlNyYml3NlNyOUEtT1RjZll30gHiAUFVX3lxTFBZSUtrX0VDQ0VVRUREZ0hQckJfanNPOUlQRlhpemRSQUJ4NlgyRXYwLWoxczJEVWtqV3ZxNndOU3ZkUG51MXpNUDgwLWRWalZQb3N4Nk9JMW1vMWFQT2UyTV8tN1pfanZLTVpvVXBKdm8xNHc1WEY1TG9qX1lRR1lrTkdISHVJSExoc1RENUZPX1lfSkVFak1EMmQ3YnVhVEo2R1BIVmRVX1VoTzM3TVlYNHFCVlpnOEpHYlR1LVhaSGViYUFlaU5JMG5GZ2FoSnlGU3JiaXc2U3I5QS1PVGNmWXc?oc=5",
-        "published": "Tue, 15 Sep 2026 15:33:00 GMT",
-        "source": "The Economic Times"
-      },
-      {
-        "title": "Bengaluru: Lace up for lakes - Deccan Herald",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2FUU3gzVFFVdndKVFpaUHpqTVRwSEoyVnBTMUFiX3ZNaV9QUDhYRmI4Z3VDeUJNZXhqUVpQSnBQRkI3M1lZTEp5MjFEUEhPNExaVW5VUVA5MWxPRTVFajV1MzdFc2N6YkZFVzM1azVWV1lvMzFnV18zcHEzS1lZVVR2UklPUlBxaEp1NW9EOEYwZFh4?oc=5",
-        "published": "Tue, 15 Sep 2026 22:07:42 GMT",
-        "source": "Deccan Herald"
-      },
-      {
-        "title": "Ganesh Chaturthi 2026: Date, Puja Timing, Visarjan Date And The Story Of Lord Ganesha - Brut",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeFpzOGZNdF9YdzBEZVEtNGNyVmVzd1hfNFgzd2szVUZGNmF5NXpiX1A0a1d0QlJ1SXd4Ty1qRHppYURvbDVndE9uNzZ0TS1FakxrcGRGWVpubmpLRnZBa1JUVTNzTG5xZWtteEM1dk5FVk5tWXJEX2NrbmhLWFl0R09RbFp5eDlkMUJvRy1SNWZyQ2ljT3cyTzZSSnlETFBIcW9KNVNKWFU3MFFGODUyVU9rOEJXOW45RkhoMzVDZXB0MWdObkJNUEI2Yw?oc=5",
-        "published": "Mon, 14 Sep 2026 07:00:00 GMT",
-        "source": "Brut"
-      },
-      {
-        "title": "India International Coffee Festival 2027: the national coffee championships prelims arrive in Mumbai - comunicaffe.com",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQamI4SEtXYWUwbHR0OFhSdXBDbVl5a3BwUVp1c3ZqQkhkVkpxcEdldU82UFFiOC1FZ0NENWV2M3pMNS1KUUxfNnM1VW9tY3gtUnlOODNlQUFrR2xDX0VvUVJUVnI0SnB3TkY2ZE90VmFseDkwZjF6cVhPZ2xRd1lPeFNfNDBoVzJsUWdVZFNHWjN1LVpvOU5fZGVBT002X3NFTHBxc25vdUdRYVN0dDE1Wjd3aHJIODJ6RDBnQW02TnZqbHMwVkdz?oc=5",
-        "published": "Mon, 14 Sep 2026 22:40:49 GMT",
-        "source": "comunicaffe.com"
       },
       {
         "title": "Bengaluru to host major Electronics Manufacturing Exhibitions from Sept 16-18 - The Covai Mail",
@@ -272,105 +272,141 @@
         "source": "The Covai Mail"
       },
       {
-        "title": "Gopalan Mall Launches Search for Bengaluru’s Next Top Modelling Talent - This Week India",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOME1QSFJnODZDVVpTc3ZBc2ZJcVh3VjhYa25QbzVwMFhIbjJ1Yy1OYXFCeXk0dHFiemZqUThaR3FxUzdvWENnWTVaSi05UHNfLW1ab3lmUG03bU9hSDV0bTJnYVA1azBSdHhDTjM4ZGZfMW9COTJpNW1CNjREOGJKMGk5UllLUmhyNnZabGxWVnJBZ2VZcm5Zb2pXVG1BUQ?oc=5",
-        "published": "Tue, 15 Sep 2026 11:58:18 GMT",
-        "source": "This Week India"
+        "title": "India International Coffee Festival 2027: the national coffee championships prelims arrive in Mumbai - Comunicaffe International",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQamI4SEtXYWUwbHR0OFhSdXBDbVl5a3BwUVp1c3ZqQkhkVkpxcEdldU82UFFiOC1FZ0NENWV2M3pMNS1KUUxfNnM1VW9tY3gtUnlOODNlQUFrR2xDX0VvUVJUVnI0SnB3TkY2ZE90VmFseDkwZjF6cVhPZ2xRd1lPeFNfNDBoVzJsUWdVZFNHWjN1LVpvOU5fZGVBT002X3NFTHBxc25vdUdRYVN0dDE1Wjd3aHJIODJ6RDBnQW02TnZqbHMwVkdz?oc=5",
+        "published": "Mon, 14 Sep 2026 22:40:49 GMT",
+        "source": "Comunicaffe International"
       }
     ],
     "google_news_india": [
       {
-        "title": "Modi told Xi India, China must be sensitive to each other’s core concerns: Govt - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNb1NJc0F6bzktbDNqX0F1YVBBWXVxT3QwcEdHdkxBZ2J1RE5udGQ0UVpPdXlVTnc4Qm5aVkNTOG5wNGxzNzRQajJocFNCcWQtUl9MRWl1VTJ3RTllTk1wNFhKbG5pNWFsVTdqN3NCOTA2M3hyZ0RRRDF5dVFfcDR3WVZ6RUFJbGxsTGhHMUxfN1dyREQ5V3NuS2E4TUJWb2lKQnE5NE90WWJiWGdmU21yOE9ZekdRV1YzRkNiY2swbnJpXzBVbW1pTkhVUWs2RndmMkxWdFBoVnd6R3J5?oc=5",
-        "published": "Wed, 16 Sep 2026 00:03:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "U.S. House advances Russia sanctions Bill that seeks 100% tariffs on India, others; set for final vote - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYjRTaTdNa1Q3WnFyNVo3MGlsdkR3d1FTZFdiS19BbW9ObUs2LWRwY1BjM0JucDgyZ3Z3dE9SS0VGT3hmYjI3QlNpRlc5VzZqazhCN2N1TlFUamdGTUNPX1FqR3dhQ3p5RWdvc0FWaF9NN19SWUh4dHhTOWlWYjhXMmtyQmRGMXRlS3FUUjNvTUxTekxJR1FNeDV0Q3Z5VVlic3BXSk1ySkNUeV9jaVdEMEJ1OVBCY3VUN2o4UThUNHJXNm5kVklFLVdtY9IB0gFBVV95cUxQVldtalRKczFjTjV6ZHkybXcxRlBoQmtxRjFvYnlQUjJUUmdyQnJHVU15anhMeGtpQmVqXzB5RG54YUtsbEMzQ2xTUFJuMjkyZjg2VDhpSGVzZFpsWUM1NnFuVXNoWnFyNmdMbjV0d2U2ZFNGLWZhbWpyZlJCSnlGME5EMmZEQ0FxQUpRRG5aMTdqaU4wMjA0MEloMkNnRGgteTl1Ui1fYWM4RHJ1SllzSWVQM1NBaXZYcV9SeGRzcEp3Wm5HSXFJelZzNHk3S1dtZ0E?oc=5",
-        "published": "Wed, 16 Sep 2026 00:36:07 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "Mecca Put On Air Raid Alert For First Time In History As Houthis Target Saudi - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS3hYWEZWbTZycE96Nzl2LWZDakhvbERXTkNZcGE1eUd1YXVaUFhuR2FEdzA1VEk0RjNROXBpMzVZMC1RNzVUMnljYTVFanJqekpMdUplQXVNNF9iV0lhTWRuczh0ek1BQVdnbTJfNVV4OXE4aUdRaUZJNks5c0RMYjUxQVg4dmtLcHlWa2x5T1c5U2lvM3JxT0tmdnZkdVBlNVJjWERoWXFHS3oyb0M5Vm1nOGhxWFVpeFE?oc=5",
-        "published": "Tue, 15 Sep 2026 17:03:02 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Trump rings Nvidia CEO Jensen Huang live mid-panel, calls data centres the ‘oil of the next 25 years’ - Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQ0NjUWcwXzVzaHhGNkktNVJxd09PNEZfcUFucjE1dnUtbVIzclIyVWFHal9hNFNRS0VLeXNBWVpacGljT1VRY2ZxRDZnQ0N6SkRxVDFlMm5XVXNmS1RuVmwzN2tjZ2k4MVl2d3ZfWm40NHVBbmxkaEszVnVxVkpIaWRfeXdjcHNYQUwtNDlUWmU2Qld3cm91YXNqaVJRS1JoWFdXTXhwa1U2S2N4aEc2YkpCYUJ1ZW9WUmJnQzI3ZnBCX3g3SXNPQmUza3huNnBNOVFia2p6Q0kwZFUxSTllX3lRLUVZcUJsWUxLV0F5Z2hrdEswaVVhNVc2V3luZVpDRlVZ0gGIAkFVX3lxTE1sbTJOdWFPLXlleTBzbUUzalR5UThWdHowN1MtS0ZzZmZjVnhDenlsamJCMU1UYW1ERUJPMy1HN2g2YmZmTl8zUE9sWkozRi1ObHE2aS1aR2ZNVnpwVmowejU3SW5Xd1FINDRFYVAtaWtpZTRQeUNxUE1iSE9CeTZTclBFVTdzZ1dFZERaU25tR091SW1DaGIzS2VCX3NDcDRFQzd4d0pVYnZ3UjFDRFNBS3ZCWGhuWmVNQnNtUjFSakF3dDkzcXY4TjlrQUtXMjduYnFVQmplU2ZwVHFOaHJaaEYtc25qNGo0ZHc3ZTBpMUpIZnA0SWNVaEpOeGdVb3l5LTVyekUtRA?oc=5",
-        "published": "Tue, 15 Sep 2026 02:03:54 GMT",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "Quietly, BRICS Starts Assembling a New Trade Finance System - Swarajya",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRU5OWHV6eXYtZExtR1BVMGdMOC1sUTcyUGdDNDFldE1jVmhJSEFvNkRldE5BM2h3WXZ3ZDYySk5XN2dDU1J1dW1ETDhhdGJ0alB4cUtUWXJRZ04wLVJmYWY4aXNHTWU5Z2FrdVdGcUxTdUZBbmZhRWpwOG1vSWJXc3FzZlRVVlVvUkFWcl9LbnNkRVdq0gGkAUFVX3lxTFBUN3Fic0hXWjZnWWY1a2FDckYyeEpTSUNvdExUNF9hTUZrUzI3cDZuTF8ybUNZem9LODNTWUtXUWhBX00xWUV1UndIb2d4YThwclZOMUFvNWJhaXAyWERldk50aDJpbDdDekFrTGpHT2FHV0NQb0QzelB5VWp1eEk0MkRnNG1PNDRNRmQzT3AxZjdjZjVEVkdhaEM3aGtzZHFLWmVF?oc=5",
-        "published": "Tue, 15 Sep 2026 09:15:50 GMT",
-        "source": "Swarajya"
-      },
-      {
-        "title": "India's UPI ends free era with fee on large merchant payments - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2tEdUtZclJBdVBxelU0S0UwRWc3NUtTaVpJRVM1UjY1a2VkYnI4c24wT3ppWmotaUNScndBNlUzVFp4d0JsMEszMHRWMnRQbDd0czJtVFRCcHFucjQ2b3Btd1pKTEJGb1dfMDZaLU1nTHNERDdpcWRJZXVfQkxRbjA5VlVmekZhNnNmOW5aemJsclRRVXlTYWFmQlY2RzlZaDA5RlZzQTg4RG1HMml6bEp3R01YRS1uSWVBbHZCUFByUQ?oc=5",
-        "published": "Tue, 15 Sep 2026 16:49:22 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Meta to report child abuse material directly to Indian authorities - BBC",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84N3JNTnFHMXp1NXo3STgzMXRiR3RBUDRzdTB2VEZuX2lkOVFCRzRwSUIxWE9zUGtrV01PYWlBSF9wOEJldXUyMFVfbEdaLXFRbWl6bTJDUEdPb00?oc=5",
-        "published": "Tue, 15 Sep 2026 10:28:57 GMT",
-        "source": "BBC"
-      },
-      {
-        "title": "Why Tarique Rahman Skipped BRICS In Delhi But Will Attend UN Body Meet - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT2laMXBSQ1NlRVBiRlAyUUhoeDNKTThJbndNVk5mbjloczBjOWJyZHY0ZXltaU0xbG5yVFlBUm91Rm9xV3B5RmVyVlVGRnNEc1JFdkdLbG9ScnBpX2w1UmJSTDRVa1hfbE9BQmhDbVJnMEZoR1F1TEtFSnREVjl2U2RKSzV4YkN4NGdmNWw4T1hYSVEtNlppLUpGY1F5WGdjV1d0X2lRLXpLelFPbG1KWtIBuAFBVV95cUxPRkhSU3ktQW9MMHlVeHVlVzdFTXVpVUtFcEhlbDQ0WU9TZVBYNWpHOHhNN0RDQV90dDZtdDRPSVVwSWwyZ1ltZGYwU3g2WEZtOXZyTVM2ZTBRY0dWcDRmMWFFQnl4NWhhczRETXMxd09yQlIxNVM4V21yNnpxQldrWklIbVkzbDFWbVY1LUNOUXJ0RlFVZzlNZHVYaWgxSTYzQTJLR3VGSG82WTIxZnRnMkEzTU50VE1D?oc=5",
-        "published": "Tue, 15 Sep 2026 11:22:37 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Shocking opaqueness: Delhi HC slams ITAT for passing order in Patanjali case without application of mind - Bar and Bench",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkl0MjBDYmg5RUdVV3BYN1Mzc1NSaURXQjdxUUxrVWJmS0VGRnRQeHZDOGhJTnoxcDBFb0JQcEMyY0Y1YWF6YTlvTXdIR3JGWE9uN2gyVE9odVYxWWxneDA3dVJCcEl4YjZiRzhYLXdPSjRsUWQwME9yMTNTcVE3WHUzckxLLXk0UGd1TG9IcVYtRXZGcVA2UnY2V1UzWGVyNWdhbVZHeWY3RmlsOHFpcWdYLS1yZmpYQ0F1OHhrd3NkejJNZGpNMzFiTnV6MkdMekHSAd8BQVVfeXFMTlhWMkFnT0ZydlcwRnludDM2clNVSVNKUksyR2NpLVBIQ2c2eWpsMjNYMXpROUJxOEZLTVNXRmNET3kzQmpiSWNiS2g4bDM4VFRsOVZ6WHQ4SzVNY25YZ3U1eGhlaERxSlJKbVdlUWV5dnhsVEJidUgwVEQyQ0Q5NVJmWUd5MEViUzA4VzdfLVc5bnh4cGU0V2Y2dXFnbnhteXAtQWZsZk1rZEgzZ3gtZ1JhYnNRUFV3UlNnckVCak9TaW02cW1sbXQ3NmFLVVc2SFV5a05hY2pzeTUzTlIxMA?oc=5",
-        "published": "Tue, 15 Sep 2026 08:38:43 GMT",
-        "source": "Bar and Bench"
-      },
-      {
-        "title": "BJP using ‘backdoor route’ to implement UCC, should legislate in Parliament: Omar Abdullah - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSXFvRGVRcDdqMTVtR3R6NHRLTjdfYmlCbndkVEYtelRodVZKRnc2eXRBZWFGRnBocG93WVIyUGI0ajlGNW9mcVluVWVObUJ5bFlQNzhhZms0RHo0NWd1RTRqY0lNS29RcnFocnFhWWtxYU4zYmhSaGNmWHdFc2NxQWRYNTRBNW40SDJJMWdMRElIU1AyYW9hVGxiTTdxdkJBdzZITG5QcWI0c0JjUEtQZW9RMXJXRjBPVW5Rd3A0UFdVelFLcFd4Nks5aG1YT1doaHNv0gHaAUFVX3lxTFAxdGV2SDBKTHJVNlI5b2Ztbm1LSEpqZGxvdjB5RERrU3BaaWhZZVFiYndDZ0FtWUd2NndkUi00YlZwS3hnNEYteE1QM1U5RmYxSkFDQ1ExMElJdUhkcy00YmJTSGVHcjI0MDRZQ0cxR3Z2WFd2Z0JLZXNXcTUtSm9qVG91SjhCaGp1ZGlIWDZtSDg4SjFWQmJIU0RURzIyRFlKZ09CRmJITjJ3d2RWN2VfcVRKSURoeFE1S1BsY1ZoQTVkbnBmOVNKZVV5RHV2SUpRdE4zODBCMHNR?oc=5",
-        "published": "Tue, 15 Sep 2026 07:37:46 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "\"Not People I Interviewed\": Trump Slams Judges Over Mail-In Ballot Ruling - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSmZHeDh0dHRtTlJQRERZMGRhVW4yTGtMVTVpWnIwMWstemdiZlZCemp5OGNwRVpEemdIVlloSlIxZUwzeUplQXFEc0w4eGlZMmFZUkhNZ0lZbDRoZHhTSS1fcFlWLVp5MWFxREVITXlzLWxTUGp4eGdPNExQV2JXZFE1ZS1wWlpFdVdGTEtNY29DUkdLa05lR3kyeVdUY1VSMHpqUDYxam9Kb1pCWFhrWdIBuAFBVV95cUxQRWYzY05KQmRpaVkzZ0J2MS0yTXpWbG9ZNnM3SGFMSC1POVVqc18xVVpHdXF4R3N6QmVqNkcxa0RCR3dENnhRNTJITG5pNUV4cy1vbjZKTFFwVDJPYUpRRDdCU1hHQ2hETWc4NVhjdXJGMGpnMXZBLUFrcm43UFFobGtZdzFfZUdpUExMTENkbnRvMlhUSVJrZHZrRlVUb2dwZ19LQ1RzenJuLTVFQk1WQnJVVHhtZFhq?oc=5",
-        "published": "Tue, 15 Sep 2026 18:43:55 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Trump claims 'failing nation' Iran wants a deal ‘quickly and badly’, says he'll decide on US... - Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOEs2LWMxSmFLSG0ycm1hcnduRDNfNGJvVUtnT2ltWEJ5aWdXRVBUcnhSSEduaGR1TWVQcEFlZlMyOW4xQkh6cV9SUms2OTYwakIySmVzTmFMdlJ1UWJoVjkyVmRaclpXLUZnZkMzMXlNTmsyTGU0d1lQalV3aXpIZXR4d1pNTEwtWUZtOTNlSEhfcEtnbTd6dVZEb2dqYnN3NTJTa3RkekFfRV9tMXFCVU1VUldDeUdwYm9wbHQtY3dKdHktbGNJQW5TZWpXRWJOT2xRNFNhVjFCMWg5ZDVnY2laazQyTkUzRXBn0gHwAUFVX3lxTE1IcDAwaElHZzZ2cmZ5TTZCdUpNRE1KbFVlX25Hd3JQM01RZllUcXUwNUJ6REQ4bnN1bF85TFZoUDBmSG9mYWVEdTFKSFNMdDQweDFWZk5lTmF1VWpQTHFqbzFzSFlzWnFsbXYzMm9uNnRobXNoS2JjM3pUTElDTEoycnpuaEs1T1oxTzBiMURCVnJmLTFiVjlaeVpaQTBwY0V5d00wTVpBWXdDM1hQanBXdnM0amhsY1g4blFqWG5OOUdxSmwzNHRyTDJzVHVIakdBUUMwQ0JUTVdhRkh5NHBuM3RPNUxiYWxFbGdQUEhwMQ?oc=5",
-        "published": "Mon, 14 Sep 2026 15:53:18 GMT",
-        "source": "Moneycontrol.com"
-      },
-      {
-        "title": "$33.4bn war cost, $22.3bn on munitions: What US lost in 6 months of Iran war - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMGR0NGZZTlh0R29xeWt4VWI2STRNYzJETkE4cHhZREItNU0tV0pUcDNZZml5eDdRQi1JVkRFS2ZLdGY4VVJ6MzJ6bzBsR29CcERMandqRnZmbkhOUnUtY3Bmb2pvUVFYRlJFQVI0OVFmdUNWdHl5STZfVFZJenktNW9iVE1hN2d2QmoySXNvU0hLbUFSRi0wT3hnbDBrRjZ4SVpjNFEwSm92dHN6dUs5WnZ2X1FuU29pSGRpZmYzWUtvakhLUU90c2hadnR2eEptRkNva1VhRWtIMmhHT05jV1oxWGd0R1FyVFBYWQ?oc=5",
-        "published": "Tue, 15 Sep 2026 17:02:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Explained: US court pauses new visa rules — how it affects Indian students, journalists - Hindustan Times",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX1BiS1NPWUx6TlNxeW1RNDVUM19zbktZVkp3Q3cxMm9CekRDNzdTLUVMX0dfT1hfUkZIWG1QLTN1RC1xU2V0djExeXBtQnNzbzdBN2lLV1dEY3hfalB6TjN6WmxOWWw2U0w2OW5OblJyaHpCaGVsMlJyX08xbHpRZUI5ZFZYazVrSG1BUm1oa19DdThWZkV3bENxME83TzcxYmJmYUY4X0FiVGJOeXp5X3FHMzZmTTNBTXhjWHJBWER1LS1uZVA2V05rekFoX2VfUVgxazJtU3ZXSGJNc19XZTUtWng3UjQ?oc=5",
-        "published": "Tue, 15 Sep 2026 15:40:20 GMT",
+        "title": "Saudi Arabia LIVE updates: Tied by key defence pact, Turkey, Pak say no request from Saudi against Houthis | Hindustan Times - Hindustan Times",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNXk1RmFnZDJSb1BESUt6TXc5bEJjU0J0Yy1adThTRFl4cG8zZUQteGxUb0czQk43bWZfQk15Q2h1TlJXYlZvaEpyVEFCaGtnazM1YjhYXy1MWVpEYnc1RDJtSjNsMHhsOXZWTVBKUkVIa0NZclFHTGNTUUViR2NicUJkOTZrWWZVaU1aSE9GaDZaOE1HSS1BcWFHUHZHT05hVkxaRklHeXlwMDh6MGpvUTdvQkswY2FJVkZSc2xHenl3UmZ1dnc3a1pYeDJSN1NRSENfbnRGclRoVmRUdlJMbFlENFZ5TkxuaDljczJIQTM3TEVEUW1oTmxwLXVZak1COHdISHo2eW5Rc243RVVtRNIBlgJBVV95cUxOMnR0QnBibHhhRWNidXVORDBXeXJ1WGxVaGtCNXp2Tng2YWtfZ1BlU2NGVld6WHhoemdHaHZKejRod0FBM1B6c1lXYk4wQTBXVVJmWWtGcl9oWEs5eF90VElCQzktWFZEZGhITU5fVEdHazl0d3hUZU1naUV3eVhDWFl2TzlXaHl6TGRIQ2ZWNGNIY3EzT3BMZm12VmhyYVZGWHRiOGZxdHNEVUZnTEplb3JIcXhjLWVxU0Q1LXIxajVuaEpqS2gtU3J2Yy1MY1Y1VVo0aEtIbDRYdE1tMjM3ajU1eFJKS3FRSHpQRmZhVVRiNkJsNmkwV3hRYjE4dzJKOUxnSHczbmttLWRnck9QYVNtRENTUQ?oc=5",
+        "published": "Wed, 16 Sep 2026 10:48:50 GMT",
         "source": "Hindustan Times"
       },
       {
-        "title": "TCS, Tata Motors PV, Tata Chemicals: Tata Group shares surge up to 20%; here is why the stocks are surging - Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbXN0bmJzUlRXbFdHMzRYU0x2OExhLTZDYVNrV2VheDlENkJlOGJpalk4aDJEMjU4bFFDRzVRakhtTXJrTTVJeFpuamE4UVl6a1lpRm5WdGFqYktuWlRHaEhMclVhSDBtYlVYcjZtNTZnZzhUTlBIdHBRSmF1c2l5VlZKV1lxcDFUdzFfLWVMVHRVT2V5SzBBc0Qyd2pvNGlJSlFFaWZGTEhWVVRPTDBEVlFFM1hYUzBiU3BKZzBlazB3S0dsZFhvQ2Rza25fTXFrd1Nja3E4X1ZjU2lOMU1iMFZkckFTUkZ5YW5NV3FoR3h3dw?oc=5",
-        "published": "Tue, 15 Sep 2026 04:25:57 GMT",
-        "source": "Upstox"
+        "title": "Union Cabinet approves raising EPFO wage ceiling to ₹25,000 per month - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTUIzWHlJNVlJTVdzSkF4SFdTUjA2S1hTR3Fra0tPU3k4MUxRcS1vblYzVU5SbUh0QUhENzMwWng3SThLdjN4NDVvYzhTNVR0MzZJdVhBdEdjd1lLUDJvd0hOTTdYRmJVTzFsV0NoNUZJOEZWTThZWU9nOEdIdExBc08xV0xXLS1NcjY2RFd5Qm1iTFZCbFp0YUZib0hTN1N3ekNHZE56V3RRQWhiNXh2Z1R2Tkl4SlE1TER3VzhnRDVPMWlMNlNfbGZzckJaNkh4ZEZjSC1Td9IB3gFBVV95cUxNOXp4M1Qxb1pOdjZ5MWxMenFOUTUwMlRRYlowTW1qMHQzLTMtQUMydmQ3ZVVod012clQyZ0NNS1hDbTNvcmtFV0FZNFN4eFAwUDZLQi1LRGh1Ul9zbzVrcGZ4MHBoOU1XMGdiRWRwM2hIaFoxRVFlMUZaRDBRbmhtMlZlY3I3N0pmZG1CcEs1N1lGWGxVM2VsZ2dVMFNkZDdsSEgtNFdnSklzeFZ2QWtHWGplQ1VCNTU2dW02VlpZTldaTnBDMC1odU0zajVndG5ObDdGQVk0blFPX2VUWEE?oc=5",
+        "published": "Wed, 16 Sep 2026 10:06:25 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Pak Ship Collides With Indian Navy Unit, Delhi Summons Islamabad's Envoy - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTFKV1FZM2FHYmZsaHZBdmlFUGthSTczV0NvSVRsLUhOX2poSWpsTWhpdE5maVdFOW1pS0RvVTVWang3b2lyYlBoV3RxY2dfT3d5QXdnbzVIYlBHZ0htVEMycl9Hd1lTdlJDWlZHOU52RG1JZVpGZ3pxZk83bnd4RGlDdWZkMHBabUVBRzFmSzAzM3ExTU5xeXV3cmFfd29pcDc0QklybEp2QTY4UmVrNW8wUjBXUQ?oc=5",
+        "published": "Wed, 16 Sep 2026 07:13:56 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "Disha Salian death: Why CBI FIR mentions Aaditya Thackeray, Rhea Chakraborty, Dino Morea - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdFhkYjVRRENseDFOSnd4SVJEQW1CWmRMd0UxN09jYXNFdE9Id0p4QktPal90UmlyeFFqaGRWYi1Uc0dCM3IwYzY2Ym5oZnJMd25tNnBJaXFuR0RPZEFxblhObFRLaEtQbUNmX0dMRXpsLV90NVRJb0FuaXA3VXVRMHprZWNvTG9BUTNvY0tEMWpPdURrc0RzYk91NWxGd2VEYS1RNk5HYWJTSjdIcWItRnhJaG5JNjR3UTZqSGFKMjJvNzAwcWEteGE2U3daS3B1R2dMUkU5U3AybmNzSEdZWnhJZEpoeGpxOE5ILWk2T1TSAfYBQVVfeXFMTnhDWm9mWHRGQmhvTzhPaExpb2RxMXV5eDJLR2tkS1gzVVItSFZ6T1UxdkpvTTE1OG1TSUN1M2twU1RrRGtQbXY1Z1l0MWptcFd5N1FvQW5IekFObG1jRUowdkxsb0Myd3J2c1hEbXlvSGU1NE8tY1FLQ2NWY2pGQS1GNFZnZHR3Tl9MUE4xdFhOMGZZWVFscUo1OUxxRmlIdy1MblA5ZGFwNDFqSXFxOVpMcUhhNHBFOU81enEwb3JnRldTQ3dBNUs3ZXNjOE9RYlNOaVVKTFE5RmVaRXRFQ21DbHpnbTF1X21UWldtNVdhWHQ2anJ3?oc=5",
+        "published": "Wed, 16 Sep 2026 06:14:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Centre declares Pak-based Shahzad Bhatti Network a terrorist organisation under UAPA - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMU9DdDB4Y1hMLXlwbFA1dnU5b003WER3LW9EeFg0cUtzRnNFaDVqbm1tLTF5TlRFeXdMc0xLMmx6V0MxMWttU0h4YW96Mllkc3lIb1ZxRURveTQ5b3doOUQ2QmMtYzJQcm1SNkNacEtBbTh2Z0hkU0VoZWpPbUNFZ3FJUzdFTGVPa2h4aE5CRXRhcXFid1pZMGIyWE1kWEJGNTd4R3E0eWUxRlVlTG90TlVrWlJJTGQ2QnJiN2dMOE5PMTJDUmE4bnhjMkZEbWpSTEdBaG5sUXdfbHN6Y19EWWdjNDI1TVU?oc=5",
+        "published": "Wed, 16 Sep 2026 11:11:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Delhi HC says words used by Ajeet Bharti were offensive, reserves order on anticipatory bail plea - Bar and Bench",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTWhoVFR3dTNRS1ljVDQtbWtzTjExNFZUQ1k0alFVcGd3WDc0c0NDTy1GSkFINVVocFVDa1E2RmZnUW5sYk43S1RkcXNmWDduNXgxM0Z1a1BJSEwxUEhpWjUydDRMUDNsTlpTVkZZT3FHTUdVcmd6Vnc4QWZ6SDJQbTVVRGRLOUh4N2NEUzR4NlVnci1pcTQ3czNYaEdYUmdqWnFHRjFWQ29JX0FqMTVhQXBTaWQ4MVlXRzltX1RPeUJTUnhSdUxYUTNoaHh4aThSdGNVempMVdIB5AFBVV95cUxOZUVQeDJoRHByZTFsX3VVMjJxTlFzVWR0SVVkNXo3MERBODRTMURURndBWVN6aV9vRkRtdWhCaXpBMVo3eHREQk13UVRFOTBkQmItX05HUFpGT25zSmxqOWFEV05pTzd0aGdVMG1lWldGVXVkUXBaQVFBdTB1OENpWlFmSDFSY2I0N3NBSGFOOHJXUF90Tm8xQXh6Q2JjNnZLaWlfallSS0hNX1djaVdPS2ZLOU5BLUZ1REhKT2R2WVpUTTdPdzhHT0VrNEc5S056RWdHM0VINFhlV09zb2l1UFR4TkM?oc=5",
+        "published": "Wed, 16 Sep 2026 10:25:50 GMT",
+        "source": "Bar and Bench"
+      },
+      {
+        "title": "Who has to pay MDR on UPI and who stands to gain the most? | Explained - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVpYLWRKTDlVaTYyRjhYNDBhQVpraU9XTlZWWjl5Q2pqSThSbGZaVDFJWlFIbm1obnIwZ3ZBLVNIUU0yeE9SNUF0QWlWc0xuaEc4WU9vM241WnI4UVFsYjFUSWFvbzE1TEEyc1Y0dVBOYXlyU3QyUjg4VUdUU0t2VzhteFZIS1dfanhlMXg4elUtZ0wyUzZQQmptcTNBM0RWcmpQdlU3T3dHRzV6NlBEOFRMRE9YVXFLbURQV1BfbS1wb291NEh2SVN30gHQAUFVX3lxTE84ZFdsaG5wVUg4aXlHcW9MSVlnY3IwN3ZVMEo3T0F6ajV3YjJqRVJxTFBhNW9VWUg3YW5DUFRORDdjN2ZLemhBWlY3YVJrWTd3YXB3Vi1MOHp3dXZ3Qy1UWXE4S1FLYzNyNGRGYTBaSG1tcEhyeWl3RVJfN3QxLXlsbTRBSXl0VllCRnJSSXcyem1EaGVHRFNZZlZtN3pRSmNra1Rtb1JTcDdiSTdGTGZPaURDWlFGV2xSLVozdTR1VEtvMnpNR3RpbTN5b2QtYVk?oc=5",
+        "published": "Wed, 16 Sep 2026 07:13:37 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "'Meta has admitted mistake, must remove child abuse content': Govt sources say firm has no immunity - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS0NsYklqRXRlTEdRTWtfWTQxTFpaakl1X0ZOMllDdlM1YUlwVkQ0cXpya3U2bm5mVFdpYl9nNkgzaVg5QkFMQ0dJdTBlZllSRGVhT1lXS2NPYVdveUlMVnRlT2dWVk8yWkhFWWtQT1BLRWpUSDFNV2oyWmRsZ01kRG41Z2hKeUIzQ29zdy1oa2tfYWhZeXhpYnJlbFlCY0R3M3FtQkhjSlFvMGIzNzFlTjRvYU9HZS01a3ZiTTJmd1RHcW90OGR1YmlWUktQQU4yR1NPN1ZyVXR0a0NRWFpJQnUxb1g5aFk1UkFrV1Z1eXprbjFxd3c?oc=5",
+        "published": "Wed, 16 Sep 2026 11:32:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "'You File PIL Every Week, Don't Pile Us With Petitions' : Supreme Court Chides Lawyer - Live Law",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFZPcEl4ZXlESW9tWDI5SHI1SXpkdXk2TzFBNVpKVEtoSkY2bDBIam9jQU5MNHVpSC1nYzV1QkxlR0txbGdWLXlyRVpGVWwzeGNNWk9fRDZ2ZWJGZmVUdmlJSFdrWHRNT1NCUGdselZRbkZQX2tzdzh5QVBrX3VHWU5HczRncHBrRUxZMW1mNGhaU1pHZmpCLVdJLVhVQmR4eGhBQ2h5cFoyWVR2eXpDT3BvdFppeWtoMV9Fa2R30gHDAUFVX3lxTE9uNm4wSG9NMVVia2g2T3UtclE0QWxXck9TN0FyWUE2bm1RazZEbXpKV210dFRNMFFORHdJNVZXS05BTzRBRFFlbWI2Q3IwcWZ0UnNEbThEbG5VXzRjY0gtZjNrQTBoSFJpZ1J2RVlIVzh5WEZUSUVfYWQ1TFdETlhPdGZEQU9VQUtERmdvQkVscXFaenpLZjNQTTV3ckxLdEJ0WWtKbElUMnFtdms2SjllbGQ3MjgzaUZHRWh6QWJJS296cw?oc=5",
+        "published": "Wed, 16 Sep 2026 06:28:14 GMT",
+        "source": "Live Law"
+      },
+      {
+        "title": "'Gimmicks': India on Pakistan's fresh announcement on Masood Azhar bounty - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS2NlNDlLNGhKZEg1bkUtTVRoOTg3UHRreXpReHc5UlBsVmYwUFJpc1VlZ005VzFJRERDSS1vQUNFbXpSbElYSDQzdnlIdUJxZXBSd0lCdXE4ZWUzVFpiak5SUkg1MjNCWllTdzV1V0M3elFra04xb0wzWVZvek5HX0xrT1RDSzl0bFRxZ09sNUl6b1pQc3F1WDJ1VFBKT1JuZjY1WnRYTWUzTnZRZDhORUxJd3o3SEcxRzhmOEhCdWpjVTlRNU4w0gHOAUFVX3lxTE90cnh5YzNmSExaME14dEhFclFtLThWZzcxbVZKblVVWERTM2xGX1ZkM2xVWFMtSnlQLXNDY0NObGdDUUpieUtLSjFEQ3dkOHpIamdtdnVtNG52dmJkT3JPZ1YyZlUyejNaZk5aVG5Pb2l5dWdzUzl0VW1HZm12anJVMkhMMlZ3WE80OW9Gb3Y4UWZiZzllWkxOTmFVcHJwTXZWRUFBVVItYk83eHF5dWdMYk5YbnI3Ml90RFNES2M5Q29MaEN3RmY1V1FleFFn?oc=5",
+        "published": "Wed, 16 Sep 2026 01:45:58 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "EU opens door for Canada amid trade war with Trump, proposes first-ever associate membership - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeGxCN1l3X0tZUC1sU09FY29DWFRkeUtFUDlzWVRoWW5RYmQxM0pMemdHcnhRdURTdm5oazBoai1tc2xsTDEwcGltNFFkRF9WaTRySkZpQ2NLMVFQQ1VOeEx1bDZ6NlB1UGZlV0VhSkVXV2UxcXp4MUh1N2dDbUp6eVg0YlFjM3hVa0xwVFZaNWRvMzVnN1A4akkwWFpZd1NwSk5ZOEQ4bFhNUHpxdFU5bEtHS1pqUEVoXzl0WU1IM1NkZmtObC1PeDI3bk9PWDkwNTA4cmxnbTdsYXpiLVBfUDZaT1kzeElRNnRMUDg5UUd4MUI2VDJ2V09R0gH_AUFVX3lxTE9aX3RUZlF0RkQ4aFpLZ2JfelBQdjBJRzliWGlVVEw2UFA5YUpyVzZDRUFVV2VGbG9QSzc2MkgxS2gyTWFkZzQ4Qkd4TDlJOFZuMGt4NlNVQnNYZUxMb1lRSHN4dU9qVlIyaXRhSVFUTTBVU1JNd04zNFo3V2V5M0ROc3VHN1VqelpzQVNsMFRncXdiZWdvcC1hZEs5UkJqcW1NQ2pQc05MVUZ3NEVZUjlpZ2tjWHRleTZGaGw2M2tRTXJJOWdpWEl1NGtPYi05QVd6eDZuS0xnY05kWmgxVC1QUGJQei1ac1VkS2pQbFMtdWhCbVhQVlV6WDNlVFJyMA?oc=5",
+        "published": "Wed, 16 Sep 2026 11:43:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Gaza building collapse kills 20, traps dozens under rubble - Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFlrT0RGWWdIeDF3Q1h3QW1LTUt4T09CMnlySDRzcUU1dGZrWWlZWXlLejJZZ21pME91eUFERVhaZHNSc3RsXzNicHhWOGFKTE5ieEtjMkM0Rk53QWhlSVpOM1dLb2R1U1pCU1plMlh2R1JPTmFNQkk4OFRwT2dwRVJRUW1rR3NLeTlSRVBTMmkzU2dtODRRNjdNckk5dF9FZ280ME5SSmtNOW1a0gGyAUFVX3lxTE5ZQ2NLVGs2eDhUR21IVktkNmp2MTRhbTcxSUJrMHF5Y1kxX2xVaUZ2X3otNDNGdUQ5WEx2cThaVEFtWXZVWkExcG5WcjNQX1h4T0o1Z1NpWTc4Ym9leEJPZlBYS2RoekppTDN2b3l2ZzlpRVAwVnl2YTBNaU9lTU41OVF0T2FxZ200M0lnVk9LMjhpQmE4bzBFVngwQ1ZJTkFxQTlLNmRSNG9oTVY1WElCWmc?oc=5",
+        "published": "Wed, 16 Sep 2026 08:16:37 GMT",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "US House advances 100% tariff bill targeting India, other Russian oil buyers - Telegraph India",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTmNVdHJfWjdsT2twaDhKeDAydTRPeXR4dEhNNF83eEdCdVZQV3FEODlaNnJpVjBDenVKX0ZIQXpuZnhnaWREbkFSNWd1NURzLXQyM3UyaHA1d1pMMUQ1Y1UxZEF1cnQzY0RGdDNZdFFXWkJXVzVyaWM1TXJqSk5QX0NlRDJXQ2tMOUFwdTVXQmNYRklPd09XTm9ZMlRtVVFmWXFMMnZOYjF3d1k3OXcyRWtVbmQtZFR2ckhfVnR2YlLSAcYBQVVfeXFMT2l0YWJhbEM4M254N1pST0xGWk50aXp2Y1BVRnRRUi1XdlZXbE54bkhfNXJZODNyZnRfWExaTzRQaHJxaE1IZlBUX3BfN3ZVdHNMa0FMenNpOGhkeXBRaHF1RHQ2Q2t1bFZ4MWgtMkJlcC12azBpaUZTVG03anJXbDdXNlU2VWlDcjZzUW1oYXIxNFpQZWV6ZGktOVN4ZWloaHctTFBsbVNUXzNZVzNFWFA3WnJsSlM1ekFHUDJnUzU2aW5pUGlR?oc=5",
+        "published": "Wed, 16 Sep 2026 02:23:27 GMT",
+        "source": "Telegraph India"
+      },
+      {
+        "title": "Houthi Threat Reaches Mecca, Pakistan Hides Behind 'Ops' To Avoid Saudi Fight - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPXzRieEQwQmd3TkxXSXpmQURaZTBacmppeVhIcU41alpkaER2dkVQSERQU3hHSkJQR0phMzQtQXZqZm52NThubUZSM0thcWgzTmpCUjJQRUZJYTVxaEpNaFp1WjlPLW5lX3I0dG51S1R2N0lyNVJ2Nk1vUE9wcnYwdnhZbkdzaXAteWgyVnUtYVpjbkI2UGdBZ2UxUFZ3NVhsb1Ftb1dPOUowQ2NPOThIMFFCcndCQQ?oc=5",
+        "published": "Wed, 16 Sep 2026 08:38:03 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "India's NSE to launch IPO amid investor caution over derivatives-fuelled growth - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMENyWnEyZmJ2QmI4MkFvR2pmZm1tdGdIbjhlNkJmWGhxcTBtLUp4YkxUbHZTZFNXUDA4bGtwal9BZWVzUFRFdmhzTk1tTWhSMTJVRjI2c01KYVJsa0hoZnQzQ0l2MEZSVEtVUk1hUWRIbldYSFlJRjVYanU4dG9zZlZXZHVnTkhDOFJSWjhYNF9Ld0dWbUlaaWRNMFpYME9Lc1pEVE0xTlp2V2ZjRzlRV0lVcUVoZ0dUUDVGaTQzc00?oc=5",
+        "published": "Wed, 16 Sep 2026 06:26:00 GMT",
+        "source": "Reuters"
       }
     ],
     "toi_bengaluru": [
+      {
+        "title": "LPG geyser, no ventilation: Bengaluru woman dies under suspicious circumstances at Hassan lodge",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/lpg-geyser-no-ventilation-bengaluru-woman-dies-under-suspicious-circumstances-at-hassan-lodge/articleshow/134283583.cms",
+        "published": "2026-09-16T18:05:19+05:30",
+        "source": ""
+      },
+      {
+        "title": "Aadhaar in or out? Mixed messaging puzzles voters",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/aadhaar-in-or-out-mixed-messaging-puzzles-voters/articleshow/134281602.cms",
+        "published": "2026-09-16T13:25:14+05:30",
+        "source": ""
+      },
+      {
+        "title": "Self-claimed Maoist accused in bomb blast held after month-long hideout in Karnataka hills",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/self-claimed-maoist-accused-in-bomb-blast-held-after-month-long-hideout-in-karnataka-hills/articleshow/134280674.cms",
+        "published": "2026-09-16T12:36:09+05:30",
+        "source": ""
+      },
+      {
+        "title": "In 1854, a 16-word message from Kolkata to Bengaluru cost 10 shillings; how Bengaluru’s telegraph era lasted until 2013",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/in-1854-a-16-word-message-from-kolkata-to-bengaluru-cost-10-shillings-how-bengalurus-telegraph-era-lasted-until-2013/articleshow/134279796.cms",
+        "published": "2026-09-16T11:56:10+05:30",
+        "source": ""
+      },
+      {
+        "title": "‘Umar Khalid is a nationalist’: B K Hariprasad’s remark sparks BJP attack",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/umar-khalid-is-a-nationalist-says-bk-hariprasad/articleshow/134278646.cms",
+        "published": "2026-09-16T10:52:57+05:30",
+        "source": ""
+      },
+      {
+        "title": "Brace for water, electricity crunch as Karnataka drought deepens: CM DK Shivakumar",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/brace-for-water-electricity-crunch-as-karnataka-drought-deepens-cm-dk-shivakumar/articleshow/134277991.cms",
+        "published": "2026-09-16T09:59:10+05:30",
+        "source": ""
+      },
       {
         "title": "Teenage labourer bludgeoned to death by gang in KJ Halli",
         "link": "https://timesofindia.indiatimes.com/city/bengaluru/teenage-labourer-bludgeoned-to-death-by-gang-in-kj-halli/articleshow/134270807.cms",
@@ -424,51 +460,15 @@
         "link": "https://timesofindia.indiatimes.com/city/bengaluru/after-apex-bank-setback-rajanna-fires-salvo-at-shivakumar-camp/articleshow/134270296.cms",
         "published": "2026-09-15T23:11:15+05:30",
         "source": ""
-      },
-      {
-        "title": "Almost 2L Ganesha idols immersed on first day in Bengaluru",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/almost-2l-ganesha-idols-immersed-on-first-day-in-bengaluru/articleshow/134269152.cms",
-        "published": "2026-09-15T22:08:49+05:30",
-        "source": ""
-      },
-      {
-        "title": "BJP remembers Vande Mataram during elections: Khader",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/bjp-remembers-vande-mataram-during-elections-khader/articleshow/134268712.cms",
-        "published": "2026-09-15T21:49:47+05:30",
-        "source": ""
-      },
-      {
-        "title": "Karnataka plans global convention hub on 48-acre KTPO land in Whitefield",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-plans-global-convention-hub-on-48-acre-ktpo-land-in-whitefield/articleshow/134268337.cms",
-        "published": "2026-09-15T21:29:44+05:30",
-        "source": ""
-      },
-      {
-        "title": "Bengaluru woman’s phone number lands on dark web, strangers flood her with sexual messages",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-womans-number-lands-on-dark-web-strangers-flood-her-with-sexual-messages/articleshow/134268146.cms",
-        "published": "2026-09-15T21:18:43+05:30",
-        "source": ""
-      },
-      {
-        "title": "Early days, mixed ride: BMTC app revamp gets mixed response in Bengaluru",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/early-days-mixed-ride-bmtc-app-revamp-gets-mixed-response-in-bengaluru/articleshow/134268089.cms",
-        "published": "2026-09-15T21:10:24+05:30",
-        "source": ""
-      },
-      {
-        "title": "Siblings attacked for questioning pavement encroachment near temple in Bengaluru",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/siblings-attacked-for-questioning-pavement-encroachment-near-temple-in-bengaluru/articleshow/134268002.cms",
-        "published": "2026-09-15T21:07:14+05:30",
-        "source": ""
       }
     ]
   },
   "weather": {
-    "now_c": 21.4,
-    "condition": "Clear",
-    "high_c": 30.3,
-    "low_c": 20.2,
-    "rain_chance_pct": 41
+    "now_c": 27.2,
+    "condition": "Mostly clear",
+    "high_c": 30.0,
+    "low_c": 20.5,
+    "rain_chance_pct": 100
   },
   "errors": []
 }
