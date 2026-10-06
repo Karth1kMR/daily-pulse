@@ -46,16 +46,33 @@ notification. Then disable the local desktop fallback task if desired.
 ```
 Refresh the Daily Pulse brief for Bengaluru in this repo (Karth1kMR/daily-pulse).
 
-Read GENERATE.md at the repo root and follow it exactly, end to end:
-run scripts/fetch_sources.py, curate docs/data/raw.json into a fresh
-docs/data/brief.json per the playbook's rules, archive it, validate the JSON,
-commit with message "Brief: <date> <edition>" and push to main, then send the
-ntfy notification using the NTFY_TOPIC environment variable (and web push if
-configured). Set edition to "morning" if before 12:00 IST, else "evening".
+Read GENERATE.md at the repo root and follow it exactly, end to end: run
+scripts/fetch_sources.py, then build docs/data/brief.json with four parts —
 
-Rules that must hold: never invent news — only summarize what fetch_sources.py
-actually retrieved; exactly one street-smart scenario with one "best" choice and
-at least one "trap"; exactly 5 quiz questions; avoid street-smart topics used in
-docs/data/archive/ within the last 3 weeks. If every news feed fails, stop
-without committing. Success = valid brief.json pushed to main + notification sent.
+1. edge: ONE trap decoded, from content/edges.json. Prefer one whose trap appears
+   in today's news (set "anchor" to one factual line about that real incident);
+   otherwise least recently used. Never repeat within 21 days (check
+   docs/data/archive/).
+2. lens: ONE mental model from content/lenses.json, chosen because it explains
+   something in today's news. Write a FRESH "today" field (2-3 sentences) naming
+   the real story. Never repeat within 21 days.
+3. moved: 4-6 items {tag, what, so_what}. The so_what is the point — what it
+   means for one person in Bengaluru. Admission test: it must affect his money,
+   commute, safety, a record/entitlement of his, or a dated opportunity. Exclude
+   crime reports with no transferable lesson, political point-scoring, celebrity
+   and viral filler, corporate PR.
+4. carry_over: the PREVIOUS brief's edge as {id, prompt, answer}, read from
+   docs/data/archive/.
+
+Plus weather with a tip tied to something else in the brief, and read_seconds.
+Set edition to "morning" if before 12:00 IST, else "evening".
+
+Then archive to docs/data/archive/YYYY-MM-DD-{edition}.json, validate the JSON,
+commit "Brief: <date> <edition>", push to main, and send the ntfy notification
+using the NTFY_TOPIC environment variable: title "The Edge — <edge title>", body
+= the edge's "tell" followed by the most actionable so_what. The notification must
+carry the value, not advertise it.
+
+Never invent news, incidents, numbers or helpline details. If every feed fails,
+stop without committing.
 ```
