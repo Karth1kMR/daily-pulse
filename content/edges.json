@@ -1,0 +1,236 @@
+{
+  "_comment": "Street-smart library. One EDGE per day. Each decodes a trap's MECHANISM so it generalizes to every future version, rather than reporting one incident. 'tell' is the memorable 3-second detection rule. Keep entries tight: this is a 60-second product.",
+  "edges": [
+    {
+      "id": "rental-advance",
+      "category": "Money trap",
+      "title": "The flat that doesn't exist",
+      "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+      "tell": "Money is moving before a key has turned in a lock you touched.",
+      "move": [
+        "Never transfer anything before physically standing inside the flat with someone who can open it.",
+        "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+        "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+      ],
+      "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+      "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
+    },
+    {
+      "id": "digital-arrest",
+      "category": "Pressure play",
+      "title": "The police do not hold you on video",
+      "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
+      "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
+      "move": [
+        "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
+        "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
+        "Tell one family member immediately — isolation is the only thing making this work."
+      ],
+      "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
+      "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls."
+    },
+    {
+      "id": "upi-wrong-transfer",
+      "category": "Money trap",
+      "title": "The accidental ₹8,000",
+      "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
+      "tell": "They want the refund to go somewhere other than exactly where it came from.",
+      "move": [
+        "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
+        "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
+        "Screenshot everything before you touch anything."
+      ],
+      "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
+      "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'."
+    },
+    {
+      "id": "fake-payment-screenshot",
+      "category": "Street tactic",
+      "title": "The screenshot that isn't money",
+      "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
+      "tell": "Confirmation came from their screen, not from your bank.",
+      "move": [
+        "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
+        "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
+        "For sales, meet inside a bank branch or a busy shop — not a parking lot."
+      ],
+      "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
+      "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain."
+    },
+    {
+      "id": "deepfake-endorsement",
+      "category": "Money trap",
+      "title": "When a minister endorses a trading app",
+      "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
+      "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
+      "move": [
+        "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
+        "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
+        "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
+      ],
+      "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
+      "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
+    },
+    {
+      "id": "otp-bank-call",
+      "category": "Pressure play",
+      "title": "The caller who already knows you",
+      "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
+      "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
+      "move": [
+        "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
+        "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
+        "Knowing your details proves a leak happened, not that the caller is legitimate."
+      ],
+      "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
+      "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search."
+    },
+    {
+      "id": "auto-refusal",
+      "category": "Street tactic",
+      "title": "Meter politics at the junction",
+      "setup": "Auto refuses the meter and quotes a flat fare, double. It's raining, you're late, there's no other auto, and he knows all three. This is not fraud — it's a negotiation where he currently holds every card.",
+      "move": [
+        "Change where you stand. Walk 100m to the main road; scarcity was the only leverage he had.",
+        "Open an app and let him watch. The visible alternative resets the price more reliably than argument.",
+        "If you need the formal route: the refusal, auto number and location go to the Bengaluru Traffic Police app or 080-22868550. Mentioning you're noting the number often ends the matter.",
+        "Never start with anger. Start with the alternative — anger is a worse tool than a visible option."
+      ],
+      "tell": "If you're arguing about the price, you've already accepted that he's the only option.",
+      "why": "Price is set by alternatives, not by fairness. Every effective move here manufactures an alternative — distance, an app, a complaint channel — rather than appealing to rules. This is the whole of negotiation in miniature.",
+      "variants": "Same shape: surge pricing you can wait out, 'last room available' at a hotel desk, the mechanic who found three more problems."
+    },
+    {
+      "id": "job-fee",
+      "category": "Money trap",
+      "title": "The job that charges you",
+      "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+      "tell": "Money flowing from employee to employer, in any form, at any stage.",
+      "move": [
+        "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+        "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+        "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
+      ],
+      "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+      "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
+    },
+    {
+      "id": "phone-snatch",
+      "category": "Safety",
+      "title": "The first twenty minutes after your phone goes",
+      "setup": "Phone gone — snatched at a signal, lifted on a bus, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents.",
+      "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
+      "move": [
+        "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
+        "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
+        "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
+        "Keep your IMEI somewhere that isn't your phone. Today."
+      ],
+      "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
+      "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR)."
+    },
+    {
+      "id": "broker-urgency",
+      "category": "Street tactic",
+      "title": "The other party who is always interested",
+      "setup": "A broker shows you a flat. Before you've reached the lift, there's a call about another family deciding tonight, and the owner may raise the quote tomorrow. You're asked for a token amount to 'hold' it — ₹25,000, adjustable later.",
+      "tell": "A deadline you can't verify, created by a person paid on commission.",
+      "move": [
+        "Token money is almost never genuinely refundable, whatever is said aloud. Treat it as spent.",
+        "Say: 'If it goes, it goes.' Watch what happens to the deadline — real urgency survives this; manufactured urgency dissolves.",
+        "Ask for the owner's number and talk directly. Brokers resist this precisely because the pressure lives in the gap between you."
+      ],
+      "why": "A broker is paid for a transaction closing, not for you choosing well. That isn't villainy, it's structure — and once you see the structure, 'another party is interested' stops reading as information and starts reading as a job being done.",
+      "variants": "Same shape: car dealers' 'this EMI scheme ends today', gym joining fees waived 'only this month', insurance agents' quarter-end calls."
+    },
+    {
+      "id": "loan-app-harassment",
+      "category": "Pressure play",
+      "title": "When the app calls your contacts",
+      "setup": "A small loan taken through an app that approved it in minutes. A payment slips. Now the calls start — to you, then to your contacts, your manager, your family. Morphed photos, abuse, a 'legal notice' from a lawyer who doesn't exist. The amount owed keeps changing.",
+      "tell": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it.",
+      "move": [
+        "Recovery agents may not call before 8am, after 7pm, or contact people who didn't guarantee the loan. Harassment is a police matter: FIR, plus a complaint on the RBI's CMS portal (cms.rbi.org.in).",
+        "Check whether the lender is an RBI-registered NBFC. Many are not — unregistered lenders have no legal recovery path at all.",
+        "Revoke the app's contacts and photos permission immediately, then uninstall. Keep every screenshot.",
+        "Pay what is genuinely owed through a traceable channel, never to a personal UPI ID."
+      ],
+      "why": "These operations monetise shame, not debt. The loan is small on purpose — the business model is the humiliation leverage, which is why the threats escalate socially rather than legally. Naming the actual legal framework collapses it, because the framework was never on their side.",
+      "variants": "Same shape: fake 'legal notice' WhatsApps, sextortion video calls, 'we'll inform your employer' threats."
+    },
+    {
+      "id": "card-skim",
+      "category": "Money trap",
+      "title": "The machine that didn't work the first time",
+      "setup": "At a fuel pump or a small restaurant: your card is taken out of sight, or the POS machine 'fails' and needs a second swipe, or the ATM card slot looks slightly proud of the panel. The failed transaction is the part worth noticing.",
+      "tell": "Your card leaving your sight, or a swipe that mysteriously needs doing twice.",
+      "move": [
+        "Never let the card leave your hand — carry it to the machine, or ask the machine to come to you.",
+        "Tap beats dip beats swipe. The magnetic stripe is the only part that can be cloned wholesale.",
+        "Tug the ATM card slot before inserting; skimmers are overlays and they move. Cover the keypad with your other hand regardless of who's around.",
+        "Turn on transaction alerts for every amount, not just large ones — test transactions are small on purpose."
+      ],
+      "why": "Cloning needs two things: the stripe data and the PIN. The 'failed' swipe captures the first; the camera or overlay captures the second. Defeating either half defeats the attack, which is why keeping the card in view is disproportionately effective.",
+      "variants": "Same shape: a waiter 'who'll bring the machine' and returns slowly, free-Wi-Fi payment pages, QR codes pasted over the shop's real one."
+    },
+    {
+      "id": "salary-anchor",
+      "category": "Leverage",
+      "title": "The number you say first",
+      "setup": "An interview goes well. HR asks your current CTC and your expectation. Whatever you answer becomes the ceiling of everything that follows — and you're being asked before you know what the role is budgeted at.",
+      "tell": "You're being asked to price yourself before you know what the buyer budgeted.",
+      "move": [
+        "Deflect once, politely: 'I'd like to understand the scope first — what range is budgeted for this role?' Asking costs nothing and often works.",
+        "If pressed, give a researched range for the role and market, not your current salary. Your past pay is a fact about your last employer, not about this job.",
+        "Karnataka has no salary-history ban, so you may have to answer eventually — but 'eventually' after you've heard their number is a different conversation.",
+        "Negotiate the whole package: notice period, joining bonus, level, WFH days. Single-number fights are the easiest to lose."
+      ],
+      "why": "This is anchoring. The first number stated pulls every subsequent number toward it, even when both sides know it's arbitrary. Street smarts in a salon or a showroom and street smarts in an HR call are the same skill wearing different clothes.",
+      "variants": "Same shape: 'what's your budget?' from any contractor, the first quote at a furniture shop, a landlord asking what you currently pay."
+    },
+    {
+      "id": "parcel-customs",
+      "category": "Pressure play",
+      "title": "The parcel you never sent",
+      "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
+      "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
+      "move": [
+        "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
+        "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
+        "Report at cybercrime.gov.in; don't engage to 'find out more'."
+      ],
+      "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
+      "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments."
+    },
+    {
+      "id": "hospital-estimate",
+      "category": "Leverage",
+      "title": "The estimate that grows",
+      "setup": "An admission with a quoted package. By discharge the bill has grown — consumables, a consultant visit you don't remember, a room upgrade 'because nothing else was free'. Insurance covers part; the cash difference is yours, and you're being asked to settle before discharge while someone is still in a bed.",
+      "tell": "You're being asked to agree to money at the exact moment you are least able to walk away.",
+      "move": [
+        "Ask for the itemised bill, not the summary — and ask on day one, not at discharge. Daily interim bills are your right and they stop surprises compounding.",
+        "Get the insurer's pre-authorisation in writing before a planned procedure, with the package explicitly named.",
+        "Question room-category upgrades: most policies cap room rent, and exceeding it can proportionally cut your entire claim, not just the room charge.",
+        "Unresolved: the hospital's grievance cell, then the insurance ombudsman — free, and genuinely effective on billing disputes."
+      ],
+      "why": "The leverage asymmetry is total — the other party controls information, time and someone you love. The only workable counter is to move every decision earlier, to a moment when you can still ask questions. Pre-authorisation and daily bills are both just ways of buying back time.",
+      "variants": "Same shape: mechanics calling mid-repair, vets at the consultation, any quote where work has already begun."
+    },
+    {
+      "id": "used-vehicle",
+      "category": "Money trap",
+      "title": "The 40,000 km that were 90,000",
+      "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
+      "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
+      "move": [
+        "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
+        "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
+        "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
+        "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
+      ],
+      "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
+      "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute."
+    }
+  ]
+}

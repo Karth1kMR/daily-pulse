@@ -1,0 +1,197 @@
+{
+  "_comment": "Mental-model library. One LENS per day. The point is leverage: a model that makes a whole category of news interpretable, anchored to something real happening today so it sticks. 'test' is the question to carry around afterwards.",
+  "lenses": [
+    {
+      "id": "induced-demand",
+      "name": "Induced demand",
+      "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+      "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+      "elsewhere": [
+        "Build more parking and more people drive in.",
+        "Add engineers to a late project and the scope expands to absorb them.",
+        "Widen a hospital's OPD and the waiting room refills."
+      ],
+      "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?"
+    },
+    {
+      "id": "second-order",
+      "name": "Second-order effects",
+      "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+      "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+      "elsewhere": [
+        "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+        "A company bans a tool, so work routes through an unmonitored one.",
+        "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+      ],
+      "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is."
+    },
+    {
+      "id": "base-rates",
+      "name": "Base rates",
+      "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+      "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+      "elsewhere": [
+        "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+        "A rare drug side-effect reported in the news, against how many prescriptions.",
+        "Plane crash coverage versus the per-kilometre fatality rate."
+      ],
+      "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote."
+    },
+    {
+      "id": "goodharts-law",
+      "name": "Goodhart's Law",
+      "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+      "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+      "elsewhere": [
+        "Police judged on cases closed may book easier cases and discourage hard complaints.",
+        "Schools judged on pass rates quietly move weak students out before the exam.",
+        "Support teams judged on ticket-closing time close tickets fast, unresolved."
+      ],
+      "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?"
+    },
+    {
+      "id": "principal-agent",
+      "name": "Principal–agent problem",
+      "one_line": "The person acting for you is paid for something subtly different from what you want.",
+      "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+      "elsewhere": [
+        "Fund managers judged quarterly take risks that look fine quarterly.",
+        "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+        "A mechanic paid per part replaced finds more parts to replace."
+      ],
+      "test": "Before weighing advice, ask: what exactly triggers this person getting paid?"
+    },
+    {
+      "id": "asymmetric-information",
+      "name": "Asymmetric information",
+      "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+      "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+      "elsewhere": [
+        "Freelance marketplaces race to the bottom without reviews.",
+        "Insurance pools get sicker when only the sick buy in.",
+        "A degree works partly as a costly signal of something an employer can't directly see."
+      ],
+      "test": "What can the other side see that I can't — and what would make it visible?"
+    },
+    {
+      "id": "availability-heuristic",
+      "name": "The availability heuristic",
+      "one_line": "You judge how likely something is by how easily an example comes to mind.",
+      "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+      "elsewhere": [
+        "Fearing a kidnapping while texting at the wheel.",
+        "Overrating lottery odds after a winner is interviewed.",
+        "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+      ],
+      "test": "Am I estimating this from data, or from how easily a story came to mind?"
+    },
+    {
+      "id": "moral-hazard",
+      "name": "Moral hazard",
+      "one_line": "People take more risk when someone else carries the downside.",
+      "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+      "elsewhere": [
+        "Limited liability encourages risk-taking — deliberately, as a feature.",
+        "A free replacement warranty subtly reduces how carefully a device is handled.",
+        "Deposit guarantees reduce depositors' scrutiny of their bank."
+      ],
+      "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system."
+    },
+    {
+      "id": "survivorship-bias",
+      "name": "Survivorship bias",
+      "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+      "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+      "elsewhere": [
+        "Dropout-founder stories, drawn from the tiny surviving tail.",
+        "Fund performance tables that quietly exclude closed funds.",
+        "Old buildings seeming better built — the shoddy ones were demolished."
+      ],
+      "test": "Who is missing from this dataset because they didn't make it this far?"
+    },
+    {
+      "id": "sunk-cost",
+      "name": "Sunk cost",
+      "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
+      "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+      "elsewhere": [
+        "Government projects continued because of money already spent.",
+        "Relationships extended by their length rather than their state.",
+        "Reading a book to the end because you're halfway."
+      ],
+      "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?"
+    },
+    {
+      "id": "selection-effects",
+      "name": "Selection effects",
+      "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+      "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+      "elsewhere": [
+        "'Our customers love us' — the unhappy ones already left.",
+        "Exam toppers from a coaching centre that only admits toppers.",
+        "Crime statistics shaped by which complaints get registered."
+      ],
+      "test": "How did these people end up in this group — and who never had the chance to?"
+    },
+    {
+      "id": "loss-aversion",
+      "name": "Loss aversion",
+      "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+      "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+      "elsewhere": [
+        "'Only 2 left at this price' converting far better than a discount.",
+        "Holding a falling stock to avoid realising a loss.",
+        "Free trials relying on the pain of giving something up."
+      ],
+      "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it."
+    },
+    {
+      "id": "regulatory-capture",
+      "name": "Regulatory capture",
+      "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+      "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+      "elsewhere": [
+        "Licensing rules that protect existing practitioners more than customers.",
+        "Safety standards written around one firm's existing process.",
+        "Compliance burdens that only large players can absorb."
+      ],
+      "test": "Does this rule make it harder to become a competitor, or safer to be a customer?"
+    },
+    {
+      "id": "opportunity-cost",
+      "name": "Opportunity cost",
+      "one_line": "The true price of anything is the best thing you gave up to get it.",
+      "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+      "elsewhere": [
+        "A cheap flat 25 km out, priced in hours of your life per year.",
+        "Studying one more degree versus the earnings and experience forgone.",
+        "A free app paid for with attention and data."
+      ],
+      "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'"
+    },
+    {
+      "id": "compounding",
+      "name": "Compounding",
+      "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
+      "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
+      "elsewhere": [
+        "Daily reading beating occasional cramming.",
+        "Minimum card payments keeping a balance alive for years.",
+        "Reputation: slow to build, then suddenly everything arrives at once."
+      ],
+      "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention."
+    },
+    {
+      "id": "chestertons-fence",
+      "name": "Chesterton's fence",
+      "one_line": "Before removing something that looks pointless, find out why it was put there.",
+      "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+      "elsewhere": [
+        "A weird approval step that quietly prevents a rare, expensive error.",
+        "Legacy code nobody dares delete, for reasons occasionally excellent.",
+        "A family practice that looks superstitious and encodes something practical."
+      ],
+      "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it."
+    }
+  ]
+}

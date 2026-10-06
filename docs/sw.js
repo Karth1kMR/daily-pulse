@@ -1,4 +1,4 @@
-const CACHE = "pulse-v1";
+const CACHE = "pulse-v2";
 const SHELL = ["./", "index.html", "manifest.json", "config.js", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -13,22 +13,29 @@ self.addEventListener("activate", (e) => {
   );
 });
 
+// The page shell and the brief both change on every refresh, so anything that
+// isn't a static asset is fetched network-first and only falls back to cache
+// when offline. Cache-first here would pin viewers to a stale build.
+const STATIC = /\.(png|svg|ico|woff2?)$/i;
+
 self.addEventListener("fetch", (e) => {
+  if (e.request.method !== "GET") return;
   const url = new URL(e.request.url);
-  if (url.pathname.includes("/data/")) {
-    // brief.json: network first, fall back to last cached copy when offline
-    e.respondWith(
-      fetch(e.request)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, copy));
-          return res;
-        })
-        .catch(() => caches.match(e.request))
-    );
-  } else {
+
+  if (STATIC.test(url.pathname)) {
     e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request)));
+    return;
   }
+
+  e.respondWith(
+    fetch(e.request)
+      .then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, copy)).catch(() => {});
+        return res;
+      })
+      .catch(() => caches.match(e.request).then((hit) => hit || caches.match("./")))
+  );
 });
 
 self.addEventListener("push", (e) => {

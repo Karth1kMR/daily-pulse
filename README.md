@@ -1,39 +1,51 @@
 # Daily Pulse
 
-A personal daily-awareness app for Bengaluru: local news digest, street-smart
-scenario training, and a GK quiz — refreshed morning and evening, built entirely
-on free keyless data sources.
+Sixty seconds a day that leave you harder to fool and quicker to understand.
+Not a news app — a news app would tell you a cobra stopped traffic on Palace
+Road. This tells you the rule that detects every rental scam you'll ever meet,
+and the model that explains why the new tunnel won't fix Hebbal.
+
+Live at **https://karth1kmr.github.io/daily-pulse/** — installable on iPhone via
+Safari → Share → Add to Home Screen.
+
+## What's in a brief
+
+| Section | What it is | Why it's there |
+| --- | --- | --- |
+| **The Edge** | One trap decoded — the setup, the three-second *tell*, your move, and the mechanism that makes it generalise | Street smarts transfer through mechanisms, not anecdotes |
+| **The Lens** | One mental model, applied to something that actually happened today | A model explains a category of news forever; a headline expires in a day |
+| **What moved** | 4–6 changes, each written as *what → so what for you* | Awareness is only useful when it's decision-relevant |
+| **Yesterday, five seconds** | The previous Edge, one tap to recall | Retention with no quiz and no time cost |
 
 ## Layout
 
-- `docs/` — static mobile-first web app (no build step). Serve with any static
-  server, e.g. `python3 -m http.server 4174 --directory docs`.
-- `docs/data/brief.json` — the current brief the app renders.
-- `docs/data/raw.json` — raw fetched inputs (news RSS + weather).
-- `docs/data/archive/` — past briefs, one per edition.
-- `scripts/fetch_sources.py` — pulls Google News RSS, Times of India RSS and
-  Open-Meteo weather (stdlib only, no API keys).
-- `GENERATE.md` — the playbook the scheduled Claude job follows to turn raw
-  inputs into a brief.
+- `docs/` — the PWA (static, no build step). Served by GitHub Pages.
+- `docs/data/brief.json` — today's brief; the only file the app reads.
+- `docs/data/archive/` — past briefs, used to avoid repeats and build carry-overs.
+- `content/edges.json` — street-smart library (traps, mechanisms, tells).
+- `content/lenses.json` — mental-model library.
+- `scripts/fetch_sources.py` — Google News RSS, Times of India RSS, Open-Meteo.
+  Standard library only, no API keys.
+- `GENERATE.md` — the playbook the scheduled job follows. **The editorial
+  standard lives here**, including the admission test for what counts as news.
+- `worker/` — Cloudflare Worker for iOS web push (see `worker/README.md`).
+- `ROUTINE-SETUP.md` — one-time cloud-routine setup so it runs with the Mac off.
+
+The two libraries are the point of the architecture: the learning content is
+curated and verified, so quality doesn't depend on whether today's news happened
+to contain something instructive. News only *anchors* it.
 
 ## Daily flow
 
-1. A scheduled job (Claude cloud routine; local desktop task as fallback) runs at
-   ~7:30 AM and ~7:30 PM IST.
-2. It executes `scripts/fetch_sources.py`, then follows `GENERATE.md` to write a
-   fresh `docs/data/brief.json` (+ archive copy), commits, and pushes — GitHub
-   Pages redeploys the site at https://karth1kmr.github.io/daily-pulse/.
-3. It notifies the phone via ntfy.sh (topic kept out of the repo) and, once the
-   push worker in `worker/` is deployed, via iOS web push to the installed PWA.
-   See `ROUTINE-SETUP.md` for the cloud-routine recipe and `worker/README.md`
-   for the push-worker deploy steps.
+1. Scheduled job runs ~7:30 AM and ~7:30 PM IST (Claude cloud routine; a local
+   desktop task is the fallback).
+2. Fetches sources, follows `GENERATE.md`, writes `docs/data/brief.json`,
+   archives, commits and pushes — Pages redeploys.
+3. Pushes a notification that *carries* the Tell, so the value lands even if the
+   app is never opened.
 
-## Features
+## Local preview
 
-- **Around you today** — 5–7 curated local/national items with practical angles.
-- **Happenings** — attendable events this week.
-- **Street Smart** — one interactive scenario a day (choose → see which choice
-  is the trap / risky / best, with mechanism-level feedback), preferably drawn
-  from a real incident in that day's news.
-- **Daily GK** — 5-question quiz from today's news + evergreen topics, with a
-  localStorage day streak.
+```bash
+python3 -m http.server 4174 --directory docs
+```
