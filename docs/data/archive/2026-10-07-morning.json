@@ -2,71 +2,79 @@
   "date": "2026-10-07",
   "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-07T00:15:00+05:30",
-  "read_seconds": 80,
+  "generated_at": "2026-10-07T07:44:56+05:30",
+  "read_seconds": 85,
   "weather": {
     "now_c": 21.7,
-    "condition": "Mostly clear",
-    "high_c": 28.2,
-    "low_c": 20.5,
-    "rain_chance_pct": 98,
-    "tip": "98% rain today — and with Race Course Road shut, wet-evening traffic around Cubbon Park will be worse than the rain alone suggests."
+    "condition": "Partly cloudy",
+    "high_c": 28.5,
+    "low_c": 20.6,
+    "rain_chance_pct": 45,
+    "tip": "45% chance of rain on a day Race Course Road is shut and Hosur highway is already crawling — if you drive, leave before the evening peak; if you ride, keep a rain layer in the bag, not at home."
   },
   "edge": {
-    "id": "rental-advance",
-    "category": "Money trap",
-    "title": "The flat that doesn't exist",
-    "anchor": "A Bengaluru woman lost ₹21 lakh to an online property enquiry — reported in this week's city pages.",
-    "setup": "You find a 2BHK listed well under market rate. The \"owner\" is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad, so a caretaker will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
-    "tell": "Money is moving before a key has turned in a lock you touched.",
+    "id": "salary-anchor",
+    "category": "Leverage",
+    "title": "The number you say first",
+    "setup": "An interview goes well. HR asks your current CTC and your expectation. Whatever you answer becomes the ceiling of everything that follows — and you're being asked before you know what the role is budgeted at.",
+    "tell": "You're being asked to price yourself before you know what the buyer budgeted.",
     "move": [
-      "Never transfer anything before physically standing inside the flat with someone who can open it.",
-      "Match the name on the EC or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
-      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+      "Deflect once, politely: 'I'd like to understand the scope first — what range is budgeted for this role?' Asking costs nothing and often works.",
+      "If pressed, give a researched range for the role and market, not your current salary. Your past pay is a fact about your last employer, not about this job.",
+      "Karnataka has no salary-history ban, so you may have to answer eventually — but 'eventually' after you've heard their number is a different conversation.",
+      "Negotiate the whole package: notice period, joining bonus, level, WFH days. Single-number fights are the easiest to lose."
     ],
-    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact — ID scan, video, rent agreement PDF — for the one costly thing a real owner always has: the ability to let you in.",
-    "variants": "Used cars \"in transit from Pune\" · PG deposits · plots \"near the new airport\" · pet sales with a transport fee."
+    "why": "This is anchoring. The first number stated pulls every subsequent number toward it, even when both sides know it's arbitrary. Street smarts in a salon or a showroom and street smarts in an HR call are the same skill wearing different clothes.",
+    "variants": "Same shape: 'what's your budget?' from any contractor, the first quote at a furniture shop, a landlord asking what you currently pay."
   },
   "lens": {
-    "id": "induced-demand",
-    "name": "Induced demand",
-    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
-    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
-    "today": "Academics and activists urged a rethink of the Hebbal tunnel this week, arguing it will shift chokepoints rather than remove them. That's this model, stated in civic-planning language: the tunnel doesn't reduce the number of people who want to cross Hebbal at 9am — it changes where they queue.",
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+    "today": "Cabinet has approved splitting Bengaluru's single police force into five commissionerates, and former officers have voiced concern. That is the fence question: a unified command may be doing quiet work — shared records, one chain for cross-zone cases — that no one lists until it's gone. The split may still be right; the test is whether anyone can say what the single structure was for before it comes down.",
     "elsewhere": [
-      "Build more parking and more people drive in.",
-      "Add engineers to a late project and the scope expands to absorb them.",
-      "Widen a hospital's OPD and the waiting room refills."
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
     ],
-    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?"
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Race Course Road is shut for 60 days, with diversions pushing traffic onto surrounding city-centre routes.",
-      "so_what": "The cost isn't the closed road — it's the two or three adjacent junctions absorbing its volume. If you cross the centre, add 20 minutes or route east of Cubbon Park entirely."
+      "tag": "Money",
+      "what": "Nandini milk is set to cost ₹8 more from 1 November, per Times of India.",
+      "so_what": "It's a fixed monthly cost you can see coming. Check whether the ₹8 applies per litre or per pack on the sizes you buy, and recalculate your monthly milk spend before the 1st rather than at the counter."
     },
     {
       "tag": "Commute",
-      "what": "CMRS has begun the three-day safety inspection of the Pink Line — the final regulatory step before Bengaluru's longest underground stretch opens.",
-      "so_what": "Inspection starting means weeks, not months. If you're flat-hunting near Jayanagar or Nagawara, this is the short window before rents price it in — today's lens, happening to you in real time."
+      "what": "Race Course Road is closed for 60 days. Separately, rain and roadworks are slowing the Hosur highway and Chandapura junction.",
+      "so_what": "With 45% rain chance today, treat the city centre and the south-east corridor as slow. If you cross either, leave earlier or pick a route that avoids both."
+    },
+    {
+      "tag": "Commute",
+      "what": "CMRS has begun a three-day safety inspection of the Pink Line, and a separate inspection of the Bannerghatta Road stretch.",
+      "so_what": "Inspection is the last regulatory step before opening, so a start date may be announced soon. If your commute runs along Bannerghatta Road, keep an eye out for it rather than discovering it in the news after it opens."
     },
     {
       "tag": "Civic",
-      "what": "Cabinet approved splitting Bengaluru's single police commissionerate into five.",
-      "so_what": "Practical effect: the jurisdiction for filing an FIR will change. Worth knowing which commissionerate covers your address before you need it — wrong jurisdiction is the most common reason a complaint stalls on day one."
+      "what": "Cabinet approved splitting Bengaluru's police force into five commissionerates.",
+      "so_what": "Which station and commissioner cover your address could change. Find out yours now, before you need to file something and lose a day to wrong jurisdiction."
     },
     {
       "tag": "Your record",
-      "what": "Multiple FIRs over forged Form-7 applications — booth-level agents accused of filing bulk voter-deletion requests, 136 in a single case.",
-      "so_what": "Deletions don't notify you. Check your own entry on voters.eci.gov.in now; discovering it at the polling booth is too late to fix."
+      "what": "The voter-roll revision (SIR) is being contested, with FIRs and disputes over bulk Form-7 objections reported in Karnataka.",
+      "so_what": "A deletion request about you can be filed without you being told. Check your own entry on voters.eci.gov.in this week, while a correction is still straightforward."
     },
     {
-      "tag": "Worth booking",
-      "what": "Arijit Singh announced a nine-city India tour; Echoes of Earth 2026 revealed Thievery Corporation and Yussef Dayes.",
-      "so_what": "Both clear out in minutes on dynamically-priced platforms. The decision to make today isn't whether to go — it's whether you set a reminder for the on-sale minute, because \"checking later\" is the same as not going."
+      "tag": "Money",
+      "what": "Indian shares rose ahead of the RBI rate decision, per Reuters.",
+      "so_what": "If you have a floating-rate home or car loan, a rate change flows into your EMI or tenure at the next reset. Check whether yours is repo-linked, and note the reset date."
     }
   ],
-  "carry_over": null,
-  "first_run_note": "From tomorrow, yesterday's Edge reappears here as a five-second check — one tap, no quiz."
+  "carry_over": {
+    "id": "rental-advance",
+    "prompt": "You're offered a 2BHK well under market rate by an 'owner' abroad who shares ID and a video walkthrough but needs a token advance today, and you've not stood inside the flat. What's the tell?",
+    "answer": "Money is moving before a key has turned in a lock you touched."
+  }
 }
