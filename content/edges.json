@@ -231,6 +231,21 @@
       ],
       "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
       "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute."
+    },
+    {
+      "id": "gold-windfall",
+      "category": "Money trap",
+      "title": "The gold with a story attached",
+      "setup": "A stranger or a friend-of-a-friend has gold — inherited, found, blessed, or 'from a closed jeweller'. He will sell it well below market, or hand you a little as proof and offer more if you put money in. The story is detailed and slightly sacred, and there is a reason it must stay quiet.",
+      "tell": "A price below market, with a story that explains why it must be quick and secret.",
+      "move": [
+        "Never pay, lend or hand over anything before the metal is tested. A small sample being real is the bait, not the proof.",
+        "Test at a BIS-hallmarked jeweller or an assay centre of your choosing, not one the seller suggests.",
+        "Buy gold only from a registered jeweller who gives a bill and hallmarked pieces. If a seller refuses a bill, that refusal is the answer.",
+        "If you have already paid, report on 1930 or cybercrime.gov.in, and to the local police, the same day."
+      ],
+      "why": "A genuine bargain does not need a secret, a sacred reason or a deadline. The story exists to make you skip the one step that kills the con, which is verification. The secrecy also stops you from asking someone who would say no.",
+      "variants": "Same shape: 'treasure' found while digging, double-your-money schemes, a tout selling 'seized' goods cheap, crypto 'insider tips'."
     }
   ]
 }
