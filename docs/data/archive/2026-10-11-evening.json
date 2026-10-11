@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-11",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-11T19:55:00+05:30",
+  "read_seconds": 65,
+  "weather": {
+    "now_c": 25.5,
+    "condition": "Clear",
+    "high_c": 29.7,
+    "low_c": 20.5,
+    "rain_chance_pct": 0,
+    "tip": "A dry, clear night, so the delay tonight is more likely a midnight police check than rain. If you will be out late and drinking, book the cab before you leave rather than deciding at closing time."
+  },
+  "edge": {
+    "id": "fake-payment-screenshot",
+    "category": "Street tactic",
+    "title": "The screenshot that isn't money",
+    "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
+    "tell": "Confirmation came from their screen, not from your bank.",
+    "move": [
+      "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
+      "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
+      "For sales, meet inside a bank branch or a busy shop — not a parking lot."
+    ],
+    "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
+    "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain."
+  },
+  "lens": {
+    "id": "selection-effects",
+    "name": "Selection effects",
+    "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+    "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+    "elsewhere": [
+      "'Our customers love us' — the unhappy ones already left.",
+      "Exam toppers from a coaching centre that only admits toppers.",
+      "Crime statistics shaped by which complaints get registered."
+    ],
+    "test": "How did these people end up in this group — and who never had the chance to?",
+    "today": "Two stories travelled today: a man covering 35 km to the airport in under an hour, and another defending Bengaluru traffic as unfairly infamous. Both reached you because they were unusual or contrarian, not because they describe a typical drive; the miserable commutes that nobody posts about are the other half of the sample. Judge your own route by your own repeated trips, not by whichever story got shared."
+  },
+  "moved": [
+    {
+      "tag": "Safety",
+      "what": "Bengaluru City Police searched pubs, dance bars and restaurants at midnight, The New Indian Express reports; Bangalore Mirror is running a 'Don't drink and drive, not even water' piece.",
+      "so_what": "Expect checks and slower exits late at night. Carry your licence and ID, and arrange the ride home before the first drink, not after."
+    },
+    {
+      "tag": "Safety",
+      "what": "Moneycontrol reports a power bank fire on a Delhi-Chennai IndiGo flight, which was diverted to Hyderabad.",
+      "so_what": "Before your next flight, keep your power bank in your cabin bag where a crew member can reach it, and do not charge it from the seat while it is hot or damaged."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Hindu reports residents oppose B-SMILE's Ragigudda-Kanakapura elevated corridor, saying flyovers do not fix traffic, and want better public transport and Metro last-mile connections instead.",
+      "so_what": "This is a contested proposal, not a done deal. If you live or plan to buy along Kanakapura Road, do not price in a faster commute yet; watch for any public consultation."
+    },
+    {
+      "tag": "Civic",
+      "what": "The Hindu reports the North City Corporation will hold a phone-in programme for garbage-related complaints.",
+      "so_what": "If you are in the north zone, use it for a stuck pickup or dump point, and note the complaint reference so you can escalate it later. Check the corporation's notice for the date and number."
+    }
+  ],
+  "carry_over": {
+    "id": "upi-wrong-transfer",
+    "prompt": "₹8,000 lands in your account and a distressed stranger asks you to return it to a different UPI ID than the one it came from. What is the tell?",
+    "answer": "They want the refund to go somewhere other than exactly where it came from."
+  }
+}
