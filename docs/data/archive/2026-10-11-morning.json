@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-11",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-11T07:55:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 22.0,
+    "condition": "Clear",
+    "high_c": 30.4,
+    "low_c": 20.4,
+    "rain_chance_pct": 0,
+    "tip": "No rain is forecast, so the only thing likely to slow you near Vibhutipura Lake is the 20-day drain bridge work, not water on the road. Check the route on a live map before you leave."
+  },
+  "edge": {
+    "id": "upi-wrong-transfer",
+    "category": "Money trap",
+    "title": "The accidental ₹8,000",
+    "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
+    "tell": "They want the refund to go somewhere other than exactly where it came from.",
+    "move": [
+      "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
+      "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
+      "Screenshot everything before you touch anything."
+    ],
+    "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
+    "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'."
+  },
+  "lens": {
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "elsewhere": [
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
+    ],
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "Moneycontrol reports a Bengaluru man's 35-km airport drive took under an hour, and the internet reacted with disbelief. The disbelief is the base rate speaking: the story spread because it is rare, so it says little about your next trip. Plan the airport run on the typical journey, not the viral one, and ask 'out of how many drives?' before trusting any single commute story."
+  },
+  "moved": [
+    {
+      "tag": "Your record",
+      "what": "TOI reports 461 plot owners in approved layouts have been hit by the PRR-2 notification in Bengaluru.",
+      "so_what": "If you own or are about to buy a plot on the Peripheral Ring Road corridor, check your survey number against the notification before paying or building. An approved layout does not by itself keep you out of it."
+    },
+    {
+      "tag": "Commute",
+      "what": "Deccan Herald reports 20-day traffic curbs for bridge work on the Vibhutipura Lake drain.",
+      "so_what": "If your route passes Vibhutipura, plan an alternative for roughly the next three weeks and check a live map before you leave, since the feed gives no diversion detail."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Hindu reports commuters say BMTC service problems persist despite the Transport Minister's surprise checks.",
+      "so_what": "Do not count on a visible improvement soon. For time-critical trips, keep a metro or cab fallback instead of relying on a bus."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Construction World India reports the Bengaluru–Goa Vande Bharat has been extended via Hassan and coastal Karnataka.",
+      "so_what": "If you travel to the coast or Goa, check the revised stops and timings on IRCTC before booking, as the route has changed."
+    },
+    {
+      "tag": "Money",
+      "what": "Moneycontrol reports SEBI chief Tuhin Kanta Pandey says CAS guidelines will be issued within a week.",
+      "so_what": "Nothing to do until they are out. Until then, treat any message asking you to 'update your CAS' through a link as suspect."
+    }
+  ],
+  "carry_over": {
+    "id": "used-vehicle",
+    "prompt": "A used vehicle is fairly priced and the owner seems decent, but every claim about its history comes from him. What is the tell?",
+    "answer": "Every claim is from the seller's mouth; none is from a record you fetched yourself."
+  }
+}

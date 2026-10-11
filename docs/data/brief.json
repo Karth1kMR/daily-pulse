@@ -1,75 +1,74 @@
 {
-  "date": "2026-10-10",
-  "edition": "evening",
+  "date": "2026-10-11",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-10T19:58:00+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-10-11T07:55:00+05:30",
+  "read_seconds": 70,
   "weather": {
-    "now_c": 26.1,
-    "condition": "Overcast",
-    "high_c": 30.6,
-    "low_c": 20.7,
+    "now_c": 22.0,
+    "condition": "Clear",
+    "high_c": 30.4,
+    "low_c": 20.4,
     "rain_chance_pct": 0,
-    "tip": "No rain is forecast, so the risk on the road today is dust rather than slickness. Bangalore Mirror reports flyover dirt on the ORR throwing riders off balance, so on a dry evening slow down on ramps and the left edge of flyovers."
+    "tip": "No rain is forecast, so the only thing likely to slow you near Vibhutipura Lake is the 20-day drain bridge work, not water on the road. Check the route on a live map before you leave."
   },
   "edge": {
-    "id": "used-vehicle",
+    "id": "upi-wrong-transfer",
     "category": "Money trap",
-    "title": "The 40,000 km that were 90,000",
-    "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
-    "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
+    "title": "The accidental ₹8,000",
+    "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
+    "tell": "They want the refund to go somewhere other than exactly where it came from.",
     "move": [
-      "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
-      "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
-      "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
-      "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
+      "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
+      "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
+      "Screenshot everything before you touch anything."
     ],
-    "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
-    "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute."
+    "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
+    "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'."
   },
   "lens": {
-    "id": "principal-agent",
-    "name": "Principal–agent problem",
-    "one_line": "The person acting for you is paid for something subtly different from what you want.",
-    "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
     "elsewhere": [
-      "Fund managers judged quarterly take risks that look fine quarterly.",
-      "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
-      "A mechanic paid per part replaced finds more parts to replace."
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
     ],
-    "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
-    "today": "TOI reports a woman paid ₹1.03 crore for a 3BHK in Bengaluru and the builder then failed to provide the specially-enabled parking she was promised. A seller is paid at the sale, while the promise has to be honoured later, when he is no longer being paid for it. Get every such promise written into the agreement before you pay, not into a brochure or a conversation."
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "Moneycontrol reports a Bengaluru man's 35-km airport drive took under an hour, and the internet reacted with disbelief. The disbelief is the base rate speaking: the story spread because it is rare, so it says little about your next trip. Plan the airport run on the typical journey, not the viral one, and ask 'out of how many drives?' before trusting any single commute story."
   },
   "moved": [
     {
-      "tag": "Safety",
-      "what": "Bengaluru police detained a man for extorting money from passengers at Kempegowda International Airport, per The Hindu.",
-      "so_what": "Pay only the app or prepaid-counter fare. A demand for extra cash at the kerb is not a negotiation: note the vehicle number and report it to the airport police."
+      "tag": "Your record",
+      "what": "TOI reports 461 plot owners in approved layouts have been hit by the PRR-2 notification in Bengaluru.",
+      "so_what": "If you own or are about to buy a plot on the Peripheral Ring Road corridor, check your survey number against the notification before paying or building. An approved layout does not by itself keep you out of it."
     },
     {
       "tag": "Commute",
-      "what": "Bangalore Mirror reports flyover dirt on the ORR throwing riders off balance, and TOI says its report on a flyover death has prompted government action.",
-      "so_what": "If you ride a two-wheeler, treat flyover ramps and the left edge as loose-surface zones, even on dry days. Slow down before the ramp, not on it."
+      "what": "Deccan Herald reports 20-day traffic curbs for bridge work on the Vibhutipura Lake drain.",
+      "so_what": "If your route passes Vibhutipura, plan an alternative for roughly the next three weeks and check a live map before you leave, since the feed gives no diversion detail."
     },
     {
-      "tag": "Your record",
-      "what": "About 2.8 lakh SIR hearings are still pending in Karnataka, with Bengaluru accounting for nearly two-thirds, per TOI.",
-      "so_what": "If you have a hearing notice, attend with your documents. If you are unsure of your status, check it on the electoral roll portal instead of assuming it is fine."
+      "tag": "Commute",
+      "what": "The Hindu reports commuters say BMTC service problems persist despite the Transport Minister's surprise checks.",
+      "so_what": "Do not count on a visible improvement soon. For time-critical trips, keep a metro or cab fallback instead of relying on a bus."
     },
     {
       "tag": "Worth booking",
-      "what": "APSRTC says it will run 5,261 special buses for Dasara, per ETV Bharat.",
-      "so_what": "If you are travelling to Andhra Pradesh for the festival, book now and compare with trains. A WhatsApp seat offered for a premium is not a booking."
+      "what": "Construction World India reports the Bengaluru–Goa Vande Bharat has been extended via Hassan and coastal Karnataka.",
+      "so_what": "If you travel to the coast or Goa, check the revised stops and timings on IRCTC before booking, as the route has changed."
     },
     {
-      "tag": "Commute",
-      "what": "ET reports that Bengaluru's ₹1,500 airport cab rides could get cheaper as the Blue Line takes shape.",
-      "so_what": "The report does not give a date, so keep budgeting for cab fares to the airport. Do not change a rental or job decision for a line that has not opened."
+      "tag": "Money",
+      "what": "Moneycontrol reports SEBI chief Tuhin Kanta Pandey says CAS guidelines will be issued within a week.",
+      "so_what": "Nothing to do until they are out. Until then, treat any message asking you to 'update your CAS' through a link as suspect."
     }
   ],
   "carry_over": {
-    "id": "digital-arrest",
-    "prompt": "A video caller in police uniform says a case is open in your name, and tells you to stay on camera and tell nobody. What is the tell?",
-    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
+    "id": "used-vehicle",
+    "prompt": "A used vehicle is fairly priced and the owner seems decent, but every claim about its history comes from him. What is the tell?",
+    "answer": "Every claim is from the seller's mouth; none is from a record you fetched yourself."
   }
 }
