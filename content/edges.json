@@ -246,6 +246,21 @@
       ],
       "why": "A genuine bargain does not need a secret, a sacred reason or a deadline. The story exists to make you skip the one step that kills the con, which is verification. The secrecy also stops you from asking someone who would say no.",
       "variants": "Same shape: 'treasure' found while digging, double-your-money schemes, a tout selling 'seized' goods cheap, crypto 'insider tips'."
+    },
+    {
+      "id": "scan-to-receive",
+      "category": "Money trap",
+      "title": "The QR you scan to get paid",
+      "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
+      "tell": "You were asked for your UPI PIN to receive money.",
+      "move": [
+        "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
+        "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
+        "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
+        "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+      ],
+      "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
+      "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters."
     }
   ]
 }
