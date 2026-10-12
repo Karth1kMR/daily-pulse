@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-12",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-12T19:55:00+05:30",
+  "read_seconds": 70,
+  "edge": {
+    "id": "rental-advance",
+    "category": "Money trap",
+    "title": "The flat that doesn't exist",
+    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+    "tell": "Money is moving before a key has turned in a lock you touched.",
+    "move": [
+      "Never transfer anything before physically standing inside the flat with someone who can open it.",
+      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+    ],
+    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
+  },
+  "lens": {
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "elsewhere": [
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+    ],
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "Residents across south Bengaluru are asking for the ₹900 crore OMR–Indiranagar–Madiwala flyover tender to be cancelled and for public transport to be funded instead. Their argument is a Goodhart one: if the target is vehicle speed on one stretch, a flyover scores well, but the number that matters to you is door-to-door time for the most people. When a project is justified by a proxy, ask what the proxy was standing in for."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Overnight rain waterlogged roads and disrupted the morning traffic in Bengaluru (DD News).",
+      "so_what": "Rain-hit mornings are when the bus-plus-Metro fallback matters most. If more rain is forecast tomorrow, leave earlier or check your route before you start."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Commissioner of Metro Rail Safety has begun inspecting the Pink Line, and BMTC has proposed five feeder routes at a 10-minute frequency (Swarajya, The Hindu, Times of India).",
+      "so_what": "The inspection precedes opening, but no opening date was reported. Do not change your commute yet; watch for the final feeder route list, which decides whether the last mile works for you."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMTC plans to share real-time bus data with mobility platforms and is exploring tap-to-pay and flat fares (The Hindu, Moneycontrol).",
+      "so_what": "If it goes through, live bus arrivals could show up in the apps you already use. It is a plan for now, so nothing to change yet."
+    },
+    {
+      "tag": "Civic",
+      "what": "Residents held human chains against the ₹900 crore OMR–Indiranagar–Madiwala flyover tender and asked for Metro and bus upgrades instead (The News Minute, Deccan Herald).",
+      "so_what": "If you commute on that corridor, expect construction disruption if the tender proceeds. A public comment or ward meeting is the lever; it is where the decision can still move."
+    },
+    {
+      "tag": "Prices",
+      "what": "Times of India reports that a 'super El Niño' threatens India's coffee harvest, with Karnataka facing a 15 to 20% output slump.",
+      "so_what": "Expect upward pressure on coffee prices over the coming months, filter coffee powder included. Not a reason to stock up, just not to be surprised by the next price revision."
+    }
+  ],
+  "carry_over": {
+    "id": "scan-to-receive",
+    "prompt": "A buyer says his app is acting up and asks you to scan a QR code or approve a request so the money lands in your account. What is the one thing in that flow that tells you money is leaving, not arriving?",
+    "answer": "You were asked for your UPI PIN to receive money."
+  }
+}

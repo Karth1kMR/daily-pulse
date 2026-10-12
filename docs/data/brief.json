@@ -1,70 +1,66 @@
 {
   "date": "2026-10-12",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-12T07:55:00+05:30",
+  "generated_at": "2026-10-12T19:55:00+05:30",
   "read_seconds": 70,
-  "weather": {
-    "now_c": 21.5,
-    "condition": "Clear",
-    "high_c": 30.1,
-    "low_c": 19.5,
-    "rain_chance_pct": 27,
-    "tip": "Clear now, with a 27% chance of rain later. Navaratri lighting is going up around the city and Mescom has issued festival electrical-safety advice, so keep clear of loose or low-hanging wires near pandals, especially if the ground turns wet this evening."
-  },
   "edge": {
-    "id": "scan-to-receive",
+    "id": "rental-advance",
     "category": "Money trap",
-    "title": "The QR you scan to get paid",
-    "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
-    "tell": "You were asked for your UPI PIN to receive money.",
+    "title": "The flat that doesn't exist",
+    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+    "tell": "Money is moving before a key has turned in a lock you touched.",
     "move": [
-      "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
-      "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
-      "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
-      "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+      "Never transfer anything before physically standing inside the flat with someone who can open it.",
+      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
     ],
-    "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
-    "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters."
+    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
   },
   "lens": {
-    "id": "sunk-cost",
-    "name": "Sunk cost",
-    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
-    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
     "elsewhere": [
-      "Government projects continued because of money already spent.",
-      "Relationships extended by their length rather than their state.",
-      "Reading a book to the end because you're halfway."
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
     ],
-    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
-    "today": "BMTC has proposed five feeder routes for the Pink Line, and the Metro safety inspector has begun inspecting the line. If you have settled into driving the same route for years, the bike EMI, the parking spot and the habit are already spent. Judge the new option on today's door-to-door time and cost, not on what you have already put into the old one."
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "Residents across south Bengaluru are asking for the ₹900 crore OMR–Indiranagar–Madiwala flyover tender to be cancelled and for public transport to be funded instead. Their argument is a Goodhart one: if the target is vehicle speed on one stretch, a flyover scores well, but the number that matters to you is door-to-door time for the most people. When a project is justified by a proxy, ask what the proxy was standing in for."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "BMTC has proposed five feeder bus routes for the Pink Line stations, and the Commissioner of Metro Rail Safety has begun its safety inspection of the line (The Hindu, Times of India).",
-      "so_what": "The inspection is the step before opening, but no opening date was reported. Do not change your commute yet. Look for the final feeder route list, since that decides whether the last mile works for you."
+      "what": "Overnight rain waterlogged roads and disrupted the morning traffic in Bengaluru (DD News).",
+      "so_what": "Rain-hit mornings are when the bus-plus-Metro fallback matters most. If more rain is forecast tomorrow, leave earlier or check your route before you start."
     },
     {
       "tag": "Commute",
-      "what": "BMTC is moving to open its live bus data for third-party journey planning (Times of India).",
-      "so_what": "If it goes ahead, real-time bus arrivals could appear in the apps you already use, which makes bus-plus-Metro a more dependable fallback on bad traffic days. It is a proposal for now, so nothing to do yet."
+      "what": "The Commissioner of Metro Rail Safety has begun inspecting the Pink Line, and BMTC has proposed five feeder routes at a 10-minute frequency (Swarajya, The Hindu, Times of India).",
+      "so_what": "The inspection precedes opening, but no opening date was reported. Do not change your commute yet; watch for the final feeder route list, which decides whether the last mile works for you."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMTC plans to share real-time bus data with mobility platforms and is exploring tap-to-pay and flat fares (The Hindu, Moneycontrol).",
+      "so_what": "If it goes through, live bus arrivals could show up in the apps you already use. It is a plan for now, so nothing to change yet."
     },
     {
       "tag": "Civic",
-      "what": "Bengaluru North Corporation has set up a Tuesday helpline for garbage grievances (Times of India).",
-      "so_what": "Tomorrow is Tuesday. If you have an uncollected-waste complaint pending, note that day and call then rather than waiting for a general line to pick up."
+      "what": "Residents held human chains against the ₹900 crore OMR–Indiranagar–Madiwala flyover tender and asked for Metro and bus upgrades instead (The News Minute, Deccan Herald).",
+      "so_what": "If you commute on that corridor, expect construction disruption if the tender proceeds. A public comment or ward meeting is the lever; it is where the decision can still move."
     },
     {
       "tag": "Prices",
-      "what": "Times of India reports a 'super El Niño' threatens India's coffee harvest, with Karnataka facing a 15 to 20% output slump.",
+      "what": "Times of India reports that a 'super El Niño' threatens India's coffee harvest, with Karnataka facing a 15 to 20% output slump.",
       "so_what": "Expect upward pressure on coffee prices over the coming months, filter coffee powder included. Not a reason to stock up, just not to be surprised by the next price revision."
     }
   ],
   "carry_over": {
-    "id": "fake-payment-screenshot",
-    "prompt": "A buyer holds up a UPI success screen and is already walking away with your phone, saying the bank server is slow. What counts as proof that you have been paid?",
-    "answer": "Confirmation came from their screen, not from your bank."
+    "id": "scan-to-receive",
+    "prompt": "A buyer says his app is acting up and asks you to scan a QR code or approve a request so the money lands in your account. What is the one thing in that flow that tells you money is leaving, not arriving?",
+    "answer": "You were asked for your UPI PIN to receive money."
   }
 }
