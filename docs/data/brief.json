@@ -1,66 +1,69 @@
 {
-  "date": "2026-10-12",
-  "edition": "evening",
+  "date": "2026-10-13",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-12T19:55:00+05:30",
+  "generated_at": "2026-10-13T07:50:00+05:30",
   "read_seconds": 70,
+  "weather": {
+    "now_c": 21.7,
+    "condition": "Clear",
+    "high_c": 31.2,
+    "low_c": 20.3,
+    "rain_chance_pct": 4,
+    "tip": "Dry and clear with a 4% rain chance, so any delay today will come from the Purple Line disruption or the new Sadahalli work on the airport road, not the weather. Plan your buffer around those."
+  },
   "edge": {
-    "id": "rental-advance",
-    "category": "Money trap",
-    "title": "The flat that doesn't exist",
-    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
-    "tell": "Money is moving before a key has turned in a lock you touched.",
+    "id": "otp-bank-call",
+    "category": "Pressure play",
+    "title": "The caller who already knows you",
+    "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
+    "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
     "move": [
-      "Never transfer anything before physically standing inside the flat with someone who can open it.",
-      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
-      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+      "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
+      "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
+      "Knowing your details proves a leak happened, not that the caller is legitimate."
     ],
-    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
-    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
+    "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
+    "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search."
   },
   "lens": {
-    "id": "goodharts-law",
-    "name": "Goodhart's Law",
-    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
-    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
     "elsewhere": [
-      "Police judged on cases closed may book easier cases and discourage hard complaints.",
-      "Schools judged on pass rates quietly move weak students out before the exam.",
-      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
     ],
-    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
-    "today": "Residents across south Bengaluru are asking for the ₹900 crore OMR–Indiranagar–Madiwala flyover tender to be cancelled and for public transport to be funded instead. Their argument is a Goodhart one: if the target is vehicle speed on one stretch, a flyover scores well, but the number that matters to you is door-to-door time for the most people. When a project is justified by a proxy, ask what the proxy was standing in for."
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "The Times of India reports a 20% spike in Karnataka voter-enrolment requests around the SIR deadline. Nothing about the process got easier overnight; what changed is that a deadline made inaction feel like losing your vote, and loss framing moves people far harder than the plain option to check a record. The same lever is behind every 'expires today' message you get, so ask what you would do if the deadline were not there."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Overnight rain waterlogged roads and disrupted the morning traffic in Bengaluru (DD News).",
-      "so_what": "Rain-hit mornings are when the bus-plus-Metro fallback matters most. If more rain is forecast tomorrow, leave earlier or check your route before you start."
+      "what": "Purple Line Metro services were disrupted last evening after a 65-year-old man walked onto the track (Deccan Herald, Times of India).",
+      "so_what": "If you ride the Purple Line this morning, check the Namma Metro status before leaving and keep a bus fallback in mind. No report on whether services have fully normalised."
     },
     {
       "tag": "Commute",
-      "what": "The Commissioner of Metro Rail Safety has begun inspecting the Pink Line, and BMTC has proposed five feeder routes at a 10-minute frequency (Swarajya, The Hindu, Times of India).",
-      "so_what": "The inspection precedes opening, but no opening date was reported. Do not change your commute yet; watch for the final feeder route list, which decides whether the last mile works for you."
+      "what": "Work has begun on an overpass at Sadahalli Junction on NH-44, the only signal on the Bengaluru airport route (Deccan Herald, The Hindu).",
+      "so_what": "Expect diversions and slower airport runs while construction is on. Add a buffer to flight-day trips; no completion date was reported."
     },
     {
       "tag": "Commute",
-      "what": "BMTC plans to share real-time bus data with mobility platforms and is exploring tap-to-pay and flat fares (The Hindu, Moneycontrol).",
-      "so_what": "If it goes through, live bus arrivals could show up in the apps you already use. It is a plan for now, so nothing to change yet."
+      "what": "BMTC plans to share real-time bus data with mobility platforms, and has proposed five feeder routes at 10-minute frequency for the Pink Line. The CM has sought a date from the PM to open the elevated stretch, with CMRS observations pending (The Hindu, Swarajya, Deccan Herald).",
+      "so_what": "None of this is live yet and no opening date is fixed. Don't change your commute; watch the final feeder list, which decides whether the last mile works for you."
     },
     {
-      "tag": "Civic",
-      "what": "Residents held human chains against the ₹900 crore OMR–Indiranagar–Madiwala flyover tender and asked for Metro and bus upgrades instead (The News Minute, Deccan Herald).",
-      "so_what": "If you commute on that corridor, expect construction disruption if the tender proceeds. A public comment or ward meeting is the lever; it is where the decision can still move."
-    },
-    {
-      "tag": "Prices",
-      "what": "Times of India reports that a 'super El Niño' threatens India's coffee harvest, with Karnataka facing a 15 to 20% output slump.",
-      "so_what": "Expect upward pressure on coffee prices over the coming months, filter coffee powder included. Not a reason to stock up, just not to be surprised by the next price revision."
+      "tag": "Your record",
+      "what": "Karnataka has seen a 20% spike in voter-enrolment requests after the SIR deadline (Times of India).",
+      "so_what": "Spend two minutes checking that your name and address are on the electoral roll on the Election Commission's voter portal. If you have moved flats recently, your entry may be stale."
     }
   ],
   "carry_over": {
-    "id": "scan-to-receive",
-    "prompt": "A buyer says his app is acting up and asks you to scan a QR code or approve a request so the money lands in your account. What is the one thing in that flow that tells you money is leaving, not arriving?",
-    "answer": "You were asked for your UPI PIN to receive money."
+    "id": "rental-advance",
+    "prompt": "A 'owner' of a below-market flat sends photos, an Aadhaar copy and a video walkthrough, and wants a token advance today before others grab it. What is the one thing you have not done that should stop you paying?",
+    "answer": "Money is moving before a key has turned in a lock you touched."
   }
 }

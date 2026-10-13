@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-13",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-13T07:50:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.7,
+    "condition": "Clear",
+    "high_c": 31.2,
+    "low_c": 20.3,
+    "rain_chance_pct": 4,
+    "tip": "Dry and clear with a 4% rain chance, so any delay today will come from the Purple Line disruption or the new Sadahalli work on the airport road, not the weather. Plan your buffer around those."
+  },
+  "edge": {
+    "id": "otp-bank-call",
+    "category": "Pressure play",
+    "title": "The caller who already knows you",
+    "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
+    "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
+    "move": [
+      "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
+      "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
+      "Knowing your details proves a leak happened, not that the caller is legitimate."
+    ],
+    "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
+    "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search."
+  },
+  "lens": {
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "elsewhere": [
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
+    ],
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "The Times of India reports a 20% spike in Karnataka voter-enrolment requests around the SIR deadline. Nothing about the process got easier overnight; what changed is that a deadline made inaction feel like losing your vote, and loss framing moves people far harder than the plain option to check a record. The same lever is behind every 'expires today' message you get, so ask what you would do if the deadline were not there."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Purple Line Metro services were disrupted last evening after a 65-year-old man walked onto the track (Deccan Herald, Times of India).",
+      "so_what": "If you ride the Purple Line this morning, check the Namma Metro status before leaving and keep a bus fallback in mind. No report on whether services have fully normalised."
+    },
+    {
+      "tag": "Commute",
+      "what": "Work has begun on an overpass at Sadahalli Junction on NH-44, the only signal on the Bengaluru airport route (Deccan Herald, The Hindu).",
+      "so_what": "Expect diversions and slower airport runs while construction is on. Add a buffer to flight-day trips; no completion date was reported."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMTC plans to share real-time bus data with mobility platforms, and has proposed five feeder routes at 10-minute frequency for the Pink Line. The CM has sought a date from the PM to open the elevated stretch, with CMRS observations pending (The Hindu, Swarajya, Deccan Herald).",
+      "so_what": "None of this is live yet and no opening date is fixed. Don't change your commute; watch the final feeder list, which decides whether the last mile works for you."
+    },
+    {
+      "tag": "Your record",
+      "what": "Karnataka has seen a 20% spike in voter-enrolment requests after the SIR deadline (Times of India).",
+      "so_what": "Spend two minutes checking that your name and address are on the electoral roll on the Election Commission's voter portal. If you have moved flats recently, your entry may be stale."
+    }
+  ],
+  "carry_over": {
+    "id": "rental-advance",
+    "prompt": "A 'owner' of a below-market flat sends photos, an Aadhaar copy and a video walkthrough, and wants a token advance today before others grab it. What is the one thing you have not done that should stop you paying?",
+    "answer": "Money is moving before a key has turned in a lock you touched."
+  }
+}
