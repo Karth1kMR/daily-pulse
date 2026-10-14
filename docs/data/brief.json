@@ -1,123 +1,131 @@
 {
   "date": "2026-10-14",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-14T07:55:00+05:30",
+  "generated_at": "2026-10-14T19:55:00+05:30",
   "read_seconds": 70,
+  "weather": {
+    "now_c": 22.9,
+    "condition": "Overcast",
+    "high_c": 30.7,
+    "low_c": 20.6,
+    "rain_chance_pct": 16,
+    "tip": "Rain chance is only 16%, so weather is not the delay risk tomorrow; the Pune–Bengaluru NH-48 blockade is. If any road trip or courier runs on that highway, check the live status before you leave."
+  },
   "edge": {
-    "id": "job-fee",
+    "id": "deepfake-endorsement",
     "category": "Money trap",
-    "title": "The job that charges you",
-    "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
-    "tell": "Money flowing from employee to employer, in any form, at any stage.",
+    "title": "When a minister endorses a trading app",
+    "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
+    "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
     "move": [
-      "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
-      "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
-      "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
+      "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
+      "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
+      "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
     ],
-    "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
-    "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
+    "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
+    "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
   },
   "lens": {
-    "id": "survivorship-bias",
-    "name": "Survivorship bias",
-    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
-    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
     "elsewhere": [
-      "Dropout-founder stories, drawn from the tiny surviving tail.",
-      "Fund performance tables that quietly exclude closed funds.",
-      "Old buildings seeming better built — the shoddy ones were demolished."
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
     ],
-    "test": "Who is missing from this dataset because they didn't make it this far?",
-    "today": "TOI's #IamBengaluru series reports that complaints have turned into action for Jakkur Lake (Times of India). It is a good story, and it is the one that got told. The lakes and stretches where complaints went nowhere don't make headlines, so a handful of fixes can make civic action look more reliable than it is; judge a process by how often it works for ordinary complaints, not by the ones that were reported."
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "The Cabinet has approved the sale of IDBI Bank to Fairfax for ₹52,878 crore, described as the largest FDI in India's financial sector (The Hindu). Deals this size are followed by rule-making and supervisory choices, and the parties with the most at stake are the ones best placed to be in the room. As details emerge, ask whether new conditions make it harder for competitors to enter or safer for ordinary depositors."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Bengaluru's debate over protest venues continues: the government defends the right to protest while activists ask why they are 'caged' at Freedom Park, after a march by anti-SIR activists was blocked (Times of India).",
-      "so_what": "Expect police barricades and slow traffic around Freedom Park and the central city when a march is planned. Check for a protest before you head into that stretch and leave extra time."
+      "what": "Sugarcane farmers' blockade on NH-48 (Pune–Bengaluru) is into its second day; travellers are advised to avoid it, Maharashtra police have announced diversions, and Google Maps has reportedly been asked to mark the stretch closed (The Indian Express, Times of India, Daily Pioneer).",
+      "so_what": "If you or a courier are on this corridor, check live status and diversions before leaving, and keep a fallback of train or flight. Do not trust one navigation app's route alone."
     },
     {
       "tag": "Your record",
-      "what": "Booth-level officers in Karnataka are now focused on voter roll changes ahead of the October 22 deadline under the SIR exercise (Times of India).",
-      "so_what": "Check your name and address on the voter roll before October 22. If it is missing or wrong, you have little more than a week to act."
+      "what": "Booth-level officers in Karnataka are focusing on voter roll changes ahead of the October 22 deadline under the SIR exercise (Times of India).",
+      "so_what": "Eight days left. Check your name and address on the roll this week; if it is missing or wrong, file the correction now rather than at the deadline."
     },
     {
-      "tag": "Your record",
-      "what": "Doddagubbi area has been given a new pincode (Times of India).",
-      "so_what": "If you live or receive deliveries there, update the pincode on your bank, Aadhaar, KYC and delivery apps so mail and courier items are not misrouted."
+      "tag": "Travel",
+      "what": "Indian airlines have cancelled flights to Saudi Arabian cities till October 17, after the Houthis vowed more attacks on Saudi airports (The Hindu, Reuters).",
+      "so_what": "If you hold a Saudi ticket before October 17, check the airline's app for refund or rebooking options before going to the airport, and watch for extensions."
     },
     {
-      "tag": "Safety",
-      "what": "A video from a Bengaluru pub shows an IAS officer abusing police who asked him for ID; he has been booked for assault (NDTV, The Hindu).",
-      "so_what": "Venues and police can ask for age or ID proof at pubs. Carry a government photo ID when you go out, and keep a digital copy as backup."
+      "tag": "Money",
+      "what": "Cabinet has approved the sale of IDBI Bank to Fairfax for ₹52,878 crore, the largest FDI in India's financial sector (The Hindu).",
+      "so_what": "If you bank with IDBI, nothing changes today. Expect scammers to send 'update KYC for the new owner' messages; change only through the branch or the official app."
     },
     {
-      "tag": "Worth booking",
-      "what": "Special trains from Keralam for the festival season have been announced (The Hindu).",
-      "so_what": "If you are travelling to or from Kerala this season, look at the special services now; festival-period seats go early."
+      "tag": "Commute",
+      "what": "Namma Metro's Pink Line is nearing launch after a safety review, and BMTC plans five feeder routes for it (Urban Acres, Construction World).",
+      "so_what": "It is not open yet, so do not plan next week's commute around it. When a date is announced, check the feeder bus routes near your stop."
     }
   ],
   "carry_over": {
-    "id": "card-skim",
-    "prompt": "At a pump or restaurant your card leaves your sight, or the machine 'fails' and needs a second swipe. What is the tell?",
-    "answer": "Your card leaving your sight, or a swipe that mysteriously needs doing twice."
+    "id": "job-fee",
+    "prompt": "An offer letter arrives with a warm HR contact, and a refundable fee is needed today to confirm the seat. What is the tell?",
+    "answer": "Money flowing from employee to employer, in any form, at any stage."
   },
   "quiz": [
     {
-      "question": "What deadline are Karnataka's booth-level officers working towards on voter roll changes?",
+      "question": "Which highway has been blocked by sugarcane farmers' protest, with commuters told to avoid it?",
       "options": [
-        "October 14",
+        "NH-44",
+        "NH-48",
+        "NH-75",
+        "NH-4"
+      ],
+      "answer": 1,
+      "why": "The Indian Express and Times of India report the NH-48 Pune–Bengaluru blockade."
+    },
+    {
+      "question": "Who is buying IDBI Bank after Cabinet approval?",
+      "options": [
+        "Fairfax",
+        "Tata Group",
+        "LIC",
+        "Emirates NBD"
+      ],
+      "answer": 0,
+      "why": "The Hindu reports Cabinet approved the sale to Fairfax for ₹52,878 crore."
+    },
+    {
+      "question": "Indian airlines have cancelled flights to Saudi Arabian cities until which date?",
+      "options": [
+        "October 15",
+        "October 17",
         "October 22",
-        "November 1",
-        "December 31"
+        "October 31"
       ],
       "answer": 1,
-      "why": "The Times of India reports the SIR voter roll work is headed for an October 22 deadline."
+      "why": "The Hindu reports the cancellations run till October 17."
     },
     {
-      "question": "Which Bengaluru area has been given a new pincode?",
+      "question": "How many feeder routes is BMTC planning for the Pink Line?",
       "options": [
-        "Hebbal",
-        "Doddagubbi",
-        "Yelahanka",
-        "Marathahalli"
+        "Three",
+        "Five",
+        "Eight",
+        "Twelve"
       ],
       "answer": 1,
-      "why": "The Times of India reports that Doddagubbi has a new pincode."
+      "why": "Construction World reports BMTC plans five feeder routes."
     },
     {
-      "question": "How many children were reportedly rescued from forced begging in Bengaluru, with four arrests?",
+      "question": "A video of a minister promotes a trading app with guaranteed monthly returns. What is the tell?",
       "options": [
-        "7",
-        "10",
-        "13",
-        "20"
-      ],
-      "answer": 2,
-      "why": "The Hindu and ThePrint report four arrests and 13 children rescued."
-    },
-    {
-      "question": "Which Bengaluru lake did the Times of India's #IamBengaluru series report on for complaints turning into action?",
-      "options": [
-        "Ulsoor",
-        "Jakkur",
-        "Sankey",
-        "Hebbal"
+        "The video looks edited",
+        "A guaranteed return",
+        "The app has a dashboard",
+        "The minister is famous"
       ],
       "answer": 1,
-      "why": "The Times of India's #IamBengaluru piece covers the city stepping up for Jakkur Lake."
-    },
-    {
-      "question": "A job offer asks you to pay a refundable ₹10,000 'registration fee' to confirm the seat. What is the tell?",
-      "options": [
-        "Fee amount is too high",
-        "Money flowing from employee to employer at any stage",
-        "The offer came by email",
-        "The salary is above market"
-      ],
-      "answer": 1,
-      "why": "Legitimate employers never charge you; money moving from you to the employer is the tell."
+      "why": "Nothing legitimate guarantees a return, so the claim fails however real the video looks."
     }
   ]
 }
