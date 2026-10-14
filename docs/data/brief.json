@@ -1,127 +1,123 @@
 {
-  "date": "2026-10-13",
-  "edition": "evening",
+  "date": "2026-10-14",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-13T19:58:00+05:30",
+  "generated_at": "2026-10-14T07:55:00+05:30",
   "read_seconds": 70,
-  "weather": {
-    "now_c": 26.0,
-    "condition": "Mostly clear",
-    "high_c": 30.4,
-    "low_c": 20.5,
-    "rain_chance_pct": 8,
-    "tip": "With only an 8% rain chance, the road, not the sky, will decide tonight's travel time: Sadahalli overpass work is on the airport route and the Purple Line had a track-intrusion disruption this week, so check Namma Metro status before you leave."
-  },
   "edge": {
-    "id": "card-skim",
+    "id": "job-fee",
     "category": "Money trap",
-    "title": "The machine that didn't work the first time",
-    "setup": "At a fuel pump or a small restaurant: your card is taken out of sight, or the POS machine 'fails' and needs a second swipe, or the ATM card slot looks slightly proud of the panel. The failed transaction is the part worth noticing.",
-    "tell": "Your card leaving your sight, or a swipe that mysteriously needs doing twice.",
+    "title": "The job that charges you",
+    "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+    "tell": "Money flowing from employee to employer, in any form, at any stage.",
     "move": [
-      "Never let the card leave your hand — carry it to the machine, or ask the machine to come to you.",
-      "Tap beats dip beats swipe. The magnetic stripe is the only part that can be cloned wholesale.",
-      "Tug the ATM card slot before inserting; skimmers are overlays and they move. Cover the keypad with your other hand regardless of who's around.",
-      "Turn on transaction alerts for every amount, not just large ones — test transactions are small on purpose."
+      "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+      "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+      "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
     ],
-    "why": "Cloning needs two things: the stripe data and the PIN. The 'failed' swipe captures the first; the camera or overlay captures the second. Defeating either half defeats the attack, which is why keeping the card in view is disproportionately effective.",
-    "variants": "Same shape: a waiter 'who'll bring the machine' and returns slowly, free-Wi-Fi payment pages, QR codes pasted over the shop's real one."
+    "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+    "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
   },
   "lens": {
-    "id": "moral-hazard",
-    "name": "Moral hazard",
-    "one_line": "People take more risk when someone else carries the downside.",
-    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "id": "survivorship-bias",
+    "name": "Survivorship bias",
+    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
     "elsewhere": [
-      "Limited liability encourages risk-taking — deliberately, as a feature.",
-      "A free replacement warranty subtly reduces how carefully a device is handled.",
-      "Deposit guarantees reduce depositors' scrutiny of their bank."
+      "Dropout-founder stories, drawn from the tiny surviving tail.",
+      "Fund performance tables that quietly exclude closed funds.",
+      "Old buildings seeming better built — the shoddy ones were demolished."
     ],
-    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
-    "today": "The Pink Line's elevated stretch still awaits CMRS safety clearance, with BMRCL due to respond to the inspection observations next week, while the CM has already sought a date from the PM to open it (Deccan Herald, The Hindu). Whoever announces an opening collects the credit; the commuter carries the cost of any shortcut. That gap is why the independent clearance matters, and why a fixed date before it is signed off deserves a raised eyebrow."
+    "test": "Who is missing from this dataset because they didn't make it this far?",
+    "today": "TOI's #IamBengaluru series reports that complaints have turned into action for Jakkur Lake (Times of India). It is a good story, and it is the one that got told. The lakes and stretches where complaints went nowhere don't make headlines, so a handful of fixes can make civic action look more reliable than it is; judge a process by how often it works for ordinary complaints, not by the ones that were reported."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "BMRCL is due to respond next week to observations from the Commissioner of Railway Safety on the Pink Line, and no opening date is fixed (The Hindu, Deccan Herald).",
-      "so_what": "Do not plan a move, a lease or a commute around the Pink Line opening this month. Treat the first date you hear as provisional until the safety clearance is reported."
-    },
-    {
-      "tag": "Civic",
-      "what": "A long-neglected Bengaluru road got an overnight fix after public outcry, while East Bengaluru parents have petitioned over '2 hours for 2 km' commutes and road repairs (Times of India, Moneycontrol).",
-      "so_what": "Public, specific complaints with photos and a location appear to move repairs faster than private ones. If a stretch on your route is bad, post it publicly and tag the civic body."
+      "what": "Bengaluru's debate over protest venues continues: the government defends the right to protest while activists ask why they are 'caged' at Freedom Park, after a march by anti-SIR activists was blocked (Times of India).",
+      "so_what": "Expect police barricades and slow traffic around Freedom Park and the central city when a march is planned. Check for a protest before you head into that stretch and leave extra time."
     },
     {
       "tag": "Your record",
-      "what": "The Karnataka High Court has held that the Registrar of Societies should not adjudicate private disputes between members or rival groups that need civil rights decided (Times of India).",
-      "so_what": "If your resident or housing society is in a dispute with a rival group, a Registrar complaint may not settle it; expect to need a civil court. Keep minutes, notices and receipts organised now."
+      "what": "Booth-level officers in Karnataka are now focused on voter roll changes ahead of the October 22 deadline under the SIR exercise (Times of India).",
+      "so_what": "Check your name and address on the voter roll before October 22. If it is missing or wrong, you have little more than a week to act."
     },
     {
-      "tag": "Money",
-      "what": "The Sensex closed 1,100 points higher today, adding about Rs 4 trillion to investor wealth (NDTV).",
-      "so_what": "One strong day changes nothing about your plan. Do not chase it or change SIPs on a single session."
+      "tag": "Your record",
+      "what": "Doddagubbi area has been given a new pincode (Times of India).",
+      "so_what": "If you live or receive deliveries there, update the pincode on your bank, Aadhaar, KYC and delivery apps so mail and courier items are not misrouted."
+    },
+    {
+      "tag": "Safety",
+      "what": "A video from a Bengaluru pub shows an IAS officer abusing police who asked him for ID; he has been booked for assault (NDTV, The Hindu).",
+      "so_what": "Venues and police can ask for age or ID proof at pubs. Carry a government photo ID when you go out, and keep a digital copy as backup."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Special trains from Keralam for the festival season have been announced (The Hindu).",
+      "so_what": "If you are travelling to or from Kerala this season, look at the special services now; festival-period seats go early."
     }
   ],
   "carry_over": {
-    "id": "otp-bank-call",
-    "prompt": "A caller from 'your bank' knows your name, your card's last four digits and a recent restaurant spend, then says an OTP is on its way for verification. What is the one rule that settles it?",
-    "answer": "Anyone asking you to read out a code is, by definition, not your bank."
+    "id": "card-skim",
+    "prompt": "At a pump or restaurant your card leaves your sight, or the machine 'fails' and needs a second swipe. What is the tell?",
+    "answer": "Your card leaving your sight, or a swipe that mysteriously needs doing twice."
   },
   "quiz": [
     {
-      "question": "Which body's observations are holding up the Bengaluru Metro Pink Line opening?",
+      "question": "What deadline are Karnataka's booth-level officers working towards on voter roll changes?",
       "options": [
-        "BBMP",
-        "CMRS",
-        "BMTC",
-        "KIADB"
+        "October 14",
+        "October 22",
+        "November 1",
+        "December 31"
       ],
       "answer": 1,
-      "why": "The Commissioner of Railway Safety flagged observations; BMRCL is due to respond next week, per The Hindu and Deccan Herald."
+      "why": "The Times of India reports the SIR voter roll work is headed for an October 22 deadline."
     },
     {
-      "question": "What is the Sadahalli overpass meant to remove on the airport route?",
+      "question": "Which Bengaluru area has been given a new pincode?",
       "options": [
-        "The only toll booth",
-        "The only signal",
-        "The only level crossing",
-        "The only U-turn"
+        "Hebbal",
+        "Doddagubbi",
+        "Yelahanka",
+        "Marathahalli"
       ],
       "answer": 1,
-      "why": "Deccan Herald reports work has begun to eliminate the only signal on the Bengaluru airport route."
+      "why": "The Times of India reports that Doddagubbi has a new pincode."
     },
     {
-      "question": "When does Bengaluru host the FIBA Women's Basketball League Asia?",
+      "question": "How many children were reportedly rescued from forced begging in Bengaluru, with four arrests?",
       "options": [
-        "Oct 13 to 18",
-        "Oct 20 to 25",
-        "Nov 1 to 6",
-        "Dec 4 to 9"
-      ],
-      "answer": 1,
-      "why": "ThePrint and NammaWard report the tournament runs from October 20 to 25."
-    },
-    {
-      "question": "What does the Karnataka High Court say the Registrar of Societies should not do?",
-      "options": [
-        "Register new societies",
-        "Adjudicate private disputes needing civil rights decided",
-        "Collect annual fees",
-        "Audit accounts"
-      ],
-      "answer": 1,
-      "why": "Disputes requiring adjudication of civil rights belong in civil courts, per the Times of India report."
-    },
-    {
-      "question": "At a pump or restaurant, the card machine 'fails' and asks for a second swipe. What is the safest move?",
-      "options": [
-        "Swipe again quickly",
-        "Give the card to the staff to retry inside",
-        "Stop, keep the card in hand and pay by tap or UPI",
-        "Share the PIN so they can help"
+        "7",
+        "10",
+        "13",
+        "20"
       ],
       "answer": 2,
-      "why": "A failed swipe can capture stripe data; keeping the card in sight and using tap defeats the attack."
+      "why": "The Hindu and ThePrint report four arrests and 13 children rescued."
+    },
+    {
+      "question": "Which Bengaluru lake did the Times of India's #IamBengaluru series report on for complaints turning into action?",
+      "options": [
+        "Ulsoor",
+        "Jakkur",
+        "Sankey",
+        "Hebbal"
+      ],
+      "answer": 1,
+      "why": "The Times of India's #IamBengaluru piece covers the city stepping up for Jakkur Lake."
+    },
+    {
+      "question": "A job offer asks you to pay a refundable ₹10,000 'registration fee' to confirm the seat. What is the tell?",
+      "options": [
+        "Fee amount is too high",
+        "Money flowing from employee to employer at any stage",
+        "The offer came by email",
+        "The salary is above market"
+      ],
+      "answer": 1,
+      "why": "Legitimate employers never charge you; money moving from you to the employer is the tell."
     }
   ]
 }
