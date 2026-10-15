@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-15",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-15T07:55:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 23.3,
+    "condition": "Overcast",
+    "high_c": 31.0,
+    "low_c": 20.7,
+    "rain_chance_pct": 100,
+    "tip": "Forecast rain chance is 100%, and protest sites and highway diversions are in the news; leave extra time for any trip, and keep your phone charged and in a zipped inner pocket on crowded, wet roads."
+  },
+  "edge": {
+    "id": "phone-snatch",
+    "category": "Safety",
+    "title": "The first twenty minutes after your phone goes",
+    "setup": "Phone gone — snatched at a signal, lifted on a bus, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents.",
+    "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
+    "move": [
+      "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
+      "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
+      "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
+      "Keep your IMEI somewhere that isn't your phone. Today."
+    ],
+    "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
+    "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR)."
+  },
+  "lens": {
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+    "elsewhere": [
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
+    ],
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
+    "today": "Bengaluru's protest curbs are in the news: TOI asks why protests can't be held outside Freedom Park, and the Home Minister says he will evaluate decentralising protest sites. Before judging that rule either way, ask what it was meant to solve (traffic, policing, crowd control) and whether those problems have gone away. Keep it, move it or scrap it only after that answer."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Farmers called off the Pune–Bengaluru highway blockade after 31 hours and are shifting their focus to sugar mills (The Times of India).",
+      "so_what": "The highway should clear, but check live status before any road trip or courier dispatch, since a protest can restart."
+    },
+    {
+      "tag": "Civic",
+      "what": "The Home Minister says restraint is important and that the government will evaluate decentralising protest sites, while traders seek more sites beyond Freedom Park (The Times of India).",
+      "so_what": "If you live or work near a likely protest site, expect new crowd and traffic patterns once sites are decided; check police advisories before commuting on protest days."
+    },
+    {
+      "tag": "Commute",
+      "what": "The government has fast-tracked the Mehkri–Hebbal corridor to tackle north Bengaluru snarls (The Times of India).",
+      "so_what": "No relief yet. If you commute through Hebbal, plan on the current congestion and watch for work-related diversions."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMRCL has begun soil testing on Sarjapur Road for the proposed Namma Metro Red Line (The Hindu), while the Pink Line faces 36 safety and technical deficiencies (Deccan Herald).",
+      "so_what": "Neither line is open, so do not plan around them. If you are choosing a home on Sarjapur Road, treat the Red Line as a proposal, not a promise."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Kannada groups, including Karnataka Rakshana Vedike, are urging police to deny permission for Sonu Nigam's October 24 Bengaluru concert (Deccan Herald, Times of India).",
+      "so_what": "If you hold or plan to buy tickets, wait for the organiser's or police confirmation before booking travel or stays tied to the date."
+    },
+    {
+      "tag": "Safety",
+      "what": "108 ambulance employees in Karnataka have withdrawn their strike (The Times of India).",
+      "so_what": "The 108 service should be running normally; in an emergency, call 108 as usual."
+    }
+  ],
+  "carry_over": {
+    "id": "deepfake-endorsement",
+    "prompt": "A video of a minister promotes a trading app with guaranteed monthly returns, and a small withdrawal actually works. What is the tell?",
+    "answer": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant."
+  },
+  "quiz": [
+    {
+      "question": "After how long did farmers call off the Pune–Bengaluru highway blockade?",
+      "options": [
+        "12 hours",
+        "24 hours",
+        "31 hours",
+        "48 hours"
+      ],
+      "answer": 2,
+      "why": "The Times of India reports the blockade was called off after 31 hours."
+    },
+    {
+      "question": "Which Namma Metro corridor has BMRCL begun soil testing for on Sarjapur Road?",
+      "options": [
+        "Pink Line",
+        "Red Line",
+        "Blue Line",
+        "Yellow Line"
+      ],
+      "answer": 1,
+      "why": "The Hindu reports soil testing for the proposed Red Line corridor."
+    },
+    {
+      "question": "Which concert date are Kannada groups urging police to deny permission for?",
+      "options": [
+        "October 15",
+        "October 20",
+        "October 24",
+        "October 31"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald and the Times of India report the October 24 Sonu Nigam concert is in trouble."
+    },
+    {
+      "question": "Your phone is snatched at a signal. What do you do first?",
+      "options": [
+        "Block the handset on ceir.gov.in",
+        "Block the SIM",
+        "File the FIR",
+        "Change your email password"
+      ],
+      "answer": 1,
+      "why": "While the SIM is live, every OTP is delivered to the thief. The order is SIM, banking, then handset."
+    },
+    {
+      "question": "Before removing a rule that looks pointless, what does Chesterton's fence say to do?",
+      "options": [
+        "Remove it quickly",
+        "Ask a regulator",
+        "Find out why it was put there",
+        "Wait a year"
+      ],
+      "answer": 2,
+      "why": "Understand the original reason first; you may still remove it, but knowing the cost."
+    }
+  ]
+}

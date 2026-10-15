@@ -1,131 +1,137 @@
 {
-  "date": "2026-10-14",
-  "edition": "evening",
+  "date": "2026-10-15",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-14T19:55:00+05:30",
+  "generated_at": "2026-10-15T07:55:00+05:30",
   "read_seconds": 70,
   "weather": {
-    "now_c": 22.9,
+    "now_c": 23.3,
     "condition": "Overcast",
-    "high_c": 30.7,
-    "low_c": 20.6,
-    "rain_chance_pct": 16,
-    "tip": "Rain chance is only 16%, so weather is not the delay risk tomorrow; the Pune–Bengaluru NH-48 blockade is. If any road trip or courier runs on that highway, check the live status before you leave."
+    "high_c": 31.0,
+    "low_c": 20.7,
+    "rain_chance_pct": 100,
+    "tip": "Forecast rain chance is 100%, and protest sites and highway diversions are in the news; leave extra time for any trip, and keep your phone charged and in a zipped inner pocket on crowded, wet roads."
   },
   "edge": {
-    "id": "deepfake-endorsement",
-    "category": "Money trap",
-    "title": "When a minister endorses a trading app",
-    "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
-    "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
+    "id": "phone-snatch",
+    "category": "Safety",
+    "title": "The first twenty minutes after your phone goes",
+    "setup": "Phone gone — snatched at a signal, lifted on a bus, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents.",
+    "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
     "move": [
-      "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
-      "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
-      "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
+      "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
+      "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
+      "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
+      "Keep your IMEI somewhere that isn't your phone. Today."
     ],
-    "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
-    "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
+    "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
+    "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR)."
   },
   "lens": {
-    "id": "regulatory-capture",
-    "name": "Regulatory capture",
-    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
-    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
     "elsewhere": [
-      "Licensing rules that protect existing practitioners more than customers.",
-      "Safety standards written around one firm's existing process.",
-      "Compliance burdens that only large players can absorb."
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
     ],
-    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
-    "today": "The Cabinet has approved the sale of IDBI Bank to Fairfax for ₹52,878 crore, described as the largest FDI in India's financial sector (The Hindu). Deals this size are followed by rule-making and supervisory choices, and the parties with the most at stake are the ones best placed to be in the room. As details emerge, ask whether new conditions make it harder for competitors to enter or safer for ordinary depositors."
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
+    "today": "Bengaluru's protest curbs are in the news: TOI asks why protests can't be held outside Freedom Park, and the Home Minister says he will evaluate decentralising protest sites. Before judging that rule either way, ask what it was meant to solve (traffic, policing, crowd control) and whether those problems have gone away. Keep it, move it or scrap it only after that answer."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Sugarcane farmers' blockade on NH-48 (Pune–Bengaluru) is into its second day; travellers are advised to avoid it, Maharashtra police have announced diversions, and Google Maps has reportedly been asked to mark the stretch closed (The Indian Express, Times of India, Daily Pioneer).",
-      "so_what": "If you or a courier are on this corridor, check live status and diversions before leaving, and keep a fallback of train or flight. Do not trust one navigation app's route alone."
+      "what": "Farmers called off the Pune–Bengaluru highway blockade after 31 hours and are shifting their focus to sugar mills (The Times of India).",
+      "so_what": "The highway should clear, but check live status before any road trip or courier dispatch, since a protest can restart."
     },
     {
-      "tag": "Your record",
-      "what": "Booth-level officers in Karnataka are focusing on voter roll changes ahead of the October 22 deadline under the SIR exercise (Times of India).",
-      "so_what": "Eight days left. Check your name and address on the roll this week; if it is missing or wrong, file the correction now rather than at the deadline."
-    },
-    {
-      "tag": "Travel",
-      "what": "Indian airlines have cancelled flights to Saudi Arabian cities till October 17, after the Houthis vowed more attacks on Saudi airports (The Hindu, Reuters).",
-      "so_what": "If you hold a Saudi ticket before October 17, check the airline's app for refund or rebooking options before going to the airport, and watch for extensions."
-    },
-    {
-      "tag": "Money",
-      "what": "Cabinet has approved the sale of IDBI Bank to Fairfax for ₹52,878 crore, the largest FDI in India's financial sector (The Hindu).",
-      "so_what": "If you bank with IDBI, nothing changes today. Expect scammers to send 'update KYC for the new owner' messages; change only through the branch or the official app."
+      "tag": "Civic",
+      "what": "The Home Minister says restraint is important and that the government will evaluate decentralising protest sites, while traders seek more sites beyond Freedom Park (The Times of India).",
+      "so_what": "If you live or work near a likely protest site, expect new crowd and traffic patterns once sites are decided; check police advisories before commuting on protest days."
     },
     {
       "tag": "Commute",
-      "what": "Namma Metro's Pink Line is nearing launch after a safety review, and BMTC plans five feeder routes for it (Urban Acres, Construction World).",
-      "so_what": "It is not open yet, so do not plan next week's commute around it. When a date is announced, check the feeder bus routes near your stop."
+      "what": "The government has fast-tracked the Mehkri–Hebbal corridor to tackle north Bengaluru snarls (The Times of India).",
+      "so_what": "No relief yet. If you commute through Hebbal, plan on the current congestion and watch for work-related diversions."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMRCL has begun soil testing on Sarjapur Road for the proposed Namma Metro Red Line (The Hindu), while the Pink Line faces 36 safety and technical deficiencies (Deccan Herald).",
+      "so_what": "Neither line is open, so do not plan around them. If you are choosing a home on Sarjapur Road, treat the Red Line as a proposal, not a promise."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Kannada groups, including Karnataka Rakshana Vedike, are urging police to deny permission for Sonu Nigam's October 24 Bengaluru concert (Deccan Herald, Times of India).",
+      "so_what": "If you hold or plan to buy tickets, wait for the organiser's or police confirmation before booking travel or stays tied to the date."
+    },
+    {
+      "tag": "Safety",
+      "what": "108 ambulance employees in Karnataka have withdrawn their strike (The Times of India).",
+      "so_what": "The 108 service should be running normally; in an emergency, call 108 as usual."
     }
   ],
   "carry_over": {
-    "id": "job-fee",
-    "prompt": "An offer letter arrives with a warm HR contact, and a refundable fee is needed today to confirm the seat. What is the tell?",
-    "answer": "Money flowing from employee to employer, in any form, at any stage."
+    "id": "deepfake-endorsement",
+    "prompt": "A video of a minister promotes a trading app with guaranteed monthly returns, and a small withdrawal actually works. What is the tell?",
+    "answer": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant."
   },
   "quiz": [
     {
-      "question": "Which highway has been blocked by sugarcane farmers' protest, with commuters told to avoid it?",
+      "question": "After how long did farmers call off the Pune–Bengaluru highway blockade?",
       "options": [
-        "NH-44",
-        "NH-48",
-        "NH-75",
-        "NH-4"
+        "12 hours",
+        "24 hours",
+        "31 hours",
+        "48 hours"
+      ],
+      "answer": 2,
+      "why": "The Times of India reports the blockade was called off after 31 hours."
+    },
+    {
+      "question": "Which Namma Metro corridor has BMRCL begun soil testing for on Sarjapur Road?",
+      "options": [
+        "Pink Line",
+        "Red Line",
+        "Blue Line",
+        "Yellow Line"
       ],
       "answer": 1,
-      "why": "The Indian Express and Times of India report the NH-48 Pune–Bengaluru blockade."
+      "why": "The Hindu reports soil testing for the proposed Red Line corridor."
     },
     {
-      "question": "Who is buying IDBI Bank after Cabinet approval?",
-      "options": [
-        "Fairfax",
-        "Tata Group",
-        "LIC",
-        "Emirates NBD"
-      ],
-      "answer": 0,
-      "why": "The Hindu reports Cabinet approved the sale to Fairfax for ₹52,878 crore."
-    },
-    {
-      "question": "Indian airlines have cancelled flights to Saudi Arabian cities until which date?",
+      "question": "Which concert date are Kannada groups urging police to deny permission for?",
       "options": [
         "October 15",
-        "October 17",
-        "October 22",
+        "October 20",
+        "October 24",
         "October 31"
       ],
-      "answer": 1,
-      "why": "The Hindu reports the cancellations run till October 17."
+      "answer": 2,
+      "why": "Deccan Herald and the Times of India report the October 24 Sonu Nigam concert is in trouble."
     },
     {
-      "question": "How many feeder routes is BMTC planning for the Pink Line?",
+      "question": "Your phone is snatched at a signal. What do you do first?",
       "options": [
-        "Three",
-        "Five",
-        "Eight",
-        "Twelve"
+        "Block the handset on ceir.gov.in",
+        "Block the SIM",
+        "File the FIR",
+        "Change your email password"
       ],
       "answer": 1,
-      "why": "Construction World reports BMTC plans five feeder routes."
+      "why": "While the SIM is live, every OTP is delivered to the thief. The order is SIM, banking, then handset."
     },
     {
-      "question": "A video of a minister promotes a trading app with guaranteed monthly returns. What is the tell?",
+      "question": "Before removing a rule that looks pointless, what does Chesterton's fence say to do?",
       "options": [
-        "The video looks edited",
-        "A guaranteed return",
-        "The app has a dashboard",
-        "The minister is famous"
+        "Remove it quickly",
+        "Ask a regulator",
+        "Find out why it was put there",
+        "Wait a year"
       ],
-      "answer": 1,
-      "why": "Nothing legitimate guarantees a return, so the claim fails however real the video looks."
+      "answer": 2,
+      "why": "Understand the original reason first; you may still remove it, but knowing the cost."
     }
   ]
 }
