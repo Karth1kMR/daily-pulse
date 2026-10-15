@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-15",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-15T19:50:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 22.8,
+    "condition": "Drizzle",
+    "high_c": 30.8,
+    "low_c": 20.9,
+    "rain_chance_pct": 100,
+    "tip": "Drizzle now with a 100% rain chance: with the Jakkur–Amruthahalli closure already slowing north Bengaluru, add buffer time if you drive that side, and book cabs before the evening rain peaks."
+  },
+  "edge": {
+    "id": "loan-app-harassment",
+    "category": "Pressure play",
+    "title": "When the app calls your contacts",
+    "setup": "A small loan taken through an app that approved it in minutes. A payment slips. Now the calls start — to you, then to your contacts, your manager, your family. Morphed photos, abuse, a 'legal notice' from a lawyer who doesn't exist. The amount owed keeps changing.",
+    "tell": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it.",
+    "move": [
+      "Recovery agents may not call before 8am, after 7pm, or contact people who didn't guarantee the loan. Harassment is a police matter: FIR, plus a complaint on the RBI's CMS portal (cms.rbi.org.in).",
+      "Check whether the lender is an RBI-registered NBFC. Many are not — unregistered lenders have no legal recovery path at all.",
+      "Revoke the app's contacts and photos permission immediately, then uninstall. Keep every screenshot.",
+      "Pay what is genuinely owed through a traceable channel, never to a personal UPI ID."
+    ],
+    "why": "These operations monetise shame, not debt. The loan is small on purpose — the business model is the humiliation leverage, which is why the threats escalate socially rather than legally. Naming the actual legal framework collapses it, because the framework was never on their side.",
+    "variants": "Same shape: fake 'legal notice' WhatsApps, sextortion video calls, 'we'll inform your employer' threats."
+  },
+  "lens": {
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "elsewhere": [
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+    ],
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "The Jakkur–Amruthahalli road closure is reported to be worsening Bengaluru traffic: the first-order effect is one road shut, the second is that its trips spill onto neighbouring roads and everyone's journey stretches. Ask 'and then what?' about any closure or diversion on your route before you trust the map's first suggestion."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Jakkur–Amruthahalli road closure is worsening traffic in north Bengaluru (urbanacres.in).",
+      "so_what": "If you use that stretch, leave earlier or route around it, and expect neighbouring roads to be slower too."
+    },
+    {
+      "tag": "Commute",
+      "what": "BMRCL is eyeing November trial runs on the Pink Line underground section and the ORR corridor, with both set to open by May 2027; the Pink Line also faces 36 safety and technical deficiencies (Swarajya, Deccan Herald).",
+      "so_what": "Trials are not openings. Do not plan a move or a commute around either line before mid-2027."
+    },
+    {
+      "tag": "Civic",
+      "what": "AI has flagged 1,000 garbage spots in Bengaluru South, and officials have been told to act within 10 days (The Hindu).",
+      "so_what": "If a dump near you is persistent, report it now to the civic helpline with a photo; the 10-day window is when it is most likely to be cleared."
+    },
+    {
+      "tag": "Your record",
+      "what": "Times of India reports that bulk withdrawal of Form 7 in three districts is helping officials duck Election Commission scrutiny.",
+      "so_what": "Form 7 is an objection to a name on the electoral roll. Spend two minutes checking that your own entry is still on the voter list."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Kannada groups, including Karnataka Rakshana Vedike, are urging Bengaluru Police to deny permission for Sonu Nigam's October 24 concert (Deccan Herald, The News Minute).",
+      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser or police confirm."
+    }
+  ],
+  "carry_over": {
+    "id": "phone-snatch",
+    "prompt": "Your phone is snatched at a signal, with UPI and bank OTPs on it. In what order do you act?",
+    "answer": "SIM, then banking, then handset — in that order, and the order is the whole thing."
+  },
+  "quiz": [
+    {
+      "question": "Which road closure is reported to be worsening north Bengaluru traffic?",
+      "options": [
+        "Hebbal flyover",
+        "Jakkur–Amruthahalli road",
+        "Silk Board junction",
+        "Mekhri Circle"
+      ],
+      "answer": 1,
+      "why": "urbanacres.in reports the Jakkur–Amruthahalli road closure is worsening traffic."
+    },
+    {
+      "question": "By when are the Pink Line underground and ORR corridors set to open?",
+      "options": [
+        "December 2026",
+        "March 2027",
+        "May 2027",
+        "October 2027"
+      ],
+      "answer": 2,
+      "why": "Swarajya reports November trials, with both set to open by May 2027."
+    },
+    {
+      "question": "How many days have officials been given to act on the 1,000 AI-flagged garbage spots?",
+      "options": [
+        "3",
+        "10",
+        "30",
+        "90"
+      ],
+      "answer": 1,
+      "why": "The Hindu reports officials in Bengaluru South were told to act in 10 days."
+    },
+    {
+      "question": "A loan app's agents start calling your contacts and threatening you. What does the Tell say?",
+      "options": [
+        "Pay at once to end it",
+        "The pressure targets reputation, so it is outside the law",
+        "Delete your number",
+        "Ignore it; it will stop"
+      ],
+      "answer": 1,
+      "why": "These operations monetise shame, not debt; the legal framework was never on their side."
+    },
+    {
+      "question": "What question does 'second-order effects' ask you to repeat three times?",
+      "options": [
+        "Who pays?",
+        "And then what?",
+        "Why now?",
+        "Is it legal?"
+      ],
+      "answer": 1,
+      "why": "The answer that surprises you is where the real story is."
+    }
+  ]
+}
