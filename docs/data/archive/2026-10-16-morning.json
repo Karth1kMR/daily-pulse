@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-16",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-16T07:45:03+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.5,
+    "condition": "Light drizzle",
+    "high_c": 27.0,
+    "low_c": 20.9,
+    "rain_chance_pct": 96,
+    "tip": "Light drizzle with a 96% rain chance: and with traffic curbs around Chinnaswamy Stadium for tomorrow's T20, a wet Saturday evening near MG Road is the one to avoid driving; take the Metro and expect ride-hailing fares to surge when it pours."
+  },
+  "edge": {
+    "id": "auto-refusal",
+    "category": "Street tactic",
+    "title": "Meter politics at the junction",
+    "anchor": "Heavy rain snarled Bengaluru traffic on 15 October and ride-hailing fares surged (The Hindu).",
+    "setup": "Auto refuses the meter and quotes a flat fare, double. It's raining, you're late, there's no other auto, and he knows all three. This is not fraud — it's a negotiation where he currently holds every card.",
+    "tell": "If you're arguing about the price, you've already accepted that he's the only option.",
+    "move": [
+      "Change where you stand. Walk 100m to the main road; scarcity was the only leverage he had.",
+      "Open an app and let him watch. The visible alternative resets the price more reliably than argument.",
+      "If you need the formal route: the refusal, auto number and location go to the Bengaluru Traffic Police app or 080-22868550. Mentioning you're noting the number often ends the matter.",
+      "Never start with anger. Start with the alternative — anger is a worse tool than a visible option."
+    ],
+    "why": "Price is set by alternatives, not by fairness. Every effective move here manufactures an alternative — distance, an app, a complaint channel — rather than appealing to rules. This is the whole of negotiation in miniature.",
+    "variants": "Same shape: surge pricing you can wait out, 'last room available' at a hotel desk, the mechanic who found three more problems."
+  },
+  "lens": {
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "elsewhere": [
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+    ],
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "Officials in Bengaluru South have been told to act within 10 days on 1,000 garbage spots flagged by AI (The Hindu). Once 'spots cleared' is the number, the cheapest way to hit it is to clear the same spots repeatedly, not to stop the dumping. Watch whether a cleared spot near you stays clear a month later."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Heavy rain snarled Bengaluru traffic on 15 October and ride-hailing fares surged (The Hindu); Deccan Herald reports roads flooded.",
+      "so_what": "Rain at peak hour means surge pricing. Leave before the downpour or wait it out 20 minutes; the surge usually fades faster than the water."
+    },
+    {
+      "tag": "Commute",
+      "what": "Traffic curbs and a parking ban are in place around Chinnaswamy Stadium for the India–West Indies T20 on 17 October (Deccan Herald, Times of India).",
+      "so_what": "If you are not attending, avoid driving near the stadium that evening; if you are, go by Metro rather than hunt for parking."
+    },
+    {
+      "tag": "Civic",
+      "what": "AI has flagged 1,000 garbage spots in Bengaluru South and officials have been told to act within 10 days (The Hindu).",
+      "so_what": "If a dump near you is persistent, report it with a photo now while the clearing drive is live."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Governor has cleared the Karnataka Apartment Ownership Act (Times of India).",
+      "so_what": "If you own or rent in an apartment, ask your association whether it has read the Act; rules on ownership and maintenance may change once it takes effect."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Kannada groups are urging Bengaluru Police to deny permission for Sonu Nigam's 24 October concert and threatening protests (The Indian Express, The News Minute).",
+      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser or police confirm."
+    }
+  ],
+  "carry_over": {
+    "id": "loan-app-harassment",
+    "prompt": "A small loan app approved in minutes starts calling your contacts, your manager and your family after one missed payment. What is that pressure actually aimed at?",
+    "answer": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it."
+  },
+  "quiz": [
+    {
+      "question": "What happened to ride-hailing fares when heavy rain hit Bengaluru on 15 October?",
+      "options": [
+        "They fell",
+        "They surged",
+        "They were capped",
+        "They were unchanged"
+      ],
+      "answer": 1,
+      "why": "The Hindu reported heavy rain snarled traffic and ride-hailing fares surged."
+    },
+    {
+      "question": "On which date are traffic curbs and a parking ban in force around Chinnaswamy Stadium for the India–West Indies T20?",
+      "options": [
+        "16 October",
+        "17 October",
+        "24 October",
+        "1 November"
+      ],
+      "answer": 1,
+      "why": "Deccan Herald and Times of India report curbs for the T20 on 17 October."
+    },
+    {
+      "question": "How many days have officials been given to act on the 1,000 AI-flagged garbage spots?",
+      "options": [
+        "3",
+        "10",
+        "30",
+        "90"
+      ],
+      "answer": 1,
+      "why": "The Hindu reports officials in Bengaluru South were told to act in 10 days."
+    },
+    {
+      "question": "An auto driver refuses the meter in the rain. According to the Tell, what does arguing about the price mean?",
+      "options": [
+        "He will lower it soon",
+        "You have accepted he is the only option",
+        "The fare is regulated",
+        "Police are nearby"
+      ],
+      "answer": 1,
+      "why": "Price is set by alternatives; arguing means you have conceded he is your only option."
+    },
+    {
+      "question": "Under Goodhart's Law, what happens when a measure becomes a target?",
+      "options": [
+        "It becomes more accurate",
+        "It stops measuring what it used to",
+        "It is abandoned",
+        "It gets cheaper to track"
+      ],
+      "answer": 1,
+      "why": "People optimise the number directly, often bypassing the goal it stood in for."
+    }
+  ]
+}
