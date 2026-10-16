@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-16",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-16T19:55:00+05:30",
+  "read_seconds": 70,
+  "weather": null,
+  "edge": {
+    "id": "festival-sweets",
+    "category": "Everyday safety",
+    "title": "The sweets with no date on them",
+    "setup": "Festival week. The shop's trays are piled with bright, glossy mithai, loose, in a glass counter, no date anywhere. A box is ₹400 cheaper than the packaged brand next door and the shopkeeper says it was made fresh this morning. Everyone is buying; you have ten minutes and a house full of guests.",
+    "tell": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence.",
+    "move": [
+      "Look for the best-before date on the tray or counter: FSSAI requires loose sweets to display one. No date means walk on.",
+      "Look for the shop's FSSAI licence or registration number displayed at the counter.",
+      "Prefer milk-based sweets from a high-turnover shop on a busy day over a bargain from a quiet one.",
+      "If you fall ill or find something wrong, keep the box and bill, and report it to the food safety authority through the FSSAI Food Safety Connect app."
+    ],
+    "why": "Freshness and safety are invisible at the counter, so the seller knows what you can't, and festival rush removes your time to check. A displayed date and licence number turn an unverifiable claim into a checkable one; an unwillingness to display them is itself the information.",
+    "variants": "Same shape: loose ghee and oil sold by weight, 'organic' produce with no label, street food at a mela where nothing is traceable.",
+    "anchor": "Bengaluru has begun sweet shop inspections ahead of the festival season (Urban Acres)."
+  },
+  "lens": {
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "elsewhere": [
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
+    ],
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "BMTC plans around 200 mini-buses and five feeder routes to carry people into the Metro, including the Pink Line (ET Infra, Construction World). Easier last-mile links will pull in riders who gave up on the Metro, so expect new crowding at the stations the feeders serve. Judge the plan by whether the first and last kilometre stay easy once the crowds arrive."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Namma Metro will extend services till 1.30 am for the India–West Indies T20 at Chinnaswamy Stadium on 17 October (Deccan Herald, The Hindu).",
+      "so_what": "If you are near MG Road tomorrow night, Metro is the way home; driving means the stadium no-parking zones and a surge-priced ride."
+    },
+    {
+      "tag": "Commute",
+      "what": "Heavy rain flooded roads on 15 October and pushed up auto and taxi fares (Deccan Herald, The Hindu).",
+      "so_what": "Rain at peak hour reprices every ride; leave before it starts or wait out the first 20 minutes."
+    },
+    {
+      "tag": "Civic",
+      "what": "BMTC plans 200 mini-buses and five feeder routes for the Pink Line, with tap-to-pay and flat fares (ET Infra, The News Minute).",
+      "so_what": "If you live in a narrow-lane area off the Pink Line, check whether a feeder is planned for your street and tell BMTC if not."
+    },
+    {
+      "tag": "Safety",
+      "what": "A report says the Pink Line faces 36 safety issues ahead of its passenger launch (Metro Rail News).",
+      "so_what": "Do not plan a commute around a Pink Line start date yet; keep your current route as the fallback."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Pro-Kannada groups are urging that Sonu Nigam's 24 October Bengaluru concert be stopped, with protests threatened (Times of India, The Indian Express).",
+      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser confirms."
+    }
+  ],
+  "carry_over": {
+    "id": "auto-refusal",
+    "prompt": "It is raining, you are late, and an auto driver refuses the meter and quotes double. What is the one move that changes the price?",
+    "answer": "If you're arguing about the price, you've already accepted that he's the only option."
+  },
+  "quiz": [
+    {
+      "question": "Until what time will Namma Metro run for the 17 October T20 at Chinnaswamy Stadium?",
+      "options": [
+        "11.00 pm",
+        "12.00 am",
+        "1.30 am",
+        "3.00 am"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald reports Metro services are extended till 1.30 am for the match."
+    },
+    {
+      "question": "What does BMTC plan to add to improve last-mile links to the Metro?",
+      "options": [
+        "200 mini-buses",
+        "200 cycle stands",
+        "20 new depots",
+        "A ferry route"
+      ],
+      "answer": 0,
+      "why": "ET Infra and TOI report BMTC plans 200 mini-buses for Metro connectivity."
+    },
+    {
+      "question": "In the Edge, what is the best check before buying loose festival sweets?",
+      "options": [
+        "Ask if they are fresh",
+        "Look for a displayed date and licence number",
+        "Pick the cheapest",
+        "Pick the brightest"
+      ],
+      "answer": 1,
+      "why": "A displayed date and licence number make freshness checkable; a spoken claim is not."
+    },
+    {
+      "question": "Under induced demand, what happens when last-mile access gets easier?",
+      "options": [
+        "Riders who had given up come back",
+        "Nobody changes behaviour",
+        "Crowding falls",
+        "Fares fall"
+      ],
+      "answer": 0,
+      "why": "Easier access reveals suppressed demand that fills the new capacity."
+    },
+    {
+      "question": "How many safety issues does the report cite for the Pink Line ahead of launch?",
+      "options": [
+        "6",
+        "16",
+        "36",
+        "66"
+      ],
+      "answer": 2,
+      "why": "Metro Rail News reports 36 safety issues ahead of passenger launch."
+    }
+  ]
+}

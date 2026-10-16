@@ -1,133 +1,126 @@
 {
   "date": "2026-10-16",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-16T07:45:03+05:30",
+  "generated_at": "2026-10-16T19:55:00+05:30",
   "read_seconds": 70,
-  "weather": {
-    "now_c": 21.5,
-    "condition": "Light drizzle",
-    "high_c": 27.0,
-    "low_c": 20.9,
-    "rain_chance_pct": 96,
-    "tip": "Light drizzle with a 96% rain chance: and with traffic curbs around Chinnaswamy Stadium for tomorrow's T20, a wet Saturday evening near MG Road is the one to avoid driving; take the Metro and expect ride-hailing fares to surge when it pours."
-  },
+  "weather": null,
   "edge": {
-    "id": "auto-refusal",
-    "category": "Street tactic",
-    "title": "Meter politics at the junction",
-    "anchor": "Heavy rain snarled Bengaluru traffic on 15 October and ride-hailing fares surged (The Hindu).",
-    "setup": "Auto refuses the meter and quotes a flat fare, double. It's raining, you're late, there's no other auto, and he knows all three. This is not fraud — it's a negotiation where he currently holds every card.",
-    "tell": "If you're arguing about the price, you've already accepted that he's the only option.",
+    "id": "festival-sweets",
+    "category": "Everyday safety",
+    "title": "The sweets with no date on them",
+    "setup": "Festival week. The shop's trays are piled with bright, glossy mithai, loose, in a glass counter, no date anywhere. A box is ₹400 cheaper than the packaged brand next door and the shopkeeper says it was made fresh this morning. Everyone is buying; you have ten minutes and a house full of guests.",
+    "tell": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence.",
     "move": [
-      "Change where you stand. Walk 100m to the main road; scarcity was the only leverage he had.",
-      "Open an app and let him watch. The visible alternative resets the price more reliably than argument.",
-      "If you need the formal route: the refusal, auto number and location go to the Bengaluru Traffic Police app or 080-22868550. Mentioning you're noting the number often ends the matter.",
-      "Never start with anger. Start with the alternative — anger is a worse tool than a visible option."
+      "Look for the best-before date on the tray or counter: FSSAI requires loose sweets to display one. No date means walk on.",
+      "Look for the shop's FSSAI licence or registration number displayed at the counter.",
+      "Prefer milk-based sweets from a high-turnover shop on a busy day over a bargain from a quiet one.",
+      "If you fall ill or find something wrong, keep the box and bill, and report it to the food safety authority through the FSSAI Food Safety Connect app."
     ],
-    "why": "Price is set by alternatives, not by fairness. Every effective move here manufactures an alternative — distance, an app, a complaint channel — rather than appealing to rules. This is the whole of negotiation in miniature.",
-    "variants": "Same shape: surge pricing you can wait out, 'last room available' at a hotel desk, the mechanic who found three more problems."
+    "why": "Freshness and safety are invisible at the counter, so the seller knows what you can't, and festival rush removes your time to check. A displayed date and licence number turn an unverifiable claim into a checkable one; an unwillingness to display them is itself the information.",
+    "variants": "Same shape: loose ghee and oil sold by weight, 'organic' produce with no label, street food at a mela where nothing is traceable.",
+    "anchor": "Bengaluru has begun sweet shop inspections ahead of the festival season (Urban Acres)."
   },
   "lens": {
-    "id": "goodharts-law",
-    "name": "Goodhart's Law",
-    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
-    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
     "elsewhere": [
-      "Police judged on cases closed may book easier cases and discourage hard complaints.",
-      "Schools judged on pass rates quietly move weak students out before the exam.",
-      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
     ],
-    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
-    "today": "Officials in Bengaluru South have been told to act within 10 days on 1,000 garbage spots flagged by AI (The Hindu). Once 'spots cleared' is the number, the cheapest way to hit it is to clear the same spots repeatedly, not to stop the dumping. Watch whether a cleared spot near you stays clear a month later."
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "BMTC plans around 200 mini-buses and five feeder routes to carry people into the Metro, including the Pink Line (ET Infra, Construction World). Easier last-mile links will pull in riders who gave up on the Metro, so expect new crowding at the stations the feeders serve. Judge the plan by whether the first and last kilometre stay easy once the crowds arrive."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Heavy rain snarled Bengaluru traffic on 15 October and ride-hailing fares surged (The Hindu); Deccan Herald reports roads flooded.",
-      "so_what": "Rain at peak hour means surge pricing. Leave before the downpour or wait it out 20 minutes; the surge usually fades faster than the water."
+      "what": "Namma Metro will extend services till 1.30 am for the India–West Indies T20 at Chinnaswamy Stadium on 17 October (Deccan Herald, The Hindu).",
+      "so_what": "If you are near MG Road tomorrow night, Metro is the way home; driving means the stadium no-parking zones and a surge-priced ride."
     },
     {
       "tag": "Commute",
-      "what": "Traffic curbs and a parking ban are in place around Chinnaswamy Stadium for the India–West Indies T20 on 17 October (Deccan Herald, Times of India).",
-      "so_what": "If you are not attending, avoid driving near the stadium that evening; if you are, go by Metro rather than hunt for parking."
+      "what": "Heavy rain flooded roads on 15 October and pushed up auto and taxi fares (Deccan Herald, The Hindu).",
+      "so_what": "Rain at peak hour reprices every ride; leave before it starts or wait out the first 20 minutes."
     },
     {
       "tag": "Civic",
-      "what": "AI has flagged 1,000 garbage spots in Bengaluru South and officials have been told to act within 10 days (The Hindu).",
-      "so_what": "If a dump near you is persistent, report it with a photo now while the clearing drive is live."
+      "what": "BMTC plans 200 mini-buses and five feeder routes for the Pink Line, with tap-to-pay and flat fares (ET Infra, The News Minute).",
+      "so_what": "If you live in a narrow-lane area off the Pink Line, check whether a feeder is planned for your street and tell BMTC if not."
     },
     {
-      "tag": "Your record",
-      "what": "The Governor has cleared the Karnataka Apartment Ownership Act (Times of India).",
-      "so_what": "If you own or rent in an apartment, ask your association whether it has read the Act; rules on ownership and maintenance may change once it takes effect."
+      "tag": "Safety",
+      "what": "A report says the Pink Line faces 36 safety issues ahead of its passenger launch (Metro Rail News).",
+      "so_what": "Do not plan a commute around a Pink Line start date yet; keep your current route as the fallback."
     },
     {
       "tag": "Worth booking",
-      "what": "Kannada groups are urging Bengaluru Police to deny permission for Sonu Nigam's 24 October concert and threatening protests (The Indian Express, The News Minute).",
-      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser or police confirm."
+      "what": "Pro-Kannada groups are urging that Sonu Nigam's 24 October Bengaluru concert be stopped, with protests threatened (Times of India, The Indian Express).",
+      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser confirms."
     }
   ],
   "carry_over": {
-    "id": "loan-app-harassment",
-    "prompt": "A small loan app approved in minutes starts calling your contacts, your manager and your family after one missed payment. What is that pressure actually aimed at?",
-    "answer": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it."
+    "id": "auto-refusal",
+    "prompt": "It is raining, you are late, and an auto driver refuses the meter and quotes double. What is the one move that changes the price?",
+    "answer": "If you're arguing about the price, you've already accepted that he's the only option."
   },
   "quiz": [
     {
-      "question": "What happened to ride-hailing fares when heavy rain hit Bengaluru on 15 October?",
+      "question": "Until what time will Namma Metro run for the 17 October T20 at Chinnaswamy Stadium?",
       "options": [
-        "They fell",
-        "They surged",
-        "They were capped",
-        "They were unchanged"
+        "11.00 pm",
+        "12.00 am",
+        "1.30 am",
+        "3.00 am"
       ],
-      "answer": 1,
-      "why": "The Hindu reported heavy rain snarled traffic and ride-hailing fares surged."
+      "answer": 2,
+      "why": "Deccan Herald reports Metro services are extended till 1.30 am for the match."
     },
     {
-      "question": "On which date are traffic curbs and a parking ban in force around Chinnaswamy Stadium for the India–West Indies T20?",
+      "question": "What does BMTC plan to add to improve last-mile links to the Metro?",
       "options": [
-        "16 October",
-        "17 October",
-        "24 October",
-        "1 November"
+        "200 mini-buses",
+        "200 cycle stands",
+        "20 new depots",
+        "A ferry route"
       ],
-      "answer": 1,
-      "why": "Deccan Herald and Times of India report curbs for the T20 on 17 October."
+      "answer": 0,
+      "why": "ET Infra and TOI report BMTC plans 200 mini-buses for Metro connectivity."
     },
     {
-      "question": "How many days have officials been given to act on the 1,000 AI-flagged garbage spots?",
+      "question": "In the Edge, what is the best check before buying loose festival sweets?",
       "options": [
-        "3",
-        "10",
-        "30",
-        "90"
+        "Ask if they are fresh",
+        "Look for a displayed date and licence number",
+        "Pick the cheapest",
+        "Pick the brightest"
       ],
       "answer": 1,
-      "why": "The Hindu reports officials in Bengaluru South were told to act in 10 days."
+      "why": "A displayed date and licence number make freshness checkable; a spoken claim is not."
     },
     {
-      "question": "An auto driver refuses the meter in the rain. According to the Tell, what does arguing about the price mean?",
+      "question": "Under induced demand, what happens when last-mile access gets easier?",
       "options": [
-        "He will lower it soon",
-        "You have accepted he is the only option",
-        "The fare is regulated",
-        "Police are nearby"
+        "Riders who had given up come back",
+        "Nobody changes behaviour",
+        "Crowding falls",
+        "Fares fall"
       ],
-      "answer": 1,
-      "why": "Price is set by alternatives; arguing means you have conceded he is your only option."
+      "answer": 0,
+      "why": "Easier access reveals suppressed demand that fills the new capacity."
     },
     {
-      "question": "Under Goodhart's Law, what happens when a measure becomes a target?",
+      "question": "How many safety issues does the report cite for the Pink Line ahead of launch?",
       "options": [
-        "It becomes more accurate",
-        "It stops measuring what it used to",
-        "It is abandoned",
-        "It gets cheaper to track"
+        "6",
+        "16",
+        "36",
+        "66"
       ],
-      "answer": 1,
-      "why": "People optimise the number directly, often bypassing the goal it stood in for."
+      "answer": 2,
+      "why": "Metro Rail News reports 36 safety issues ahead of passenger launch."
     }
   ]
 }
