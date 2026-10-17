@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-17",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-17T07:55:00+05:30",
+  "read_seconds": 75,
+  "weather": null,
+  "edge": {
+    "id": "salary-anchor",
+    "category": "Leverage",
+    "title": "The number you say first",
+    "setup": "An interview goes well. HR asks your current CTC and your expectation. Whatever you answer becomes the ceiling of everything that follows — and you're being asked before you know what the role is budgeted at.",
+    "tell": "You're being asked to price yourself before you know what the buyer budgeted.",
+    "move": [
+      "Deflect once, politely: 'I'd like to understand the scope first — what range is budgeted for this role?' Asking costs nothing and often works.",
+      "If pressed, give a researched range for the role and market, not your current salary. Your past pay is a fact about your last employer, not about this job.",
+      "Karnataka has no salary-history ban, so you may have to answer eventually — but 'eventually' after you've heard their number is a different conversation.",
+      "Negotiate the whole package: notice period, joining bonus, level, WFH days. Single-number fights are the easiest to lose."
+    ],
+    "why": "This is anchoring. The first number stated pulls every subsequent number toward it, even when both sides know it's arbitrary. Street smarts in a salon or a showroom and street smarts in an HR call are the same skill wearing different clothes.",
+    "variants": "Same shape: 'what's your budget?' from any contractor, the first quote at a furniture shop, a landlord asking what you currently pay."
+  },
+  "lens": {
+    "id": "opportunity-cost",
+    "name": "Opportunity cost",
+    "one_line": "The true price of anything is the best thing you gave up to get it.",
+    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+    "elsewhere": [
+      "A cheap flat 25 km out, priced in hours of your life per year.",
+      "Studying one more degree versus the earnings and experience forgone.",
+      "A free app paid for with attention and data."
+    ],
+    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
+    "today": "Panathur underpass flooded for the fourth time since July after a brief rain, with a car nearly submerged (TOI, Urban Acres). The route looks cheaper on a dry day, but its real price includes the hours and risk on the days it floods. Count the worst day, not the average one, when you choose a route."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Namma Metro runs till 1.30 am today for the India–West Indies T20 at Chinnaswamy Stadium (Deccan Herald, The Hindu). Police have also published no-parking areas around the stadium (Economic Times).",
+      "so_what": "If you are anywhere near MG Road tonight, leave the car at home and plan the return by Metro; driving means no-parking zones and a surge-priced ride."
+    },
+    {
+      "tag": "Commute",
+      "what": "Panathur railway underbridge flooded for the fourth time since July after a brief rain, and a car was nearly submerged (Times of India).",
+      "so_what": "On any rainy day, route around Panathur instead of testing the water; if you must pass, never enter an underpass with standing water of unknown depth."
+    },
+    {
+      "tag": "Civic",
+      "what": "Karnataka reservoir storage is down 30% and a water crisis is looming (Times of India).",
+      "so_what": "Expect water-saving pressure and costlier tankers before summer; fixing leaks and topping up sump storage now is cheap compared with buying water later."
+    },
+    {
+      "tag": "Your record",
+      "what": "In Karnataka's SIR exercise, only 9% of deleted voters have applied to return (Times of India).",
+      "so_what": "Check your name on the electoral roll this week; if it was deleted, the application to return is yours to file, and nobody will do it for you."
+    },
+    {
+      "tag": "Prices",
+      "what": "Crude is stuck at about $105 a barrel as geopolitical risks mount (OilPrice.com).",
+      "so_what": "Do not budget for cheaper petrol or diesel soon; the likelier effect is steady pressure on fuel and freight-linked prices."
+    }
+  ],
+  "carry_over": {
+    "id": "festival-sweets",
+    "prompt": "A shop's loose festival sweets have no date anywhere, but the owner says they were made fresh this morning and they cost less. What do you check before buying?",
+    "answer": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence."
+  },
+  "quiz": [
+    {
+      "question": "Until what time does Namma Metro run today for the T20 at Chinnaswamy Stadium?",
+      "options": [
+        "11.00 pm",
+        "12.00 am",
+        "1.30 am",
+        "3.00 am"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald and The Hindu report services extended till 1.30 am."
+    },
+    {
+      "question": "How many times has Panathur underbridge flooded since July, per Times of India?",
+      "options": [
+        "Once",
+        "Twice",
+        "Four times",
+        "Nine times"
+      ],
+      "answer": 2,
+      "why": "TOI reports the fourth flooding since July."
+    },
+    {
+      "question": "By how much is Karnataka's reservoir storage reported down?",
+      "options": [
+        "3%",
+        "10%",
+        "30%",
+        "60%"
+      ],
+      "answer": 2,
+      "why": "Times of India reports storage down 30% as a water crisis looms."
+    },
+    {
+      "question": "In the Edge, what should you do first when HR asks for your expected salary before you know the budget?",
+      "options": [
+        "Say your current CTC",
+        "Ask what range is budgeted for the role",
+        "Name a high number",
+        "Say you are flexible"
+      ],
+      "answer": 1,
+      "why": "The first number anchors everything after it, so ask for their budgeted range first."
+    },
+    {
+      "question": "Under opportunity cost, what is the true price of a cheaper route?",
+      "options": [
+        "Its fare",
+        "The best thing you give up to use it",
+        "Its distance",
+        "Nothing if it is free"
+      ],
+      "answer": 1,
+      "why": "The real cost includes what you give up, such as time and risk on days the route fails."
+    }
+  ]
+}

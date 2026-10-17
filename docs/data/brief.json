@@ -1,74 +1,73 @@
 {
-  "date": "2026-10-16",
-  "edition": "evening",
+  "date": "2026-10-17",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-16T19:55:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-10-17T07:55:00+05:30",
+  "read_seconds": 75,
   "weather": null,
   "edge": {
-    "id": "festival-sweets",
-    "category": "Everyday safety",
-    "title": "The sweets with no date on them",
-    "setup": "Festival week. The shop's trays are piled with bright, glossy mithai, loose, in a glass counter, no date anywhere. A box is ₹400 cheaper than the packaged brand next door and the shopkeeper says it was made fresh this morning. Everyone is buying; you have ten minutes and a house full of guests.",
-    "tell": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence.",
+    "id": "salary-anchor",
+    "category": "Leverage",
+    "title": "The number you say first",
+    "setup": "An interview goes well. HR asks your current CTC and your expectation. Whatever you answer becomes the ceiling of everything that follows — and you're being asked before you know what the role is budgeted at.",
+    "tell": "You're being asked to price yourself before you know what the buyer budgeted.",
     "move": [
-      "Look for the best-before date on the tray or counter: FSSAI requires loose sweets to display one. No date means walk on.",
-      "Look for the shop's FSSAI licence or registration number displayed at the counter.",
-      "Prefer milk-based sweets from a high-turnover shop on a busy day over a bargain from a quiet one.",
-      "If you fall ill or find something wrong, keep the box and bill, and report it to the food safety authority through the FSSAI Food Safety Connect app."
+      "Deflect once, politely: 'I'd like to understand the scope first — what range is budgeted for this role?' Asking costs nothing and often works.",
+      "If pressed, give a researched range for the role and market, not your current salary. Your past pay is a fact about your last employer, not about this job.",
+      "Karnataka has no salary-history ban, so you may have to answer eventually — but 'eventually' after you've heard their number is a different conversation.",
+      "Negotiate the whole package: notice period, joining bonus, level, WFH days. Single-number fights are the easiest to lose."
     ],
-    "why": "Freshness and safety are invisible at the counter, so the seller knows what you can't, and festival rush removes your time to check. A displayed date and licence number turn an unverifiable claim into a checkable one; an unwillingness to display them is itself the information.",
-    "variants": "Same shape: loose ghee and oil sold by weight, 'organic' produce with no label, street food at a mela where nothing is traceable.",
-    "anchor": "Bengaluru has begun sweet shop inspections ahead of the festival season (Urban Acres)."
+    "why": "This is anchoring. The first number stated pulls every subsequent number toward it, even when both sides know it's arbitrary. Street smarts in a salon or a showroom and street smarts in an HR call are the same skill wearing different clothes.",
+    "variants": "Same shape: 'what's your budget?' from any contractor, the first quote at a furniture shop, a landlord asking what you currently pay."
   },
   "lens": {
-    "id": "induced-demand",
-    "name": "Induced demand",
-    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
-    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "id": "opportunity-cost",
+    "name": "Opportunity cost",
+    "one_line": "The true price of anything is the best thing you gave up to get it.",
+    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
     "elsewhere": [
-      "Build more parking and more people drive in.",
-      "Add engineers to a late project and the scope expands to absorb them.",
-      "Widen a hospital's OPD and the waiting room refills."
+      "A cheap flat 25 km out, priced in hours of your life per year.",
+      "Studying one more degree versus the earnings and experience forgone.",
+      "A free app paid for with attention and data."
     ],
-    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
-    "today": "BMTC plans around 200 mini-buses and five feeder routes to carry people into the Metro, including the Pink Line (ET Infra, Construction World). Easier last-mile links will pull in riders who gave up on the Metro, so expect new crowding at the stations the feeders serve. Judge the plan by whether the first and last kilometre stay easy once the crowds arrive."
+    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
+    "today": "Panathur underpass flooded for the fourth time since July after a brief rain, with a car nearly submerged (TOI, Urban Acres). The route looks cheaper on a dry day, but its real price includes the hours and risk on the days it floods. Count the worst day, not the average one, when you choose a route."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Namma Metro will extend services till 1.30 am for the India–West Indies T20 at Chinnaswamy Stadium on 17 October (Deccan Herald, The Hindu).",
-      "so_what": "If you are near MG Road tomorrow night, Metro is the way home; driving means the stadium no-parking zones and a surge-priced ride."
+      "what": "Namma Metro runs till 1.30 am today for the India–West Indies T20 at Chinnaswamy Stadium (Deccan Herald, The Hindu). Police have also published no-parking areas around the stadium (Economic Times).",
+      "so_what": "If you are anywhere near MG Road tonight, leave the car at home and plan the return by Metro; driving means no-parking zones and a surge-priced ride."
     },
     {
       "tag": "Commute",
-      "what": "Heavy rain flooded roads on 15 October and pushed up auto and taxi fares (Deccan Herald, The Hindu).",
-      "so_what": "Rain at peak hour reprices every ride; leave before it starts or wait out the first 20 minutes."
+      "what": "Panathur railway underbridge flooded for the fourth time since July after a brief rain, and a car was nearly submerged (Times of India).",
+      "so_what": "On any rainy day, route around Panathur instead of testing the water; if you must pass, never enter an underpass with standing water of unknown depth."
     },
     {
       "tag": "Civic",
-      "what": "BMTC plans 200 mini-buses and five feeder routes for the Pink Line, with tap-to-pay and flat fares (ET Infra, The News Minute).",
-      "so_what": "If you live in a narrow-lane area off the Pink Line, check whether a feeder is planned for your street and tell BMTC if not."
+      "what": "Karnataka reservoir storage is down 30% and a water crisis is looming (Times of India).",
+      "so_what": "Expect water-saving pressure and costlier tankers before summer; fixing leaks and topping up sump storage now is cheap compared with buying water later."
     },
     {
-      "tag": "Safety",
-      "what": "A report says the Pink Line faces 36 safety issues ahead of its passenger launch (Metro Rail News).",
-      "so_what": "Do not plan a commute around a Pink Line start date yet; keep your current route as the fallback."
+      "tag": "Your record",
+      "what": "In Karnataka's SIR exercise, only 9% of deleted voters have applied to return (Times of India).",
+      "so_what": "Check your name on the electoral roll this week; if it was deleted, the application to return is yours to file, and nobody will do it for you."
     },
     {
-      "tag": "Worth booking",
-      "what": "Pro-Kannada groups are urging that Sonu Nigam's 24 October Bengaluru concert be stopped, with protests threatened (Times of India, The Indian Express).",
-      "so_what": "Hold off on non-refundable travel or stays tied to that date until the organiser confirms."
+      "tag": "Prices",
+      "what": "Crude is stuck at about $105 a barrel as geopolitical risks mount (OilPrice.com).",
+      "so_what": "Do not budget for cheaper petrol or diesel soon; the likelier effect is steady pressure on fuel and freight-linked prices."
     }
   ],
   "carry_over": {
-    "id": "auto-refusal",
-    "prompt": "It is raining, you are late, and an auto driver refuses the meter and quotes double. What is the one move that changes the price?",
-    "answer": "If you're arguing about the price, you've already accepted that he's the only option."
+    "id": "festival-sweets",
+    "prompt": "A shop's loose festival sweets have no date anywhere, but the owner says they were made fresh this morning and they cost less. What do you check before buying?",
+    "answer": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence."
   },
   "quiz": [
     {
-      "question": "Until what time will Namma Metro run for the 17 October T20 at Chinnaswamy Stadium?",
+      "question": "Until what time does Namma Metro run today for the T20 at Chinnaswamy Stadium?",
       "options": [
         "11.00 pm",
         "12.00 am",
@@ -76,51 +75,51 @@
         "3.00 am"
       ],
       "answer": 2,
-      "why": "Deccan Herald reports Metro services are extended till 1.30 am for the match."
+      "why": "Deccan Herald and The Hindu report services extended till 1.30 am."
     },
     {
-      "question": "What does BMTC plan to add to improve last-mile links to the Metro?",
+      "question": "How many times has Panathur underbridge flooded since July, per Times of India?",
       "options": [
-        "200 mini-buses",
-        "200 cycle stands",
-        "20 new depots",
-        "A ferry route"
-      ],
-      "answer": 0,
-      "why": "ET Infra and TOI report BMTC plans 200 mini-buses for Metro connectivity."
-    },
-    {
-      "question": "In the Edge, what is the best check before buying loose festival sweets?",
-      "options": [
-        "Ask if they are fresh",
-        "Look for a displayed date and licence number",
-        "Pick the cheapest",
-        "Pick the brightest"
-      ],
-      "answer": 1,
-      "why": "A displayed date and licence number make freshness checkable; a spoken claim is not."
-    },
-    {
-      "question": "Under induced demand, what happens when last-mile access gets easier?",
-      "options": [
-        "Riders who had given up come back",
-        "Nobody changes behaviour",
-        "Crowding falls",
-        "Fares fall"
-      ],
-      "answer": 0,
-      "why": "Easier access reveals suppressed demand that fills the new capacity."
-    },
-    {
-      "question": "How many safety issues does the report cite for the Pink Line ahead of launch?",
-      "options": [
-        "6",
-        "16",
-        "36",
-        "66"
+        "Once",
+        "Twice",
+        "Four times",
+        "Nine times"
       ],
       "answer": 2,
-      "why": "Metro Rail News reports 36 safety issues ahead of passenger launch."
+      "why": "TOI reports the fourth flooding since July."
+    },
+    {
+      "question": "By how much is Karnataka's reservoir storage reported down?",
+      "options": [
+        "3%",
+        "10%",
+        "30%",
+        "60%"
+      ],
+      "answer": 2,
+      "why": "Times of India reports storage down 30% as a water crisis looms."
+    },
+    {
+      "question": "In the Edge, what should you do first when HR asks for your expected salary before you know the budget?",
+      "options": [
+        "Say your current CTC",
+        "Ask what range is budgeted for the role",
+        "Name a high number",
+        "Say you are flexible"
+      ],
+      "answer": 1,
+      "why": "The first number anchors everything after it, so ask for their budgeted range first."
+    },
+    {
+      "question": "Under opportunity cost, what is the true price of a cheaper route?",
+      "options": [
+        "Its fare",
+        "The best thing you give up to use it",
+        "Its distance",
+        "Nothing if it is free"
+      ],
+      "answer": 1,
+      "why": "The real cost includes what you give up, such as time and risk on days the route fails."
     }
   ]
 }
