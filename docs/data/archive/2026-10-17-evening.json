@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-17",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-17T19:45:00+05:30",
+  "read_seconds": 75,
+  "weather": null,
+  "edge": {
+    "id": "loan-release-fee",
+    "category": "Money trap",
+    "title": "The loan that needs a fee first",
+    "setup": "A call or WhatsApp message: your government-scheme loan for a small business has been approved, you just need to pay a processing, insurance or 'file release' charge today. The amount is small next to the loan. An agent with official-looking papers is warm and patient.",
+    "tell": "A lender asking for money before any money reaches you.",
+    "move": [
+      "Hang up and walk into the bank branch, or open the scheme's official portal yourself, to ask whether any loan in your name exists.",
+      "Never pay a private agent or personal UPI ID to 'release' or 'insure' a sanctioned loan; real charges are deducted by the lender from the loan and shown in the sanction letter.",
+      "If you have already paid, call 1930 or report at cybercrime.gov.in at once, and tell your bank."
+    ],
+    "why": "The fee is the whole product: the loan was never real. Hope for a large sum makes a smaller upfront payment feel like a toll, and each 'one more charge' that follows is cheaper to pay than to admit the first was a mistake. A sunk payment is the scammer's best leverage.",
+    "variants": "Same shape: lottery 'tax' before the prize, a job fee before the joining letter, 'GST clearance' on a courier or inheritance.",
+    "anchor": "The Times of India reports a Bengaluru woman lost Rs 1.3 lakh to a fake Mudra loan promise."
+  },
+  "lens": {
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "elsewhere": [
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+    ],
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "Two outlets are running a Bengaluru woman's account of an unsettling Rapido bike-taxi ride, and News18 is running a man who walked 9 km through flooded traffic. Both are vivid and recent, which makes them feel like the typical ride and the typical commute. They are reports of individual cases; judge your own route by how often it actually fails, and still use the app's safety features."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Namma Metro is extended to 1.30 am for tonight's India–West Indies T20I at Chinnaswamy Stadium, with a police traffic advisory and parking curbs around it (Times of India, Deccan Herald, News18). Rain threatens the match (Times of India).",
+      "so_what": "Near MG Road tonight, leave the car and use the Metro; if rain stops play, expect a sudden exodus at the stations, so leave earlier or later than the crowd."
+    },
+    {
+      "tag": "Commute",
+      "what": "Heavy rain flooded underpasses and snarled roads today; News18 reports a five-minute drive taking two hours and a man walking 9 km (News18, Urban Acres).",
+      "so_what": "On rain days, check live traffic before leaving and avoid underpasses; the Metro is the reliable option on the lines it covers."
+    },
+    {
+      "tag": "Money",
+      "what": "A Bengaluru woman lost Rs 1.3 lakh to a fake Mudra loan promise (Times of India).",
+      "so_what": "No scheme loan needs a fee to a private agent; ask your own bank branch before paying anyone."
+    },
+    {
+      "tag": "Safety",
+      "what": "A Bengaluru woman says a Rapido bike rider held her hand and made her feel unsafe; the company has responded (Deccan Herald, NDTV).",
+      "so_what": "On bike-taxi rides, share the trip with someone and use the in-app safety option; report the ride in the app and keep the screenshot."
+    },
+    {
+      "tag": "Your record",
+      "what": "In Karnataka's SIR exercise, only 9% of deleted voters have applied to return (Times of India).",
+      "so_what": "Check your name on the electoral roll this week; if it was deleted, the application to return is yours to file."
+    },
+    {
+      "tag": "Civic",
+      "what": "Karnataka reservoir storage is down 30% and a water crisis is looming (Times of India).",
+      "so_what": "Fix leaks and keep your sump topped up now; tanker water gets costlier as stocks fall."
+    }
+  ],
+  "carry_over": {
+    "id": "salary-anchor",
+    "prompt": "HR asks your current CTC and expectation before telling you the role's budget. What do you say first?",
+    "answer": "You're being asked to price yourself before you know what the buyer budgeted."
+  },
+  "quiz": [
+    {
+      "question": "Until what time does Namma Metro run tonight for the T20I at Chinnaswamy Stadium?",
+      "options": [
+        "11.00 pm",
+        "12.00 am",
+        "1.30 am",
+        "3.00 am"
+      ],
+      "answer": 2,
+      "why": "Times of India and Urban Acres report services extended till 1.30 am."
+    },
+    {
+      "question": "How much did the Bengaluru woman lose to a fake Mudra loan promise, per Times of India?",
+      "options": [
+        "Rs 13,000",
+        "Rs 1.3 lakh",
+        "Rs 13 lakh",
+        "Rs 50,000"
+      ],
+      "answer": 1,
+      "why": "Times of India reports Rs 1.3 lakh lost."
+    },
+    {
+      "question": "By how much is Karnataka's reservoir storage reported down?",
+      "options": [
+        "3%",
+        "10%",
+        "30%",
+        "60%"
+      ],
+      "answer": 2,
+      "why": "Times of India reports storage down 30% as a water crisis looms."
+    },
+    {
+      "question": "What is the Tell in today's Edge?",
+      "options": [
+        "A lender asking for money before any money reaches you",
+        "A loan with a low interest rate",
+        "A bank asking for your PAN",
+        "An agent who calls twice"
+      ],
+      "answer": 0,
+      "why": "A fee demanded before disbursal is the mark of a fake loan."
+    },
+    {
+      "question": "The availability heuristic says you judge how likely something is by...",
+      "options": [
+        "The official statistics",
+        "How easily an example comes to mind",
+        "What your friends decide",
+        "How recent the law is"
+      ],
+      "answer": 1,
+      "why": "Vivid, recent stories feel more common than they are."
+    }
+  ]
+}
