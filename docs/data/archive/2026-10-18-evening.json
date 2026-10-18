@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-18",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-18T19:33:21+05:30",
+  "read_seconds": 80,
+  "weather": {
+    "now_c": 23.1,
+    "condition": "Overcast",
+    "high_c": 25.6,
+    "low_c": 20.5,
+    "rain_chance_pct": 100,
+    "tip": "100% chance of rain today and a high near 26°C: after Friday's six-hour Dasara-rush jams and fares above ₹100 per km, a rain-hit trip home tonight will be slow and expensive, so book your ride or take the Metro before the rain peaks."
+  },
+  "edge": {
+    "id": "broker-urgency",
+    "category": "Street tactic",
+    "title": "The other party who is always interested",
+    "setup": "A broker shows you a flat. Before you've reached the lift, there's a call about another family deciding tonight, and the owner may raise the quote tomorrow. You're asked for a token amount to 'hold' it — ₹25,000, adjustable later.",
+    "tell": "A deadline you can't verify, created by a person paid on commission.",
+    "move": [
+      "Token money is almost never genuinely refundable, whatever is said aloud. Treat it as spent.",
+      "Say: 'If it goes, it goes.' Watch what happens to the deadline — real urgency survives this; manufactured urgency dissolves.",
+      "Ask for the owner's number and talk directly. Brokers resist this precisely because the pressure lives in the gap between you."
+    ],
+    "why": "A broker is paid for a transaction closing, not for you choosing well. That isn't villainy, it's structure — and once you see the structure, 'another party is interested' stops reading as information and starts reading as a job being done.",
+    "variants": "Same shape: car dealers' 'this EMI scheme ends today', gym joining fees waived 'only this month', insurance agents' quarter-end calls."
+  },
+  "lens": {
+    "id": "compounding",
+    "name": "Compounding",
+    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
+    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
+    "elsewhere": [
+      "Daily reading beating occasional cramming.",
+      "Minimum card payments keeping a balance alive for years.",
+      "Reputation: slow to build, then suddenly everything arrives at once."
+    ],
+    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
+    "today": "Deccan Herald reports Dasara-rush motorists stranded for six hours, and the Times of India has long-distance buses crawling out of Bengaluru until 2.30 am on Friday night. A jam like this is not a steady loss: everyone who leaves late joins a queue that grows faster than it clears, so each delayed departure adds to the delay of the next. The practical reading is that the first 30 minutes of a bad start cost far more than 30 minutes by the end of the night, so leave well before the peak rather than 'a little early'."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Dasara rush left Bengaluru motorists stranded for six hours (Deccan Herald), and long-distance buses crawled out of the city until 2.30 am on Friday night (Times of India). A chemical-laden truck also caught fire on the NICE road, halting traffic (The Hindu).",
+      "so_what": "If you travel out of the city this week, leave before the evening peak, not just a little earlier, and avoid the NICE road until it is clear; check live traffic before you start."
+    },
+    {
+      "tag": "Prices",
+      "what": "Bengaluru cab fares crossed ₹100 per km in rain and traffic, with no guarantee of a ride (Times of India, Urban Acres). Festival airfares have also surged to ₹35,000 (India Business Trade).",
+      "so_what": "With rain forecast again, book your return ride or flight before you need it and keep the Metro as a fallback; do not plan a tight connection that depends on finding a cab."
+    },
+    {
+      "tag": "Your record",
+      "what": "Joint owners of a Bengaluru property can now split an A-eKhata online and get separate records (Times of India).",
+      "so_what": "If you co-own a flat or site, you can apply online for your own khata record instead of sharing one document, which makes selling or borrowing against your share simpler."
+    },
+    {
+      "tag": "Money",
+      "what": "Anyone who missed the Gruha Jyothi survey should visit the nearest Escom office by 31 October (Times of India).",
+      "so_what": "If you were away when the survey happened, go before 31 October rather than risk a problem with your free-power benefit."
+    },
+    {
+      "tag": "Civic",
+      "what": "Bengaluru schools and colleges with polling booths will be closed on 22 and 23 October for council elections (Times of India).",
+      "so_what": "Check your child's school or college circular today and plan childcare or study arrangements for those two days."
+    }
+  ],
+  "carry_over": {
+    "id": "crowd-exit",
+    "prompt": "You are in a packed festival ground and have only noticed the gate you came in by. What single check tells you that you are standing in a bottleneck?",
+    "answer": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck."
+  },
+  "quiz": [
+    {
+      "question": "What is today's rain chance in Bengaluru per the forecast pulled this evening?",
+      "options": [
+        "21%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": 3,
+      "why": "The forecast shows a 100% rain chance with a high of about 26°C."
+    },
+    {
+      "question": "By which date should you visit an Escom office if you missed the Gruha Jyothi survey?",
+      "options": [
+        "18 October",
+        "22 October",
+        "31 October",
+        "30 November"
+      ],
+      "answer": 2,
+      "why": "Times of India reports the deadline as 31 October."
+    },
+    {
+      "question": "What new option do joint property owners in Bengaluru now have?",
+      "options": [
+        "Pay property tax by UPI",
+        "Split an A-eKhata online",
+        "Register a sale deed at home",
+        "Skip khata for rentals"
+      ],
+      "answer": 1,
+      "why": "Times of India reports joint owners can split an A-eKhata online and get separate records."
+    },
+    {
+      "question": "What is the Tell in today's Edge?",
+      "options": [
+        "A deadline you can't verify, created by a person paid on commission",
+        "A broker who speaks too fast",
+        "A flat with no lift",
+        "A token amount under ₹10,000"
+      ],
+      "answer": 0,
+      "why": "Real urgency survives 'if it goes, it goes'; manufactured urgency dissolves."
+    },
+    {
+      "question": "In the Compounding lens, why does a late start in a Dasara-rush queue cost so much?",
+      "options": [
+        "Roads get narrower at night",
+        "Delays add to the queue behind them, so they multiply",
+        "Fuel prices rise in the evening",
+        "Buses take a different route"
+      ],
+      "answer": 1,
+      "why": "A queue grows faster than it clears, so early delays compound into later ones."
+    }
+  ]
+}
