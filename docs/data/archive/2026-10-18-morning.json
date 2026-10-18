@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-18",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-18T07:45:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 21.2,
+    "condition": "Overcast",
+    "high_c": 27.7,
+    "low_c": 20.4,
+    "rain_chance_pct": 91,
+    "tip": "91% chance of rain today: if you are going to a Durga Puja pandal or dandiya ground tonight, go early while the ground is dry and note two exits first. Yesterday's flooded underpasses and six-hour Dasara-rush jams (News18, Deccan Herald) mean a late, rain-hit exit is slow by road."
+  },
+  "edge": {
+    "id": "crowd-exit",
+    "category": "Safety trap",
+    "title": "The crowd with one way out",
+    "setup": "It is festival week and the pandal or dandiya ground is packed. You came in through one gate and have not looked for another. There is a temporary stage, barricades and stalls, and people are still streaming in behind you. The good view is deep in the middle, the exit is somewhere behind a few thousand people.",
+    "tell": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck.",
+    "move": [
+      "On arrival, spend one minute locating two exits and note which side of the ground they are on; stay on that side, not in the centre.",
+      "Keep children and older family members at the edge, and agree a meeting point outside the gate in case you are separated.",
+      "If the crowd starts to compress, do not push against it: keep your feet moving with the flow, arms up near your chest, and angle sideways toward an edge.",
+      "Stay clear of makeshift stages, scaffolding and temporary stands, and leave before the closing rush rather than in it."
+    ],
+    "why": "Crowd disasters rarely need a big trigger. A rumour, a loud noise or a small structural failure becomes deadly only where density is high and people cannot disperse. You cannot control the trigger; you can control where you stand and how fast you can leave. Choosing position before anything goes wrong is the whole defence.",
+    "variants": "Same shape: cricket stadium gates after a match, concert and rally grounds, temple queues on festival days, railway foot-over-bridges at peak hour.",
+    "anchor": "The Hindu reports at least 19 dead in a Kolkata pandal stampede, and India Today reports an engineering student died when a structure collapsed at a Hyderabad college dandiya event."
+  },
+  "lens": {
+    "id": "asymmetric-information",
+    "name": "Asymmetric information",
+    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+    "elsewhere": [
+      "Freelance marketplaces race to the bottom without reviews.",
+      "Insurance pools get sicker when only the sick buy in.",
+      "A degree works partly as a costly signal of something an employer can't directly see."
+    ],
+    "test": "What can the other side see that I can't — and what would make it visible?",
+    "today": "The Times of India's headline, 'Rs 100 per km, yet no guarantee of a ride in rain & traffic in Bengaluru', captures the gap: the driver sees your destination and the weather before deciding, while you see only a price. When one side holds the deciding information, a higher fare does not buy certainty. Check the destination and fare before the rain starts, and book earlier or take the Metro where you can."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Dasara rush left Bengaluru motorists stranded for six hours (Deccan Herald), and long-distance buses crawled out of the city until 2.30 am on Friday night (Times of India).",
+      "so_what": "If you are travelling in or out of the city this weekend, leave well before or after the evening peak, and book bus pickups at points away from the main bus hubs."
+    },
+    {
+      "tag": "Your record",
+      "what": "Joint owners of a Bengaluru property can now split an A-eKhata online and get separate records (Times of India).",
+      "so_what": "If you co-own a flat or site, you can apply online for your own khata record instead of sharing one document, which makes selling or borrowing against your share simpler."
+    },
+    {
+      "tag": "Money",
+      "what": "Anyone who missed the Gruha Jyothi survey should visit the nearest Escom office by 31 October (Times of India).",
+      "so_what": "If you were away when the survey happened, go before 31 October rather than risk a problem with your free-power benefit."
+    },
+    {
+      "tag": "Civic",
+      "what": "Bengaluru schools and colleges with polling booths will be closed on 22 and 23 October for council elections (Times of India).",
+      "so_what": "Check your child's school or college circular today and plan childcare or study arrangements for those two days."
+    },
+    {
+      "tag": "Commute",
+      "what": "Urban Acres reports the Namma Metro Pink and Blue lines are targeting a May 2027 opening.",
+      "so_what": "Treat May 2027 as a target, not a date: do not time a house move or job change around those lines opening."
+    },
+    {
+      "tag": "Civic",
+      "what": "The NGT has barred tree-felling for the Hebbal tunnel project until the case is disposed of (Times of India).",
+      "so_what": "Expect no quick relief on the Hebbal corridor; keep an alternate route in mind for that stretch."
+    }
+  ],
+  "carry_over": {
+    "id": "loan-release-fee",
+    "prompt": "A caller says your small-business loan is approved but you must pay a processing or file-release fee today. What is the one thing to notice?",
+    "answer": "A lender asking for money before any money reaches you."
+  },
+  "quiz": [
+    {
+      "question": "What is the chance of rain in Bengaluru today, per the forecast pulled this morning?",
+      "options": [
+        "21%",
+        "50%",
+        "75%",
+        "91%"
+      ],
+      "answer": 3,
+      "why": "The forecast shows a 91% rain chance, with a high of about 28°C."
+    },
+    {
+      "question": "By which date should you visit an Escom office if you missed the Gruha Jyothi survey?",
+      "options": [
+        "18 October",
+        "22 October",
+        "31 October",
+        "30 November"
+      ],
+      "answer": 2,
+      "why": "Times of India reports the deadline as 31 October."
+    },
+    {
+      "question": "On which dates are Bengaluru schools and colleges with polling booths closed for council elections?",
+      "options": [
+        "18-19 October",
+        "22-23 October",
+        "25-26 October",
+        "31 October-1 November"
+      ],
+      "answer": 1,
+      "why": "Times of India reports closures on 22 and 23 October."
+    },
+    {
+      "question": "What is the Tell in today's Edge?",
+      "options": [
+        "If you cannot point to two exits without crossing the thickest part of the crowd, you are in a bottleneck",
+        "A crowd that is cheering loudly",
+        "A venue that charges entry",
+        "A stage with bright lights"
+      ],
+      "answer": 0,
+      "why": "Position and exits are the only part of a crowd risk you control."
+    },
+    {
+      "question": "Asymmetric information describes a situation where...",
+      "options": [
+        "Prices are set by the government",
+        "One side knows much more than the other",
+        "Both sides have the same facts",
+        "Sellers refuse to bargain"
+      ],
+      "answer": 1,
+      "why": "The side holding the deciding information can pick its moves; the other side sees only the price."
+    }
+  ]
+}

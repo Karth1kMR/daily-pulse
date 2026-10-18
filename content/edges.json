@@ -290,6 +290,21 @@
       ],
       "why": "The fee is the whole product: the loan was never real. Hope for a large sum makes a smaller upfront payment feel like a toll, and each 'one more charge' that follows is cheaper to pay than to admit the first was a mistake. A sunk payment is the scammer's best leverage.",
       "variants": "Same shape: lottery 'tax' before the prize, a job fee before the joining letter, 'GST clearance' on a courier or inheritance."
+    },
+    {
+      "id": "crowd-exit",
+      "category": "Safety trap",
+      "title": "The crowd with one way out",
+      "setup": "It is festival week and the pandal or dandiya ground is packed. You came in through one gate and have not looked for another. There is a temporary stage, barricades and stalls, and people are still streaming in behind you. The good view is deep in the middle, the exit is somewhere behind a few thousand people.",
+      "tell": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck.",
+      "move": [
+        "On arrival, spend one minute locating two exits and note which side of the ground they are on; stay on that side, not in the centre.",
+        "Keep children and older family members at the edge, and agree a meeting point outside the gate in case you are separated.",
+        "If the crowd starts to compress, do not push against it: keep your feet moving with the flow, arms up near your chest, and angle sideways toward an edge.",
+        "Stay clear of makeshift stages, scaffolding and temporary stands, and leave before the closing rush rather than in it."
+      ],
+      "why": "Crowd disasters rarely need a big trigger. A rumour, a loud noise or a small structural failure becomes deadly only where density is high and people cannot disperse. You cannot control the trigger; you can control where you stand and how fast you can leave. Choosing position before anything goes wrong is the whole defence.",
+      "variants": "Same shape: cricket stadium gates after a match, concert and rally grounds, temple queues on festival days, railway foot-over-bridges at peak hour."
     }
   ]
 }
