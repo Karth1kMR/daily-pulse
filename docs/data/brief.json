@@ -1,131 +1,75 @@
 {
-  "date": "2026-10-18",
-  "edition": "evening",
+  "date": "2026-10-19",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-18T19:33:21+05:30",
-  "read_seconds": 80,
+  "generated_at": "2026-10-19T07:33:29+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 23.1,
+    "now_c": 21.8,
     "condition": "Overcast",
-    "high_c": 25.6,
-    "low_c": 20.5,
-    "rain_chance_pct": 100,
-    "tip": "100% chance of rain today and a high near 26°C: after Friday's six-hour Dasara-rush jams and fares above ₹100 per km, a rain-hit trip home tonight will be slow and expensive, so book your ride or take the Metro before the rain peaks."
+    "high_c": 28.1,
+    "low_c": 20.2,
+    "rain_chance_pct": 84,
+    "tip": "84% chance of rain with slushy roads after three wet days and the Hulimavu Metro stretch flooding again: leave 20 minutes early or take the Metro, and give the NICE Road a miss until the tanker-fire clearance is confirmed."
   },
   "edge": {
-    "id": "broker-urgency",
-    "category": "Street tactic",
-    "title": "The other party who is always interested",
-    "setup": "A broker shows you a flat. Before you've reached the lift, there's a call about another family deciding tonight, and the owner may raise the quote tomorrow. You're asked for a token amount to 'hold' it — ₹25,000, adjustable later.",
-    "tell": "A deadline you can't verify, created by a person paid on commission.",
+    "id": "deadline-verification",
+    "category": "Money trap",
+    "title": "The government deadline that arrives with a link",
+    "setup": "Ration card e-KYC is due soon. A message or a helpful stranger says it must be done today, shares a link or app, and mentions a small 'processing fee' or asks for an OTP to 'complete verification'.",
+    "tell": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP.",
     "move": [
-      "Token money is almost never genuinely refundable, whatever is said aloud. Treat it as spent.",
-      "Say: 'If it goes, it goes.' Watch what happens to the deadline — real urgency survives this; manufactured urgency dissolves.",
-      "Ask for the owner's number and talk directly. Brokers resist this precisely because the pressure lives in the gap between you."
+      "Do not tap the link or share any OTP. Go to the department's own website or office, which you reach yourself.",
+      "Check the deadline on the official notice, not in the message that is pushing you.",
+      "If you already shared an OTP or paid, call your bank and the 1930 cybercrime helpline now."
     ],
-    "why": "A broker is paid for a transaction closing, not for you choosing well. That isn't villainy, it's structure — and once you see the structure, 'another party is interested' stops reading as information and starts reading as a job being done.",
-    "variants": "Same shape: car dealers' 'this EMI scheme ends today', gym joining fees waived 'only this month', insurance agents' quarter-end calls."
+    "why": "Scammers do not need to invent urgency when a real deadline already exists. They ride on it. The deadline is true; the channel is the fake. So judge who contacted whom, not whether the deadline is real.",
+    "variants": "Same shape: PAN-Aadhaar linking 'last date' texts, FASTag KYC calls, electricity 'disconnection tonight' messages, bank KYC-update links.",
+    "anchor": "The Bangalore Mirror reports 'digital arrest' scams have dipped in Bengaluru, yet victims lost ₹306 crore in three years, and the Times of India reports the Karnataka ration card e-KYC deadline has been extended to 10 November."
   },
   "lens": {
-    "id": "compounding",
-    "name": "Compounding",
-    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
-    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
     "elsewhere": [
-      "Daily reading beating occasional cramming.",
-      "Minimum card payments keeping a balance alive for years.",
-      "Reputation: slow to build, then suddenly everything arrives at once."
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
     ],
-    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
-    "today": "Deccan Herald reports Dasara-rush motorists stranded for six hours, and the Times of India has long-distance buses crawling out of Bengaluru until 2.30 am on Friday night. A jam like this is not a steady loss: everyone who leaves late joins a queue that grows faster than it clears, so each delayed departure adds to the delay of the next. The practical reading is that the first 30 minutes of a bad start cost far more than 30 minutes by the end of the night, so leave well before the peak rather than 'a little early'."
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "Realty Today reports North Bengaluru's Metro-led property push is selling connectivity before it is complete, and Deccan Herald says the Pink Line's underground stretch has reached ₹1,000 crore per km a decade on. Both stories rest on a completion date that was best-case when announced. If you are paying more for a flat because a station is 'coming soon', price it as if the line opens years later than the brochure says."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Dasara rush left Bengaluru motorists stranded for six hours (Deccan Herald), and long-distance buses crawled out of the city until 2.30 am on Friday night (Times of India). A chemical-laden truck also caught fire on the NICE road, halting traffic (The Hindu).",
-      "so_what": "If you travel out of the city this week, leave before the evening peak, not just a little earlier, and avoid the NICE road until it is clear; check live traffic before you start."
+      "what": "A chemical tanker caught fire on NICE Road on Sunday, causing long jams (Times of India, Deccan Herald). Traffic police are also considering curbs on heavy vehicles and AITP buses to ease festive traffic (Deccan Herald).",
+      "so_what": "If your route uses NICE Road, check live traffic before leaving this morning and keep a Metro or inner-road fallback."
     },
     {
-      "tag": "Prices",
-      "what": "Bengaluru cab fares crossed ₹100 per km in rain and traffic, with no guarantee of a ride (Times of India, Urban Acres). Festival airfares have also surged to ₹35,000 (India Business Trade).",
-      "so_what": "With rain forecast again, book your return ride or flight before you need it and keep the Metro as a fallback; do not plan a tight connection that depends on finding a cab."
+      "tag": "Commute",
+      "what": "The Hulimavu Metro stretch has flooded again with no fix in sight (Deccan Herald).",
+      "so_what": "With rain likely today, expect slow traffic around Hulimavu on Bannerghatta Road and add buffer time."
     },
     {
       "tag": "Your record",
-      "what": "Joint owners of a Bengaluru property can now split an A-eKhata online and get separate records (Times of India).",
-      "so_what": "If you co-own a flat or site, you can apply online for your own khata record instead of sharing one document, which makes selling or borrowing against your share simpler."
+      "what": "The Karnataka ration card e-KYC deadline has been extended to 10 November (Times of India).",
+      "so_what": "You have time, so do it at the official counter or portal yourself and ignore any message claiming it must be done today."
     },
     {
       "tag": "Money",
-      "what": "Anyone who missed the Gruha Jyothi survey should visit the nearest Escom office by 31 October (Times of India).",
-      "so_what": "If you were away when the survey happened, go before 31 October rather than risk a problem with your free-power benefit."
+      "what": "Metro commuters are asking what happens to unused balance in smart cards as NCMC adoption grows (The Hindu).",
+      "so_what": "Until refund rules are clear, load small amounts and spend down the old card before topping up."
     },
     {
-      "tag": "Civic",
-      "what": "Bengaluru schools and colleges with polling booths will be closed on 22 and 23 October for council elections (Times of India).",
-      "so_what": "Check your child's school or college circular today and plan childcare or study arrangements for those two days."
+      "tag": "Safety",
+      "what": "'Digital arrest' cases have dipped in Bengaluru, but victims lost ₹306 crore over three years (Bangalore Mirror).",
+      "so_what": "No agency arrests or interrogates anyone over a video call; end the call and ring 1930."
     }
   ],
   "carry_over": {
-    "id": "crowd-exit",
-    "prompt": "You are in a packed festival ground and have only noticed the gate you came in by. What single check tells you that you are standing in a bottleneck?",
-    "answer": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck."
-  },
-  "quiz": [
-    {
-      "question": "What is today's rain chance in Bengaluru per the forecast pulled this evening?",
-      "options": [
-        "21%",
-        "50%",
-        "75%",
-        "100%"
-      ],
-      "answer": 3,
-      "why": "The forecast shows a 100% rain chance with a high of about 26°C."
-    },
-    {
-      "question": "By which date should you visit an Escom office if you missed the Gruha Jyothi survey?",
-      "options": [
-        "18 October",
-        "22 October",
-        "31 October",
-        "30 November"
-      ],
-      "answer": 2,
-      "why": "Times of India reports the deadline as 31 October."
-    },
-    {
-      "question": "What new option do joint property owners in Bengaluru now have?",
-      "options": [
-        "Pay property tax by UPI",
-        "Split an A-eKhata online",
-        "Register a sale deed at home",
-        "Skip khata for rentals"
-      ],
-      "answer": 1,
-      "why": "Times of India reports joint owners can split an A-eKhata online and get separate records."
-    },
-    {
-      "question": "What is the Tell in today's Edge?",
-      "options": [
-        "A deadline you can't verify, created by a person paid on commission",
-        "A broker who speaks too fast",
-        "A flat with no lift",
-        "A token amount under ₹10,000"
-      ],
-      "answer": 0,
-      "why": "Real urgency survives 'if it goes, it goes'; manufactured urgency dissolves."
-    },
-    {
-      "question": "In the Compounding lens, why does a late start in a Dasara-rush queue cost so much?",
-      "options": [
-        "Roads get narrower at night",
-        "Delays add to the queue behind them, so they multiply",
-        "Fuel prices rise in the evening",
-        "Buses take a different route"
-      ],
-      "answer": 1,
-      "why": "A queue grows faster than it clears, so early delays compound into later ones."
-    }
-  ]
+    "id": "broker-urgency",
+    "prompt": "A broker pushes you to pay a token amount tonight because another family is interested: what is the tell?",
+    "answer": "A deadline you can't verify, created by a person paid on commission."
+  }
 }

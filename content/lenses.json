@@ -192,6 +192,18 @@
         "A family practice that looks superstitious and encodes something practical."
       ],
       "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it."
+    },
+    {
+      "id": "planning-fallacy",
+      "name": "Planning fallacy",
+      "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+      "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+      "elsewhere": [
+        "Home renovations finishing weeks after the contractor's date.",
+        "Your own 'it will take ten minutes' tasks.",
+        "Possession dates promised by builders."
+      ],
+      "test": "What did the last three similar things actually take, and why would this one be different?"
     }
   ]
 }

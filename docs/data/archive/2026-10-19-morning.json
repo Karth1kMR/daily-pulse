@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-19T07:33:29+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 21.8,
+    "condition": "Overcast",
+    "high_c": 28.1,
+    "low_c": 20.2,
+    "rain_chance_pct": 84,
+    "tip": "84% chance of rain with slushy roads after three wet days and the Hulimavu Metro stretch flooding again: leave 20 minutes early or take the Metro, and give the NICE Road a miss until the tanker-fire clearance is confirmed."
+  },
+  "edge": {
+    "id": "deadline-verification",
+    "category": "Money trap",
+    "title": "The government deadline that arrives with a link",
+    "setup": "Ration card e-KYC is due soon. A message or a helpful stranger says it must be done today, shares a link or app, and mentions a small 'processing fee' or asks for an OTP to 'complete verification'.",
+    "tell": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP.",
+    "move": [
+      "Do not tap the link or share any OTP. Go to the department's own website or office, which you reach yourself.",
+      "Check the deadline on the official notice, not in the message that is pushing you.",
+      "If you already shared an OTP or paid, call your bank and the 1930 cybercrime helpline now."
+    ],
+    "why": "Scammers do not need to invent urgency when a real deadline already exists. They ride on it. The deadline is true; the channel is the fake. So judge who contacted whom, not whether the deadline is real.",
+    "variants": "Same shape: PAN-Aadhaar linking 'last date' texts, FASTag KYC calls, electricity 'disconnection tonight' messages, bank KYC-update links.",
+    "anchor": "The Bangalore Mirror reports 'digital arrest' scams have dipped in Bengaluru, yet victims lost ₹306 crore in three years, and the Times of India reports the Karnataka ration card e-KYC deadline has been extended to 10 November."
+  },
+  "lens": {
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+    "elsewhere": [
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
+    ],
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "Realty Today reports North Bengaluru's Metro-led property push is selling connectivity before it is complete, and Deccan Herald says the Pink Line's underground stretch has reached ₹1,000 crore per km a decade on. Both stories rest on a completion date that was best-case when announced. If you are paying more for a flat because a station is 'coming soon', price it as if the line opens years later than the brochure says."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "A chemical tanker caught fire on NICE Road on Sunday, causing long jams (Times of India, Deccan Herald). Traffic police are also considering curbs on heavy vehicles and AITP buses to ease festive traffic (Deccan Herald).",
+      "so_what": "If your route uses NICE Road, check live traffic before leaving this morning and keep a Metro or inner-road fallback."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Hulimavu Metro stretch has flooded again with no fix in sight (Deccan Herald).",
+      "so_what": "With rain likely today, expect slow traffic around Hulimavu on Bannerghatta Road and add buffer time."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Karnataka ration card e-KYC deadline has been extended to 10 November (Times of India).",
+      "so_what": "You have time, so do it at the official counter or portal yourself and ignore any message claiming it must be done today."
+    },
+    {
+      "tag": "Money",
+      "what": "Metro commuters are asking what happens to unused balance in smart cards as NCMC adoption grows (The Hindu).",
+      "so_what": "Until refund rules are clear, load small amounts and spend down the old card before topping up."
+    },
+    {
+      "tag": "Safety",
+      "what": "'Digital arrest' cases have dipped in Bengaluru, but victims lost ₹306 crore over three years (Bangalore Mirror).",
+      "so_what": "No agency arrests or interrogates anyone over a video call; end the call and ring 1930."
+    }
+  ],
+  "carry_over": {
+    "id": "broker-urgency",
+    "prompt": "A broker pushes you to pay a token amount tonight because another family is interested: what is the tell?",
+    "answer": "A deadline you can't verify, created by a person paid on commission."
+  }
+}
