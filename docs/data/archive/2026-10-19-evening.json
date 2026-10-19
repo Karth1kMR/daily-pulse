@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-19T19:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 24.1,
+    "condition": "Overcast",
+    "high_c": 28.6,
+    "low_c": 20.2,
+    "rain_chance_pct": 31,
+    "tip": "Overcast with a 31% chance of rain tonight, which is thinner than this morning's 84%, but after the NICE Road tanker fire and festive traffic, leave 15 minutes early and keep the Metro as your fallback."
+  },
+  "edge": {
+    "id": "cafe-bag-theft",
+    "category": "Safety trap",
+    "title": "The bag you can't see",
+    "setup": "You settle into a café with a laptop or phone out, your bag hanging on the chair back or sitting open at your feet. Someone walks past, pauses nearby, maybe asks a question or drops something. You are looking at your screen. Nothing feels wrong.",
+    "tell": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past.",
+    "move": [
+      "Keep the bag zipped, on your lap or looped through your leg or chair, with the opening facing you, never hanging behind you.",
+      "Carry the wallet in a front pocket or an inner zip pocket rather than the top of a bag, and keep only the cards you need that day.",
+      "If something is taken, block your cards and UPI from your bank's app straight away, then report it to the police and ask the café for its CCTV before the footage is overwritten."
+    ],
+    "why": "Opportunistic theft needs only a few seconds and a moment of your attention elsewhere. The thief is not beating a lock; they are exploiting the gap between where your valuables are and where you are looking. Close that gap and the theft stops being easy, which is usually enough to send it elsewhere.",
+    "variants": "Same shape: phones on café tables, bags on the floor of a restaurant, wallets in back pockets on a crowded bus, laptops left 'just for a minute' at a coworking space.",
+    "anchor": "CCTV shows a woman allegedly stealing a wallet from a customer's bag at a Bengaluru Starbucks, police have reacted (NDTV, India Today)."
+  },
+  "lens": {
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "elsewhere": [
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
+    ],
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "Today's Bengaluru feeds lead with an advocate shot dead by tenants over rent in Whitefield, a teen killed by two minors and a woman filmed stealing a wallet at a Starbucks. Each is vivid, and together they feel like a city out of control. None of the reports says how often such things happen, so the feeling is an anecdote until you know the denominator: judge a risk by how common it is, then take the cheap precaution (a zipped bag, a verified tenant) rather than a bigger fear."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "A chemical tanker caught fire on NICE Road on Sunday and caused long jams (Times of India, New Indian Express). Separately, Traffic Police are weighing curbs on heavy vehicles and AITP buses to ease festive traffic (Deccan Herald).",
+      "so_what": "Check live traffic before using NICE Road tomorrow morning and keep an inner-road or Metro fallback; heavy-vehicle curbs, if notified, would change peak-hour timings."
+    },
+    {
+      "tag": "Commute",
+      "what": "A farmers' protest has disrupted the Mumbai-Bengaluru highway, and police have asked for the stretch to be closed on Google Maps (Mid-Day).",
+      "so_what": "If you or family are driving that way, check the live route before leaving and do not rely on a navigation app that may still send you into the blockade."
+    },
+    {
+      "tag": "Your record",
+      "what": "A Gazette notification has started land acquisition for the Metro Phase 3 stretch from JP Nagar to Mysuru Road (NammaWard).",
+      "so_what": "If you own or rent property along that alignment, check the notification for your survey number now, since objection windows are short."
+    },
+    {
+      "tag": "Money",
+      "what": "Karnataka plans to acquire 369 acres near the Foxconn facility in north Bengaluru, and farmers are protesting (Times of India).",
+      "so_what": "Before buying a plot or flat in that belt, check the title and whether the land falls in the acquisition list; litigation can freeze a purchase."
+    },
+    {
+      "tag": "Civic",
+      "what": "The GBA is considering a daytime ban on garbage trucks (Bangalore Mirror).",
+      "so_what": "If approved, collection may shift to night; ask your RWA or ward office for any new pickup time so waste is not left out unlifted."
+    }
+  ],
+  "carry_over": {
+    "id": "deadline-verification",
+    "prompt": "A message says your ration card e-KYC must be done today and sends a link: what is the tell?",
+    "answer": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP."
+  }
+}

@@ -319,6 +319,20 @@
       ],
       "why": "Scammers do not need to invent urgency when a real deadline already exists. They ride on it. The deadline is true; the channel is the fake. So judge who contacted whom, not whether the deadline is real.",
       "variants": "Same shape: PAN-Aadhaar linking 'last date' texts, FASTag KYC calls, electricity 'disconnection tonight' messages, bank KYC-update links."
+    },
+    {
+      "id": "cafe-bag-theft",
+      "category": "Safety trap",
+      "title": "The bag you can't see",
+      "setup": "You settle into a café with a laptop or phone out, your bag hanging on the chair back or sitting open at your feet. Someone walks past, pauses nearby, maybe asks a question or drops something. You are looking at your screen. Nothing feels wrong.",
+      "tell": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past.",
+      "move": [
+        "Keep the bag zipped, on your lap or looped through your leg or chair, with the opening facing you, never hanging behind you.",
+        "Carry the wallet in a front pocket or an inner zip pocket rather than the top of a bag, and keep only the cards you need that day.",
+        "If something is taken, block your cards and UPI from your bank's app straight away, then report it to the police and ask the café for its CCTV before the footage is overwritten."
+      ],
+      "why": "Opportunistic theft needs only a few seconds and a moment of your attention elsewhere. The thief is not beating a lock; they are exploiting the gap between where your valuables are and where you are looking. Close that gap and the theft stops being easy, which is usually enough to send it elsewhere.",
+      "variants": "Same shape: phones on café tables, bags on the floor of a restaurant, wallets in back pockets on a crowded bus, laptops left 'just for a minute' at a coworking space."
     }
   ]
 }
