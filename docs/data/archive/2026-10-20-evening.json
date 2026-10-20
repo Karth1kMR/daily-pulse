@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-20",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-20T19:34:24+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 22.2,
+    "condition": "Mostly clear (morning reading)",
+    "high_c": 28.4,
+    "low_c": 20.7,
+    "rain_chance_pct": 56,
+    "tip": "Live weather was unavailable this evening, so these are this morning's figures: 56% chance of rain. Dasara procession traffic and the liquor-sale curbs from 21 October mean slow roads tomorrow, so leave early and keep a rain cover handy."
+  },
+  "edge": {
+    "id": "parcel-customs",
+    "category": "Pressure play",
+    "title": "The parcel you never sent",
+    "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
+    "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
+    "move": [
+      "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
+      "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
+      "Report at cybercrime.gov.in; don't engage to 'find out more'."
+    ],
+    "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
+    "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments."
+  },
+  "lens": {
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "elsewhere": [
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
+    ],
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "The Greater Bengaluru Authority has received over 1,500 objections to tree felling for the Hebbal Short Tunnel, and DULT is drafting a new mobility plan amid Rs 1-lakh crore of mega projects (The Hindu, Deccan Herald). Each project is sold as relief for a corridor, but capacity added to a congested road tends to pull back the trips people had avoided. Judge a tunnel or flyover by what it does to your commute five years on, not its opening-day time saving."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Liquor sales curbs apply from 21 October for Dasara processions and MLC polls (Times of India).",
+      "so_what": "Buy anything you need before the 21st, and plan for procession diversions and slow roads on the day."
+    },
+    {
+      "tag": "Prices",
+      "what": "Tomato prices have crashed by up to 80% in Bengaluru, but the drop is not city-wide (Times of India).",
+      "so_what": "Check your own market's rate before stocking up; the 80% is the best case, not your vendor's price."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is to be flagged off on 1 November (Deccan Herald), with a 16-hour journey (Times of India).",
+      "so_what": "If you need Mumbai around that week, watch IRCTC for fares and booking windows before they fill."
+    },
+    {
+      "tag": "Safety",
+      "what": "A Bengaluru advocate was shot dead in a row over unpaid rent, after tenants returned saying they had the rent money (Times of India, NDTV).",
+      "so_what": "If you are a landlord with overdue rent, put the demand in writing and involve a third party instead of meeting the tenant alone."
+    },
+    {
+      "tag": "Civic",
+      "what": "The Greater Bengaluru Authority has received over 1,500 objections to tree felling for the Hebbal Short Tunnel (The Hindu).",
+      "so_what": "If the Hebbal corridor is on your route, expect works and a contested timeline; do not plan around an opening date yet."
+    }
+  ],
+  "carry_over": {
+    "id": "bulk-order-credit",
+    "prompt": "A new buyer wants a large lot delivered first and promises to pay later: what is the tell?",
+    "answer": "A new buyer who wants the goods first and the money later is asking you to be their lender."
+  },
+  "quiz": [
+    {
+      "question": "From which date do liquor sales curbs apply for Dasara processions and MLC polls?",
+      "options": [
+        "19 October",
+        "20 October",
+        "21 October",
+        "23 October"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How far have tomato prices crashed in Bengaluru, at most?",
+      "options": [
+        "Up to 20%",
+        "Up to 40%",
+        "Up to 60%",
+        "Up to 80%"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper to be flagged off?",
+      "options": [
+        "1 November",
+        "15 November",
+        "1 December",
+        "26 January"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which project drew over 1,500 objections over tree felling?",
+      "options": [
+        "Hebbal Short Tunnel",
+        "Pink Line",
+        "Silk Board travelator",
+        "NICE Road"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What did the High Court say about a car in the minor-crash case?",
+      "options": [
+        "It is a toy",
+        "It is not a toy",
+        "It is a family asset",
+        "It needs no licence"
+      ],
+      "answer": 1
+    }
+  ]
+}
