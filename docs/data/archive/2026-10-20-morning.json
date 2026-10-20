@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-20",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-20T07:34:16+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 22.2,
+    "condition": "Mostly clear",
+    "high_c": 28.4,
+    "low_c": 20.7,
+    "rain_chance_pct": 56,
+    "tip": "A clear start but a 56% chance of rain today; with Dasara processions and liquor-sale curbs from tomorrow, expect crowded roads in the evening, so carry a light rain cover and leave early."
+  },
+  "edge": {
+    "id": "bulk-order-credit",
+    "category": "Money trap",
+    "title": "The big order with no money yet",
+    "setup": "A buyer you have never dealt with asks for a large lot at a good rate. They want delivery first and promise payment later: a cheque, a transfer 'by evening', or 'once we sell it on'. Perhaps a small earlier order was paid on time, which is why this one feels safe.",
+    "tell": "A new buyer who wants the goods first and the money later is asking you to be their lender.",
+    "move": [
+      "Release goods only against money that has cleared in your own account, not a screenshot, a cheque or a promise.",
+      "Keep first deals small and split large lots into instalments, each released after the previous one is paid.",
+      "Check the firm through an independent source, and call the number you find yourself rather than the one they gave you.",
+      "If it goes wrong, file a police complaint quickly with the chats, invoices and vehicle details."
+    ],
+    "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
+    "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit.",
+    "anchor": "A firm has vanished without paying Rs 39 lakh for a bulk pepper purchase in a reported fraud case (Times of India, Bengaluru)."
+  },
+  "lens": {
+    "id": "selection-effects",
+    "name": "Selection effects",
+    "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+    "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+    "elsewhere": [
+      "'Our customers love us' — the unhappy ones already left.",
+      "Exam toppers from a coaching centre that only admits toppers.",
+      "Crime statistics shaped by which complaints get registered."
+    ],
+    "test": "How did these people end up in this group — and who never had the chance to?",
+    "today": "Times of India reports tomato prices in Bengaluru have crashed by up to 80%, and in the same line says the drop is not city-wide. The 80% is the best case among the markets that were looked at, not what your local vendor charges. Treat any 'up to' figure as the edge of a selected sample, and check your own market before deciding how much to buy."
+  },
+  "moved": [
+    {
+      "tag": "Your record",
+      "what": "About 1.3 lakh consumers have refused to share documents and opted out of the Jyothi power scheme (Times of India).",
+      "so_what": "Check on your electricity bill or your provider's app whether your connection is still covered before assuming the benefit continues; opting out of document sharing may mean opting out of the scheme."
+    },
+    {
+      "tag": "Prices",
+      "what": "Tomato prices have crashed by up to 80% in parts of Bengaluru, though not city-wide (Times of India), while Dasara has pushed up flower and fruit prices (Urban Acres).",
+      "so_what": "Compare two or three vendors before buying, and buy tomatoes now rather than flowers or fruit if you have a choice."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The inaugural Bengaluru-Mumbai Vande Bharat sleeper run is likely on 1 November (Deccan Herald, Times of India, Moneycontrol).",
+      "so_what": "Dates are still 'likely', so watch IRCTC for fares and booking opening before committing to Mumbai travel around that week."
+    },
+    {
+      "tag": "Money",
+      "what": "Metro commuters are asking about unused balance in smart cards as NCMC adoption grows (The Hindu).",
+      "so_what": "Load only what you will use in a few weeks, and check your card issuer's refund terms before topping up a large amount."
+    },
+    {
+      "tag": "Commute",
+      "what": "Liquor sales curbs apply from 21 October for Dasara processions and MLC polls (Times of India).",
+      "so_what": "If you are hosting or buying for the festival, buy before the 21st; also expect procession traffic and diversions on that day."
+    }
+  ],
+  "carry_over": {
+    "id": "cafe-bag-theft",
+    "prompt": "You are working in a café with your bag hanging behind your chair: what is the tell that your valuables are exposed?",
+    "answer": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past."
+  },
+  "quiz": [
+    {
+      "question": "When is the inaugural Bengaluru-Mumbai Vande Bharat sleeper run likely?",
+      "options": [
+        "1 November",
+        "15 November",
+        "1 December",
+        "26 January"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Metro station is set to get Bengaluru's first Metro travelator?",
+      "options": [
+        "Majestic",
+        "Silk Board",
+        "MG Road",
+        "Indiranagar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the reported underground cost of the Pink Line per km?",
+      "options": [
+        "Rs 250 crore",
+        "Rs 500 crore",
+        "Rs 1,000 crore",
+        "Rs 2,000 crore"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "From which date do liquor sales curbs apply for Dasara processions and MLC polls?",
+      "options": [
+        "19 October",
+        "20 October",
+        "21 October",
+        "23 October"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "On which road did a chemical tanker overturn and catch fire?",
+      "options": [
+        "Hosur Road",
+        "Outer Ring Road",
+        "Tumakuru Road",
+        "NICE Road"
+      ],
+      "answer": 3
+    }
+  ]
+}

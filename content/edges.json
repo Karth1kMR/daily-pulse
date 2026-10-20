@@ -333,6 +333,21 @@
       ],
       "why": "Opportunistic theft needs only a few seconds and a moment of your attention elsewhere. The thief is not beating a lock; they are exploiting the gap between where your valuables are and where you are looking. Close that gap and the theft stops being easy, which is usually enough to send it elsewhere.",
       "variants": "Same shape: phones on café tables, bags on the floor of a restaurant, wallets in back pockets on a crowded bus, laptops left 'just for a minute' at a coworking space."
+    },
+    {
+      "id": "bulk-order-credit",
+      "category": "Money trap",
+      "title": "The big order with no money yet",
+      "setup": "A buyer you have never dealt with asks for a large lot at a good rate. They want delivery first and promise payment later: a cheque, a transfer 'by evening', or 'once we sell it on'. Perhaps a small earlier order was paid on time, which is why this one feels safe.",
+      "tell": "A new buyer who wants the goods first and the money later is asking you to be their lender.",
+      "move": [
+        "Release goods only against money that has cleared in your own account, not a screenshot, a cheque or a promise.",
+        "Keep first deals small and split large lots into instalments, each released after the previous one is paid.",
+        "Check the firm through an independent source, and call the number you find yourself rather than the one they gave you.",
+        "If it goes wrong, file a police complaint quickly with the chats, invoices and vehicle details."
+      ],
+      "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
+      "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit."
     }
   ]
 }

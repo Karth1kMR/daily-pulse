@@ -1,75 +1,128 @@
 {
-  "date": "2026-10-19",
-  "edition": "evening",
+  "date": "2026-10-20",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-19T19:45:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-10-20T07:34:16+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 24.1,
-    "condition": "Overcast",
-    "high_c": 28.6,
-    "low_c": 20.2,
-    "rain_chance_pct": 31,
-    "tip": "Overcast with a 31% chance of rain tonight, which is thinner than this morning's 84%, but after the NICE Road tanker fire and festive traffic, leave 15 minutes early and keep the Metro as your fallback."
+    "now_c": 22.2,
+    "condition": "Mostly clear",
+    "high_c": 28.4,
+    "low_c": 20.7,
+    "rain_chance_pct": 56,
+    "tip": "A clear start but a 56% chance of rain today; with Dasara processions and liquor-sale curbs from tomorrow, expect crowded roads in the evening, so carry a light rain cover and leave early."
   },
   "edge": {
-    "id": "cafe-bag-theft",
-    "category": "Safety trap",
-    "title": "The bag you can't see",
-    "setup": "You settle into a café with a laptop or phone out, your bag hanging on the chair back or sitting open at your feet. Someone walks past, pauses nearby, maybe asks a question or drops something. You are looking at your screen. Nothing feels wrong.",
-    "tell": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past.",
+    "id": "bulk-order-credit",
+    "category": "Money trap",
+    "title": "The big order with no money yet",
+    "setup": "A buyer you have never dealt with asks for a large lot at a good rate. They want delivery first and promise payment later: a cheque, a transfer 'by evening', or 'once we sell it on'. Perhaps a small earlier order was paid on time, which is why this one feels safe.",
+    "tell": "A new buyer who wants the goods first and the money later is asking you to be their lender.",
     "move": [
-      "Keep the bag zipped, on your lap or looped through your leg or chair, with the opening facing you, never hanging behind you.",
-      "Carry the wallet in a front pocket or an inner zip pocket rather than the top of a bag, and keep only the cards you need that day.",
-      "If something is taken, block your cards and UPI from your bank's app straight away, then report it to the police and ask the café for its CCTV before the footage is overwritten."
+      "Release goods only against money that has cleared in your own account, not a screenshot, a cheque or a promise.",
+      "Keep first deals small and split large lots into instalments, each released after the previous one is paid.",
+      "Check the firm through an independent source, and call the number you find yourself rather than the one they gave you.",
+      "If it goes wrong, file a police complaint quickly with the chats, invoices and vehicle details."
     ],
-    "why": "Opportunistic theft needs only a few seconds and a moment of your attention elsewhere. The thief is not beating a lock; they are exploiting the gap between where your valuables are and where you are looking. Close that gap and the theft stops being easy, which is usually enough to send it elsewhere.",
-    "variants": "Same shape: phones on café tables, bags on the floor of a restaurant, wallets in back pockets on a crowded bus, laptops left 'just for a minute' at a coworking space.",
-    "anchor": "CCTV shows a woman allegedly stealing a wallet from a customer's bag at a Bengaluru Starbucks, police have reacted (NDTV, India Today)."
+    "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
+    "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit.",
+    "anchor": "A firm has vanished without paying Rs 39 lakh for a bulk pepper purchase in a reported fraud case (Times of India, Bengaluru)."
   },
   "lens": {
-    "id": "base-rates",
-    "name": "Base rates",
-    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
-    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "id": "selection-effects",
+    "name": "Selection effects",
+    "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+    "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
     "elsewhere": [
-      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
-      "A rare drug side-effect reported in the news, against how many prescriptions.",
-      "Plane crash coverage versus the per-kilometre fatality rate."
+      "'Our customers love us' — the unhappy ones already left.",
+      "Exam toppers from a coaching centre that only admits toppers.",
+      "Crime statistics shaped by which complaints get registered."
     ],
-    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
-    "today": "Today's Bengaluru feeds lead with an advocate shot dead by tenants over rent in Whitefield, a teen killed by two minors and a woman filmed stealing a wallet at a Starbucks. Each is vivid, and together they feel like a city out of control. None of the reports says how often such things happen, so the feeling is an anecdote until you know the denominator: judge a risk by how common it is, then take the cheap precaution (a zipped bag, a verified tenant) rather than a bigger fear."
+    "test": "How did these people end up in this group — and who never had the chance to?",
+    "today": "Times of India reports tomato prices in Bengaluru have crashed by up to 80%, and in the same line says the drop is not city-wide. The 80% is the best case among the markets that were looked at, not what your local vendor charges. Treat any 'up to' figure as the edge of a selected sample, and check your own market before deciding how much to buy."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "A chemical tanker caught fire on NICE Road on Sunday and caused long jams (Times of India, New Indian Express). Separately, Traffic Police are weighing curbs on heavy vehicles and AITP buses to ease festive traffic (Deccan Herald).",
-      "so_what": "Check live traffic before using NICE Road tomorrow morning and keep an inner-road or Metro fallback; heavy-vehicle curbs, if notified, would change peak-hour timings."
-    },
-    {
-      "tag": "Commute",
-      "what": "A farmers' protest has disrupted the Mumbai-Bengaluru highway, and police have asked for the stretch to be closed on Google Maps (Mid-Day).",
-      "so_what": "If you or family are driving that way, check the live route before leaving and do not rely on a navigation app that may still send you into the blockade."
-    },
-    {
       "tag": "Your record",
-      "what": "A Gazette notification has started land acquisition for the Metro Phase 3 stretch from JP Nagar to Mysuru Road (NammaWard).",
-      "so_what": "If you own or rent property along that alignment, check the notification for your survey number now, since objection windows are short."
+      "what": "About 1.3 lakh consumers have refused to share documents and opted out of the Jyothi power scheme (Times of India).",
+      "so_what": "Check on your electricity bill or your provider's app whether your connection is still covered before assuming the benefit continues; opting out of document sharing may mean opting out of the scheme."
+    },
+    {
+      "tag": "Prices",
+      "what": "Tomato prices have crashed by up to 80% in parts of Bengaluru, though not city-wide (Times of India), while Dasara has pushed up flower and fruit prices (Urban Acres).",
+      "so_what": "Compare two or three vendors before buying, and buy tomatoes now rather than flowers or fruit if you have a choice."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The inaugural Bengaluru-Mumbai Vande Bharat sleeper run is likely on 1 November (Deccan Herald, Times of India, Moneycontrol).",
+      "so_what": "Dates are still 'likely', so watch IRCTC for fares and booking opening before committing to Mumbai travel around that week."
     },
     {
       "tag": "Money",
-      "what": "Karnataka plans to acquire 369 acres near the Foxconn facility in north Bengaluru, and farmers are protesting (Times of India).",
-      "so_what": "Before buying a plot or flat in that belt, check the title and whether the land falls in the acquisition list; litigation can freeze a purchase."
+      "what": "Metro commuters are asking about unused balance in smart cards as NCMC adoption grows (The Hindu).",
+      "so_what": "Load only what you will use in a few weeks, and check your card issuer's refund terms before topping up a large amount."
     },
     {
-      "tag": "Civic",
-      "what": "The GBA is considering a daytime ban on garbage trucks (Bangalore Mirror).",
-      "so_what": "If approved, collection may shift to night; ask your RWA or ward office for any new pickup time so waste is not left out unlifted."
+      "tag": "Commute",
+      "what": "Liquor sales curbs apply from 21 October for Dasara processions and MLC polls (Times of India).",
+      "so_what": "If you are hosting or buying for the festival, buy before the 21st; also expect procession traffic and diversions on that day."
     }
   ],
   "carry_over": {
-    "id": "deadline-verification",
-    "prompt": "A message says your ration card e-KYC must be done today and sends a link: what is the tell?",
-    "answer": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP."
-  }
+    "id": "cafe-bag-theft",
+    "prompt": "You are working in a café with your bag hanging behind your chair: what is the tell that your valuables are exposed?",
+    "answer": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past."
+  },
+  "quiz": [
+    {
+      "question": "When is the inaugural Bengaluru-Mumbai Vande Bharat sleeper run likely?",
+      "options": [
+        "1 November",
+        "15 November",
+        "1 December",
+        "26 January"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Metro station is set to get Bengaluru's first Metro travelator?",
+      "options": [
+        "Majestic",
+        "Silk Board",
+        "MG Road",
+        "Indiranagar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the reported underground cost of the Pink Line per km?",
+      "options": [
+        "Rs 250 crore",
+        "Rs 500 crore",
+        "Rs 1,000 crore",
+        "Rs 2,000 crore"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "From which date do liquor sales curbs apply for Dasara processions and MLC polls?",
+      "options": [
+        "19 October",
+        "20 October",
+        "21 October",
+        "23 October"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "On which road did a chemical tanker overturn and catch fire?",
+      "options": [
+        "Hosur Road",
+        "Outer Ring Road",
+        "Tumakuru Road",
+        "NICE Road"
+      ],
+      "answer": 3
+    }
+  ]
 }
