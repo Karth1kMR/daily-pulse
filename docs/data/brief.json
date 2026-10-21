@@ -1,75 +1,81 @@
 {
-  "date": "2026-10-20",
-  "edition": "evening",
+  "date": "2026-10-21",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-20T19:34:24+05:30",
+  "generated_at": "2026-10-21T07:45:00+05:30",
   "read_seconds": 75,
   "weather": {
-    "now_c": 22.2,
-    "condition": "Mostly clear (morning reading)",
-    "high_c": 28.4,
-    "low_c": 20.7,
-    "rain_chance_pct": 56,
-    "tip": "Live weather was unavailable this evening, so these are this morning's figures: 56% chance of rain. Dasara procession traffic and the liquor-sale curbs from 21 October mean slow roads tomorrow, so leave early and keep a rain cover handy."
+    "now_c": 21.5,
+    "condition": "Overcast",
+    "high_c": 27.6,
+    "low_c": 20.3,
+    "rain_chance_pct": 96,
+    "tip": "A 96% chance of rain on top of Dasara procession diversions and liquor-sale curbs from today means slow roads; leave early, and keep Friday's 23 October farmer protest in mind when planning the week's travel."
   },
   "edge": {
-    "id": "parcel-customs",
-    "category": "Pressure play",
-    "title": "The parcel you never sent",
-    "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
-    "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
+    "id": "gold-windfall",
+    "category": "Money trap",
+    "title": "The gold with a story attached",
+    "setup": "A stranger or a friend-of-a-friend has gold — inherited, found, blessed, or 'from a closed jeweller'. He will sell it well below market, or hand you a little as proof and offer more if you put money in. The story is detailed and slightly sacred, and there is a reason it must stay quiet.",
+    "tell": "A price below market, with a story that explains why it must be quick and secret.",
     "move": [
-      "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
-      "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
-      "Report at cybercrime.gov.in; don't engage to 'find out more'."
+      "Never pay, lend or hand over anything before the metal is tested. A small sample being real is the bait, not the proof.",
+      "Test at a BIS-hallmarked jeweller or an assay centre of your choosing, not one the seller suggests.",
+      "Buy gold only from a registered jeweller who gives a bill and hallmarked pieces. If a seller refuses a bill, that refusal is the answer.",
+      "If you have already paid, report on 1930 or cybercrime.gov.in, and to the local police, the same day."
     ],
-    "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
-    "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments."
+    "why": "A genuine bargain does not need a secret, a sacred reason or a deadline. The story exists to make you skip the one step that kills the con, which is verification. The secrecy also stops you from asking someone who would say no.",
+    "variants": "Same shape: 'treasure' found while digging, double-your-money schemes, a tout selling 'seized' goods cheap, crypto 'insider tips'."
   },
   "lens": {
-    "id": "induced-demand",
-    "name": "Induced demand",
-    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
-    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "id": "principal-agent",
+    "name": "Principal–agent problem",
+    "one_line": "The person acting for you is paid for something subtly different from what you want.",
+    "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
     "elsewhere": [
-      "Build more parking and more people drive in.",
-      "Add engineers to a late project and the scope expands to absorb them.",
-      "Widen a hospital's OPD and the waiting room refills."
+      "Fund managers judged quarterly take risks that look fine quarterly.",
+      "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+      "A mechanic paid per part replaced finds more parts to replace."
     ],
-    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
-    "today": "The Greater Bengaluru Authority has received over 1,500 objections to tree felling for the Hebbal Short Tunnel, and DULT is drafting a new mobility plan amid Rs 1-lakh crore of mega projects (The Hindu, Deccan Herald). Each project is sold as relief for a corridor, but capacity added to a congested road tends to pull back the trips people had avoided. Judge a tunnel or flyover by what it does to your commute five years on, not its opening-day time saving."
+    "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
+    "today": "Farmers poured hundreds of litres of milk at a society in Bengaluru after getting no Dasara bonus (Times of India). The society sits between farmers and the buyer, so the useful question is not who is right but what each side is paid for and when. The same question works on any broker, agent or intermediary you deal with this week."
   },
   "moved": [
     {
       "tag": "Commute",
       "what": "Liquor sales curbs apply from 21 October for Dasara processions and MLC polls (Times of India).",
-      "so_what": "Buy anything you need before the 21st, and plan for procession diversions and slow roads on the day."
+      "so_what": "Expect procession diversions and slow roads today; buy anything you need now, and leave early in the rain."
+    },
+    {
+      "tag": "Commute",
+      "what": "Farmer groups have called a statewide protest on 23 October (Times of India).",
+      "so_what": "Check the route before travelling that day, especially intercity, and keep a buffer for delays."
     },
     {
       "tag": "Prices",
       "what": "Tomato prices have crashed by up to 80% in Bengaluru, but the drop is not city-wide (Times of India).",
-      "so_what": "Check your own market's rate before stocking up; the 80% is the best case, not your vendor's price."
+      "so_what": "Check your own market's rate before stocking up; 80% is the best case, not your vendor's price."
     },
     {
       "tag": "Worth booking",
-      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is to be flagged off on 1 November (Deccan Herald), with a 16-hour journey (Times of India).",
+      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is likely to run its inaugural trip on 1 November, a 16-hour journey (Times of India, Deccan Herald).",
       "so_what": "If you need Mumbai around that week, watch IRCTC for fares and booking windows before they fill."
     },
     {
-      "tag": "Safety",
-      "what": "A Bengaluru advocate was shot dead in a row over unpaid rent, after tenants returned saying they had the rent money (Times of India, NDTV).",
-      "so_what": "If you are a landlord with overdue rent, put the demand in writing and involve a third party instead of meeting the tenant alone."
+      "tag": "Your record",
+      "what": "About 1.3 lakh consumers have refused to share documents and opted out of the Jyothi power scheme (Times of India).",
+      "so_what": "If you are asked for documents under the scheme, find out what you would lose by opting out before you ignore the request."
     },
     {
-      "tag": "Civic",
-      "what": "The Greater Bengaluru Authority has received over 1,500 objections to tree felling for the Hebbal Short Tunnel (The Hindu).",
-      "so_what": "If the Hebbal corridor is on your route, expect works and a contested timeline; do not plan around an opening date yet."
+      "tag": "Money",
+      "what": "Jio's IPO has opened for public bids in a record $3.2 billion sale (Reuters).",
+      "so_what": "If you apply, do it only through your own broker or UPI app; anyone offering guaranteed allotment or a tip by message is the scam."
     }
   ],
   "carry_over": {
-    "id": "bulk-order-credit",
-    "prompt": "A new buyer wants a large lot delivered first and promises to pay later: what is the tell?",
-    "answer": "A new buyer who wants the goods first and the money later is asking you to be their lender."
+    "id": "parcel-customs",
+    "prompt": "A call says a courier in your name is held and a small fee will release it: what is the tell?",
+    "answer": "An unexpected problem whose solution is a small immediate payment to a stranger."
   },
   "quiz": [
     {
@@ -93,7 +99,7 @@
       "answer": 3
     },
     {
-      "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper to be flagged off?",
+      "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper likely to run its inaugural trip?",
       "options": [
         "1 November",
         "15 November",
@@ -103,22 +109,22 @@
       "answer": 0
     },
     {
-      "question": "Which project drew over 1,500 objections over tree felling?",
+      "question": "On what date have farmer groups called a statewide protest?",
       "options": [
-        "Hebbal Short Tunnel",
-        "Pink Line",
-        "Silk Board travelator",
-        "NICE Road"
+        "21 October",
+        "23 October",
+        "26 October",
+        "1 November"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What did the High Court say about a car in the minor-crash case?",
+      "question": "Roughly how many consumers opted out of the Jyothi power scheme rather than share documents?",
       "options": [
-        "It is a toy",
-        "It is not a toy",
-        "It is a family asset",
-        "It needs no licence"
+        "13,000",
+        "1.3 lakh",
+        "13 lakh",
+        "1.3 crore"
       ],
       "answer": 1
     }
