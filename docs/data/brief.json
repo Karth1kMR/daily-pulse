@@ -1,102 +1,73 @@
 {
   "date": "2026-10-21",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-21T07:45:00+05:30",
-  "read_seconds": 75,
-  "weather": {
-    "now_c": 21.5,
-    "condition": "Overcast",
-    "high_c": 27.6,
-    "low_c": 20.3,
-    "rain_chance_pct": 96,
-    "tip": "A 96% chance of rain on top of Dasara procession diversions and liquor-sale curbs from today means slow roads; leave early, and keep Friday's 23 October farmer protest in mind when planning the week's travel."
-  },
+  "generated_at": "2026-10-21T19:45:00+05:30",
+  "read_seconds": 65,
   "edge": {
-    "id": "gold-windfall",
+    "id": "fake-challan",
     "category": "Money trap",
-    "title": "The gold with a story attached",
-    "setup": "A stranger or a friend-of-a-friend has gold — inherited, found, blessed, or 'from a closed jeweller'. He will sell it well below market, or hand you a little as proof and offer more if you put money in. The story is detailed and slightly sacred, and there is a reason it must stay quiet.",
-    "tell": "A price below market, with a story that explains why it must be quick and secret.",
+    "title": "The fine that arrives as a link",
+    "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
+    "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
     "move": [
-      "Never pay, lend or hand over anything before the metal is tested. A small sample being real is the bait, not the proof.",
-      "Test at a BIS-hallmarked jeweller or an assay centre of your choosing, not one the seller suggests.",
-      "Buy gold only from a registered jeweller who gives a bill and hallmarked pieces. If a seller refuses a bill, that refusal is the answer.",
-      "If you have already paid, report on 1930 or cybercrime.gov.in, and to the local police, the same day."
+      "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
+      "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
+      "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
     ],
-    "why": "A genuine bargain does not need a secret, a sacred reason or a deadline. The story exists to make you skip the one step that kills the con, which is verification. The secrecy also stops you from asking someone who would say no.",
-    "variants": "Same shape: 'treasure' found while digging, double-your-money schemes, a tout selling 'seized' goods cheap, crypto 'insider tips'."
+    "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
+    "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached."
   },
   "lens": {
-    "id": "principal-agent",
-    "name": "Principal–agent problem",
-    "one_line": "The person acting for you is paid for something subtly different from what you want.",
-    "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+    "id": "sunk-cost",
+    "name": "Sunk cost",
+    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
+    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
     "elsewhere": [
-      "Fund managers judged quarterly take risks that look fine quarterly.",
-      "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
-      "A mechanic paid per part replaced finds more parts to replace."
+      "Government projects continued because of money already spent.",
+      "Relationships extended by their length rather than their state.",
+      "Reading a book to the end because you're halfway."
     ],
-    "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
-    "today": "Farmers poured hundreds of litres of milk at a society in Bengaluru after getting no Dasara bonus (Times of India). The society sits between farmers and the buyer, so the useful question is not who is right but what each side is paid for and when. The same question works on any broker, agent or intermediary you deal with this week."
+    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
+    "today": "Bengaluru has reworked its mobility plan six years on, but ThePrint reports that big-ticket projects may limit its options, and Namma Metro Phase 3 has just had a third land acquisition notification for the Orange Line package (The Hindu). Money and years already committed are the pull to keep going; the useful question for any civic project is what the remaining cost buys, not what has been spent."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Liquor sales curbs apply from 21 October for Dasara processions and MLC polls (Times of India).",
-      "so_what": "Expect procession diversions and slow roads today; buy anything you need now, and leave early in the rain."
+      "tag": "Civic",
+      "what": "Karnataka has issued a third land acquisition notification for the Orange Line package of Namma Metro Phase 3 (The Hindu).",
+      "so_what": "If you own or rent along the Phase 3 corridor, check whether your survey number appears and read the notification's dates for objections."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The inaugural Bengaluru-Mumbai Vande Bharat sleeper run is likely on 1 November (Times of India).",
+      "so_what": "If you need Mumbai that week, watch IRCTC for the booking window before the first fares fill."
     },
     {
       "tag": "Commute",
       "what": "Farmer groups have called a statewide protest on 23 October (Times of India).",
-      "so_what": "Check the route before travelling that day, especially intercity, and keep a buffer for delays."
-    },
-    {
-      "tag": "Prices",
-      "what": "Tomato prices have crashed by up to 80% in Bengaluru, but the drop is not city-wide (Times of India).",
-      "so_what": "Check your own market's rate before stocking up; 80% is the best case, not your vendor's price."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is likely to run its inaugural trip on 1 November, a 16-hour journey (Times of India, Deccan Herald).",
-      "so_what": "If you need Mumbai around that week, watch IRCTC for fares and booking windows before they fill."
-    },
-    {
-      "tag": "Your record",
-      "what": "About 1.3 lakh consumers have refused to share documents and opted out of the Jyothi power scheme (Times of India).",
-      "so_what": "If you are asked for documents under the scheme, find out what you would lose by opting out before you ignore the request."
+      "so_what": "Check your route on Friday before leaving, especially intercity, and keep a buffer for delays."
     },
     {
       "tag": "Money",
-      "what": "Jio's IPO has opened for public bids in a record $3.2 billion sale (Reuters).",
-      "so_what": "If you apply, do it only through your own broker or UPI app; anyone offering guaranteed allotment or a tip by message is the scam."
+      "what": "Indian shares slipped on elevated crude while demand for Jio's IPO was strong (Reuters).",
+      "so_what": "Elevated crude is how fuel and flight costs reach you later; if you apply to the IPO, use only your own broker or UPI app, and treat any 'guaranteed allotment' message as the scam."
     }
   ],
   "carry_over": {
-    "id": "parcel-customs",
-    "prompt": "A call says a courier in your name is held and a small fee will release it: what is the tell?",
-    "answer": "An unexpected problem whose solution is a small immediate payment to a stranger."
+    "id": "gold-windfall",
+    "prompt": "A seller offers gold below market, with a sacred story and a reason it must stay quiet: what is the tell?",
+    "answer": "A price below market, with a story that explains why it must be quick and secret."
   },
   "quiz": [
     {
-      "question": "From which date do liquor sales curbs apply for Dasara processions and MLC polls?",
+      "question": "Which Namma Metro Phase 3 package got a third land acquisition notification?",
       "options": [
-        "19 October",
-        "20 October",
-        "21 October",
-        "23 October"
+        "Orange Line",
+        "Pink Line",
+        "Blue Line",
+        "Yellow Line"
       ],
-      "answer": 2
-    },
-    {
-      "question": "How far have tomato prices crashed in Bengaluru, at most?",
-      "options": [
-        "Up to 20%",
-        "Up to 40%",
-        "Up to 60%",
-        "Up to 80%"
-      ],
-      "answer": 3
+      "answer": 0
     },
     {
       "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper likely to run its inaugural trip?",
@@ -119,14 +90,24 @@
       "answer": 1
     },
     {
-      "question": "Roughly how many consumers opted out of the Jyothi power scheme rather than share documents?",
+      "question": "Where should you check for a traffic challan instead of tapping a message link?",
       "options": [
-        "13,000",
-        "1.3 lakh",
-        "13 lakh",
-        "1.3 crore"
+        "The link in the SMS",
+        "An app file sent on WhatsApp",
+        "echallan.parivahan.gov.in typed yourself",
+        "A number given in the message"
       ],
-      "answer": 1
+      "answer": 2
+    },
+    {
+      "question": "How much weight should money already spent carry in your next decision?",
+      "options": [
+        "Full weight",
+        "Half weight",
+        "Weight equal to its size",
+        "None"
+      ],
+      "answer": 3
     }
   ]
 }

@@ -348,6 +348,20 @@
       ],
       "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
       "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit."
+    },
+    {
+      "id": "fake-challan",
+      "category": "Money trap",
+      "title": "The fine that arrives as a link",
+      "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
+      "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
+      "move": [
+        "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
+        "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
+        "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
+      ],
+      "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
+      "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached."
     }
   ]
 }

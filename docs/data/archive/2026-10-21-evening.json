@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-21",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-21T19:45:00+05:30",
+  "read_seconds": 65,
+  "edge": {
+    "id": "fake-challan",
+    "category": "Money trap",
+    "title": "The fine that arrives as a link",
+    "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
+    "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
+    "move": [
+      "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
+      "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
+      "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
+    ],
+    "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
+    "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached."
+  },
+  "lens": {
+    "id": "sunk-cost",
+    "name": "Sunk cost",
+    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
+    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "elsewhere": [
+      "Government projects continued because of money already spent.",
+      "Relationships extended by their length rather than their state.",
+      "Reading a book to the end because you're halfway."
+    ],
+    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
+    "today": "Bengaluru has reworked its mobility plan six years on, but ThePrint reports that big-ticket projects may limit its options, and Namma Metro Phase 3 has just had a third land acquisition notification for the Orange Line package (The Hindu). Money and years already committed are the pull to keep going; the useful question for any civic project is what the remaining cost buys, not what has been spent."
+  },
+  "moved": [
+    {
+      "tag": "Civic",
+      "what": "Karnataka has issued a third land acquisition notification for the Orange Line package of Namma Metro Phase 3 (The Hindu).",
+      "so_what": "If you own or rent along the Phase 3 corridor, check whether your survey number appears and read the notification's dates for objections."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The inaugural Bengaluru-Mumbai Vande Bharat sleeper run is likely on 1 November (Times of India).",
+      "so_what": "If you need Mumbai that week, watch IRCTC for the booking window before the first fares fill."
+    },
+    {
+      "tag": "Commute",
+      "what": "Farmer groups have called a statewide protest on 23 October (Times of India).",
+      "so_what": "Check your route on Friday before leaving, especially intercity, and keep a buffer for delays."
+    },
+    {
+      "tag": "Money",
+      "what": "Indian shares slipped on elevated crude while demand for Jio's IPO was strong (Reuters).",
+      "so_what": "Elevated crude is how fuel and flight costs reach you later; if you apply to the IPO, use only your own broker or UPI app, and treat any 'guaranteed allotment' message as the scam."
+    }
+  ],
+  "carry_over": {
+    "id": "gold-windfall",
+    "prompt": "A seller offers gold below market, with a sacred story and a reason it must stay quiet: what is the tell?",
+    "answer": "A price below market, with a story that explains why it must be quick and secret."
+  },
+  "quiz": [
+    {
+      "question": "Which Namma Metro Phase 3 package got a third land acquisition notification?",
+      "options": [
+        "Orange Line",
+        "Pink Line",
+        "Blue Line",
+        "Yellow Line"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper likely to run its inaugural trip?",
+      "options": [
+        "1 November",
+        "15 November",
+        "1 December",
+        "26 January"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "On what date have farmer groups called a statewide protest?",
+      "options": [
+        "21 October",
+        "23 October",
+        "26 October",
+        "1 November"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Where should you check for a traffic challan instead of tapping a message link?",
+      "options": [
+        "The link in the SMS",
+        "An app file sent on WhatsApp",
+        "echallan.parivahan.gov.in typed yourself",
+        "A number given in the message"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How much weight should money already spent carry in your next decision?",
+      "options": [
+        "Full weight",
+        "Half weight",
+        "Weight equal to its size",
+        "None"
+      ],
+      "answer": 3
+    }
+  ]
+}
