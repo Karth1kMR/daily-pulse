@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-22",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-22T19:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 20.9,
+    "condition": "Drizzle",
+    "high_c": 28.0,
+    "low_c": 20.5,
+    "rain_chance_pct": 95,
+    "tip": "Drizzle with a 95% chance of rain tonight, and Times of India reports Silk Board to Marathahalli took just 21 minutes on Google Maps today; do not trust that lull tomorrow, as rain usually brings the delays back."
+  },
+  "edge": {
+    "id": "ai-blast-video",
+    "category": "Pressure play",
+    "title": "The video that begs to be forwarded",
+    "anchor": "Bengaluru police arrested a man over an AI-generated video showing a blast at Vidhana Soudha, and filed an FIR (The Hindu, NDTV, Deccan Chronicle, 22 Oct).",
+    "setup": "A clip lands in a family or office group: smoke, a loud bang, a landmark you know. The caption says 'share before it is deleted' and 'media is hiding this'. Your thumb is already over the forward button.",
+    "tell": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast.",
+    "move": [
+      "Stop before forwarding; a real blast in a city of this size is on several news sites and police handles within minutes.",
+      "Check one of: police or city police posts, or two established outlets. If neither carries it, treat it as fake.",
+      "Do not forward it even 'to warn people'; the person who shares it is on the record, and in this week's case the maker was arrested.",
+      "Tell the sender in the group that it is unverified and ask them to delete it."
+    ],
+    "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
+    "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down."
+  },
+  "lens": {
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "elsewhere": [
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
+    ],
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "Bengaluru police arrested a man over an AI-generated video of a blast at Vidhana Soudha (The Hindu, NDTV). Such clips work because they frame inaction as a possible loss: 'share now or someone gets hurt'. Restate it as a plain gain, 'I have confirmed this happened', and the urge to forward fades."
+  },
+  "moved": [
+    {
+      "tag": "Safety",
+      "what": "Police arrested a Bihar-born worker over an AI-generated video showing a blast at Vidhana Soudha, and an FIR has been filed (The Hindu, NDTV).",
+      "so_what": "Do not forward any shocking clip you cannot trace to a named outlet or police post; sharing it puts your own name on it."
+    },
+    {
+      "tag": "Commute",
+      "what": "Times of India reports Google Maps showed just 21 minutes for the 13 km from Silk Board to Marathahalli, an unusually empty run.",
+      "so_what": "Treat it as a holiday lull, not the new normal: check live traffic before you leave and keep your usual buffer for the working-day return."
+    },
+    {
+      "tag": "Prices",
+      "what": "Flower prices in Bengaluru are rising ahead of Ayudha Pooja (FloralDaily).",
+      "so_what": "If you need flowers for the pooja, buy a day early or ask the price before you pick, since festival-eve rates are the highest."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Akasa Air has launched daily Bengaluru-Udaipur flights (The Hindu).",
+      "so_what": "If an Udaipur trip or a wedding-season visit is on your list, compare fares now; a new route often has introductory pricing, but check the fare rules before booking."
+    },
+    {
+      "tag": "Money",
+      "what": "Indian shares extended losses as high oil prices heightened inflation worries (Reuters).",
+      "so_what": "Higher oil usually shows up later in fuel and transport costs, so avoid buying anything big on credit this week and review your monthly fuel budget."
+    }
+  ],
+  "carry_over": {
+    "id": "lost-item-ransom",
+    "prompt": "You realise your phone is on the back seat of a cab, and the driver names a price to return it: what is the tell?",
+    "answer": "Someone returning your property who sets the price after you have shown you are desperate."
+  },
+  "quiz": [
+    {
+      "question": "What did Bengaluru police arrest a man over this week?",
+      "options": [
+        "A fake bank call",
+        "An AI-generated video of a Vidhana Soudha blast",
+        "A cab fare dispute",
+        "A stolen phone"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the tell of the forwarded shock clip?",
+      "options": [
+        "It is very short",
+        "No named source, no outlet reporting it, and a caption urging you to spread it",
+        "It arrives at night",
+        "It has background music"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the best first move on receiving such a clip?",
+      "options": [
+        "Forward it to warn people",
+        "Check police posts or two established outlets before sharing",
+        "Reply asking for more videos",
+        "Post it publicly"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did Times of India report about Silk Board to Marathahalli today?",
+      "options": [
+        "Google Maps showed 21 minutes for 13 km",
+        "The road is closed",
+        "A new flyover opened",
+        "Metro replaced it"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which mental model asks you to restate a loss-framed message as a plain gain?",
+      "options": [
+        "Moral hazard",
+        "Loss aversion",
+        "Sunk cost",
+        "Base rates"
+      ],
+      "answer": 1
+    }
+  ]
+}

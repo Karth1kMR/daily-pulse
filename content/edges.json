@@ -377,6 +377,22 @@
       ],
       "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
       "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid."
+    },
+    {
+      "id": "ai-blast-video",
+      "category": "Pressure play",
+      "title": "The video that begs to be forwarded",
+      "anchor": "Bengaluru police arrested a man over an AI-generated video showing a blast at Vidhana Soudha, and filed an FIR (The Hindu, NDTV, Deccan Chronicle, 22 Oct).",
+      "setup": "A clip lands in a family or office group: smoke, a loud bang, a landmark you know. The caption says 'share before it is deleted' and 'media is hiding this'. Your thumb is already over the forward button.",
+      "tell": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast.",
+      "move": [
+        "Stop before forwarding; a real blast in a city of this size is on several news sites and police handles within minutes.",
+        "Check one of: police or city police posts, or two established outlets. If neither carries it, treat it as fake.",
+        "Do not forward it even 'to warn people'; the person who shares it is on the record, and in this week's case the maker was arrested.",
+        "Tell the sender in the group that it is unverified and ask them to delete it."
+      ],
+      "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
+      "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down."
     }
   ]
 }

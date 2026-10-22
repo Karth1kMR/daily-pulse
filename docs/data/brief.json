@@ -1,127 +1,128 @@
 {
   "date": "2026-10-22",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-22T07:45:00+05:30",
+  "generated_at": "2026-10-22T19:45:00+05:30",
   "read_seconds": 70,
   "weather": {
-    "now_c": 22.0,
-    "condition": "Overcast",
-    "high_c": 27.6,
-    "low_c": 20.4,
-    "rain_chance_pct": 100,
-    "tip": "Rain is near-certain today and Bangalore Mirror calls the roads bumper-to-bumper, so book your ride in the app before leaving; a booked trip also gives you a record if you leave anything on the back seat."
+    "now_c": 20.9,
+    "condition": "Drizzle",
+    "high_c": 28.0,
+    "low_c": 20.5,
+    "rain_chance_pct": 95,
+    "tip": "Drizzle with a 95% chance of rain tonight, and Times of India reports Silk Board to Marathahalli took just 21 minutes on Google Maps today; do not trust that lull tomorrow, as rain usually brings the delays back."
   },
   "edge": {
-    "id": "lost-item-ransom",
-    "category": "Street tactic",
-    "title": "The phone held for ransom",
-    "anchor": "A Bengaluru cab driver reportedly demanded ₹3,000 to return a phone left in his car, until police stepped in (NDTV, India Today, 21 Oct).",
-    "setup": "You step out of a cab or auto and realise your phone is still on the back seat. You call it; the driver answers, agrees to return it, then names a price: 'petrol, time, risk', ₹3,000 or more, cash, now.",
-    "tell": "Someone returning your property who sets the price after you have shown you are desperate.",
+    "id": "ai-blast-video",
+    "category": "Pressure play",
+    "title": "The video that begs to be forwarded",
+    "anchor": "Bengaluru police arrested a man over an AI-generated video showing a blast at Vidhana Soudha, and filed an FIR (The Hindu, NDTV, Deccan Chronicle, 22 Oct).",
+    "setup": "A clip lands in a family or office group: smoke, a loud bang, a landmark you know. The caption says 'share before it is deleted' and 'media is hiding this'. Your thumb is already over the forward button.",
+    "tell": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast.",
     "move": [
-      "Stay calm and do not agree a figure; the driver's leverage is your panic, so do not show it.",
-      "Report the lost item through the ride app's support first and note the trip details, so the booking itself is the record.",
-      "If the demand stands, call 112 or go to the nearest police station with the trip details; do not hand over cash for something that is yours."
+      "Stop before forwarding; a real blast in a city of this size is on several news sites and police handles within minutes.",
+      "Check one of: police or city police posts, or two established outlets. If neither carries it, treat it as fake.",
+      "Do not forward it even 'to warn people'; the person who shares it is on the record, and in this week's case the maker was arrested.",
+      "Tell the sender in the group that it is unverified and ask them to delete it."
     ],
-    "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
-    "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid."
+    "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
+    "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down."
   },
   "lens": {
-    "id": "moral-hazard",
-    "name": "Moral hazard",
-    "one_line": "People take more risk when someone else carries the downside.",
-    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
     "elsewhere": [
-      "Limited liability encourages risk-taking — deliberately, as a feature.",
-      "A free replacement warranty subtly reduces how carefully a device is handled.",
-      "Deposit guarantees reduce depositors' scrutiny of their bank."
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
     ],
-    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
-    "today": "Karnataka is set to outsource inspection and audit jobs because of a field staff shortage (Times of India). Whoever does the inspecting, ask who eats the loss if a missed inspection goes wrong: if a contractor is paid per inspection ticked and the public carries the downside of a missed one, the contractor's caution is the only caution in the system."
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "Bengaluru police arrested a man over an AI-generated video of a blast at Vidhana Soudha (The Hindu, NDTV). Such clips work because they frame inaction as a possible loss: 'share now or someone gets hurt'. Restate it as a plain gain, 'I have confirmed this happened', and the urge to forward fades."
   },
   "moved": [
     {
-      "tag": "Worth booking",
-      "what": "The Bengaluru-Mumbai Vande Bharat sleeper may launch on 1 November, with reports of the journey falling from 24 hours to about 16 (Times of India, Swarajyamag).",
-      "so_what": "If you plan Mumbai in early November, watch IRCTC for the booking window; the launch date is still reported as 'may', so do not book non-refundable onward plans yet."
-    },
-    {
-      "tag": "Your record",
-      "what": "The SIR exercise ends today, and Form 6 new voters are being given EPIC numbers (Times of India).",
-      "so_what": "Check your own entry on the Election Commission's voter portal today, and file Form 6 now if you have moved or are not listed."
-    },
-    {
-      "tag": "Money",
-      "what": "K-RERA has taken a firm stand on pre-handover charges, in what Times of India calls relief for home buyers.",
-      "so_what": "If you are buying an under-construction flat, read the builder's demand letter for extra charges before possession and ask what clause allows each one."
-    },
-    {
       "tag": "Safety",
-      "what": "Gold and cash worth ₹30 lakh were stolen from a Bengaluru house during polishing work (Times of India).",
-      "so_what": "Before any polishing, painting or repair crew enters, move jewellery and cash out of the house or into a locker, and never leave them in an unlocked cupboard."
+      "what": "Police arrested a Bihar-born worker over an AI-generated video showing a blast at Vidhana Soudha, and an FIR has been filed (The Hindu, NDTV).",
+      "so_what": "Do not forward any shocking clip you cannot trace to a named outlet or police post; sharing it puts your own name on it."
     },
     {
       "tag": "Commute",
-      "what": "Unauthorised cab drivers abused Bengaluru airport security staff twice (Times of India).",
-      "so_what": "At the airport, book through an app or the official counter and ignore anyone who approaches you inside the terminal."
+      "what": "Times of India reports Google Maps showed just 21 minutes for the 13 km from Silk Board to Marathahalli, an unusually empty run.",
+      "so_what": "Treat it as a holiday lull, not the new normal: check live traffic before you leave and keep your usual buffer for the working-day return."
+    },
+    {
+      "tag": "Prices",
+      "what": "Flower prices in Bengaluru are rising ahead of Ayudha Pooja (FloralDaily).",
+      "so_what": "If you need flowers for the pooja, buy a day early or ask the price before you pick, since festival-eve rates are the highest."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Akasa Air has launched daily Bengaluru-Udaipur flights (The Hindu).",
+      "so_what": "If an Udaipur trip or a wedding-season visit is on your list, compare fares now; a new route often has introductory pricing, but check the fare rules before booking."
+    },
+    {
+      "tag": "Money",
+      "what": "Indian shares extended losses as high oil prices heightened inflation worries (Reuters).",
+      "so_what": "Higher oil usually shows up later in fuel and transport costs, so avoid buying anything big on credit this week and review your monthly fuel budget."
     }
   ],
   "carry_over": {
-    "id": "fake-challan",
-    "prompt": "A message says a traffic fine is pending on your vehicle, with a link and a deadline of tonight: what is the tell?",
-    "answer": "A fine that comes with a link, an app to install, and a deadline of hours."
+    "id": "lost-item-ransom",
+    "prompt": "You realise your phone is on the back seat of a cab, and the driver names a price to return it: what is the tell?",
+    "answer": "Someone returning your property who sets the price after you have shown you are desperate."
   },
   "quiz": [
     {
-      "question": "When might the Bengaluru-Mumbai Vande Bharat sleeper launch, according to reports?",
+      "question": "What did Bengaluru police arrest a man over this week?",
       "options": [
-        "1 November",
-        "15 November",
-        "1 December",
-        "26 January"
+        "A fake bank call",
+        "An AI-generated video of a Vidhana Soudha blast",
+        "A cab fare dispute",
+        "A stolen phone"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the tell of the forwarded shock clip?",
+      "options": [
+        "It is very short",
+        "No named source, no outlet reporting it, and a caption urging you to spread it",
+        "It arrives at night",
+        "It has background music"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the best first move on receiving such a clip?",
+      "options": [
+        "Forward it to warn people",
+        "Check police posts or two established outlets before sharing",
+        "Reply asking for more videos",
+        "Post it publicly"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did Times of India report about Silk Board to Marathahalli today?",
+      "options": [
+        "Google Maps showed 21 minutes for 13 km",
+        "The road is closed",
+        "A new flyover opened",
+        "Metro replaced it"
       ],
       "answer": 0
     },
     {
-      "question": "What should you do with a cab driver who demands a ransom for your left phone?",
+      "question": "Which mental model asks you to restate a loss-framed message as a plain gain?",
       "options": [
-        "Pay quickly to avoid delay",
-        "Report via the app, and call 112 if the demand stands",
-        "Meet him alone to negotiate",
-        "Block his number and forget it"
+        "Moral hazard",
+        "Loss aversion",
+        "Sunk cost",
+        "Base rates"
       ],
       "answer": 1
-    },
-    {
-      "question": "What did Times of India report was stolen during polishing work at a Bengaluru house?",
-      "options": [
-        "A car",
-        "Gold and cash worth ₹30 lakh",
-        "A laptop",
-        "Documents"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is the one-line tell of the lost-item ransom?",
-      "options": [
-        "The driver is polite",
-        "The price is set after your desperation shows",
-        "The call is from an unknown number",
-        "The phone is switched off"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "In moral hazard, whose caution is the only caution in the system?",
-      "options": [
-        "The regulator's",
-        "The public's",
-        "Whoever eats the loss if it goes wrong",
-        "The contractor's, always"
-      ],
-      "answer": 2
     }
   ]
 }
