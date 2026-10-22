@@ -362,6 +362,21 @@
       ],
       "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
       "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached."
+    },
+    {
+      "id": "lost-item-ransom",
+      "category": "Street tactic",
+      "title": "The phone held for ransom",
+      "anchor": "A Bengaluru cab driver reportedly demanded ₹3,000 to return a phone left in his car, until police stepped in (NDTV, India Today, 21 Oct).",
+      "setup": "You step out of a cab or auto and realise your phone is still on the back seat. You call it; the driver answers, agrees to return it, then names a price: 'petrol, time, risk', ₹3,000 or more, cash, now.",
+      "tell": "Someone returning your property who sets the price after you have shown you are desperate.",
+      "move": [
+        "Stay calm and do not agree a figure; the driver's leverage is your panic, so do not show it.",
+        "Report the lost item through the ride app's support first and note the trip details, so the booking itself is the record.",
+        "If the demand stands, call 112 or go to the nearest police station with the trip details; do not hand over cash for something that is yours."
+      ],
+      "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
+      "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid."
     }
   ]
 }

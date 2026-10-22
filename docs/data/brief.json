@@ -1,76 +1,80 @@
 {
-  "date": "2026-10-21",
-  "edition": "evening",
+  "date": "2026-10-22",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-21T19:45:00+05:30",
-  "read_seconds": 65,
+  "generated_at": "2026-10-22T07:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 22.0,
+    "condition": "Overcast",
+    "high_c": 27.6,
+    "low_c": 20.4,
+    "rain_chance_pct": 100,
+    "tip": "Rain is near-certain today and Bangalore Mirror calls the roads bumper-to-bumper, so book your ride in the app before leaving; a booked trip also gives you a record if you leave anything on the back seat."
+  },
   "edge": {
-    "id": "fake-challan",
-    "category": "Money trap",
-    "title": "The fine that arrives as a link",
-    "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
-    "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
+    "id": "lost-item-ransom",
+    "category": "Street tactic",
+    "title": "The phone held for ransom",
+    "anchor": "A Bengaluru cab driver reportedly demanded ₹3,000 to return a phone left in his car, until police stepped in (NDTV, India Today, 21 Oct).",
+    "setup": "You step out of a cab or auto and realise your phone is still on the back seat. You call it; the driver answers, agrees to return it, then names a price: 'petrol, time, risk', ₹3,000 or more, cash, now.",
+    "tell": "Someone returning your property who sets the price after you have shown you are desperate.",
     "move": [
-      "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
-      "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
-      "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
+      "Stay calm and do not agree a figure; the driver's leverage is your panic, so do not show it.",
+      "Report the lost item through the ride app's support first and note the trip details, so the booking itself is the record.",
+      "If the demand stands, call 112 or go to the nearest police station with the trip details; do not hand over cash for something that is yours."
     ],
-    "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
-    "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached."
+    "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
+    "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid."
   },
   "lens": {
-    "id": "sunk-cost",
-    "name": "Sunk cost",
-    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
-    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "id": "moral-hazard",
+    "name": "Moral hazard",
+    "one_line": "People take more risk when someone else carries the downside.",
+    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
     "elsewhere": [
-      "Government projects continued because of money already spent.",
-      "Relationships extended by their length rather than their state.",
-      "Reading a book to the end because you're halfway."
+      "Limited liability encourages risk-taking — deliberately, as a feature.",
+      "A free replacement warranty subtly reduces how carefully a device is handled.",
+      "Deposit guarantees reduce depositors' scrutiny of their bank."
     ],
-    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
-    "today": "Bengaluru has reworked its mobility plan six years on, but ThePrint reports that big-ticket projects may limit its options, and Namma Metro Phase 3 has just had a third land acquisition notification for the Orange Line package (The Hindu). Money and years already committed are the pull to keep going; the useful question for any civic project is what the remaining cost buys, not what has been spent."
+    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
+    "today": "Karnataka is set to outsource inspection and audit jobs because of a field staff shortage (Times of India). Whoever does the inspecting, ask who eats the loss if a missed inspection goes wrong: if a contractor is paid per inspection ticked and the public carries the downside of a missed one, the contractor's caution is the only caution in the system."
   },
   "moved": [
     {
-      "tag": "Civic",
-      "what": "Karnataka has issued a third land acquisition notification for the Orange Line package of Namma Metro Phase 3 (The Hindu).",
-      "so_what": "If you own or rent along the Phase 3 corridor, check whether your survey number appears and read the notification's dates for objections."
-    },
-    {
       "tag": "Worth booking",
-      "what": "The inaugural Bengaluru-Mumbai Vande Bharat sleeper run is likely on 1 November (Times of India).",
-      "so_what": "If you need Mumbai that week, watch IRCTC for the booking window before the first fares fill."
+      "what": "The Bengaluru-Mumbai Vande Bharat sleeper may launch on 1 November, with reports of the journey falling from 24 hours to about 16 (Times of India, Swarajyamag).",
+      "so_what": "If you plan Mumbai in early November, watch IRCTC for the booking window; the launch date is still reported as 'may', so do not book non-refundable onward plans yet."
     },
     {
-      "tag": "Commute",
-      "what": "Farmer groups have called a statewide protest on 23 October (Times of India).",
-      "so_what": "Check your route on Friday before leaving, especially intercity, and keep a buffer for delays."
+      "tag": "Your record",
+      "what": "The SIR exercise ends today, and Form 6 new voters are being given EPIC numbers (Times of India).",
+      "so_what": "Check your own entry on the Election Commission's voter portal today, and file Form 6 now if you have moved or are not listed."
     },
     {
       "tag": "Money",
-      "what": "Indian shares slipped on elevated crude while demand for Jio's IPO was strong (Reuters).",
-      "so_what": "Elevated crude is how fuel and flight costs reach you later; if you apply to the IPO, use only your own broker or UPI app, and treat any 'guaranteed allotment' message as the scam."
+      "what": "K-RERA has taken a firm stand on pre-handover charges, in what Times of India calls relief for home buyers.",
+      "so_what": "If you are buying an under-construction flat, read the builder's demand letter for extra charges before possession and ask what clause allows each one."
+    },
+    {
+      "tag": "Safety",
+      "what": "Gold and cash worth ₹30 lakh were stolen from a Bengaluru house during polishing work (Times of India).",
+      "so_what": "Before any polishing, painting or repair crew enters, move jewellery and cash out of the house or into a locker, and never leave them in an unlocked cupboard."
+    },
+    {
+      "tag": "Commute",
+      "what": "Unauthorised cab drivers abused Bengaluru airport security staff twice (Times of India).",
+      "so_what": "At the airport, book through an app or the official counter and ignore anyone who approaches you inside the terminal."
     }
   ],
   "carry_over": {
-    "id": "gold-windfall",
-    "prompt": "A seller offers gold below market, with a sacred story and a reason it must stay quiet: what is the tell?",
-    "answer": "A price below market, with a story that explains why it must be quick and secret."
+    "id": "fake-challan",
+    "prompt": "A message says a traffic fine is pending on your vehicle, with a link and a deadline of tonight: what is the tell?",
+    "answer": "A fine that comes with a link, an app to install, and a deadline of hours."
   },
   "quiz": [
     {
-      "question": "Which Namma Metro Phase 3 package got a third land acquisition notification?",
-      "options": [
-        "Orange Line",
-        "Pink Line",
-        "Blue Line",
-        "Yellow Line"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "When is the Bengaluru-Mumbai Vande Bharat sleeper likely to run its inaugural trip?",
+      "question": "When might the Bengaluru-Mumbai Vande Bharat sleeper launch, according to reports?",
       "options": [
         "1 November",
         "15 November",
@@ -80,34 +84,44 @@
       "answer": 0
     },
     {
-      "question": "On what date have farmer groups called a statewide protest?",
+      "question": "What should you do with a cab driver who demands a ransom for your left phone?",
       "options": [
-        "21 October",
-        "23 October",
-        "26 October",
-        "1 November"
+        "Pay quickly to avoid delay",
+        "Report via the app, and call 112 if the demand stands",
+        "Meet him alone to negotiate",
+        "Block his number and forget it"
       ],
       "answer": 1
     },
     {
-      "question": "Where should you check for a traffic challan instead of tapping a message link?",
+      "question": "What did Times of India report was stolen during polishing work at a Bengaluru house?",
       "options": [
-        "The link in the SMS",
-        "An app file sent on WhatsApp",
-        "echallan.parivahan.gov.in typed yourself",
-        "A number given in the message"
+        "A car",
+        "Gold and cash worth ₹30 lakh",
+        "A laptop",
+        "Documents"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "question": "How much weight should money already spent carry in your next decision?",
+      "question": "What is the one-line tell of the lost-item ransom?",
       "options": [
-        "Full weight",
-        "Half weight",
-        "Weight equal to its size",
-        "None"
+        "The driver is polite",
+        "The price is set after your desperation shows",
+        "The call is from an unknown number",
+        "The phone is switched off"
       ],
-      "answer": 3
+      "answer": 1
+    },
+    {
+      "question": "In moral hazard, whose caution is the only caution in the system?",
+      "options": [
+        "The regulator's",
+        "The public's",
+        "Whoever eats the loss if it goes wrong",
+        "The contractor's, always"
+      ],
+      "answer": 2
     }
   ]
 }

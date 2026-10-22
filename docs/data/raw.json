@@ -1,12 +1,109 @@
 {
-  "fetched_at": "2026-10-21T19:34:14.636336+05:30",
+  "fetched_at": "2026-10-22T07:32:11.795693+05:30",
   "city": "Bengaluru",
   "feeds": {
-    "google_news_bengaluru": [],
+    "google_news_bengaluru": [
+      {
+        "title": "Honey, they have shrunk the lakes - Bangalore Mirror",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMklVMU1fY3RMaTdtcnVxLWJCUngxN1l4SkYwZTlOQ2ItUy1EY2RSN3pZaDV4alUyejhpdGIyaGo2U0UyWm9QcUdwU2ttOFg0aHNWVWU4Mm1tdXFUUnRTVHp6YmNFM09WbWcyeF9WTlJCQUc3aGZGVU16X0owX0w3VnRwTzFiVHkyLWlpbnh5em9iVDFrUW81bGdHcE1wNjNDbG5GeVZsbHJqYUtJcGFjdTNFOTNwd3RsQzZV0gHAAUFVX3lxTE5PVnBjVzFiUklQdnhDeHRPN1pjOVJ6TXBwejdCU1ljeTZsd0N5Tmtmc2V1cEFjd3J6QWZkaUhzVVg0VlQ0UDlpZ1h0eFRCTmRkcHFkSmlkaGZveWxGRGNMWDFINThnTG9TdmExTFJGUGk5eGJsNFgxY1pCWkVVTDdzTXBTV3Eza1dyT2NyYmJvUDh5YmxTWXNGZi1nc1U5Y3JrLU9nTEdiR2VCSk5mWjZTaklIdlZXeFNvZHZyQnBDaQ?oc=5",
+        "published": "Thu, 22 Oct 2026 00:30:00 GMT",
+        "source": "Bangalore Mirror"
+      },
+      {
+        "title": "Bumper-to-bumper offer on Bengaluru roads - Bangalore Mirror",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdE5JX1VDdXVEUzAyUG1KY2dMZVB2ZWM1bEp6NnVldGc4ejFXaTkyMFViSGFYQVNMRW1mZXhkMkVuYTdyTVM1bm94cVVJVVF5TlNzc2Q3bV9YcXFSSEpWcEpRczBwS1RJc1p6Ml90VGxKOS1QbDB3ZnAycDlibW5DX0U4cFJULUhVRlltamI5aFY0N25WUFFqN2E4TFp0RGZ3V1l3RTBSNjNSQ1E4WjhRVFU4MUs3dkFRamlXbG5QenDSAcYBQVVfeXFMT0U2aXI1UTlKQkFFRmRkQi1kekVRaWRlV0FiSEFITEFleWVTNXc2bFNWUXNkR202eTRqMTZ2RnRJQ1JDNnlCWDBBWklWaUwyOVhOT19zdzNfUklWRkVvaWthSGdmeXlpQTVnMldaMVA1VG54djViUF80di1wbXdzTHU5WlVfek9lQ0x2THdFWHI4NHN4ZVJ6M1U2UXV1SGxpbmhBaFp4bmJGdS1KbTRUdTlnN3JwcFgxV0xrakxuQ1FRNGt3aXRR?oc=5",
+        "published": "Thu, 22 Oct 2026 00:30:00 GMT",
+        "source": "Bangalore Mirror"
+      },
+      {
+        "title": "Explosion In Under-Construction Bengaluru Building, Cops Suspect IED Used - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcnU3OVlmRVlXMDE0NmJBbU9zN0hiR09Xb1RNNENyVnFSNmsybS1HamNIY2Y4SDNIc2pUWlpNclV6RXlyMGdZWGM0blZzalA4MjEwTl9NV1RQUWhFMU5LNko0djZYSXUzOGVjNHhKb1Z2Nkp6WkxRWEdFVGVKZXpManNHaFNHR3l5MXVuY1VzcFJvc2x4VGx4STRKaEtBaXV2SUJoN2cyUHZSZlgwZ3VubGk2SUtHZ0pGNlFaUkRXNEpSZmQwbllFZkNnTkU0Qnl5cFdITWUyMU45d9IB4gFBVV95cUxPNHFncDdMakZoeElYX29MTHQ5NnhUUFBEWnRtVU11dXZYNFl6RVhZZnJYTVFWTlF0cHhCeXRseEk3cjVMa2E1cjRQVGpBLWc3d3BySDFrSFlXdnhwWWFFQ09ZX2hkNVUyeG1EM2lRemx6Q0xGVGhicWVwTXZyWDBUUFVSUkd4MTFCT3ZkMjB3Njg1ZHZUNjVONzRCeDNtRmt3dUJ5a3lKM3hwWndBYlRBcGdKdmczMU5MdlNzekxLc0E0dWtuT3hIUFBlWjBZbnN0T2sxcTlucm1ZdFloeEp0VkRB?oc=5",
+        "published": "Wed, 21 Oct 2026 06:53:28 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "2 injured in explosion at under-construction building in Bengaluru - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOa0M1Yzc3aGhrT010OUJKOHp6d1dsUUszSmhMbnVnWmZ2X0lLTFpTUzVDenB5OXA5QTZDOWFIS0xzRWdGTVlSVm9hQjZ2YjRZTDZKdHdsQkVfalBMNjdxSlFfV1oxU1ZxUEFRY1FnN0hRaXR6YUxFbTJpWk1HcTBQdGVsejVpZlNEWG96RmxHMWVQck9RbUpCTUIyajlrb1hCTW0wNG1CQXJoWUh2MjhmcWpvczRZMUFZUC03V3lrMHRlaDUxZlczWnp1ZHNmUnk4MHI0OGhpMXZIbTDSAeABQVVfeXFMUGVCNEhMNm9iNzQ3NTdscG9neXV2MXR3WnlrUTBnNllQTEVyYy12Y0pvTWRNM0piaEFJU0IwNDVMNU9BTlVVQ3NQM2tNQndQcjBkak9YaG9pNk1NU3lpdU4yNmhrX3JGRjFhRWJvODFUenBLSlkxZGg5aWxSNDJ6eUh6OHVZTnlQcmF6LW83WEVHdGhvMGJUOHFvM0c3ZHFoT1VDSWpNNU4yVXlkRFY2UEtScE4tNVY3VWdnNkpheE5wUXRKUTNTWDlWeS1TMlVrbHNxaFNxRm1OZXJJbHgwUjc?oc=5",
+        "published": "Wed, 21 Oct 2026 06:26:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Two injured in suspicious blast at under-construction building in Bengaluru - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdHRKa1J0UURqOS1DMjAzSGh3UHU2U1lzUlp3Zm93TGQ2U3FkYm40RDQ5T2gxNGEySzJEcFlySERXZTJJN3FyNlFVTlk2YUpDeTlMTml4UndvREh1RTAyTmdPdHliQVUybUU3azMyX0FLQVNsZVFDYk5CVE16dWZhd2RNMXkxczAwb1U5WVhPbFFfbmhaeUFPMUIxNjRYWk50VHcyVW1sN1lOckYzWFV0UFNCNzZxUi04bXpKVmpSNF9ZZ0JHTHpzdnJwM1VWd0VDT1c3VTd4M0xwUdIB4AFBVV95cUxOMzhsYXNyczU1YnVKc080ZHRkbXd6cHh6N3B1d3RUMF95RlhvRm9SOUhaMTVteW1qWGktbUJJcGhNRTh0OFB5M2c3QzBUTVVONGhrUUVHMnRWWGpqRDNiOEF4ODllb3dvU1JNWk03MGFtUjNvaTJEQlF2N2NuYl96MWRhS0hwcmdiZ3RESHhnQmp3QkNnR0J3d1RhMWNiR0dGMG41bVhSX2FqcS1rLUhDSDdpa1o4d0pseXRTeWNNSDNuaVpBY0p1aldvcUs5WmRpZ2toWmNlOFhQU0JxekVOTw?oc=5",
+        "published": "Wed, 21 Oct 2026 08:02:53 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "'Vidhanasabha uda diya': Bengaluru police arrest Bihar man over AI-generated Vidhana Soudha blast video - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPeVpRNmk4R3hTbDNQdW5xTVZzNVlMbVJTeE83UEwxZTdnVnhSWC1JVlB4Z2Qxc0NNR3ZzTHJoYlI4Sk1NVmtCT1N4dmxIUkw5TlAycTB4RS1fLW9NMDdiQXZENExTQ05Hb2U0WXNTNGVRbHhvWlBzblBxa1oxa09mc3hya19WNjllQ2sxd2dtM2YxU3phNUVBeGE1b0NBWWZ6UkJSbHRneHJtWWh5ejEtOEFud0ZvQ3l4aHBfTkYwb2h4Vk1wMENURmxBaVZSN0pERUNMZHc0U2g3eERKUm5NYVZvREMxUTNzWWRpeE1ncmNydlk2ZHNCTHBlVk9qOElidXBUNGJScUvSAY4CQVVfeXFMTmlmSlpOLWNvcDFKVnAxcVQ0ODhHelFiMWtWaEk1aU00NktXXzk2NWhEYm1aQnBMdjJ3ckpTTVJiUE5sbUVKb0ptQjF3Q3NXekdxaTdVaXA2VVhUY0hvb1lyNGRPMDBEdE9vaXpRZkZlOUpqaVROY2w5dnFvdHJNWU9tYVB0QWV4RDZHRWxJV21yUFkzcGtaQ1RjZmYwSGt3U0FaWHJoNkxzYTVJY2RtQTkwajZxTFhia3p6MGNSMThnMnoyR0h3bG9XcE9Dc05TMWkzakkzU0JSa0RtM3RCRENXeUJUZlZqTG8tZUtyUjUtNHVEVHUyV09IaW5lOFByTV9DeDlBZ0hpbFRUZFF3?oc=5",
+        "published": "Wed, 21 Oct 2026 15:08:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Bengaluru Police Arrest Man Over AI-Generated Vidhana Soudha Blast Video - Rediff",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHVzSVg0UW1SVG1DVlpnUy10U3BtSENnUk0tN01FdGU4QVlrWnh6SDZxUDRGT2JUU0ZWcGdhbXJTaVRVczEtWkhFUW15RlpUakRTZGdUMGo0c3Z0V3dlZDJMUWZtVW1yQ3BKN25yUDZRNUNPMGZ3MjBaQ0h0VVN6V0NIZ1dhRG1ZZzd0U0NUUEozS3dpelVUekljbFNRTTdzQXdPcnl4d9IBqgFBVV95cUxOekNEUnctR1NaNjhTcEl3eUZZNkx6OUVYMThKWHoxRWN1cTBfc05ONWpNS1d1Y3puY294UTd0XzB6Ry1DZzlycDBXRmxRNTNnYkdhVHNrWWp3b3FUSTNoOXowVm5SNFgyWDdOODVvMjNNZVF3N0ZPVmFHYnV6REM4QXltZ3JUT0dJMnJYLXhYcG5TWV85NGxnZ2p4cU9kVEdLbVpoa2djQ0Uzdw?oc=5",
+        "published": "Wed, 21 Oct 2026 17:44:28 GMT",
+        "source": "Rediff"
+      },
+      {
+        "title": "Instagram user posts AI video showing Bengaluru's Vidhana Soudha blown up, cops take action - India Today - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYXhXdUZ0Q2pIXzMyUENpM05VdVhPV3hqcG9QNDA3NDFRYm1vY04zU3k1cWtZZWRTcGxkTXlyRENzT3drT0lWU2szVlR5dkktOUNiRHprYUlfdENCeTNqOUQ3WjBZYV8wUlFWSlhHREowSTFobEpsMGJSVmZxcWEtajQ5NGI5eXhqYnhETlVWQWdFYmFYUGx0eExXaFpDa2t6YmJTN185Rml5Ung2TkNnaFFOakxNQ3ZnUm1OYjdaTHZIcVM4RVhrRXZocTZmc2xnWFVJYmhMbmhPdm1nZjBTRlp4NGg4a1pISU800gHwAUFVX3lxTE9WRld1Z0tHVVBKcmgyYXZ4OTJHZjg5TC11WU5pN1BjMzBQLTRJMHhWb0xKM2k2R2g2a0pmaVIzZ3dSbE5yN19wc3lpZDZkcEEyU2VOeDJLd1hENl83SE5VWjdLWmFXOXRMa3lZTW9wckFxdHY2T1F0d19hekVlbF9BSDZNSTZYQ1AyVU1vRzlSS0FiNjNMQURyZEtVSzh5YTAydDU5N0Y3QkFiYTVGbnRuQVc0YTBNVmRFUFN2ZlM3TUtnNDB6bWVjSFlpbUdwZG5KRHdCVTZLYlI1VjZfclUyZFJSajB1S051bExXWm9HRQ?oc=5",
+        "published": "Tue, 20 Oct 2026 17:43:30 GMT",
+        "source": "India Today"
+      },
+      {
+        "title": "Bengaluru–Mumbai Vande Bharat sleeper train launch date - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZ1FFdERoVENLVUVwNDZsX3BiMWRUN1NFWXFmaWxIZFRFWFhxTm4xMnV4b0pvRkpScEMyME1LMFVmckZjVWJ5U3o5YzRkd1d4TUlrcjRfdVJvZnFkMExvenItb24xMWNiRHZTUDdEVjR2SDlvQXFtcFhfZ0VDOE5yRG5tMkRja0ZPU3hXVlBQTno0SnJUX3Z0ZThqSVdEaEUyVGVCTk1IY2x0UHk5SUVlN1BaNWdiTHRSN1RCYnc1Uml3LS16UkF3dnZRcEk5dUtBdUNJXzRJSUFLQ1VrM0HSAeQBQVVfeXFMUE1nUjZyRmVJb1RxN3dfUHhJc21MV1JwRGVmaS10OUE3enNRMkJ4YkVwS205b21MTmtmMmxBOVdOR2tKRmhYS0UyY1h4cWtfTUpSZ3NUZkphbVlsNUw4VGR5dzBRcWdqNHVpWGhGa0dhQ0ZhYVpGMmg2SzZsYnItTFQwSFdBRUMwTmFhNTdURDNZQkZheXcwdmU0UmNTMFJFZUg1cEU0NjVjWEtyQi1fMW9rdVI1M1hZbEdTUlpxeWh0VlM5Y0s3VTA0b2MyMFlRM2pLeXdJWW5yUXdCUEdxNktuLUxh?oc=5",
+        "published": "Tue, 20 Oct 2026 11:08:05 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Bengaluru-Mumbai Vande Bharat sleeper train may launch on November 1; journey time may fall from 24 hours - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPVExxcGNmR1piZGhXWXQyX2JkYWE5X0dWTTRMNkZEMVpudi1EZU1adlFHV0hVTVpZZEJzbmJrZGpndEh6azRnSFBUVXdTT1MwbGc2MUtJQUs2ZEp0eDRIV3hSMUt1M0VEYm1mLVpnTnUzMFVlRHBERFIxSWxDOUZFR21lUEZiRXlYenJ6blVJRG5pbmlkV2xvQ21ES25uNENKa1BYc0cwVDczVzFMV3RSWkV3ODRoejJUZzVnNnNiMGg3OU1rbnM0NUdRX2FXWk9ld3RoLWd1amhTelQtNVB1dTZCOFluQ3dVbXViTlVEYXVuajN6SXQxdVBRZ2tPUWJKS0c1ZFpxQ1dyQ0pzcVBqN1BXQU9icjlYWU9KNWRVd3pUd1FsSXFpazRCMTlHeEZQT3FVMUE0UzdfdENvLVNYSlZTZkg4UldVSGpYS1dRSUtqbUllZXgxT3NiaWxNa2_SAeQCQVVfeXFMT2d3TW5SYjFDYmxJRDlXRlZjUXFxakNJMHNXTlpvZ1M4M09LT3VqcnY2cXlqSlJmN1ZvU0VxcHIweTZPMWtmc25GT0w3eWNkcEtlZXE4QnNCWHNBeFBvc3NIUVhtUlloV1dFUDV6aE9zZ0ZCVjR2ZnU5U0xlNk5ZalItRm0xTVJqcGU2bGVCVUVvckN2TWtHc1FWTUloQ3NvaEpEd0F5M2JvU1R6czk1c0NSN051ZzBOb2ZMRnBPOWR3RmxJaHBybmlYX09wanFLLTJHY1dScldBX2JPZzVwM1Y2S0lKWm9EcUp1OE8xLXpOYU0zbmZnQU5YQ092SmQxQXZwZGZ6MEtwaXUwbUNBZlpHdEZkYW9pVlg1T3ZHQmU1clA0T1EyNkRGVmRISFRaWnlsUkkwbWhsRTRiREYxd0pWcGdGa1RFazhCZVpZZU9yXzZ6ZV90TzVoQXU1SzNCV05mcUI?oc=5",
+        "published": "Wed, 21 Oct 2026 12:15:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Bengaluru-Mumbai Vande Bharat Sleeper Train Set To Launch On 1 November, Cutting Travel Time To 16 Hours - Swarajyamag",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMDdvbDdlSGRkZ2wzdmZaYkxCcVBmNTBJVlV2Q2Ztd1JtOFhBcFM4NUp4X2hndWlCOFpTbE01aEJHby1JU2pMQ2VHMWlQYjhJaVVobE11NnNFYVFRckluclpWc3F1Y3F3UEx6alRQNUZIWnZrRFVsSmNRWlMyN0hNYlcxUWJEMnhJVWNSVWFZWGhEWFJRZXhDUGhpR2RwTWN5cGRnZXFvbDNYVG0wUVVLc1RnNEhYdzZacjVoVnF1WFVfUVNFd1k2ODlCSWRKZk94MHFqUkdZMNIB5wFBVV95cUxOMlZWbVpvNWFSYmZ4UFMtSTJXWVVkZFAyd3hzSXNMTVVHaFh3WEE1ZlFXQVRaOGk1dWd3SmF6RU9RWjhZYUtVZm01NEZ4VEJLOFNMaWdZZzJLa2tXbGlmSU82TTRrZlowd2VlUDRfa1phbV9ZQjFibDJpUmZqZkpQRlExU0ZYZGhMUUF6NTZDTGZxb3ljTFpLcFpsZXZBS1UwcE0wbFFtYlU3MGtzbXR3SGNHV1Z4MURoczlQZDQzdnMzYldxSXg3M2JuMjNGRC01dXB6XzJWeGVpN3hQNnFqWmlpZ2ctTEk?oc=5",
+        "published": "Wed, 21 Oct 2026 05:16:06 GMT",
+        "source": "Swarajyamag"
+      },
+      {
+        "title": "Taxi driver seeks Rs 3,000 for phone left in car, what Bengaluru police did next surprises everyone - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQWxKM19BQ1QyNkh6LWNoMURSTmNUdmY3bjVwYmRsX0x4VHQ5MlBqZDFfNW94RG1DdmxBTDJvazlWZEpwdE5MTlJRN3NxUWxIcXNXdThtOTlKRjV3RzB3VTk3R2ZUc2h5dzU2QTQwRUhkZmk0YmdSTDJMc1ViUWFEOFdwRE14YTNiSUNtTDZNNmh6Z3Nuc1R5VC1GdGo4Q2JHSFZVR0NydURFdVhiV2I1T2xvaDNzTHBYcnhCaGIzNmhwRHk3aHRkZTFRc21Gc0RwZWp4blc3emxFdDJHSFo1VWQ3TDlTb0pxT1VjbmNmbzBkSTBsX0N3UzZVdkrSAYICQVVfeXFMTUNKVlFSVnFfM1FPbWZ3bHdOcDFqb0ZZLWYzR29PMEJuVTVNWU1FeXhHMFNaa2ZXcDdQbWVsSWNsczhfUGxBWkhGczRfNzhORUpmRjJ6ZkhKMXlua2VuUFI3czZQa0g0TVF4eTBVR2VZQWxnTkNmYU0zYjh4RTdyY1ZXU0Zuc252VEYtTDB3R3dhVDI0Z2ZrZW1YUUs5T3I1VWJDWWFkNDR5S183VFZkTjZhU0dxT1VvOXZQQ2ZJUFhOdGVPQ0hFcEtFVnNZMHBfWXBnNU9KUXhtdFhValU4ZElJMHdYQzBYTGJCUUppbmZlb0NHbUl5N0Y5RUw5SUNPWDFn?oc=5",
+        "published": "Wed, 21 Oct 2026 12:07:26 GMT",
+        "source": "The Economic Times"
+      },
+      {
+        "title": "Cab Driver Demands Rs 4,000 To Return Customer's Phone, Bengaluru Police Intervenes: 'Huge Respect To Them' - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR25lLUt0SjRBcDlpR0tmdW9CaEV0aGpBTlZlUC0xYlZFQjdYSmpKRVdaY0VyWXlmOW1sWlhFZ0hsMVFBWWZLWEVwYXA4SjJiQmEyelJRMjRwTzA0YzlPN2JSRWpFcGxfWlZIMjlXSGZRYThEMzBfWFFEOWw2S2dMQWwzeEs2YVRkZ2hySi1LMFdwT1BTazJQek1UZUl5ZHJZZWZFZ2hXazlyZExZUTRMS0w4V2tkcFpUakZKU3A2Rlg3Y3NrWldkZVFlSEUtaVpuZXJsbmpXONIB3wFBVV95cUxNOTVKX1YwV0RjeFZxOGw4WVMyOFh2RTdnc3lnZ3hOMVNPa2RXOVhlckJTRUw3VmZ3Zm5GcDdiZldqS1pTeEtyb05tRHZCcnc1YVd3SmhKRHRJOVQtZzZ0VFpKNjVHcWNWaVZSdEJLcnV0cWJ0aGV3bnl0NkVYQ1psUTRKZUdmRzJDVUYxS3R6VlB1QmlNQkRIOUZETVlkN2l3VGZvQXRUYk51MFIwa3lRMlI2aC0wUV9EeDBJdmwwTl8yZGFjc3J0UlRsanJSNlBWLVJUaThObXIzSkZob0w0?oc=5",
+        "published": "Wed, 21 Oct 2026 10:50:06 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "Man praises Bengaluru police for stepping in after Rapido driver's Rs 3,000 demand - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV3V5bmpjY0VyelVGR08zS2ZxZlZqXzZBUHI4RVlBa0ZJMXR1T0NZTTJJMnNyRjRZRUpUN3VldkRERVVCR0IxTDBmdThIcVNDR3hlWVh6Rl9XVUFYV2s2RFlqTnZfZVNBc3c3XzE1UW1lU1o4NHlJaEZNbFRCUlNSRlNEMFNjb1lubVRSS3dIQUVHUUx4MFZWSnE2UVd4ejF0NmpXb19feVoyQWgwYnlyMzBqcWp6bUsyVzkxNzVCcXFyTmdxanRCUFh2T3BuN3VRR0owUzJTbC1obDMzZnfSAeMBQVVfeXFMUDdxTXI4dmNjNEhwUjc2enl2aDJIWDdpNFRWMXp3VWpycWJ6dkYydXpadVpkLWkwODZvU0FucXpYVFNQUDhzeFhzRWVuQ2RSWVlnRTlFYnhWNmtRTkE4bnZ2eDA0YkZGY096aUtLN0hRYU9JNzZDdEgzVHpTM01qbFdOQUFKeTF3TXRXdGpTSlVDSUJDd19GRTh2TjAwVjgtTU1CZmtYZXVDX08xVk1ZTGZhXzZpaGNRa1RvNGczVjJGTlVJU2x6RElJM0wxT1dRUG16XzVoaXRSbUxjTU1zZHVTVkk?oc=5",
+        "published": "Wed, 21 Oct 2026 12:26:24 GMT",
+        "source": "India Today"
+      },
+      {
+        "title": "Bengaluru man picks Rapido over auto ride, alleges driver tried to pull him off bike - India Today",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQXdXbURxSm55YmhxTnBUVWY0dFlLcC1QMEhXQzlMUjFzNGQwdlA3MU1zdVp0eUR2NkVOQnBPYktjYl9ReFlxYnRiYzFqNmVfV282dFVUc3pZM2hIaVE2NlJUZnE0Mlg4V3ExSk0xN3ZvMHJNS1lMMWtrUUxsdTVTMlhZT0IweC1XcWxhSFhROFdsblRqT05WMFNjWW1RR3E4cm1NaUxQem1lVEc2WjVIZENWc05kNWlkSFhZME81ZDlHZ05YelFmU3N3c0NlajluaHBJYkxsMTdpbkdEeDN2REFR0gHnAUFVX3lxTE1hNlF1S2E0bk1YLXlqYUstQnJiVWpjWk40NzZONjJXdWVmZWZZZXlYNEFwcHdwdmtCWXNDS1VuLW4zN0xCUjE5THh0OVIxaVJoSm5CZU1laFY1NHVRYzJEMGtaeXRzcElqdmNjbEVDN3Z6SDJvTHpYZF92eTdTdk1vbWxqV3hrdXB5U0x2Zk9hNGd0WkNJZXhFdTF1Y2tDS2lxZlhUZ3FBZUlDUnY2c3NTMTdzU0JDN0xWRjZIbGluU25IVEdTb1VFcnNUc2NyWTRmR2dETFZNYVotU3hackZ1UkVKVU03TQ?oc=5",
+        "published": "Wed, 21 Oct 2026 11:00:55 GMT",
+        "source": "India Today"
+      }
+    ],
     "google_news_traffic": [
       {
+        "title": "Bumper-to-bumper offer on Bengaluru roads - Bangalore Mirror",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdE5JX1VDdXVEUzAyUG1KY2dMZVB2ZWM1bEp6NnVldGc4ejFXaTkyMFViSGFYQVNMRW1mZXhkMkVuYTdyTVM1bm94cVVJVVF5TlNzc2Q3bV9YcXFSSEpWcEpRczBwS1RJc1p6Ml90VGxKOS1QbDB3ZnAycDlibW5DX0U4cFJULUhVRlltamI5aFY0N25WUFFqN2E4TFp0RGZ3V1l3RTBSNjNSQ1E4WjhRVFU4MUs3dkFRamlXbG5QenDSAcYBQVVfeXFMT0U2aXI1UTlKQkFFRmRkQi1kekVRaWRlV0FiSEFITEFleWVTNXc2bFNWUXNkR202eTRqMTZ2RnRJQ1JDNnlCWDBBWklWaUwyOVhOT19zdzNfUklWRkVvaWthSGdmeXlpQTVnMldaMVA1VG54djViUF80di1wbXdzTHU5WlVfek9lQ0x2THdFWHI4NHN4ZVJ6M1U2UXV1SGxpbmhBaFp4bmJGdS1KbTRUdTlnN3JwcFgxV0xrakxuQ1FRNGt3aXRR?oc=5",
+        "published": "Thu, 22 Oct 2026 00:30:00 GMT",
+        "source": "Bangalore Mirror"
+      },
+      {
         "title": "Namma Metro Phase 3: Karnataka issues third land acquisition notification for Orange Line package - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYzE0VDR1Qm5zbjVxel81ZzdacjJmUGNYZDRHWHdoZ3Nmb0FaNEhrWHRpV0FnZU04amF2LURGc2M3ekhZYTdZOUlBQTR3RHdrbkh0MUNzYVZqWDg5SmRzMU5YODZUaVB2T0E1T2xYY0phSGlHV1NMOW1peTFBQkRkSGU0RDdBSGR0anA2MXJHVTNFdUFVS20zdGsxU1pOZWh2ZTNoNHlWMW95NjI1N3RBLU1CVER2TXFZTGowZ19nRHgydUJqRW9mV0ZHTUMxazU3dUIwZGpqbndZclhKSHIzaGRsRGdLQWYybWJLUWZnY3pleHptNWZldtIB_wFBVV95cUxQQ0lrdXdqMV9EbVlsTmV5YnN0TjM1aW95TkYxYTR0VTJrVFg0ZUNKYUoweVZNSy1rSHJoREhGMlU4Z1NYSFptZTh6UUFSajZaOFdtNllEdU9DV19UaGx5VFNicXllcUp1cVQ2ejEyNHZVUDdTNUZla1JVYUlHbVJmcG5KVEVUUFl3SWRLTUptRHgzYmRJaWxmdXNTQ0tTbklrSjZtb1EwSmZkazlYOUxDOGxjZUw3WXRoTUxHVFE5WmVWd09FVGJRVlMyaHE2cFJNLXBKbjM3UVJYblhHT2JXemVsTmNsSmRDVk05Zi1JTzhQWTVPV3gtazl5NGtWMEU?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQ0lrdXdqMV9EbVlsTmV5YnN0TjM1aW95TkYxYTR0VTJrVFg0ZUNKYUoweVZNSy1rSHJoREhGMlU4Z1NYSFptZTh6UUFSajZaOFdtNllEdU9DV19UaGx5VFNicXllcUp1cVQ2ejEyNHZVUDdTNUZla1JVYUlHbVJmcG5KVEVUUFl3SWRLTUptRHgzYmRJaWxmdXNTQ0tTbklrSjZtb1EwSmZkazlYOUxDOGxjZUw3WXRoTUxHVFE5WmVWd09FVGJRVlMyaHE2cFJNLXBKbjM3UVJYblhHT2JXemVsTmNsSmRDVk05Zi1JTzhQWTVPV3gtazl5NGtWMEXSAf8BQVVfeXFMUENJa3V3ajFfRG1ZbE5leWJzdE4zNWlveU5GMWE0dFUya1RYNGVDSmFKMHlWTUsta0hyaERIRjJVOGdTWEhabWU4elFBUmo2WjhXbTZZRHVPQ1dfVGhseVRTYnF5ZXFKdXFUNnoxMjR2VVA3UzVGZWtSVWFJR21SZnBuSlRFVFBZd0lkS01KbUR4M2JkSWlsZnVzU0NLU25Ja0o2bW9RMEpmZGs5WDlMQzhsY2VMN1l0aE1MR1RROVplVndPRVRiUVZTMmhxNnBSTS1wSm4zN1FSWG5YR09iV3plbE5jbEpkQ1ZNOWYtSU84UFk1T1d4LWs5eTRrVjBF?oc=5",
         "published": "Wed, 21 Oct 2026 13:46:00 GMT",
         "source": "The Hindu"
       },
@@ -17,102 +114,90 @@
         "source": "The Week"
       },
       {
+        "title": "Namma Metro at 15, but falls short of its promise to ease Bengaluru traffic - شبكة تواصل الإخبارية",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WZHR1eUs4cHNneS1uY0FFRkkzUENNdVRtSnlna2pKWU9YdkNOVV9qTU1xMkJaZ1U0T241MThpV0ZwNmQwdzFpWUc3VkpXQzFpT0hR?oc=5",
+        "published": "Wed, 21 Oct 2026 16:18:50 GMT",
+        "source": "شبكة تواصل الإخبارية"
+      },
+      {
+        "title": "Work for Airport City Metro station in Bengaluru to kickstart soon - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM1BPUkUwdFpjMHhSM0xhQ0V4SHFNTWgwSWtaczNtX1k5bVl0NDd3dkJJSEZhRlFWRE5KdklUSHh2dWVZcUl5RHBPaEU0cm9iU2R6bUtSQ1ZYdkk3ZzJYUWFRQnZLcHlIZTlDM1FKRDEyRktFX0Q1UG1fMFkxeVVTQXc5Qy1YZ0FpV1VoenJBekI2N1AwOHBqSlNXTTNqOHpzdnJBYVpMdmNSdWJrSDFfV3dfdzl5RlpDR0ZOTnJPV0hfLVRfbEZISEhIME5CVl90cjhoMks1MnZTTnhnN2FsYdIB4AFBVV95cUxOM1BPUkUwdFpjMHhSM0xhQ0V4SHFNTWgwSWtaczNtX1k5bVl0NDd3dkJJSEZhRlFWRE5KdklUSHh2dWVZcUl5RHBPaEU0cm9iU2R6bUtSQ1ZYdkk3ZzJYUWFRQnZLcHlIZTlDM1FKRDEyRktFX0Q1UG1fMFkxeVVTQXc5Qy1YZ0FpV1VoenJBekI2N1AwOHBqSlNXTTNqOHpzdnJBYVpMdmNSdWJrSDFfV3dfdzl5RlpDR0ZOTnJPV0hfLVRfbEZISEhIME5CVl90cjhoMks1MnZTTnhnN2FsYQ?oc=5",
+        "published": "Wed, 21 Oct 2026 15:46:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Unauthorised cab drivers abuse Bengaluru airport security staff twice - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcWJmY2ZqTnlQS3JfSWtFbS1RczRxaGpra2JQX2duR25lS1YwTWRnalgtcXdiXy14SjgyTUtJR2s2d21nLTNiWXFhNURYd2JhVzE1SXN4dzVfeU95RVZTR0tfSWJIbTF6Y1hIaTczM2ZOSlJud2I4bm9kWjNidDE5RVJWV2N5UDZBVHhDbWZjNHhBZ2FjcVNTUllCaC1vaElaTThuZUthM2cxMnlrV2k4cEhFUEJ2eUtKbU1Mb0RwZkh3TGVfUmFUY2hmcUExeVp1ZU90RE10TVFCWmdGM3hj0gHkAUFVX3lxTE14SmtFUDRSRFRKRU9kZUVaTmtwX2E3cjNxMEdiQm0yZWJJOVJaZHl5RENhal9GbVFpaWx3TjFEblZIeEVrX3MyQ0ZqRFdqeGkwT2lJeHgyZlVtbUo1dVRoak1IXzhFamJfd3N6X0hXdnZpV0lIRUlIMTNqbzNuY1NlNW5BRVdOMV9iVTZENGx4a1hHWERicC1QSC1XaTRPR05NS3E5ckdNLV9wZmVlREhWaGVJR2FsWmhFdU5PU1RyUnh6ZjBCSXczeTBUVll5Sy1EdU1IRlFaTFd3Ti0xUExZMHFJRg?oc=5",
+        "published": "Wed, 21 Oct 2026 16:41:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Myanmar man held at Bengaluru airport with hydroponic ganja - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRjF0SU9RVF9HeWJrSUNRMTh1V094TktoQXFiQ0VZWmI2T0N0dThTQlRobVJ2bHJSTnBJdVBKdThHeVMxTFZXNXk2VFhDU1R2ay1zMnk4UGFtNTNJcGMxWlB5c2hENzZnRVNXZEp1UVNzdDFwck1RVm9sYk41VGVMdWJ5T095SW9uSjhnTkMtYzVsYXhuYWp0WldVcVk2b2c4QXJEbFo3SktlVFBIWlJaWC00QVlsNmxLakQxSG9LQ24xQTROQ3hGVlUxcVdfeU1yUVRtZ3huONIB1wFBVV95cUxPRjF0SU9RVF9HeWJrSUNRMTh1V094TktoQXFiQ0VZWmI2T0N0dThTQlRobVJ2bHJSTnBJdVBKdThHeVMxTFZXNXk2VFhDU1R2ay1zMnk4UGFtNTNJcGMxWlB5c2hENzZnRVNXZEp1UVNzdDFwck1RVm9sYk41VGVMdWJ5T095SW9uSjhnTkMtYzVsYXhuYWp0WldVcVk2b2c4QXJEbFo3SktlVFBIWlJaWC00QVlsNmxLakQxSG9LQ24xQTROQ3hGVlUxcVdfeU1yUVRtZ3huOA?oc=5",
+        "published": "Wed, 21 Oct 2026 16:15:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Fire guts eighth-floor flat at Bengaluru’s Brigade 7 Gardens; no casualties - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRW81dzl2X1BKV2x6MV9sbldfcmZfcTYtSV9WMEpzV29adk83ZkFUeGZ0U19uTVlHQ2xOVEp6SU9wNTFIbWJhLWhrNnN4RXBfR0xnbEF4NUR5TUkyWFRxWm1td1UzZ0FBNGNvMUx3Z1dmcjZGb2UwQ0FjTzR3MDB5ODdUYUNudWNrMkIwNzNJYWh6amtYR0hyVGFDaTNMWHVnb3VBeHZoaV84YmdEejFWR0F5ZkxmQi02aUZhanhVUngxTU9nOWZ6ODhvWmhWTks4bnFHbzV2ZkNxNkJ4MGRUZVNqT3fSAeoBQVVfeXFMUGlxZHgtLXhTV3A0cG5BRlVsemtDRTNxcnpxWjVrS3JxS0ZtWWNvVGExdnhJVEE3cWlyR1NQTWhJZnNZTEJCaUE4NWRVMmVwU0QxTDBmZTFyam1LTVVseEIxeTNHX3dSY21FdDVpTWJMN1pQUEtTRjZFNGJnYndWTkVlTXlTQTVQeW9waVc4VGdlWmtwV1ktdHJ2b2RnMlI5QUlpOERVWjg1ZGVjLVF0OGFsXzFST0o3OVF1UjM4QW9mRG5oWVVvU191YkpNNUdsdkx4bGxRZVUzODJBSWF5blI3azZUX3JRaENn?oc=5",
+        "published": "Wed, 21 Oct 2026 15:51:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Lokayukta court grants anticipatory bail to inspector in bribery case - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPT1dZLUVybXJhZzQwTXFlcVo5elJXdE5VcklJcTRWajBnNUwxQzFtQ3hsNVVQeDRqdm9RWDBMenBzM1kydENWeGV0Z1ZjMloxblRIN0EyaENiUUZvRVpvcmJJbXdEUl9qOWJFV2NSbHVwTFZjeFN5cU43SWY1WjV3aUhyZ3l1WEF1TE9VWW5wSjFWNmVVd09NajdjajV3U1BQelpYR2NYQ19RZm5VNTBtTk9pRzJvRF9nNDk4TUFtZkhmVFhTdHlSRE5hN2RNRDg4TTFiTUM4ckczcTBtQ1BfYzdqN1_SAeQBQVVfeXFMT09XWS1Fcm1yYWc0ME1xZXFaOXpSV3ROVXJJSXE0VmowZzVMMUMxbUN4bDVVUHg0anZvUVgwTHpwczNZMnRDVnhldGdWYzJaMW5USDdBMmhDYlFGb0Vab3JiSW13RFJfajliRVdjUmx1cExWY3hTeXFON0lmNVo1d2lIcmd5dVhBdUxPVVlucEoxVjZlVXdPTWo3Y2o1d1NQUHpaWEdjWENfUWZuVTUwbU5PaUcyb0RfZzQ5OE1BbWZIZlRYU3R5UkROYTdkTUQ4OE0xYk1DOHJHM3EwbUNQX2M3ajdf?oc=5",
+        "published": "Wed, 21 Oct 2026 16:24:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Rs 30 lakh gone: Gold, cash stolen from Bengaluru house during polishing work - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeWxOWjlJUi1mSkRCUXp2MkN4Uk12VGJLck1Bc2xRaVp4SlZ2eThBal9YSUJLZ3J4ZXF5b281T0MtaXRsbkZ0TjNERmUyV3dRNG5hQUljYTQ0ams5a0diMF9TdlhLTEZhWldEUXZRamZINkdacnM0QW1wcnRYMGQ1eDBvbjl2OE1uUnk1OTNQSDUtS1Q2aXc1UUg2a3ZYR2FOQ21iRWxpR05lWlY2Z21Ebl91enVtS2I5d0RaVFpWaVl2WUt6bkxwM2F6aF85ZE1GVER3M29MR0xnT0dPWmRXdi1UMTFMOHPSAewBQVVfeXFMT1d6dFZUb243RXJRNEhCWDdDS0NoMXFZcHROdnhIZkNTN09GTXRhZl9TZkQzbUs0SG9GMmE1M0ZkemFrTHFlamVyWDBjbjRzSS0xVjdYZGN1SmQ3dXNubHZpNHc0c2pkNm9aNlJhYjZ0amV0aXdsNC1saUxVYXNmM0g3bFBkLXhVQXpyWXhObnRqSER3WWMyMU1CVm0ycklhQnl1bzFGLXZoSjc4MTZlNmRXamY4dkZONDRjTW9qeVJHTkh1ZVl6anNJNXNKMWROYUZIcFVfWkhMWG5Na2lHMFVmVEJpZ00wMS1iZWc?oc=5",
+        "published": "Wed, 21 Oct 2026 17:05:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Worker arrested in Bengaluru for AI video of ‘blasting Vidhana Soudha’ - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZWFWREUxQWc4RFlaQ3dhbEVpUFo2VDYzLUxvaWttVTRaRmdfX1A3djgwbUROaGViRnhQQzZ0ckxHX3I5eTZHdnJrMmZGLWpaUHYxdTFEenZ5eHpBUkxLZ053WVdFeUlwNVYweTJaLWZRVFE1YTVfeXRZSFFlRGV2TEtPMUZydDdUOGpzOThSWmhVcXluZ3JtYkYxVjhwRUtqSkUyZGlPOHcyczA2Wnpsd3Q0MGh2QXJubDZadVoxQ05ncHhQbXZ3Rk5EMERfWU1LRE9XMk1wb3NkZlFtYlZjRVAxVdIB4wFBVV95cUxPZWFWREUxQWc4RFlaQ3dhbEVpUFo2VDYzLUxvaWttVTRaRmdfX1A3djgwbUROaGViRnhQQzZ0ckxHX3I5eTZHdnJrMmZGLWpaUHYxdTFEenZ5eHpBUkxLZ053WVdFeUlwNVYweTJaLWZRVFE1YTVfeXRZSFFlRGV2TEtPMUZydDdUOGpzOThSWmhVcXluZ3JtYkYxVjhwRUtqSkUyZGlPOHcyczA2Wnpsd3Q0MGh2QXJubDZadVoxQ05ncHhQbXZ3Rk5EMERfWU1LRE9XMk1wb3NkZlFtYlZjRVAxVQ?oc=5",
+        "published": "Wed, 21 Oct 2026 15:48:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Fire guts 3BHK flat at in Bengaluru’s Uttarahalli - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV0VmX1hTWW5tNHgxVHNHNWtYb0VvWkM1OWl5YWFNN3Q5dG9RcEpRNTdpQVhPSUk2bFJlZkFhS1ZZdms5SjZnd3pWMkxNYnNoSnBsbmszVExJakxmTnBrN1ZpV1VleUhkNWVld3FXc1VtOC1IbFl0aHdfWUFKLVE2MVZDcmZhNlg0QmtwYkxRTkduY184Qk9od19JeGtlUndIQzdRVU9mbVlqSDgxdTlYcnh1c2pIYjhTQURONENpYVhtSHZaZU53d9IByAFBVV95cUxPV0VmX1hTWW5tNHgxVHNHNWtYb0VvWkM1OWl5YWFNN3Q5dG9RcEpRNTdpQVhPSUk2bFJlZkFhS1ZZdms5SjZnd3pWMkxNYnNoSnBsbmszVExJakxmTnBrN1ZpV1VleUhkNWVld3FXc1VtOC1IbFl0aHdfWUFKLVE2MVZDcmZhNlg0QmtwYkxRTkduY184Qk9od19JeGtlUndIQzdRVU9mbVlqSDgxdTlYcnh1c2pIYjhTQURONENpYVhtSHZaZU53dw?oc=5",
+        "published": "Wed, 21 Oct 2026 16:50:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Car can’t be used as weapon to intimidate cops, says Karnataka high court - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRU00S3MwYkppcWpnTkplQjR1clVKR0k5SzE3bGstdzN5cWlmZUVnRnJaR0lqb0VWNXI2ZzkyZGZkLWdwYUZPVHFZbE9QREQzNm5SeGRnZXNtanMyR3o3RjU0N0o5MVhMbmctSjFYdVR6bnYtU2hnaWtDQ2lybjA4Y2pzeVEwN0YtdzVXak8yRGpnT3NBM0VIRFFUVWpTV04tSFNpa0VnMzBZMjRjY3BULVAxYktUbkhnM0FsUnhZMGszYVVPWXhQMUFQaGxYc2lTQ3RaM2E4WkpPckF6VGJHU1BR0gHnAUFVX3lxTE5RallOTDJLOHp1WHJlTGlqMnRtTHl6dnRnODEwZ3IySjJTYWdxaC12Q1NVZC1Xc0E5SDNKWlVzcVVDZEZzM2kydkFqOWwtaUtRd1RtOG5nWTdhMmswNFUxTlJFblB3VVlyS3hQelVieFlBd1NFQWNhblhhM0hyS2ZtbUxQVDJfcUExQjVsUkxsQW5vaFgtVWtRWlhOWkhIUjZKeC1Fa2gxckdqVXY1cktrcmNpNGdrbGpER0JMMTVpc3E0MFFrbjloc0N0ODk0VWxfNlQ1dlpxSHJJWUdnZXF4di1UcC00NA?oc=5",
+        "published": "Wed, 21 Oct 2026 16:07:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "Transplant before dialysis: Bengaluru doctors see gradual rise in number of pre-emptive kidney surgery - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZExWdkVFc0c0cFk1MmJna01mTmhlXy13YkRjT2JXN0hlWXFaVlk2YlNkTEFDZ0JwUGNkekxDQVdGQ1N3MnFsblNrWjA1WGQwYWlyYUZ4d3pJeTFzelJSQlpCcXhldmZnRHN6VDFaNnl6R3ptQUh6MjZvOTNib0R3bEN2MlROMXR5cTFXUTA2WFdianZ4ZmRWNWRTQmx3a1dMMG9oOHdJX0dXSi1wdEtCUTVwd1FFV20wWEgtaUlxR0haR1ZtZmVXLWlLOHVoOVNCV0tNQ0tPRXdQN28waE43aFM4S0t2WWREbUpUYXhFN3pDMDBGY1JEeHZLS08yNmdTLUVhOEdZVWYzcWJjdXlB0gGPAkFVX3lxTE1kTFZ2RUVzRzRwWTUyYmdrTWZOaGVfLXdiRGNPYlc3SGVZcVpWWTZiU2RMQUNnQnBQY2R6TENBV0ZDU3cycWxuU2taMDVYZDBhaXJhRnh3ekl5MXN6UlJCWkJxeGV2ZmdEc3pUMVo2eXpHem1BSHoyNm85M2JvRHdsQ3YyVE4xdHlxMVdRMDZYV2JqdnhmZFY1ZFNCbHdrV0wwb2g4d0lfR1dKLXB0S0JRNXB3UUVXbTBYSC1pSXFHSFpHVm1mZVctaUs4dWg5U0JXS01DS09Fd1A3bzBoTjdoUzhLS3ZZZERtSlRheEU3ekMwMEZjUkR4dktLTzI2Z1MtRWE4R1lVZjNxYmN1eUE?oc=5",
+        "published": "Wed, 21 Oct 2026 16:46:00 GMT",
+        "source": "The Times of India"
+      },
+      {
         "title": "Bengaluru's Kempegowda Metro station hosts immersive art display celebrating Karnataka's cultural heritage | See pic - Livemint",
         "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOWS1OWEpscnM1WFRhdzhEaTMxcEs1RUttdk4xYUY5MG4yOHFnekFjOWlpbHk5MmRuQ1N1YTJZRWdzMkVaN2VBcFRqNC1zeDFJNFBfdTVmN3kySl9jYUROQlBTdjI5dXQ1YnRPV3drMkhLOEV2Y1V2MG8zUzJuem9QNkxaNFFkdld6MnRBb3dDaG16SzFOM2NNeU5XV1h0VkpEQUNRY1FXa2l4M0hXQ09zVjBFalhXYTIyaWhxamF0SGc3aWlDUFZmU1pka0xmQmV0UnhpazN4aFgzTElhbEhUOVdTWFR1UGdPR2NpUUtTUkdKWGh6UzJVMjZobU1WMUpkRnFieGg4Z2MyZ9IBjwJBVV95cUxQQzJqVXNreWIxdnlZTnZ4Y3d3QVNVcnhVeDZ2TjRDUHozR2RMUUpncXZ2ZGJIR3pwZmR1NFZnNHVfS2JnRkl6Ml9WSEZGR00xM3YydDd3LVlpQ3dsZWFJUmw0Yjk1M2x2TkdwTlJMZGZaSFRCYmYzX1hEMndtbHVoaUl0ZzZmU2R5bjRBT2x2M0pQU3Nwc1BUMm5kTXVlWkU1bGJlbjhqLUNSQXhRNU83OFl3MzNwQVBUYXA5RWJuMHpVTkNGSmVVRmRRamZGVGpDZTJkS2N1b3ZPSWQ0S2dDVk5IdW01bzJRMDY5aUVOZHU1TmotYlFPSzJManBacURBTllIbklJcFVNaWZVYlA0?oc=5",
         "published": "Wed, 21 Oct 2026 08:24:50 GMT",
         "source": "Livemint"
-      },
-      {
-        "title": "Video | Explosion In Under-Construction Bengaluru Building, Cops Suspect IED Used - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTFlUcDJRX0JCOHFfemlYVnZicVdLZ2Jib0dsMUdPV0xTdU5LXzdBUjViRXRJaWJGcHdBMU9FWUtVS2xLejVHdlpWNF9RV01peWhHWHg1VzZmRFFlZlRGTDVVcF90d2FqNEcwVFlCU05IT25jM2d1RS0tM2EtUlZicUYwT3RWc0JGRk11TGl1eFF4aW1xTE1yQXcwell0RFVMcHFzYk1fTmxadm8?oc=5",
-        "published": "Wed, 21 Oct 2026 06:53:25 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "How To Use Smartphone As Metro Card In Delhi, Mumbai & More? - Curly Tales",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdG5Vc1R4SXh0aFlsTmUxR3F2XzZTT0d2ZUlNQS1vZ0lkcDM2bzVseUZOMVpUanFpU1FvRU1rbzhuM0wtdnZkMmp0MkRrdnlQZjhKUzA3dEY5ZHlxNmV4cTlOZTRMNGZZWGxDR3hXUlVQYUNQZTBGVndfX1oySEZiYzdaWmxxSS1KYkZVb2JMbjBNMjVIUXFhY2o2a9IBoAFBVV95cUxNTlF4TjJlcXpGQWExNTZocjZxX3pkMEdxU3dobVhtR2FOZ0RPLTM5UXBVWW5DS1ZUczJTY1lWaTR5ZlJObVVXelpCUGhaMGlDUW1HQVdSZFpPc1VKY2lkOXo1cms0cEptS0Zjb1dKTEZSSzNFVElzLUxXWlQ3bWNCWEpXQmh4QmFBemF2b2hIdFBZejBEYmFIeEw0OExvNldG?oc=5",
-        "published": "Wed, 21 Oct 2026 05:40:43 GMT",
-        "source": "Curly Tales"
-      },
-      {
-        "title": "Bengaluru Man Gets A 21-Minute Ride For 13 Km Amid Festive Traffic Dip, Says 'I Can’t Use Traffic As An Exc - News18",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNR2QzQ290WUNHYmoxWFoyWkpVRDhPUGhBcnI1emx1T1RWREtyNVNuLUp6TmY1ZkEwSDl2WmdWbjdLNGVtOUlBNHNKakpSRGdoNTVWeU96cjRJUlpWYlZKQnVqTThIbDVhXzI2eUlnMldSV1BJU3U3ZWdGUmZJdE5kSm9TRVFnXzU1SzVxVXliNDZmeU9fTlJ3OGtGZVhzZ2lEaWZLdjFuLUhRLXUzZG5PcVI0dWJncVVNVU5vendrZ1pGRG01NjVidE5RSFE4MzRoTDNQQjRuakpSYTNjcThsY3doTHExX0lnbDFwZGJLWUtqVVRvUGd3ZHJwQdIB-wFBVV95cUxNR2QzQ290WUNHYmoxWFoyWkpVRDhPUGhBcnI1emx1T1RWREtyNVNuLUp6TmY1ZkEwSDl2WmdWbjdLNGVtOUlBNHNKakpSRGdoNTVWeU96cjRJUlpWYlZKQnVqTThIbDVhXzI2eUlnMldSV1BJU3U3ZWdGUmZJdE5kSm9TRVFnXzU1SzVxVXliNDZmeU9fTlJ3OGtGZVhzZ2lEaWZLdjFuLUhRLXUzZG5PcVI0dWJncVVNVU5vendrZ1pGRG01NjVidE5RSFE4MzRoTDNQQjRuakpSYTNjcThsY3doTHExX0lnbDFwZGJLWUtqVVRvUGd3ZHJwQQ?oc=5",
-        "published": "Wed, 21 Oct 2026 09:59:50 GMT",
-        "source": "News18"
-      },
-      {
-        "title": "Phone as Metro Card: How to use your smartphone to travel on Delhi and Mumbai Metro - India.com",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZzFLQUtDWlVQQkJvNWpyRzY2QUlEVWJVRWVoNlozMFluRlV0cnQyVWdDSWRPS2xWQTdFUHRYaEZ0SzNlRUxXNnhJckVnOGxWVGwxQlp6ZmQycnJORi02RmMxV0Y5bTcyUklLNm1zX2l4VUE4SmNSa180MVJhYTg2UWJFcDRSYl9UYU9zcVVmczRaYUV4QUZtMzVHUzZBUEpYd0h6d2FrRE5IXzlOeVJNQ0V6S1BqMi10TVVXSmkwVzc3Qjc5c2NFMkZzOFlCSnfSAdQBQVVfeXFMTzdhNU5HMmtETEMwcDJyZ1ZzUnJyR01oR1RDbkRyZzdmTVBWTFpRUzRPNTFmOHhXNW0yVVgybGpUdVZHaUpGV3FzU2dtaU5paFFEV1AtLVBXZF9uWlRGRXhkcXk2YWswT25WQVlOcFRpSGpxYlliYXBQTzNWM2dscXJVV2xqMGtRQXZETUphTXJLeDFHbVZjajZOVm9sTFMtT1N3RFM1dnY3SGJVZVUwSnRCamgwVWRRdllZY3hRblBzSXJKX1pNSzZNOTc2dHE1R0NGWGE?oc=5",
-        "published": "Wed, 21 Oct 2026 01:39:55 GMT",
-        "source": "India.com"
-      },
-      {
-        "title": "Mangaluru-Bengaluru emerges as a leading Airmail corridor in India - NEWSTRAIL",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sZFBIMDFxNzhWd0RaTGNsYnVkMHM1RkpUMTlSV04tTFoySEdMZFMyLVBlWTBFS0Jral8wSm4xV2liRVlQd3VIOGNhOWFpZ0QzTHFXRHhLQ3o?oc=5",
-        "published": "Tue, 20 Oct 2026 19:01:37 GMT",
-        "source": "NEWSTRAIL"
-      },
-      {
-        "title": "Mangaluru or Mysuru? Which City Is Better for Long-Term Living? - Realty Plus Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRkd6LUZTMzJXMm5CZ2Z6X1dNME03RG80bTJZZExZTld1UU5Qd0poVm1UUjFMY2o4N0VXN2t2YURLNzY1Z2MzQmZ5UkVTbkZrWERQdkU2b3B2dEFaT0tGQ3YxcVg3eHhCLVlLWDRTaXRncG9LMlVobElSNjVsMlFLQlRjY1QwZEJvWTltcHR2TW5OZC1RY3RJV2dwcWdKcHVleGlaUnZSLVFiQU9JVS1UVEdpVQ?oc=5",
-        "published": "Wed, 21 Oct 2026 02:25:53 GMT",
-        "source": "Realty Plus Magazine"
-      },
-      {
-        "title": "Bengaluru RSS Route Marches Face Permission Hurdle Before October 25 - Urban Acres",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMzdJVVZKOURCM1MxbC1qSFRwRW5wTlJzTHR3UUxXY1hFMTNwdmJ5YXlkOVlhdFE3a1I1RFlHaEVwcV9CcmQ0a21LRks2UjRlYkFLSjJ3REhfWDVfNm8xVUk1Vmxlc3V3TDFld1ZtajdzaHpRb1h2eEY0WnUtTFZhdG83MENCWXN3cEpRdXozd2l0bGV1VEE?oc=5",
-        "published": "Wed, 21 Oct 2026 04:01:21 GMT",
-        "source": "Urban Acres"
-      },
-      {
-        "title": "HM Kharge to RSS: Informing police is not the same as seeking permission - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc0tMcFVVSUVvS0d0Z3RiQzlZS0NVclVQeVJrc1pYUHJVeWppSGlwUzVyWlZsSG1VYVd5ZUlNcDhsaFU2bWhtLWxaR2JwMU9sNHNVc0lDZGFfU3JWZDY2cU1sQUFqenl0dzZidk1FNTQ4ei1kS09YQmFIQTExc1d6alJtUGxiRjZ4Yk90bjFlQnQzcVYweTQ0eUprVUgzVGhiVkE4SU5SeEhtZEowNVJZRl9yMFFHNERCb2ROQXBMWGhLRFIwQ1loVnozMkLSAdoBQVVfeXFMUEYzdGYxX25aNGZzM0ExMUE1YU1IbnZIYnJMcXdsUHRLbTNnLXl6b1JrLXZEXzBZTzBBX3Q4OTB3UDZGWk1pR1FweDM1NS10M25uY2V2Q2g0cWQwMmQ5VHp1bTRlaHhpenF6MGFmUFVpWF9QQ1FmOEFUNnl2d2FmM09VRFR5R1BGV3ZGcWtKZVZwbFNHbUh6SmY3enBVcmVtU0xCX0NnV0hQQTh6SFNmWGJwc2ZPcmxMZFRhRDRpRlVDWEc3anNIYzd3bnZjaGJIZ3dZRmk1U1Z4QkE?oc=5",
-        "published": "Tue, 20 Oct 2026 16:56:25 GMT",
-        "source": "The New Indian Express"
-      },
-      {
-        "title": "Bengaluru newlywed climbs mobile tower twice, sits on road as husband goes missing - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSlQ0SFhxY1RNTzFrNi1KTWN5LVc5NXU4Q1owWEdzR21VQUcwVTdDa3pOYVZkVzhpYm4yX1hLa2FWZm5aa3JWQWxGTUMxalBxczdtTGhhQWtteGZ3YTY3TG5iVmtiV05ncUVaVE45QmZ4dmE2Wkl1ZE9xTmJKejVTZkFKTTdGeTRVUzFXWGdTNTlVUFZmdWJYZ1hfM3RuTEpzQzhhVDFYSUdCZHBrazVCTmtFOWIxVnEyeFQ5VGdURTVlRV9QZzZrMW9jU09qem1IMjZsYzE1a3A0czRzR3kzaWlVRG1GRXZOMkRCSjVQUdIB9AFBVV95cUxQM1hNb1gyTWhYOVIyQ2ZvNVdXejliUWYyUVJ1QzR3VWp5QTdFbnM1TmU4WkduYUlaMTV5VDRoRVFTTUpYcnN3VVlKVE53UTh2TjYtVUlwNVRpejBVZWpYQkt0bFpaMXJHMTB5S0NTZkV4eW8xZm52N202UmprMXNpdUt1Wlk5ZnFRUzl1WWYxWWJlaERzbDBab3pfS1l1SlA1TFNPMnZScmQ3Nm01ZWlhSWlQY3daUHlfaWxxb3l5ckQ1WjVacnpJN2tQa0dMRVNsS3hxUGtOMEJFamhLcWlmQlJvVGs4R2JIRVVvM3NTbjN6bUVt?oc=5",
-        "published": "Wed, 21 Oct 2026 09:48:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Bengaluru reworks mobility plan 6 years on, but big-ticket projects may limit its options - ThePrint",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpWcTNiUTY1bkN5WklsQlZvbGhTUXdxY2xXbFI3UHhGNzZSYXNqNmFNMG4tUUZsRmwySWFaQ3BRdFQ1d1V4dV9yN05SOEt6YmVnekI0WUZydV9RNnZfdURELUJ4R1JPaXhiams0NENobGQ1WDNqZXU0NXBhV1M2LTZZdV9YMEVHR2NUOENKam1QaEdfdllacjc1WlhPSnZXazR4X1lZVm5vVEJFbEc1anpsYWpqTjhVWl8yVDJ6MHnSAcYBQVVfeXFMTTd3N3FPWWZQZGJvS0hGZlN6WUg0TC01QnAtX2dZOXFKdW94RUlkQi12VG4wV295cUxmNEJua1BiYkF5UVZoaGhOYmV5M29kUW9CMDA0am56RnRzTE9kSDFBWjhOdktCb1FQZHo4VlNqbVJCVzgxRWU3akJpdzdzZm1OZ0FiREZwVm1OZU1LMXJfc2ZFTVlfNkFXc2xxZ0M2eXFRMGF6cnk4ZjNTdGtKNHVJSDZwcG9Ca3FjOF9ONkdfUmp6alFR?oc=5",
-        "published": "Wed, 21 Oct 2026 06:29:32 GMT",
-        "source": "ThePrint"
-      },
-      {
-        "title": "Bengaluru man picks Rapido over auto ride, alleges driver tried to pull him off bike - India Today",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYTZRdUthNG5NWC15amFLLUJyYlVqY1pONDc2TjYyV3VlZmVmWWV5WDRBcHB3cHZrQllzQ0tVbi1uMzdMQlIxOUx4dDlSMWlSaEpuQmVNZWhWNTR1UWMyRDBrWnl0c3BJanZjY2xFQzd2ekgyb0x6WGRfdnk3U3ZNb21sald4a3VweVNMdmZPYTRndFpDSWV4RXUxdWNrQ0tpcWZYVGdxQWVJQ1J2NnNzUzE3c1NCQzdMVkY2SGxpblNuSFRHU29VRXJzVHNjclk0ZkdnRExWTWFaLVN4WnJGdVJFSlVNN03SAecBQVVfeXFMTWE2UXVLYTRuTVgteWphSy1CcmJVamNaTjQ3Nk42Mld1ZWZlZllleVg0QXBwd3B2a0JZc0NLVW4tbjM3TEJSMTlMeHQ5UjFpUmhKbkJlTWVoVjU0dVFjMkQwa1p5dHNwSWp2Y2NsRUM3dnpIMm9MelhkX3Z5N1N2TW9tbGpXeGt1cHlTTHZmT2E0Z3RaQ0lleEV1MXVja0NLaXFmWFRncUFlSUNSdjZzc1MxN3NTQkM3TFZGNkhsaW5TbkhUR1NvVUVyc1RzY3JZNGZHZ0RMVk1hWi1TeFpyRnVSRUpVTTdN?oc=5",
-        "published": "Wed, 21 Oct 2026 11:00:55 GMT",
-        "source": "India Today"
-      },
-      {
-        "title": "Kolonkojoyini uses Maa Durga installation to highlight stigma faced by trafficking survivors | Media4Growth - Media4Growth",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOc3lER1l2RUxuTXdpUDBoNklmN2pnM19oaF9QUzFVNFVjUm5kaENJN0xHTXBRdFpNeTJleXpYQ3NmMmFsRTEzYklKbVFONGFQYUlLVml2bmVOSGZGMHU2cW9ldnNkd29YY1c3SkxSY0RXeERIa2JXbzNpWjJxVW9oSzdxSmluYzNuamJaWGxXb2Uzc2sxRlJvZDBqZnBvakRWUHRwSndJMGZmc1dyM1lRZEx6UFBWR2t6S3kxZkJGUUlpbnE2QWJ2cjhsMEsyZTY1YlFrVUdNMEhQRE1zUW1fdFJhdDhQZmtjZnfSAfIBQVVfeXFMUGlZRjFvYTF2ZjFla3d6YjBodV9nUVVoODJRMm9JV3RrZ0M3Zi1qeXdab2RZWVZwd0hXaUNfTEEwcU5VODF6TEtMajltaG0yWXAwRlZKQjJkZ1BBOVVQYmhzMGZXdElmVDFuczJ1X0Q3NjBwSjdxY08wamhpWllORXY2bE1IUFhRdXUyeF9GamhwaDZJZ0hzYXh0cnZobDVQc1ZjWWN5R3M4Qzg2QXVISUdMMXAwbVhTQm9ONFJvX29zS1ZPQjUyR3NYSHp0SGtvQ2dzLUxibk1uSUJMeXVNallGOTltaU9tQlVMS1RrcTYxb1E?oc=5",
-        "published": "Wed, 21 Oct 2026 09:12:18 GMT",
-        "source": "Media4Growth"
       }
     ],
     "google_news_events": [
-      {
-        "title": "'Don't Mind Saying Sorry 1,000 Times': Sonu Nigam Apologises To Kannadigas Over Pahalgam Remark Ahead Of Bengaluru Concert - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSG4zMnd4d3hZc3RlSU9jRUdSanV2VzRiNkNzcTVXb05iVjlnX1FzaUNETWxwNkc3RHFfSUxhTDRZTXNTcnhaTkFqVXpkX2pGOFM1QVBfUm94c0NmUjYtb2RsVy00RFhtOTFYai1KX3NURGVTNEpOdjlwRGR0YjV6RmdIR0lQbUpscWJNMWJmWnBQNDY0Yzl3bi15dDdoaF9mVjVmVG45Z3AycF9FYllIMzRuc191UFYyRHVmYW9MLVdBTGFnVDdaV3FCS0UwLXZrcExic3hCX3lzYXk2UTBNbFgzNC1jRmhYRUZoTGpfLVRYVUxE0gH8AUFVX3lxTFA4MHAtdWw4cGl6UkZ2SzBWX2hHUXhiVFBHdldQbjhiR3Nfd3d5cHd4RlJIcW5kbmNndTN3c0xGZklZbndhNHBFWnVBQ0g0RzVkVjhHSUFpVVFkZ25ud19nWlA5SldCNzdaM1phNk1yUkNnTkQ3anRXWFd3aHZWTzFxM2tSOVlaX0t6ci1MSnRIM2pfYWRRQ3NxOW1tcE9YaXZYQWJ1dGxHSmQxcC16c1NlaHR5NF9xNUxPWXRCVGJlcVEwRXlJYkxUQVYxWWVzNXJNdkJPNWRFN0FPVlREcnlRd1p3QmZOSkhkRC1ma1lTSlRPN1ExUEN1NEo1UQ?oc=5",
-        "published": "Tue, 20 Oct 2026 05:56:32 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "STANFEST 2026 to Bring Gaming, Creators and Technology Together in Bengaluru - EventFAQs",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSE5vRFJTOWdCRkZFUmktZ1ByckFYUmdRMkR6anNTSmc1V1ktejgzOUNQQTUxX2JjUmtybC13RHZxNnNEQ1FwdEoyY2k2YWk3SFdMcW5uYkxXZ1dVVjhIVmVrRlZLdjlVbHZReWg1d0w4V1VmV1hxSUNEZjdTZjBHT3pRRk9DVl9DeUwtRUQzbW4tbFYteEVha1B4azVxbjRSaGFjN2lROFdUXzF0YzZMWGxR?oc=5",
-        "published": "Wed, 21 Oct 2026 06:53:13 GMT",
-        "source": "EventFAQs"
-      },
       {
         "title": "Sonu Nigam apologises to Kannadigas over Pahalgam remark ahead of Bengaluru concert; says ‘I don’t mind s - The Times of India",
         "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNVDdwdUZjUTVJZk5HWmY2Zi1CcGhvbVFFM1lRcTE3LUNkbGh5c2Nmb21QeDRuWk1fOVo5dVlPVEp2cU40eUZKaWZkUXJXQjZtdXp4cE1NX1A1QWkxWnZ5b0xiRVBvVkljbjEyYkx0cmJrR3llMHhhdHpicU1kUHBBV19UYy1EZTczcldrc1lNVHo2UzJkYWJnWkZRNTRjMUZGSmJZZXpGV05pdEFobGRFWG1Wdnp6ZkgydHZnbGlJaFZCTllQXzRmakJ0UktZWm11WE0yRjVKWTFtVkJHRGJBa01wRzJqRGR2Yi1Bbkxna3dOZS1xN1l0ZE9xc2xDVml3TjhNWV9UV29nYmFLUEFFMTd1b2JOX18yRHNhS3EydHdnbWV5OVoxM0k2MGpFM3B0Z1lpSklEd3BvWUw1eGfSAcMCQVVfeXFMTWgxYnFiWGR0dlQ2amZUNjFGcXFxblZqamhzVGk5QXg4Z3VFLV9XVXFLNVltcnVnN2ZQeHI0U0JTQVY4VVBlOFZTdlVpc3lRRF94LXh2QUVsWm9IVGlOa0RtR0dCTkVJazhFdmRGcUJWNlljdUs1S2lRRTBrOENJU1p2UE1GemdneHFoTU9pNHVjbFQza2w2WjhDdDhacS1fQnF5dVc1ZGpadWVaZjBOMmtyQkVidVk0dWszalctMm9scHViMUIyRTVHdkdvcHI4YzVwc0lVMlI5T2F4UXBNOHNvRV96alhRNi0yTzBpanR0YjJWQnZnMjBQZDlqaHlERERIZGoxalVNT0hTQVVNazRXaHF3LXFNcFNFdHYzaHQwd2dXTmJCejBfMzVhTVJVVUlDcm5rWXR6V09RZDFiRV9SOHc?oc=5",
         "published": "Tue, 20 Oct 2026 09:35:00 GMT",
         "source": "The Times of India"
+      },
+      {
+        "title": "'Don't Mind Saying Sorry 1,000 Times': Sonu Nigam Apologises To Kannadigas Over Pahalgam Remark Ahead Of Bengaluru Concert - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSG4zMnd4d3hZc3RlSU9jRUdSanV2VzRiNkNzcTVXb05iVjlnX1FzaUNETWxwNkc3RHFfSUxhTDRZTXNTcnhaTkFqVXpkX2pGOFM1QVBfUm94c0NmUjYtb2RsVy00RFhtOTFYai1KX3NURGVTNEpOdjlwRGR0YjV6RmdIR0lQbUpscWJNMWJmWnBQNDY0Yzl3bi15dDdoaF9mVjVmVG45Z3AycF9FYllIMzRuc191UFYyRHVmYW9MLVdBTGFnVDdaV3FCS0UwLXZrcExic3hCX3lzYXk2UTBNbFgzNC1jRmhYRUZoTGpfLVRYVUxE?oc=5",
+        "published": "Tue, 20 Oct 2026 05:56:32 GMT",
+        "source": "NDTV"
       },
       {
         "title": "Sonu Nigam apologises to Kannadigas ahead of Bengaluru concert - Dadasaheb Phalke International Film Festival | DPIFF",
@@ -121,28 +206,22 @@
         "source": "Dadasaheb Phalke International Film Festival | DPIFF"
       },
       {
-        "title": "Sonu Nigam Apologises Again to Karnataka’s People Ahead of Bengaluru Concert - www.nationpathindia.com",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaGVrc3hNYk5qOV9qTVRRUFlZYm1oWFhUZnN4S1RmLXR1SzVCc1gySG80d2tNcXpfRTZaVVFEd3dUREF1UldkSFBCRE1HbWdwU0RlNDFxQnkyNlhwb211NWY2cU1HbTlRQVRNTTZtQWVXTGJRQkxxTE16OWVGSVBZX2gySGlZVjJHc01BMzVhMmVIc1RqMGVhYzA0ZVdvMThYTWtTcVVKZFBxUQ?oc=5",
-        "published": "Tue, 20 Oct 2026 19:03:42 GMT",
-        "source": "www.nationpathindia.com"
-      },
-      {
         "title": "Sonu Nigam apologises to Kannadigas over Pahalgam remark ahead of Bengaluru concert - Udayavani",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZDFSRUZNZlY3OE9OY3E2MzhvdzFyY1pycDBOYzl2ZUtiVl8wcm1UOTh4M2UxbFZtbVdxd0VjS1ZoOEQzYXBlTVRRbzRGTXdNcEpGVE1ocXpDMGI2WjdRREQ2Y3cwZnk4eXE4UENVRHVUZ056RjZUME5DZFNOZ3B3VXh6SnZ6a0tnbjJtdkhCZEM4UnZ4RTBCMTJZTlpYR051QzRBdldWSDB1c2lOWW1FVGdVYjZ3aUVBSC1vaF96cXMySUdac1NxR1N3?oc=5",
         "published": "Tue, 20 Oct 2026 11:10:51 GMT",
         "source": "Udayavani"
       },
       {
+        "title": "STANFEST 2026 to Bring Gaming, Creators and Technology Together in Bengaluru - EventFAQs",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSE5vRFJTOWdCRkZFUmktZ1ByckFYUmdRMkR6anNTSmc1V1ktejgzOUNQQTUxX2JjUmtybC13RHZxNnNEQ1FwdEoyY2k2YWk3SFdMcW5uYkxXZ1dVVjhIVmVrRlZLdjlVbHZReWg1d0w4V1VmV1hxSUNEZjdTZjBHT3pRRk9DVl9DeUwtRUQzbW4tbFYteEVha1B4azVxbjRSaGFjN2lROFdUXzF0YzZMWGxR?oc=5",
+        "published": "Wed, 21 Oct 2026 06:53:13 GMT",
+        "source": "EventFAQs"
+      },
+      {
         "title": "'I Am So Sorry': Sonu Nigam Apologises To Kannadigas Over Pahalgam Remark Ahead Of Bengaluru Concert - NDTV Profit",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZlc0M0laYUNWMGZST1pudWZ5clVLMy1hMU5IR3lKRFc5OE9HLWx5eEl6S3BGZXpfT2pRWkM2OS1DM24zRTVQb0VxLVA3d2NENmZBcXlyWDktdlZSU0RlQmh3OUtGSXFYTTh3bHVBSFRYcG5KejV4azhUZFRYMnBxTmFJb2diMi1MUnZjM0tHZUhwMWpHQ1pxZ2lIcVM5Yk9ENjEtdVNZNktrcE5CMDZSYUZFQ1BpSUdqQnVTNWJBTGJ1UXM2SHVIc0drY0k0SjNfTnQ3andLM2M1Y1d5TVFxT9IB6AFBVV95cUxOZTNjNTlQdEYxeHZScXFNSnhaYS1Jd0RiNW13SFVWbVJHTk1xeWNPWFY1WlA4OHZBTlRrT3I5cVRLSFVyT1V1U08tS0w0dkIyb3RIVlhmMVlPNlcwU3JLNG15dHU5bjVoakt2elNuU0hMLVFvb2xKQ003dnlrRGIxS0ZidVpOWFB6bVdkdWZadUdWbnl5enpldERERDBtZldxTC1CVWY4V1JCa0t5RENCN29ERzByU1EzNThrRGh6LTJwS3ViQlh1ZmxIUXQ5V1ptTGVEUEliZjYtQ3cxckJBbXlpcFh5aWNM?oc=5",
         "published": "Tue, 20 Oct 2026 08:51:53 GMT",
         "source": "NDTV Profit"
-      },
-      {
-        "title": "The Fourth Edition of STANFEST 2026 to Be Held in Bengaluru on October 31, 2026 - Local Samosa",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XbFlkNFA3bndpRUNOZlQ0Z1dXY1RhbUhGaGVpbzRmVWEydHhiU3FRYVZZci1rZEF6WVdQMDRrd2p0R3J5dDdYLURYMV82ZlhjclBsVE0wMUFESnpRamlRMUxZM2JXM0dmRENtaFZsczVQOWtwbndB0gF3QVVfeXFMTldsWWQ0UDdud2lFQ05mVDRnV1djVGFtSEZoZWlvNGZVYTJ0eGJTcVFhVllyLWtkQXpZV1AwNGt3anRHcnl0N1gtRFgxXzZmWGNyUGxUTTAxQURKelFqaVExTFkzYlczR2ZEQ21oVmxzNVA5a3Bud0E?oc=5",
-        "published": "Wed, 21 Oct 2026 12:31:16 GMT",
-        "source": "Local Samosa"
       },
       {
         "title": "Sonu Nigam apologises 1,000 times over Kannada controversy: Bengaluru show faces opposition after singer ob... - Bhaskar English",
@@ -157,22 +236,16 @@
         "source": "Gulf News"
       },
       {
-        "title": "Bengaluru celebrities and Influencers get candid on their Vijayadashami wishes - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdW83UllmVGVQNjVscVZkNkdxQkFoVXNLN3E5c2dDcnN2eFlleVNSYUl5NnFONmtYdWRxMml5UGZCUXhCV2V2MldsczhvU1ZKRWhfLXVuQW9pTldaT2NHMVZkSm1weTRTMk9Wam1aZG5rUmhrQ0ZKN0xxdm9GUjd4bElfdnBtMHg4UVEyaEtfSVdkSXpNdDd6cDI5RnRGNVhPOG9vSndNTFlfTTN1RnJkaEZnOWFsb1NhSVdJTk96T0xyUUJWTjIyb0ZUejBuYndlVG5ObmdIb9IB5AFBVV95cUxQaE1uNGppUHc3VU13eDNnRWVIeDJ0SzFFWk94Q1hNcHNkUWRxU09zZU50UDlBam1pRGcyYVBFcEl4aVBiVXdYTEhVTUN4aTdSWmxkcFZ6LWotVC16RFJsWmdSTEFMTFVaRV9MNDNnUGVCbmtiYjNHMTZvcWVkdXdqX1U4czJsZzc2NE1UWFp6TERaUkxnYjVlcFZMTDZLbnFUTWZwMG4zMUZjX3kzQkYwbUlkeUxCbDhMU05VOUJJRTM3YXcwTDZqaVRxLVlSQkt6TDBfM0VWcG1MMmVTRnNObW1Lcm4?oc=5",
-        "published": "Tue, 20 Oct 2026 02:01:43 GMT",
-        "source": "The New Indian Express"
-      },
-      {
         "title": "Sonu Nigam says he doesn't mind apologising 1000 times to Kannadigas over Pahalgam remark ahead of Bengaluru concert | Hindustan Times - Hindustan Times",
         "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNM2pWYi1kV3pYVE5UcDc1alc4THNNNXM5blZuUVlZdHE2emx0RDZoNUlrbmhrMmtZaUJIYXFQQ01xLVY5VU9adGFseWtpbzZ6ZVltOHZRSmN6YXhod0FaY0VsV0pxb2t3Tk5qOEh6Z3NPbEpSNnJRM3kwcmNHYmVLNUNvV045Vk9URjdFNlFsNDE2ZXZGMzFSMTVwQmZJZXZJUFJHS2VJMUwycm5zcEJ2VVRYSUR1cTltZFo5NUtzVFQ3M1pfUlFnNGlHVE40blBRaHR6QmlYSE5GcUZYQzQ2YU9nbE9Cd1lId095VzlwYnFFaWJtWWdfRGRGeXJBdEdETl9LU0ozd1dxTFBNQjktT2wtM24zUdIBmwJBVV95cUxNcU5YdC1mUkpmaEpGWnhBZFhzM1ZrVlVTM3JlbVNRcUNLQ0NEMk9NcWtDZjRBWGNPUGluZjdjQ01KeFBjWm51N3NzQ2g1QzlzTy1fZnRNZ0Q2N0xkcHhZd3lrQWJmaXZsR2hMQkFnRmZqRzlMbmh3aGNGVGR1MlFSSTBCMTFNN2k1aVlXN2NZWW9mdXV2VWhBZFN2bkUtR1NSeHQ0ZHM2TFhsNXBxLUExUHM3VFRfRkRlb3FJZXZLWnFaNWhQMGxvZDlfd3BBSVpIbWxJdTA5OXY4SGhJbkphX0dOWVhyWFpTTEY4TjJJNFFESWRLVGZTRW04MlRmMXFmejdncDlBUTR3eGNCZ0I4cWxObzBmU2RyRDZj?oc=5",
         "published": "Tue, 20 Oct 2026 10:25:09 GMT",
         "source": "Hindustan Times"
       },
       {
-        "title": "MIA to Host ‘UDAAN 2026’ in Bengaluru to Drive Minority Entrepreneurship and Industrial Growth - This Week India",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMkUyLVB6WXZHWGtBYk1HaXk4RUFzWkFZaE1HZ3NKVTc4R1hEWW9YNHlhVjh5QURMNUNnTUNqWDU2UzZrSi0zU2xRbXc1T196cnJ6U3FKRGhuQlNGaTNJdC1XSWlReGg0eV9xU1NMbERMRlktbmw2dTJpdWw2bEhnamcwVlZfbzJybEhpTmV3MlA5cUdDd3Zsb3BWbXlmRlcyNkpGUlBhU2hrY0hsRDZLRzRTZm5VLUFMdGhKRQ?oc=5",
-        "published": "Tue, 20 Oct 2026 12:00:15 GMT",
-        "source": "This Week India"
+        "title": "Sonu Nigam Apologises Again to Karnataka’s People Ahead of Bengaluru Concert - www.nationpathindia.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaGVrc3hNYk5qOV9qTVRRUFlZYm1oWFhUZnN4S1RmLXR1SzVCc1gySG80d2tNcXpfRTZaVVFEd3dUREF1UldkSFBCRE1HbWdwU0RlNDFxQnkyNlhwb211NWY2cU1HbTlRQVRNTTZtQWVXTGJRQkxxTE16OWVGSVBZX2gySGlZVjJHc01BMzVhMmVIc1RqMGVhYzA0ZVdvMThYTWtTcVVKZFBxUQ?oc=5",
+        "published": "Tue, 20 Oct 2026 19:03:42 GMT",
+        "source": "www.nationpathindia.com"
       },
       {
         "title": "Sonu Nigam apologises to Kannadigas over Pahalgam remark ahead of Bengaluru concert: “Dont mind saying sorry a thousand times” - Bollywood Hungama",
@@ -181,200 +254,221 @@
         "source": "Bollywood Hungama"
       },
       {
-        "title": "Climate data tools target Bengaluru’s heat, water, infrastructure challenges - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbURhQ3FkVDl3aVVKMWtUNGZqd0VkSmF3TDBCT0NMcEpQQ182Wll4ejJXQWJ5Y2k2bmxFX3E5UDhTOVBRcTJaVFVDTVV4VjJpd3NOb0pNbXFRZS1XS2hzTk5ZWm51S0sxaVhJWkVwU3hiMUVqTlJZaHBIa3JwTnRwM0E5RVRwbnMxU05XQ2NpakN2d1NqYjlFU2hzUHJwbXVBZ3dNZktCLWxrVHVrNmplSTJOYmJndFdJOVVOWVVnV3diNWtjYVVJU1o1QlI3LURF0gHeAUFVX3lxTE56ajNWMXh4V0xFdks4a3RYdG5Gc3pLX0tDUkNqSURUdDBMc1F3NE41WmxXSWFNbTBseUpCRlNUVjdXUURab18yT3BOV2RsYmstWmJfTFVQY01CUFVMQi00Nm5WM28zaktDWkxOTWFiTGF5cHlvQTRoczNKMWZjY0wxdHFJMW56dE5XQ3RIZUw2SFVTOUx3T2xzSHBZRWU4a0NtWEJrVEV2b2tlcTVMTFFEbFNDaVM0MHkzS0pvb19tQTh1TFlfSDZMOHlMOUVaLW5MMWlRRUJQeWIwNm03Zw?oc=5",
-        "published": "Tue, 20 Oct 2026 01:51:49 GMT",
-        "source": "The New Indian Express"
+        "title": "Sonu Nigam apologises to Kannadigas over Pahalgam remark: ‘Don’t mind saying sorry 1,000 times’ - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMlJhYm5idXk1WTEwdThTVGlGZE9RSnB1MnNKQmwyU2VFNDh0OHlnTlU2WnR3eS0tN3pNYzQ1amhmX1BNVWVlajI1MmRPS2lRWW00bE5zZHBLMlBLZURjb3RoOXVHNFhfdzNjY2ZwLWxkVldyQnFCanN6b1A5TEp5ei1aRUtwU3FMNkZPY1N5ODFGYWRIQzRtRTZVcC0wYXI5ZkRiNGFSWkxCZk9WMHZJZVhpRUpTVl9heWtDMHhpUTJTWUNPVmtEaWVJdHM2ZHdnTS1MNHktSEpLUUNxVXc2Q1ZaR2RKWGk1SUxoZUVzZUzSAfABQVVfeXFMUDJSYWJuYnV5NVkxMHU4U1RpRmRPUUpwdTJzSkJsMlNlRTQ4dDh5Z05VNlp0d3ktLTd6TWM0NWpoZl9QTVVlZWoyNTJkT0tpUVltNGxOc2RwSzJQS2VEY290aDl1RzRYX3czY2NmcC1sZFZXckJxQmpzem9QOUxKeXotWkVLcFNxTDZGT2NTeTgxRmFkSEM0bUU2VXAtMGFyOWZEYjRhUlpMQmZPVjB2SWVYaUVKU1ZfYXlrQzB4aVEyU1lDT1ZrRGllSXRzNmR3Z00tTDR5LUhKS1FDcVV3NkNWWkdkSlhpNUlMaGVFc2VM?oc=5",
+        "published": "Tue, 20 Oct 2026 08:40:43 GMT",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Why is Sonu Nigam apologising to Kannadigas ahead of Bengaluru concert? His Pahalgam remark controversy explained - DNA India",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRDVuS0s1cFBNMm5GMDlWUGk3RlZJSzh5VlVvUHk1b3lBNmtTMnpHTjBybnMyckozV1drRDBHUTJfZUc5RHJKUnM2YlRiYXlCX2ZtV2MwWFhuRkFFUTBYejRhVkxyak40X0s3bVdYdGNxSURpN3RtbWU4NWZUQl9WM3FTNnVPN2pMcDRWbVB0akdoR2t6Y1YtcVFmVUI2RjBFQjU1Z1NfREFDWFBGU3NOeW1IWDhiOWFKSUFkR2pqNlh1NTJtbi1Mb1pNQVM5MW9qNFRfdFBHMDI0Z2VMSVFwRVg5bUNkYml6ZnFIVTdEbktRbnRX0gH6AUFVX3lxTE5qcDU5LUxoeEROOVFEQW5VNjBlaGlhSlYwRl9iaHM1RzBDWHFNNXd6dUJNd3V4RzdhZ3Z1WmN2YUJBcnJTNVp3UDA4TWd2M0NvS19Gck8xMDlLWGh5NDBwQ1o1Nm5CUFFRMjFyV0VRWUcyMk9kYkEtWjZMRG9JMGJkT2FjQnZjT0pfVmtFbUVEMzJuZkdDVDd2MVNGc083c2F2bjdpMVh1Q1o3MHE3ay1WckVYUldESWVWb0tuYWVkcFZVYWk2OHBUQWtTRUV2NkVJMExOZ0dUSm1lTWE3cmxsTDhPT3Y1dWRxai1aOEtLanY4VXRQTjFZdmc?oc=5",
+        "published": "Tue, 20 Oct 2026 13:24:53 GMT",
+        "source": "DNA India"
+      },
+      {
+        "title": "‘I’m So Sorry’:Sonu Nigam Apologises To Kannadigas Ahead Of Bengaluru Concert On October 24 - Oneindia",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTTBLei1TbzBUTk1xQ011TUJ1UjlJU2xHQzUtdUg5SURGYTJjeU1LTlF3LUNaRldJaHNwQzhFUUZxb2Y1Tm5GZnVqMGQtRldhZEdfbEZfcE5Lb28xVWdIM08yREtpU0RvZmpsdEJSQ0Znay00VTVKZzNZVy1oS3U4UnR3dDRiMmFWempTVlVDcUg4SlBBNWhLQS14enRqbGZzeHZIdW9oVmM5WVp6T2xFbTBsSE1qSGx1cVZJVXRFaXloblRyUG41VW1KVU1GS3VkQkNB?oc=5",
+        "published": "Wed, 21 Oct 2026 08:57:59 GMT",
+        "source": "Oneindia"
+      },
+      {
+        "title": "Sonu Nigam apologises over Pahalgam remark after KRV threatens protests over Bengaluru concert - News9live",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ0d1UjRqRTRnVjRGWmNHbFh2T0R4bFNUdmdiNjk2dGlfQnZzeG1LOXd2WlRpNjRPN2VDS1hXQ09FOXdVQUw3S05Kdl9sTU5kNnZ6WjU2eEJHeUZaa29MWGI3VWVWT2dNRjR0OXZHMVdLOUtZaWZoeTAtUjBYM0N4by1oM2RNZUJPZ3RGRF9LTHNIY3lmSVFlY3lyQjB5Q2NzR0dqc0JiVUhaN2ZwdUVCRXprcFd5QnNESHJETjd30gHDAUFVX3lxTE9nSzVQYVNOTThVNE1kbVpNbnRGQTBrQlJxVURQYktGM005bG02bFRUbTc5cDJNeng5ZnRNUzF3dnY3a05ueGhhSzJQdnpCX3BhQTRnelpIbWFhbXY2RHU3S210ampmTmhySlVaMWZlTUlvT3BMUVg5amxVZHd1aUU3ZlJxTTFKd2twM1p1eVduUGtQZktjRURCNUhHYmNEaDB3a3dQRlNHWGtfNjNBT29ERUVuakpTTHp6LXF0WndDOHRxWQ?oc=5",
+        "published": "Tue, 20 Oct 2026 08:39:45 GMT",
+        "source": "News9live"
       }
     ],
     "google_news_india": [
       {
-        "title": "CJP Leaders Saurav Das, Ashutosh Ranka Withdraw From Delhi High Court Plea Challenging Judicial Custody - Live Law",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQmx3LUhmNGNPZDJOSnh0WW1tXzlKUHFlYXJDMjR5Y2xyUGRxeTNQc2pyeDlMVW15QnhBQm8ydFNBUk8zdXNITlVqTkRzaTJvU3dyNnFOcmNwTFY0TWZXVGl3cXBmOTBQN3BBeDZ0bzBqT1EwTDZUaDUxbmNZR2J4REFVeFZBY1lIRTUwS3h3LXhyeUVyY3AzTkd4YXVJYmtJeG9lcTVtR2dxLTU2M0JHS1JjZWI4VVlFUm5QWHVFbE5YblZPcEdSbkc5b0R5UlB1NG5nXzdWN0g1THBKZFRacG9uMktOTmt5N25lVlZQWTgtdw?oc=5",
-        "published": "Wed, 21 Oct 2026 08:15:16 GMT",
+        "title": "CJP Leaders Saurav Das, Ashutosh Ranka Undertake Not To Call For Jantar Mantar Protest Until It Remains... - Live Law",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdThGS0VKZ29QXzROLURfSV9wWGR3cDVPLUFxb2NKSUJoWjR1XzJ3Y3pqUXY3bC12UnZ5am9TQjhZZkI1U254WWhoU0hhbmpiSGFqaHAxcHMtUHRYOXhfR2x4bXNJWFQzdWMyRWJsWmJZb09WNjZ2SnQzMk9lUGNlZjB6WnhneElwaHlmSDZUV0RxdVZRNG54S0U2V0ZDdFBKdnpSd0E1Rm1acEFzcTczY2NMWGQ0SVRjR2ktNWZ0ZlRpTjdGRGpyWEV3czloR05uZ0ZzV0VOdmFpS2VqT0V5VW03OGRULVF5MFBzSNIB8gFBVV95cUxNOGptSXVqN2tUb3JYNGpUYk1QSFE0NVBTRkdvY2otUmRNdDdCeW1zcmgybUtCV0hFRnl0RlFIVFVvRGc4YmtKbnNUOHRjb0hrVF94dWZnT3BVZjRMUnViYWtMSnZwbUEzT2dHeU5ZeHNXTUlDMFI5NjNVcW5pcGNIbXI3VTRhRkNBRERZeUF5U1pBYWI0aW1ZMndra3FsUXotTDJ3RDJiczZ6RXpjR2Eta3RNdHAtdWJSREtiZUhqaG5weGVqcUw5cFl1QkdEQkZPby1PSnh1UVNmTXdZRFlpQzduUWhKT2Y4QWNkUGJXWVZ0Zw?oc=5",
+        "published": "Wed, 21 Oct 2026 14:52:48 GMT",
         "source": "Live Law"
       },
       {
-        "title": "Trump envoy asks Putin to resume three-way Ukraine peace talks, secures release of US citizen - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
-        "published": "Wed, 21 Oct 2026 11:41:02 GMT",
-        "source": "Reuters"
-      },
-      {
-        "title": "Don't meddle with other probe agencies: Supreme Court warns ED in CMRL case against Pinarayi Vijayan - Bar and Bench",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVmNYa3dkdFNWZWp6UExhX2VCNG41d09jbjIxeHU0NnZSRjYyckpMVkcxQXN3dm1TSGg2QkN6YS1MaS0zaC1UU2dHR1pqd083MGMwQVdGeHZZdFpZNUNNVE9QT2dOSVVYTVJkU3hoT3pSN0pPSGZNVUhIT0Y4TFFpcmVZNWExSjlqXzNuMVhhTHBJbW5Cby1ienFiOXByTkhhYWw1d3cxMGhFVWFZM0p2MHIzRVZsck0tX1FkYl8ydC1IWllaTDRseFAzQdIB2AFBVV95cUxPZEk2cFRtdV82a2x4eU5qRDF6N1VTX3VIVGF4eU82d29CYm00dkI3ZEliYTl2dXdCamQ0SmRXOW9xQ3phczdfZEJMZmZtcXlER183MXJhRHBWaFlHUFdCd2FNMF81MF9BWEF4OUh1bFpBdnhvbndOWGI4TG9WdFc5bHM1Yl9Bb2Fzb1Rmb2RrQVh3U3BsM2V0VXJCbzB6ODJEUWFPSlR5X2dvNjBvd25uSWpQTFpoUVp5YmhybzAycWZybVB5SDc5cXlpNWNxamxUUWhCNkNkMFE?oc=5",
-        "published": "Wed, 21 Oct 2026 07:37:19 GMT",
-        "source": "Bar and Bench"
-      },
-      {
-        "title": "India-US trade deal pretty close, will be different from previous pacts: Trump - India Today",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNzhKM3dkUFF0Q0tuaU5jcHJ5bW12Ynd0dkxOcUpNOTB3TUctQnFJZmk0eFh6aDIxcnIxbk50U3o2b19vZ2RPUi02ZlY4WmUxSHBJRWRFeFNPOHM4bGI3SGJWOVZrdE1sVHVBLU5tODdQckU4X2F2TkprQ25xNFZraEJkckRIWE8xc3hBelpqZEZ4bG9qb0VGOTJqNWM5S0ZNVDRGeVVGMWVQdVNsT0REc3R2SjlqNXFCc1N2OWI1Nm1BSTVkS0VVcVQzTzVfNlJM0gHWAUFVX3lxTE9MUXdaNTFRUnNFTWpXU2FnWDk1blZpdFgtbWZ3SVBxREZOSDE4Q0NaN1IzREtCUlpidUpDNy1fdFl3UUo2M1lubnpEU3lzVE5kY21LNmN2OXNJYmF4OTVuM3FTTEp4aklXem93Mkx4WDR6NFljSW5UOGUtNDV3VDBIcTZ0Z1d2WWVVSkFoanE0eElITTF2bDFka296czVEUU9QZVdqb01VZWxzeHl3MkxRY3pnTGw0TFlhWDNyaE00ejhFN0syMVdNLWh4a1M3QkJKa19TRGc?oc=5",
-        "published": "Wed, 21 Oct 2026 02:46:55 GMT",
-        "source": "India Today"
-      },
-      {
-        "title": "Salman Khan Was Shooters' Target, Not Tiger Shroff. They Had Recced His House - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONk5Idm5QSXJUdHFjWnhHOGZmQmFMS25MZVlsS2Fua0VqOGppdnpidnQ3M3o0LTY5ejFFMVNuNWxhQXU4c2l4Q3dXdjJzN2szYndGcUkyMm54MFZCQ2xrZWxvMDBha0Exd2RHcngyclFSTC1iTjAzRTNwd040ZVJtdzdaSGZBUTk2OTg3dkFuZGc2VUN6OUZ4VWFoV0M5eWQ5T3hVaDBQSWlTZ2dYYlRUaTFVTGVXRjJqSThlZ2Jmdk5jNl95REdONnA2aTB6dTI2?oc=5",
-        "published": "Wed, 21 Oct 2026 03:22:43 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "France protests: Paris police issue overnight curfew in two areas to try to prevent further disorder - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWlo0VGVldndxaG1tekVWYXlXUklnSktpVHRNTklaU0Q0dWV3R3ppRWcwcHhyY2gyd3FqVzFJQU5sa09za0hFS1o0bUFZMlBNZzNISzk0bXhkT2dVbGFhOXczTlVnLUZtTDE1bldUUkVXakxvRG14bnE5Q05EVWhGUjVrTkpzZHBlTHN6MTlXZmc1VjJnVjFYY3psalNoWnhlUl9jOGFBWjU1X28tcGctd29RM25fNWFqRnhaczhDbkhyc00wS3M0MGlIZDBHV25xMU5ON1F6clg5VE9sTHJ6WG02T0pydjdEaXR4dm1uWlNkNDlHaXfSAfwBQVVfeXFMUHFmLU9SWmg5dWF1WlVEMVBmakZGR1AwQ0FsUFBEbWtpV1loSHNJRTRGNkhaN0llODhhNlFpTmg1RGdONkRzVndEMnJGQnF4Z0VrRkdWY0lyejJTZXQ1a0JSQVVuLWgzMVlYR0IzOTl0cDhHU0w2OENiR2h5Z003S1JOTDgwS3o5RnI3a1BwV1hJTGZjQWt4UFNUMmFObERSbjNhY25PM1RsQXdYb0p6TllhSFloX2ZIcFJMdGJBeTdzZTdiamtqMTBWZjNRa0RrWnlXcENWVVhCMHl3am5OS005cmp0RGJBcnZxVzItdXN3ZW9JeTF3ODlQX1U0?oc=5",
-        "published": "Tue, 20 Oct 2026 01:45:01 GMT",
+        "title": "Saudi authorities say two killed by falling debris at oil facility following drone attack in kingdom - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPT2tzX2o3UXhxbXN4MFNRbmpoRDlzM2o1c1FBZGprWTVTZUZIS19FajdHcWRxblFwUGQxTmYwNVlkbW1FR0dwNjZCYS1DTXlpQVJzanFDVU4tSVJ3Zmx6eDVGdmNxNkhuRDZyUXVQTTB0R0tjdzllejBsY2MzMTdBNWlnNUJOWGZ5YVUwN2lWTVlLWlIwbnM4dndsbHF3ZjZodmZSUU40TERRY3Q3dUJlZmxNUTE3WHk2REJGWVVLVWtJT1BOeXNSMlZ2QzFLcE0zWUxKYVNZSXU2VHhNNFljb0ZScWZvV2dRUG5JOHpHbUdiY05GZ1pB?oc=5",
+        "published": "Wed, 21 Oct 2026 20:31:08 GMT",
         "source": "The Hindu"
       },
       {
-        "title": "Marco Rubio arrives in Jamnagar to visit Reliance refinery - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTlBVlh5b19pWXd6RlNhMjNfdUwyenBkVFd2ajA5djhLRlJuZ01mMlVObl9oRExIV3lHNzhzZm5ueGZRWGhqcWxYdFk0V21reGZtb19uZk9scjYyajZxMklRd1V3THlzdENvcXBBblVfVmRMd0ZuTHU1NnlsZ0N4TzZ3WDZNYTB1cDlYQW1DTEk2ZWhNU1duWnZTa1dxMVdtRkJvOV8tQVR6dUZzek41QUFVeFNCXzjSAb4BQVVfeXFMUHVTUndkR3h4Z0Y0Ri1saE1Ua3V1ZGdwNnVib2dPUzVSWHVPMGRrV1VsQjF5TXlKWWRveWFPTFRzTGcza3FHZXNrbHZVa3d3WkxVRGhtdGszYlBhWk1ud1QwalYzOGpFaEtWUk03VGx5U2l3OWJaalI2VVJ1dXM2VGJ3UzBmU2dMWlNsRmN1bVlhc25SWjBZam9Ub3RCZzQzOUR5bnJqTmxGdWNfQWZrOFU4RVJxSVl1dU00UTU3QQ?oc=5",
-        "published": "Wed, 21 Oct 2026 08:42:09 GMT",
+        "title": "The Indian mega-refinery drawing Marco Rubio’s interest - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkY2aGRMeHNCeXd3REc1b2x4aWxYN0ZtblQ3bHlrT3o0ZERZYnRwN2tNODhiV3JjUUE5M2pudUgzWTQyeFRlbFNlSmg2UE1FZks3X2pzOTRReUdGSXZUVG9ObktNcDJER0owU2pFR1o0TEcxN1gwdlBtVW5JNVZualRySmQ?oc=5",
+        "published": "Wed, 21 Oct 2026 06:09:20 GMT",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Trade, defence and the Russia-Ukraine conflict to dominate Modi-Tusk talks on October 22 - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZ3h4Q1NmTHVaU0JTcWZTYWJYNzNkQVlUMWN4ZGJlcXM1cnE0Mm1XNVl4YlBmVG9ZTzhQZ3dsRnUzM095TXQ5QjU1WDVXTk0yTzBPc2h4RHFxVnR6UFZwc05DZXVuZzJwMmlZQkNub2dnYWVJck9pY0tiNENHQkstaGc4YkRxTjluT1dncU5RNXA2STY2Ql81ZDBKQklKV1k3Z0d0TG5jb29jVm1xZTkxWU5tV0ZTQ01aRlZnNm5QRFEyNVY0NEZ5SmZSRW9TRHAwSjdkQ0lwLVI1dGQzZHRN0gHmAUFVX3lxTE1IUW9uRF9xdGN6WWZXODE3RTcwOHNOY1VWZVZUSklLQTJvSFNvazJ3VUs3TnRYaFJUTFdZSnl2VlVVT3hqZFFWSlk5RkZZQzFzdjN5ZXVXSS1EOE9uS0lOdEpUc2pBcVlBYTBtZXBYRWFEUS1NUkJ1RUFTN3dKd05OaVo1b2JnYnd6U1B1S1BQbXZ0V3FJUVRPV1FZMzhycFVpRDMyRmxleC13d2VLRDlDZ0RfNnFPQTJpRWJfbWhpTVNZbzNzQmgxb0pDUW0tOER6c2luUHhPOWUwN2J3X0dDRzBIaFB3?oc=5",
+        "published": "Wed, 21 Oct 2026 15:05:35 GMT",
         "source": "The Hindu"
       },
       {
-        "title": "GRAP-1 curbs imposed in Delhi-NCR as air quality slips into ‘poor’ category - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRGRjZV8wUzZ4TG1BSHB5WEd5YjlUV0szd2FRZnpmd0Q2RzZpbFhseU5JWlVwZTU3MXl6ZkVnZjJRTUxpV2Zjb2hBT29STU5PVm85c3drLTUxbjZHVW9tMndfckt2LXFLZmJ3c1RMSkV6QTJrZXM0eGd4WF9XUEhnenY3Nlo4ZnZzSXdVdW03NElPYTBwMWgxRlNCX3VZWTQ3M0gwT0s3bTZtbFZEVmJHOEhITEtRSkQzRWEtS1JZbzdmZkQzbzFoRnZ4bExGdWx6SFHSAdgBQVVfeXFMT2lyY2M3ZEpGZGNwT05TSVFPMjIxVHpDT0lmSEtKeTZYblVYc0czWmpkMGZmbDQxVDluLWF3T252YTdoOHFoVmo2aHVkTDBTdnZTMUUtR1I3cVVVTmt6aURxTldHUUo3c3pnWGVDQjU4TmdVdVNfMWhUTlRZblNpUFhJMU05RDRpRy0xbEVISG9IYlR5NFd1c3RlNTZ1dzVqZU41TkVEeW5tOFByYkhvQ192ZElJRWFrMW9WcEJNeUFHdlFVLWtZYVZ5ZE9tbVRMME5PS2lLcGhX?oc=5",
-        "published": "Wed, 21 Oct 2026 12:18:23 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "‘Term UN experts is oxymoron’: Rubio calls anti-EC protests ‘domestic political matter’ - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZGlZMDVTYjl3d253cHJrbnRoQ21LclR6eW1raDctSFp0Z1B0UzNhOXZ5U1RBeWtTejBOT0RZcnJkY1pNTFNPbmdnVm5XSC1OOUFPVC04Q3RjdzVZeW45bXBfcmxEMkU3MlVDUFJ5RGViZVI2TVZVQy1PZ0paMkw2dFJzWVNNaW5Kc3h6alhhY1d4b1hLVmNNSDhPb2dGSWFPM2pVVUxDd182OHFtUFJSSTg4bVgycjQzZExmUHpJRUhNN2N3dFpVSXJmS2VOdEYwUUNIaFVaaUV0ZXc0LVloOGc4MmYxbElD?oc=5",
-        "published": "Wed, 21 Oct 2026 07:24:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "From Punjab campus to Jodhpur prison: How Lawrence Bishnoi's path led him to Salman Khan | India News - Hindustan Times",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVUtFQ2ZxYnptakxUdThfOWxyMEIyeUVvV28yZGJtV0JIME1VYXYyM3o5N3FEa1FfNTNhWWpXSUk2U3I1S1d3dGx3M19RZkdCZUNiS1VYM2ljQW5PUi1DemViSlRvaDUyeVdmdzVjbF9NTVlnbGZmM25mT1gzM3FpaTN4d0tQOThNSGRrTHdTYU5CU3phRUJYWmJ3UzF6TTZ6bEthSlZCelkxdjFTMGFHMG50Qnk5T1JpRUZLWUNrLS0zbkoxNjYyaEg1MEI1SGg0SHlnV01jdGFKSU1tY1BTRWw0UmtiazdXazdpV3hsb2lOQXVwSmpv0gH8AUFVX3lxTE9pcEpKZExBVVduUVZFYjZGcE9jNHI2RkR2YnlCaHd6c2E2WUFGWHBkS285MGxLU0tnLXllVEFOX1Z6RTB3ZHRTd0otdVBzMVg5S1ZLcWlYbG1iZXNSS2NEeG53RVM5YlhXRFl5TjhJOTQ5bl9Ud2lENUNpOXZ4bkpiRjNsWFpqTEoyU2VLVk8yMUtCRnRNbllGVFJ3SF9zcWJsZ1NoaGVhWXB4aGZIbjBvZTFEQjZGbGplX2I4cWlrWHctVWRMbFZSbmRlTmZsNEFCbDRwVnJ0YUVJUTNCMjFPT1Bia2dMZllram9nemhYNmU2amdYZUpEanNRZw?oc=5",
-        "published": "Wed, 21 Oct 2026 05:09:55 GMT",
-        "source": "Hindustan Times"
-      },
-      {
-        "title": "'Focus On Skills, Not Looks': Trump's 1st Press Chief On Katie Zacharia Row - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSFNaQm12OU93dzdjc0l6R3BscHJCUHdGNEFwYnhDYmF2WWg3QlIzSVVyN1RvUVoyWHUxNzhIVkFlT1RJaDFsSmF6QkRsQnR5Z0g5U1ZTS04zM0RvREdwRUpCcE5NM2VCTktTaTJpV3pWLVZvRHlhNE5UWUJGX1lNYTV2QTk4ZmdOMGxNeTNRT2N5SzUwN0d1aHlQb0VveklJTjBPSTZZRFAtdjA1TGotMjlGYTJKdnE3QmZpQUdvSVo0V2pZZkFkQXc2a2pNQlFXdE5CenBfTTFrYS1UdHBwcFF2Ykx1WkQ4cDg2VHVUMElOYTDSAfsBQVVfeXFMUE9xX05hTkJZdzA4ZHpsRVFTaDBDSVl6cGhXUTZHYlpIX21BS2dGZEpnZG5qUHd1N3dMeFVBTGZ2Njl0R2w5U3JONnQ5a3ZYUks0dmpZQWtOenp6YkFjclVCRjgySndod204NERHbjh4U3N0X3BrTlYzaDhHYVJ3Mi0wMFZNczNGUWVITWJqMkc4cDcxLWwyY1JfQkM3ZUhFM0VJUmw4YnZDUzk5NDNfS3VDVWVvRjRBcjNTN2t0UW80XzlrMFF5eEItTlpEdXhtTlBlVWwyZWoxSDdBcmp5NWZjbjZ4a2JERXFodGFFU0J3OHZpNlJTUnkwVFE?oc=5",
-        "published": "Wed, 21 Oct 2026 05:03:09 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Pakistan's elite want out? Khawaja Asif flags bureaucrats' alleged exit plans to foreign shores - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOekljX2VudE5TY1BpYTZURWRfU2RXcFBjUnZrUlZFd2RUWGV4Xzk2ZC1VRXBQYTVBUjNwOTVWcFBYSEFBVXdickhTMmJCSWNfWmRES2JONXFSN00xZ293YTNXZk1BM2RDbFFNOU1tMjNVYVZmTlpra1R2b1FMOTczME41dTR6UGVqbDRScVNOWXN4UVA2S0FST0ljOE56SGdhQk95dDhZNEJDRVVFZEVtNnozSFFRaktKMHNxWjVVQS1YN3dfbXdiVnBxMS0zWExYSVdZcFdwSTFTZmdFaF9kcnRoejRETnJ1SU15REtTQ1BOdDNCOVpybjQ3R0p3dw?oc=5",
-        "published": "Wed, 21 Oct 2026 08:59:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "\"I Looked At His A**\": Trump Goes Into Graphic Detail About US Senator's Body - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHhGVFFLX1JNQksxcE9QemZ2LVBkUndER1p2d0R5TEdqVXlLUUNocU4tVHllQUN5OV9WS3p1cWxxVGlKM3d0RGE4WGFLY3E1N3BYSmFkZWJVazZ4cjF2QmRRWkI0WHVISEhDN2JWcC1abGFXZWxzN0Vfa1hleE5CVjd3VU9mSzVIdWV0QUZ4SEV5XzZINGVLdUdhNEo2ZlFNS1NwcGt6bm5DLTMxb3ltb0NXcnYydTZ2UUpsVUdfRGdCWGRuRHlMdllB0gHSAUFVX3lxTFBYUzV1RERYQjZITWZscDZRcG9aZmF5d2NQY2ZqNnNjOVBXZkQ1bkNjaGpVeVVHQUJiQXZia3kxVXlrbklMX3FNbGtGT01uUUdMaTFKbFRRMkt5b1lWM05VWkdtZWc1NmNZOU53NWRDT3NGXzVoY1JmY3NYcU1Tenc5Q2t3NFFoVGEwZGx0dkZyUGJHdUdrRGZsNzY3NktXd3dvdUlDS0pBbkluSGlwVVA3RTZiczIzS01IUGRSWF84YVVXbWNCR3B5UVFGQzlGRTRLUQ?oc=5",
-        "published": "Wed, 21 Oct 2026 12:26:04 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Attack on Australian MP Haines: How threats against legislators have soared - Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTXZ5RjdoMlVVWWhTd0dmQjNDRFh0anZneV9qelFKNVpEdVd1am1BZlhnS3NHTThldk5KRDhrTFNZRGR1a2VJZmRiTWtWZkkxa2tPWGVIbUJ5ZWo3V1FpenVMcUJZMk1ZeVZ6aUJJb285U3RCNkNzeDhSVHNuLVhRdVJwa1JWU0x6RTRxTGRsMzlrT0czZFBTbFBtM3ZEcmhUbW1uWWNsUDg3cDg1VklDN2h6bjFoT0XSAbwBQVVfeXFMT1QxSFNTZU5xLVZQcHBoSFVOWWoxeExyS3R5YVRqUDNTNXg5cV91bkF0ajhBTEhQV3p5MG5fVUhOVWVrYVljcTEyOVlzc2xDRmhlZTZaWThJSi02Yl83T0J6bF9XMndGNEZ4NlZadFRmVmtDcWRqWHJoTGo3NzlieVQzREZLRi1mYzhJNG9nZnUxM1lzODdNZ2RkYTJNU0xPazFFWFI1Mk5EeEpLZFg4TC1BY3RkZ3FnU2xpV3g?oc=5",
-        "published": "Wed, 21 Oct 2026 09:40:29 GMT",
+        "title": "How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties - Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlQtMlZ6anF0WjJVZXFJZTNLbVdYUW5yckw0bHNySkRjN3NzTk14Sk5xcUJsZHhsSi1wb3pBcURGZWNhVWx4U3lCdEE4eEt6UHg5eUtxS1FJVnZ6czhEeHUyV3BWMUpCbDZwYVlxLVFHbUtsRFdfSkxiS3hyRGVzekRIWGdBSm9Jay1wNW1qUjE4aENwVDZtUHpGN3hNdGg4UlcxaGdGcG4yenYwMnfSAbMBQVVfeXFMTnhMRVF0OW5DYUJKWTQ4ZmVsSEh4cTYtY0pQMzA4Z043VklGdjdRTGVkTFluNkgwcEwzQmtIaGZ5SFlwMDRtWkRLSWhkVElZQmExRWdURWlPUUFiOVJ0cjl5ZGppQXNZbkNJc0dhY1lBR3NtdFJ3QzJaMWsxYzRITUtrMTM1UWhUU2hDQlhnQXhPNklZOGNsLWtkcUk1LUItS19mUE9uU0ZVVUVLUkNLY0VMajg?oc=5",
+        "published": "Wed, 21 Oct 2026 14:04:50 GMT",
         "source": "Al Jazeera"
       },
       {
-        "title": "Indian shares slip on elevated crude, Ambani's Jio IPO sees strong demand - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdjNITnczLXgyWGppRkFrTDc1dE9MOWM3aENNVGVKRkFJWU9XT0RUcWM4WTFUaVlxanNvVVZQV0E3OGFZWEM4UDFLSXFuV3psVEFxOGtqVFgxdGpVWDRILWJxS1IwUW1PU0FDSGg4ZUNjQnlUeG54aDI5TTREMDIwWXJHdXU5WW1ndEp2YTBVejl3UW5YeXpVRUItV2NKbGdqb2ZwNlV3Wm8xWThfRU9xVQ?oc=5",
-        "published": "Wed, 21 Oct 2026 02:35:00 GMT",
-        "source": "Reuters"
+        "title": "AP municipal polls: Supreme Court orders EC to defer publication of final candidates list after YSR Congress alleges violence - Bar and Bench",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSXJsazB4Rk8wcVN0RmpqTFNJTW1oYjJnNEthcmhqNm1CbjBId1ppRkJHWUptejNJQ2xHVmQ1UGdOZVgzQ3JNczVYX2lRcS1KR1EwSjQwS2o0NHVDdnowaHRZT1MzUVkzX3IyeEFDbFU5N3A2UUtyZ1NlWndnZW9mV21iVXFUbmJOZmtMMzJqOWo2OTZhNFluajhxcGhMbnRxdE5qOWdKWHRwN1RqeGtrR1lsd1ZORkw3UXFBWXU0UkN4OWVkMjNTQ1ZPR2tLcXlGQVBXbTVDVEpOX0NVbkplMlVsTnNFTEh2MUgzSVJn0gH7AUFVX3lxTE5Da280LW5iUnhmZzdHYXdSdEt2RGhBNi1NWmFOdzh0eUhSTlo5V2pIcUx4dGo1V3lSSnloeG5BZzBGdnFyNFJINjExZXAxOUxvX2tWVTh3OU5EcFZnQnZCSlZfVlI2X2toTHNhcTF5TlFFRXpxMWpaTkxHQmNBanpacjdXYWE5ekFpOW9iSzlPbl85cmYwY3lRQm1JQ2FmTVU4Z2dNSGx6bTQ2RGxpT0FvR1VzdWlTdFVpZDhiVnl5MFhsdktFTDNoQmpMeExiU3BrQ2RqcUpjRkxqWnFTZk1RbmZhSXBPaGs4eF9mdjY4ZWstS3pob1pkX28w?oc=5",
+        "published": "Wed, 21 Oct 2026 06:36:57 GMT",
+        "source": "Bar and Bench"
+      },
+      {
+        "title": "India news: India-US trade deal 'pretty close,' says Trump - DW.com",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUEY0SkRUOWg3NTVURVZFSGM2NEd5T2xtczhhUHpQMlBrVXZGSkZGTFFCcEJ4eW5sSzNidnJSWjg0MjM4NmVfNUpGdUYyMmxiS2xaX3c3YXppZ0hYMEZHWlhwR3lVZk1CbllSU1JKSlVDS3FzTmRuUUtkc0NWWFBPSEtNYTVUUm8wSV9reUI5NE9PVlI3?oc=5",
+        "published": "Wed, 21 Oct 2026 08:18:25 GMT",
+        "source": "DW.com"
+      },
+      {
+        "title": "Drug menace next target, says Union home minister Amit Shah; eyes 2029 deadline - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZXc3dDNwY2dDUGRCQ3paM0xXTGxLclN3TGtURkpUZHQtTDAzY3pWbXFNaS1DUkl4NzN1V0xpb1RFamxRUjR5bDdkWENXQlpKVVJ1d1JPVDQzUUR3MEZTeE1XN0hiN3REVUlzczc5ODJJTXhCSEhVNHVZU3FmSnFiNHV3eDhYTm54amViLWhKSzZZVDdfNDJPNGdrT0R3OFlUeW5DU3FjMlpKQTBGUTVpblR1RkNyWm5jOWJ6Vy1GaXV5Rko5ZGctZ25lOWNQZUFkOGNrRzNTQjRtZkw2Y2c?oc=5",
+        "published": "Wed, 21 Oct 2026 21:11:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "LAHDC Amendment Regulation substitutes word Governor with Administrator in Ladakh - Daily Excelsior",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY3BnaHlWU2l4Tjl0Y2RPc2xzdllKd3NtSGoyZ1dIZFktSXV5VlRTU19adFdkYjdxR3dGQzVNbm9FVTJvaUYzUTJicHliX1dYM1liNHZGSTFoeS1YSWZRNHFCdVEzV1FhZ1htcm4ybHh5bFpKV0tScXlvcUZlbmxkX3NoSnBheENBYzNQZTRZM1MwS0JkNk1UZ2h2YXJUbjZTT1RYVFJ3clpubzJJUl9NSkxiWQ?oc=5",
+        "published": "Tue, 20 Oct 2026 22:42:50 GMT",
+        "source": "Daily Excelsior"
+      },
+      {
+        "title": "Delhi Creator Calls Tripura Youth 'Chinese', Mocks His Looks In Viral Video; Rijiju Vows Action | India News - News18",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQS0o4TnhETWc1MGhCTE5vYk5aN1R1dXlJWTlMQjA2cUZLODdCZWRna3d5YklyVUVGcFJPakdUdVBzZllUajFZX1VQYXJDRDZlMzBzeFF3VmItbE9ZQXdCZ3BMbDdvT1BZcFp2bmpQdGplMUJKX2tXYmFVeW9aU2ZoUzlvc0FOR0ltV2k0N1ItNmdGczlCbkpMeGFxY3Jfb1JIem52VlpyVDdzNUJRTk5CNmxYTFRIWWdyeGNvSW15R3RDSnFkQzVmMk9KbmRtTHBXa2ZaQVhn?oc=5",
+        "published": "Wed, 21 Oct 2026 21:30:30 GMT",
+        "source": "News18"
+      },
+      {
+        "title": "Putin and Zelenskyy back three-way US peace talks on Ukraine - Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYzY1d2JNd1BjSXluNDBwdmNIeDVNa0VUTVNxSmxUY2VCM1lmakdmZGZWSmtrRHg5RklyeUFnSzBuckwxcm5kMzl6WEJ3b2s3eVdpR1hLQ0lMelQ3RUJRdjAxY3drdG4zVXRyYkIwQjNnY2hjV1RteS1ZdG9CamprckEwVDhCeG5GdzlMLUhxT1BIaTFlQVpFTnFTWmhCT2tBcXN5aXo3OURSRDRHRG1YT3JDRdIBuAFBVV95cUxPeGdfc1N1T0ZOWE9RNDdXcWx5czRzY1U2SEpEV2NzbzhOV0Ywa21EbWxRZHZUQ3ZNYjh1T3ZIS1dwR3lQUVlyQVJZdDFrUkZEbmNWWnVFS1NTYlAwc0tjRnA4M09BVUZ1SE9KRG5qS3VfZXRzeUZpQnhSVEpjRUdlbUlaZXhmeHJSbVVqOUtIdUl1bXdvY3dpdFJjbkpNZER2QTBKX1lhNHhRYnNWZE55SmtjUDhGOUU5?oc=5",
+        "published": "Wed, 21 Oct 2026 22:03:35 GMT",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport - Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5",
+        "published": "Thu, 22 Oct 2026 00:31:08 GMT",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "Israel Had Planned To Bomb Iran In October, Stopped Because Of Trump: Report - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGE1WmRHaUV1X09RaHo4N2dXRTN4YXczUV9qMmd3NXRRZUdLdWhIeE5yZ3FJcy1mWV9ya1ptbjRsMHoyWC1pamU5emhMVnoxZGx5SDd4am5Ud0ZwdDQ5dGNxZlE3UHZ4ZWQyd2t4NWpzV3FiNVNQN1RpelRoRnRBQXVMcXhQSjUyVG1RLTRXV1RKMnZlSDdwaU1Jd0ItRW5DQ3dGNmdZeWxOSmFhcnpPODh6aE1uQQ?oc=5",
+        "published": "Wed, 21 Oct 2026 16:59:41 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "France protests, and the economic mess at the heart of it | ExplainSpeaking - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGxQdU1JNjVmMkdPbHVQNm5vZW9McFhsZXIzcHRJSDRuSWw2TFJyamVKbHdXbVRoQmgtY0tLSnJJYlNGeW9IQ2FSSDBTVGxoUHdQcnpjTzF0MWR0Z0s5MzBodzEtQWE5T29ZVFE1Zmg2VFl4dWlQUkppZEFyUk1NSFNyUy1KbnA4azRkYTVCcEZaQ3FzVkF2eG9LR0l1WmlsZ09ERGN6UWVlaFlhNThld1RpQjNXVXRRd0RaN3FRZC1RUXRIaGFVemloOU51NXNN0gHXAUFVX3lxTE1HYk91eXRyWnFNSDdZbHFiTnhUV19SdHpSejUtQXNzRUxpTFpHQThIUFBpQVZmV085bmFtRVZ1cWdyTHVXODVfWkFTTktxTzFHN1M5aGo2TVhYN2puVkVpb2JTV2NWS2tFcHhfelZqc3piNXBGZ0h6OWF6eEFzVmFMbFZpanBOZE1aM3RRY3RSSlVhWVFmdUwwN04tdXVaQ3pKZTZSUklqNWlacHdaLVA3Y05rV2pTYk5hUUJRTEVRMHd6NXhBS0tRd0w5VjlEcFBtLVktc3Yw?oc=5",
+        "published": "Wed, 21 Oct 2026 17:28:46 GMT",
+        "source": "The Indian Express"
+      },
+      {
+        "title": "Reliance Jio IPO subscription status day 1: QIB, NII, Retail, Employees, RIL Shareholders; category wise investor detail - India IPO",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSmtJN3ktb2xMUVVpdzNrTFpfd1Jpb2FScVdvbTUzQllaOVpNOHI2d1FlZXZzVTAzVDNlcjJwVTVhYVpNWjJLUlFBMFFUQUhwVGd5UFNhY1NxQTZRd2h4cTRHRXFOYlpDOTlPU21QSll0WTNseTNEdDBSMXhNaFoyb1lQSkZBZTNMekRJeS1oMVotWWVMUG9YQV83RHB1Umg5c0tpUWhOZUtYSUVmM0tnSUVHWHJ6MXV3NUIwb2VrcUlhamk1NjYyZzZrSVBBZml6UTNHTHV6WXhIOEpid3N6c0pPWTU?oc=5",
+        "published": "Wed, 21 Oct 2026 14:37:42 GMT",
+        "source": "India IPO"
       }
     ],
     "toi_bengaluru": [
       {
-        "title": "Non-examination of doctor, delay in FSL report do not weaken prosecution case: HC",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/non-examination-of-doctor-delay-in-fsl-report-do-not-weaken-prosecution-case-hc/articleshow/135091963.cms",
-        "published": "2026-10-21T17:36:04+05:30",
+        "title": "Field staff crisis, K’taka set to outsource inspection-audit jobs",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/field-staff-crisis-ktaka-set-to-outsource-inspection-audit-jobs/articleshow/135099332.cms",
+        "published": "2026-10-22T00:13:50+05:30",
         "source": ""
       },
       {
-        "title": "Bengaluru newlywed climbs mobile tower twice, sits on road as husband goes missing",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-newlywed-climbs-mobile-tower-twice-sits-on-road-as-husband-goes-missing/articleshow/135088272.cms",
-        "published": "2026-10-21T15:18:28+05:30",
+        "title": "Doc vs doc: HC quashes abuse case over promise of marriage",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/doc-vs-doc-hc-quashes-abuse-case-over-promise-of-marriage/articleshow/135099328.cms",
+        "published": "2026-10-22T00:13:19+05:30",
         "source": ""
       },
       {
-        "title": "2 injured in explosion at under-construction building in Bengaluru",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/2-injured-in-explosion-at-under-construction-building-in-bengaluru/articleshow/135083975.cms",
-        "published": "2026-10-21T11:56:44+05:30",
+        "title": "SIR ends today; Form 6 new voters get EPIC numbers",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/sir-ends-today-form-6-new-voters-get-epic-numbers/articleshow/135099323.cms",
+        "published": "2026-10-22T00:13:06+05:30",
         "source": ""
       },
       {
-        "title": "Woman tips off lover about husband's morning walk; SUV runs him over, 4 arrested",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/wife-tips-off-painter-turned-lover-about-husbands-morning-walk-suv-runs-him-over-4-arrested/articleshow/135060596.cms",
-        "published": "2026-10-20T09:22:06+05:30",
+        "title": "Every Puja brings me closer to Durga Maa: Priyanka Upendra",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/every-puja-brings-me-closer-to-durga-maa-priyanka-upendra/articleshow/135088659.cms",
+        "published": "2026-10-22T00:00:00+05:30",
         "source": ""
       },
       {
-        "title": "Railways set for Asia test in women’s basketball: Reigning Indian champions to face continent’s top clubs from today",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/railways-set-for-asia-test-in-womens-basketball-reigning-indian-champions-to-face-continents-top-clubs-from-today/articleshow/135060185.cms",
-        "published": "2026-10-20T08:18:41+05:30",
+        "title": "Newlywed climbs mobile towers twice in Bengaluru, asks police to trace missing husband",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/newlywed-climbs-mobile-towers-twice-in-bengaluru-asks-police-to-trace-missing-husband/articleshow/135098506.cms",
+        "published": "2026-10-21T23:33:06+05:30",
         "source": ""
       },
       {
-        "title": "Desk jobs, long commutes: Why women's pelvic health in trouble",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/desk-jobs-long-commutes-why-womens-pelvic-health-in-trouble/articleshow/135060073.cms",
-        "published": "2026-10-20T08:16:00+05:30",
+        "title": "Deleted from Bengal’s SIR rolls, Bengaluru migrants weigh costly trip home",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/deleted-from-bengals-sir-rolls-bengaluru-migrants-weigh-costly-trip-home/articleshow/135098490.cms",
+        "published": "2026-10-21T23:32:40+05:30",
         "source": ""
       },
       {
-        "title": "How row over rent turned deadly for Bengaluru advocate: 'One gave cash, another pumped bullet into his head'",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/how-row-over-rent-turned-deadly-for-bengaluru-advocate-one-gave-cash-another-pumped-bullet-into-his-head/articleshow/135059738.cms",
-        "published": "2026-10-20T07:46:29+05:30",
+        "title": "Relief for home buyers as K-RERA takes firm stand on pre-handover charges",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/relief-for-home-buyers-as-k-rera-takes-firm-stand-on-pre-handover-charges/articleshow/135098103.cms",
+        "published": "2026-10-21T23:19:50+05:30",
         "source": ""
       },
       {
-        "title": "Car not a toy, says HC; dad to face trial for crash by minor that killed 3",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/car-not-a-toy-says-hc-dad-to-face-trial-for-crash-by-minor-that-killed-3/articleshow/135059455.cms",
-        "published": "2026-10-20T07:22:59+05:30",
+        "title": "Shivakumar’s silence on sting ops row has given oppn space to frame the narrative",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/shivakumars-silence-on-sting-ops-row-has-given-oppn-space-to-frame-the-narrative/articleshow/135097980.cms",
+        "published": "2026-10-21T23:16:10+05:30",
         "source": ""
       },
       {
-        "title": "Karnataka Public Service Commission recruitment row: Supreme Court reserves order, seeks affidavits by Oct 26",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-public-service-commission-recruitment-row-supreme-court-reserves-order-seeks-affidavits-by-oct-26/articleshow/135055032.cms",
-        "published": "2026-10-19T23:59:12+05:30",
+        "title": "Rs 30 lakh gone: Gold, cash stolen from Bengaluru house during polishing work",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/rs-30-lakh-gone-gold-cash-stolen-from-bengaluru-house-during-polishing-work/articleshow/135097109.cms",
+        "published": "2026-10-21T22:35:27+05:30",
         "source": ""
       },
       {
-        "title": "Inaugural Bengaluru-Mumbai Vande Bharat sleeper run likely on Nov 1",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/inaugural-bengaluru-mumbai-vande-bharat-sleeper-run-likely-on-nov-1/articleshow/135054999.cms",
-        "published": "2026-10-19T23:58:46+05:30",
+        "title": "Fire guts 3BHK flat at in Bengaluru’s Uttarahalli",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/fire-guts-3bhk-flat-at-in-bengalurus-uttarahalli/articleshow/135096857.cms",
+        "published": "2026-10-21T22:20:47+05:30",
         "source": ""
       },
       {
-        "title": "Leopard spotted drinking water at Nelamangala farm; traps set",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/leopard-spotted-drinking-water-at-nelamangala-farm-traps-set/articleshow/135054402.cms",
-        "published": "2026-10-19T23:25:10+05:30",
+        "title": "Transplant before dialysis: Bengaluru doctors see gradual rise in number of pre-emptive kidney surgery",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/transplant-before-dialysis-bengaluru-doctors-see-gradual-rise-in-number-of-pre-emptive-kidney-surgery/articleshow/135096738.cms",
+        "published": "2026-10-21T22:16:25+05:30",
         "source": ""
       },
       {
-        "title": "Liquor sales curbs from Oct 21 for dasara processions, MLC polls",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/liquor-sales-curbs-from-oct-21-for-dasara-processions-mlc-polls/articleshow/135054400.cms",
-        "published": "2026-10-19T23:25:03+05:30",
+        "title": "Unauthorised cab drivers abuse Bengaluru airport security staff twice",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/unauthorised-cab-drivers-abuse-bengaluru-airport-security-staff-twice/articleshow/135096616.cms",
+        "published": "2026-10-21T22:11:04+05:30",
         "source": ""
       },
       {
-        "title": "‘Vote overrides support prices’: Farmer groups call for statewide protest on Oct 23",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/vote-overrides-support-prices-farmer-groups-call-for-statewide-protest-on-oct-23/articleshow/135053482.cms",
-        "published": "2026-10-19T22:46:31+05:30",
+        "title": "Lokayukta court grants anticipatory bail to inspector in bribery case",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/lokayukta-court-grants-anticipatory-bail-to-inspector-in-bribery-case/articleshow/135096349.cms",
+        "published": "2026-10-21T21:54:27+05:30",
         "source": ""
       },
       {
-        "title": "Bengaluru North corporation seeks citizen participation to plug waste management gaps",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-north-corporation-seeks-citizen-participation-to-plug-waste-management-gaps/articleshow/135053066.cms",
-        "published": "2026-10-19T22:25:40+05:30",
+        "title": "Myanmar man held at Bengaluru airport with hydroponic ganja",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/myanmar-man-held-at-bengaluru-airport-with-hydroponic-ganja/articleshow/135096228.cms",
+        "published": "2026-10-21T21:45:25+05:30",
         "source": ""
       },
       {
-        "title": "Rabbit on Bengaluru airport runway? Nah, it’s all clear, says probe",
-        "link": "https://timesofindia.indiatimes.com/city/bengaluru/rabbit-on-bengaluru-airport-runway-nah-its-all-clear-says-probe/articleshow/135053050.cms",
-        "published": "2026-10-19T22:23:40+05:30",
+        "title": "Car can’t be used as weapon to intimidate cops, says Karnataka high court",
+        "link": "https://timesofindia.indiatimes.com/city/bengaluru/car-cant-be-used-as-weapon-to-intimidate-cops-says-karnataka-high-court/articleshow/135096134.cms",
+        "published": "2026-10-21T21:37:30+05:30",
         "source": ""
       }
     ]
   },
-  "weather": null,
-  "errors": [
-    "google_news_bengaluru: HTTP Error 503: Service Unavailable",
-    "weather: <urlopen error _ssl.c:999: The handshake operation timed out>"
-  ]
+  "weather": {
+    "now_c": 22.0,
+    "condition": "Overcast",
+    "high_c": 27.6,
+    "low_c": 20.4,
+    "rain_chance_pct": 100
+  },
+  "errors": []
 }
