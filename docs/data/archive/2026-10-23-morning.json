@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-23",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-23T07:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.3,
+    "condition": "Overcast",
+    "high_c": 24.7,
+    "low_c": 20.5,
+    "rain_chance_pct": 92,
+    "tip": "Rain is 92% likely today and Urban Acres reports a six-day rain forecast; with the Jayanagar road closure still unrepaired (Times of India) and festival waste piling up (Deccan Herald), leave extra time on that side and avoid walking past uncollected waste near drains."
+  },
+  "edge": {
+    "id": "sim-box-local-number",
+    "category": "Caller trick",
+    "title": "The local number that isn't local",
+    "anchor": "Cyber Command seized illegal SIM boxes linked to online frauds from two Whitefield apartments in Bengaluru (Times of India, Deccan Herald, 22 Oct).",
+    "setup": "Your phone rings from an ordinary-looking Indian mobile number, even a Bengaluru-looking one. The caller sounds professional, quotes your bank or courier, and says your account or parcel has a problem that needs fixing on this call. Because the number looks local, you assume the call is real.",
+    "tell": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is.",
+    "move": [
+      "Do not share an OTP, PIN, card number or app screen, whatever the caller already knows about you.",
+      "Hang up and call back on the number printed on your card, statement or the official app, never on the number that called you.",
+      "If money has already moved, report it at once on the national cyber crime helpline 1930 and tell your bank.",
+      "Treat urgency ('within 10 minutes') as part of the script, not a reason to hurry."
+    ],
+    "why": "A phone number used to be hard to fake, so it worked as proof of identity. Equipment like a SIM box lets a caller located anywhere present as an ordinary local mobile number, so the number now proves nothing. What a fraudster cannot fake is you initiating the contact through a channel you already trust. Calling back on a number you looked up yourself restores that.",
+    "variants": "Same shape: a 'delivery agent' texting from a mobile number, a 'KYC update' call from a landline-looking number, a 'relative in trouble' call from an unknown local number."
+  },
+  "lens": {
+    "id": "costly-signals",
+    "name": "Costly signals",
+    "one_line": "A signal is only trustworthy if it is expensive for a liar to fake.",
+    "detail": "We rely on cheap markers of trust: a local phone number, a logo, a polished video, a confident tone. They work only while faking them costs more than the fraud earns. When technology makes a marker cheap to copy, it stops carrying information, and you must switch to something the faker cannot produce cheaply.",
+    "elsewhere": [
+      "A letterhead or PDF 'offer letter' versus a verified company email domain.",
+      "A five-star review count versus a reviewer with a long, varied history.",
+      "A flat shown in a video versus a key that turns in the lock."
+    ],
+    "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence.",
+    "today": "Cyber Command seized SIM boxes from two Whitefield apartments that were linked to online frauds (Times of India, Deccan Herald). A Bengaluru-looking mobile number used to be a cheap-to-check signal of a real local caller; with such equipment it costs a fraudster little, so it no longer tells you who is calling."
+  },
+  "moved": [
+    {
+      "tag": "Safety",
+      "what": "Cyber Command seized illegal SIM boxes from two Whitefield apartments, linked to online frauds (Times of India, Deccan Herald).",
+      "so_what": "A local-looking mobile number is no proof of a real caller; for any bank or courier call, hang up and call back on the number on your card or app."
+    },
+    {
+      "tag": "Commute",
+      "what": "The minister says approval for the Pink Line's elevated stretch is expected within five days, and a Blue Line trial run between KR Puram and Marathahalli is targeted by October-end (The Hindu, Deccan Herald).",
+      "so_what": "Approval and trial runs are not opening dates, so do not plan a new commute around either yet."
+    },
+    {
+      "tag": "Civic",
+      "what": "Festival waste is piling up across Bengaluru as collection lags (Deccan Herald).",
+      "so_what": "Expect delayed pickup this week; keep wet waste sealed at home rather than leaving it at the corner, especially with rain forecast."
+    },
+    {
+      "tag": "Money",
+      "what": "Reliance Jio's IPO was subscribed more than five times as demand surged (Reuters).",
+      "so_what": "Heavy subscription shows demand, not a guaranteed listing gain; put in only money you can leave invested for a year."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Karnataka Police recruitment has been given a push, with 7,925 posts to be filled (Urban Acres).",
+      "so_what": "If you or someone you know is eligible, read the official notification for dates, and never pay anyone a fee to secure a post."
+    }
+  ],
+  "carry_over": {
+    "id": "ai-blast-video",
+    "prompt": "A shocking clip of a blast at a landmark lands in your family group with a caption urging everyone to share it fast: what is the tell?",
+    "answer": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast."
+  },
+  "quiz": [
+    {
+      "question": "What did Cyber Command seize from two Whitefield apartments?",
+      "options": [
+        "Counterfeit notes",
+        "Illegal SIM boxes linked to online frauds",
+        "Stolen phones",
+        "Fake ID cards"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the tell of the local-number call?",
+      "options": [
+        "The caller speaks English",
+        "You are asked to act on a call you did not start, with the number as the only proof",
+        "The call is short",
+        "It comes in the evening"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the best move when a caller claims to be your bank?",
+      "options": [
+        "Share the OTP to verify",
+        "Hang up and call the number on your card or app",
+        "Ask them to send an SMS",
+        "Stay on the line until they finish"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is expected within five days for the Pink Line, per the minister?",
+      "options": [
+        "Full opening to passengers",
+        "Approval for the elevated stretch",
+        "A fare revision",
+        "Closure for repairs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which mental model says a signal is trustworthy only if costly to fake?",
+      "options": [
+        "Sunk cost",
+        "Costly signals",
+        "Base rates",
+        "Moral hazard"
+      ],
+      "answer": 1
+    }
+  ]
+}

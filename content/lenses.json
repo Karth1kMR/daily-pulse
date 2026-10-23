@@ -204,6 +204,18 @@
         "Possession dates promised by builders."
       ],
       "test": "What did the last three similar things actually take, and why would this one be different?"
+    },
+    {
+      "id": "costly-signals",
+      "name": "Costly signals",
+      "one_line": "A signal is only trustworthy if it is expensive for a liar to fake.",
+      "detail": "We rely on cheap markers of trust: a local phone number, a logo, a polished video, a confident tone. They work only while faking them costs more than the fraud earns. When technology makes a marker cheap to copy, it stops carrying information, and you must switch to something the faker cannot produce cheaply.",
+      "elsewhere": [
+        "A letterhead or PDF 'offer letter' versus a verified company email domain.",
+        "A five-star review count versus a reviewer with a long, varied history.",
+        "A flat shown in a video versus a key that turns in the lock."
+      ],
+      "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence."
     }
   ]
 }

@@ -393,6 +393,22 @@
       ],
       "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
       "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down."
+    },
+    {
+      "id": "sim-box-local-number",
+      "category": "Caller trick",
+      "title": "The local number that isn't local",
+      "anchor": "Cyber Command seized illegal SIM boxes linked to online frauds from two Whitefield apartments in Bengaluru (Times of India, Deccan Herald, 22 Oct).",
+      "setup": "Your phone rings from an ordinary-looking Indian mobile number, even a Bengaluru-looking one. The caller sounds professional, quotes your bank or courier, and says your account or parcel has a problem that needs fixing on this call. Because the number looks local, you assume the call is real.",
+      "tell": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is.",
+      "move": [
+        "Do not share an OTP, PIN, card number or app screen, whatever the caller already knows about you.",
+        "Hang up and call back on the number printed on your card, statement or the official app, never on the number that called you.",
+        "If money has already moved, report it at once on the national cyber crime helpline 1930 and tell your bank.",
+        "Treat urgency ('within 10 minutes') as part of the script, not a reason to hurry."
+      ],
+      "why": "A phone number used to be hard to fake, so it worked as proof of identity. Equipment like a SIM box lets a caller located anywhere present as an ordinary local mobile number, so the number now proves nothing. What a fraudster cannot fake is you initiating the contact through a channel you already trust. Calling back on a number you looked up yourself restores that.",
+      "variants": "Same shape: a 'delivery agent' texting from a mobile number, a 'KYC update' call from a landline-looking number, a 'relative in trouble' call from an unknown local number."
     }
   ]
 }
