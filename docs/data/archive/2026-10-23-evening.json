@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-23",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-23T19:40:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 22.2,
+    "condition": "Light drizzle",
+    "high_c": 27.3,
+    "low_c": 20.6,
+    "rain_chance_pct": 81,
+    "tip": "Light drizzle and an 81% chance of rain tonight: with the Jayanagar road still closed (Times of India), leave extra time on that side and watch for water on roads if you drive; a rain crash is how a Rs 61 lakh repair estimate starts."
+  },
+  "edge": {
+    "id": "repair-estimate-lump-sum",
+    "category": "Leverage",
+    "title": "The repair bill you can't check",
+    "anchor": "NDTV, The Economic Times and Moneycontrol report a Bengaluru techie was handed a Rs 61 lakh repair estimate for a Mercedes-Benz damaged in a crash in the rain.",
+    "setup": "After a crash in the rain, your car is towed to the nearest authorised workshop. By evening you get a single figure by phone, a very large one, with the advice that it is the only way to restore the car. The garage knows what is broken. You do not, and the car is already on its lift.",
+    "tell": "One total figure, no itemised list, and nobody else has been allowed to look at the damage.",
+    "move": [
+      "Ask for the estimate in writing, itemised by part and labour, and keep photos of the damage yourself.",
+      "If the car is insured, inform the insurer before repairs begin so its surveyor can assess the damage; do not authorise work on the strength of a phone figure.",
+      "Get a second estimate from another workshop for the same itemised list. The gap between two quotes is the information.",
+      "Do not sign a blank or lump-sum work authorisation, and ask for replaced parts back."
+    ],
+    "why": "The workshop knows the true cost and you know only what it tells you, so a single unverifiable number can be as high as your fear allows. Itemising and a second pair of eyes turn a claim into something checkable. When you can't judge the price, you can still force the seller to make it comparable.",
+    "variants": "Same shape: a hospital package quoted as one figure, a flat-renovation contractor's lump sum, an appliance 'beyond repair' verdict from the only service centre you called."
+  },
+  "lens": {
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "elsewhere": [
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+    ],
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "Bengaluru's proposed plan to ease congestion includes roads on lakes, and Deccan Herald calls it a new threat. The first-order promise is faster traffic; the second-order question is where rain goes when lakes are built over, and what a wetter October then does to the same roads. Ask 'and then what?' of any project sold on its first benefit."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The minister expects approval for the Pink Line's elevated stretch within about five days, and a Blue Line trial run between KR Puram and Marathahalli is targeted by October-end (Times of India, Deccan Herald).",
+      "so_what": "Approval and trial runs are not passenger service; keep your current commute until an opening date is announced."
+    },
+    {
+      "tag": "Commute",
+      "what": "Jayanagar residents are protesting a road that is closed with no work in sight (Times of India).",
+      "so_what": "Plan around that stretch and add buffer time, especially while it is drizzling."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is set to launch on 1 November, with a journey of about 16 hours (The Indian Express, New Indian Express).",
+      "so_what": "If you travel to Mumbai, check IRCTC for the booking window and fares before the launch weekend."
+    },
+    {
+      "tag": "Money",
+      "what": "Jio Platforms' IPO has become the first issue globally to receive over one crore applications (The Hindu).",
+      "so_what": "With that much demand, expect a small or no allotment; do not borrow to apply or sell sound holdings to fund it."
+    },
+    {
+      "tag": "Your record",
+      "what": "After the SIR drive, every voter in Karnataka is to have a polling station within 2 km of home (Times of India).",
+      "so_what": "Check your name and polling station on the Election Commission voter portal while corrections are easy."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "A camp for defence pensioners will be held in Bengaluru on 4-5 November (Times of India).",
+      "so_what": "If you or a relative draws a defence pension, note the dates and keep your pension papers ready."
+    }
+  ],
+  "carry_over": {
+    "id": "sim-box-local-number",
+    "prompt": "A caller with a Bengaluru-looking mobile number says your bank account has a problem that must be fixed on this call: what is the tell?",
+    "answer": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is."
+  }
+}
