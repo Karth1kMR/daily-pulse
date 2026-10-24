@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-24",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-24T07:45:00+05:30",
+  "read_seconds": 70,
+  "edge": {
+    "id": "digital-arrest",
+    "category": "Pressure play",
+    "title": "The police do not hold you on video",
+    "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
+    "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
+    "move": [
+      "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
+      "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
+      "Tell one family member immediately — isolation is the only thing making this work."
+    ],
+    "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
+    "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls."
+  },
+  "lens": {
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+    "elsewhere": [
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
+    ],
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "The Pink Line's operational nod is said to be 4-5 days away and Blue Line trial runs are targeted by October-end, while Namma Metro marks 15 years. Each date is the best-case plan; ask how long earlier Namma Metro stretches took between trial run and passenger service. Until an opening date is announced, plan your commute on the old estimate, not the new one."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Pink Line's operational nod is likely in 4-5 days, and Blue Line trial runs on KR Puram–Silk Board are targeted by October-end (New Indian Express, The Indian Express).",
+      "so_what": "Approval and trial runs are not passenger service; keep your current commute until an opening date is announced."
+    },
+    {
+      "tag": "Commute",
+      "what": "A sugarcane price protest has blocked the Bengaluru–Mysuru highway (Urban Acres).",
+      "so_what": "If you drive or take a bus towards Mysuru today, check live traffic before leaving and keep a delayed start in mind."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru–Mumbai Vande Bharat Sleeper is set to launch on 1 November, with a journey of about 16 hours (The Indian Express, NDTV).",
+      "so_what": "If you travel to Mumbai, check IRCTC for the booking window and fares before the launch weekend."
+    },
+    {
+      "tag": "Your record",
+      "what": "SIR duties end on 27 October for 2,936 Karnataka teachers, lecturers and other officers, while protests against the revision continue in Bengaluru (Times of India).",
+      "so_what": "The electoral roll revision is live; check that your name and polling station are correct on the Election Commission voter portal."
+    },
+    {
+      "tag": "Travel",
+      "what": "A weather system over the Bay of Bengal may intensify into a cyclone and cross the Odisha-Andhra coasts by 28 October (The Hindu).",
+      "so_what": "If you have trains, flights or road trips towards Andhra or Odisha around 27-29 October, check for cancellations before you travel."
+    }
+  ],
+  "carry_over": {
+    "id": "repair-estimate-lump-sum",
+    "prompt": "After a crash, the workshop phones with a single very large repair figure and says it is the only way to restore the car: what is the tell?",
+    "answer": "One total figure, no itemised list, and nobody else has been allowed to look at the damage."
+  }
+}
