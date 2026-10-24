@@ -424,6 +424,20 @@
       ],
       "why": "The workshop knows the true cost and you know only what it tells you, so a single unverifiable number can be as high as your fear allows. Itemising and a second pair of eyes turn a claim into something checkable. When you can't judge the price, you can still force the seller to make it comparable.",
       "variants": "Same shape: a hospital package quoted as one figure, a flat-renovation contractor's lump sum, an appliance 'beyond repair' verdict from the only service centre you called."
+    },
+    {
+      "id": "guaranteed-returns-scheme",
+      "category": "Money trap",
+      "title": "The scheme that always pays on time",
+      "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
+      "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
+      "move": [
+        "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
+        "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
+        "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
+      ],
+      "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
+      "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit."
     }
   ]
 }

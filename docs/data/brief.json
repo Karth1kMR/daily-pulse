@@ -1,66 +1,70 @@
 {
   "date": "2026-10-24",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-24T07:45:00+05:30",
+  "generated_at": "2026-10-24T19:45:00+05:30",
   "read_seconds": 70,
+  "weather": {
+    "now_c": 21.8,
+    "condition": "Light drizzle",
+    "high_c": 26.0,
+    "low_c": 20.4,
+    "rain_chance_pct": 90,
+    "tip": "A 90% chance of rain with thunderstorms forecast till 25 October: if you head out on the Mysuru road or leave the house this weekend, expect slower traffic and leave early."
+  },
   "edge": {
-    "id": "digital-arrest",
-    "category": "Pressure play",
-    "title": "The police do not hold you on video",
-    "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
-    "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
+    "id": "guaranteed-returns-scheme",
+    "category": "Money trap",
+    "title": "The scheme that always pays on time",
+    "anchor": "The Andhra Pradesh and Karnataka CID are verifying bonds of AgriGold scam victims and agents (Times of India).",
+    "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
+    "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
     "move": [
-      "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
-      "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
-      "Tell one family member immediately — isolation is the only thing making this work."
+      "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
+      "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
+      "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
     ],
-    "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
-    "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls."
+    "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
+    "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit."
   },
   "lens": {
-    "id": "planning-fallacy",
-    "name": "Planning fallacy",
-    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
-    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+    "id": "survivorship-bias",
+    "name": "Survivorship bias",
+    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
     "elsewhere": [
-      "Home renovations finishing weeks after the contractor's date.",
-      "Your own 'it will take ten minutes' tasks.",
-      "Possession dates promised by builders."
+      "Dropout-founder stories, drawn from the tiny surviving tail.",
+      "Fund performance tables that quietly exclude closed funds.",
+      "Old buildings seeming better built — the shoddy ones were demolished."
     ],
-    "test": "What did the last three similar things actually take, and why would this one be different?",
-    "today": "The Pink Line's operational nod is said to be 4-5 days away and Blue Line trial runs are targeted by October-end, while Namma Metro marks 15 years. Each date is the best-case plan; ask how long earlier Namma Metro stretches took between trial run and passenger service. Until an opening date is announced, plan your commute on the old estimate, not the new one."
+    "test": "Who is missing from this dataset because they didn't make it this far?",
+    "today": "The AgriGold case is back in the news, with the Andhra Pradesh and Karnataka CID teams verifying the bonds of victims and agents (Times of India). Every investor who was paid on time was a survivor and told a good story; those who lost money are only counted once the scheme collapses. When you hear a scheme only through people it has paid, ask who has been left out."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Pink Line's operational nod is likely in 4-5 days, and Blue Line trial runs on KR Puram–Silk Board are targeted by October-end (New Indian Express, The Indian Express).",
-      "so_what": "Approval and trial runs are not passenger service; keep your current commute until an opening date is announced."
+      "what": "Rain and thunderstorms are forecast to continue till 25 October, with the IMD warning of heavy showers (The Economic Times).",
+      "so_what": "Plan tomorrow's travel, including anything near a lake or underpass, with extra time, and check live traffic before you leave."
     },
     {
       "tag": "Commute",
-      "what": "A sugarcane price protest has blocked the Bengaluru–Mysuru highway (Urban Acres).",
-      "so_what": "If you drive or take a bus towards Mysuru today, check live traffic before leaving and keep a delayed start in mind."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "The Bengaluru–Mumbai Vande Bharat Sleeper is set to launch on 1 November, with a journey of about 16 hours (The Indian Express, NDTV).",
-      "so_what": "If you travel to Mumbai, check IRCTC for the booking window and fares before the launch weekend."
+      "what": "The Mysuru-Bengaluru highway was blocked at a toll plaza for two hours by a farmers' protest (The Hindu).",
+      "so_what": "If you are driving or taking a bus towards Mysuru this weekend, check the status before you set off and keep an alternative departure time."
     },
     {
       "tag": "Your record",
-      "what": "SIR duties end on 27 October for 2,936 Karnataka teachers, lecturers and other officers, while protests against the revision continue in Bengaluru (Times of India).",
-      "so_what": "The electoral roll revision is live; check that your name and polling station are correct on the Election Commission voter portal."
+      "what": "The Andhra Pradesh and Karnataka CID are working together to verify the bonds of AgriGold victims and agents (Times of India).",
+      "so_what": "If you or a relative holds AgriGold bonds, keep the certificates and receipts safe and watch for the official verification process; do not pay anyone who offers to 'recover' your money for a fee."
     },
     {
-      "tag": "Travel",
-      "what": "A weather system over the Bay of Bengal may intensify into a cyclone and cross the Odisha-Andhra coasts by 28 October (The Hindu).",
-      "so_what": "If you have trains, flights or road trips towards Andhra or Odisha around 27-29 October, check for cancellations before you travel."
+      "tag": "Civic",
+      "what": "Festival waste is piling up across Bengaluru as collection lags (Deccan Herald).",
+      "so_what": "Do not leave bags on the street corner; hold wet and dry waste at home until your regular collection comes, and log a complaint with the BBMP/GBA helpline if your area is missed."
     }
   ],
   "carry_over": {
-    "id": "repair-estimate-lump-sum",
-    "prompt": "After a crash, the workshop phones with a single very large repair figure and says it is the only way to restore the car: what is the tell?",
-    "answer": "One total figure, no itemised list, and nobody else has been allowed to look at the damage."
+    "id": "digital-arrest",
+    "prompt": "A call says a parcel in your name is held at customs, then a 'CBI officer' on video tells you to stay on camera and tell nobody: what is the tell?",
+    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
   }
 }

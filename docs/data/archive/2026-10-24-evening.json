@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-24T19:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.8,
+    "condition": "Light drizzle",
+    "high_c": 26.0,
+    "low_c": 20.4,
+    "rain_chance_pct": 90,
+    "tip": "A 90% chance of rain with thunderstorms forecast till 25 October: if you head out on the Mysuru road or leave the house this weekend, expect slower traffic and leave early."
+  },
+  "edge": {
+    "id": "guaranteed-returns-scheme",
+    "category": "Money trap",
+    "title": "The scheme that always pays on time",
+    "anchor": "The Andhra Pradesh and Karnataka CID are verifying bonds of AgriGold scam victims and agents (Times of India).",
+    "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
+    "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
+    "move": [
+      "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
+      "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
+      "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
+    ],
+    "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
+    "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit."
+  },
+  "lens": {
+    "id": "survivorship-bias",
+    "name": "Survivorship bias",
+    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+    "elsewhere": [
+      "Dropout-founder stories, drawn from the tiny surviving tail.",
+      "Fund performance tables that quietly exclude closed funds.",
+      "Old buildings seeming better built — the shoddy ones were demolished."
+    ],
+    "test": "Who is missing from this dataset because they didn't make it this far?",
+    "today": "The AgriGold case is back in the news, with the Andhra Pradesh and Karnataka CID teams verifying the bonds of victims and agents (Times of India). Every investor who was paid on time was a survivor and told a good story; those who lost money are only counted once the scheme collapses. When you hear a scheme only through people it has paid, ask who has been left out."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Rain and thunderstorms are forecast to continue till 25 October, with the IMD warning of heavy showers (The Economic Times).",
+      "so_what": "Plan tomorrow's travel, including anything near a lake or underpass, with extra time, and check live traffic before you leave."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Mysuru-Bengaluru highway was blocked at a toll plaza for two hours by a farmers' protest (The Hindu).",
+      "so_what": "If you are driving or taking a bus towards Mysuru this weekend, check the status before you set off and keep an alternative departure time."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Andhra Pradesh and Karnataka CID are working together to verify the bonds of AgriGold victims and agents (Times of India).",
+      "so_what": "If you or a relative holds AgriGold bonds, keep the certificates and receipts safe and watch for the official verification process; do not pay anyone who offers to 'recover' your money for a fee."
+    },
+    {
+      "tag": "Civic",
+      "what": "Festival waste is piling up across Bengaluru as collection lags (Deccan Herald).",
+      "so_what": "Do not leave bags on the street corner; hold wet and dry waste at home until your regular collection comes, and log a complaint with the BBMP/GBA helpline if your area is missed."
+    }
+  ],
+  "carry_over": {
+    "id": "digital-arrest",
+    "prompt": "A call says a parcel in your name is held at customs, then a 'CBI officer' on video tells you to stay on camera and tell nobody: what is the tell?",
+    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
+  }
+}
