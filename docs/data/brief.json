@@ -1,144 +1,117 @@
 {
   "date": "2026-10-25",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-25T07:45:00+05:30",
+  "generated_at": "2026-10-25T19:34:44+05:30",
   "read_seconds": 75,
   "weather": {
-    "now_c": 20.3,
-    "condition": "Rain showers",
-    "high_c": 24.7,
-    "low_c": 19.9,
-    "rain_chance_pct": 82,
-    "tip": "Twin weather systems could bring rain till Tuesday (The Times of India): with Old Madras Road already crawling through signal cycles, leave 20 minutes early on Monday and avoid underpasses."
+    "now_c": 21.3,
+    "condition": "Light drizzle",
+    "high_c": 25.4,
+    "low_c": 19.8,
+    "rain_chance_pct": 100,
+    "tip": "Light drizzle now and more rain forecast (IMD, via The Times of India) means signals on Old Madras Road will back up further on Monday morning; leave 20 minutes early or check the Pink Line announcement before changing your route."
   },
   "edge": {
-    "id": "fare-dispute-walk-away",
-    "category": "Street safety",
-    "title": "The fare argument you can lose and still win",
-    "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
-    "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
+    "id": "hospital-estimate",
+    "category": "Leverage",
+    "title": "The estimate that grows",
+    "setup": "An admission with a quoted package. By discharge the bill has grown — consumables, a consultant visit you don't remember, a room upgrade 'because nothing else was free'. Insurance covers part; the cash difference is yours, and you're being asked to settle before discharge while someone is still in a bed.",
+    "tell": "You're being asked to agree to money at the exact moment you are least able to walk away.",
     "move": [
-      "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
-      "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
-      "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
+      "Ask for the itemised bill, not the summary — and ask on day one, not at discharge. Daily interim bills are your right and they stop surprises compounding.",
+      "Get the insurer's pre-authorisation in writing before a planned procedure, with the package explicitly named.",
+      "Question room-category upgrades: most policies cap room rent, and exceeding it can proportionally cut your entire claim, not just the room charge.",
+      "Unresolved: the hospital's grievance cell, then the insurance ombudsman — free, and genuinely effective on billing disputes."
     ],
-    "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
-    "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
-    "scenario": {
-      "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
-      "choices": [
-        {
-          "text": "Move away, note the plate number, and complain to the traffic police later.",
-          "verdict": "best"
-        },
-        {
-          "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
-          "verdict": "trap"
-        },
-        {
-          "text": "Pay the extra ₹150 with no record and leave without noting anything.",
-          "verdict": "ok"
-        }
-      ]
-    },
-    "anchor": "An auto driver was arrested for killing an advocate over a fare dispute in Bengaluru (The Times of India)."
+    "why": "The leverage asymmetry is total — the other party controls information, time and someone you love. The only workable counter is to move every decision earlier, to a moment when you can still ask questions. Pre-authorisation and daily bills are both just ways of buying back time.",
+    "variants": "Same shape: mechanics calling mid-repair, vets at the consultation, any quote where work has already begun."
   },
   "lens": {
-    "id": "chestertons-fence",
-    "name": "Chesterton's fence",
-    "one_line": "Before removing something that looks pointless, find out why it was put there.",
-    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
     "elsewhere": [
-      "A weird approval step that quietly prevents a rare, expensive error.",
-      "Legacy code nobody dares delete, for reasons occasionally excellent.",
-      "A family practice that looks superstitious and encodes something practical."
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
     ],
-    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
-    "today": "North Bengaluru areas have been battling power cuts for three months after Metro work damaged a Bescom cable (The Times of India). Digging for a new line is easy to justify; the cable already in the ground was solving a problem nobody at the surface was tracking. Before you cheer or curse a civic project, ask what the old thing was quietly doing."
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "The Bengaluru Traffic Police have won a national award at the UMI conference, with ASTraM and adaptive signals cited (The Hindu, AIMA Media). In the same week, commuters on Old Madras Road report waiting through several signal cycles at a junction (The Hindu). An award measures the system as designed; your commute measures the junction you are standing at, so trust the second number when planning your day."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Twin weather systems could bring rain in Bengaluru until Tuesday (The Times of India).",
-      "so_what": "Budget extra time for Monday's commute and check water-logging on your route before you leave."
-    },
-    {
-      "tag": "Your record",
-      "what": "Bengaluru leads post-SIR voter activity, with Form 6 applications up 32% (The Times of India).",
-      "so_what": "If you moved or turned 18 recently, check your name on the electoral roll now rather than at the next election."
-    },
-    {
-      "tag": "Your record",
-      "what": "Retired railway employees across Bengaluru, Hubballi and Mysuru divisions can now submit life certificates online (The Times of India).",
-      "so_what": "If a parent draws a railway pension, the online route saves a queue; set it up for them before their certificate is due."
+      "what": "IMD predicts a wet spell for Bengaluru over the next two days, and twin weather systems could bring rain until Tuesday (The Times of India).",
+      "so_what": "Plan Monday and Tuesday commutes with a 20-minute buffer, and avoid underpasses and low-lying stretches."
     },
     {
       "tag": "Commute",
-      "what": "North Bengaluru areas are facing power cuts for three months after Metro work damaged a Bescom cable (The Times of India).",
-      "so_what": "If you live there, keep a charged power bank and log each outage with Bescom so there is a record of the complaint."
+      "what": "Approval for the Pink Line metro opening is expected in about five days (The Hindu).",
+      "so_what": "Approval is not the opening date. Keep your current route until BMRCL announces service timings, then test the line once off-peak."
     },
     {
-      "tag": "Safety",
-      "what": "BMTC is raising accident insurance cover for its employees from ₹50 lakh to ₹1 crore (Deccan Herald).",
-      "so_what": "This covers staff, not passengers; do not assume a bus ticket brings the same cover, and keep your own accident insurance current."
+      "tag": "Money",
+      "what": "Jio Platforms IPO grey market premium is hinting at around 22% listing gains as allotment approaches (Livemint).",
+      "so_what": "The grey market premium is unofficial and can vanish by listing day; check your allotment status on the registrar's site using your PAN, and decide your exit price before listing, not after."
     },
     {
-      "tag": "Prices",
-      "what": "Unhygienically prepared halwa and date products were seized in Bengaluru (The Times of India).",
-      "so_what": "With the festival sweets season on, buy packed sweets from outlets that show a licence number and a date."
+      "tag": "Your record",
+      "what": "North Bengaluru areas have faced power cuts for three months after Metro work damaged a Bescom cable (The Times of India).",
+      "so_what": "If you live there, log each outage with Bescom with date and time so your complaint has a record, and keep a power bank charged."
     }
   ],
   "carry_over": {
-    "id": "guaranteed-returns-scheme",
-    "prompt": "A neighbour shows you steady monthly payouts from a land-backed scheme paying more than any bank: what is the tell?",
-    "answer": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you."
+    "id": "fare-dispute-walk-away",
+    "prompt": "The meter and the driver's demand differ, you are tired and he is getting louder: what do you do first?",
+    "answer": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range."
   },
   "quiz": [
     {
-      "q": "Which two state agencies' CID teams are verifying AgriGold bonds?",
+      "q": "What did the Bengaluru Traffic Police win at the UMI conference 2026?",
       "options": [
-        "Andhra Pradesh and Karnataka",
-        "Tamil Nadu and Kerala",
-        "Telangana and Maharashtra"
+        "A national award",
+        "A state budget grant",
+        "A world ranking"
       ],
       "answer": 0
     },
     {
-      "q": "By how much did Form 6 applications rise in Bengaluru, per The Times of India?",
+      "q": "Roughly how soon is Pink Line opening approval expected, per The Hindu?",
       "options": [
-        "12%",
-        "32%",
-        "52%"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "What is the new accident insurance cover for BMTC employees?",
-      "options": [
-        "₹50 lakh",
-        "₹75 lakh",
-        "₹1 crore"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "What damaged the Bescom cable behind north Bengaluru's power cuts?",
-      "options": [
-        "Metro work",
-        "Flooding",
-        "A transformer fire"
+        "Within 5 days",
+        "Within 5 weeks",
+        "Within 5 months"
       ],
       "answer": 0
     },
     {
-      "q": "In a fare dispute with an angry driver, what comes first?",
+      "q": "In a hospital stay, when should you ask for the itemised bill?",
       "options": [
-        "Win the argument",
-        "Create distance, then complain later",
-        "Record a video at close range"
+        "At discharge",
+        "On day one",
+        "After the insurer pays"
       ],
       "answer": 1
+    },
+    {
+      "q": "What does Goodhart's Law say happens when a measure becomes a target?",
+      "options": [
+        "It gets more accurate",
+        "It stops measuring what it used to",
+        "It becomes legally binding"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which area's power cuts are linked to Metro work damaging a Bescom cable?",
+      "options": [
+        "North Bengaluru",
+        "Whitefield",
+        "Electronic City"
+      ],
+      "answer": 0
     }
   ]
 }

@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-25",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-25T19:34:44+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 21.3,
+    "condition": "Light drizzle",
+    "high_c": 25.4,
+    "low_c": 19.8,
+    "rain_chance_pct": 100,
+    "tip": "Light drizzle now and more rain forecast (IMD, via The Times of India) means signals on Old Madras Road will back up further on Monday morning; leave 20 minutes early or check the Pink Line announcement before changing your route."
+  },
+  "edge": {
+    "id": "hospital-estimate",
+    "category": "Leverage",
+    "title": "The estimate that grows",
+    "setup": "An admission with a quoted package. By discharge the bill has grown — consumables, a consultant visit you don't remember, a room upgrade 'because nothing else was free'. Insurance covers part; the cash difference is yours, and you're being asked to settle before discharge while someone is still in a bed.",
+    "tell": "You're being asked to agree to money at the exact moment you are least able to walk away.",
+    "move": [
+      "Ask for the itemised bill, not the summary — and ask on day one, not at discharge. Daily interim bills are your right and they stop surprises compounding.",
+      "Get the insurer's pre-authorisation in writing before a planned procedure, with the package explicitly named.",
+      "Question room-category upgrades: most policies cap room rent, and exceeding it can proportionally cut your entire claim, not just the room charge.",
+      "Unresolved: the hospital's grievance cell, then the insurance ombudsman — free, and genuinely effective on billing disputes."
+    ],
+    "why": "The leverage asymmetry is total — the other party controls information, time and someone you love. The only workable counter is to move every decision earlier, to a moment when you can still ask questions. Pre-authorisation and daily bills are both just ways of buying back time.",
+    "variants": "Same shape: mechanics calling mid-repair, vets at the consultation, any quote where work has already begun."
+  },
+  "lens": {
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "elsewhere": [
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+    ],
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "The Bengaluru Traffic Police have won a national award at the UMI conference, with ASTraM and adaptive signals cited (The Hindu, AIMA Media). In the same week, commuters on Old Madras Road report waiting through several signal cycles at a junction (The Hindu). An award measures the system as designed; your commute measures the junction you are standing at, so trust the second number when planning your day."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "IMD predicts a wet spell for Bengaluru over the next two days, and twin weather systems could bring rain until Tuesday (The Times of India).",
+      "so_what": "Plan Monday and Tuesday commutes with a 20-minute buffer, and avoid underpasses and low-lying stretches."
+    },
+    {
+      "tag": "Commute",
+      "what": "Approval for the Pink Line metro opening is expected in about five days (The Hindu).",
+      "so_what": "Approval is not the opening date. Keep your current route until BMRCL announces service timings, then test the line once off-peak."
+    },
+    {
+      "tag": "Money",
+      "what": "Jio Platforms IPO grey market premium is hinting at around 22% listing gains as allotment approaches (Livemint).",
+      "so_what": "The grey market premium is unofficial and can vanish by listing day; check your allotment status on the registrar's site using your PAN, and decide your exit price before listing, not after."
+    },
+    {
+      "tag": "Your record",
+      "what": "North Bengaluru areas have faced power cuts for three months after Metro work damaged a Bescom cable (The Times of India).",
+      "so_what": "If you live there, log each outage with Bescom with date and time so your complaint has a record, and keep a power bank charged."
+    }
+  ],
+  "carry_over": {
+    "id": "fare-dispute-walk-away",
+    "prompt": "The meter and the driver's demand differ, you are tired and he is getting louder: what do you do first?",
+    "answer": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range."
+  },
+  "quiz": [
+    {
+      "q": "What did the Bengaluru Traffic Police win at the UMI conference 2026?",
+      "options": [
+        "A national award",
+        "A state budget grant",
+        "A world ranking"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Roughly how soon is Pink Line opening approval expected, per The Hindu?",
+      "options": [
+        "Within 5 days",
+        "Within 5 weeks",
+        "Within 5 months"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In a hospital stay, when should you ask for the itemised bill?",
+      "options": [
+        "At discharge",
+        "On day one",
+        "After the insurer pays"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does Goodhart's Law say happens when a measure becomes a target?",
+      "options": [
+        "It gets more accurate",
+        "It stops measuring what it used to",
+        "It becomes legally binding"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which area's power cuts are linked to Metro work damaging a Bescom cable?",
+      "options": [
+        "North Bengaluru",
+        "Whitefield",
+        "Electronic City"
+      ],
+      "answer": 0
+    }
+  ]
+}
