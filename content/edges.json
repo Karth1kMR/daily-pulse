@@ -438,6 +438,37 @@
       ],
       "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
       "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit."
+    },
+    {
+      "id": "fare-dispute-walk-away",
+      "category": "Street safety",
+      "title": "The fare argument you can lose and still win",
+      "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
+      "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
+      "move": [
+        "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
+        "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
+        "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
+      ],
+      "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
+      "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
+      "scenario": {
+        "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
+        "choices": [
+          {
+            "text": "Move away, note the plate number, and complain to the traffic police later.",
+            "verdict": "best"
+          },
+          {
+            "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
+            "verdict": "trap"
+          },
+          {
+            "text": "Pay the extra ₹150 with no record and leave without noting anything.",
+            "verdict": "ok"
+          }
+        ]
+      }
     }
   ]
 }

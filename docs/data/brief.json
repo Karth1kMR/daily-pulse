@@ -1,70 +1,144 @@
 {
-  "date": "2026-10-24",
-  "edition": "evening",
+  "date": "2026-10-25",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-24T19:45:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-10-25T07:45:00+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 21.8,
-    "condition": "Light drizzle",
-    "high_c": 26.0,
-    "low_c": 20.4,
-    "rain_chance_pct": 90,
-    "tip": "A 90% chance of rain with thunderstorms forecast till 25 October: if you head out on the Mysuru road or leave the house this weekend, expect slower traffic and leave early."
+    "now_c": 20.3,
+    "condition": "Rain showers",
+    "high_c": 24.7,
+    "low_c": 19.9,
+    "rain_chance_pct": 82,
+    "tip": "Twin weather systems could bring rain till Tuesday (The Times of India): with Old Madras Road already crawling through signal cycles, leave 20 minutes early on Monday and avoid underpasses."
   },
   "edge": {
-    "id": "guaranteed-returns-scheme",
-    "category": "Money trap",
-    "title": "The scheme that always pays on time",
-    "anchor": "The Andhra Pradesh and Karnataka CID are verifying bonds of AgriGold scam victims and agents (Times of India).",
-    "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
-    "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
+    "id": "fare-dispute-walk-away",
+    "category": "Street safety",
+    "title": "The fare argument you can lose and still win",
+    "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
+    "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
     "move": [
-      "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
-      "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
-      "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
+      "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
+      "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
+      "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
     ],
-    "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
-    "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit."
+    "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
+    "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
+    "scenario": {
+      "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
+      "choices": [
+        {
+          "text": "Move away, note the plate number, and complain to the traffic police later.",
+          "verdict": "best"
+        },
+        {
+          "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay the extra ₹150 with no record and leave without noting anything.",
+          "verdict": "ok"
+        }
+      ]
+    },
+    "anchor": "An auto driver was arrested for killing an advocate over a fare dispute in Bengaluru (The Times of India)."
   },
   "lens": {
-    "id": "survivorship-bias",
-    "name": "Survivorship bias",
-    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
-    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
     "elsewhere": [
-      "Dropout-founder stories, drawn from the tiny surviving tail.",
-      "Fund performance tables that quietly exclude closed funds.",
-      "Old buildings seeming better built — the shoddy ones were demolished."
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
     ],
-    "test": "Who is missing from this dataset because they didn't make it this far?",
-    "today": "The AgriGold case is back in the news, with the Andhra Pradesh and Karnataka CID teams verifying the bonds of victims and agents (Times of India). Every investor who was paid on time was a survivor and told a good story; those who lost money are only counted once the scheme collapses. When you hear a scheme only through people it has paid, ask who has been left out."
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
+    "today": "North Bengaluru areas have been battling power cuts for three months after Metro work damaged a Bescom cable (The Times of India). Digging for a new line is easy to justify; the cable already in the ground was solving a problem nobody at the surface was tracking. Before you cheer or curse a civic project, ask what the old thing was quietly doing."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Rain and thunderstorms are forecast to continue till 25 October, with the IMD warning of heavy showers (The Economic Times).",
-      "so_what": "Plan tomorrow's travel, including anything near a lake or underpass, with extra time, and check live traffic before you leave."
-    },
-    {
-      "tag": "Commute",
-      "what": "The Mysuru-Bengaluru highway was blocked at a toll plaza for two hours by a farmers' protest (The Hindu).",
-      "so_what": "If you are driving or taking a bus towards Mysuru this weekend, check the status before you set off and keep an alternative departure time."
+      "what": "Twin weather systems could bring rain in Bengaluru until Tuesday (The Times of India).",
+      "so_what": "Budget extra time for Monday's commute and check water-logging on your route before you leave."
     },
     {
       "tag": "Your record",
-      "what": "The Andhra Pradesh and Karnataka CID are working together to verify the bonds of AgriGold victims and agents (Times of India).",
-      "so_what": "If you or a relative holds AgriGold bonds, keep the certificates and receipts safe and watch for the official verification process; do not pay anyone who offers to 'recover' your money for a fee."
+      "what": "Bengaluru leads post-SIR voter activity, with Form 6 applications up 32% (The Times of India).",
+      "so_what": "If you moved or turned 18 recently, check your name on the electoral roll now rather than at the next election."
     },
     {
-      "tag": "Civic",
-      "what": "Festival waste is piling up across Bengaluru as collection lags (Deccan Herald).",
-      "so_what": "Do not leave bags on the street corner; hold wet and dry waste at home until your regular collection comes, and log a complaint with the BBMP/GBA helpline if your area is missed."
+      "tag": "Your record",
+      "what": "Retired railway employees across Bengaluru, Hubballi and Mysuru divisions can now submit life certificates online (The Times of India).",
+      "so_what": "If a parent draws a railway pension, the online route saves a queue; set it up for them before their certificate is due."
+    },
+    {
+      "tag": "Commute",
+      "what": "North Bengaluru areas are facing power cuts for three months after Metro work damaged a Bescom cable (The Times of India).",
+      "so_what": "If you live there, keep a charged power bank and log each outage with Bescom so there is a record of the complaint."
+    },
+    {
+      "tag": "Safety",
+      "what": "BMTC is raising accident insurance cover for its employees from ₹50 lakh to ₹1 crore (Deccan Herald).",
+      "so_what": "This covers staff, not passengers; do not assume a bus ticket brings the same cover, and keep your own accident insurance current."
+    },
+    {
+      "tag": "Prices",
+      "what": "Unhygienically prepared halwa and date products were seized in Bengaluru (The Times of India).",
+      "so_what": "With the festival sweets season on, buy packed sweets from outlets that show a licence number and a date."
     }
   ],
   "carry_over": {
-    "id": "digital-arrest",
-    "prompt": "A call says a parcel in your name is held at customs, then a 'CBI officer' on video tells you to stay on camera and tell nobody: what is the tell?",
-    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
-  }
+    "id": "guaranteed-returns-scheme",
+    "prompt": "A neighbour shows you steady monthly payouts from a land-backed scheme paying more than any bank: what is the tell?",
+    "answer": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you."
+  },
+  "quiz": [
+    {
+      "q": "Which two state agencies' CID teams are verifying AgriGold bonds?",
+      "options": [
+        "Andhra Pradesh and Karnataka",
+        "Tamil Nadu and Kerala",
+        "Telangana and Maharashtra"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "By how much did Form 6 applications rise in Bengaluru, per The Times of India?",
+      "options": [
+        "12%",
+        "32%",
+        "52%"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the new accident insurance cover for BMTC employees?",
+      "options": [
+        "₹50 lakh",
+        "₹75 lakh",
+        "₹1 crore"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What damaged the Bescom cable behind north Bengaluru's power cuts?",
+      "options": [
+        "Metro work",
+        "Flooding",
+        "A transformer fire"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In a fare dispute with an angry driver, what comes first?",
+      "options": [
+        "Win the argument",
+        "Create distance, then complain later",
+        "Record a video at close range"
+      ],
+      "answer": 1
+    }
+  ]
 }
