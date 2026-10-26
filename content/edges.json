@@ -469,6 +469,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "fake-refund-link",
+      "category": "Money trap",
+      "title": "The refund that costs you",
+      "setup": "A delivery arrives damaged, or an order goes wrong. Within minutes someone calls or messages, sounding like customer care, and offers an instant refund. To process it, they ask you to scan a QR, tap a link, approve a request, or install an app so they can 'see the problem'.",
+      "tell": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these.",
+      "move": [
+        "Hang up and go to the app or website yourself. Refunds appear in your original payment method without you approving anything.",
+        "Never enter your UPI PIN or an OTP to 'receive' money. A PIN screen means money is leaving your account.",
+        "Never install a screen-sharing or 'support' app at a caller's request; it shows them your banking screens and OTPs.",
+        "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+      ],
+      "why": "The scammer needs you to authorise the payment, because only you can. So the con reframes sending as receiving and puts a plausible reason, a damaged parcel, in front of a moment when you are already annoyed. The detection rule works for any version: receiving never needs your action on a payment screen.",
+      "variants": "Same shape: cashback links, wrong-delivery refunds, 'excess payment' return requests, KYC-update refunds."
     }
   ]
 }

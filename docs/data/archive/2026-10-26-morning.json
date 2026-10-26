@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-26",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-26T07:34:45+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 20.4,
+    "condition": "Clear",
+    "high_c": 27.0,
+    "low_c": 19.0,
+    "rain_chance_pct": 22,
+    "tip": "Dry roads and a 22% rain chance are a rare low-excuse day. With road accidents up 70% in five years (Deccan Herald), spend the buffer you would have used for rain on following distance instead."
+  },
+  "edge": {
+    "id": "fake-refund-link",
+    "category": "Money trap",
+    "title": "The refund that costs you",
+    "anchor": "A Bengaluru woman lost ₹98,000 in a fake refund scam after a damaged curd packet (The Times of India).",
+    "setup": "A delivery arrives damaged, or an order goes wrong. Within minutes someone calls or messages, sounding like customer care, and offers an instant refund. To process it, they ask you to scan a QR, tap a link, approve a request, or install an app so they can 'see the problem'.",
+    "tell": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these.",
+    "move": [
+      "Hang up and go to the app or website yourself. Refunds appear in your original payment method without you approving anything.",
+      "Never enter your UPI PIN or an OTP to 'receive' money. A PIN screen means money is leaving your account.",
+      "Never install a screen-sharing or 'support' app at a caller's request; it shows them your banking screens and OTPs.",
+      "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+    ],
+    "why": "The scammer needs you to authorise the payment, because only you can. So the con reframes sending as receiving and puts a plausible reason, a damaged parcel, in front of a moment when you are already annoyed. The detection rule works for any version: receiving never needs your action on a payment screen.",
+    "variants": "Same shape: cashback links, wrong-delivery refunds, 'excess payment' return requests, KYC-update refunds."
+  },
+  "lens": {
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "elsewhere": [
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
+    ],
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "Bengaluru residents have yet to be given an option to choose their bulk waste collection vendor (The Times of India). The headline does not say who benefits, so the test is the useful part: ask whether the arrangement makes it safer to be a resident or harder for a new vendor to compete. Until you know which, assume the rule was written around existing operators, not around your choice."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Pink Line metro opening approval was expected within about five days as of 22 October, with KR Puram–Silk Board trial runs due by October end (The Hindu, The Indian Express).",
+      "so_what": "Approval is not a public start date. Keep your current route until BMRCL announces timings, then try the line once off-peak before relying on it."
+    },
+    {
+      "tag": "Commute",
+      "what": "The airport Metro is running late (Bangalore Mirror).",
+      "so_what": "If you fly this month, keep booking the cab or bus for the airport leg; do not plan around Metro for it."
+    },
+    {
+      "tag": "Safety",
+      "what": "Bengaluru road accidents have surged by 70% in five years (Deccan Herald).",
+      "so_what": "The risk is on your daily route, not a rare event. Helmet on every ride, even short ones, and leave a longer gap behind buses and autos."
+    },
+    {
+      "tag": "Civic",
+      "what": "Residents have yet to get an option to choose their bulk waste collection vendor, and a waste strike has been banned under ESMA (The Times of India, Urban Acres).",
+      "so_what": "If you live in an apartment, ask your association who collects your waste and what the fallback is if collection slips; keep wet and dry waste separated either way."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "IndiGo and Air India Group are set to shift flights to Navi Mumbai Airport (NDTV).",
+      "so_what": "If you have a Mumbai trip booked or planned, check the airport name on the ticket before paying, because the ground transfer can differ by an hour or more."
+    }
+  ],
+  "carry_over": {
+    "id": "hospital-estimate",
+    "prompt": "A hospital admission was quoted as a package, and at discharge the bill has grown: what should you have asked for on day one?",
+    "answer": "You're being asked to agree to money at the exact moment you are least able to walk away."
+  },
+  "quiz": [
+    {
+      "q": "In a fake refund scam, what does receiving money ever need from you?",
+      "options": [
+        "Your UPI PIN",
+        "An OTP",
+        "Nothing on a payment screen"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How much did a Bengaluru woman lose in the damaged curd packet refund scam, per The Times of India?",
+      "options": [
+        "₹98,000",
+        "₹9,800",
+        "₹98 lakh"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "By how much have Bengaluru road accidents risen in five years, per Deccan Herald?",
+      "options": [
+        "7%",
+        "70%",
+        "700%"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which mental model asks whether a rule makes it harder to become a competitor?",
+      "options": [
+        "Regulatory capture",
+        "Sunk cost",
+        "Goodhart's Law"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "On a Mumbai flight, what should you check before paying?",
+      "options": [
+        "The airport named on the ticket",
+        "The meal option",
+        "The seat colour"
+      ],
+      "answer": 0
+    }
+  ]
+}
