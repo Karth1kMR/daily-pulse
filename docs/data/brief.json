@@ -1,121 +1,112 @@
 {
   "date": "2026-10-26",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-26T07:34:45+05:30",
-  "read_seconds": 75,
-  "weather": {
-    "now_c": 20.4,
-    "condition": "Clear",
-    "high_c": 27.0,
-    "low_c": 19.0,
-    "rain_chance_pct": 22,
-    "tip": "Dry roads and a 22% rain chance are a rare low-excuse day. With road accidents up 70% in five years (Deccan Herald), spend the buffer you would have used for rain on following distance instead."
-  },
+  "generated_at": "2026-10-26T19:38:29+05:30",
+  "read_seconds": 70,
   "edge": {
-    "id": "fake-refund-link",
+    "id": "used-vehicle",
     "category": "Money trap",
-    "title": "The refund that costs you",
-    "anchor": "A Bengaluru woman lost ₹98,000 in a fake refund scam after a damaged curd packet (The Times of India).",
-    "setup": "A delivery arrives damaged, or an order goes wrong. Within minutes someone calls or messages, sounding like customer care, and offers an instant refund. To process it, they ask you to scan a QR, tap a link, approve a request, or install an app so they can 'see the problem'.",
-    "tell": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these.",
+    "title": "The 40,000 km that were 90,000",
+    "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
+    "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
     "move": [
-      "Hang up and go to the app or website yourself. Refunds appear in your original payment method without you approving anything.",
-      "Never enter your UPI PIN or an OTP to 'receive' money. A PIN screen means money is leaving your account.",
-      "Never install a screen-sharing or 'support' app at a caller's request; it shows them your banking screens and OTPs.",
-      "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+      "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
+      "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
+      "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
+      "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
     ],
-    "why": "The scammer needs you to authorise the payment, because only you can. So the con reframes sending as receiving and puts a plausible reason, a damaged parcel, in front of a moment when you are already annoyed. The detection rule works for any version: receiving never needs your action on a payment screen.",
-    "variants": "Same shape: cashback links, wrong-delivery refunds, 'excess payment' return requests, KYC-update refunds."
+    "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
+    "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute."
   },
   "lens": {
-    "id": "regulatory-capture",
-    "name": "Regulatory capture",
-    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
-    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
     "elsewhere": [
-      "Licensing rules that protect existing practitioners more than customers.",
-      "Safety standards written around one firm's existing process.",
-      "Compliance burdens that only large players can absorb."
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
     ],
-    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
-    "today": "Bengaluru residents have yet to be given an option to choose their bulk waste collection vendor (The Times of India). The headline does not say who benefits, so the test is the useful part: ask whether the arrangement makes it safer to be a resident or harder for a new vendor to compete. Until you know which, assume the rule was written around existing operators, not around your choice."
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "Early reports of a Pulakeshinagar blast invited the obvious guess of terror; police say it was an uncle-nephew feud over land, money and a broken marriage alliance, and a painter from UP was the unintended victim (Deccan Herald, The Times of India). The vivid story arrives first and shapes your sense of risk, while the quieter figures, such as 539 drink-driving and overspeeding cases booked in one special drive (The Hindu), describe the danger you actually ride through daily."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Pink Line metro opening approval was expected within about five days as of 22 October, with KR Puram–Silk Board trial runs due by October end (The Hindu, The Indian Express).",
-      "so_what": "Approval is not a public start date. Keep your current route until BMRCL announces timings, then try the line once off-peak before relying on it."
-    },
-    {
-      "tag": "Commute",
-      "what": "The airport Metro is running late (Bangalore Mirror).",
-      "so_what": "If you fly this month, keep booking the cab or bus for the airport leg; do not plan around Metro for it."
-    },
-    {
       "tag": "Safety",
-      "what": "Bengaluru road accidents have surged by 70% in five years (Deccan Herald).",
-      "so_what": "The risk is on your daily route, not a rare event. Helmet on every ride, even short ones, and leave a longer gap behind buses and autos."
+      "what": "Bengaluru Traffic Police booked 539 cases in a special drive against drunk driving and overspeeding (The Hindu).",
+      "so_what": "Evening and late-night checks are active. If you are drinking, book the cab before the first drink, not after the last."
+    },
+    {
+      "tag": "Your record",
+      "what": "Apartment lifts failed 36% of safety checks, with 347 high-priority defects flagged (The Times of India).",
+      "so_what": "Buying or renting in a new building: ask for the lift inspection certificate before you accept handover, and note its date."
     },
     {
       "tag": "Civic",
-      "what": "Residents have yet to get an option to choose their bulk waste collection vendor, and a waste strike has been banned under ESMA (The Times of India, Urban Acres).",
-      "so_what": "If you live in an apartment, ask your association who collects your waste and what the fallback is if collection slips; keep wet and dry waste separated either way."
+      "what": "The garbage crisis has deepened after ESMA was invoked to ban a waste strike (Urban Acres).",
+      "so_what": "Expect patchy pickup this week. Keep wet waste sealed and dry waste separate, and ask your association what the fallback is if collection slips."
+    },
+    {
+      "tag": "Commute",
+      "what": "STANFEST 2026 brings 40,000+ fans and 2,000+ creators to Bengaluru on October 31 (ANI).",
+      "so_what": "Plan around the venue area that evening: leave early or take the Metro rather than a cab, and avoid booking a flight or train departure the same night."
     },
     {
       "tag": "Worth booking",
-      "what": "IndiGo and Air India Group are set to shift flights to Navi Mumbai Airport (NDTV).",
-      "so_what": "If you have a Mumbai trip booked or planned, check the airport name on the ticket before paying, because the ground transfer can differ by an hour or more."
+      "what": "Cyclonic storm 'Arnab' is expected to cross the Andhra Pradesh–Yanam coast as a very severe storm by October 28 (IMD, The Hindu).",
+      "so_what": "If you have a trip to coastal Andhra this week, check flight or train status before leaving and keep the booking refundable."
     }
   ],
   "carry_over": {
-    "id": "hospital-estimate",
-    "prompt": "A hospital admission was quoted as a package, and at discharge the bill has grown: what should you have asked for on day one?",
-    "answer": "You're being asked to agree to money at the exact moment you are least able to walk away."
+    "id": "fake-refund-link",
+    "prompt": "A delivery arrives damaged and a 'customer care' number offers an instant refund, but first asks you to scan, tap or approve something: what is wrong with this?",
+    "answer": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these."
   },
   "quiz": [
     {
-      "q": "In a fake refund scam, what does receiving money ever need from you?",
+      "q": "What does a used-vehicle seller's story lack, according to today's Edge?",
       "options": [
-        "Your UPI PIN",
-        "An OTP",
-        "Nothing on a payment screen"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "How much did a Bengaluru woman lose in the damaged curd packet refund scam, per The Times of India?",
-      "options": [
-        "₹98,000",
-        "₹9,800",
-        "₹98 lakh"
+        "A record you fetched yourself",
+        "A shiny finish",
+        "A low price"
       ],
       "answer": 0
     },
     {
-      "q": "By how much have Bengaluru road accidents risen in five years, per Deccan Herald?",
+      "q": "Which site shows a vehicle's ownership count, insurance and hypothecation?",
       "options": [
-        "7%",
-        "70%",
-        "700%"
+        "vahan.parivahan.gov.in",
+        "cybercrime.gov.in",
+        "bescom.karnataka.gov.in"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many cases did Bengaluru Traffic Police book in the special drive against drunk driving and overspeeding?",
+      "options": [
+        "39",
+        "539",
+        "5,390"
       ],
       "answer": 1
     },
     {
-      "q": "Which mental model asks whether a rule makes it harder to become a competitor?",
+      "q": "What share of apartment lift safety checks failed, per The Times of India?",
       "options": [
-        "Regulatory capture",
-        "Sunk cost",
-        "Goodhart's Law"
+        "6%",
+        "16%",
+        "36%"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "q": "On a Mumbai flight, what should you check before paying?",
+      "q": "Which mental model says you judge likelihood by how easily an example comes to mind?",
       "options": [
-        "The airport named on the ticket",
-        "The meal option",
-        "The seat colour"
+        "The availability heuristic",
+        "Sunk cost",
+        "Goodhart's Law"
       ],
       "answer": 0
     }

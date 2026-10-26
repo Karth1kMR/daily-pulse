@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-26",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-26T19:38:29+05:30",
+  "read_seconds": 70,
+  "edge": {
+    "id": "used-vehicle",
+    "category": "Money trap",
+    "title": "The 40,000 km that were 90,000",
+    "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
+    "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
+    "move": [
+      "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
+      "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
+      "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
+      "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
+    ],
+    "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
+    "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute."
+  },
+  "lens": {
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "elsewhere": [
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+    ],
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "Early reports of a Pulakeshinagar blast invited the obvious guess of terror; police say it was an uncle-nephew feud over land, money and a broken marriage alliance, and a painter from UP was the unintended victim (Deccan Herald, The Times of India). The vivid story arrives first and shapes your sense of risk, while the quieter figures, such as 539 drink-driving and overspeeding cases booked in one special drive (The Hindu), describe the danger you actually ride through daily."
+  },
+  "moved": [
+    {
+      "tag": "Safety",
+      "what": "Bengaluru Traffic Police booked 539 cases in a special drive against drunk driving and overspeeding (The Hindu).",
+      "so_what": "Evening and late-night checks are active. If you are drinking, book the cab before the first drink, not after the last."
+    },
+    {
+      "tag": "Your record",
+      "what": "Apartment lifts failed 36% of safety checks, with 347 high-priority defects flagged (The Times of India).",
+      "so_what": "Buying or renting in a new building: ask for the lift inspection certificate before you accept handover, and note its date."
+    },
+    {
+      "tag": "Civic",
+      "what": "The garbage crisis has deepened after ESMA was invoked to ban a waste strike (Urban Acres).",
+      "so_what": "Expect patchy pickup this week. Keep wet waste sealed and dry waste separate, and ask your association what the fallback is if collection slips."
+    },
+    {
+      "tag": "Commute",
+      "what": "STANFEST 2026 brings 40,000+ fans and 2,000+ creators to Bengaluru on October 31 (ANI).",
+      "so_what": "Plan around the venue area that evening: leave early or take the Metro rather than a cab, and avoid booking a flight or train departure the same night."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Cyclonic storm 'Arnab' is expected to cross the Andhra Pradesh–Yanam coast as a very severe storm by October 28 (IMD, The Hindu).",
+      "so_what": "If you have a trip to coastal Andhra this week, check flight or train status before leaving and keep the booking refundable."
+    }
+  ],
+  "carry_over": {
+    "id": "fake-refund-link",
+    "prompt": "A delivery arrives damaged and a 'customer care' number offers an instant refund, but first asks you to scan, tap or approve something: what is wrong with this?",
+    "answer": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these."
+  },
+  "quiz": [
+    {
+      "q": "What does a used-vehicle seller's story lack, according to today's Edge?",
+      "options": [
+        "A record you fetched yourself",
+        "A shiny finish",
+        "A low price"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which site shows a vehicle's ownership count, insurance and hypothecation?",
+      "options": [
+        "vahan.parivahan.gov.in",
+        "cybercrime.gov.in",
+        "bescom.karnataka.gov.in"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many cases did Bengaluru Traffic Police book in the special drive against drunk driving and overspeeding?",
+      "options": [
+        "39",
+        "539",
+        "5,390"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What share of apartment lift safety checks failed, per The Times of India?",
+      "options": [
+        "6%",
+        "16%",
+        "36%"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which mental model says you judge likelihood by how easily an example comes to mind?",
+      "options": [
+        "The availability heuristic",
+        "Sunk cost",
+        "Goodhart's Law"
+      ],
+      "answer": 0
+    }
+  ]
+}
