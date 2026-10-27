@@ -484,6 +484,20 @@
       ],
       "why": "The scammer needs you to authorise the payment, because only you can. So the con reframes sending as receiving and puts a plausible reason, a damaged parcel, in front of a moment when you are already annoyed. The detection rule works for any version: receiving never needs your action on a payment screen.",
       "variants": "Same shape: cashback links, wrong-delivery refunds, 'excess payment' return requests, KYC-update refunds."
+    },
+    {
+      "id": "favour-carry",
+      "category": "Safety trap",
+      "title": "The favour in your luggage",
+      "setup": "Someone you barely know, a friend of a friend or a new acquaintance at the gate, asks you to carry a small sealed packet, gift or pair of shoes on your trip, just to hand over at the other end. It feels like a favour, and refusing feels rude.",
+      "tell": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong.",
+      "move": [
+        "Say no to anything sealed that you did not pack yourself, however small or friendly the request. A courier exists for exactly this.",
+        "If you must carry something for someone you trust, open it, look through it and pack it yourself.",
+        "If an item turns up in your bag that you did not pack, tell airport staff before screening, not after."
+      ],
+      "why": "At a checkpoint the bag in your hand is treated as yours. The sender's convenience becomes your problem, and the sender is the one party who knows what is inside. Refusing costs a moment of awkwardness; the downside of agreeing has no ceiling.",
+      "variants": "Same shape: 'just hold this bag while I step out', delivering a parcel for a tenant, carrying cash or medicine across a border for a stranger."
     }
   ]
 }
