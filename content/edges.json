@@ -498,6 +498,20 @@
       ],
       "why": "At a checkpoint the bag in your hand is treated as yours. The sender's convenience becomes your problem, and the sender is the one party who knows what is inside. Refusing costs a moment of awkwardness; the downside of agreeing has no ceiling.",
       "variants": "Same shape: 'just hold this bag while I step out', delivering a parcel for a tenant, carrying cash or medicine across a border for a stranger."
+    },
+    {
+      "id": "mrp-ceiling",
+      "category": "Money trap",
+      "title": "The price printed on the strip",
+      "setup": "At the chemist, or buying anything packaged, you pay the MRP without a thought. It is printed, official-looking and the same on every shelf, so it feels like the price. For a long-term medicine bought every month, the gap between that number and what the shop paid can be large.",
+      "tell": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay.",
+      "move": [
+        "Ask for the cheapest option with the same salt and strength, and compare the per-tablet price, not the brand.",
+        "For a medicine you buy monthly, price it at two or three chemists and a Jan Aushadhi Kendra before settling on one.",
+        "Take the bill every time, and treat a discount off MRP as normal to ask for, not a favour."
+      ],
+      "why": "The seller knows what the product cost; you see only a printed ceiling. When one side can see the cost and the other cannot, the ceiling quietly becomes the going price. Comparing on salt and strength puts back the information the label hides.",
+      "variants": "Same shape: 'MRP' on water and snacks at airports and venues, accessories sold at the full tag, 'sale' tags that cut from an inflated MRP."
     }
   ]
 }

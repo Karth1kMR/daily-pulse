@@ -1,114 +1,122 @@
 {
   "date": "2026-10-27",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-27T07:34:20+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-10-27T19:34:55+05:30",
+  "read_seconds": 80,
+  "weather": {
+    "now_c": 22.2,
+    "condition": "Partly cloudy",
+    "high_c": 26.9,
+    "low_c": 17.4,
+    "rain_chance_pct": 0,
+    "tip": "Dry tonight with a 17°C low, so rain is no excuse to drive after a drink. Traffic police booked 369 drink-driving cases in seven days (Urban Acres); book the cab before the first drink."
+  },
   "edge": {
-    "id": "favour-carry",
-    "category": "Safety trap",
-    "title": "The favour in your luggage",
-    "setup": "Someone you barely know, a friend of a friend or a new acquaintance at the gate, asks you to carry a small sealed packet, gift or pair of shoes on your trip, just to hand over at the other end. It feels like a favour, and refusing feels rude.",
-    "tell": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong.",
+    "id": "mrp-ceiling",
+    "category": "Money trap",
+    "title": "The price printed on the strip",
+    "setup": "At the chemist, or buying anything packaged, you pay the MRP without a thought. It is printed, official-looking and the same on every shelf, so it feels like the price. For a long-term medicine bought every month, the gap between that number and what the shop paid can be large.",
+    "tell": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay.",
     "move": [
-      "Say no to anything sealed that you did not pack yourself, however small or friendly the request. A courier exists for exactly this.",
-      "If you must carry something for someone you trust, open it, look through it and pack it yourself.",
-      "If an item turns up in your bag that you did not pack, tell airport staff before screening, not after."
+      "Ask for the cheapest option with the same salt and strength, and compare the per-tablet price, not the brand.",
+      "For a medicine you buy monthly, price it at two or three chemists and a Jan Aushadhi Kendra before settling on one.",
+      "Take the bill every time, and treat a discount off MRP as normal to ask for, not a favour."
     ],
-    "why": "At a checkpoint the bag in your hand is treated as yours. The sender's convenience becomes your problem, and the sender is the one party who knows what is inside. Refusing costs a moment of awkwardness; the downside of agreeing has no ceiling.",
-    "variants": "Same shape: 'just hold this bag while I step out', delivering a parcel for a tenant, carrying cash or medicine across a border for a stranger.",
-    "anchor": "A passenger was caught at Bengaluru's KIA airport with ganja hidden in shoes (The Times of India)."
+    "why": "The seller knows what the product cost; you see only a printed ceiling. When one side can see the cost and the other cannot, the ceiling quietly becomes the going price. Comparing on salt and strength puts back the information the label hides.",
+    "variants": "Same shape: 'MRP' on water and snacks at airports and venues, accessories sold at the full tag, 'sale' tags that cut from an inflated MRP.",
+    "anchor": "The Supreme Court questioned the overpricing of medicines and the massive gap between MRP and cost to retailers (Hindustan Times)."
   },
   "lens": {
-    "id": "opportunity-cost",
-    "name": "Opportunity cost",
-    "one_line": "The true price of anything is the best thing you gave up to get it.",
-    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+    "id": "asymmetric-information",
+    "name": "Asymmetric information",
+    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
     "elsewhere": [
-      "A cheap flat 25 km out, priced in hours of your life per year.",
-      "Studying one more degree versus the earnings and experience forgone.",
-      "A free app paid for with attention and data."
+      "Freelance marketplaces race to the bottom without reviews.",
+      "Insurance pools get sicker when only the sick buy in.",
+      "A degree works partly as a costly signal of something an employer can't directly see."
     ],
-    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
-    "today": "Karnataka's deputy chief minister told protesting sugarcane farmers the government has only limited funds (The Times of India), and the Metro Phase 4 plan of 215 km puts suburbs first while the core city takes a back seat (Moneycontrol). Each rupee and each kilometre committed to one place is the one not committed to another, so ask what a project displaces, not just what it adds."
+    "test": "What can the other side see that I can't — and what would make it visible?",
+    "today": "The Supreme Court asked why the MRP on medicines sits so far above what retailers pay (Hindustan Times). The chemist sees the cost and you see only the printed ceiling, so that ceiling becomes the price. Asking for the same salt at a lower price is how you make the hidden number visible."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Safety clearance for the Bannerghatta Road metro line is likely today, and the Supreme Court has allowed BMRCL to go ahead with the Blue Line (Deccan Herald).",
-      "so_what": "A clearance is not an opening date. Keep your current commute until BMRCL announces the start, then test the new line off-peak before relying on it."
+      "tag": "Your record",
+      "what": "Karnataka's final voter list after SIR is out: the electorate stands at 4.54 crore, nearly 1 crore fewer, with 65.45 lakh marked permanently shifted (The Times of India).",
+      "so_what": "Search your name in the final roll tonight. If you moved flats recently, you may be among those marked shifted, and finding out now beats finding out on polling day."
     },
     {
       "tag": "Commute",
-      "what": "Concretising works on Hennur–Bagalur Road have been given a two-month deadline, with an elevated corridor and flyovers also under consideration (The Times of India, Deccan Herald).",
-      "so_what": "If this road is on your route, plan for slow stretches for up to two months and keep a second route saved."
+      "what": "Safety clearance for the Bannerghatta Road metro line was reported as likely today, and the Supreme Court has allowed BMRCL to go ahead with the Blue Line (Deccan Herald).",
+      "so_what": "A clearance is not an opening date. Keep your current commute until BMRCL announces a start, then try the line off-peak first."
+    },
+    {
+      "tag": "Commute",
+      "what": "After an 18-month delay, Hennur–Bagalur road work has a December deadline and concretising works a two-month deadline; an elevated corridor or flyovers are also being considered (The Indian Express, Deccan Herald).",
+      "so_what": "Plan on the disruption lasting through December and treat the date as the earliest, not the likely finish. If your route uses it, test an alternative this week."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Supreme Court questioned the overpricing of medicines and the massive gap between MRP and the cost to retailers (Hindustan Times).",
+      "so_what": "For any medicine you buy every month, ask for the same salt in a cheaper brand and compare per-tablet price at one more shop before your next refill."
     },
     {
       "tag": "Civic",
-      "what": "Garbage collection is suffering over a tender standoff with contractors (The Times of India).",
-      "so_what": "Expect missed pickups. Keep wet waste sealed, and ask your association now what the fallback is if collection slips for several days."
-    },
-    {
-      "tag": "Safety",
-      "what": "A survey found reduced lung function among BMTC drivers, traffic police, pourakarmikas and construction workers (The Hindu).",
-      "so_what": "The same dust and exhaust is on your daily route. On two-wheelers or in traffic-heavy stretches, a well-fitted N95-grade mask is worth wearing."
-    },
-    {
-      "tag": "Civic",
-      "what": "A group has given the government a November 26 deadline to lift curbs on protest venues in Bengaluru, warning of civil disobedience and a mass stir (The Hindu, The New Indian Express).",
-      "so_what": "If the deadline passes, expect crowds and diversions in central Bengaluru around Constitution Day. Avoid scheduling anything time-critical there that day."
+      "what": "Groups have told the Karnataka government to lift Bengaluru's protest curbs by Constitution Day, 26 November, or face civil disobedience (The Hindu).",
+      "so_what": "Expect a protest build-up near the end of November. Check the day's closures before travelling through the central area."
     }
   ],
   "carry_over": {
-    "id": "used-vehicle",
-    "prompt": "You are about to buy a used car or two-wheeler; the price is fair and the owner seems decent: what is the one thing missing from the deal?",
-    "answer": "Every claim is from the seller's mouth; none is from a record you fetched yourself."
+    "id": "favour-carry",
+    "prompt": "Someone you barely know asks you to carry a sealed packet on your trip as a small favour: what is the problem with saying yes?",
+    "answer": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong."
   },
   "quiz": [
     {
-      "q": "What is being asked of you in today's Edge, 'The favour in your luggage'?",
+      "q": "What does the MRP printed on a pack mean?",
       "options": [
-        "To answer for contents you cannot verify",
-        "To pay a small fee",
-        "To share an OTP"
+        "The most a seller may charge",
+        "What the shop paid",
+        "A fixed price with no discount"
       ],
       "answer": 0
     },
     {
-      "q": "If an item you did not pack turns up in your bag, when do you tell airport staff?",
+      "q": "What should you ask the chemist for when comparing a medicine's price?",
       "options": [
-        "Before screening",
-        "After screening",
-        "Only if asked"
+        "The newest brand",
+        "The largest pack",
+        "The cheapest option with the same salt and strength"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "q": "What deadline has a group set the government to lift Bengaluru's protest venue curbs?",
+      "q": "What is Karnataka's final electorate after SIR?",
       "options": [
-        "November 6",
-        "November 26",
-        "December 26"
+        "5.54 crore",
+        "4.54 crore",
+        "3.54 crore"
       ],
       "answer": 1
     },
     {
-      "q": "Per the metro news, what is likely today for the Bannerghatta Road line?",
+      "q": "What is the deadline for Hennur–Bagalur road work?",
       "options": [
-        "Safety clearance",
-        "Fare hike",
-        "Full opening"
+        "Already open",
+        "Next March",
+        "December"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "q": "Which mental model says the true price of anything is the best alternative you gave up?",
+      "q": "Which mental model says the side that knows more can degrade the market for the side that knows less?",
       "options": [
-        "Opportunity cost",
         "Sunk cost",
-        "Moral hazard"
+        "Asymmetric information",
+        "Planning fallacy"
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }
