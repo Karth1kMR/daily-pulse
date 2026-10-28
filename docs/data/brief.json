@@ -1,120 +1,119 @@
 {
-  "date": "2026-10-27",
-  "edition": "evening",
+  "date": "2026-10-28",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-27T19:34:55+05:30",
-  "read_seconds": 80,
+  "generated_at": "2026-10-28T07:33:36+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 22.2,
-    "condition": "Partly cloudy",
-    "high_c": 26.9,
-    "low_c": 17.4,
+    "now_c": 18.9,
+    "condition": "Overcast",
+    "high_c": 27.8,
+    "low_c": 17.3,
     "rain_chance_pct": 0,
-    "tip": "Dry tonight with a 17°C low, so rain is no excuse to drive after a drink. Traffic police booked 369 drink-driving cases in seven days (Urban Acres); book the cab before the first drink."
+    "tip": "Dry all day, 17–28°C, so rain is not a reason for a late start. The Hebbal–Tin Factory stretch is already struggling with potholes and congestion (Deccan Herald) and the Blue Line work there has just been cleared to continue, so leave early or take the metro."
   },
   "edge": {
-    "id": "mrp-ceiling",
-    "category": "Money trap",
-    "title": "The price printed on the strip",
-    "setup": "At the chemist, or buying anything packaged, you pay the MRP without a thought. It is printed, official-looking and the same on every shelf, so it feels like the price. For a long-term medicine bought every month, the gap between that number and what the shop paid can be large.",
-    "tell": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay.",
+    "id": "fake-payment-screenshot",
+    "category": "Street tactic",
+    "title": "The screenshot that isn't money",
+    "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
+    "tell": "Confirmation came from their screen, not from your bank.",
     "move": [
-      "Ask for the cheapest option with the same salt and strength, and compare the per-tablet price, not the brand.",
-      "For a medicine you buy monthly, price it at two or three chemists and a Jan Aushadhi Kendra before settling on one.",
-      "Take the bill every time, and treat a discount off MRP as normal to ask for, not a favour."
+      "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
+      "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
+      "For sales, meet inside a bank branch or a busy shop — not a parking lot."
     ],
-    "why": "The seller knows what the product cost; you see only a printed ceiling. When one side can see the cost and the other cannot, the ceiling quietly becomes the going price. Comparing on salt and strength puts back the information the label hides.",
-    "variants": "Same shape: 'MRP' on water and snacks at airports and venues, accessories sold at the full tag, 'sale' tags that cut from an inflated MRP.",
-    "anchor": "The Supreme Court questioned the overpricing of medicines and the massive gap between MRP and cost to retailers (Hindustan Times)."
+    "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
+    "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain."
   },
   "lens": {
-    "id": "asymmetric-information",
-    "name": "Asymmetric information",
-    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
-    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
     "elsewhere": [
-      "Freelance marketplaces race to the bottom without reviews.",
-      "Insurance pools get sicker when only the sick buy in.",
-      "A degree works partly as a costly signal of something an employer can't directly see."
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
     ],
-    "test": "What can the other side see that I can't — and what would make it visible?",
-    "today": "The Supreme Court asked why the MRP on medicines sits so far above what retailers pay (Hindustan Times). The chemist sees the cost and you see only the printed ceiling, so that ceiling becomes the price. Asking for the same salt at a lower price is how you make the hidden number visible."
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "Bengaluru is planning 120 km of elevated corridors at ₹23,165 crore, with toll on stretches over 10 km (Moneycontrol), and the Deputy CM spoke of 500 km of new roads (The Times of India). Induced demand says the people who gave up on these routes will return once they get easier, so judge a new road by what it adds to the whole trip and not by its first month."
   },
   "moved": [
     {
+      "tag": "Commute",
+      "what": "The Supreme Court has cleared Blue Line work at Hebbal, but a construction material shortage after a Tamil Nadu ban is hitting the project (The Times of India).",
+      "so_what": "Expect work to restart around Hebbal while supply is tight, so do not plan around a Blue Line opening date and keep an alternative for the Hebbal–Tin Factory run."
+    },
+    {
       "tag": "Your record",
-      "what": "Karnataka's final voter list after SIR is out: the electorate stands at 4.54 crore, nearly 1 crore fewer, with 65.45 lakh marked permanently shifted (The Times of India).",
-      "so_what": "Search your name in the final roll tonight. If you moved flats recently, you may be among those marked shifted, and finding out now beats finding out on polling day."
-    },
-    {
-      "tag": "Commute",
-      "what": "Safety clearance for the Bannerghatta Road metro line was reported as likely today, and the Supreme Court has allowed BMRCL to go ahead with the Blue Line (Deccan Herald).",
-      "so_what": "A clearance is not an opening date. Keep your current commute until BMRCL announces a start, then try the line off-peak first."
-    },
-    {
-      "tag": "Commute",
-      "what": "After an 18-month delay, Hennur–Bagalur road work has a December deadline and concretising works a two-month deadline; an elevated corridor or flyovers are also being considered (The Indian Express, Deccan Herald).",
-      "so_what": "Plan on the disruption lasting through December and treat the date as the earliest, not the likely finish. If your route uses it, test an alternative this week."
+      "what": "Bengaluru's electorate has fallen from 1.03 crore to 59 lakh after the SIR, a 43% cut, and the city accounts for 40% of deletions statewide (The Hindu, The Times of India).",
+      "so_what": "Search your name in the final roll today. If you moved flats recently you are more likely to be missing, and fixing it is easier now than near an election."
     },
     {
       "tag": "Prices",
-      "what": "The Supreme Court questioned the overpricing of medicines and the massive gap between MRP and the cost to retailers (Hindustan Times).",
-      "so_what": "For any medicine you buy every month, ask for the same salt in a cheaper brand and compare per-tablet price at one more shop before your next refill."
+      "what": "Bengaluru is to get 120 km of elevated corridors at ₹23,165 crore, with toll on stretches longer than 10 km (Moneycontrol).",
+      "so_what": "A faster elevated route may come with a toll, so when it opens price the toll against the minutes saved, and do not make a house-or-job move on a corridor that has no opening date."
     },
     {
-      "tag": "Civic",
-      "what": "Groups have told the Karnataka government to lift Bengaluru's protest curbs by Constitution Day, 26 November, or face civil disobedience (The Hindu).",
-      "so_what": "Expect a protest build-up near the end of November. Check the day's closures before travelling through the central area."
+      "tag": "Commute",
+      "what": "Hennur–Bagalur road work, delayed by 18 months, now has a December deadline (The Indian Express).",
+      "so_what": "Treat December as a target and not a promise: if that road is on your route, keep your current detour through the winter."
+    },
+    {
+      "tag": "Safety",
+      "what": "A woman caught a man recording her inside a Bengaluru metro; he fled with her phone (The Hindu).",
+      "so_what": "In a crowded coach keep your phone away from the door side and out of one-hand reach, and if someone films you, tell metro staff and the police on the spot, before he gets off."
     }
   ],
   "carry_over": {
-    "id": "favour-carry",
-    "prompt": "Someone you barely know asks you to carry a sealed packet on your trip as a small favour: what is the problem with saying yes?",
-    "answer": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong."
+    "id": "mrp-ceiling",
+    "prompt": "You are about to pay the printed MRP on a medicine you buy every month: what is the one thing to remember about that number?",
+    "answer": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay."
   },
   "quiz": [
     {
-      "q": "What does the MRP printed on a pack mean?",
+      "q": "Where must payment confirmation come from before you hand over the goods?",
       "options": [
-        "The most a seller may charge",
-        "What the shop paid",
-        "A fixed price with no discount"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "What should you ask the chemist for when comparing a medicine's price?",
-      "options": [
-        "The newest brand",
-        "The largest pack",
-        "The cheapest option with the same salt and strength"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "What is Karnataka's final electorate after SIR?",
-      "options": [
-        "5.54 crore",
-        "4.54 crore",
-        "3.54 crore"
+        "The buyer's UPI success screen",
+        "Your own bank SMS, app or payment-device alert",
+        "A screenshot with a reference number"
       ],
       "answer": 1
     },
     {
-      "q": "What is the deadline for Hennur–Bagalur road work?",
+      "q": "What should you say when a buyer shows a success screen and says the money will reflect later?",
       "options": [
-        "Already open",
-        "Next March",
-        "December"
+        "Take it, banks are slow",
+        "Ask for a second screenshot",
+        "I'll hand it over when my bank confirms"
       ],
       "answer": 2
     },
     {
-      "q": "Which mental model says the side that knows more can degrade the market for the side that knows less?",
+      "q": "By how much did Bengaluru's electorate fall after the SIR, per the figures reported?",
       "options": [
-        "Sunk cost",
-        "Asymmetric information",
-        "Planning fallacy"
+        "43%",
+        "13%",
+        "4%"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the reported cost of Bengaluru's planned 120-km elevated corridors?",
+      "options": [
+        "₹2,316 crore",
+        "₹23,165 crore",
+        "₹2,31,650 crore"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "According to induced demand, what happens when road capacity is added?",
+      "options": [
+        "Congestion is permanently solved",
+        "Suppressed trips return and fill the new capacity",
+        "Fewer people drive"
       ],
       "answer": 1
     }
