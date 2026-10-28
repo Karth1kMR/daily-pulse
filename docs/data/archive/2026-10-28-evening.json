@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-28",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-28T19:46:07+05:30",
+  "read_seconds": 70,
+  "edge": {
+    "id": "filmed-in-public",
+    "category": "Safety",
+    "title": "The phone that is pointed, not used",
+    "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
+    "tell": "A phone held still with the lens toward you and no one touching the screen.",
+    "move": [
+      "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
+      "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
+      "Note the coach, station and time, then file a police complaint the same day; the woman in the reported case did, and an FIR followed."
+    ],
+    "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
+    "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame.",
+    "anchor": "A woman on the Bengaluru metro caught a man recording her and confronted him; a case has been registered (The New Indian Express)."
+  },
+  "lens": {
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "elsewhere": [
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
+    ],
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "Less than 45 per cent of Bengalureans are voters (The New Indian Express), and the roll has fallen from 1.03 crore to 59 lakh (The Hindu). A fall of that size means little until you ask out of how many: adults, residents, or earlier roll entries. Many of those missing may be migrants registered elsewhere, so the number cannot tell you who was wrongly deleted."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Pink Line has received CMRS clearance, and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
+      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan around it."
+    },
+    {
+      "tag": "Your record",
+      "what": "Less than 45 per cent of Bengalureans are voters, and Karnataka's final roll dropped 99.76 lakh names and added 10.08 lakh (The New Indian Express, The Times of India).",
+      "so_what": "If you moved to Bengaluru from elsewhere, check which roll you are on today. A missing name is far easier to fix now than close to an election."
+    },
+    {
+      "tag": "Money",
+      "what": "An EPFO meeting on new schemes, withdrawal rules and benefits was held (The Times of India).",
+      "so_what": "Nothing is reported as changed yet. Ignore forwarded messages about 'new PF rules' until EPFO itself announces them, and never share your UAN OTP."
+    },
+    {
+      "tag": "Prices",
+      "what": "Construction costs are up 33 per cent and Bengaluru builders face a margin squeeze as sales slow (The Times of India).",
+      "so_what": "If you are buying an under-construction flat, expect pressure on price or delivery. Get the delivery date and the progress-linked payment schedule in writing before you pay more."
+    },
+    {
+      "tag": "Commute",
+      "what": "STANFEST 2026 expects 40,000+ fans and 2,000+ creators in Bengaluru on 31 October (TheWire.in).",
+      "so_what": "Allow extra time around the venue on Saturday evening and book your ride home in advance."
+    }
+  ],
+  "carry_over": {
+    "id": "fake-payment-screenshot",
+    "prompt": "A buyer shows you a UPI success screen and says the money will reflect in an hour: what is the one rule?",
+    "answer": "Confirmation came from their screen, not from your bank."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell that someone may be filming you in a crowd?",
+      "options": [
+        "A phone held still, lens toward you, with no one touching the screen",
+        "A phone held to the ear",
+        "Someone scrolling with a thumb"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When should you act if you suspect you are being filmed?",
+      "options": [
+        "After getting home",
+        "Before the next stop, while witnesses are around",
+        "Only if they speak to you"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "When did DK Shivakumar say PM Modi may inaugurate the Pink Line?",
+      "options": [
+        "15 November",
+        "31 October",
+        "1 January"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the base-rates test question?",
+      "options": [
+        "Who benefits?",
+        "Out of how many?",
+        "What did it cost?"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "By how much are Bengaluru construction costs reported up?",
+      "options": [
+        "3 per cent",
+        "13 per cent",
+        "33 per cent"
+      ],
+      "answer": 2
+    }
+  ]
+}

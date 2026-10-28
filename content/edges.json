@@ -512,6 +512,20 @@
       ],
       "why": "The seller knows what the product cost; you see only a printed ceiling. When one side can see the cost and the other cannot, the ceiling quietly becomes the going price. Comparing on salt and strength puts back the information the label hides.",
       "variants": "Same shape: 'MRP' on water and snacks at airports and venues, accessories sold at the full tag, 'sale' tags that cut from an inflated MRP."
+    },
+    {
+      "id": "filmed-in-public",
+      "category": "Safety",
+      "title": "The phone that is pointed, not used",
+      "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
+      "tell": "A phone held still with the lens toward you and no one touching the screen.",
+      "move": [
+        "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
+        "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
+        "Note the coach, station and time, then file a police complaint the same day; the woman in the reported case did, and an FIR followed."
+      ],
+      "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
+      "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame."
     }
   ]
 }

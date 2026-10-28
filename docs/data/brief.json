@@ -1,121 +1,114 @@
 {
   "date": "2026-10-28",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-28T07:33:36+05:30",
-  "read_seconds": 75,
-  "weather": {
-    "now_c": 18.9,
-    "condition": "Overcast",
-    "high_c": 27.8,
-    "low_c": 17.3,
-    "rain_chance_pct": 0,
-    "tip": "Dry all day, 17–28°C, so rain is not a reason for a late start. The Hebbal–Tin Factory stretch is already struggling with potholes and congestion (Deccan Herald) and the Blue Line work there has just been cleared to continue, so leave early or take the metro."
-  },
+  "generated_at": "2026-10-28T19:46:07+05:30",
+  "read_seconds": 70,
   "edge": {
-    "id": "fake-payment-screenshot",
-    "category": "Street tactic",
-    "title": "The screenshot that isn't money",
-    "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
-    "tell": "Confirmation came from their screen, not from your bank.",
+    "id": "filmed-in-public",
+    "category": "Safety",
+    "title": "The phone that is pointed, not used",
+    "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
+    "tell": "A phone held still with the lens toward you and no one touching the screen.",
     "move": [
-      "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
-      "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
-      "For sales, meet inside a bank branch or a busy shop — not a parking lot."
+      "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
+      "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
+      "Note the coach, station and time, then file a police complaint the same day; the woman in the reported case did, and an FIR followed."
     ],
-    "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
-    "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain."
+    "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
+    "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame.",
+    "anchor": "A woman on the Bengaluru metro caught a man recording her and confronted him; a case has been registered (The New Indian Express)."
   },
   "lens": {
-    "id": "induced-demand",
-    "name": "Induced demand",
-    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
-    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
     "elsewhere": [
-      "Build more parking and more people drive in.",
-      "Add engineers to a late project and the scope expands to absorb them.",
-      "Widen a hospital's OPD and the waiting room refills."
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
     ],
-    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
-    "today": "Bengaluru is planning 120 km of elevated corridors at ₹23,165 crore, with toll on stretches over 10 km (Moneycontrol), and the Deputy CM spoke of 500 km of new roads (The Times of India). Induced demand says the people who gave up on these routes will return once they get easier, so judge a new road by what it adds to the whole trip and not by its first month."
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "Less than 45 per cent of Bengalureans are voters (The New Indian Express), and the roll has fallen from 1.03 crore to 59 lakh (The Hindu). A fall of that size means little until you ask out of how many: adults, residents, or earlier roll entries. Many of those missing may be migrants registered elsewhere, so the number cannot tell you who was wrongly deleted."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Supreme Court has cleared Blue Line work at Hebbal, but a construction material shortage after a Tamil Nadu ban is hitting the project (The Times of India).",
-      "so_what": "Expect work to restart around Hebbal while supply is tight, so do not plan around a Blue Line opening date and keep an alternative for the Hebbal–Tin Factory run."
+      "what": "The Pink Line has received CMRS clearance, and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
+      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan around it."
     },
     {
       "tag": "Your record",
-      "what": "Bengaluru's electorate has fallen from 1.03 crore to 59 lakh after the SIR, a 43% cut, and the city accounts for 40% of deletions statewide (The Hindu, The Times of India).",
-      "so_what": "Search your name in the final roll today. If you moved flats recently you are more likely to be missing, and fixing it is easier now than near an election."
+      "what": "Less than 45 per cent of Bengalureans are voters, and Karnataka's final roll dropped 99.76 lakh names and added 10.08 lakh (The New Indian Express, The Times of India).",
+      "so_what": "If you moved to Bengaluru from elsewhere, check which roll you are on today. A missing name is far easier to fix now than close to an election."
+    },
+    {
+      "tag": "Money",
+      "what": "An EPFO meeting on new schemes, withdrawal rules and benefits was held (The Times of India).",
+      "so_what": "Nothing is reported as changed yet. Ignore forwarded messages about 'new PF rules' until EPFO itself announces them, and never share your UAN OTP."
     },
     {
       "tag": "Prices",
-      "what": "Bengaluru is to get 120 km of elevated corridors at ₹23,165 crore, with toll on stretches longer than 10 km (Moneycontrol).",
-      "so_what": "A faster elevated route may come with a toll, so when it opens price the toll against the minutes saved, and do not make a house-or-job move on a corridor that has no opening date."
+      "what": "Construction costs are up 33 per cent and Bengaluru builders face a margin squeeze as sales slow (The Times of India).",
+      "so_what": "If you are buying an under-construction flat, expect pressure on price or delivery. Get the delivery date and the progress-linked payment schedule in writing before you pay more."
     },
     {
       "tag": "Commute",
-      "what": "Hennur–Bagalur road work, delayed by 18 months, now has a December deadline (The Indian Express).",
-      "so_what": "Treat December as a target and not a promise: if that road is on your route, keep your current detour through the winter."
-    },
-    {
-      "tag": "Safety",
-      "what": "A woman caught a man recording her inside a Bengaluru metro; he fled with her phone (The Hindu).",
-      "so_what": "In a crowded coach keep your phone away from the door side and out of one-hand reach, and if someone films you, tell metro staff and the police on the spot, before he gets off."
+      "what": "STANFEST 2026 expects 40,000+ fans and 2,000+ creators in Bengaluru on 31 October (TheWire.in).",
+      "so_what": "Allow extra time around the venue on Saturday evening and book your ride home in advance."
     }
   ],
   "carry_over": {
-    "id": "mrp-ceiling",
-    "prompt": "You are about to pay the printed MRP on a medicine you buy every month: what is the one thing to remember about that number?",
-    "answer": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay."
+    "id": "fake-payment-screenshot",
+    "prompt": "A buyer shows you a UPI success screen and says the money will reflect in an hour: what is the one rule?",
+    "answer": "Confirmation came from their screen, not from your bank."
   },
   "quiz": [
     {
-      "q": "Where must payment confirmation come from before you hand over the goods?",
+      "q": "What is the tell that someone may be filming you in a crowd?",
       "options": [
-        "The buyer's UPI success screen",
-        "Your own bank SMS, app or payment-device alert",
-        "A screenshot with a reference number"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "What should you say when a buyer shows a success screen and says the money will reflect later?",
-      "options": [
-        "Take it, banks are slow",
-        "Ask for a second screenshot",
-        "I'll hand it over when my bank confirms"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "By how much did Bengaluru's electorate fall after the SIR, per the figures reported?",
-      "options": [
-        "43%",
-        "13%",
-        "4%"
+        "A phone held still, lens toward you, with no one touching the screen",
+        "A phone held to the ear",
+        "Someone scrolling with a thumb"
       ],
       "answer": 0
     },
     {
-      "q": "What is the reported cost of Bengaluru's planned 120-km elevated corridors?",
+      "q": "When should you act if you suspect you are being filmed?",
       "options": [
-        "₹2,316 crore",
-        "₹23,165 crore",
-        "₹2,31,650 crore"
+        "After getting home",
+        "Before the next stop, while witnesses are around",
+        "Only if they speak to you"
       ],
       "answer": 1
     },
     {
-      "q": "According to induced demand, what happens when road capacity is added?",
+      "q": "When did DK Shivakumar say PM Modi may inaugurate the Pink Line?",
       "options": [
-        "Congestion is permanently solved",
-        "Suppressed trips return and fill the new capacity",
-        "Fewer people drive"
+        "15 November",
+        "31 October",
+        "1 January"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the base-rates test question?",
+      "options": [
+        "Who benefits?",
+        "Out of how many?",
+        "What did it cost?"
       ],
       "answer": 1
+    },
+    {
+      "q": "By how much are Bengaluru construction costs reported up?",
+      "options": [
+        "3 per cent",
+        "13 per cent",
+        "33 per cent"
+      ],
+      "answer": 2
     }
   ]
 }
