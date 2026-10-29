@@ -1,61 +1,51 @@
 {
   "date": "2026-10-29",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-29T07:45:00+05:30",
+  "generated_at": "2026-10-29T20:10:00+05:30",
   "read_seconds": 70,
-  "weather": {
-    "now_c": 18.8,
-    "condition": "Foggy",
-    "high_c": 28.6,
-    "low_c": 18.5,
-    "rain_chance_pct": 0,
-    "tip": "Fog at 07:30 and a dry 28.6°C high. If you ride through the Hosur Road stretch where rail-girder work continues until February (The Times of India), use low beam and leave earlier."
-  },
   "edge": {
-    "id": "first-meeting-indoors",
-    "category": "Safety trap",
-    "title": "The first meeting indoors",
-    "setup": "You've been chatting with someone from a dating app for a week. They're easy to talk to and suggest skipping the café: a friend's place is empty this evening, it's quieter, and there's no point paying for coffee. You are told to come alone, and you mention you'll wear your usual chain and ring.",
-    "tell": "The first meeting is private, at a place you did not choose, with no one who knows where you are.",
+    "id": "upi-wrong-transfer",
+    "category": "Money trap",
+    "title": "The accidental ₹8,000",
+    "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
+    "tell": "They want the refund to go somewhere other than exactly where it came from.",
     "move": [
-      "Meet first in a busy public place you pick, in daylight or early evening.",
-      "Send a friend the person's name, photos and your live location before you go; agree a check-in time.",
-      "Do not wear or carry gold or other valuables to a first meeting, and do not go to an address you cannot leave on your own.",
-      "If anything feels wrong, leave first and explain later; 112 is the national emergency number."
+      "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
+      "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
+      "Screenshot everything before you touch anything."
     ],
-    "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
-    "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour.",
-    "anchor": "The Times of India reports a man was robbed of 226 g of gold after inviting a date to a friend's home in Bengaluru."
+    "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
+    "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'."
   },
   "lens": {
-    "id": "second-order",
-    "name": "Second-order effects",
-    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
-    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "id": "compounding",
+    "name": "Compounding",
+    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
+    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
     "elsewhere": [
-      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
-      "A company bans a tool, so work routes through an unmonitored one.",
-      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+      "Daily reading beating occasional cramming.",
+      "Minimum card payments keeping a balance alive for years.",
+      "Reputation: slow to build, then suddenly everything arrives at once."
     ],
-    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
-    "today": "Karnataka High Court has given non-compliant PGs a week to submit papers or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald). The obvious consequence is safer buildings. The less obvious ones are for tenants: beds disappear at short notice, nearby rents harden, and some operators pass compliance costs to residents."
+    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
+    "today": "A Bengaluru man paid ₹12,500 a month for 40 months into a ₹5 lakh chit scheme and received only ₹20,000; the consumer commission has ordered ₹4.07 lakh with interest (The Times of India). Small, regular payments feel harmless, yet 40 of them is ₹5 lakh, and the same multiplying works for whoever holds the money. Before joining any monthly scheme, add up the full total you will pay."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "The Pink Line has CMRS clearance and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
-      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan."
+      "tag": "Money",
+      "what": "Karnataka is raising milk prices by ₹8 per litre from 1 November; farmers get ₹7 of it (The Times of India).",
+      "so_what": "Expect your monthly milk bill to rise from 1 November. If you buy by monthly subscription, recheck the new rate before the next renewal."
     },
     {
       "tag": "Commute",
-      "what": "Rail girders are being used to clear Hosur Road traffic, with the section due to be ready by February (The Times of India).",
-      "so_what": "Expect work-zone slowdowns on Hosur Road until then. Treat February as a target, and add buffer time for airport or office trips that use it."
+      "what": "The Pink Line has safety clearance and PM Modi may inaugurate it on 15 November (Swarajya, Udayavani); The Hindu reports it opens only if the PM visits.",
+      "so_what": "Treat 15 November as likely, not confirmed. Do not change a commute or house plan until BMRCL announces public opening."
     },
     {
-      "tag": "Your home",
-      "what": "The High Court has given non-compliant Bengaluru PGs one week to submit documents or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald).",
-      "so_what": "If you live in a PG, ask the operator for proof of compliance and keep your deposit receipt. Know where you would move at short notice."
+      "tag": "Worth booking",
+      "what": "IKEA's second Bengaluru store, an 80,000-sq-ft city store, opens on 5 November, near Konanakunte metro (Moneycontrol, Urban Acres).",
+      "so_what": "If you are furnishing a home, expect a crowd in the opening week; go on a weekday, or after the first fortnight."
     },
     {
       "tag": "Your record",
@@ -63,9 +53,14 @@
       "so_what": "If you applied or were deleted, check your status on the Election Commission portal and keep the acknowledgement. Appeals are slow, so file early."
     },
     {
-      "tag": "Money",
-      "what": "Sharp cuts in cancer drug prices have exposed excessive pricing, say health experts (The Hindu).",
-      "so_what": "If someone in your family is on cancer treatment, ask the pharmacist and doctor about the current price and cheaper equivalents before the next refill."
+      "tag": "Civic",
+      "what": "The GBA plans a month-long cleanliness drive from 1 November, and a 'One Ward, One Drive' campaign targets neighbourhood issues (Deccan Herald, The New Indian Express).",
+      "so_what": "If a garbage blackspot or broken stretch near you has been ignored, report it now while the drive is running."
+    },
+    {
+      "tag": "Commute",
+      "what": "61-metre girders have been installed over NH-44 near Chandapura for the Bengaluru–Hosur rail project (The New Indian Express, Asianet Newsable).",
+      "so_what": "Expect work-zone slowdowns on Hosur Road and add buffer time for airport or office trips that use it."
     }
   ],
   "carry_over": {
@@ -75,47 +70,47 @@
   },
   "quiz": [
     {
-      "q": "What is the tell in the first-meeting-indoors trap?",
+      "q": "What is the tell in the accidental-transfer trap?",
       "options": [
-        "A private place you did not choose, with no one knowing where you are",
-        "A café with a crowd",
-        "A friend who knows the plan"
+        "They want the refund to go somewhere other than exactly where it came from",
+        "The amount is large",
+        "They message you in the evening"
       ],
       "answer": 0
     },
     {
-      "q": "What is the second-order effects test?",
+      "q": "What should you do with money that lands in your account by mistake?",
       "options": [
-        "Who is selling this?",
-        "Ask 'and then what?' three times",
-        "Out of how many?"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "How many days have non-compliant PGs been given by the High Court to submit documents?",
-      "options": [
-        "One week",
-        "One month",
-        "One day"
+        "Call your bank and let it reverse the credit",
+        "Send it to the UPI ID they give you",
+        "Send it back via the link they share"
       ],
       "answer": 0
     },
     {
-      "q": "On which date might PM Modi inaugurate the Pink Line, per DK Shivakumar?",
+      "q": "By how much will Karnataka raise milk prices per litre from 1 November?",
+      "options": [
+        "₹8",
+        "₹7",
+        "₹2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When might PM Modi inaugurate the Pink Line?",
       "options": [
         "15 November",
-        "31 October",
-        "1 February"
+        "5 November",
+        "1 November"
       ],
       "answer": 0
     },
     {
-      "q": "How many of 361 appeals against voter deletions have been heard?",
+      "q": "On which date does IKEA's second Bengaluru store open?",
       "options": [
-        "9",
-        "99",
-        "361"
+        "5 November",
+        "15 November",
+        "1 November"
       ],
       "answer": 0
     }
