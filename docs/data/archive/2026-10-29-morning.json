@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-29",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-29T07:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 18.8,
+    "condition": "Foggy",
+    "high_c": 28.6,
+    "low_c": 18.5,
+    "rain_chance_pct": 0,
+    "tip": "Fog at 07:30 and a dry 28.6°C high. If you ride through the Hosur Road stretch where rail-girder work continues until February (The Times of India), use low beam and leave earlier."
+  },
+  "edge": {
+    "id": "first-meeting-indoors",
+    "category": "Safety trap",
+    "title": "The first meeting indoors",
+    "setup": "You've been chatting with someone from a dating app for a week. They're easy to talk to and suggest skipping the café: a friend's place is empty this evening, it's quieter, and there's no point paying for coffee. You are told to come alone, and you mention you'll wear your usual chain and ring.",
+    "tell": "The first meeting is private, at a place you did not choose, with no one who knows where you are.",
+    "move": [
+      "Meet first in a busy public place you pick, in daylight or early evening.",
+      "Send a friend the person's name, photos and your live location before you go; agree a check-in time.",
+      "Do not wear or carry gold or other valuables to a first meeting, and do not go to an address you cannot leave on your own.",
+      "If anything feels wrong, leave first and explain later; 112 is the national emergency number."
+    ],
+    "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
+    "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour.",
+    "anchor": "The Times of India reports a man was robbed of 226 g of gold after inviting a date to a friend's home in Bengaluru."
+  },
+  "lens": {
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "elsewhere": [
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+    ],
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "Karnataka High Court has given non-compliant PGs a week to submit papers or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald). The obvious consequence is safer buildings. The less obvious ones are for tenants: beds disappear at short notice, nearby rents harden, and some operators pass compliance costs to residents."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Pink Line has CMRS clearance and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
+      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan."
+    },
+    {
+      "tag": "Commute",
+      "what": "Rail girders are being used to clear Hosur Road traffic, with the section due to be ready by February (The Times of India).",
+      "so_what": "Expect work-zone slowdowns on Hosur Road until then. Treat February as a target, and add buffer time for airport or office trips that use it."
+    },
+    {
+      "tag": "Your home",
+      "what": "The High Court has given non-compliant Bengaluru PGs one week to submit documents or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald).",
+      "so_what": "If you live in a PG, ask the operator for proof of compliance and keep your deposit receipt. Know where you would move at short notice."
+    },
+    {
+      "tag": "Your record",
+      "what": "83,806 voter enrolment requests were rejected, and only 9 of 361 appeals against deletions have been heard (The Times of India).",
+      "so_what": "If you applied or were deleted, check your status on the Election Commission portal and keep the acknowledgement. Appeals are slow, so file early."
+    },
+    {
+      "tag": "Money",
+      "what": "Sharp cuts in cancer drug prices have exposed excessive pricing, say health experts (The Hindu).",
+      "so_what": "If someone in your family is on cancer treatment, ask the pharmacist and doctor about the current price and cheaper equivalents before the next refill."
+    }
+  ],
+  "carry_over": {
+    "id": "filmed-in-public",
+    "prompt": "Someone near you in a crowded metro coach holds a phone still, lens toward you, thumb nowhere near the screen: what is the tell?",
+    "answer": "A phone held still with the lens toward you and no one touching the screen."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in the first-meeting-indoors trap?",
+      "options": [
+        "A private place you did not choose, with no one knowing where you are",
+        "A café with a crowd",
+        "A friend who knows the plan"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What is the second-order effects test?",
+      "options": [
+        "Who is selling this?",
+        "Ask 'and then what?' three times",
+        "Out of how many?"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many days have non-compliant PGs been given by the High Court to submit documents?",
+      "options": [
+        "One week",
+        "One month",
+        "One day"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "On which date might PM Modi inaugurate the Pink Line, per DK Shivakumar?",
+      "options": [
+        "15 November",
+        "31 October",
+        "1 February"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many of 361 appeals against voter deletions have been heard?",
+      "options": [
+        "9",
+        "99",
+        "361"
+      ],
+      "answer": 0
+    }
+  ]
+}

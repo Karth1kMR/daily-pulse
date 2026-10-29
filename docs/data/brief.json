@@ -1,114 +1,123 @@
 {
-  "date": "2026-10-28",
-  "edition": "evening",
+  "date": "2026-10-29",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-28T19:46:07+05:30",
+  "generated_at": "2026-10-29T07:45:00+05:30",
   "read_seconds": 70,
+  "weather": {
+    "now_c": 18.8,
+    "condition": "Foggy",
+    "high_c": 28.6,
+    "low_c": 18.5,
+    "rain_chance_pct": 0,
+    "tip": "Fog at 07:30 and a dry 28.6°C high. If you ride through the Hosur Road stretch where rail-girder work continues until February (The Times of India), use low beam and leave earlier."
+  },
   "edge": {
-    "id": "filmed-in-public",
-    "category": "Safety",
-    "title": "The phone that is pointed, not used",
-    "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
-    "tell": "A phone held still with the lens toward you and no one touching the screen.",
+    "id": "first-meeting-indoors",
+    "category": "Safety trap",
+    "title": "The first meeting indoors",
+    "setup": "You've been chatting with someone from a dating app for a week. They're easy to talk to and suggest skipping the café: a friend's place is empty this evening, it's quieter, and there's no point paying for coffee. You are told to come alone, and you mention you'll wear your usual chain and ring.",
+    "tell": "The first meeting is private, at a place you did not choose, with no one who knows where you are.",
     "move": [
-      "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
-      "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
-      "Note the coach, station and time, then file a police complaint the same day; the woman in the reported case did, and an FIR followed."
+      "Meet first in a busy public place you pick, in daylight or early evening.",
+      "Send a friend the person's name, photos and your live location before you go; agree a check-in time.",
+      "Do not wear or carry gold or other valuables to a first meeting, and do not go to an address you cannot leave on your own.",
+      "If anything feels wrong, leave first and explain later; 112 is the national emergency number."
     ],
-    "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
-    "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame.",
-    "anchor": "A woman on the Bengaluru metro caught a man recording her and confronted him; a case has been registered (The New Indian Express)."
+    "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
+    "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour.",
+    "anchor": "The Times of India reports a man was robbed of 226 g of gold after inviting a date to a friend's home in Bengaluru."
   },
   "lens": {
-    "id": "base-rates",
-    "name": "Base rates",
-    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
-    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
     "elsewhere": [
-      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
-      "A rare drug side-effect reported in the news, against how many prescriptions.",
-      "Plane crash coverage versus the per-kilometre fatality rate."
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
     ],
-    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
-    "today": "Less than 45 per cent of Bengalureans are voters (The New Indian Express), and the roll has fallen from 1.03 crore to 59 lakh (The Hindu). A fall of that size means little until you ask out of how many: adults, residents, or earlier roll entries. Many of those missing may be migrants registered elsewhere, so the number cannot tell you who was wrongly deleted."
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "Karnataka High Court has given non-compliant PGs a week to submit papers or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald). The obvious consequence is safer buildings. The less obvious ones are for tenants: beds disappear at short notice, nearby rents harden, and some operators pass compliance costs to residents."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Pink Line has received CMRS clearance, and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
-      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan around it."
-    },
-    {
-      "tag": "Your record",
-      "what": "Less than 45 per cent of Bengalureans are voters, and Karnataka's final roll dropped 99.76 lakh names and added 10.08 lakh (The New Indian Express, The Times of India).",
-      "so_what": "If you moved to Bengaluru from elsewhere, check which roll you are on today. A missing name is far easier to fix now than close to an election."
-    },
-    {
-      "tag": "Money",
-      "what": "An EPFO meeting on new schemes, withdrawal rules and benefits was held (The Times of India).",
-      "so_what": "Nothing is reported as changed yet. Ignore forwarded messages about 'new PF rules' until EPFO itself announces them, and never share your UAN OTP."
-    },
-    {
-      "tag": "Prices",
-      "what": "Construction costs are up 33 per cent and Bengaluru builders face a margin squeeze as sales slow (The Times of India).",
-      "so_what": "If you are buying an under-construction flat, expect pressure on price or delivery. Get the delivery date and the progress-linked payment schedule in writing before you pay more."
+      "what": "The Pink Line has CMRS clearance and DK Shivakumar says PM Modi may inaugurate it on 15 November (Moneycontrol).",
+      "so_what": "Treat 15 November as likely, not confirmed. Wait for BMRCL to announce public opening before changing any commute or house plan."
     },
     {
       "tag": "Commute",
-      "what": "STANFEST 2026 expects 40,000+ fans and 2,000+ creators in Bengaluru on 31 October (TheWire.in).",
-      "so_what": "Allow extra time around the venue on Saturday evening and book your ride home in advance."
+      "what": "Rail girders are being used to clear Hosur Road traffic, with the section due to be ready by February (The Times of India).",
+      "so_what": "Expect work-zone slowdowns on Hosur Road until then. Treat February as a target, and add buffer time for airport or office trips that use it."
+    },
+    {
+      "tag": "Your home",
+      "what": "The High Court has given non-compliant Bengaluru PGs one week to submit documents or face sealing, and about 5,500 PGs are set to come under a regulatory framework (Live Law, Deccan Herald).",
+      "so_what": "If you live in a PG, ask the operator for proof of compliance and keep your deposit receipt. Know where you would move at short notice."
+    },
+    {
+      "tag": "Your record",
+      "what": "83,806 voter enrolment requests were rejected, and only 9 of 361 appeals against deletions have been heard (The Times of India).",
+      "so_what": "If you applied or were deleted, check your status on the Election Commission portal and keep the acknowledgement. Appeals are slow, so file early."
+    },
+    {
+      "tag": "Money",
+      "what": "Sharp cuts in cancer drug prices have exposed excessive pricing, say health experts (The Hindu).",
+      "so_what": "If someone in your family is on cancer treatment, ask the pharmacist and doctor about the current price and cheaper equivalents before the next refill."
     }
   ],
   "carry_over": {
-    "id": "fake-payment-screenshot",
-    "prompt": "A buyer shows you a UPI success screen and says the money will reflect in an hour: what is the one rule?",
-    "answer": "Confirmation came from their screen, not from your bank."
+    "id": "filmed-in-public",
+    "prompt": "Someone near you in a crowded metro coach holds a phone still, lens toward you, thumb nowhere near the screen: what is the tell?",
+    "answer": "A phone held still with the lens toward you and no one touching the screen."
   },
   "quiz": [
     {
-      "q": "What is the tell that someone may be filming you in a crowd?",
+      "q": "What is the tell in the first-meeting-indoors trap?",
       "options": [
-        "A phone held still, lens toward you, with no one touching the screen",
-        "A phone held to the ear",
-        "Someone scrolling with a thumb"
+        "A private place you did not choose, with no one knowing where you are",
+        "A café with a crowd",
+        "A friend who knows the plan"
       ],
       "answer": 0
     },
     {
-      "q": "When should you act if you suspect you are being filmed?",
+      "q": "What is the second-order effects test?",
       "options": [
-        "After getting home",
-        "Before the next stop, while witnesses are around",
-        "Only if they speak to you"
+        "Who is selling this?",
+        "Ask 'and then what?' three times",
+        "Out of how many?"
       ],
       "answer": 1
     },
     {
-      "q": "When did DK Shivakumar say PM Modi may inaugurate the Pink Line?",
+      "q": "How many days have non-compliant PGs been given by the High Court to submit documents?",
+      "options": [
+        "One week",
+        "One month",
+        "One day"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "On which date might PM Modi inaugurate the Pink Line, per DK Shivakumar?",
       "options": [
         "15 November",
         "31 October",
-        "1 January"
+        "1 February"
       ],
       "answer": 0
     },
     {
-      "q": "What is the base-rates test question?",
+      "q": "How many of 361 appeals against voter deletions have been heard?",
       "options": [
-        "Who benefits?",
-        "Out of how many?",
-        "What did it cost?"
+        "9",
+        "99",
+        "361"
       ],
-      "answer": 1
-    },
-    {
-      "q": "By how much are Bengaluru construction costs reported up?",
-      "options": [
-        "3 per cent",
-        "13 per cent",
-        "33 per cent"
-      ],
-      "answer": 2
+      "answer": 0
     }
   ]
 }

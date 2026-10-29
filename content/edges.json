@@ -526,6 +526,21 @@
       ],
       "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
       "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame."
+    },
+    {
+      "id": "first-meeting-indoors",
+      "category": "Safety trap",
+      "title": "The first meeting indoors",
+      "setup": "You've been chatting with someone from a dating app for a week. They're easy to talk to and suggest skipping the café: a friend's place is empty this evening, it's quieter, and there's no point paying for coffee. You are told to come alone, and you mention you'll wear your usual chain and ring.",
+      "tell": "The first meeting is private, at a place you did not choose, with no one who knows where you are.",
+      "move": [
+        "Meet first in a busy public place you pick, in daylight or early evening.",
+        "Send a friend the person's name, photos and your live location before you go; agree a check-in time.",
+        "Do not wear or carry gold or other valuables to a first meeting, and do not go to an address you cannot leave on your own.",
+        "If anything feels wrong, leave first and explain later; 112 is the national emergency number."
+      ],
+      "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
+      "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour."
     }
   ]
 }
