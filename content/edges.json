@@ -555,6 +555,20 @@
       ],
       "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
       "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit."
+    },
+    {
+      "id": "coop-society-fd",
+      "category": "Money trap",
+      "title": "The deposit that isn't in a bank",
+      "setup": "A neighbour recommends a 'co-operative' that pays about a point more than bank FDs, with a neat receipt, a friendly office near the market and a name that sounds like a bank. You can open the FD in ten minutes with a cheque. Nothing about it looks different from the branch you already use.",
+      "tell": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI.",
+      "move": [
+        "Before depositing, check that the institution is a licensed bank, not a society. Look it up on the RBI's list of banks.",
+        "If it is a society, treat the money as unprotected by the bank deposit insurance and put in only what you could wait years to recover.",
+        "Keep the receipt and pay by cheque or transfer. If maturity is refused, complain in writing early and ask where a consumer or co-operative registrar complaint can be filed."
+      ],
+      "why": "A higher rate is the price of weaker protection, but the receipt looks the same either way, so the risk is invisible until maturity. The check is about what the institution is, not how it looks or how many neighbours use it. It works on any deposit scheme.",
+      "variants": "Same shape: the chit fund with a registered-sounding name, the 'nidhi' that offers monthly interest, the builder's 'deposit scheme' sold as an FD."
     }
   ]
 }
