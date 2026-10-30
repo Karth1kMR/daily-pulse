@@ -541,6 +541,20 @@
       ],
       "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
       "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour."
+    },
+    {
+      "id": "branch-staff-side-deal",
+      "category": "Money trap",
+      "title": "The helpful man at the branch",
+      "setup": "A branch executive you have known for years says there is a better return than your FD, a special scheme that is not on the website. Hand over the cheque or cash today, he will 'process it internally' and give you a handwritten acknowledgement. He is in uniform, at his desk, inside the bank.",
+      "tell": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement.",
+      "move": [
+        "Pay only by transfer from your own account to a product you can see in your own app or on a system-generated receipt.",
+        "Never hand cash or a cheque to an individual, whatever the building he sits in.",
+        "Check your statement and SMS the same day; if the entry is missing, escalate in writing to the branch manager and the bank's grievance channel."
+      ],
+      "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
+      "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit."
     }
   ]
 }

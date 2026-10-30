@@ -1,116 +1,119 @@
 {
-  "date": "2026-10-29",
-  "edition": "evening",
+  "date": "2026-10-30",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-29T20:10:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-10-30T07:40:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 19.9,
+    "condition": "Clear",
+    "high_c": 30.0,
+    "low_c": 18.5,
+    "rain_chance_pct": 4,
+    "tip": "A clear morning at 19.9°C heading for a dry 30°C. With the cleanliness drive and the milk price rise both starting 1 November, use today's dry spell to sort errands and any subscription changes first."
+  },
   "edge": {
-    "id": "upi-wrong-transfer",
+    "id": "branch-staff-side-deal",
     "category": "Money trap",
-    "title": "The accidental ₹8,000",
-    "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
-    "tell": "They want the refund to go somewhere other than exactly where it came from.",
+    "title": "The helpful man at the branch",
+    "setup": "A branch executive you have known for years says there is a better return than your FD, a special scheme that is not on the website. Hand over the cheque or cash today, he will 'process it internally' and give you a handwritten acknowledgement. He is in uniform, at his desk, inside the bank.",
+    "tell": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement.",
     "move": [
-      "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
-      "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
-      "Screenshot everything before you touch anything."
+      "Pay only by transfer from your own account to a product you can see in your own app or on a system-generated receipt.",
+      "Never hand cash or a cheque to an individual, whatever the building he sits in.",
+      "Check your statement and SMS the same day; if the entry is missing, escalate in writing to the branch manager and the bank's grievance channel."
     ],
-    "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
-    "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'."
+    "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
+    "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit."
   },
   "lens": {
-    "id": "compounding",
-    "name": "Compounding",
-    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
-    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
+    "id": "principal-agent",
+    "name": "Principal–agent problem",
+    "one_line": "The person acting for you is paid for something subtly different from what you want.",
+    "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
     "elsewhere": [
-      "Daily reading beating occasional cramming.",
-      "Minimum card payments keeping a balance alive for years.",
-      "Reputation: slow to build, then suddenly everything arrives at once."
+      "Fund managers judged quarterly take risks that look fine quarterly.",
+      "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+      "A mechanic paid per part replaced finds more parts to replace."
     ],
-    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
-    "today": "A Bengaluru man paid ₹12,500 a month for 40 months into a ₹5 lakh chit scheme and received only ₹20,000; the consumer commission has ordered ₹4.07 lakh with interest (The Times of India). Small, regular payments feel harmless, yet 40 of them is ₹5 lakh, and the same multiplying works for whoever holds the money. Before joining any monthly scheme, add up the full total you will pay."
+    "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
+    "today": "Fresh bids for Bengaluru's garbage collection contracts have undercut the earlier rates, and Bengaluru Solid Waste Management Ltd is defending the original contracts (The Times of India). Whoever signs a contract is paid by the terms of the contract, not by how clean your street is. When a civic body defends a price, ask what the agent is paid for before you trust the outcome."
   },
   "moved": [
     {
-      "tag": "Money",
-      "what": "Karnataka is raising milk prices by ₹8 per litre from 1 November; farmers get ₹7 of it (The Times of India).",
-      "so_what": "Expect your monthly milk bill to rise from 1 November. If you buy by monthly subscription, recheck the new rate before the next renewal."
+      "tag": "Prices",
+      "what": "Hoteliers say the ₹8-per-litre Nandini milk hike from 1 November will push up coffee, tea and food prices; the hotels association has opposed the increase (The Times of India, Moneycontrol, ThePrint).",
+      "so_what": "Expect a higher bill for daily tea, coffee and tiffin out from early November. If you eat out daily, set the new figure in your monthly budget now."
     },
     {
       "tag": "Commute",
-      "what": "The Pink Line has safety clearance and PM Modi may inaugurate it on 15 November (Swarajya, Udayavani); The Hindu reports it opens only if the PM visits.",
+      "what": "Railway minister Ashwini Vaishnaw will flag off a Vande Bharat sleeper from Bengaluru to Mumbai on 1 November, a 16-hour journey (The Times of India).",
+      "so_what": "If you travel to Mumbai, check IRCTC for this service's timings and fares before booking another train or flight."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Pink Line's 7.5-km elevated stretch has safety clearance, and a 15 November opening by PM Modi is reported as likely (Swarajya, Goodreturns).",
       "so_what": "Treat 15 November as likely, not confirmed. Do not change a commute or house plan until BMRCL announces public opening."
     },
     {
       "tag": "Worth booking",
-      "what": "IKEA's second Bengaluru store, an 80,000-sq-ft city store, opens on 5 November, near Konanakunte metro (Moneycontrol, Urban Acres).",
-      "so_what": "If you are furnishing a home, expect a crowd in the opening week; go on a weekday, or after the first fortnight."
+      "what": "KSRTC and KSTDC have announced 12 tour packages for the Hasanamba Temple festival, while private operators are fully booked (The Hindu).",
+      "so_what": "If you plan to go, book the KSRTC or KSTDC package now; the private options are gone."
     },
     {
-      "tag": "Your record",
-      "what": "83,806 voter enrolment requests were rejected, and only 9 of 361 appeals against deletions have been heard (The Times of India).",
-      "so_what": "If you applied or were deleted, check your status on the Election Commission portal and keep the acknowledgement. Appeals are slow, so file early."
-    },
-    {
-      "tag": "Civic",
-      "what": "The GBA plans a month-long cleanliness drive from 1 November, and a 'One Ward, One Drive' campaign targets neighbourhood issues (Deccan Herald, The New Indian Express).",
-      "so_what": "If a garbage blackspot or broken stretch near you has been ignored, report it now while the drive is running."
-    },
-    {
-      "tag": "Commute",
-      "what": "61-metre girders have been installed over NH-44 near Chandapura for the Bengaluru–Hosur rail project (The New Indian Express, Asianet Newsable).",
-      "so_what": "Expect work-zone slowdowns on Hosur Road and add buffer time for airport or office trips that use it."
+      "tag": "Safety",
+      "what": "The Chief Justice of India expressed shock that people believe they can be arrested over a mobile phone, in a hearing on digital arrest scams (Live Law).",
+      "so_what": "No agency arrests anyone on a call or video. If someone says you are under arrest on the phone, hang up and call a family member."
     }
   ],
   "carry_over": {
-    "id": "filmed-in-public",
-    "prompt": "Someone near you in a crowded metro coach holds a phone still, lens toward you, thumb nowhere near the screen: what is the tell?",
-    "answer": "A phone held still with the lens toward you and no one touching the screen."
+    "id": "upi-wrong-transfer",
+    "prompt": "₹8,000 lands in your account and the sender asks you to return it to a different UPI ID than the one it came from: what is the tell?",
+    "answer": "They want the refund to go somewhere other than exactly where it came from."
   },
   "quiz": [
     {
-      "q": "What is the tell in the accidental-transfer trap?",
+      "q": "What is the tell in the helpful-man-at-the-branch trap?",
       "options": [
-        "They want the refund to go somewhere other than exactly where it came from",
-        "The amount is large",
-        "They message you in the evening"
+        "Your money leaves your hands, but no entry appears under your name in your own bank app or statement",
+        "The scheme has a high return",
+        "The branch is crowded"
       ],
       "answer": 0
     },
     {
-      "q": "What should you do with money that lands in your account by mistake?",
+      "q": "Where should you pay for a scheme offered by a branch staffer?",
       "options": [
-        "Call your bank and let it reverse the credit",
-        "Send it to the UPI ID they give you",
-        "Send it back via the link they share"
+        "By transfer from your own account to a product you can see in your app",
+        "Cash handed to him at his desk",
+        "A cheque in his name"
       ],
       "answer": 0
     },
     {
-      "q": "By how much will Karnataka raise milk prices per litre from 1 November?",
+      "q": "By how much per litre is Nandini milk going up from 1 November?",
       "options": [
         "₹8",
-        "₹7",
+        "₹4",
         "₹2"
       ],
       "answer": 0
     },
     {
-      "q": "When might PM Modi inaugurate the Pink Line?",
+      "q": "How long is the Vande Bharat sleeper journey from Bengaluru to Mumbai, flagged off 1 November?",
       "options": [
-        "15 November",
-        "5 November",
-        "1 November"
+        "16 hours",
+        "12 hours",
+        "24 hours"
       ],
       "answer": 0
     },
     {
-      "q": "On which date does IKEA's second Bengaluru store open?",
+      "q": "What should you do if someone tells you on a call that you are under 'digital arrest'?",
       "options": [
-        "5 November",
-        "15 November",
-        "1 November"
+        "Hang up and call a family member",
+        "Stay on the video call and comply",
+        "Pay the fine to close the case"
       ],
       "answer": 0
     }

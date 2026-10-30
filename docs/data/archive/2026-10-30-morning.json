@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-30",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-30T07:40:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 19.9,
+    "condition": "Clear",
+    "high_c": 30.0,
+    "low_c": 18.5,
+    "rain_chance_pct": 4,
+    "tip": "A clear morning at 19.9°C heading for a dry 30°C. With the cleanliness drive and the milk price rise both starting 1 November, use today's dry spell to sort errands and any subscription changes first."
+  },
+  "edge": {
+    "id": "branch-staff-side-deal",
+    "category": "Money trap",
+    "title": "The helpful man at the branch",
+    "setup": "A branch executive you have known for years says there is a better return than your FD, a special scheme that is not on the website. Hand over the cheque or cash today, he will 'process it internally' and give you a handwritten acknowledgement. He is in uniform, at his desk, inside the bank.",
+    "tell": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement.",
+    "move": [
+      "Pay only by transfer from your own account to a product you can see in your own app or on a system-generated receipt.",
+      "Never hand cash or a cheque to an individual, whatever the building he sits in.",
+      "Check your statement and SMS the same day; if the entry is missing, escalate in writing to the branch manager and the bank's grievance channel."
+    ],
+    "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
+    "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit."
+  },
+  "lens": {
+    "id": "principal-agent",
+    "name": "Principal–agent problem",
+    "one_line": "The person acting for you is paid for something subtly different from what you want.",
+    "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+    "elsewhere": [
+      "Fund managers judged quarterly take risks that look fine quarterly.",
+      "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+      "A mechanic paid per part replaced finds more parts to replace."
+    ],
+    "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
+    "today": "Fresh bids for Bengaluru's garbage collection contracts have undercut the earlier rates, and Bengaluru Solid Waste Management Ltd is defending the original contracts (The Times of India). Whoever signs a contract is paid by the terms of the contract, not by how clean your street is. When a civic body defends a price, ask what the agent is paid for before you trust the outcome."
+  },
+  "moved": [
+    {
+      "tag": "Prices",
+      "what": "Hoteliers say the ₹8-per-litre Nandini milk hike from 1 November will push up coffee, tea and food prices; the hotels association has opposed the increase (The Times of India, Moneycontrol, ThePrint).",
+      "so_what": "Expect a higher bill for daily tea, coffee and tiffin out from early November. If you eat out daily, set the new figure in your monthly budget now."
+    },
+    {
+      "tag": "Commute",
+      "what": "Railway minister Ashwini Vaishnaw will flag off a Vande Bharat sleeper from Bengaluru to Mumbai on 1 November, a 16-hour journey (The Times of India).",
+      "so_what": "If you travel to Mumbai, check IRCTC for this service's timings and fares before booking another train or flight."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Pink Line's 7.5-km elevated stretch has safety clearance, and a 15 November opening by PM Modi is reported as likely (Swarajya, Goodreturns).",
+      "so_what": "Treat 15 November as likely, not confirmed. Do not change a commute or house plan until BMRCL announces public opening."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "KSRTC and KSTDC have announced 12 tour packages for the Hasanamba Temple festival, while private operators are fully booked (The Hindu).",
+      "so_what": "If you plan to go, book the KSRTC or KSTDC package now; the private options are gone."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Chief Justice of India expressed shock that people believe they can be arrested over a mobile phone, in a hearing on digital arrest scams (Live Law).",
+      "so_what": "No agency arrests anyone on a call or video. If someone says you are under arrest on the phone, hang up and call a family member."
+    }
+  ],
+  "carry_over": {
+    "id": "upi-wrong-transfer",
+    "prompt": "₹8,000 lands in your account and the sender asks you to return it to a different UPI ID than the one it came from: what is the tell?",
+    "answer": "They want the refund to go somewhere other than exactly where it came from."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in the helpful-man-at-the-branch trap?",
+      "options": [
+        "Your money leaves your hands, but no entry appears under your name in your own bank app or statement",
+        "The scheme has a high return",
+        "The branch is crowded"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Where should you pay for a scheme offered by a branch staffer?",
+      "options": [
+        "By transfer from your own account to a product you can see in your app",
+        "Cash handed to him at his desk",
+        "A cheque in his name"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "By how much per litre is Nandini milk going up from 1 November?",
+      "options": [
+        "₹8",
+        "₹4",
+        "₹2"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How long is the Vande Bharat sleeper journey from Bengaluru to Mumbai, flagged off 1 November?",
+      "options": [
+        "16 hours",
+        "12 hours",
+        "24 hours"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What should you do if someone tells you on a call that you are under 'digital arrest'?",
+      "options": [
+        "Hang up and call a family member",
+        "Stay on the video call and comply",
+        "Pay the fine to close the case"
+      ],
+      "answer": 0
+    }
+  ]
+}
