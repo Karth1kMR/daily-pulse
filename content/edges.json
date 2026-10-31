@@ -569,6 +569,20 @@
       ],
       "why": "A higher rate is the price of weaker protection, but the receipt looks the same either way, so the risk is invisible until maturity. The check is about what the institution is, not how it looks or how many neighbours use it. It works on any deposit scheme.",
       "variants": "Same shape: the chit fund with a registered-sounding name, the 'nidhi' that offers monthly interest, the builder's 'deposit scheme' sold as an FD."
+    },
+    {
+      "id": "fake-profit-dashboard",
+      "category": "Money trap",
+      "title": "The profit you can only see",
+      "setup": "Someone you met online adds you to a trading group where members post daily gains. A 'mentor' points you to an app or site, you deposit a small sum, and the screen shows it growing. A small withdrawal even works. Then a much bigger opportunity appears, with a deadline.",
+      "tell": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first.",
+      "move": [
+        "Invest only through a broker or platform you can find on SEBI's list of registered intermediaries, and open the app from the official store listing, not from a link sent to you.",
+        "Never pay a 'tax', 'fee' or 'verification deposit' to release your own money. A real broker deducts charges from the balance.",
+        "If money has gone, call the national cyber-crime helpline 1930 at once and report at cybercrime.gov.in, since early reports give the best chance of freezing the receiving account."
+      ],
+      "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
+      "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw."
     }
   ]
 }

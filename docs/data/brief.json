@@ -1,113 +1,113 @@
 {
-  "date": "2026-10-30",
-  "edition": "evening",
+  "date": "2026-10-31",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-10-30T19:50:00+05:30",
-  "read_seconds": 80,
+  "generated_at": "2026-10-31T07:40:00+05:30",
+  "read_seconds": 75,
   "weather": null,
   "edge": {
-    "id": "coop-society-fd",
+    "id": "fake-profit-dashboard",
     "category": "Money trap",
-    "title": "The deposit that isn't in a bank",
-    "anchor": "The Times of India reports a Bengaluru woman's ₹3 lakh FD at a credit co-op society matured in 2020 and a forum has ordered a refund, with 9.5% interest and ₹35,000 compensation, after six years of waiting.",
-    "setup": "A neighbour recommends a 'co-operative' that pays about a point more than bank FDs, with a neat receipt, a friendly office near the market and a name that sounds like a bank. You can open the FD in ten minutes with a cheque. Nothing about it looks different from the branch you already use.",
-    "tell": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI.",
+    "title": "The profit you can only see",
+    "anchor": "The Times of India reports a Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits.",
+    "setup": "Someone you met online adds you to a trading group where members post daily gains. A 'mentor' points you to an app or site, you deposit a small sum, and the screen shows it growing. A small withdrawal even works. Then a much bigger opportunity appears, with a deadline.",
+    "tell": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first.",
     "move": [
-      "Before depositing, check that the institution is a licensed bank, not a society. Look it up on the RBI's list of banks.",
-      "If it is a society, treat the money as unprotected by the bank deposit insurance and put in only what you could wait years to recover.",
-      "Keep the receipt and pay by cheque or transfer. If maturity is refused, complain in writing early and ask where a consumer or co-operative registrar complaint can be filed."
+      "Invest only through a broker or platform you can find on SEBI's list of registered intermediaries, and open the app from the official store listing, not from a link sent to you.",
+      "Never pay a 'tax', 'fee' or 'verification deposit' to release your own money. A real broker deducts charges from the balance.",
+      "If money has gone, call the national cyber-crime helpline 1930 at once and report at cybercrime.gov.in, since early reports give the best chance of freezing the receiving account."
     ],
-    "why": "A higher rate is the price of weaker protection, but the receipt looks the same either way, so the risk is invisible until maturity. The check is about what the institution is, not how it looks or how many neighbours use it. It works on any deposit scheme.",
-    "variants": "Same shape: the chit fund with a registered-sounding name, the 'nidhi' that offers monthly interest, the builder's 'deposit scheme' sold as an FD."
+    "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
+    "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw."
   },
   "lens": {
-    "id": "selection-effects",
-    "name": "Selection effects",
-    "one_line": "How a group got assembled usually explains the result better than anything about its members.",
-    "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
     "elsewhere": [
-      "'Our customers love us' — the unhappy ones already left.",
-      "Exam toppers from a coaching centre that only admits toppers.",
-      "Crime statistics shaped by which complaints get registered."
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
     ],
-    "test": "How did these people end up in this group — and who never had the chance to?",
-    "today": "A Bengaluru woman's ₹3 lakh FD at a credit co-operative society matured in 2020, and a consumer forum has only now ordered a refund with 9.5% interest and ₹35,000 compensation (The Times of India). We hear about the depositors who kept pursuing it for six years; those who gave up never show up in the story. That makes the visible recoveries look like the typical outcome when they are not."
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "A Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits (The Times of India). Once a screen shows a gain, losing it feels worse than the gain felt good, so the next deposit to 'protect' or release it seems easier to justify than walking away. The scammer is selling that discomfort, not a stock."
   },
   "moved": [
     {
-      "tag": "Prices",
-      "what": "Hoteliers in Bengaluru are weighing price revisions after the ₹8-per-litre milk price hike (The Times of India).",
-      "so_what": "Expect tea, coffee and tiffin to cost more from November. If you eat out daily, add the higher figure to your monthly budget now."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "The Bengaluru–Mumbai Vande Bharat sleeper starts public service on 3 November (Deccan Herald), with a 19:45 departure via Pune, Solapur and Kalaburagi (RailJournal).",
-      "so_what": "If you are planning a Mumbai trip, compare this overnight service's fare and timing against flights before you book. Confirm the date on IRCTC, as earlier reports gave 1 November."
-    },
-    {
       "tag": "Commute",
-      "what": "The Pink Line's 7.5-km stretch has safety clearance. Udayavani reports a 15 November launch by the Prime Minister, while Goodreturns still asks whether it is likely.",
-      "so_what": "Treat 15 November as probable, not confirmed. Do not change a home or commute plan until BMRCL announces public opening."
+      "what": "Namma Metro services were disrupted for 18 minutes after a passenger entered the tracks to retrieve a dropped token (The Times of India); Deccan Herald reports it hit the morning rush.",
+      "so_what": "Allow 15 to 20 minutes of slack on metro-dependent trips, and keep your token or card in a zipped pocket, since a dropped token is not worth stepping near the track."
     },
     {
       "tag": "Safety",
-      "what": "Karnataka restricts Deepavali fireworks to 20:00–22:00 on 8 to 10 November, and only green crackers are allowed (The Times of India).",
-      "so_what": "If you buy crackers, buy green ones and plan to light them in that window. Expect noise and smoke in the evening, so schedule evening travel and any pets or elders around it."
+      "what": "A Bengaluru woman's gold chain was stolen by a new social-media friend while she was sleeping in a hotel room (The Times of India).",
+      "so_what": "Keep first meetings with online contacts in public places, and do not share a room or sleep around someone you have known only through an app. Leave jewellery you do not need at home."
     },
     {
       "tag": "Worth booking",
-      "what": "The Bengaluru–Karwar Vande Bharat Express is to be launched by the third week of November (The Hindu).",
-      "so_what": "If you travel to the coast, wait for the announced timetable and fares before booking other transport for late November."
+      "what": "Bengaluru-Mumbai Vande Bharat sleeper train is to start public service on 3 November (Deccan Herald).",
+      "so_what": "If a Mumbai trip is on your list, compare this train's fare and timing with flights before booking, and confirm the date on IRCTC."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "For the Hasanamba Temple festival, KSRTC and KSTDC have announced 12 tour packages while private operators are fully booked (The Hindu).",
+      "so_what": "If you plan to go, book a KSRTC or KSTDC package now, since private options are already gone. Check the festival dates in the announcement before you pay."
+    },
+    {
+      "tag": "Your record",
+      "what": "Door-to-door enumeration for Census 2027 will start on 25 January (The Hindu).",
+      "so_what": "Nothing to do yet, but note the date. Treat anyone asking for OTPs or bank details 'for the census' as a fraud, and keep your household details handy for the real visit."
     }
   ],
   "carry_over": {
-    "id": "branch-staff-side-deal",
-    "prompt": "A branch executive you know offers a special scheme that is not on the website and takes your cheque to 'process it internally': what is the tell?",
-    "answer": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement."
+    "id": "coop-society-fd",
+    "prompt": "A neighbour recommends a 'co-operative' paying a point more than bank FDs, with a neat receipt and a bank-like name: what is the tell?",
+    "answer": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI."
   },
   "quiz": [
     {
-      "q": "What is the tell in the deposit-that-isn't-in-a-bank trap?",
+      "q": "What is the tell in 'the profit you can only see' trap?",
       "options": [
-        "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI",
-        "The FD has a long tenure",
-        "The office is small"
+        "Your profit shows only on a screen run by those asking for the next deposit, and withdrawing needs another payment",
+        "The app has a dark theme",
+        "The group has many members"
       ],
       "answer": 0
     },
     {
-      "q": "Where do you check whether an institution is a licensed bank?",
+      "q": "What should you do when asked for a 'fee' to release your own trading profit?",
       "options": [
-        "The RBI's list of banks",
-        "The neighbour's recommendation",
-        "The receipt's letterhead"
+        "Refuse, since a real broker deducts charges from the balance",
+        "Pay it, since it is small",
+        "Pay it only by UPI"
       ],
       "answer": 0
     },
     {
-      "q": "What did the consumer forum order for the Bengaluru woman's matured ₹3 lakh FD at a credit co-op society?",
+      "q": "Which number is the national cyber-crime helpline to call if money has gone?",
       "options": [
-        "Refund with 9.5% interest and ₹35,000 compensation",
-        "Only the original ₹3 lakh",
-        "Nothing, the case was dismissed"
+        "1930",
+        "1800",
+        "100200"
       ],
       "answer": 0
     },
     {
-      "q": "When does the Bengaluru–Mumbai Vande Bharat sleeper start public service, per Deccan Herald?",
+      "q": "How much did a Bengaluru man lose to stock-trading scammers, per The Times of India?",
+      "options": [
+        "₹1.1 crore",
+        "₹11 lakh",
+        "₹1.1 lakh"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When does the Bengaluru-Mumbai Vande Bharat sleeper start public service, per Deccan Herald?",
       "options": [
         "3 November",
         "15 November",
-        "8 November"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "During which hours are Deepavali fireworks permitted in Karnataka on 8 to 10 November?",
-      "options": [
-        "20:00–22:00",
-        "18:00–23:00",
-        "06:00–08:00"
+        "25 January"
       ],
       "answer": 0
     }

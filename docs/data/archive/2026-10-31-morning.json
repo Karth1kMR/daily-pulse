@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-31",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-10-31T07:40:00+05:30",
+  "read_seconds": 75,
+  "weather": null,
+  "edge": {
+    "id": "fake-profit-dashboard",
+    "category": "Money trap",
+    "title": "The profit you can only see",
+    "anchor": "The Times of India reports a Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits.",
+    "setup": "Someone you met online adds you to a trading group where members post daily gains. A 'mentor' points you to an app or site, you deposit a small sum, and the screen shows it growing. A small withdrawal even works. Then a much bigger opportunity appears, with a deadline.",
+    "tell": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first.",
+    "move": [
+      "Invest only through a broker or platform you can find on SEBI's list of registered intermediaries, and open the app from the official store listing, not from a link sent to you.",
+      "Never pay a 'tax', 'fee' or 'verification deposit' to release your own money. A real broker deducts charges from the balance.",
+      "If money has gone, call the national cyber-crime helpline 1930 at once and report at cybercrime.gov.in, since early reports give the best chance of freezing the receiving account."
+    ],
+    "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
+    "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw."
+  },
+  "lens": {
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "elsewhere": [
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
+    ],
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "A Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits (The Times of India). Once a screen shows a gain, losing it feels worse than the gain felt good, so the next deposit to 'protect' or release it seems easier to justify than walking away. The scammer is selling that discomfort, not a stock."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Namma Metro services were disrupted for 18 minutes after a passenger entered the tracks to retrieve a dropped token (The Times of India); Deccan Herald reports it hit the morning rush.",
+      "so_what": "Allow 15 to 20 minutes of slack on metro-dependent trips, and keep your token or card in a zipped pocket, since a dropped token is not worth stepping near the track."
+    },
+    {
+      "tag": "Safety",
+      "what": "A Bengaluru woman's gold chain was stolen by a new social-media friend while she was sleeping in a hotel room (The Times of India).",
+      "so_what": "Keep first meetings with online contacts in public places, and do not share a room or sleep around someone you have known only through an app. Leave jewellery you do not need at home."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Bengaluru-Mumbai Vande Bharat sleeper train is to start public service on 3 November (Deccan Herald).",
+      "so_what": "If a Mumbai trip is on your list, compare this train's fare and timing with flights before booking, and confirm the date on IRCTC."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "For the Hasanamba Temple festival, KSRTC and KSTDC have announced 12 tour packages while private operators are fully booked (The Hindu).",
+      "so_what": "If you plan to go, book a KSRTC or KSTDC package now, since private options are already gone. Check the festival dates in the announcement before you pay."
+    },
+    {
+      "tag": "Your record",
+      "what": "Door-to-door enumeration for Census 2027 will start on 25 January (The Hindu).",
+      "so_what": "Nothing to do yet, but note the date. Treat anyone asking for OTPs or bank details 'for the census' as a fraud, and keep your household details handy for the real visit."
+    }
+  ],
+  "carry_over": {
+    "id": "coop-society-fd",
+    "prompt": "A neighbour recommends a 'co-operative' paying a point more than bank FDs, with a neat receipt and a bank-like name: what is the tell?",
+    "answer": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in 'the profit you can only see' trap?",
+      "options": [
+        "Your profit shows only on a screen run by those asking for the next deposit, and withdrawing needs another payment",
+        "The app has a dark theme",
+        "The group has many members"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What should you do when asked for a 'fee' to release your own trading profit?",
+      "options": [
+        "Refuse, since a real broker deducts charges from the balance",
+        "Pay it, since it is small",
+        "Pay it only by UPI"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which number is the national cyber-crime helpline to call if money has gone?",
+      "options": [
+        "1930",
+        "1800",
+        "100200"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How much did a Bengaluru man lose to stock-trading scammers, per The Times of India?",
+      "options": [
+        "₹1.1 crore",
+        "₹11 lakh",
+        "₹1.1 lakh"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "When does the Bengaluru-Mumbai Vande Bharat sleeper start public service, per Deccan Herald?",
+      "options": [
+        "3 November",
+        "15 November",
+        "25 January"
+      ],
+      "answer": 0
+    }
+  ]
+}
