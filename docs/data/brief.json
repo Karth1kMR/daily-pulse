@@ -1,115 +1,120 @@
 {
   "date": "2026-10-31",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-10-31T07:40:00+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-10-31T19:33:41+05:30",
+  "read_seconds": 70,
   "weather": null,
   "edge": {
-    "id": "fake-profit-dashboard",
+    "id": "scan-to-receive",
     "category": "Money trap",
-    "title": "The profit you can only see",
-    "anchor": "The Times of India reports a Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits.",
-    "setup": "Someone you met online adds you to a trading group where members post daily gains. A 'mentor' points you to an app or site, you deposit a small sum, and the screen shows it growing. A small withdrawal even works. Then a much bigger opportunity appears, with a deadline.",
-    "tell": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first.",
+    "title": "The QR you scan to get paid",
+    "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
+    "tell": "You were asked for your UPI PIN to receive money.",
     "move": [
-      "Invest only through a broker or platform you can find on SEBI's list of registered intermediaries, and open the app from the official store listing, not from a link sent to you.",
-      "Never pay a 'tax', 'fee' or 'verification deposit' to release your own money. A real broker deducts charges from the balance.",
-      "If money has gone, call the national cyber-crime helpline 1930 at once and report at cybercrime.gov.in, since early reports give the best chance of freezing the receiving account."
+      "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
+      "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
+      "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
+      "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
     ],
-    "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
-    "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw."
+    "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
+    "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters."
   },
   "lens": {
-    "id": "loss-aversion",
-    "name": "Loss aversion",
-    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
-    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
     "elsewhere": [
-      "'Only 2 left at this price' converting far better than a discount.",
-      "Holding a falling stock to avoid realising a loss.",
-      "Free trials relying on the pain of giving something up."
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
     ],
-    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
-    "today": "A Bengaluru man lost ₹1.1 crore to stock-trading scammers after being lured by quick profits (The Times of India). Once a screen shows a gain, losing it feels worse than the gain felt good, so the next deposit to 'protect' or release it seems easier to justify than walking away. The scammer is selling that discomfort, not a stock."
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "Bangalore Mirror and Urban Acres both report that Namma Metro Phase 3 has hit another land hurdle. Phase 3 timelines were set from the clean version of the plan, and land acquisition is the delay that recurs on projects like it. Treat any announced opening date as the best case, and do not tie a house move or job change to it."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Namma Metro services were disrupted for 18 minutes after a passenger entered the tracks to retrieve a dropped token (The Times of India); Deccan Herald reports it hit the morning rush.",
-      "so_what": "Allow 15 to 20 minutes of slack on metro-dependent trips, and keep your token or card in a zipped pocket, since a dropped token is not worth stepping near the track."
+      "what": "Namma Metro Phase 3 has hit another land hurdle (Bangalore Mirror, Urban Acres).",
+      "so_what": "If you are weighing a home or job move around a Phase 3 corridor, plan on the metro arriving later than announced and make the commute work without it."
+    },
+    {
+      "tag": "Prices",
+      "what": "Rice price is nearing ₹100/kg and Karnataka farmers are seeking a 2 tmcft 'water loan' (The Times of India).",
+      "so_what": "Expect the monthly grocery bill to rise. Compare per-kg rates across varieties before stocking up for the festival week."
+    },
+    {
+      "tag": "Money",
+      "what": "The Centre has scrapped the ₹2.5/litre petrol export duty and raised the diesel levy to ₹11.5 (The Times of India).",
+      "so_what": "This is a levy on exports, not on pump sales, and the report does not mention a pump-price change. No action now; watch your pump rate over the coming days."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Special trains from Bengaluru to Tuticorin and Kannur have been announced for Deepavali (Deccan Herald).",
+      "so_what": "If you are travelling south or to Kerala for the festival, check IRCTC for these services now, because regular festival trains fill first."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru-Mumbai Vande Bharat sleeper is reported to start on 1 November (NDTV), and tickets are already on the waiting list (The Indian Express). This morning's brief cited 3 November from Deccan Herald.",
+      "so_what": "The start date differs between sources, so confirm it on IRCTC before planning a trip around it, and expect to book early or take a waitlist."
     },
     {
       "tag": "Safety",
-      "what": "A Bengaluru woman's gold chain was stolen by a new social-media friend while she was sleeping in a hotel room (The Times of India).",
-      "so_what": "Keep first meetings with online contacts in public places, and do not share a room or sleep around someone you have known only through an app. Leave jewellery you do not need at home."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "Bengaluru-Mumbai Vande Bharat sleeper train is to start public service on 3 November (Deccan Herald).",
-      "so_what": "If a Mumbai trip is on your list, compare this train's fare and timing with flights before booking, and confirm the date on IRCTC."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "For the Hasanamba Temple festival, KSRTC and KSTDC have announced 12 tour packages while private operators are fully booked (The Hindu).",
-      "so_what": "If you plan to go, book a KSRTC or KSTDC package now, since private options are already gone. Check the festival dates in the announcement before you pay."
-    },
-    {
-      "tag": "Your record",
-      "what": "Door-to-door enumeration for Census 2027 will start on 25 January (The Hindu).",
-      "so_what": "Nothing to do yet, but note the date. Treat anyone asking for OTPs or bank details 'for the census' as a fraud, and keep your household details handy for the real visit."
+      "what": "Bengaluru police have issued 19-point Deepavali safety guidelines and warned of legal action against violators (The Hindu).",
+      "so_what": "Read the list before you burst crackers or host a gathering, since breaking a rule can now mean legal action."
     }
   ],
   "carry_over": {
-    "id": "coop-society-fd",
-    "prompt": "A neighbour recommends a 'co-operative' paying a point more than bank FDs, with a neat receipt and a bank-like name: what is the tell?",
-    "answer": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI."
+    "id": "fake-profit-dashboard",
+    "prompt": "A group shows daily gains and a 'mentor' sends you to an app where your profit grows on screen: what is the tell?",
+    "answer": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first."
   },
   "quiz": [
     {
-      "q": "What is the tell in 'the profit you can only see' trap?",
+      "q": "What is the tell in 'the QR you scan to get paid' trap?",
       "options": [
-        "Your profit shows only on a screen run by those asking for the next deposit, and withdrawing needs another payment",
-        "The app has a dark theme",
-        "The group has many members"
+        "You were asked for your UPI PIN to receive money",
+        "The QR code is black and white",
+        "The buyer is a stranger"
       ],
       "answer": 0
     },
     {
-      "q": "What should you do when asked for a 'fee' to release your own trading profit?",
+      "q": "A buyer sends a payment request to 'receive' money and the screen says Pay. What should you do?",
       "options": [
-        "Refuse, since a real broker deducts charges from the balance",
-        "Pay it, since it is small",
-        "Pay it only by UPI"
+        "Enter the PIN quickly before it expires",
+        "Close it and share your own QR or UPI ID",
+        "Ask the buyer to send it again"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which helpline or portal does the scan-to-receive entry give for reporting lost money?",
+      "options": [
+        "112",
+        "1930 or cybercrime.gov.in",
+        "1098"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does the planning fallacy suggest about Metro Phase 3 dates?",
+      "options": [
+        "Announced dates are the best case, and delays are likely",
+        "Dates are usually met early",
+        "Dates do not matter"
       ],
       "answer": 0
     },
     {
-      "q": "Which number is the national cyber-crime helpline to call if money has gone?",
+      "q": "What does The Times of India report about rice prices in Karnataka?",
       "options": [
-        "1930",
-        "1800",
-        "100200"
+        "They have fallen below ₹40/kg",
+        "They are nearing ₹100/kg",
+        "They are unchanged"
       ],
-      "answer": 0
-    },
-    {
-      "q": "How much did a Bengaluru man lose to stock-trading scammers, per The Times of India?",
-      "options": [
-        "₹1.1 crore",
-        "₹11 lakh",
-        "₹1.1 lakh"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "When does the Bengaluru-Mumbai Vande Bharat sleeper start public service, per Deccan Herald?",
-      "options": [
-        "3 November",
-        "15 November",
-        "25 January"
-      ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }
