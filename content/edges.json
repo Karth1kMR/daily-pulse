@@ -598,6 +598,21 @@
       ],
       "why": "Water conducts electricity, and a wet body conducts it far better than dry skin. A pool is a metal-and-wire environment (lights, pumps, ladders) sitting in water, so a small fault can put current where people are. The tingle is the early, survivable warning; the only cheap defence is to act on it before it becomes a larger current. A premium look says nothing about the wiring behind it.",
       "variants": "Same shape: a mild shock from a bathroom geyser or tap, a wet-floor kitchen appliance that buzzes, a metal lamp post or hoarding that tingles in the rain."
+    },
+    {
+      "id": "vendor-substitution",
+      "category": "Money trap",
+      "title": "The vendor who sends someone else",
+      "setup": "You book a photographer, caterer or decorator for a wedding or family event and pay a large advance. The sales call promised the senior person, 'personal coverage' and a named team. The agreement you sign says only 'photography package'. On the day, assistants you have never met turn up and the person you paid is elsewhere.",
+      "tell": "The thing you were promised in conversation is missing from the paper you signed.",
+      "move": [
+        "Before paying, get every promise written into the booking: who will attend in person, how many people, which hours, what is delivered and by when.",
+        "Pay in stages and keep the largest part until delivery, never the full amount upfront.",
+        "If the vendor will not write the promise down, treat that as your answer and book someone else.",
+        "If it goes wrong, keep the messages, receipts and the agreement, send a written complaint first, and then approach the consumer commission."
+      ],
+      "why": "Verbal promises are cheap for a seller to make and impossible for you to enforce. A vendor sells the senior name to win the booking and then delivers whatever is cheapest, and only the signed terms can be held against them. Writing a promise down costs an honest vendor nothing, which is why a vendor who resists it is telling you something.",
+      "variants": "Same shape: a contractor who promises a named supervisor, a coaching class that promises a particular teacher, a caterer who shows a tasting menu and serves another."
     }
   ]
 }

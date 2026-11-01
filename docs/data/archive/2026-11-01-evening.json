@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-01",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-01T19:40:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 25.7,
+    "condition": "Overcast",
+    "high_c": 29.5,
+    "low_c": 20.5,
+    "rain_chance_pct": 43,
+    "tip": "Overcast and 25.7°C with a 43% chance of rain, so the evening commute is more likely dry than not; the bigger risk is the Kannada Rajyotsava crowd and diversions near Kanteerava Stadium, so use the metro rather than a road if you are heading that way."
+  },
+  "edge": {
+    "id": "vendor-substitution",
+    "category": "Money trap",
+    "title": "The vendor who sends someone else",
+    "anchor": "A Karnataka woman paid ₹1.99 lakh to a wedding photographer who promised personal coverage, found assistants covering the ceremonies, and a consumer court ordered ₹35,000 compensation plus litigation expenses (The Times of India).",
+    "setup": "You book a photographer, caterer or decorator for a wedding or family event and pay a large advance. The sales call promised the senior person, 'personal coverage' and a named team. The agreement you sign says only 'photography package'. On the day, assistants you have never met turn up and the person you paid is elsewhere.",
+    "tell": "The thing you were promised in conversation is missing from the paper you signed.",
+    "move": [
+      "Before paying, get every promise written into the booking: who will attend in person, how many people, which hours, what is delivered and by when.",
+      "Pay in stages and keep the largest part until delivery, never the full amount upfront.",
+      "If the vendor will not write the promise down, treat that as your answer and book someone else.",
+      "If it goes wrong, keep the messages, receipts and the agreement, send a written complaint first, and then approach the consumer commission."
+    ],
+    "why": "Verbal promises are cheap for a seller to make and impossible for you to enforce. A vendor sells the senior name to win the booking and then delivers whatever is cheapest, and only the signed terms can be held against them. Writing a promise down costs an honest vendor nothing, which is why a vendor who resists it is telling you something.",
+    "variants": "Same shape: a contractor who promises a named supervisor, a coaching class that promises a particular teacher, a caterer who shows a tasting menu and serves another."
+  },
+  "lens": {
+    "id": "sunk-cost",
+    "name": "Sunk cost",
+    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
+    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "elsewhere": [
+      "Government projects continued because of money already spent.",
+      "Relationships extended by their length rather than their state.",
+      "Reading a book to the end because you're halfway."
+    ],
+    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
+    "today": "Bangalore Mirror, The Times of India and others report the Silk Board makeover and its drain upgrade, 'only 25% done', and Bengaluru Metro's Pink Line is reported to have crossed ₹1,000 crore per km. Big civic projects invite the pull to keep going because so much is already spent. The useful question for any project, or your own renovation, is what it costs from here and whether you would start it today."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Silk Board Junction's makeover has begun under the Greater Bengaluru Authority's 'Ward One' campaign, and the drain upgrade is only 25% done, aiming to end flooding before next monsoon (The Times of India, The New Indian Express).",
+      "so_what": "Expect work-zone slowdowns around Silk Board for months, so add a buffer on any trip through it. Don't count on it staying dry until next monsoon."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru-Mumbai Vande Bharat Sleeper has been flagged off (The Economic Times, Moneycontrol).",
+      "so_what": "If you travel to Mumbai regularly, check the stoppages and timings against flights before your next booking."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (The News Mill), and special trains to Tuticorin and Kannur are announced (Deccan Herald).",
+      "so_what": "If you are travelling for Deepavali, book now, because peak-day regular services fill first."
+    },
+    {
+      "tag": "Safety",
+      "what": "Police were alerted to the deaths at the Conrad hotel pool only after the hospital sent a memo, and the FIR names the hotel management (The Times of India). Underwater pool lighting is under scrutiny (Hindustan Times).",
+      "so_what": "Don't assume a hotel has reported or fixed a fault. If you feel a tingle in any pool, leave and tell staff."
+    },
+    {
+      "tag": "Commute",
+      "what": "A passenger who entered the tracks at Indiranagar Metro station to retrieve a token disrupted services (Livemint).",
+      "so_what": "If you drop a token, ask station staff to get it. Keep a buffer on metro-dependent trips."
+    },
+    {
+      "tag": "Money",
+      "what": "UPI's average daily transaction value topped ₹1 lakh crore for the first time (Moneycontrol).",
+      "so_what": "UPI is carrying more of everyday spending, so keep your PIN private and use only the 'pay' screen when money is meant to arrive."
+    }
+  ],
+  "carry_over": {
+    "id": "water-tingle",
+    "prompt": "You feel a faint tingle while standing in a hotel pool, and nobody else seems bothered: what is the tell?",
+    "answer": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in 'the vendor who sends someone else'?",
+      "options": [
+        "The vendor's price is high",
+        "A promise made in conversation is missing from the signed paper",
+        "The vendor has assistants"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How much compensation did the consumer court order in the wedding photographer case?",
+      "options": [
+        "₹35,000",
+        "₹1.99 lakh",
+        "₹10,000"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How should you pay a vendor for a large event?",
+      "options": [
+        "Full amount upfront for a discount",
+        "In stages, keeping the largest part until delivery",
+        "Entirely on the day, in cash"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many additional buses will KSRTC run for the Deepavali rush?",
+      "options": [
+        "2,600",
+        "1,200",
+        "600"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What does the sunk-cost test ask?",
+      "options": [
+        "How much have I already spent?",
+        "Would I choose this fresh today, with nothing invested?",
+        "Who else is involved?"
+      ],
+      "answer": 1
+    }
+  ]
+}
