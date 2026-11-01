@@ -583,6 +583,21 @@
       ],
       "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
       "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw."
+    },
+    {
+      "id": "water-tingle",
+      "category": "Physical safety",
+      "title": "The tingle in the water",
+      "setup": "You are in a hotel or apartment pool, or standing in wet shoes beside it, and you feel a faint tingle, buzz or prickle on your skin. It is mild, nobody else has said anything, and the pool looks perfectly clean and expensive. It is easy to put down to cold water or your imagination.",
+      "tell": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise.",
+      "move": [
+        "Get out of the water at once and tell the others to get out. Do not wait to be sure.",
+        "If someone is unresponsive in the water, do not jump in after them, because you can become the next casualty. Shout for staff, ask for the power to be switched off and call 112.",
+        "Report it to the front desk or society office, and do not go back in until someone qualified has checked it.",
+        "At home, keep wet hands and feet away from switches, extension boards and water heaters, and replace any cracked or exposed wiring."
+      ],
+      "why": "Water conducts electricity, and a wet body conducts it far better than dry skin. A pool is a metal-and-wire environment (lights, pumps, ladders) sitting in water, so a small fault can put current where people are. The tingle is the early, survivable warning; the only cheap defence is to act on it before it becomes a larger current. A premium look says nothing about the wiring behind it.",
+      "variants": "Same shape: a mild shock from a bathroom geyser or tap, a wet-floor kitchen appliance that buzzes, a metal lamp post or hoarding that tingles in the rain."
     }
   ]
 }

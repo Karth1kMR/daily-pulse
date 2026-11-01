@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-01",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-01T07:45:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 21.3,
+    "condition": "Overcast",
+    "high_c": 29.4,
+    "low_c": 20.2,
+    "rain_chance_pct": 27,
+    "tip": "Overcast now at 21.3°C with only a 27% chance of rain, but overnight rain waterlogged some roads and Kannada Rajyotsava brings parking curbs and diversions around Kanteerava Stadium, so leave early and avoid that stretch."
+  },
+  "edge": {
+    "id": "water-tingle",
+    "category": "Physical safety",
+    "title": "The tingle in the water",
+    "anchor": "Two foreigners died of suspected electrocution in the swimming pool of a five-star hotel in Bengaluru (NDTV, Deccan Herald, The Hindu).",
+    "setup": "You are in a hotel or apartment pool, or standing in wet shoes beside it, and you feel a faint tingle, buzz or prickle on your skin. It is mild, nobody else has said anything, and the pool looks perfectly clean and expensive. It is easy to put down to cold water or your imagination.",
+    "tell": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise.",
+    "move": [
+      "Get out of the water at once and tell the others to get out. Do not wait to be sure.",
+      "If someone is unresponsive in the water, do not jump in after them, because you can become the next casualty. Shout for staff, ask for the power to be switched off and call 112.",
+      "Report it to the front desk or society office, and do not go back in until someone qualified has checked it.",
+      "At home, keep wet hands and feet away from switches, extension boards and water heaters, and replace any cracked or exposed wiring."
+    ],
+    "why": "Water conducts electricity, and a wet body conducts it far better than dry skin. A pool is a metal-and-wire environment (lights, pumps, ladders) sitting in water, so a small fault can put current where people are. The tingle is the early, survivable warning; the only cheap defence is to act on it before it becomes a larger current. A premium look says nothing about the wiring behind it.",
+    "variants": "Same shape: a mild shock from a bathroom geyser or tap, a wet-floor kitchen appliance that buzzes, a metal lamp post or hoarding that tingles in the rain."
+  },
+  "lens": {
+    "id": "costly-signals",
+    "name": "Costly signals",
+    "one_line": "A signal is only trustworthy if it is expensive for a liar to fake.",
+    "detail": "We rely on cheap markers of trust: a local phone number, a logo, a polished video, a confident tone. They work only while faking them costs more than the fraud earns. When technology makes a marker cheap to copy, it stops carrying information, and you must switch to something the faker cannot produce cheaply.",
+    "elsewhere": [
+      "A letterhead or PDF 'offer letter' versus a verified company email domain.",
+      "A five-star review count versus a reviewer with a long, varied history.",
+      "A flat shown in a video versus a key that turns in the lock."
+    ],
+    "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence.",
+    "today": "The Times of India asks, after the hotel pool deaths, whether safety is assured at a five-star property. A star rating and a polished lobby are cheap to display and say little about the wiring behind the pool. Judge a place by something a careless operator could not easily fake, such as a visible safety certificate you can ask to see, or by how staff react when you report a problem."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Overnight rain waterlogged Bengaluru roads and disrupted morning traffic (DD News), and the police have announced parking curbs and diversions around Kanteerava Stadium for Kannada Rajyotsava (Deccan Herald, The Hindu).",
+      "so_what": "If your route touches the Kanteerava Stadium area, take another road or the metro today, and check for standing water before you take an underpass."
+    },
+    {
+      "tag": "Commute",
+      "what": "A passenger who went onto the tracks at a Namma Metro station to retrieve a dropped token delayed services for 18 minutes (The Times of India).",
+      "so_what": "If you drop a token or card, ask station staff to retrieve it, because one incident can cost every rider about 20 minutes. Keep a small buffer on metro-dependent trips."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (The News Mill), and special trains from Bengaluru to Tuticorin and Kannur have been announced (Deccan Herald).",
+      "so_what": "If you are travelling for Deepavali, book a seat now on the extra services, because the peak-day regular ones fill first."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru-Mangaluru-Goa Vande Bharat is reported to start from the third week of November (The Times of India, The Hindu).",
+      "so_what": "A Goa trip in late November may be possible by train. Wait for the confirmed date and booking window before you commit to flights."
+    },
+    {
+      "tag": "Prices",
+      "what": "Chief Minister DK Shivakumar says the curd price hike is the Karnataka Milk Federation's call (The Times of India).",
+      "so_what": "Expect your monthly dairy bill to rise. The headline gives no amount, so check the new rate on your next pack before you renew any subscription."
+    },
+    {
+      "tag": "Safety",
+      "what": "A BMTC bus caught fire near St John's Hospital in Koramangala, and all 20 passengers escaped unhurt (The Hindu, The Times of India).",
+      "so_what": "When you board a bus, note where the doors and emergency exits are before you sit. It takes five seconds and decides how quickly you get out."
+    }
+  ],
+  "carry_over": {
+    "id": "scan-to-receive",
+    "prompt": "A buyer sends a QR code or payment request and says to approve it so the money lands in your account: what is the tell?",
+    "answer": "You were asked for your UPI PIN to receive money."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in 'the tingle in the water'?",
+      "options": [
+        "A tingle, buzz or shock while wet",
+        "The water looks cloudy",
+        "The pool is crowded"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If someone is unresponsive in a pool you suspect is live, what should you do?",
+      "options": [
+        "Jump in and pull them out",
+        "Shout for staff, ask for the power to be switched off and call 112",
+        "Wait and watch for a minute"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How long did the metro token incident delay services, according to The Times of India?",
+      "options": [
+        "5 minutes",
+        "18 minutes",
+        "45 minutes"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How many additional buses will KSRTC run for the Deepavali rush?",
+      "options": [
+        "600",
+        "1,200",
+        "2,600"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What does costly-signals thinking say about a five-star label?",
+      "options": [
+        "It proves the place is safe",
+        "It is cheap to display, so look for something a careless operator could not fake",
+        "Stars are always fake"
+      ],
+      "answer": 1
+    }
+  ]
+}
