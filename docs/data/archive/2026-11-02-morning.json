@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-02T07:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.9,
+    "condition": "Overcast",
+    "high_c": 29.0,
+    "low_c": 20.7,
+    "rain_chance_pct": 79,
+    "tip": "Overcast at 21.9°C with a 79% chance of rain, so a wet commute is likelier than not: leave 15 minutes earlier and keep the bag covered. With bus fares rising on Nov 5, it is also a good week to check what your pass or daily fare will become."
+  },
+  "edge": {
+    "id": "rental-advance",
+    "category": "Money trap",
+    "title": "The flat that doesn't exist",
+    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+    "tell": "Money is moving before a key has turned in a lock you touched.",
+    "move": [
+      "Never transfer anything before physically standing inside the flat with someone who can open it.",
+      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+    ],
+    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
+  },
+  "lens": {
+    "id": "moral-hazard",
+    "name": "Moral hazard",
+    "one_line": "People take more risk when someone else carries the downside.",
+    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "elsewhere": [
+      "Limited liability encourages risk-taking — deliberately, as a feature.",
+      "A free replacement warranty subtly reduces how carefully a device is handled.",
+      "Deposit guarantees reduce depositors' scrutiny of their bank."
+    ],
+    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
+    "today": "TOI Bengaluru reports a trust employee who allegedly stole ₹40 lakh over four years to fund online betting. Four years is long enough that the person handling the money bore none of the downside while the trust bore all of it, so only his own caution stood between the money and the loss. Ask the same of any arrangement of yours: who handles the money, and who eats the loss if it goes wrong?"
+  },
+  "moved": [
+    {
+      "tag": "Prices",
+      "what": "Bus fares in Karnataka will go up on Nov 5, after the recent milk and curd price rises (The Times of India).",
+      "so_what": "If you ride buses daily, check the revised fare or pass price before Nov 5 and add it to this month's budget. Small, repeated increases add up faster than one big one."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (India Gazette).",
+      "so_what": "If you are travelling for Deepavali, book now: peak-day seats on regular services go first, and extra buses are usually the ones that fill last."
+    },
+    {
+      "tag": "Your record",
+      "what": "EPFO has started WhatsApp services and will automatically settle inactive PF accounts with balances up to ₹1,000 (Moneycontrol).",
+      "so_what": "If an old employer left a small PF balance behind, check your passbook this week so you know it is not settled without your knowing, and keep your UAN and mobile number updated."
+    },
+    {
+      "tag": "Safety",
+      "what": "CCTV footage suggests an electrical fault near the pool entrance in the Conrad hotel deaths, and the swimming association plans to issue pool-safety guidelines (The Times of India).",
+      "so_what": "Until the guidelines exist, apply your own: any tingle or buzz in a pool means get out and tell staff, and do not wait to see if others react."
+    },
+    {
+      "tag": "Money",
+      "what": "Binance users withdrew billions after a record crypto hack (BBC).",
+      "so_what": "Money left on an exchange is a claim on the exchange, not cash in your hand. If you hold crypto, keep on an exchange only what you are actively trading."
+    }
+  ],
+  "carry_over": {
+    "id": "vendor-substitution",
+    "prompt": "A vendor promised you the senior person on a booking, but the agreement says only 'photography package': what is the tell?",
+    "answer": "The thing you were promised in conversation is missing from the paper you signed."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in 'the flat that doesn't exist'?",
+      "options": [
+        "The rent is slightly negotiable",
+        "Money is moving before a key has turned in a lock you touched",
+        "The owner sends photos"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What should you do when pressed to pay a token advance today because others are interested?",
+      "options": [
+        "Pay half to hold it",
+        "Treat the pressure as the scam announcing itself",
+        "Ask for a video call and then pay"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "On what date will Karnataka bus fares go up, according to TOI?",
+      "options": [
+        "Nov 5",
+        "Nov 15",
+        "Nov 1"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many additional buses will KSRTC run for the Deepavali rush?",
+      "options": [
+        "600",
+        "2,600",
+        "12,000"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does the moral-hazard test ask?",
+      "options": [
+        "Who eats the loss if this goes wrong?",
+        "How much has already been spent?",
+        "What is the base rate?"
+      ],
+      "answer": 0
+    }
+  ]
+}

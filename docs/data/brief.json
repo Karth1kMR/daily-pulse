@@ -1,128 +1,121 @@
 {
-  "date": "2026-11-01",
-  "edition": "evening",
+  "date": "2026-11-02",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-01T19:40:00+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-11-02T07:45:00+05:30",
+  "read_seconds": 70,
   "weather": {
-    "now_c": 25.7,
+    "now_c": 21.9,
     "condition": "Overcast",
-    "high_c": 29.5,
-    "low_c": 20.5,
-    "rain_chance_pct": 43,
-    "tip": "Overcast and 25.7°C with a 43% chance of rain, so the evening commute is more likely dry than not; the bigger risk is the Kannada Rajyotsava crowd and diversions near Kanteerava Stadium, so use the metro rather than a road if you are heading that way."
+    "high_c": 29.0,
+    "low_c": 20.7,
+    "rain_chance_pct": 79,
+    "tip": "Overcast at 21.9°C with a 79% chance of rain, so a wet commute is likelier than not: leave 15 minutes earlier and keep the bag covered. With bus fares rising on Nov 5, it is also a good week to check what your pass or daily fare will become."
   },
   "edge": {
-    "id": "vendor-substitution",
+    "id": "rental-advance",
     "category": "Money trap",
-    "title": "The vendor who sends someone else",
-    "anchor": "A Karnataka woman paid ₹1.99 lakh to a wedding photographer who promised personal coverage, found assistants covering the ceremonies, and a consumer court ordered ₹35,000 compensation plus litigation expenses (The Times of India).",
-    "setup": "You book a photographer, caterer or decorator for a wedding or family event and pay a large advance. The sales call promised the senior person, 'personal coverage' and a named team. The agreement you sign says only 'photography package'. On the day, assistants you have never met turn up and the person you paid is elsewhere.",
-    "tell": "The thing you were promised in conversation is missing from the paper you signed.",
+    "title": "The flat that doesn't exist",
+    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+    "tell": "Money is moving before a key has turned in a lock you touched.",
     "move": [
-      "Before paying, get every promise written into the booking: who will attend in person, how many people, which hours, what is delivered and by when.",
-      "Pay in stages and keep the largest part until delivery, never the full amount upfront.",
-      "If the vendor will not write the promise down, treat that as your answer and book someone else.",
-      "If it goes wrong, keep the messages, receipts and the agreement, send a written complaint first, and then approach the consumer commission."
+      "Never transfer anything before physically standing inside the flat with someone who can open it.",
+      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
     ],
-    "why": "Verbal promises are cheap for a seller to make and impossible for you to enforce. A vendor sells the senior name to win the booking and then delivers whatever is cheapest, and only the signed terms can be held against them. Writing a promise down costs an honest vendor nothing, which is why a vendor who resists it is telling you something.",
-    "variants": "Same shape: a contractor who promises a named supervisor, a coaching class that promises a particular teacher, a caterer who shows a tasting menu and serves another."
+    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
   },
   "lens": {
-    "id": "sunk-cost",
-    "name": "Sunk cost",
-    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
-    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "id": "moral-hazard",
+    "name": "Moral hazard",
+    "one_line": "People take more risk when someone else carries the downside.",
+    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
     "elsewhere": [
-      "Government projects continued because of money already spent.",
-      "Relationships extended by their length rather than their state.",
-      "Reading a book to the end because you're halfway."
+      "Limited liability encourages risk-taking — deliberately, as a feature.",
+      "A free replacement warranty subtly reduces how carefully a device is handled.",
+      "Deposit guarantees reduce depositors' scrutiny of their bank."
     ],
-    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
-    "today": "Bangalore Mirror, The Times of India and others report the Silk Board makeover and its drain upgrade, 'only 25% done', and Bengaluru Metro's Pink Line is reported to have crossed ₹1,000 crore per km. Big civic projects invite the pull to keep going because so much is already spent. The useful question for any project, or your own renovation, is what it costs from here and whether you would start it today."
+    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
+    "today": "TOI Bengaluru reports a trust employee who allegedly stole ₹40 lakh over four years to fund online betting. Four years is long enough that the person handling the money bore none of the downside while the trust bore all of it, so only his own caution stood between the money and the loss. Ask the same of any arrangement of yours: who handles the money, and who eats the loss if it goes wrong?"
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Silk Board Junction's makeover has begun under the Greater Bengaluru Authority's 'Ward One' campaign, and the drain upgrade is only 25% done, aiming to end flooding before next monsoon (The Times of India, The New Indian Express).",
-      "so_what": "Expect work-zone slowdowns around Silk Board for months, so add a buffer on any trip through it. Don't count on it staying dry until next monsoon."
+      "tag": "Prices",
+      "what": "Bus fares in Karnataka will go up on Nov 5, after the recent milk and curd price rises (The Times of India).",
+      "so_what": "If you ride buses daily, check the revised fare or pass price before Nov 5 and add it to this month's budget. Small, repeated increases add up faster than one big one."
     },
     {
       "tag": "Worth booking",
-      "what": "The Bengaluru-Mumbai Vande Bharat Sleeper has been flagged off (The Economic Times, Moneycontrol).",
-      "so_what": "If you travel to Mumbai regularly, check the stoppages and timings against flights before your next booking."
+      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (India Gazette).",
+      "so_what": "If you are travelling for Deepavali, book now: peak-day seats on regular services go first, and extra buses are usually the ones that fill last."
     },
     {
-      "tag": "Worth booking",
-      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (The News Mill), and special trains to Tuticorin and Kannur are announced (Deccan Herald).",
-      "so_what": "If you are travelling for Deepavali, book now, because peak-day regular services fill first."
+      "tag": "Your record",
+      "what": "EPFO has started WhatsApp services and will automatically settle inactive PF accounts with balances up to ₹1,000 (Moneycontrol).",
+      "so_what": "If an old employer left a small PF balance behind, check your passbook this week so you know it is not settled without your knowing, and keep your UAN and mobile number updated."
     },
     {
       "tag": "Safety",
-      "what": "Police were alerted to the deaths at the Conrad hotel pool only after the hospital sent a memo, and the FIR names the hotel management (The Times of India). Underwater pool lighting is under scrutiny (Hindustan Times).",
-      "so_what": "Don't assume a hotel has reported or fixed a fault. If you feel a tingle in any pool, leave and tell staff."
-    },
-    {
-      "tag": "Commute",
-      "what": "A passenger who entered the tracks at Indiranagar Metro station to retrieve a token disrupted services (Livemint).",
-      "so_what": "If you drop a token, ask station staff to get it. Keep a buffer on metro-dependent trips."
+      "what": "CCTV footage suggests an electrical fault near the pool entrance in the Conrad hotel deaths, and the swimming association plans to issue pool-safety guidelines (The Times of India).",
+      "so_what": "Until the guidelines exist, apply your own: any tingle or buzz in a pool means get out and tell staff, and do not wait to see if others react."
     },
     {
       "tag": "Money",
-      "what": "UPI's average daily transaction value topped ₹1 lakh crore for the first time (Moneycontrol).",
-      "so_what": "UPI is carrying more of everyday spending, so keep your PIN private and use only the 'pay' screen when money is meant to arrive."
+      "what": "Binance users withdrew billions after a record crypto hack (BBC).",
+      "so_what": "Money left on an exchange is a claim on the exchange, not cash in your hand. If you hold crypto, keep on an exchange only what you are actively trading."
     }
   ],
   "carry_over": {
-    "id": "water-tingle",
-    "prompt": "You feel a faint tingle while standing in a hotel pool, and nobody else seems bothered: what is the tell?",
-    "answer": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise."
+    "id": "vendor-substitution",
+    "prompt": "A vendor promised you the senior person on a booking, but the agreement says only 'photography package': what is the tell?",
+    "answer": "The thing you were promised in conversation is missing from the paper you signed."
   },
   "quiz": [
     {
-      "q": "What is the tell in 'the vendor who sends someone else'?",
+      "q": "What is the tell in 'the flat that doesn't exist'?",
       "options": [
-        "The vendor's price is high",
-        "A promise made in conversation is missing from the signed paper",
-        "The vendor has assistants"
+        "The rent is slightly negotiable",
+        "Money is moving before a key has turned in a lock you touched",
+        "The owner sends photos"
       ],
       "answer": 1
     },
     {
-      "q": "How much compensation did the consumer court order in the wedding photographer case?",
+      "q": "What should you do when pressed to pay a token advance today because others are interested?",
       "options": [
-        "₹35,000",
-        "₹1.99 lakh",
-        "₹10,000"
+        "Pay half to hold it",
+        "Treat the pressure as the scam announcing itself",
+        "Ask for a video call and then pay"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "On what date will Karnataka bus fares go up, according to TOI?",
+      "options": [
+        "Nov 5",
+        "Nov 15",
+        "Nov 1"
       ],
       "answer": 0
-    },
-    {
-      "q": "How should you pay a vendor for a large event?",
-      "options": [
-        "Full amount upfront for a discount",
-        "In stages, keeping the largest part until delivery",
-        "Entirely on the day, in cash"
-      ],
-      "answer": 1
     },
     {
       "q": "How many additional buses will KSRTC run for the Deepavali rush?",
       "options": [
+        "600",
         "2,600",
-        "1,200",
-        "600"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "What does the sunk-cost test ask?",
-      "options": [
-        "How much have I already spent?",
-        "Would I choose this fresh today, with nothing invested?",
-        "Who else is involved?"
+        "12,000"
       ],
       "answer": 1
+    },
+    {
+      "q": "What does the moral-hazard test ask?",
+      "options": [
+        "Who eats the loss if this goes wrong?",
+        "How much has already been spent?",
+        "What is the base rate?"
+      ],
+      "answer": 0
     }
   ]
 }
