@@ -613,6 +613,21 @@
       ],
       "why": "Verbal promises are cheap for a seller to make and impossible for you to enforce. A vendor sells the senior name to win the booking and then delivers whatever is cheapest, and only the signed terms can be held against them. Writing a promise down costs an honest vendor nothing, which is why a vendor who resists it is telling you something.",
       "variants": "Same shape: a contractor who promises a named supervisor, a coaching class that promises a particular teacher, a caterer who shows a tasting menu and serves another."
+    },
+    {
+      "id": "mortgaged-plot",
+      "category": "Money trap",
+      "title": "The plot whose papers all come from the seller",
+      "setup": "You like a plot or flat in a layout. The seller shows a registered sale deed, khata and a neat bundle of photocopies, and the price is fair. What you cannot see from that bundle is whether the same property is already pledged to a lender, or has been sold to someone else.",
+      "tell": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself.",
+      "move": [
+        "Get an Encumbrance Certificate yourself from the sub-registrar's office or the state's online registration portal, covering the full ownership history. It lists registered mortgages and sales.",
+        "Match the seller's name, survey number and khata across the sale deed, the EC and the tax receipt. Any mismatch means stop.",
+        "Pay the main amount only at registration, by traceable transfer to the seller named in the deed, never in cash or to a third party.",
+        "If a bank is funding your purchase, ask it to confirm in writing that its own lawyer has searched the title."
+      ],
+      "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
+      "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions."
     }
   ]
 }

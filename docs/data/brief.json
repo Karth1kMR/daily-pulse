@@ -1,121 +1,123 @@
 {
   "date": "2026-11-02",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-02T07:45:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-11-02T20:34:18+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 21.9,
+    "now_c": 21.2,
     "condition": "Overcast",
-    "high_c": 29.0,
-    "low_c": 20.7,
-    "rain_chance_pct": 79,
-    "tip": "Overcast at 21.9°C with a 79% chance of rain, so a wet commute is likelier than not: leave 15 minutes earlier and keep the bag covered. With bus fares rising on Nov 5, it is also a good week to check what your pass or daily fare will become."
+    "high_c": 26.7,
+    "low_c": 20.4,
+    "rain_chance_pct": null,
+    "tip": "Overcast and mild at 21.2°C; the rain-chance figure was unavailable tonight, so check tomorrow morning's forecast before you leave. Cyclone Murasu is now a severe cyclonic storm heading for Andhra, so if a train or flight east or toward Chennai is on your week, confirm its status before you set off."
   },
   "edge": {
-    "id": "rental-advance",
+    "id": "mortgaged-plot",
     "category": "Money trap",
-    "title": "The flat that doesn't exist",
-    "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
-    "tell": "Money is moving before a key has turned in a lock you touched.",
+    "title": "The plot whose papers all come from the seller",
+    "anchor": "TOI Bengaluru reports on a suspected ₹960 crore-plus scam in which 127 plots were sold and then mortgaged to a scam-hit bank.",
+    "setup": "You like a plot or flat in a layout. The seller shows a registered sale deed, khata and a neat bundle of photocopies, and the price is fair. What you cannot see from that bundle is whether the same property is already pledged to a lender, or has been sold to someone else.",
+    "tell": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself.",
     "move": [
-      "Never transfer anything before physically standing inside the flat with someone who can open it.",
-      "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
-      "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+      "Get an Encumbrance Certificate yourself from the sub-registrar's office or the state's online registration portal, covering the full ownership history. It lists registered mortgages and sales.",
+      "Match the seller's name, survey number and khata across the sale deed, the EC and the tax receipt. Any mismatch means stop.",
+      "Pay the main amount only at registration, by traceable transfer to the seller named in the deed, never in cash or to a third party.",
+      "If a bank is funding your purchase, ask it to confirm in writing that its own lawyer has searched the title."
     ],
-    "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
-    "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee."
+    "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
+    "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions."
   },
   "lens": {
-    "id": "moral-hazard",
-    "name": "Moral hazard",
-    "one_line": "People take more risk when someone else carries the downside.",
-    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
     "elsewhere": [
-      "Limited liability encourages risk-taking — deliberately, as a feature.",
-      "A free replacement warranty subtly reduces how carefully a device is handled.",
-      "Deposit guarantees reduce depositors' scrutiny of their bank."
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
     ],
-    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
-    "today": "TOI Bengaluru reports a trust employee who allegedly stole ₹40 lakh over four years to fund online betting. Four years is long enough that the person handling the money bore none of the downside while the trust bore all of it, so only his own caution stood between the money and the loss. Ask the same of any arrangement of yours: who handles the money, and who eats the loss if it goes wrong?"
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "Pro-Kannada groups have been visiting Bengaluru IT parks to collect data on how many locals firms employ (NDTV, Moneycontrol). Once a headcount share becomes the target, it can be met by hiring for the number rather than for the work, which is why the figure alone tells you little about jobs. Ask of any metric you are judged by, at work or in your own budget, what someone could do to hit it without achieving what it was meant to show."
   },
   "moved": [
     {
-      "tag": "Prices",
-      "what": "Bus fares in Karnataka will go up on Nov 5, after the recent milk and curd price rises (The Times of India).",
-      "so_what": "If you ride buses daily, check the revised fare or pass price before Nov 5 and add it to this month's budget. Small, repeated increases add up faster than one big one."
+      "tag": "Commute",
+      "what": "PM Modi is reported to inaugurate Bengaluru's elevated Pink Line on November 13 (Deccan Herald, Moneycontrol), though other outlets say the date awaits official confirmation and the stretch has safety clearance.",
+      "so_what": "Do not rebuild your commute around Nov 13 yet. Wait for the metro's own passenger-service announcement; an inauguration and public running are not always the same day."
     },
     {
       "tag": "Worth booking",
-      "what": "KSRTC will run 2,600 additional buses for the Deepavali rush (India Gazette).",
-      "so_what": "If you are travelling for Deepavali, book now: peak-day seats on regular services go first, and extra buses are usually the ones that fill last."
+      "what": "The Bengaluru–Mumbai Vande Bharat sleeper was flagged off and began operations this weekend (The Hindu). Separately, the Supreme Court declined urgent listing of a plea alleging a 700% airfare hike, saying don't travel by air.",
+      "so_what": "Do not expect the courts to cap airfares. For a Mumbai trip, price the sleeper on IRCTC against the flight before you book, and book early either way."
     },
     {
-      "tag": "Your record",
-      "what": "EPFO has started WhatsApp services and will automatically settle inactive PF accounts with balances up to ₹1,000 (Moneycontrol).",
-      "so_what": "If an old employer left a small PF balance behind, check your passbook this week so you know it is not settled without your knowing, and keep your UAN and mobile number updated."
+      "tag": "Travel",
+      "what": "Cyclone Murasu has intensified into a severe cyclonic storm, with NDRF teams from Chennai sent to Andhra (BusinessLine).",
+      "so_what": "If you or family have travel to the Andhra coast or Chennai this week, check train and flight status the day before and keep a flexible ticket."
+    },
+    {
+      "tag": "Commute",
+      "what": "Pro-Kannada activists entered IT parks in Bengaluru to demand jobs for locals and collect employment data (NDTV, Moneycontrol).",
+      "so_what": "If you work in an IT park, check your office's advisory before leaving; gatherings at campus gates can slow entry and the roads around them."
     },
     {
       "tag": "Safety",
-      "what": "CCTV footage suggests an electrical fault near the pool entrance in the Conrad hotel deaths, and the swimming association plans to issue pool-safety guidelines (The Times of India).",
-      "so_what": "Until the guidelines exist, apply your own: any tingle or buzz in a pool means get out and tell staff, and do not wait to see if others react."
-    },
-    {
-      "tag": "Money",
-      "what": "Binance users withdrew billions after a record crypto hack (BBC).",
-      "so_what": "Money left on an exchange is a claim on the exchange, not cash in your hand. If you hold crypto, keep on an exchange only what you are actively trading."
+      "what": "617 drunk-driving cases were booked in Bengaluru (The Hindu).",
+      "so_what": "Enforcement is active. If your evening involves drinking, decide how you get home before the first drink, not after."
     }
   ],
   "carry_over": {
-    "id": "vendor-substitution",
-    "prompt": "A vendor promised you the senior person on a booking, but the agreement says only 'photography package': what is the tell?",
-    "answer": "The thing you were promised in conversation is missing from the paper you signed."
+    "id": "rental-advance",
+    "prompt": "A flat is listed well under market rate, and a warm 'owner' with photos and an ID scan wants a token advance today: what is the tell?",
+    "answer": "Money is moving before a key has turned in a lock you touched."
   },
   "quiz": [
     {
-      "q": "What is the tell in 'the flat that doesn't exist'?",
+      "q": "What is the tell in 'the plot whose papers all come from the seller'?",
       "options": [
-        "The rent is slightly negotiable",
-        "Money is moving before a key has turned in a lock you touched",
-        "The owner sends photos"
+        "The price is fair",
+        "Every paper you are shown was handed over by the seller; none is a record you pulled yourself",
+        "The deed is registered"
       ],
       "answer": 1
     },
     {
-      "q": "What should you do when pressed to pay a token advance today because others are interested?",
+      "q": "Which record lists registered mortgages and sales on a property?",
       "options": [
-        "Pay half to hold it",
-        "Treat the pressure as the scam announcing itself",
-        "Ask for a video call and then pay"
+        "Khata extract",
+        "Encumbrance Certificate",
+        "Tax receipt"
       ],
       "answer": 1
     },
     {
-      "q": "On what date will Karnataka bus fares go up, according to TOI?",
+      "q": "What does Goodhart's Law say about a metric once it becomes a target?",
       "options": [
-        "Nov 5",
-        "Nov 15",
-        "Nov 1"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "How many additional buses will KSRTC run for the Deepavali rush?",
-      "options": [
-        "600",
-        "2,600",
-        "12,000"
+        "It becomes more reliable",
+        "It stops measuring what it was meant to, because people optimise the number",
+        "It must be raised every year"
       ],
       "answer": 1
     },
     {
-      "q": "What does the moral-hazard test ask?",
+      "q": "On what date is the Pink Line reported to be inaugurated by the Deccan Herald and Moneycontrol?",
       "options": [
-        "Who eats the loss if this goes wrong?",
-        "How much has already been spent?",
-        "What is the base rate?"
+        "November 3",
+        "November 13",
+        "November 15"
       ],
-      "answer": 0
+      "answer": 1
+    },
+    {
+      "q": "What should you do before pricing a Mumbai trip by air, given the new Vande Bharat sleeper?",
+      "options": [
+        "Assume courts will cap fares",
+        "Compare the sleeper's fare on IRCTC with the flight",
+        "Wait for fares to fall"
+      ],
+      "answer": 1
     }
   ]
 }

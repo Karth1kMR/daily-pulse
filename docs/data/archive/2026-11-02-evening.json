@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-02",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-02T20:34:18+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 21.2,
+    "condition": "Overcast",
+    "high_c": 26.7,
+    "low_c": 20.4,
+    "rain_chance_pct": null,
+    "tip": "Overcast and mild at 21.2°C; the rain-chance figure was unavailable tonight, so check tomorrow morning's forecast before you leave. Cyclone Murasu is now a severe cyclonic storm heading for Andhra, so if a train or flight east or toward Chennai is on your week, confirm its status before you set off."
+  },
+  "edge": {
+    "id": "mortgaged-plot",
+    "category": "Money trap",
+    "title": "The plot whose papers all come from the seller",
+    "anchor": "TOI Bengaluru reports on a suspected ₹960 crore-plus scam in which 127 plots were sold and then mortgaged to a scam-hit bank.",
+    "setup": "You like a plot or flat in a layout. The seller shows a registered sale deed, khata and a neat bundle of photocopies, and the price is fair. What you cannot see from that bundle is whether the same property is already pledged to a lender, or has been sold to someone else.",
+    "tell": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself.",
+    "move": [
+      "Get an Encumbrance Certificate yourself from the sub-registrar's office or the state's online registration portal, covering the full ownership history. It lists registered mortgages and sales.",
+      "Match the seller's name, survey number and khata across the sale deed, the EC and the tax receipt. Any mismatch means stop.",
+      "Pay the main amount only at registration, by traceable transfer to the seller named in the deed, never in cash or to a third party.",
+      "If a bank is funding your purchase, ask it to confirm in writing that its own lawyer has searched the title."
+    ],
+    "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
+    "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions."
+  },
+  "lens": {
+    "id": "goodharts-law",
+    "name": "Goodhart's Law",
+    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "elsewhere": [
+      "Police judged on cases closed may book easier cases and discourage hard complaints.",
+      "Schools judged on pass rates quietly move weak students out before the exam.",
+      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+    ],
+    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+    "today": "Pro-Kannada groups have been visiting Bengaluru IT parks to collect data on how many locals firms employ (NDTV, Moneycontrol). Once a headcount share becomes the target, it can be met by hiring for the number rather than for the work, which is why the figure alone tells you little about jobs. Ask of any metric you are judged by, at work or in your own budget, what someone could do to hit it without achieving what it was meant to show."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "PM Modi is reported to inaugurate Bengaluru's elevated Pink Line on November 13 (Deccan Herald, Moneycontrol), though other outlets say the date awaits official confirmation and the stretch has safety clearance.",
+      "so_what": "Do not rebuild your commute around Nov 13 yet. Wait for the metro's own passenger-service announcement; an inauguration and public running are not always the same day."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru–Mumbai Vande Bharat sleeper was flagged off and began operations this weekend (The Hindu). Separately, the Supreme Court declined urgent listing of a plea alleging a 700% airfare hike, saying don't travel by air.",
+      "so_what": "Do not expect the courts to cap airfares. For a Mumbai trip, price the sleeper on IRCTC against the flight before you book, and book early either way."
+    },
+    {
+      "tag": "Travel",
+      "what": "Cyclone Murasu has intensified into a severe cyclonic storm, with NDRF teams from Chennai sent to Andhra (BusinessLine).",
+      "so_what": "If you or family have travel to the Andhra coast or Chennai this week, check train and flight status the day before and keep a flexible ticket."
+    },
+    {
+      "tag": "Commute",
+      "what": "Pro-Kannada activists entered IT parks in Bengaluru to demand jobs for locals and collect employment data (NDTV, Moneycontrol).",
+      "so_what": "If you work in an IT park, check your office's advisory before leaving; gatherings at campus gates can slow entry and the roads around them."
+    },
+    {
+      "tag": "Safety",
+      "what": "617 drunk-driving cases were booked in Bengaluru (The Hindu).",
+      "so_what": "Enforcement is active. If your evening involves drinking, decide how you get home before the first drink, not after."
+    }
+  ],
+  "carry_over": {
+    "id": "rental-advance",
+    "prompt": "A flat is listed well under market rate, and a warm 'owner' with photos and an ID scan wants a token advance today: what is the tell?",
+    "answer": "Money is moving before a key has turned in a lock you touched."
+  },
+  "quiz": [
+    {
+      "q": "What is the tell in 'the plot whose papers all come from the seller'?",
+      "options": [
+        "The price is fair",
+        "Every paper you are shown was handed over by the seller; none is a record you pulled yourself",
+        "The deed is registered"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which record lists registered mortgages and sales on a property?",
+      "options": [
+        "Khata extract",
+        "Encumbrance Certificate",
+        "Tax receipt"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does Goodhart's Law say about a metric once it becomes a target?",
+      "options": [
+        "It becomes more reliable",
+        "It stops measuring what it was meant to, because people optimise the number",
+        "It must be raised every year"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "On what date is the Pink Line reported to be inaugurated by the Deccan Herald and Moneycontrol?",
+      "options": [
+        "November 3",
+        "November 13",
+        "November 15"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What should you do before pricing a Mumbai trip by air, given the new Vande Bharat sleeper?",
+      "options": [
+        "Assume courts will cap fares",
+        "Compare the sleeper's fare on IRCTC with the flight",
+        "Wait for fares to fall"
+      ],
+      "answer": 1
+    }
+  ]
+}
