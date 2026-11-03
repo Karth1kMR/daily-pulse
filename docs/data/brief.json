@@ -2,80 +2,70 @@
   "date": "2026-11-03",
   "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-03T13:30:00+05:30",
-  "read_seconds": 90,
+  "generated_at": "2026-11-03T19:34:30+05:30",
+  "read_seconds": 70,
   "weather": {
-    "now_c": 28.6,
+    "now_c": 23.8,
     "condition": "Overcast",
-    "high_c": 29.5,
+    "high_c": 28.6,
     "low_c": 19.6,
-    "rain_chance_pct": 45,
-    "tip": "Overcast, a high near 29.5°C and a 45% chance of rain, so the evening is a coin toss. If it does come down, wet roads on top of a drunk-driving drive spread across 53 stations makes tonight the one to let someone else do the driving."
+    "rain_chance_pct": 37,
+    "tip": "Overcast with a 37% chance of rain, and The Hindu has Cyclone Murasu's eye crossing the Andhra coast, so Bengaluru can turn damp quickly. If you are heading to Indiranagar or a metro-side stretch tonight, leave for the return trip before 21:00 while the roads are still dry."
   },
   "edge": {
-    "id": "paid-in-paper",
-    "category": "Money trap",
-    "title": "The compensation that isn't cash",
-    "anchor": "Bengaluru is digitising its TDR system to speed up road widening, Development Minister Krishna Byre Gowda said this week; Deccan Herald built its report around what property owners need to know.",
-    "setup": "Part of your land, or your building's setback, is needed — for a road, a drain, a widening. Nobody offers you money. You are offered a certificate, a share of built-up area, extra floors, a credit you can sell on later. The officer is helpful, the paper looks official, and the number printed on it sounds larger than any cash you were expecting.",
-    "tell": "You hand over the asset today; the paper's price gets set by someone else, later.",
+    "id": "repackaged-medicine",
+    "category": "Safety trap",
+    "title": "The strip that looks right",
+    "setup": "You need a course of antibiotics, or a regular medicine for someone at home. An online listing or a small shop offers it noticeably cheaper than the chemist you normally use. The strip looks right, the box looks right, and the seller is cheerful about it. You have no way to read what is inside.",
+    "tell": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number.",
     "move": [
-      "Do not part with possession, a signature or an original deed until the certificate exists in your name. A sanction or an approval is not a certificate.",
-      "Ask in writing who buys this paper and at what discount to its face value — then ask a second buyer the same question.",
-      "Get face value and realisable value as two separate numbers, from someone who is not the party acquiring your asset.",
-      "Keep every acknowledgement with a date and an inward number. The delay, not the rate, is usually what costs you."
+      "Buy prescription medicines only from a licensed chemist, and ask for a printed bill that carries the batch number and expiry date.",
+      "Check that the batch number and expiry on the bill match what is printed on the strip and the outer box. A mismatch, smudged print or a re-stuck label means you stop there.",
+      "If a price is far below the going rate, treat it as the finding, not as a bargain. Compare it against a second licensed chemist before you buy.",
+      "If a medicine seems wrong or does nothing, keep the packaging and the bill and report it to the state drugs control department; do not throw the evidence away."
     ],
-    "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
-    "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment."
+    "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
+    "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice.",
+    "anchor": "The Times of India reports the ED raided premises in Bengaluru in a fake medicine racket case, froze ₹9 lakh in bank accounts, and found a farmhouse used to repackage antibiotics."
   },
   "lens": {
-    "id": "availability-heuristic",
-    "name": "The availability heuristic",
-    "one_line": "You judge how likely something is by how easily an example comes to mind.",
-    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
-    "today": "Three outlets today carry the same CCTV clip: a helmet-clad man walks into a Bengaluru shop, puts a knife to a woman's throat, and fails to get her chain. You will remember that for a month. You will not remember the elderly man the same morning whose phone was lifted from his pocket on a bus and who then lost ₹61,000 over UPI — no footage, no struggle, and the only one of the two where money actually left.",
+    "id": "asymmetric-information",
+    "name": "Asymmetric information",
+    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
     "elsewhere": [
-      "Fearing a kidnapping while texting at the wheel.",
-      "Overrating lottery odds after a winner is interviewed.",
-      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+      "Freelance marketplaces race to the bottom without reviews.",
+      "Insurance pools get sicker when only the sick buy in.",
+      "A degree works partly as a costly signal of something an employer can't directly see."
     ],
-    "test": "Am I estimating this from data, or from how easily a story came to mind?"
+    "test": "What can the other side see that I can't — and what would make it visible?",
+    "today": "The ED raid over antibiotics repackaged at a Bengaluru farmhouse is the whole model in one case: the seller knew what was in the box, and the buyer could only see a label. The same gap sits behind the Fevikwik gold-chain robbery story, where the shop could not tell the visitor from a customer. Where you cannot see inside, pay attention to what you can check, which is the bill, the batch and the price."
   },
   "moved": [
     {
-      "tag": "Money",
-      "what": "The Indian Express reports an elderly Bengaluru man lost ₹61,000 through UPI after his phone was pickpocketed on a bus.",
-      "so_what": "The handset was the cheap part. If your phone goes, block the SIM before anything else — while it is live, every OTP you own is being delivered to someone else — then freeze UPI and net banking from a laptop. Keep your IMEI written down somewhere that is not your phone."
+      "tag": "Commute",
+      "what": "The Hindu and CNBC TV18 report that PM Modi is likely to inaugurate the Namma Metro Pink Line on 13 November, while The Indian Express reports residents criticising the wait for a ready line.",
+      "so_what": "Treat 13 November as the inauguration, not the day you can ride it; passenger service dates are normally announced separately. Expect heavier traffic around the event venue that day and plan any cross-town trip with an hour in hand."
     },
     {
       "tag": "Your record",
-      "what": "Swarajya reports a third notification in the Namma Metro Phase 3 land acquisition, covering 170 properties.",
-      "so_what": "If you own or are buying anything along a Phase 3 alignment, the notification is what to search for before you sign. Acquisition appears in the notification long before it appears in a seller's set of papers."
+      "what": "The Economic Times reports the INDIA bloc will hold an anti-SIR protest in Bengaluru on 5 November, and a Times of India piece has an MLA challenging claims of wrongful voter deletions.",
+      "so_what": "Check today that your name is on the electoral roll for your current address; it takes two minutes on the Election Commission's voter portal and the correction window is far easier to use now than at the polling booth. On 5 November, allow extra time for a protest-day diversion."
     },
     {
-      "tag": "Commute",
-      "what": "Bengaluru traffic police booked 617 drunk-driving cases across 53 stations in a single crackdown (Urban Acres).",
-      "so_what": "Checking is spread city-wide across stations, not parked at the two junctions everyone expects. On an evening out the cab fare is the cheaper line item by a wide margin, and not only in money."
+      "tag": "Prices",
+      "what": "The Times of India reports the Chief Minister has asked KMF to reconsider its curd price hike under pressure.",
+      "so_what": "The hike is not withdrawn yet, only under review. Do not stock up; buy as usual and look at the printed price on the next packet before assuming either way."
     },
     {
-      "tag": "Worth booking",
-      "what": "The Bengaluru–Mumbai Vande Bharat Sleeper Express was flagged off by the Railway Minister over the weekend (The Hindu).",
-      "so_what": "A new overnight option on a route where you otherwise pay airline prices or lose a working day. If a Mumbai trip is likely in the next few months, compare this against the flight now — a train that arrives in the morning buys back a day you would have spent travelling."
-    },
-    {
-      "tag": "Work",
-      "what": "Pro-Kannada groups visited IT companies across Bengaluru to campaign for more local hiring and to seek recruitment data, reported by NDTV, The News Minute and the Times of India on Monday and again today.",
-      "so_what": "If a group reaches your campus gate, expect access checks and slow entry rather than anything dramatic. Worth knowing your employer's work-from-home escalation path before the morning you actually need it."
-    },
-    {
-      "tag": "Visa",
-      "what": "US midterm polls are open today (Al Jazeera), and Moneycontrol flags H-1B alongside trade and tariffs among the policy questions a change of control in Congress would reopen.",
-      "so_what": "Nothing about a pending stamping changes on election night. The practical risk this week is not policy but urgency sold to you — treat any consultant or agent who uses the result to push a fee, a faster slot or a decision today as the tell."
+      "tag": "Civic",
+      "what": "The New Indian Express reports Karnataka Minister Krishna Byre Gowda saying the TDR system for road widening will be made digital.",
+      "so_what": "If your plot or building is on a widening alignment, ask for the TDR entry in writing and in the digital record once it goes live, and keep your own copy. A record that exists only on someone else's system is the weakest kind to hold."
     }
   ],
   "carry_over": {
-    "id": "otp-bank-call",
-    "prompt": "A caller from your bank knows your name, the last four digits of your card and where you ate in Koramangala, and an OTP is already on its way to verify you: what is the tell?",
-    "answer": "Anyone asking you to read out a code is, by definition, not your bank."
+    "id": "paid-in-paper",
+    "prompt": "Part of your land is needed for a road, and you are offered a certificate or extra built-up area instead of cash: what is the tell?",
+    "answer": "You hand over the asset today; the paper's price gets set by someone else, later."
   }
 }

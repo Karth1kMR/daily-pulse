@@ -643,6 +643,21 @@
       ],
       "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
       "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment."
+    },
+    {
+      "id": "repackaged-medicine",
+      "category": "Safety trap",
+      "title": "The strip that looks right",
+      "setup": "You need a course of antibiotics, or a regular medicine for someone at home. An online listing or a small shop offers it noticeably cheaper than the chemist you normally use. The strip looks right, the box looks right, and the seller is cheerful about it. You have no way to read what is inside.",
+      "tell": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number.",
+      "move": [
+        "Buy prescription medicines only from a licensed chemist, and ask for a printed bill that carries the batch number and expiry date.",
+        "Check that the batch number and expiry on the bill match what is printed on the strip and the outer box. A mismatch, smudged print or a re-stuck label means you stop there.",
+        "If a price is far below the going rate, treat it as the finding, not as a bargain. Compare it against a second licensed chemist before you buy.",
+        "If a medicine seems wrong or does nothing, keep the packaging and the bill and report it to the state drugs control department; do not throw the evidence away."
+      ],
+      "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
+      "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice."
     }
   ]
 }
