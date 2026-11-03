@@ -1,121 +1,124 @@
 {
-  "date": "2026-11-02",
-  "edition": "evening",
+  "date": "2026-11-03",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-02T20:34:18+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-11-03T07:40:00+05:30",
+  "read_seconds": 70,
   "weather": {
-    "now_c": 21.2,
+    "now_c": 20.4,
     "condition": "Overcast",
-    "high_c": 26.7,
-    "low_c": 20.4,
-    "rain_chance_pct": null,
-    "tip": "Overcast and mild at 21.2°C; the rain-chance figure was unavailable tonight, so check tomorrow morning's forecast before you leave. Cyclone Murasu is now a severe cyclonic storm heading for Andhra, so if a train or flight east or toward Chennai is on your week, confirm its status before you set off."
+    "high_c": 28.1,
+    "low_c": 19.4,
+    "rain_chance_pct": 69,
+    "tip": "Overcast with a 69% chance of rain today, high 28.1°C. If you ride or drive anywhere near the Pune highway or an IT park gate, leave a margin: rain on top of a blockade or a gathering is when a 40-minute trip turns into a long one."
   },
   "edge": {
-    "id": "mortgaged-plot",
-    "category": "Money trap",
-    "title": "The plot whose papers all come from the seller",
-    "anchor": "TOI Bengaluru reports on a suspected ₹960 crore-plus scam in which 127 plots were sold and then mortgaged to a scam-hit bank.",
-    "setup": "You like a plot or flat in a layout. The seller shows a registered sale deed, khata and a neat bundle of photocopies, and the price is fair. What you cannot see from that bundle is whether the same property is already pledged to a lender, or has been sold to someone else.",
-    "tell": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself.",
+    "id": "otp-bank-call",
+    "category": "Pressure play",
+    "title": "The caller who already knows you",
+    "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
+    "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
     "move": [
-      "Get an Encumbrance Certificate yourself from the sub-registrar's office or the state's online registration portal, covering the full ownership history. It lists registered mortgages and sales.",
-      "Match the seller's name, survey number and khata across the sale deed, the EC and the tax receipt. Any mismatch means stop.",
-      "Pay the main amount only at registration, by traceable transfer to the seller named in the deed, never in cash or to a third party.",
-      "If a bank is funding your purchase, ask it to confirm in writing that its own lawyer has searched the title."
+      "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
+      "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
+      "Knowing your details proves a leak happened, not that the caller is legitimate."
     ],
-    "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
-    "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions."
+    "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
+    "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search."
   },
   "lens": {
-    "id": "goodharts-law",
-    "name": "Goodhart's Law",
-    "one_line": "When a measure becomes a target, it stops measuring what it used to.",
-    "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
     "elsewhere": [
-      "Police judged on cases closed may book easier cases and discourage hard complaints.",
-      "Schools judged on pass rates quietly move weak students out before the exam.",
-      "Support teams judged on ticket-closing time close tickets fast, unresolved."
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
     ],
-    "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
-    "today": "Pro-Kannada groups have been visiting Bengaluru IT parks to collect data on how many locals firms employ (NDTV, Moneycontrol). Once a headcount share becomes the target, it can be met by hiring for the number rather than for the work, which is why the figure alone tells you little about jobs. Ask of any metric you are judged by, at work or in your own budget, what someone could do to hit it without achieving what it was meant to show."
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
+    "today": "The state government may relax tender norms because about ₹38,000 crore is owed to contractors (Times of India). Chesterton's fence asks what each norm was guarding before it is waved off: if the rules exist to keep bids honest, loosening them to clear a backlog could trade one problem for another. Same test applies to any rule you meet this week, from a society bylaw to a bank step you find annoying."
   },
   "moved": [
     {
+      "tag": "Your record",
+      "what": "The Hindu reports Bengaluru's electoral rolls are riddled with errors after the SIR exercise, and The News Minute and Citizen Matters say Bengaluru, women and young voters are among those hit hardest by deletions.",
+      "so_what": "Search your own name and EPIC number on the Election Commission's voter portal this week. If your entry is missing or garbled, file the correction form now rather than discovering it on polling day."
+    },
+    {
+      "tag": "Your record",
+      "what": "Times of India reports technical glitches are hitting the A-khata to B-khata upgrade process.",
+      "so_what": "If you own a B-khata property or are about to buy one, do not assume an online application went through. Keep the acknowledgement and screenshots of every step, and re-check the status after a few days."
+    },
+    {
+      "tag": "Prices",
+      "what": "Under public pressure, the Chief Minister has asked KMF to reconsider its curd price hike (Times of India).",
+      "so_what": "The hike is not yet withdrawn. Expect no change in what you pay until KMF announces something, and do not stock up on the strength of this headline."
+    },
+    {
       "tag": "Commute",
-      "what": "PM Modi is reported to inaugurate Bengaluru's elevated Pink Line on November 13 (Deccan Herald, Moneycontrol), though other outlets say the date awaits official confirmation and the stretch has safety clearance.",
-      "so_what": "Do not rebuild your commute around Nov 13 yet. Wait for the metro's own passenger-service announcement; an inauguration and public running are not always the same day."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "The Bengaluru–Mumbai Vande Bharat sleeper was flagged off and began operations this weekend (The Hindu). Separately, the Supreme Court declined urgent listing of a plea alleging a 700% airfare hike, saying don't travel by air.",
-      "so_what": "Do not expect the courts to cap airfares. For a Mumbai trip, price the sleeper on IRCTC against the flight before you book, and book early either way."
-    },
-    {
-      "tag": "Travel",
-      "what": "Cyclone Murasu has intensified into a severe cyclonic storm, with NDRF teams from Chennai sent to Andhra (BusinessLine).",
-      "so_what": "If you or family have travel to the Andhra coast or Chennai this week, check train and flight status the day before and keep a flexible ticket."
+      "what": "A Shetti-led blockade has kicked in on the Pune-Bengaluru highway, and travellers are likely to face traffic trouble (Times of India).",
+      "so_what": "If you or a courier are heading toward Pune on the highway today, check the live road status before leaving and keep a fallback route or a later departure."
     },
     {
       "tag": "Commute",
-      "what": "Pro-Kannada activists entered IT parks in Bengaluru to demand jobs for locals and collect employment data (NDTV, Moneycontrol).",
-      "so_what": "If you work in an IT park, check your office's advisory before leaving; gatherings at campus gates can slow entry and the roads around them."
+      "what": "The Pink Line's elevated stretch is reported for inauguration on November 13 by The Hindu, Deccan Herald and Times of India, while Urban Acres says public opening is on November 15 and Construction World mentions both dates.",
+      "so_what": "Treat November 13 as the inauguration and November 15 as the earliest you might actually ride. Plan your commute around the metro's own passenger notice, not the first date you read."
     },
     {
       "tag": "Safety",
-      "what": "617 drunk-driving cases were booked in Bengaluru (The Hindu).",
-      "so_what": "Enforcement is active. If your evening involves drinking, decide how you get home before the first drink, not after."
+      "what": "Three Bengaluru techies drowned after being swept away by waves at Gokarna beach over the weekend, with one reported missing in one account (India Today, New Indian Express, News18).",
+      "so_what": "If a team outing or festive trip to the coast is planned, treat a sea as unsupervised unless a lifeguard is present. Stay out of water beyond knee depth when waves are high, and give someone the group's headcount."
     }
   ],
   "carry_over": {
-    "id": "rental-advance",
-    "prompt": "A flat is listed well under market rate, and a warm 'owner' with photos and an ID scan wants a token advance today: what is the tell?",
-    "answer": "Money is moving before a key has turned in a lock you touched."
+    "id": "mortgaged-plot",
+    "prompt": "You like a plot or flat in a layout, and every paper you are shown was handed over by the seller: what is the tell?",
+    "answer": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself."
   },
   "quiz": [
     {
-      "q": "What is the tell in 'the plot whose papers all come from the seller'?",
+      "q": "What is the tell in 'the caller who already knows you'?",
       "options": [
-        "The price is fair",
-        "Every paper you are shown was handed over by the seller; none is a record you pulled yourself",
-        "The deed is registered"
+        "The caller sounds rushed",
+        "Anyone asking you to read out a code is, by definition, not your bank",
+        "The caller knows only your first name"
       ],
       "answer": 1
     },
     {
-      "q": "Which record lists registered mortgages and sales on a property?",
+      "q": "A caller claiming to be your bank asks for an OTP. What do you do?",
       "options": [
-        "Khata extract",
-        "Encumbrance Certificate",
-        "Tax receipt"
+        "Read it out to stop the fraud",
+        "Hang up and call the number on the back of your card",
+        "Ask them to SMS the code back to you"
       ],
       "answer": 1
     },
     {
-      "q": "What does Goodhart's Law say about a metric once it becomes a target?",
+      "q": "What does Chesterton's fence ask you to do before removing a rule that looks pointless?",
       "options": [
-        "It becomes more reliable",
-        "It stops measuring what it was meant to, because people optimise the number",
-        "It must be raised every year"
+        "Remove it quickly",
+        "Find out why it was put there",
+        "Ask a majority vote"
       ],
       "answer": 1
     },
     {
-      "q": "On what date is the Pink Line reported to be inaugurated by the Deccan Herald and Moneycontrol?",
+      "q": "Why does the Pink Line date need care according to today's feeds?",
       "options": [
-        "November 3",
-        "November 13",
-        "November 15"
+        "Reports differ between November 13 and November 15",
+        "The line has been cancelled",
+        "It opened yesterday"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "q": "What should you do before pricing a Mumbai trip by air, given the new Vande Bharat sleeper?",
+      "q": "Where did the Chief Minister ask KMF to reconsider a price hike?",
       "options": [
-        "Assume courts will cap fares",
-        "Compare the sleeper's fare on IRCTC with the flight",
-        "Wait for fares to fall"
+        "Milk",
+        "Curd",
+        "Ghee"
       ],
       "answer": 1
     }
