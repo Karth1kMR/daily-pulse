@@ -1,126 +1,81 @@
 {
   "date": "2026-11-03",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-03T07:40:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-11-03T13:30:00+05:30",
+  "read_seconds": 90,
   "weather": {
-    "now_c": 20.4,
+    "now_c": 28.6,
     "condition": "Overcast",
-    "high_c": 28.1,
-    "low_c": 19.4,
-    "rain_chance_pct": 69,
-    "tip": "Overcast with a 69% chance of rain today, high 28.1°C. If you ride or drive anywhere near the Pune highway or an IT park gate, leave a margin: rain on top of a blockade or a gathering is when a 40-minute trip turns into a long one."
+    "high_c": 29.5,
+    "low_c": 19.6,
+    "rain_chance_pct": 45,
+    "tip": "Overcast, a high near 29.5°C and a 45% chance of rain, so the evening is a coin toss. If it does come down, wet roads on top of a drunk-driving drive spread across 53 stations makes tonight the one to let someone else do the driving."
   },
   "edge": {
-    "id": "otp-bank-call",
-    "category": "Pressure play",
-    "title": "The caller who already knows you",
-    "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
-    "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
+    "id": "paid-in-paper",
+    "category": "Money trap",
+    "title": "The compensation that isn't cash",
+    "anchor": "Bengaluru is digitising its TDR system to speed up road widening, Development Minister Krishna Byre Gowda said this week; Deccan Herald built its report around what property owners need to know.",
+    "setup": "Part of your land, or your building's setback, is needed — for a road, a drain, a widening. Nobody offers you money. You are offered a certificate, a share of built-up area, extra floors, a credit you can sell on later. The officer is helpful, the paper looks official, and the number printed on it sounds larger than any cash you were expecting.",
+    "tell": "You hand over the asset today; the paper's price gets set by someone else, later.",
     "move": [
-      "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
-      "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
-      "Knowing your details proves a leak happened, not that the caller is legitimate."
+      "Do not part with possession, a signature or an original deed until the certificate exists in your name. A sanction or an approval is not a certificate.",
+      "Ask in writing who buys this paper and at what discount to its face value — then ask a second buyer the same question.",
+      "Get face value and realisable value as two separate numbers, from someone who is not the party acquiring your asset.",
+      "Keep every acknowledgement with a date and an inward number. The delay, not the rate, is usually what costs you."
     ],
-    "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
-    "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search."
+    "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
+    "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment."
   },
   "lens": {
-    "id": "chestertons-fence",
-    "name": "Chesterton's fence",
-    "one_line": "Before removing something that looks pointless, find out why it was put there.",
-    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "today": "Three outlets today carry the same CCTV clip: a helmet-clad man walks into a Bengaluru shop, puts a knife to a woman's throat, and fails to get her chain. You will remember that for a month. You will not remember the elderly man the same morning whose phone was lifted from his pocket on a bus and who then lost ₹61,000 over UPI — no footage, no struggle, and the only one of the two where money actually left.",
     "elsewhere": [
-      "A weird approval step that quietly prevents a rare, expensive error.",
-      "Legacy code nobody dares delete, for reasons occasionally excellent.",
-      "A family practice that looks superstitious and encodes something practical."
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
     ],
-    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
-    "today": "The state government may relax tender norms because about ₹38,000 crore is owed to contractors (Times of India). Chesterton's fence asks what each norm was guarding before it is waved off: if the rules exist to keep bids honest, loosening them to clear a backlog could trade one problem for another. Same test applies to any rule you meet this week, from a society bylaw to a bank step you find annoying."
+    "test": "Am I estimating this from data, or from how easily a story came to mind?"
   },
   "moved": [
     {
-      "tag": "Your record",
-      "what": "The Hindu reports Bengaluru's electoral rolls are riddled with errors after the SIR exercise, and The News Minute and Citizen Matters say Bengaluru, women and young voters are among those hit hardest by deletions.",
-      "so_what": "Search your own name and EPIC number on the Election Commission's voter portal this week. If your entry is missing or garbled, file the correction form now rather than discovering it on polling day."
+      "tag": "Money",
+      "what": "The Indian Express reports an elderly Bengaluru man lost ₹61,000 through UPI after his phone was pickpocketed on a bus.",
+      "so_what": "The handset was the cheap part. If your phone goes, block the SIM before anything else — while it is live, every OTP you own is being delivered to someone else — then freeze UPI and net banking from a laptop. Keep your IMEI written down somewhere that is not your phone."
     },
     {
       "tag": "Your record",
-      "what": "Times of India reports technical glitches are hitting the A-khata to B-khata upgrade process.",
-      "so_what": "If you own a B-khata property or are about to buy one, do not assume an online application went through. Keep the acknowledgement and screenshots of every step, and re-check the status after a few days."
-    },
-    {
-      "tag": "Prices",
-      "what": "Under public pressure, the Chief Minister has asked KMF to reconsider its curd price hike (Times of India).",
-      "so_what": "The hike is not yet withdrawn. Expect no change in what you pay until KMF announces something, and do not stock up on the strength of this headline."
+      "what": "Swarajya reports a third notification in the Namma Metro Phase 3 land acquisition, covering 170 properties.",
+      "so_what": "If you own or are buying anything along a Phase 3 alignment, the notification is what to search for before you sign. Acquisition appears in the notification long before it appears in a seller's set of papers."
     },
     {
       "tag": "Commute",
-      "what": "A Shetti-led blockade has kicked in on the Pune-Bengaluru highway, and travellers are likely to face traffic trouble (Times of India).",
-      "so_what": "If you or a courier are heading toward Pune on the highway today, check the live road status before leaving and keep a fallback route or a later departure."
+      "what": "Bengaluru traffic police booked 617 drunk-driving cases across 53 stations in a single crackdown (Urban Acres).",
+      "so_what": "Checking is spread city-wide across stations, not parked at the two junctions everyone expects. On an evening out the cab fare is the cheaper line item by a wide margin, and not only in money."
     },
     {
-      "tag": "Commute",
-      "what": "The Pink Line's elevated stretch is reported for inauguration on November 13 by The Hindu, Deccan Herald and Times of India, while Urban Acres says public opening is on November 15 and Construction World mentions both dates.",
-      "so_what": "Treat November 13 as the inauguration and November 15 as the earliest you might actually ride. Plan your commute around the metro's own passenger notice, not the first date you read."
+      "tag": "Worth booking",
+      "what": "The Bengaluru–Mumbai Vande Bharat Sleeper Express was flagged off by the Railway Minister over the weekend (The Hindu).",
+      "so_what": "A new overnight option on a route where you otherwise pay airline prices or lose a working day. If a Mumbai trip is likely in the next few months, compare this against the flight now — a train that arrives in the morning buys back a day you would have spent travelling."
     },
     {
-      "tag": "Safety",
-      "what": "Three Bengaluru techies drowned after being swept away by waves at Gokarna beach over the weekend, with one reported missing in one account (India Today, New Indian Express, News18).",
-      "so_what": "If a team outing or festive trip to the coast is planned, treat a sea as unsupervised unless a lifeguard is present. Stay out of water beyond knee depth when waves are high, and give someone the group's headcount."
+      "tag": "Work",
+      "what": "Pro-Kannada groups visited IT companies across Bengaluru to campaign for more local hiring and to seek recruitment data, reported by NDTV, The News Minute and the Times of India on Monday and again today.",
+      "so_what": "If a group reaches your campus gate, expect access checks and slow entry rather than anything dramatic. Worth knowing your employer's work-from-home escalation path before the morning you actually need it."
+    },
+    {
+      "tag": "Visa",
+      "what": "US midterm polls are open today (Al Jazeera), and Moneycontrol flags H-1B alongside trade and tariffs among the policy questions a change of control in Congress would reopen.",
+      "so_what": "Nothing about a pending stamping changes on election night. The practical risk this week is not policy but urgency sold to you — treat any consultant or agent who uses the result to push a fee, a faster slot or a decision today as the tell."
     }
   ],
   "carry_over": {
-    "id": "mortgaged-plot",
-    "prompt": "You like a plot or flat in a layout, and every paper you are shown was handed over by the seller: what is the tell?",
-    "answer": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself."
-  },
-  "quiz": [
-    {
-      "q": "What is the tell in 'the caller who already knows you'?",
-      "options": [
-        "The caller sounds rushed",
-        "Anyone asking you to read out a code is, by definition, not your bank",
-        "The caller knows only your first name"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "A caller claiming to be your bank asks for an OTP. What do you do?",
-      "options": [
-        "Read it out to stop the fraud",
-        "Hang up and call the number on the back of your card",
-        "Ask them to SMS the code back to you"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "What does Chesterton's fence ask you to do before removing a rule that looks pointless?",
-      "options": [
-        "Remove it quickly",
-        "Find out why it was put there",
-        "Ask a majority vote"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "Why does the Pink Line date need care according to today's feeds?",
-      "options": [
-        "Reports differ between November 13 and November 15",
-        "The line has been cancelled",
-        "It opened yesterday"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Where did the Chief Minister ask KMF to reconsider a price hike?",
-      "options": [
-        "Milk",
-        "Curd",
-        "Ghee"
-      ],
-      "answer": 1
-    }
-  ]
+    "id": "otp-bank-call",
+    "prompt": "A caller from your bank knows your name, the last four digits of your card and where you ate in Koramangala, and an OTP is already on its way to verify you: what is the tell?",
+    "answer": "Anyone asking you to read out a code is, by definition, not your bank."
+  }
 }

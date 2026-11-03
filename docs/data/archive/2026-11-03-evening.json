@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-03",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-03T13:30:00+05:30",
+  "read_seconds": 90,
+  "weather": {
+    "now_c": 28.6,
+    "condition": "Overcast",
+    "high_c": 29.5,
+    "low_c": 19.6,
+    "rain_chance_pct": 45,
+    "tip": "Overcast, a high near 29.5°C and a 45% chance of rain, so the evening is a coin toss. If it does come down, wet roads on top of a drunk-driving drive spread across 53 stations makes tonight the one to let someone else do the driving."
+  },
+  "edge": {
+    "id": "paid-in-paper",
+    "category": "Money trap",
+    "title": "The compensation that isn't cash",
+    "anchor": "Bengaluru is digitising its TDR system to speed up road widening, Development Minister Krishna Byre Gowda said this week; Deccan Herald built its report around what property owners need to know.",
+    "setup": "Part of your land, or your building's setback, is needed — for a road, a drain, a widening. Nobody offers you money. You are offered a certificate, a share of built-up area, extra floors, a credit you can sell on later. The officer is helpful, the paper looks official, and the number printed on it sounds larger than any cash you were expecting.",
+    "tell": "You hand over the asset today; the paper's price gets set by someone else, later.",
+    "move": [
+      "Do not part with possession, a signature or an original deed until the certificate exists in your name. A sanction or an approval is not a certificate.",
+      "Ask in writing who buys this paper and at what discount to its face value — then ask a second buyer the same question.",
+      "Get face value and realisable value as two separate numbers, from someone who is not the party acquiring your asset.",
+      "Keep every acknowledgement with a date and an inward number. The delay, not the rate, is usually what costs you."
+    ],
+    "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
+    "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment."
+  },
+  "lens": {
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "today": "Three outlets today carry the same CCTV clip: a helmet-clad man walks into a Bengaluru shop, puts a knife to a woman's throat, and fails to get her chain. You will remember that for a month. You will not remember the elderly man the same morning whose phone was lifted from his pocket on a bus and who then lost ₹61,000 over UPI — no footage, no struggle, and the only one of the two where money actually left.",
+    "elsewhere": [
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+    ],
+    "test": "Am I estimating this from data, or from how easily a story came to mind?"
+  },
+  "moved": [
+    {
+      "tag": "Money",
+      "what": "The Indian Express reports an elderly Bengaluru man lost ₹61,000 through UPI after his phone was pickpocketed on a bus.",
+      "so_what": "The handset was the cheap part. If your phone goes, block the SIM before anything else — while it is live, every OTP you own is being delivered to someone else — then freeze UPI and net banking from a laptop. Keep your IMEI written down somewhere that is not your phone."
+    },
+    {
+      "tag": "Your record",
+      "what": "Swarajya reports a third notification in the Namma Metro Phase 3 land acquisition, covering 170 properties.",
+      "so_what": "If you own or are buying anything along a Phase 3 alignment, the notification is what to search for before you sign. Acquisition appears in the notification long before it appears in a seller's set of papers."
+    },
+    {
+      "tag": "Commute",
+      "what": "Bengaluru traffic police booked 617 drunk-driving cases across 53 stations in a single crackdown (Urban Acres).",
+      "so_what": "Checking is spread city-wide across stations, not parked at the two junctions everyone expects. On an evening out the cab fare is the cheaper line item by a wide margin, and not only in money."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Bengaluru–Mumbai Vande Bharat Sleeper Express was flagged off by the Railway Minister over the weekend (The Hindu).",
+      "so_what": "A new overnight option on a route where you otherwise pay airline prices or lose a working day. If a Mumbai trip is likely in the next few months, compare this against the flight now — a train that arrives in the morning buys back a day you would have spent travelling."
+    },
+    {
+      "tag": "Work",
+      "what": "Pro-Kannada groups visited IT companies across Bengaluru to campaign for more local hiring and to seek recruitment data, reported by NDTV, The News Minute and the Times of India on Monday and again today.",
+      "so_what": "If a group reaches your campus gate, expect access checks and slow entry rather than anything dramatic. Worth knowing your employer's work-from-home escalation path before the morning you actually need it."
+    },
+    {
+      "tag": "Visa",
+      "what": "US midterm polls are open today (Al Jazeera), and Moneycontrol flags H-1B alongside trade and tariffs among the policy questions a change of control in Congress would reopen.",
+      "so_what": "Nothing about a pending stamping changes on election night. The practical risk this week is not policy but urgency sold to you — treat any consultant or agent who uses the result to push a fee, a faster slot or a decision today as the tell."
+    }
+  ],
+  "carry_over": {
+    "id": "otp-bank-call",
+    "prompt": "A caller from your bank knows your name, the last four digits of your card and where you ate in Koramangala, and an OTP is already on its way to verify you: what is the tell?",
+    "answer": "Anyone asking you to read out a code is, by definition, not your bank."
+  }
+}

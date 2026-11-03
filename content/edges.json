@@ -628,6 +628,21 @@
       ],
       "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
       "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions."
+    },
+    {
+      "id": "paid-in-paper",
+      "category": "Money trap",
+      "title": "The compensation that isn't cash",
+      "setup": "Part of your land, or your building's setback, is needed — for a road, a drain, a widening. Nobody offers you money. You are offered a certificate, a share of built-up area, extra floors, a credit you can sell on later. The officer is helpful, the paper looks official, and the number printed on it sounds larger than any cash you were expecting.",
+      "tell": "You hand over the asset today; the paper's price gets set by someone else, later.",
+      "move": [
+        "Do not part with possession, a signature or an original deed until the certificate exists in your name. A sanction or an approval is not a certificate.",
+        "Ask in writing who buys this paper and at what discount to its face value — then ask a second buyer the same question.",
+        "Get face value and realisable value as two separate numbers, from someone who is not the party acquiring your asset.",
+        "Keep every acknowledgement with a date and an inward number. The delay, not the rate, is usually what costs you."
+      ],
+      "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
+      "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment."
     }
   ]
 }
