@@ -1,71 +1,75 @@
 {
-  "date": "2026-11-03",
-  "edition": "evening",
+  "date": "2026-11-04",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-03T19:34:30+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-11-04T07:33:45+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 23.8,
-    "condition": "Overcast",
-    "high_c": 28.6,
-    "low_c": 19.6,
-    "rain_chance_pct": 37,
-    "tip": "Overcast with a 37% chance of rain, and The Hindu has Cyclone Murasu's eye crossing the Andhra coast, so Bengaluru can turn damp quickly. If you are heading to Indiranagar or a metro-side stretch tonight, leave for the return trip before 21:00 while the roads are still dry."
+    "now_c": 20.7,
+    "condition": "Light drizzle",
+    "high_c": 27.7,
+    "low_c": 19.7,
+    "rain_chance_pct": 86,
+    "tip": "Light drizzle now and an 86% chance of rain today, and The Hindu reports a glitch in the passenger information systems on the Namma Metro Yellow Line. If you ride the Yellow Line, do not rely on the station boards or announcements; check the train time on your app before you leave, and carry a compact umbrella for the walk at either end."
   },
   "edge": {
-    "id": "repackaged-medicine",
-    "category": "Safety trap",
-    "title": "The strip that looks right",
-    "setup": "You need a course of antibiotics, or a regular medicine for someone at home. An online listing or a small shop offers it noticeably cheaper than the chemist you normally use. The strip looks right, the box looks right, and the seller is cheerful about it. You have no way to read what is inside.",
-    "tell": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number.",
+    "id": "card-skim",
+    "category": "Money trap",
+    "title": "The machine that didn't work the first time",
+    "setup": "At a fuel pump or a small restaurant: your card is taken out of sight, or the POS machine 'fails' and needs a second swipe, or the ATM card slot looks slightly proud of the panel. With Deepavali spending and festival travel under way, you will be paying in more unfamiliar places than usual. The failed transaction is the part worth noticing.",
+    "tell": "Your card leaving your sight, or a swipe that mysteriously needs doing twice.",
     "move": [
-      "Buy prescription medicines only from a licensed chemist, and ask for a printed bill that carries the batch number and expiry date.",
-      "Check that the batch number and expiry on the bill match what is printed on the strip and the outer box. A mismatch, smudged print or a re-stuck label means you stop there.",
-      "If a price is far below the going rate, treat it as the finding, not as a bargain. Compare it against a second licensed chemist before you buy.",
-      "If a medicine seems wrong or does nothing, keep the packaging and the bill and report it to the state drugs control department; do not throw the evidence away."
+      "Never let the card leave your hand — carry it to the machine, or ask the machine to come to you.",
+      "Tap beats dip beats swipe. The magnetic stripe is the only part that can be cloned wholesale.",
+      "Tug the ATM card slot before inserting; skimmers are overlays and they move. Cover the keypad with your other hand regardless of who's around.",
+      "Turn on transaction alerts for every amount, not just large ones — test transactions are small on purpose."
     ],
-    "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
-    "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice.",
-    "anchor": "The Times of India reports the ED raided premises in Bengaluru in a fake medicine racket case, froze ₹9 lakh in bank accounts, and found a farmhouse used to repackage antibiotics."
+    "why": "Cloning needs two things: the stripe data and the PIN. The 'failed' swipe captures the first; the camera or overlay captures the second. Defeating either half defeats the attack, which is why keeping the card in view is disproportionately effective.",
+    "variants": "Same shape: a waiter 'who'll bring the machine' and returns slowly, free-Wi-Fi payment pages, QR codes pasted over the shop's real one."
   },
   "lens": {
-    "id": "asymmetric-information",
-    "name": "Asymmetric information",
-    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
-    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
     "elsewhere": [
-      "Freelance marketplaces race to the bottom without reviews.",
-      "Insurance pools get sicker when only the sick buy in.",
-      "A degree works partly as a costly signal of something an employer can't directly see."
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
     ],
-    "test": "What can the other side see that I can't — and what would make it visible?",
-    "today": "The ED raid over antibiotics repackaged at a Bengaluru farmhouse is the whole model in one case: the seller knew what was in the box, and the buyer could only see a label. The same gap sits behind the Fevikwik gold-chain robbery story, where the shop could not tell the visitor from a customer. Where you cannot see inside, pay attention to what you can check, which is the bill, the batch and the price."
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "The Hindu and Deccan Herald report that the 7.5-km elevated Pink Line is to be inaugurated on 13 November, and NHAI has reworked the Byatarayanapura and Kodigehalli junctions on the airport highway. Both are capacity added to a corridor people have been avoiding. Expect the first weeks to feel easier, and do not plan around that ease lasting once those who had given up on the route come back."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Hindu and CNBC TV18 report that PM Modi is likely to inaugurate the Namma Metro Pink Line on 13 November, while The Indian Express reports residents criticising the wait for a ready line.",
-      "so_what": "Treat 13 November as the inauguration, not the day you can ride it; passenger service dates are normally announced separately. Expect heavier traffic around the event venue that day and plan any cross-town trip with an hour in hand."
-    },
-    {
-      "tag": "Your record",
-      "what": "The Economic Times reports the INDIA bloc will hold an anti-SIR protest in Bengaluru on 5 November, and a Times of India piece has an MLA challenging claims of wrongful voter deletions.",
-      "so_what": "Check today that your name is on the electoral roll for your current address; it takes two minutes on the Election Commission's voter portal and the correction window is far easier to use now than at the polling booth. On 5 November, allow extra time for a protest-day diversion."
+      "what": "The Hindu and Deccan Herald report that PM Modi will inaugurate the 7.5-km elevated Pink Line of Namma Metro on 13 November. The Indian Express reports residents criticising the wait for a line that was already ready.",
+      "so_what": "Treat 13 November as the ceremony, not necessarily the first day you can ride; passenger service is usually announced separately. Expect heavier traffic and diversions around the event that day, and leave an hour earlier for any cross-town trip."
     },
     {
       "tag": "Prices",
-      "what": "The Times of India reports the Chief Minister has asked KMF to reconsider its curd price hike under pressure.",
-      "so_what": "The hike is not withdrawn yet, only under review. Do not stock up; buy as usual and look at the printed price on the next packet before assuming either way."
+      "what": "Deccan Herald reports the government has decided on a higher fare hike for BMTC bus services, to be announced today by Byrathi Suresh. The amount was not in the report.",
+      "so_what": "If you buy a monthly BMTC pass or travel daily by bus, wait for today's announcement before renewing and recompute your monthly cost. Compare it against the metro for the same route, since the gap is what decides your switch."
     },
     {
-      "tag": "Civic",
-      "what": "The New Indian Express reports Karnataka Minister Krishna Byre Gowda saying the TDR system for road widening will be made digital.",
-      "so_what": "If your plot or building is on a widening alignment, ask for the TDR entry in writing and in the digital record once it goes live, and keep your own copy. A record that exists only on someone else's system is the weakest kind to hold."
+      "tag": "Commute",
+      "what": "The Hindu and Deccan Herald report that NHAI has added road-safety measures at the Byatarayanapura and Kodigehalli junctions on the NH-44 airport highway.",
+      "so_what": "If you drive to or from the airport, expect changed lane markings and turning rules at these two junctions for the next few days. Slow down there rather than relying on memory of the old layout."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Times of India reports a Pune-Bengaluru highway slowed to a crawl by a blockade, with travellers stranded without food, and The Hindu reports a request for extra Bengaluru-Mangaluru services for the festival rush.",
+      "so_what": "If you are travelling for Deepavali, book now rather than on the day. On the Pune road, check the live status before you start and carry water and food, because a blockade leaves you with no exit."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports that Karnataka's draft electricity rules make an occupancy certificate (OC) mandatory and raise infrastructure costs for consumers and industries.",
+      "so_what": "If you are renting out, buying or about to apply for a new power connection, ask whether the building has an OC. The draft is not yet final, so treat it as a reason to check your paperwork, not a settled rule."
     }
   ],
   "carry_over": {
-    "id": "paid-in-paper",
-    "prompt": "Part of your land is needed for a road, and you are offered a certificate or extra built-up area instead of cash: what is the tell?",
-    "answer": "You hand over the asset today; the paper's price gets set by someone else, later."
+    "id": "repackaged-medicine",
+    "prompt": "You need a medicine and a listing or small shop offers it far cheaper than your chemist, in packaging that looks right: what is the tell?",
+    "answer": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number."
   }
 }

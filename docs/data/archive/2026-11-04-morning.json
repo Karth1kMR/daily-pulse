@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-04",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-04T07:33:45+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 20.7,
+    "condition": "Light drizzle",
+    "high_c": 27.7,
+    "low_c": 19.7,
+    "rain_chance_pct": 86,
+    "tip": "Light drizzle now and an 86% chance of rain today, and The Hindu reports a glitch in the passenger information systems on the Namma Metro Yellow Line. If you ride the Yellow Line, do not rely on the station boards or announcements; check the train time on your app before you leave, and carry a compact umbrella for the walk at either end."
+  },
+  "edge": {
+    "id": "card-skim",
+    "category": "Money trap",
+    "title": "The machine that didn't work the first time",
+    "setup": "At a fuel pump or a small restaurant: your card is taken out of sight, or the POS machine 'fails' and needs a second swipe, or the ATM card slot looks slightly proud of the panel. With Deepavali spending and festival travel under way, you will be paying in more unfamiliar places than usual. The failed transaction is the part worth noticing.",
+    "tell": "Your card leaving your sight, or a swipe that mysteriously needs doing twice.",
+    "move": [
+      "Never let the card leave your hand — carry it to the machine, or ask the machine to come to you.",
+      "Tap beats dip beats swipe. The magnetic stripe is the only part that can be cloned wholesale.",
+      "Tug the ATM card slot before inserting; skimmers are overlays and they move. Cover the keypad with your other hand regardless of who's around.",
+      "Turn on transaction alerts for every amount, not just large ones — test transactions are small on purpose."
+    ],
+    "why": "Cloning needs two things: the stripe data and the PIN. The 'failed' swipe captures the first; the camera or overlay captures the second. Defeating either half defeats the attack, which is why keeping the card in view is disproportionately effective.",
+    "variants": "Same shape: a waiter 'who'll bring the machine' and returns slowly, free-Wi-Fi payment pages, QR codes pasted over the shop's real one."
+  },
+  "lens": {
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "elsewhere": [
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
+    ],
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "The Hindu and Deccan Herald report that the 7.5-km elevated Pink Line is to be inaugurated on 13 November, and NHAI has reworked the Byatarayanapura and Kodigehalli junctions on the airport highway. Both are capacity added to a corridor people have been avoiding. Expect the first weeks to feel easier, and do not plan around that ease lasting once those who had given up on the route come back."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Hindu and Deccan Herald report that PM Modi will inaugurate the 7.5-km elevated Pink Line of Namma Metro on 13 November. The Indian Express reports residents criticising the wait for a line that was already ready.",
+      "so_what": "Treat 13 November as the ceremony, not necessarily the first day you can ride; passenger service is usually announced separately. Expect heavier traffic and diversions around the event that day, and leave an hour earlier for any cross-town trip."
+    },
+    {
+      "tag": "Prices",
+      "what": "Deccan Herald reports the government has decided on a higher fare hike for BMTC bus services, to be announced today by Byrathi Suresh. The amount was not in the report.",
+      "so_what": "If you buy a monthly BMTC pass or travel daily by bus, wait for today's announcement before renewing and recompute your monthly cost. Compare it against the metro for the same route, since the gap is what decides your switch."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Hindu and Deccan Herald report that NHAI has added road-safety measures at the Byatarayanapura and Kodigehalli junctions on the NH-44 airport highway.",
+      "so_what": "If you drive to or from the airport, expect changed lane markings and turning rules at these two junctions for the next few days. Slow down there rather than relying on memory of the old layout."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Times of India reports a Pune-Bengaluru highway slowed to a crawl by a blockade, with travellers stranded without food, and The Hindu reports a request for extra Bengaluru-Mangaluru services for the festival rush.",
+      "so_what": "If you are travelling for Deepavali, book now rather than on the day. On the Pune road, check the live status before you start and carry water and food, because a blockade leaves you with no exit."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports that Karnataka's draft electricity rules make an occupancy certificate (OC) mandatory and raise infrastructure costs for consumers and industries.",
+      "so_what": "If you are renting out, buying or about to apply for a new power connection, ask whether the building has an OC. The draft is not yet final, so treat it as a reason to check your paperwork, not a settled rule."
+    }
+  ],
+  "carry_over": {
+    "id": "repackaged-medicine",
+    "prompt": "You need a medicine and a listing or small shop offers it far cheaper than your chemist, in packaging that looks right: what is the tell?",
+    "answer": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number."
+  }
+}
