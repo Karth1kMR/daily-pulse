@@ -1,74 +1,66 @@
 {
   "date": "2026-11-05",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-05T07:40:00+05:30",
+  "generated_at": "2026-11-05T19:45:00+05:30",
   "read_seconds": 70,
-  "weather": {
-    "now_c": 21.3,
-    "condition": "Mostly clear",
-    "high_c": 29.2,
-    "low_c": 20.2,
-    "rain_chance_pct": 100,
-    "tip": "Rain is forecast at 100% today and BMTC fares rise with the hike coming into effect at midnight. On a wet day the bus is the slow option and now costs more, so check whether the metro covers your route before you buy a bus pass."
-  },
   "edge": {
-    "id": "job-fee",
+    "id": "deepfake-endorsement",
     "category": "Money trap",
-    "title": "The job that charges you",
-    "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
-    "tell": "Money flowing from employee to employer, in any form, at any stage.",
+    "title": "When a minister endorses a trading app",
+    "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
+    "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
     "move": [
-      "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
-      "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
-      "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
+      "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
+      "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
+      "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
     ],
-    "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
-    "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
+    "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
+    "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
   },
   "lens": {
-    "id": "availability-heuristic",
-    "name": "The availability heuristic",
-    "one_line": "You judge how likely something is by how easily an example comes to mind.",
-    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "id": "opportunity-cost",
+    "name": "Opportunity cost",
+    "one_line": "The true price of anything is the best thing you gave up to get it.",
+    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
     "elsewhere": [
-      "Fearing a kidnapping while texting at the wheel.",
-      "Overrating lottery odds after a winner is interviewed.",
-      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+      "A cheap flat 25 km out, priced in hours of your life per year.",
+      "Studying one more degree versus the earnings and experience forgone.",
+      "A free app paid for with attention and data."
     ],
-    "test": "Am I estimating this from data, or from how easily a story came to mind?",
-    "today": "The Times of India runs 'Amid job cuts, 5 B'luru engg students bag 1cr+ package' today. Five seven-figure offers are vivid and easy to recall; the quiet majority with ordinary offers, or none, make no headline. If that story shapes how easy you think a job switch is, you are estimating from recall, not from data."
+    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
+    "today": "A Bengaluru cafe owner went viral for asking about customers who buy one ₹150 coffee and work at a table for hours. The table is the cafe's real inventory, so every hour a laptop sits there costs the best alternative: a customer who would have ordered more. If you are the one working there, the honest price of that table is one coffee plus the goodwill you spend."
   },
   "moved": [
     {
+      "tag": "Money",
+      "what": "A Bengaluru woman returned ill-fitting clothes, searched online for the e-commerce customer care number to claim a ₹441 refund, followed the fraudster's instructions and lost ₹1.05 lakh, per The Times of India.",
+      "so_what": "Get support numbers only from inside the company's own app or order page, never from a search result. And no genuine refund ever needs you to approve a payment or share an OTP."
+    },
+    {
       "tag": "Prices",
-      "what": "Karnataka has raised bus fares: about 35% for BMTC and 23% for state transport corporations. The Times of India says the hike takes effect from Thursday midnight, and NDTV says the Bengaluru minimum fare rises to ₹10. BJP is holding statewide protests today over bus fare and milk price hikes.",
-      "so_what": "Recompute your monthly bus cost before renewing a pass. With the minimum bus fare at ₹10, the same as the metro per Moneycontrol, compare the two on your actual route."
+      "what": "After milk, curd and bus fares, the Karnataka Cooperative Milk Producers Federation has raised ghee by ₹135 and butter by ₹140 a kg. Paneer also gets costlier, says The Times of India.",
+      "so_what": "Festival cooking is the expensive week to be caught out. Buy ghee in the quantity you will actually use, and expect your café and tea bills to creep up as well."
     },
     {
-      "tag": "Commute",
-      "what": "PM Modi is to inaugurate the Pink Line stretch on 13 November, with trains every 8 minutes at peak per Deccan Herald. The Hindu reports the partial opening may increase congestion.",
-      "so_what": "Do not expect a smoother 13 November. Allow extra time for any cross-town trip that day, and wait a few days before rebuilding your commute around the new stretch."
+      "tag": "Your record",
+      "what": "A Bengaluru landlord withheld a tenant's ₹80,000 deposit, saying the tenant gave no 3 months' notice and the refund depended on finding a new tenant. A consumer commission ordered a full refund with 9% interest and ₹10,000 costs.",
+      "so_what": "Before you sign or leave a rental, check the notice clause and give notice in writing with proof of delivery. A deposit that is 'conditional on a new tenant' is a clause to question now, not at exit."
     },
     {
-      "tag": "Worth booking",
-      "what": "The Hindu reports an MP seeking extra Bengaluru-Mangaluru services for the festival rush, and Urban Acres reports a Bengaluru-Madgaon Diwali special.",
-      "so_what": "If you are travelling for Deepavali, book a confirmed special now. A request for extra trains is not a confirmed service, so do not plan around it."
+      "tag": "Your record",
+      "what": "The Times of India reports motorists contesting wrong e-challans, including a guitar read as a pillion rider and a turban read as a missing helmet.",
+      "so_what": "Open any challan you receive and compare the photo with what you were actually doing. If the photo does not match, contest it through the official channel instead of paying to make it go away."
     },
     {
       "tag": "Safety",
-      "what": "NDTV and The Times of India report a gas cylinder catching fire at a Bengaluru home after leaking gas reached an oil lamp.",
-      "so_what": "Keep lit diyas away from the kitchen and the cylinder this week. If you smell gas, open windows and leave switches and flames alone before calling for help."
-    },
-    {
-      "tag": "Prices",
-      "what": "Investing.com India reports oil falling over 8% as traders weigh the impact of the US midterm results on the Iran war.",
-      "so_what": "Do not expect a cheaper pump price soon; retail fuel prices lag crude and a one-day swing may reverse. Do not delay a fill-up or a purchase waiting for it."
+      "what": "The Times of India reports asbestos found in rangoli products abroad, and Bengaluru doctors advise caution.",
+      "so_what": "The report is about products abroad, so this is a precaution, not an alert. Buy colours from a known seller, avoid inhaling loose powder, and keep children from handling it."
     }
   ],
   "carry_over": {
-    "id": "paid-in-paper",
-    "prompt": "You are offered a certificate or extra built-up area instead of cash for part of your land. What is the thing to notice?",
-    "answer": "You hand over the asset today; the paper's price gets set by someone else, later."
+    "id": "job-fee",
+    "prompt": "An offer letter arrives, the HR contact is warm, and a 'refundable' registration or laptop deposit is due today. What is the thing to notice?",
+    "answer": "Money flowing from employee to employer, in any form, at any stage."
   }
 }

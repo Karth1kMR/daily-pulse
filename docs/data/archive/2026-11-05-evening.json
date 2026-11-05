@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-05",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-05T19:45:00+05:30",
+  "read_seconds": 70,
+  "edge": {
+    "id": "deepfake-endorsement",
+    "category": "Money trap",
+    "title": "When a minister endorses a trading app",
+    "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
+    "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
+    "move": [
+      "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
+      "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
+      "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
+    ],
+    "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
+    "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
+  },
+  "lens": {
+    "id": "opportunity-cost",
+    "name": "Opportunity cost",
+    "one_line": "The true price of anything is the best thing you gave up to get it.",
+    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+    "elsewhere": [
+      "A cheap flat 25 km out, priced in hours of your life per year.",
+      "Studying one more degree versus the earnings and experience forgone.",
+      "A free app paid for with attention and data."
+    ],
+    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
+    "today": "A Bengaluru cafe owner went viral for asking about customers who buy one ₹150 coffee and work at a table for hours. The table is the cafe's real inventory, so every hour a laptop sits there costs the best alternative: a customer who would have ordered more. If you are the one working there, the honest price of that table is one coffee plus the goodwill you spend."
+  },
+  "moved": [
+    {
+      "tag": "Money",
+      "what": "A Bengaluru woman returned ill-fitting clothes, searched online for the e-commerce customer care number to claim a ₹441 refund, followed the fraudster's instructions and lost ₹1.05 lakh, per The Times of India.",
+      "so_what": "Get support numbers only from inside the company's own app or order page, never from a search result. And no genuine refund ever needs you to approve a payment or share an OTP."
+    },
+    {
+      "tag": "Prices",
+      "what": "After milk, curd and bus fares, the Karnataka Cooperative Milk Producers Federation has raised ghee by ₹135 and butter by ₹140 a kg. Paneer also gets costlier, says The Times of India.",
+      "so_what": "Festival cooking is the expensive week to be caught out. Buy ghee in the quantity you will actually use, and expect your café and tea bills to creep up as well."
+    },
+    {
+      "tag": "Your record",
+      "what": "A Bengaluru landlord withheld a tenant's ₹80,000 deposit, saying the tenant gave no 3 months' notice and the refund depended on finding a new tenant. A consumer commission ordered a full refund with 9% interest and ₹10,000 costs.",
+      "so_what": "Before you sign or leave a rental, check the notice clause and give notice in writing with proof of delivery. A deposit that is 'conditional on a new tenant' is a clause to question now, not at exit."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports motorists contesting wrong e-challans, including a guitar read as a pillion rider and a turban read as a missing helmet.",
+      "so_what": "Open any challan you receive and compare the photo with what you were actually doing. If the photo does not match, contest it through the official channel instead of paying to make it go away."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports asbestos found in rangoli products abroad, and Bengaluru doctors advise caution.",
+      "so_what": "The report is about products abroad, so this is a precaution, not an alert. Buy colours from a known seller, avoid inhaling loose powder, and keep children from handling it."
+    }
+  ],
+  "carry_over": {
+    "id": "job-fee",
+    "prompt": "An offer letter arrives, the HR contact is warm, and a 'refundable' registration or laptop deposit is due today. What is the thing to notice?",
+    "answer": "Money flowing from employee to employer, in any form, at any stage."
+  }
+}
