@@ -1,76 +1,74 @@
 {
-  "date": "2026-11-04",
-  "edition": "evening",
+  "date": "2026-11-05",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-04T19:40:00+05:30",
+  "generated_at": "2026-11-05T07:40:00+05:30",
   "read_seconds": 70,
   "weather": {
-    "now_c": 20.7,
-    "condition": "Light drizzle (morning reading; live weather failed to load)",
-    "high_c": 27.7,
-    "low_c": 19.7,
-    "rain_chance_pct": 86,
-    "tip": "The morning forecast gave an 86% chance of rain today, and BMTC bus fares rise from tomorrow, 5 November. If you plan to leave the bus for the metro on wet days, cost the new fare against the metro ticket before you buy a pass."
+    "now_c": 21.3,
+    "condition": "Mostly clear",
+    "high_c": 29.2,
+    "low_c": 20.2,
+    "rain_chance_pct": 100,
+    "tip": "Rain is forecast at 100% today and BMTC fares rise with the hike coming into effect at midnight. On a wet day the bus is the slow option and now costs more, so check whether the metro covers your route before you buy a bus pass."
   },
   "edge": {
-    "id": "paid-in-paper",
+    "id": "job-fee",
     "category": "Money trap",
-    "title": "The compensation that isn't cash",
-    "setup": "Part of your land, or your building's setback, is needed — for a road, a drain, a widening. Nobody offers you money. You are offered a certificate, a share of built-up area, extra floors, a credit you can sell on later. The officer is helpful, the paper looks official, and the number printed on it sounds larger than any cash you were expecting.",
-    "tell": "You hand over the asset today; the paper's price gets set by someone else, later.",
+    "title": "The job that charges you",
+    "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+    "tell": "Money flowing from employee to employer, in any form, at any stage.",
     "move": [
-      "Do not part with possession, a signature or an original deed until the certificate exists in your name. A sanction or an approval is not a certificate.",
-      "Ask in writing who buys this paper and at what discount to its face value — then ask a second buyer the same question.",
-      "Get face value and realisable value as two separate numbers, from someone who is not the party acquiring your asset.",
-      "Keep every acknowledgement with a date and an inward number. The delay, not the rate, is usually what costs you."
+      "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+      "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+      "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
     ],
-    "why": "Cash settles now, at a price you can verify. Paper settles later, at a price discovered in a thin market you are not part of. The mechanism is not fraud — it is a quiet transfer of timing risk and valuation risk from the body taking your asset onto you. Whoever controls when the paper converts controls what it is worth, and that is never the person holding it.",
-    "variants": "Same shape: a builder offering area-sharing instead of a sale price, a refund offered as store credit or a voucher, salary deferred into stock or a joining bonus, an 'assured bonus' on an insurance policy, dues settled as a future adjustment.",
-    "anchor": "Swarajya reports that land acquisition for Namma Metro Phase 3 continues, with a third notification covering 170 properties."
+    "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+    "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
   },
   "lens": {
-    "id": "survivorship-bias",
-    "name": "Survivorship bias",
-    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
-    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
     "elsewhere": [
-      "Dropout-founder stories, drawn from the tiny surviving tail.",
-      "Fund performance tables that quietly exclude closed funds.",
-      "Old buildings seeming better built — the shoddy ones were demolished."
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
     ],
-    "test": "Who is missing from this dataset because they didn't make it this far?",
-    "today": "The Hindu reports a speaker at the Bengaluru Skill Summit saying that the city's white-collar success has left a non-urban world behind. The Bengaluru you see in summits, launches and metro inaugurations is the part that worked; the people and places that did not keep up rarely appear in the sample. When someone says 'Bengaluru is doing great', ask who is missing from that picture."
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "The Times of India runs 'Amid job cuts, 5 B'luru engg students bag 1cr+ package' today. Five seven-figure offers are vivid and easy to recall; the quiet majority with ordinary offers, or none, make no headline. If that story shapes how easy you think a job switch is, you are estimating from recall, not from data."
   },
   "moved": [
     {
       "tag": "Prices",
-      "what": "Karnataka has raised bus fares: BMTC by 35% and KSRTC and other corporations by 23%. The Times of India reports the BMTC minimum fare rising by up to ₹10 and the Bengaluru airport bus ticket at ₹425. Urban Acres says the BMTC hike starts 5 November.",
-      "so_what": "If you hold or buy a monthly BMTC pass, recompute your monthly cost before renewing. For a daily commuter, a 35% rise is a real monthly increase, so compare it against the metro for the same route."
+      "what": "Karnataka has raised bus fares: about 35% for BMTC and 23% for state transport corporations. The Times of India says the hike takes effect from Thursday midnight, and NDTV says the Bengaluru minimum fare rises to ₹10. BJP is holding statewide protests today over bus fare and milk price hikes.",
+      "so_what": "Recompute your monthly bus cost before renewing a pass. With the minimum bus fare at ₹10, the same as the metro per Moneycontrol, compare the two on your actual route."
     },
     {
       "tag": "Commute",
-      "what": "The Hindu reports that the partial opening of the Pink Line may increase congestion in Bengaluru. The metro's Pink Line is to be inaugurated by PM Modi on 13 November, according to several outlets.",
-      "so_what": "Do not assume the ceremony day means a smoother commute. Expect diversions and heavier traffic around the event, and give any cross-town trip on 13 November extra time."
+      "what": "PM Modi is to inaugurate the Pink Line stretch on 13 November, with trains every 8 minutes at peak per Deccan Herald. The Hindu reports the partial opening may increase congestion.",
+      "so_what": "Do not expect a smoother 13 November. Allow extra time for any cross-town trip that day, and wait a few days before rebuilding your commute around the new stretch."
     },
     {
       "tag": "Worth booking",
-      "what": "The Hindu reports Deepavali special trains between Bengaluru, Mangaluru and Goa on 7 and 8 November, and a request for extra Bengaluru-Mangaluru services for the festival rush.",
-      "so_what": "If you are travelling for the festival, book the special on those dates now. A request for extra services is not a confirmed service, so do not plan around it."
+      "what": "The Hindu reports an MP seeking extra Bengaluru-Mangaluru services for the festival rush, and Urban Acres reports a Bengaluru-Madgaon Diwali special.",
+      "so_what": "If you are travelling for Deepavali, book a confirmed special now. A request for extra trains is not a confirmed service, so do not plan around it."
     },
     {
       "tag": "Safety",
-      "what": "The Times of India reports a gas cylinder exploding in Bengaluru after leaking gas caught flame from an oil lamp; the delivery worker escaped without serious injuries.",
-      "so_what": "During Deepavali, keep lit lamps away from the kitchen and the cylinder. If you smell gas, open windows and leave the lamp and switches alone before you call anyone."
+      "what": "NDTV and The Times of India report a gas cylinder catching fire at a Bengaluru home after leaking gas reached an oil lamp.",
+      "so_what": "Keep lit diyas away from the kitchen and the cylinder this week. If you smell gas, open windows and leave switches and flames alone before calling for help."
     },
     {
-      "tag": "Money",
-      "what": "The Times of India reports that a woman posing as a police officer promised to help a 75-year-old vendor recover his wife's missing gold chain, collected ₹40,000 over three months, then transferred ₹1.6 lakh from his phone and fled.",
-      "so_what": "Anyone who offers to recover something lost for a fee, or asks to handle your phone, is the signal. Genuine police do not charge for recovery or ask to operate your UPI app."
+      "tag": "Prices",
+      "what": "Investing.com India reports oil falling over 8% as traders weigh the impact of the US midterm results on the Iran war.",
+      "so_what": "Do not expect a cheaper pump price soon; retail fuel prices lag crude and a one-day swing may reverse. Do not delay a fill-up or a purchase waiting for it."
     }
   ],
   "carry_over": {
-    "id": "card-skim",
-    "prompt": "At a pump or restaurant your card is taken out of sight, or a swipe 'fails' and needs doing twice. What is the thing to notice?",
-    "answer": "Your card leaving your sight, or a swipe that mysteriously needs doing twice."
+    "id": "paid-in-paper",
+    "prompt": "You are offered a certificate or extra built-up area instead of cash for part of your land. What is the thing to notice?",
+    "answer": "You hand over the asset today; the paper's price gets set by someone else, later."
   }
 }

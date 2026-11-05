@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-05",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-05T07:40:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 21.3,
+    "condition": "Mostly clear",
+    "high_c": 29.2,
+    "low_c": 20.2,
+    "rain_chance_pct": 100,
+    "tip": "Rain is forecast at 100% today and BMTC fares rise with the hike coming into effect at midnight. On a wet day the bus is the slow option and now costs more, so check whether the metro covers your route before you buy a bus pass."
+  },
+  "edge": {
+    "id": "job-fee",
+    "category": "Money trap",
+    "title": "The job that charges you",
+    "setup": "An offer letter arrives — good company, better package than you expected, for a role you half-remember applying to. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+    "tell": "Money flowing from employee to employer, in any form, at any stage.",
+    "move": [
+      "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+      "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+      "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
+    ],
+    "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+    "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad."
+  },
+  "lens": {
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "elsewhere": [
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+    ],
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "The Times of India runs 'Amid job cuts, 5 B'luru engg students bag 1cr+ package' today. Five seven-figure offers are vivid and easy to recall; the quiet majority with ordinary offers, or none, make no headline. If that story shapes how easy you think a job switch is, you are estimating from recall, not from data."
+  },
+  "moved": [
+    {
+      "tag": "Prices",
+      "what": "Karnataka has raised bus fares: about 35% for BMTC and 23% for state transport corporations. The Times of India says the hike takes effect from Thursday midnight, and NDTV says the Bengaluru minimum fare rises to ₹10. BJP is holding statewide protests today over bus fare and milk price hikes.",
+      "so_what": "Recompute your monthly bus cost before renewing a pass. With the minimum bus fare at ₹10, the same as the metro per Moneycontrol, compare the two on your actual route."
+    },
+    {
+      "tag": "Commute",
+      "what": "PM Modi is to inaugurate the Pink Line stretch on 13 November, with trains every 8 minutes at peak per Deccan Herald. The Hindu reports the partial opening may increase congestion.",
+      "so_what": "Do not expect a smoother 13 November. Allow extra time for any cross-town trip that day, and wait a few days before rebuilding your commute around the new stretch."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Hindu reports an MP seeking extra Bengaluru-Mangaluru services for the festival rush, and Urban Acres reports a Bengaluru-Madgaon Diwali special.",
+      "so_what": "If you are travelling for Deepavali, book a confirmed special now. A request for extra trains is not a confirmed service, so do not plan around it."
+    },
+    {
+      "tag": "Safety",
+      "what": "NDTV and The Times of India report a gas cylinder catching fire at a Bengaluru home after leaking gas reached an oil lamp.",
+      "so_what": "Keep lit diyas away from the kitchen and the cylinder this week. If you smell gas, open windows and leave switches and flames alone before calling for help."
+    },
+    {
+      "tag": "Prices",
+      "what": "Investing.com India reports oil falling over 8% as traders weigh the impact of the US midterm results on the Iran war.",
+      "so_what": "Do not expect a cheaper pump price soon; retail fuel prices lag crude and a one-day swing may reverse. Do not delay a fill-up or a purchase waiting for it."
+    }
+  ],
+  "carry_over": {
+    "id": "paid-in-paper",
+    "prompt": "You are offered a certificate or extra built-up area instead of cash for part of your land. What is the thing to notice?",
+    "answer": "You hand over the asset today; the paper's price gets set by someone else, later."
+  }
+}
