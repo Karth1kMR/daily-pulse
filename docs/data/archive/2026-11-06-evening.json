@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-06",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-06T19:33:57+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 22.4,
+    "condition": "Partly cloudy",
+    "high_c": 27.3,
+    "low_c": 19.9,
+    "rain_chance_pct": 100,
+    "tip": "Rain is certain with an evening thunderstorm warning, and the Deepavali exodus and Ballari Road curbs hit the same roads, so leave for the station or airport well before dusk."
+  },
+  "edge": {
+    "id": "loan-app-harassment",
+    "category": "Pressure play",
+    "title": "When the app calls your contacts",
+    "setup": "A small loan taken through an app that approved it in minutes. A payment slips in the Deepavali spending week. Now the calls start — to you, then to your contacts, your manager, your family. Morphed photos, abuse, a 'legal notice' from a lawyer who doesn't exist. The amount owed keeps changing.",
+    "tell": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it.",
+    "move": [
+      "Recovery agents may not call before 8am, after 7pm, or contact people who didn't guarantee the loan. Harassment is a police matter: FIR, plus a complaint on the RBI's CMS portal (cms.rbi.org.in).",
+      "Check whether the lender is an RBI-registered NBFC. Many are not — unregistered lenders have no legal recovery path at all.",
+      "Revoke the app's contacts and photos permission immediately, then uninstall. Keep every screenshot.",
+      "Pay what is genuinely owed through a traceable channel, never to a personal UPI ID."
+    ],
+    "why": "These operations monetise shame, not debt. The loan is small on purpose — the business model is the humiliation leverage, which is why the threats escalate socially rather than legally. Naming the actual legal framework collapses it, because the framework was never on their side.",
+    "variants": "Same shape: fake 'legal notice' WhatsApps, sextortion video calls, 'we'll inform your employer' threats."
+  },
+  "lens": {
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "elsewhere": [
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
+    ],
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "The Greater Bengaluru Authority told the Supreme Court that private builders issued new e-khatas for illegally constructed flats, per The New Indian Express. A record meant to certify a property can be produced by the very parties it is supposed to check, and a buyer then relies on the paper as if an authority had verified the building. Before paying for any flat, ask who verified the e-khata against the approved plan, not just whether one exists."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Ballari Road traffic curbs between Hebbal and Mekhri Circle began on 6 November and will run for 18 months while the BDA builds an elevated corridor (Deccan Herald, The Indian Express). India Today reports significant delays at the airport approach.",
+      "so_what": "Allow extra time for any airport trip and check the diversion map before you leave, not at the junction."
+    },
+    {
+      "tag": "Commute",
+      "what": "Livemint reports an IMD thunderstorm and lightning warning for Friday evening, with Dhanteras shopping adding to traffic. The Times of India expects a heavy Deepavali vehicle outflow this weekend.",
+      "so_what": "If you are travelling out this weekend, leave outside the evening rain window or book the train; roads out will be slowest tonight."
+    },
+    {
+      "tag": "Money",
+      "what": "The New Indian Express reports bus fare rises of up to 67 per cent, and Deccan Herald says BMTC now costs more than Namma Metro for slower journeys.",
+      "so_what": "Price your daily route both ways; for many trips the metro plus a short last leg is now cheaper."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Greater Bengaluru Authority told the Supreme Court that private builders were issued new e-khatas for illegally constructed flats (The New Indian Express).",
+      "so_what": "Buying or renting long term? Ask for the sanctioned plan and occupancy certificate alongside the e-khata."
+    },
+    {
+      "tag": "Prices",
+      "what": "The News Minute reports Karnataka found ethanol blending of up to 31.2% in petrol and has asked the Union government for an explanation.",
+      "so_what": "If your mileage has dropped, that is a data point worth noting; the explanation from the Centre is still awaited."
+    }
+  ],
+  "carry_over": {
+    "id": "phone-snatch",
+    "prompt": "Your phone is snatched at a crowded bus stand — what do you block first, before anything else?",
+    "answer": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing."
+  }
+}

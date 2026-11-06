@@ -1,132 +1,75 @@
 {
   "date": "2026-11-06",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-06T07:45:00+05:30",
+  "generated_at": "2026-11-06T19:33:57+05:30",
   "read_seconds": 75,
   "weather": {
-    "now_c": 20.6,
+    "now_c": 22.4,
     "condition": "Partly cloudy",
-    "high_c": 27.6,
-    "low_c": 19.7,
+    "high_c": 27.3,
+    "low_c": 19.9,
     "rain_chance_pct": 100,
-    "tip": "Forecast shows rain certain today and a Deepavali getaway rush building by evening, so leave for any bus stand or station earlier than usual and keep the ticket and ID on your phone in a pocket, not in the bag."
+    "tip": "Rain is certain with an evening thunderstorm warning, and the Deepavali exodus and Ballari Road curbs hit the same roads, so leave for the station or airport well before dusk."
   },
   "edge": {
-    "id": "phone-snatch",
-    "category": "Safety",
-    "title": "The first twenty minutes after your phone goes",
-    "setup": "Phone gone — snatched at a signal, lifted on a bus, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents. On a Deepavali weekend, bus stands, railway stations and signals are at their most crowded.",
-    "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
+    "id": "loan-app-harassment",
+    "category": "Pressure play",
+    "title": "When the app calls your contacts",
+    "setup": "A small loan taken through an app that approved it in minutes. A payment slips in the Deepavali spending week. Now the calls start — to you, then to your contacts, your manager, your family. Morphed photos, abuse, a 'legal notice' from a lawyer who doesn't exist. The amount owed keeps changing.",
+    "tell": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it.",
     "move": [
-      "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
-      "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
-      "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
-      "Keep your IMEI somewhere that isn't your phone. Today."
+      "Recovery agents may not call before 8am, after 7pm, or contact people who didn't guarantee the loan. Harassment is a police matter: FIR, plus a complaint on the RBI's CMS portal (cms.rbi.org.in).",
+      "Check whether the lender is an RBI-registered NBFC. Many are not — unregistered lenders have no legal recovery path at all.",
+      "Revoke the app's contacts and photos permission immediately, then uninstall. Keep every screenshot.",
+      "Pay what is genuinely owed through a traceable channel, never to a personal UPI ID."
     ],
-    "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
-    "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR)."
+    "why": "These operations monetise shame, not debt. The loan is small on purpose — the business model is the humiliation leverage, which is why the threats escalate socially rather than legally. Naming the actual legal framework collapses it, because the framework was never on their side.",
+    "variants": "Same shape: fake 'legal notice' WhatsApps, sextortion video calls, 'we'll inform your employer' threats."
   },
   "lens": {
-    "id": "second-order",
-    "name": "Second-order effects",
-    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
-    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
     "elsewhere": [
-      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
-      "A company bans a tool, so work routes through an unmonitored one.",
-      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
     ],
-    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
-    "today": "From 6 November, buses and goods vehicles are barred from Ballari Road for 18 months while the BDA builds an elevated corridor, per The Times of India and The Economic Times. The first-order effect is a smoother road once it is done; the second-order effects arrive sooner, as heavy traffic shifts to neighbouring roads and timings, which then carry more than they were built for. Plan around where the diverted traffic goes, not just around the closure itself."
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "The Greater Bengaluru Authority told the Supreme Court that private builders issued new e-khatas for illegally constructed flats, per The New Indian Express. A record meant to certify a property can be produced by the very parties it is supposed to check, and a buyer then relies on the paper as if an authority had verified the building. Before paying for any flat, ask who verified the e-khata against the approved plan, not just whether one exists."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "From 6 November, KSRTC buses and goods vehicles are banned on Ballari Road for 18 months while the BDA builds an elevated corridor, with traffic diversions announced (Times of India, Economic Times).",
-      "so_what": "If your route to the airport or north Bengaluru uses Ballari Road, check the traffic police diversion advisory before you leave and add buffer time. Expect the roads that absorb the diversion to slow too."
+      "what": "Ballari Road traffic curbs between Hebbal and Mekhri Circle began on 6 November and will run for 18 months while the BDA builds an elevated corridor (Deccan Herald, The Indian Express). India Today reports significant delays at the airport approach.",
+      "so_what": "Allow extra time for any airport trip and check the diversion map before you leave, not at the junction."
     },
     {
       "tag": "Commute",
-      "what": "This weekend's Deepavali getaway is expected to bring a massive vehicle outflow from Bengaluru (Times of India). Special trains run between Bengaluru, Mangaluru and Goa on 7 and 8 November, and Bengaluru–Belagavi specials have also been announced.",
-      "so_what": "If you are travelling out, leave before the afternoon or after the late-evening peak, or book one of the special trains instead of driving. If you are staying in town, avoid the highway-bound roads on Friday evening and Saturday morning."
+      "what": "Livemint reports an IMD thunderstorm and lightning warning for Friday evening, with Dhanteras shopping adding to traffic. The Times of India expects a heavy Deepavali vehicle outflow this weekend.",
+      "so_what": "If you are travelling out this weekend, leave outside the evening rain window or book the train; roads out will be slowest tonight."
     },
     {
       "tag": "Money",
-      "what": "BMTC bus fares and passes have gone up, with passes reported 25% higher; Deccan Herald says commuters now pay more than on Namma Metro for slower journeys, and a bus riders' group has demanded a rollback.",
-      "so_what": "Recompute your monthly commute cost this week: pass versus daily fares versus Metro for your own route. For some routes the Metro may now be cheaper and faster."
+      "what": "The New Indian Express reports bus fare rises of up to 67 per cent, and Deccan Herald says BMTC now costs more than Namma Metro for slower journeys.",
+      "so_what": "Price your daily route both ways; for many trips the metro plus a short last leg is now cheaper."
     },
     {
       "tag": "Your record",
-      "what": "The Times of India reports that Karnataka voter lists show duplicates and errors after the special intensive revision.",
-      "so_what": "Search for your name and details on the electoral roll now. A wrong or duplicated entry is easier to fix before an election than on polling day."
+      "what": "The Greater Bengaluru Authority told the Supreme Court that private builders were issued new e-khatas for illegally constructed flats (The New Indian Express).",
+      "so_what": "Buying or renting long term? Ask for the sanctioned plan and occupancy certificate alongside the e-khata."
     },
     {
       "tag": "Prices",
-      "what": "Reuters reports tankers were hit in the Strait of Hormuz as Iran keeps up pressure after the US vote.",
-      "so_what": "This is a watch item, not an alert. Hormuz disruption is the route by which crude, and eventually petrol, diesel and LPG prices, can move, so do not panic-buy fuel but expect the next few weeks of price news to matter."
+      "what": "The News Minute reports Karnataka found ethanol blending of up to 31.2% in petrol and has asked the Union government for an explanation.",
+      "so_what": "If your mileage has dropped, that is a data point worth noting; the explanation from the Centre is still awaited."
     }
   ],
   "carry_over": {
-    "id": "deepfake-endorsement",
-    "prompt": "A video of a public figure announces a government-backed trading platform, and a small test withdrawal actually reaches your account. What is the one thing to check?",
-    "answer": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant."
-  },
-  "quiz": [
-    {
-      "q": "For how long will the Ballari Road traffic restrictions last?",
-      "options": [
-        "6 weeks",
-        "6 months",
-        "18 months",
-        "3 years"
-      ],
-      "answer": 2,
-      "explain": "Buses and goods vehicles are barred for 18 months while the BDA builds an elevated corridor."
-    },
-    {
-      "q": "By how much did the Karnataka Cooperative Milk Producers Federation raise ghee prices?",
-      "options": [
-        "₹35 a kg",
-        "₹135 a kg",
-        "₹235 a kg",
-        "₹335 a kg"
-      ],
-      "answer": 1,
-      "explain": "Ghee went up by ₹135 and butter by ₹140 a kg, after milk, curd and bus fares."
-    },
-    {
-      "q": "How much is the InMobi naming-rights deal for Ibbaluru Metro station worth?",
-      "options": [
-        "₹6.5 crore",
-        "₹25 crore",
-        "₹65 crore",
-        "₹165 crore"
-      ],
-      "answer": 2,
-      "explain": "BMRCL signed a ₹65 crore MoU with InMobi."
-    },
-    {
-      "q": "When does Chowdiah Utsava 2026 begin in Bengaluru?",
-      "options": [
-        "7 November",
-        "9 November",
-        "11 November",
-        "17 November"
-      ],
-      "answer": 2,
-      "explain": "Deccan Herald reports the festival begins on 11 November."
-    },
-    {
-      "q": "On which dates do the Deepavali special trains run between Bengaluru, Mangaluru and Goa?",
-      "options": [
-        "5 and 6 November",
-        "7 and 8 November",
-        "9 and 10 November",
-        "11 and 12 November"
-      ],
-      "answer": 1,
-      "explain": "The Hindu reports specials on 7 and 8 November."
-    }
-  ]
+    "id": "phone-snatch",
+    "prompt": "Your phone is snatched at a crowded bus stand — what do you block first, before anything else?",
+    "answer": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing."
+  }
 }
