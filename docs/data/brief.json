@@ -1,66 +1,132 @@
 {
-  "date": "2026-11-05",
-  "edition": "evening",
+  "date": "2026-11-06",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-05T19:45:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-11-06T07:45:00+05:30",
+  "read_seconds": 75,
+  "weather": {
+    "now_c": 20.6,
+    "condition": "Partly cloudy",
+    "high_c": 27.6,
+    "low_c": 19.7,
+    "rain_chance_pct": 100,
+    "tip": "Forecast shows rain certain today and a Deepavali getaway rush building by evening, so leave for any bus stand or station earlier than usual and keep the ticket and ID on your phone in a pocket, not in the bag."
+  },
   "edge": {
-    "id": "deepfake-endorsement",
-    "category": "Money trap",
-    "title": "When a minister endorses a trading app",
-    "setup": "A video of a public figure — a finance minister, a cricketer, a known investor — announcing a government-backed platform with guaranteed monthly returns. Voice, face and mannerisms are right. A 'relationship manager' shows a dashboard where your ₹10,000 test deposit has grown to ₹13,400, and a small withdrawal actually reaches your account. Then he suggests moving the FD.",
-    "tell": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant.",
+    "id": "phone-snatch",
+    "category": "Safety",
+    "title": "The first twenty minutes after your phone goes",
+    "setup": "Phone gone — snatched at a signal, lifted on a bus, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents. On a Deepavali weekend, bus stands, railway stations and signals are at their most crowded.",
+    "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
     "move": [
-      "Judge the claim, never the face. A minister endorsing a trading app is checkable in ten seconds on any news site.",
-      "The successful small withdrawal is the hook, not the proof — it's the cheapest money they'll ever spend.",
-      "Verify any intermediary on sebi.gov.in yourself. Never accept a registration number from the person being verified."
+      "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
+      "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
+      "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
+      "Keep your IMEI somewhere that isn't your phone. Today."
     ],
-    "why": "Deepfakes have broken 'seeing is believing' as a test, so the test has to move to the claim. Finance has a hard arithmetic floor: 15% a month is 435% a year. No real instrument does that, so no amount of video realism can make it true.",
-    "variants": "Same shape: celebrity crypto giveaways, WhatsApp 'stock tip' groups with fake P&L screenshots, cloned brokerage apps."
+    "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
+    "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR)."
   },
   "lens": {
-    "id": "opportunity-cost",
-    "name": "Opportunity cost",
-    "one_line": "The true price of anything is the best thing you gave up to get it.",
-    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
     "elsewhere": [
-      "A cheap flat 25 km out, priced in hours of your life per year.",
-      "Studying one more degree versus the earnings and experience forgone.",
-      "A free app paid for with attention and data."
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
     ],
-    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
-    "today": "A Bengaluru cafe owner went viral for asking about customers who buy one ₹150 coffee and work at a table for hours. The table is the cafe's real inventory, so every hour a laptop sits there costs the best alternative: a customer who would have ordered more. If you are the one working there, the honest price of that table is one coffee plus the goodwill you spend."
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "From 6 November, buses and goods vehicles are barred from Ballari Road for 18 months while the BDA builds an elevated corridor, per The Times of India and The Economic Times. The first-order effect is a smoother road once it is done; the second-order effects arrive sooner, as heavy traffic shifts to neighbouring roads and timings, which then carry more than they were built for. Plan around where the diverted traffic goes, not just around the closure itself."
   },
   "moved": [
     {
+      "tag": "Commute",
+      "what": "From 6 November, KSRTC buses and goods vehicles are banned on Ballari Road for 18 months while the BDA builds an elevated corridor, with traffic diversions announced (Times of India, Economic Times).",
+      "so_what": "If your route to the airport or north Bengaluru uses Ballari Road, check the traffic police diversion advisory before you leave and add buffer time. Expect the roads that absorb the diversion to slow too."
+    },
+    {
+      "tag": "Commute",
+      "what": "This weekend's Deepavali getaway is expected to bring a massive vehicle outflow from Bengaluru (Times of India). Special trains run between Bengaluru, Mangaluru and Goa on 7 and 8 November, and Bengaluru–Belagavi specials have also been announced.",
+      "so_what": "If you are travelling out, leave before the afternoon or after the late-evening peak, or book one of the special trains instead of driving. If you are staying in town, avoid the highway-bound roads on Friday evening and Saturday morning."
+    },
+    {
       "tag": "Money",
-      "what": "A Bengaluru woman returned ill-fitting clothes, searched online for the e-commerce customer care number to claim a ₹441 refund, followed the fraudster's instructions and lost ₹1.05 lakh, per The Times of India.",
-      "so_what": "Get support numbers only from inside the company's own app or order page, never from a search result. And no genuine refund ever needs you to approve a payment or share an OTP."
+      "what": "BMTC bus fares and passes have gone up, with passes reported 25% higher; Deccan Herald says commuters now pay more than on Namma Metro for slower journeys, and a bus riders' group has demanded a rollback.",
+      "so_what": "Recompute your monthly commute cost this week: pass versus daily fares versus Metro for your own route. For some routes the Metro may now be cheaper and faster."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports that Karnataka voter lists show duplicates and errors after the special intensive revision.",
+      "so_what": "Search for your name and details on the electoral roll now. A wrong or duplicated entry is easier to fix before an election than on polling day."
     },
     {
       "tag": "Prices",
-      "what": "After milk, curd and bus fares, the Karnataka Cooperative Milk Producers Federation has raised ghee by ₹135 and butter by ₹140 a kg. Paneer also gets costlier, says The Times of India.",
-      "so_what": "Festival cooking is the expensive week to be caught out. Buy ghee in the quantity you will actually use, and expect your café and tea bills to creep up as well."
-    },
-    {
-      "tag": "Your record",
-      "what": "A Bengaluru landlord withheld a tenant's ₹80,000 deposit, saying the tenant gave no 3 months' notice and the refund depended on finding a new tenant. A consumer commission ordered a full refund with 9% interest and ₹10,000 costs.",
-      "so_what": "Before you sign or leave a rental, check the notice clause and give notice in writing with proof of delivery. A deposit that is 'conditional on a new tenant' is a clause to question now, not at exit."
-    },
-    {
-      "tag": "Your record",
-      "what": "The Times of India reports motorists contesting wrong e-challans, including a guitar read as a pillion rider and a turban read as a missing helmet.",
-      "so_what": "Open any challan you receive and compare the photo with what you were actually doing. If the photo does not match, contest it through the official channel instead of paying to make it go away."
-    },
-    {
-      "tag": "Safety",
-      "what": "The Times of India reports asbestos found in rangoli products abroad, and Bengaluru doctors advise caution.",
-      "so_what": "The report is about products abroad, so this is a precaution, not an alert. Buy colours from a known seller, avoid inhaling loose powder, and keep children from handling it."
+      "what": "Reuters reports tankers were hit in the Strait of Hormuz as Iran keeps up pressure after the US vote.",
+      "so_what": "This is a watch item, not an alert. Hormuz disruption is the route by which crude, and eventually petrol, diesel and LPG prices, can move, so do not panic-buy fuel but expect the next few weeks of price news to matter."
     }
   ],
   "carry_over": {
-    "id": "job-fee",
-    "prompt": "An offer letter arrives, the HR contact is warm, and a 'refundable' registration or laptop deposit is due today. What is the thing to notice?",
-    "answer": "Money flowing from employee to employer, in any form, at any stage."
-  }
+    "id": "deepfake-endorsement",
+    "prompt": "A video of a public figure announces a government-backed trading platform, and a small test withdrawal actually reaches your account. What is the one thing to check?",
+    "answer": "A guaranteed return. Nothing legitimate guarantees one — the video is irrelevant."
+  },
+  "quiz": [
+    {
+      "q": "For how long will the Ballari Road traffic restrictions last?",
+      "options": [
+        "6 weeks",
+        "6 months",
+        "18 months",
+        "3 years"
+      ],
+      "answer": 2,
+      "explain": "Buses and goods vehicles are barred for 18 months while the BDA builds an elevated corridor."
+    },
+    {
+      "q": "By how much did the Karnataka Cooperative Milk Producers Federation raise ghee prices?",
+      "options": [
+        "₹35 a kg",
+        "₹135 a kg",
+        "₹235 a kg",
+        "₹335 a kg"
+      ],
+      "answer": 1,
+      "explain": "Ghee went up by ₹135 and butter by ₹140 a kg, after milk, curd and bus fares."
+    },
+    {
+      "q": "How much is the InMobi naming-rights deal for Ibbaluru Metro station worth?",
+      "options": [
+        "₹6.5 crore",
+        "₹25 crore",
+        "₹65 crore",
+        "₹165 crore"
+      ],
+      "answer": 2,
+      "explain": "BMRCL signed a ₹65 crore MoU with InMobi."
+    },
+    {
+      "q": "When does Chowdiah Utsava 2026 begin in Bengaluru?",
+      "options": [
+        "7 November",
+        "9 November",
+        "11 November",
+        "17 November"
+      ],
+      "answer": 2,
+      "explain": "Deccan Herald reports the festival begins on 11 November."
+    },
+    {
+      "q": "On which dates do the Deepavali special trains run between Bengaluru, Mangaluru and Goa?",
+      "options": [
+        "5 and 6 November",
+        "7 and 8 November",
+        "9 and 10 November",
+        "11 and 12 November"
+      ],
+      "answer": 1,
+      "explain": "The Hindu reports specials on 7 and 8 November."
+    }
+  ]
 }
