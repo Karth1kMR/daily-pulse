@@ -1,76 +1,80 @@
 {
   "date": "2026-11-07",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-07T07:40:00+05:30",
-  "read_seconds": 70,
+  "generated_at": "2026-11-07T19:45:00+05:30",
+  "read_seconds": 75,
   "weather": {
-    "now_c": 20.5,
+    "now_c": 23.4,
     "condition": "Overcast",
-    "high_c": 28.4,
-    "low_c": 19.5,
-    "rain_chance_pct": 75,
-    "tip": "With a 75% chance of rain, the Deepavali outflow and the new Ballari Road curbs all land on the same roads, so for an airport run or a bus out, leave early and check the diversion map first."
+    "high_c": 28.1,
+    "low_c": 19.8,
+    "rain_chance_pct": 86,
+    "tip": "With an 86% chance of rain and Deepavali outflow on the same roads, book your cab or bus before leaving; and if you're heading for the airport, the Ballari Road curbs mean leaving earlier than usual."
   },
   "edge": {
-    "id": "festival-sweets",
-    "category": "Everyday safety",
-    "title": "The sweets with no date on them",
-    "anchor": "Hindustan Times reports that Karnataka's health department shut a juice counter at a Bengaluru PVR over allegations of reused disposable cups, which PVR denies.",
-    "setup": "Festival week. The shop's trays are piled with bright, glossy mithai, loose, in a glass counter, no date anywhere. A box is ₹400 cheaper than the packaged brand next door and the shopkeeper says it was made fresh this morning. Everyone is buying; you have ten minutes and a house full of guests.",
-    "tell": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence.",
+    "id": "auto-refusal",
+    "category": "Street tactic",
+    "title": "Meter politics at the junction",
+    "setup": "Diwali evening, rain on the way, and everyone is heading out at once. The auto refuses the meter and quotes a flat fare, double. There is no other auto in sight, you're late, and he knows all three. This is not fraud — it's a negotiation where he currently holds every card.",
+    "tell": "If you're arguing about the price, you've already accepted that he's the only option.",
     "move": [
-      "Look for the best-before date on the tray or counter: FSSAI requires loose sweets to display one. No date means walk on.",
-      "Look for the shop's FSSAI licence or registration number displayed at the counter.",
-      "Prefer milk-based sweets from a high-turnover shop on a busy day over a bargain from a quiet one.",
-      "If you fall ill or find something wrong, keep the box and bill, and report it to the food safety authority through the FSSAI Food Safety Connect app."
+      "Change where you stand. Walk 100m to the main road; scarcity was the only leverage he had.",
+      "Open an app and let him watch. The visible alternative resets the price more reliably than argument.",
+      "If you need the formal route: the refusal, auto number and location go to the Bengaluru Traffic Police app or 080-22868550. Mentioning you're noting the number often ends the matter.",
+      "Never start with anger. Start with the alternative — anger is a worse tool than a visible option."
     ],
-    "why": "Freshness and safety are invisible at the counter, so the seller knows what you can't, and festival rush removes your time to check. A displayed date and licence number turn an unverifiable claim into a checkable one; an unwillingness to display them is itself the information.",
-    "variants": "Same shape: loose ghee and oil sold by weight, 'organic' produce with no label, street food at a mela where nothing is traceable."
+    "why": "Price is set by alternatives, not by fairness. Every effective move here manufactures an alternative — distance, an app, a complaint channel — rather than appealing to rules. This is the whole of negotiation in miniature.",
+    "variants": "Same shape: surge pricing you can wait out, 'last room available' at a hotel desk, the mechanic who found three more problems."
   },
   "lens": {
-    "id": "base-rates",
-    "name": "Base rates",
-    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
-    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "id": "compounding",
+    "name": "Compounding",
+    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
+    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
     "elsewhere": [
-      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
-      "A rare drug side-effect reported in the news, against how many prescriptions.",
-      "Plane crash coverage versus the per-kilometre fatality rate."
+      "Daily reading beating occasional cramming.",
+      "Minimum card payments keeping a balance alive for years.",
+      "Reputation: slow to build, then suddenly everything arrives at once."
     ],
-    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
-    "today": "Bengaluru's feeds are heavy today with the family-massacre and serial-murder coverage (The Times of India, NDTV). It is vivid and it will feel like a risk to you, but it describes one household, not the odds on your street. Your commute, the Ballari Road curbs and the Deepavali road rush are far likelier to cost you an hour, so spend your caution there."
+    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
+    "today": "The Sensex is reported up 10.6% in seven pre-Diwali sessions, its best run in 35 years (Times of India). A run like that feels like a trend, but it is a sporadic jump, not the steady multiplication the detail above describes. What compounds for you is the boring part: a fixed monthly amount invested, and the festival bonus kept out of the first-week spend."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Ballari Road is restricted from Hebbal to Mekhri Circle for 18 months while the BDA builds an elevated corridor. Bengaluru Traffic Police has named 7 alternative routes and restricted KSRTC bus movement (Deccan Herald, Udayavani).",
-      "so_what": "For airport or north-Bengaluru trips, pick your alternative route the night before and add buffer time; the Times of India asks whether those routes will become new hotspots."
-    },
-    {
-      "tag": "Commute",
-      "what": "The Times of India expects a heavy vehicle outflow this Deepavali weekend. Urban Acres reports KSRTC has added 2,600 special buses and special Bengaluru-Belagavi trains have been announced.",
-      "so_what": "If you are leaving the city, book a special bus or train rather than driving out in the rush."
-    },
-    {
-      "tag": "Prices",
-      "what": "The Times of India reports Karnataka lab tests show ethanol well above the E20 norm in petrol at some samples, in the range of E31.",
-      "so_what": "If your mileage has dropped recently, note the fill dates and pumps; a sudden change after one pump is worth a complaint."
-    },
-    {
-      "tag": "Safety",
-      "what": "Hindustan Times reports a Bengaluru multiplex juice counter was shut by the health department over allegations of reused disposable cups; PVR denies the claim.",
-      "so_what": "In crowded festival venues, prefer sealed or packaged drinks over counter-served ones."
+      "what": "Bengaluru Traffic Police has identified 7 alternative routes and restricted KSRTC bus movement on Ballari Road for the BDA's ₹725 crore elevated corridor, with restrictions expected for 18 months (Deccan Herald, NDTV).",
+      "so_what": "If your trip touches Hebbal, Mekhri Circle or the airport road, pick your alternative route in advance and add buffer time. The Times of India asks whether those routes become new hotspots."
     },
     {
       "tag": "Worth booking",
-      "what": "Deccan Herald reports Chowdiah Utsava 2026 begins in Bengaluru on 11 November.",
-      "so_what": "If you want to go, check the schedule and book this week."
+      "what": "Moneycontrol reports that construction work by BDA, BIAL and NHAI could delay the airport commute.",
+      "so_what": "For any flight in the coming weeks, plan your road time against the worst case, not the usual one."
+    },
+    {
+      "tag": "Commute",
+      "what": "Urban Acres reports Bengaluru's special Diwali buses are spread across 11 hubs.",
+      "so_what": "If you're travelling out, check which hub your bus leaves from before you set off, rather than assuming the usual stand."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Times of India reports that Karnataka lab tests show 'excess' ethanol in petrol, with the headline asking whether it is E20 or E31.",
+      "so_what": "If your mileage has dropped, note the pump and fill date; a pattern at one pump is worth a complaint."
+    },
+    {
+      "tag": "Your record",
+      "what": "A consumer commission ordered an airline to refund ₹11,587 and pay ₹50,000 compensation plus ₹10,000 costs after it marked a passenger a 'no-show' without CCTV or other evidence of late arrival (Times of India).",
+      "so_what": "If an airline marks you a no-show, keep your timestamps and check-in photos; the burden of evidence falls on whoever has the footage."
+    },
+    {
+      "tag": "Money",
+      "what": "The Sensex rose 10.6% over seven pre-Diwali sessions, its best run in 35 years (Times of India).",
+      "so_what": "Don't treat a record week as a forecast; keep your monthly investment amount fixed rather than raising it after a rally."
     }
   ],
   "carry_over": {
-    "id": "loan-app-harassment",
-    "prompt": "A small loan app starts calling your contacts and your manager after one late payment — what is the one thing about this pressure you should recognise?",
-    "answer": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it."
+    "id": "festival-sweets",
+    "prompt": "A loose-sweets counter has no date on the tray and the shopkeeper says it was 'made fresh this morning' — what is your test?",
+    "answer": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence."
   }
 }
