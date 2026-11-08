@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-08",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-08T19:45:00+05:30",
+  "read_seconds": 70,
+  "weather": {
+    "now_c": 22.7,
+    "condition": "Overcast",
+    "high_c": 28.4,
+    "low_c": 19.9,
+    "rain_chance_pct": 76,
+    "tip": "Rain is 76% likely on Deepavali eve and Rajajinagar's Dr Rajkumar Road has a white-topping diversion, so wet roads and a diverted route together mean leaving earlier if you are heading that way."
+  },
+  "edge": {
+    "id": "broker-urgency",
+    "category": "Street tactic",
+    "title": "The other party who is always interested",
+    "setup": "A broker shows you a flat on a festival weekend. Before you've reached the lift, there's a call about another family deciding tonight, and the owner may raise the quote after Deepavali. You're asked for a token amount to 'hold' it — ₹25,000, adjustable later.",
+    "tell": "A deadline you can't verify, created by a person paid on commission.",
+    "move": [
+      "Token money is almost never genuinely refundable, whatever is said aloud. Treat it as spent.",
+      "Say: 'If it goes, it goes.' Watch what happens to the deadline — real urgency survives this; manufactured urgency dissolves.",
+      "Ask for the owner's number and talk directly. Brokers resist this precisely because the pressure lives in the gap between you."
+    ],
+    "why": "A broker is paid for a transaction closing, not for you choosing well. That isn't villainy, it's structure — and once you see the structure, 'another party is interested' stops reading as information and starts reading as a job being done.",
+    "variants": "Same shape: car dealers' 'this EMI scheme ends today', gym joining fees waived 'only this month', insurance agents' quarter-end calls."
+  },
+  "lens": {
+    "id": "asymmetric-information",
+    "name": "Asymmetric information",
+    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+    "elsewhere": [
+      "Freelance marketplaces race to the bottom without reviews.",
+      "Insurance pools get sicker when only the sick buy in.",
+      "A degree works partly as a costly signal of something an employer can't directly see."
+    ],
+    "test": "What can the other side see that I can't — and what would make it visible?",
+    "today": "The Times of India reports that Bengaluru Malayalis are angry over a steep insurance premium hike, calling it 'looting non-residents'. I only have the headline, not the pricing detail, but the shape is the one this model describes: the insurer knows how the premium was built and you cannot see inside it. When a renewal jumps, ask for the breakup in writing and compare it with two other quotes, which is the verification step that brings the information gap down."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Minister Krishna Byre Gowda has directed GBA and metro authorities to redevelop Tin Factory Junction, and the Times of India reports a master plan is on the cards (Deccan Herald, Times of India).",
+      "so_what": "No timeline has been reported, so do not plan your route around an improvement; treat the junction as it is today."
+    },
+    {
+      "tag": "Commute",
+      "what": "Traffic on Dr Rajkumar Road in Rajajinagar is being diverted for white-topping (NammaWard).",
+      "so_what": "If you use that road for the festival rush, check the diversion before leaving, and allow extra time if it rains."
+    },
+    {
+      "tag": "Your record",
+      "what": "Karnataka health minister UT Khader has ordered an end to plain-paper prescriptions at government hospitals (Times of India).",
+      "so_what": "If a government hospital hands you a prescription on plain paper, ask for the proper printed one; it is your record for refills and any insurance claim."
+    },
+    {
+      "tag": "Money",
+      "what": "Bengaluru Malayalis are protesting a steep insurance premium hike, calling it 'looting non-residents' (Times of India).",
+      "so_what": "Before auto-renewing any policy, compare the new premium with last year's and ask the insurer for the reason for the change in writing."
+    },
+    {
+      "tag": "Civic",
+      "what": "New waste contracts are due to go live in four Bengaluru constituencies by November-end, the minister said (New Indian Express).",
+      "so_what": "If you live in one of those constituencies, expect a change in who collects your garbage and when; ask your ward office for the new schedule instead of assuming the old one holds."
+    }
+  ],
+  "carry_over": {
+    "id": "loan-release-fee",
+    "prompt": "A call says your small-business loan is approved, but a processing or 'file release' charge must be paid today before the money reaches you; what is your test?",
+    "answer": "A lender asking for money before any money reaches you."
+  },
+  "quiz": [
+    {
+      "question": "BDA says Hebbal flyover and Ballari Road will not be completely closed during how many months of elevated corridor work?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "answer": 1,
+      "why": "Deccan Herald and The Hindu both report an 18-month work window with no complete closure."
+    },
+    {
+      "question": "InMobi has secured naming rights for Ibbaluru metro station for how many years?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 2,
+      "why": "Livemint reports a 30-year, ₹65 crore agreement with BMRCL."
+    },
+    {
+      "question": "Which gas makes up about 78% of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 2,
+      "why": "Oxygen is only about 21%; argon is third at roughly 0.9%."
+    },
+    {
+      "question": "Karnataka's chief electoral officer admitted lapses and duplicate IDs in which exercise?",
+      "options": [
+        "Census",
+        "SIR of the electoral roll",
+        "Delimitation",
+        "EVM audit"
+      ],
+      "answer": 1,
+      "why": "The Times of India reported duplicate IDs found during the SIR, the special revision of electoral rolls."
+    },
+    {
+      "question": "Who directed GBA and metro authorities to redevelop Tin Factory Junction?",
+      "options": [
+        "DK Shivakumar",
+        "UT Khader",
+        "Krishna Byre Gowda",
+        "Siddaramaiah"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald reports Krishna Byre Gowda gave the direction."
+    }
+  ]
+}
