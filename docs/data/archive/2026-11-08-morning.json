@@ -1,80 +1,74 @@
 {
-  "date": "2026-11-07",
-  "edition": "evening",
+  "date": "2026-11-08",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-07T19:45:00+05:30",
-  "read_seconds": 75,
+  "generated_at": "2026-11-08T07:45:00+05:30",
+  "read_seconds": 70,
   "weather": {
-    "now_c": 23.4,
+    "now_c": 20.6,
     "condition": "Overcast",
-    "high_c": 28.1,
+    "high_c": 28.5,
     "low_c": 19.8,
-    "rain_chance_pct": 86,
-    "tip": "With an 86% chance of rain and Deepavali outflow on the same roads, book your cab or bus before leaving; and if you're heading for the airport, the Ballari Road curbs mean leaving earlier than usual."
+    "rain_chance_pct": 80,
+    "tip": "An 80% chance of rain on Deepavali day means wet roads just when everyone heads out; if you are driving towards the airport road, remember it is down to one lane at the elevated corridor work, so leave earlier than the app suggests."
   },
   "edge": {
-    "id": "auto-refusal",
-    "category": "Street tactic",
-    "title": "Meter politics at the junction",
-    "setup": "Diwali evening, rain on the way, and everyone is heading out at once. The auto refuses the meter and quotes a flat fare, double. There is no other auto in sight, you're late, and he knows all three. This is not fraud — it's a negotiation where he currently holds every card.",
-    "tell": "If you're arguing about the price, you've already accepted that he's the only option.",
+    "id": "loan-release-fee",
+    "category": "Money trap",
+    "title": "The loan that needs a fee first",
+    "setup": "A call or WhatsApp message: your government-scheme loan for a small business has been approved, you just need to pay a processing, insurance or 'file release' charge today. The amount is small next to the loan. An agent with official-looking papers is warm and patient.",
+    "tell": "A lender asking for money before any money reaches you.",
     "move": [
-      "Change where you stand. Walk 100m to the main road; scarcity was the only leverage he had.",
-      "Open an app and let him watch. The visible alternative resets the price more reliably than argument.",
-      "If you need the formal route: the refusal, auto number and location go to the Bengaluru Traffic Police app or 080-22868550. Mentioning you're noting the number often ends the matter.",
-      "Never start with anger. Start with the alternative — anger is a worse tool than a visible option."
+      "Hang up and walk into the bank branch, or open the scheme's official portal yourself, to ask whether any loan in your name exists.",
+      "Never pay a private agent or personal UPI ID to 'release' or 'insure' a sanctioned loan; real charges are deducted by the lender from the loan and shown in the sanction letter.",
+      "If you have already paid, call 1930 or report at cybercrime.gov.in at once, and tell your bank."
     ],
-    "why": "Price is set by alternatives, not by fairness. Every effective move here manufactures an alternative — distance, an app, a complaint channel — rather than appealing to rules. This is the whole of negotiation in miniature.",
-    "variants": "Same shape: surge pricing you can wait out, 'last room available' at a hotel desk, the mechanic who found three more problems."
+    "why": "The fee is the whole product: the loan was never real. Hope for a large sum makes a smaller upfront payment feel like a toll, and each 'one more charge' that follows is cheaper to pay than to admit the first was a mistake. A sunk payment is the scammer's best leverage.",
+    "variants": "Same shape: lottery 'tax' before the prize, a job fee before the joining letter, 'GST clearance' on a courier or inheritance."
   },
   "lens": {
-    "id": "compounding",
-    "name": "Compounding",
-    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
-    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
     "elsewhere": [
-      "Daily reading beating occasional cramming.",
-      "Minimum card payments keeping a balance alive for years.",
-      "Reputation: slow to build, then suddenly everything arrives at once."
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
     ],
-    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
-    "today": "The Sensex is reported up 10.6% in seven pre-Diwali sessions, its best run in 35 years (Times of India). A run like that feels like a trend, but it is a sporadic jump, not the steady multiplication the detail above describes. What compounds for you is the boring part: a fixed monthly amount invested, and the festival bonus kept out of the first-week spend."
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "Bengaluru Traffic Police and BDA have set an 18-month window for the elevated corridor work on the airport road, and The Times of India notes motorists already doubt the deadline will hold while the suggested alternative routes jam up. The test above applies directly: ask how long comparable road and Metro projects here have actually run, and plan your airport and Hebbal trips for the longer answer rather than the announced one."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "Bengaluru Traffic Police has identified 7 alternative routes and restricted KSRTC bus movement on Ballari Road for the BDA's ₹725 crore elevated corridor, with restrictions expected for 18 months (Deccan Herald, NDTV).",
-      "so_what": "If your trip touches Hebbal, Mekhri Circle or the airport road, pick your alternative route in advance and add buffer time. The Times of India asks whether those routes become new hotspots."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "Moneycontrol reports that construction work by BDA, BIAL and NHAI could delay the airport commute.",
-      "so_what": "For any flight in the coming weeks, plan your road time against the worst case, not the usual one."
-    },
-    {
-      "tag": "Commute",
-      "what": "Urban Acres reports Bengaluru's special Diwali buses are spread across 11 hubs.",
-      "so_what": "If you're travelling out, check which hub your bus leaves from before you set off, rather than assuming the usual stand."
-    },
-    {
-      "tag": "Prices",
-      "what": "The Times of India reports that Karnataka lab tests show 'excess' ethanol in petrol, with the headline asking whether it is E20 or E31.",
-      "so_what": "If your mileage has dropped, note the pump and fill date; a pattern at one pump is worth a complaint."
+      "what": "Only one lane of KIA Road will be blocked for the BDA elevated corridor project, and BDA says there is no complete closure of Ballari Road during the 18 months of work (Times of India, The Hindu).",
+      "so_what": "The road stays open but slower; for flights, add buffer to your usual drive time, and do not assume the alternative routes are clear, since Times of India reports they are already jammed."
     },
     {
       "tag": "Your record",
-      "what": "A consumer commission ordered an airline to refund ₹11,587 and pay ₹50,000 compensation plus ₹10,000 costs after it marked a passenger a 'no-show' without CCTV or other evidence of late arrival (Times of India).",
-      "so_what": "If an airline marks you a no-show, keep your timestamps and check-in photos; the burden of evidence falls on whoever has the footage."
+      "what": "Karnataka's chief electoral officer has admitted lapses in the SIR electoral roll revision, with duplicate IDs found (Times of India).",
+      "so_what": "Check that your own name and details appear correctly and once on the electoral roll while the revision is under way; a duplicate or missing entry is easier to fix now than at election time."
+    },
+    {
+      "tag": "Safety",
+      "what": "A Bengaluru eye hospital has reported its first firecracker injury before Deepavali (Times of India).",
+      "so_what": "If you light anything today, keep a bucket of water nearby and never lean over a lit cracker; if something hits the eye, go straight to a hospital rather than waiting to see if it settles."
     },
     {
       "tag": "Money",
-      "what": "The Sensex rose 10.6% over seven pre-Diwali sessions, its best run in 35 years (Times of India).",
-      "so_what": "Don't treat a record week as a forecast; keep your monthly investment amount fixed rather than raising it after a rally."
+      "what": "Dalal Street opens for a one-hour Muhurat trading session on Deepavali, and the Times of India has run a 'stocks to buy for Samvat 2083' list.",
+      "so_what": "The session is ceremonial; treat a festival stock list as someone's opinion, not a reason to move money today."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "A Lucknow-bound IndiGo flight returned to Bengaluru after a threat note was found in a toilet (The Hindu, NDTV, India Today).",
+      "so_what": "If you fly today or tomorrow, check flight status before leaving home and keep a plan B for a delay, since a security return can cascade through the day's schedule."
     }
   ],
   "carry_over": {
-    "id": "festival-sweets",
-    "prompt": "A loose-sweets counter has no date on the tray and the shopkeeper says it was 'made fresh this morning' — what is your test?",
-    "answer": "If nobody can show you a date on the tray or a food licence number on the wall, 'fresh this morning' is just a sentence."
+    "id": "auto-refusal",
+    "prompt": "An auto driver refuses the meter and quotes a flat fare double the usual on a rainy festival evening, and there is no other auto in sight; what is your test?",
+    "answer": "If you're arguing about the price, you've already accepted that he's the only option."
   }
 }
