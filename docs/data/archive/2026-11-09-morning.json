@@ -1,0 +1,132 @@
+{
+ "date": "2026-11-09",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-09T07:45:00+05:30",
+ "read_seconds": 70,
+ "weather": {
+  "now_c": 20.9,
+  "condition": "Overcast",
+  "high_c": 29.2,
+  "low_c": 19.5,
+  "rain_chance_pct": 8,
+  "tip": "Dry day with only an 8% chance of rain, so the Dr Rajkumar Road white-topping diversion in Rajajinagar will not be made worse by wet roads, but check the diverted route before you leave since festival traffic is also building."
+ },
+ "edge": {
+  "id": "crowd-exit",
+  "category": "Safety trap",
+  "title": "The crowd with one way out",
+  "setup": "It is Deepavali week and the pandal or dandiya ground is packed. You came in through one gate and have not looked for another. There is a temporary stage, barricades and stalls, and people are still streaming in behind you. The good view is deep in the middle, the exit is somewhere behind a few thousand people.",
+  "tell": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck.",
+  "move": [
+   "On arrival, spend one minute locating two exits and note which side of the ground they are on; stay on that side, not in the centre.",
+   "Keep children and older family members at the edge, and agree a meeting point outside the gate in case you are separated.",
+   "If the crowd starts to compress, do not push against it: keep your feet moving with the flow, arms up near your chest, and angle sideways toward an edge.",
+   "Stay clear of makeshift stages, scaffolding and temporary stands, and leave before the closing rush rather than in it."
+  ],
+  "why": "Crowd disasters rarely need a big trigger. A rumour, a loud noise or a small structural failure becomes deadly only where density is high and people cannot disperse. You cannot control the trigger; you can control where you stand and how fast you can leave. Choosing position before anything goes wrong is the whole defence.",
+  "variants": "Same shape: cricket stadium gates after a match, concert and rally grounds, temple queues on festival days, railway foot-over-bridges at peak hour."
+ },
+ "lens": {
+  "id": "induced-demand",
+  "name": "Induced demand",
+  "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+  "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+  "elsewhere": [
+   "Build more parking and more people drive in.",
+   "Add engineers to a late project and the scope expands to absorb them.",
+   "Widen a hospital's OPD and the waiting room refills."
+  ],
+  "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+  "today": "Work has begun on the Mehkri Circle elevated corridor (New Indian Express), and BDA says Hebbal flyover and Ballari Road will stay open through 18 months of corridor work (The Hindu). I only have the headlines, not the traffic projections, but the model applies: a faster corridor tends to draw back the trips people had avoided, so do not plan your life around the promised saving. Plan around the disruption, which is certain, and treat the benefit as unproven."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "BDA says Hebbal flyover and Ballari Road will not be completely closed during the 18 months of elevated corridor work (The Hindu, NammaWard).",
+   "so_what": "Expect slow lanes and diversions rather than a shutdown, so do not rearrange your route for good; check the day's status before leaving on that stretch."
+  },
+  {
+   "tag": "Commute",
+   "what": "Work has begun on the Mehkri Circle elevated corridor (New Indian Express).",
+   "so_what": "If Mehkri Circle is on your route, expect the junction to change over coming weeks; test an alternative at a quiet hour now, not on a day you are late."
+  },
+  {
+   "tag": "Commute",
+   "what": "Traffic on Dr Rajkumar Road in Rajajinagar is being diverted for white-topping (NammaWard).",
+   "so_what": "Check the diversion before you head out for festival shopping there and allow extra time."
+  },
+  {
+   "tag": "Prices",
+   "what": "The Times of India reports the BJP will protest against price hikes in Bengaluru on Nov 11, and the New Indian Express reports an LPG price hike is adding to the woes of auto drivers.",
+   "so_what": "Expect auto fare pressure to continue, and check traffic around the Nov 11 protest before planning that day's commute; the location was not in the headlines I have."
+  },
+  {
+   "tag": "Your record",
+   "what": "The State Election Commission has set the stage for likely local body polls in January (Times of India).",
+   "so_what": "Confirm your name and address on the electoral roll well ahead of January, since a wrong entry is far easier to fix before the polls are announced."
+  }
+ ],
+ "carry_over": {
+  "id": "broker-urgency",
+  "prompt": "A broker says another family will decide tonight and asks for a ₹25,000 token to hold the flat; what is your test?",
+  "answer": "A deadline you can't verify, created by a person paid on commission."
+ },
+ "quiz": [
+  {
+   "question": "Work has begun on an elevated corridor at which Bengaluru circle?",
+   "options": [
+    "Mehkri Circle",
+    "Silk Board",
+    "Trinity Circle",
+    "Tin Factory"
+   ],
+   "answer": 0,
+   "why": "The New Indian Express reports work has begun at Mehkri Circle."
+  },
+  {
+   "question": "On which date is the BJP planning a protest against price hikes in Bengaluru?",
+   "options": [
+    "Nov 9",
+    "Nov 11",
+    "Nov 13",
+    "Nov 15"
+   ],
+   "answer": 1,
+   "why": "The Times of India and The Week report a protest on Nov 11."
+  },
+  {
+   "question": "Bengaluru's ADR week runs from Nov 13 to 15. What does ADR stand for?",
+   "options": [
+    "Alternative dispute resolution",
+    "Annual district review",
+    "Administrative disclosure rules",
+    "Appellate docket register"
+   ],
+   "answer": 0,
+   "why": "Deccan Herald reports the ADR week at the Karnataka Judicial Academy; ADR means alternative dispute resolution."
+  },
+  {
+   "question": "The State Election Commission has set the stage for local body polls likely in which month?",
+   "options": [
+    "December",
+    "January",
+    "March",
+    "June"
+   ],
+   "answer": 1,
+   "why": "The Times of India reports polls are likely in January."
+  },
+  {
+   "question": "Which planet is known as the Red Planet?",
+   "options": [
+    "Venus",
+    "Jupiter",
+    "Mars",
+    "Mercury"
+   ],
+   "answer": 2,
+   "why": "Iron oxide on its surface gives Mars its reddish colour."
+  }
+ ]
+}
