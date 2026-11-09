@@ -1,0 +1,125 @@
+{
+ "date": "2026-11-09",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-09T19:45:00+05:30",
+ "read_seconds": 75,
+ "weather": null,
+ "edge": {
+  "id": "salary-anchor",
+  "category": "Leverage",
+  "title": "The number you say first",
+  "setup": "An interview goes well. HR asks your current CTC and your expectation. Whatever you answer becomes the ceiling of everything that follows — and you're being asked before you know what the role is budgeted at.",
+  "tell": "You're being asked to price yourself before you know what the buyer budgeted.",
+  "move": [
+   "Deflect once, politely: 'I'd like to understand the scope first — what range is budgeted for this role?' Asking costs nothing and often works.",
+   "If pressed, give a researched range for the role and market, not your current salary. Your past pay is a fact about your last employer, not about this job.",
+   "Karnataka has no salary-history ban, so you may have to answer eventually — but 'eventually' after you've heard their number is a different conversation.",
+   "Negotiate the whole package: notice period, joining bonus, level, WFH days. Single-number fights are the easiest to lose."
+  ],
+  "why": "This is anchoring. The first number stated pulls every subsequent number toward it, even when both sides know it's arbitrary. Street smarts in a salon or a showroom and street smarts in an HR call are the same skill wearing different clothes.",
+  "variants": "Same shape: 'what's your budget?' from any contractor, the first quote at a furniture shop, a landlord asking what you currently pay."
+ },
+ "lens": {
+  "id": "principal-agent",
+  "name": "Principal–agent problem",
+  "one_line": "The person acting for you is paid for something subtly different from what you want.",
+  "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+  "elsewhere": [
+   "Fund managers judged quarterly take risks that look fine quarterly.",
+   "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+   "A mechanic paid per part replaced finds more parts to replace."
+  ],
+  "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
+  "today": "Deccan Herald reports the BDA spent Rs 9.5 crore on the Nadaprabhu Kempegowda event and a road launch. I only have the headline, not the break-up, but the model asks the right question: an agency is rewarded for visible launches and announcements, while you want the unglamorous outcome, a road that works and a title that is clean. Weigh a promise by what the announcer is paid or praised for, not by the size of the ceremony."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "Construction World reports PM Modi will inaugurate Namma Metro's Pink Line on November 13, taking the network to 103.6 km.",
+   "so_what": "Expect heavy security and traffic around the inauguration on the 13th; the headlines do not say when public service starts, so check BMRCL's announcement before changing your commute."
+  },
+  {
+   "tag": "Prices",
+   "what": "The Times of India reports Karnataka says oil companies blended up to 31.2% ethanol in petrol and wants consumers to have a choice of E10, E20, E30 and pure petrol; The Siasat Daily says ethanol-free Speed 100 at Rs 169/L is finding buyers in Bengaluru.",
+   "so_what": "Check your vehicle manual for its fuel specification before deciding whether paying for ethanol-free petrol is worth it; the premium is certain, the benefit for your vehicle is not."
+  },
+  {
+   "tag": "Money",
+   "what": "NEWSTRAIL reports a bus fare hike is straining residents' wallets.",
+   "so_what": "I only have the headline, not the new fares, so re-cost your monthly commute against a pass or the metro before the next recharge rather than assuming the old budget holds."
+  },
+  {
+   "tag": "Your record",
+   "what": "A Karnataka consumer panel ordered the postal department to pay Rs 1.15 lakh with 6% interest to a woman whose Rs 1 lakh senior citizens' scheme deposit from 2023 was allegedly misappropriated by a postmaster who fled (Times of India).",
+   "so_what": "Keep the receipt and get every deposit entered and stamped in your passbook at the counter; that paper is what wins a claim later."
+  },
+  {
+   "tag": "Your record",
+   "what": "ThePrint and the Times of India report the CM said the BDA will offer a land ownership guarantee to over 1 lakh residents under an amended law, with a cut in the regularisation fee.",
+   "so_what": "If your site sits in a BDA area with a documentation gap, ask the BDA directly about eligibility and the new fee; do not pay any agent who claims to have a shortcut."
+  }
+ ],
+ "carry_over": {
+  "id": "crowd-exit",
+  "prompt": "You are in a packed festival ground with one known gate and a temporary stage; what is your test for whether you are standing in a bottleneck?",
+  "answer": "If you cannot point to two exits without crossing the thickest part of the crowd, you are standing in a bottleneck."
+ },
+ "quiz": [
+  {
+   "question": "On which date will the Pink Line be inaugurated, according to Construction World?",
+   "options": [
+    "November 11",
+    "November 13",
+    "November 15",
+    "November 17"
+   ],
+   "answer": 1,
+   "why": "Construction World reports the inauguration on November 13."
+  },
+  {
+   "question": "To what total length will Namma Metro grow with the Pink Line?",
+   "options": [
+    "96.2 km",
+    "103.6 km",
+    "110.4 km",
+    "118.0 km"
+   ],
+   "answer": 1,
+   "why": "Construction World gives 103.6 km."
+  },
+  {
+   "question": "What price per litre was reported for ethanol-free Speed 100 in Bengaluru?",
+   "options": [
+    "Rs 139",
+    "Rs 154",
+    "Rs 169",
+    "Rs 185"
+   ],
+   "answer": 2,
+   "why": "The Siasat Daily reports Rs 169/L."
+  },
+  {
+   "question": "What highest ethanol blend in petrol did the Karnataka minister say oil companies used?",
+   "options": [
+    "10%",
+    "20%",
+    "25.5%",
+    "31.2%"
+   ],
+   "answer": 3,
+   "why": "The Times of India reports up to 31.2%."
+  },
+  {
+   "question": "What interest rate did the consumer panel order on the Rs 1 lakh post office deposit?",
+   "options": [
+    "4%",
+    "6%",
+    "9%",
+    "12%"
+   ],
+   "answer": 1,
+   "why": "The Times of India reports payment of Rs 1.15 lakh with 6% interest."
+  }
+ ]
+}
