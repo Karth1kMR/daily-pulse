@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-10",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-10T07:40:00+05:30",
+ "read_seconds": 70,
+ "weather": {
+  "now_c": 20.1,
+  "condition": "Mostly clear",
+  "high_c": 29.8,
+  "low_c": 19.0,
+  "rain_chance_pct": 8,
+  "tip": "Dry day with only an 8% chance of rain, but the Times of India says air quality is 25% worse than last Deepavali, so if you have kids or asthma, move outdoor exercise away from the post-fireworks haze and allow extra time on Friday for the Pink Line inauguration traffic."
+ },
+ "edge": {
+  "id": "deadline-verification",
+  "category": "Money trap",
+  "title": "The government deadline that arrives with a link",
+  "setup": "Ration card e-KYC is due soon. A message or a helpful stranger says it must be done today, shares a link or app, and mentions a small 'processing fee' or asks for an OTP to 'complete verification'.",
+  "tell": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP.",
+  "move": [
+   "Do not tap the link or share any OTP. Go to the department's own website or office, which you reach yourself.",
+   "Check the deadline on the official notice, not in the message that is pushing you.",
+   "If you already shared an OTP or paid, call your bank and the 1930 cybercrime helpline now."
+  ],
+  "why": "Scammers do not need to invent urgency when a real deadline already exists. They ride on it. The deadline is true; the channel is the fake. So judge who contacted whom, not whether the deadline is real.",
+  "variants": "Same shape: PAN-Aadhaar linking 'last date' texts, FASTag KYC calls, electricity 'disconnection tonight' messages, bank KYC-update links."
+ },
+ "lens": {
+  "id": "goodharts-law",
+  "name": "Goodhart's Law",
+  "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+  "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+  "elsewhere": [
+   "Police judged on cases closed may book easier cases and discourage hard complaints.",
+   "Schools judged on pass rates quietly move weak students out before the exam.",
+   "Support teams judged on ticket-closing time close tickets fast, unresolved."
+  ],
+  "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+  "today": "Country and Politics reports Bengaluru Traffic Police logged 601 drunk-driving cases and 240 overspeeding violations in a week-long special drive. I only have the headline, but the number is a useful reminder: a drive is judged by the count of cases, so it rewards where checking is easy, not necessarily where the risk is highest. Read such totals as a sign of where enforcement looked, not as a measure of how safe the roads are."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "Construction World reports PM Modi will inaugurate the Namma Metro Pink Line on November 13, taking the network to 103.6 km.",
+   "so_what": "Expect heavy security and traffic near the inauguration on the 13th; the headlines do not say when public service starts, so check BMRCL's announcement before changing your commute."
+  },
+  {
+   "tag": "Commute",
+   "what": "Deccan Herald reports BMTC has suspended the Manyata Tech Park bus stop, and commuters are flagging safety concerns.",
+   "so_what": "If you board or alight there, find the nearest alternative stop before tonight; I only have the headline, so check BMTC's notice for which stop is used."
+  },
+  {
+   "tag": "Commute",
+   "what": "The New Indian Express reports work has begun on the Mehkri Circle elevated corridor, and The Hindu reports the CM says traffic will not be halted for the Hebbal elevated corridor work.",
+   "so_what": "Plan on slower, narrower approaches around Mehkri Circle and Hebbal for months; add a buffer to airport-side trips rather than relying on an old travel time."
+  },
+  {
+   "tag": "Your record",
+   "what": "The Times of India reports the BDA has halved regularisation charges and invited applications for absolute sale deeds; The Hindu reports a 50% cut in guidance value for regularisation of BDA sites.",
+   "so_what": "If your site is a BDA site without a sale deed, ask the BDA directly about eligibility and the reduced fee; do not pay an agent who offers a shortcut."
+  },
+  {
+   "tag": "Safety",
+   "what": "The Times of India reports 72 firecracker-related eye injuries in city hospitals this Deepavali, and The Hindu notes infants among the victims.",
+   "so_what": "Keep children away from unburnt crackers lying around this week, and take any eye injury straight to a hospital rather than waiting to see if it settles."
+  },
+  {
+   "tag": "Money",
+   "what": "The Times of India reports cancer drug prices have dropped sharply in Bengaluru as revised rates kick in.",
+   "so_what": "If your family buys these drugs regularly, ask the pharmacy to bill at the revised rate and compare the new bill with your last one; I only have the headline, not the drug list."
+  }
+ ],
+ "carry_over": {
+  "id": "salary-anchor",
+  "prompt": "An HR round asks for your current CTC and expected CTC before telling you the role's budget; what is the tell that you are being set up?",
+  "answer": "You're being asked to price yourself before you know what the buyer budgeted."
+ },
+ "quiz": [
+  {
+   "question": "On which date will the Pink Line be inaugurated, per Construction World?",
+   "options": [
+    "November 11",
+    "November 13",
+    "November 15",
+    "November 17"
+   ],
+   "answer": 1,
+   "why": "Construction World reports the inauguration on November 13."
+  },
+  {
+   "question": "What did Bengaluru Traffic Police log in a week-long special drive, per Country and Politics?",
+   "options": [
+    "601 drunk-driving cases",
+    "240 drunk-driving cases",
+    "601 overspeeding cases",
+    "1,000 helmet cases"
+   ],
+   "answer": 0,
+   "why": "The report says 601 drunk-driving cases and 240 overspeeding violations."
+  },
+  {
+   "question": "How many firecracker-related eye injuries did the Times of India report in city hospitals?",
+   "options": [
+    "27",
+    "51",
+    "72",
+    "110"
+   ],
+   "answer": 2,
+   "why": "The Times of India headline says 72 eye injuries."
+  },
+  {
+   "question": "What highest ethanol blend in petrol did the Karnataka minister say oil companies used?",
+   "options": [
+    "10%",
+    "20%",
+    "25.5%",
+    "31.2%"
+   ],
+   "answer": 3,
+   "why": "The Times of India reports up to 31.2%."
+  },
+  {
+   "question": "Which project did the Deccan Herald say the BDA spent Rs 9.5 crore on?",
+   "options": [
+    "A metro station",
+    "A Nadaprabhu Kempegowda event and a road launch",
+    "A lake restoration",
+    "A flyover"
+   ],
+   "answer": 1,
+   "why": "The headline says Rs 9.5 crore on the Nadaprabhu Kempegowda event and road launch."
+  }
+ ]
+}
