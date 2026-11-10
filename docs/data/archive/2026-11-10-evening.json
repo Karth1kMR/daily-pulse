@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-10",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-10T19:33:45+05:30",
+ "read_seconds": 75,
+ "weather": {
+  "now_c": 24.7,
+  "condition": "Overcast",
+  "high_c": 29.0,
+  "low_c": 19.2,
+  "rain_chance_pct": 4,
+  "tip": "Rain is only 4% likely, so weather will not slow you; the Ballari Road diversions and the Hebbal no-parking enforcement will. Check your route before leaving for anything airport-side."
+ },
+ "edge": {
+  "id": "cafe-bag-theft",
+  "category": "Safety trap",
+  "title": "The bag you can't see",
+  "setup": "You settle into a café with a laptop or phone out, your bag hanging on the chair back or sitting open at your feet. Someone walks past, pauses nearby, maybe asks a question or drops something. You are looking at your screen. Nothing feels wrong.",
+  "tell": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past.",
+  "move": [
+   "Keep the bag zipped, on your lap or looped through your leg or chair, with the opening facing you, never hanging behind you.",
+   "Carry the wallet in a front pocket or an inner zip pocket rather than the top of a bag, and keep only the cards you need that day.",
+   "If something is taken, block your cards and UPI from your bank's app straight away, then report it to the police and ask the café for its CCTV before the footage is overwritten."
+  ],
+  "why": "Opportunistic theft needs only a few seconds and a moment of your attention elsewhere. The thief is not beating a lock; they are exploiting the gap between where your valuables are and where you are looking. Close that gap and the theft stops being easy, which is usually enough to send it elsewhere.",
+  "variants": "Same shape: phones on café tables, bags on the floor of a restaurant, wallets in back pockets on a crowded bus, laptops left 'just for a minute' at a coworking space."
+ },
+ "lens": {
+  "id": "selection-effects",
+  "name": "Selection effects",
+  "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+  "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+  "elsewhere": [
+   "'Our customers love us' — the unhappy ones already left.",
+   "Exam toppers from a coaching centre that only admits toppers.",
+   "Crime statistics shaped by which complaints get registered."
+  ],
+  "test": "How did these people end up in this group — and who never had the chance to?",
+  "today": "ThePrint reports 51 firecracker-related eye injuries at two Bengaluru hospitals, while The New Indian Express headline says 100+ victims have swamped hospitals across the city. I only have the headlines, but the gap shows how a count depends on which hospitals are in the tally and who was hurt badly enough to turn up. Treat any injury total as a floor drawn from the people who reached a hospital, not as the full picture."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "Construction World reports Ballari Road diversions have begun for the Bengaluru airport corridor, and Travel and Leisure Asia reports Airport Road will face traffic restrictions for 18 months.",
+   "so_what": "Treat your old airport travel time as out of date for the next year and a half; add a buffer to flights and cab bookings and check the current diversion before you set off."
+  },
+  {
+   "tag": "Commute",
+   "what": "The Hindu reports strict no-parking and double Cobra Beat deployment on alternative routes to ease Hebbal traffic.",
+   "so_what": "Do not park on the Hebbal alternative routes, even briefly; I only have the headline, so check the traffic police advisory for the exact stretches before you leave your car there."
+  },
+  {
+   "tag": "Commute",
+   "what": "The Hindu reports Purple Line services were briefly disrupted at Vijayanagar after a passenger jumped onto the track.",
+   "so_what": "The disruption was brief, but if you ride the Purple Line tomorrow, glance at BMRCL's live status before you leave rather than assuming normal running."
+  },
+  {
+   "tag": "Worth booking",
+   "what": "The Times of India reports special trains are being operated for the festival rush, and The Hindu reports the Bengaluru–Mangaluru–Goa Vande Bharat is likely to be flagged off on November 13.",
+   "so_what": "If you are travelling for the post-festival return, check the railway's own booking site for the special trains now; the Vande Bharat date is only 'likely', so do not plan around it yet."
+  },
+  {
+   "tag": "Prices",
+   "what": "Inc42 reports InMobi has secured naming rights to Bengaluru's Ibbaluru Metro station for ₹65 crore.",
+   "so_what": "Expect the station to be announced under a company name; note both names when planning a route or giving a pickup point, so a driver or friend is not confused."
+  },
+  {
+   "tag": "Safety",
+   "what": "The Times of India reports Bengaluru air quality is 25% worse than last Deepavali.",
+   "so_what": "If you have asthma or young children, keep outdoor exercise indoors for a few days and wear a mask on bike or auto commutes."
+  }
+ ],
+ "carry_over": {
+  "id": "deadline-verification",
+  "prompt": "A message says your ration card e-KYC is due today, shares a link and asks for an OTP to complete it; what is the tell that this is a trap?",
+  "answer": "A real deadline, delivered through a channel you did not open yourself, asking for money or an OTP."
+ },
+ "quiz": [
+  {
+   "question": "How much did InMobi reportedly pay for naming rights to a Bengaluru Metro station, per Inc42?",
+   "options": [
+    "₹25 crore",
+    "₹45 crore",
+    "₹65 crore",
+    "₹85 crore"
+   ],
+   "answer": 2,
+   "why": "Inc42 reports ₹65 crore for the Ibbaluru station."
+  },
+  {
+   "question": "For how long will Airport Road face traffic restrictions, per Travel and Leisure Asia?",
+   "options": [
+    "6 months",
+    "12 months",
+    "18 months",
+    "24 months"
+   ],
+   "answer": 2,
+   "why": "The headline says 18 months."
+  },
+  {
+   "question": "How many firecracker-related eye injuries did ThePrint report at two Bengaluru hospitals?",
+   "options": [
+    "15",
+    "51",
+    "72",
+    "110"
+   ],
+   "answer": 1,
+   "why": "ThePrint's headline says 51 at two hospitals."
+  },
+  {
+   "question": "By how much did the Times of India say Bengaluru's air quality is worse than last Deepavali?",
+   "options": [
+    "5%",
+    "10%",
+    "25%",
+    "40%"
+   ],
+   "answer": 2,
+   "why": "The headline says 25% worse."
+  },
+  {
+   "question": "Which route's Vande Bharat is likely to be flagged off on November 13, per The Hindu?",
+   "options": [
+    "Bengaluru–Chennai",
+    "Bengaluru–Mangaluru–Goa",
+    "Bengaluru–Hyderabad",
+    "Bengaluru–Kochi"
+   ],
+   "answer": 1,
+   "why": "The Hindu reports the Bengaluru–Mangaluru–Goa Vande Bharat."
+  }
+ ]
+}
