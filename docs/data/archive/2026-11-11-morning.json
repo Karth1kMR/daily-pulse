@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-11",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-11T07:45:00+05:30",
+  "read_seconds": 80,
+  "weather": {
+    "now_c": 19.6,
+    "condition": "Overcast",
+    "high_c": 29.2,
+    "low_c": 18.5,
+    "rain_chance_pct": 0,
+    "tip": "Overcast and dry, 0% rain, from 18.5°C to 29.2°C. If you hold a BDA site, this is a good day for an in-person document run; the Blue Line is still in trials, so plan any ORR trip on your usual route."
+  },
+  "edge": {
+    "id": "bulk-order-credit",
+    "category": "Money trap",
+    "title": "The big order with no money yet",
+    "setup": "A buyer you have never dealt with asks for a large lot at a good rate. They want delivery first and promise payment later: a cheque, a transfer 'by evening', or 'once we sell it on'. Perhaps a small earlier order was paid on time, which is why this one feels safe.",
+    "tell": "A new buyer who wants the goods first and the money later is asking you to be their lender.",
+    "move": [
+      "Release goods only against money that has cleared in your own account, not a screenshot, a cheque or a promise.",
+      "Keep first deals small and split large lots into instalments, each released after the previous one is paid.",
+      "Check the firm through an independent source, and call the number you find yourself rather than the one they gave you.",
+      "If it goes wrong, file a police complaint quickly with the chats, invoices and vehicle details."
+    ],
+    "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
+    "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit.",
+    "scenario": {
+      "question": "A new buyer wants 200 units at a good rate, delivered today, and promises the transfer 'by evening'. Their small order last week was paid on time. What do you do?",
+      "choices": [
+        {
+          "text": "Offer to send the first instalment of the lot once the money has cleared in your own bank account, and the rest after each payment clears.",
+          "verdict": "best"
+        },
+        {
+          "text": "Send the full lot today; last week's order proves they pay.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Accept a post-dated cheque for the full amount and deliver everything.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "loss-aversion",
+    "name": "Loss aversion",
+    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
+    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "elsewhere": [
+      "'Only 2 left at this price' converting far better than a discount.",
+      "Holding a falling stock to avoid realising a loss.",
+      "Free trials relying on the pain of giving something up."
+    ],
+    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
+    "today": "The Hindu and the Times of India report that BDA has halved regularisation charges, a 50% cut in guidance value, and is inviting applications for absolute sale deeds. A half-price window is a loss frame: the pull is 'don't miss it', not 'do I need this'. If you hold a BDA site, restate it as a plain gain (what a clear title gets you, at what cost) and decide on that, using BDA's own notice rather than an agent's pitch."
+  },
+  "moved": [
+    {
+      "tag": "Your record",
+      "what": "The Hindu reports DK Shivakumar announced a 50% cut in guidance value for regularising BDA sites, and the Times of India reports BDA is inviting applications for absolute sale deeds.",
+      "so_what": "If you or your family hold a BDA site without an absolute sale deed, this is the cheapest it has been. I only have the headlines, so get the deadline and document list from BDA directly before paying anyone to 'process' it."
+    },
+    {
+      "tag": "Commute",
+      "what": "Moneycontrol reports a Blue Line train has reached Outer Ring Road as trial runs begin, and Swarajya reports trials between Byappanahalli and KR Puram as the line moves towards mainline testing.",
+      "so_what": "Trials come before safety certification and opening, so nothing changes on your ORR commute yet. Treat any rent or property pitch that promises it is 'metro-ready' with that in mind."
+    },
+    {
+      "tag": "Commute",
+      "what": "Inshorts reports BMTC will share real-time bus data with Namma Yatri and BIAL, and that BMTC has added new bus stops near Namma Metro stations.",
+      "so_what": "Live bus positions may soon show up in apps you already use. Once they do, check them before walking to a stop, especially for airport buses. Until then, keep your usual buffer."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The Indian Express and The Hindu report the Bengaluru–Mangaluru–Madgaon Vande Bharat is likely to be flagged off on November 13, while the Deccan Herald calls it 'good for Mangaluru, too long for Goa'.",
+      "so_what": "If you are going to Mangaluru, keep an eye on bookings opening. For Goa, compare the published journey time against your usual train or flight before you switch, and don't book around a date that is still only 'likely'."
+    }
+  ],
+  "carry_over": {
+    "id": "cafe-bag-theft",
+    "prompt": "You're working in a café with your bag hanging on the chair behind you while someone pauses nearby; what is the tell that you're exposed?",
+    "answer": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past."
+  },
+  "quiz": [
+    {
+      "question": "By how much did DK Shivakumar cut the guidance value for regularising BDA sites, per The Hindu?",
+      "options": [
+        "25%",
+        "40%",
+        "50%",
+        "75%"
+      ],
+      "answer": 2,
+      "why": "The Hindu reports a 50% cut."
+    },
+    {
+      "question": "On which date is the Bengaluru–Mangaluru–Goa Vande Bharat likely to be flagged off?",
+      "options": [
+        "November 11",
+        "November 13",
+        "November 17",
+        "November 20"
+      ],
+      "answer": 1,
+      "why": "The Hindu and The Indian Express both say November 13."
+    },
+    {
+      "question": "Between which two points are Blue Line trial runs reported, per Swarajya?",
+      "options": [
+        "Silk Board and HSR Layout",
+        "Byappanahalli and KR Puram",
+        "Hebbal and Yelahanka",
+        "Majestic and Vijayanagar"
+      ],
+      "answer": 1,
+      "why": "Swarajya reports runs from Byappanahalli to KR Puram."
+    },
+    {
+      "question": "When will Bengaluru host the first standalone Commonwealth Women Parliamentarians' conference?",
+      "options": [
+        "November 13–14",
+        "November 15–16",
+        "November 17–18",
+        "November 24–25"
+      ],
+      "answer": 2,
+      "why": "The New Indian Express reports November 17–18."
+    },
+    {
+      "question": "How many bird species does Bengaluru Urban have, per the Times of India?",
+      "options": [
+        "141",
+        "198",
+        "241",
+        "312"
+      ],
+      "answer": 2,
+      "why": "The Times of India reports 241 species."
+    }
+  ]
+}
