@@ -1,144 +1,148 @@
 {
   "date": "2026-11-11",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-11T07:45:00+05:30",
-  "read_seconds": 80,
+  "generated_at": "2026-11-11T19:45:00+05:30",
+  "read_seconds": 85,
   "weather": {
-    "now_c": 19.6,
+    "now_c": 24.8,
     "condition": "Overcast",
-    "high_c": 29.2,
-    "low_c": 18.5,
-    "rain_chance_pct": 0,
-    "tip": "Overcast and dry, 0% rain, from 18.5°C to 29.2°C. If you hold a BDA site, this is a good day for an in-person document run; the Blue Line is still in trials, so plan any ORR trip on your usual route."
+    "high_c": 29.4,
+    "low_c": 18.6,
+    "rain_chance_pct": 2,
+    "tip": "Overcast and dry, 2% rain, from 18.6°C to 29.4°C. That makes Friday a good day to try the new Bannerghatta Road metro on foot from your stop. If the air feels heavy after Deepavali, check the AQI before walking."
   },
   "edge": {
-    "id": "bulk-order-credit",
-    "category": "Money trap",
-    "title": "The big order with no money yet",
-    "setup": "A buyer you have never dealt with asks for a large lot at a good rate. They want delivery first and promise payment later: a cheque, a transfer 'by evening', or 'once we sell it on'. Perhaps a small earlier order was paid on time, which is why this one feels safe.",
-    "tell": "A new buyer who wants the goods first and the money later is asking you to be their lender.",
+    "id": "parcel-customs",
+    "category": "Pressure play",
+    "title": "The parcel you never sent",
+    "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
+    "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
     "move": [
-      "Release goods only against money that has cleared in your own account, not a screenshot, a cheque or a promise.",
-      "Keep first deals small and split large lots into instalments, each released after the previous one is paid.",
-      "Check the firm through an independent source, and call the number you find yourself rather than the one they gave you.",
-      "If it goes wrong, file a police complaint quickly with the chats, invoices and vehicle details."
+      "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
+      "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
+      "Report at cybercrime.gov.in; don't engage to 'find out more'."
     ],
-    "why": "Credit fraud works because the seller's wish for volume overrides the ordinary question of whether this stranger is good for the money. A small early order paid on time buys trust cheaply, and the large one is where the fraudster collects. The defence is to treat every unpaid delivery as a loan and decide whether you would lend that much to that person.",
-    "variants": "Same shape: a freelancer asked to deliver the full work before any advance, a shop asked to hand over stock on 'consignment', a landlord handing over keys against a promised deposit.",
+    "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
+    "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments.",
     "scenario": {
-      "question": "A new buyer wants 200 units at a good rate, delivered today, and promises the transfer 'by evening'. Their small order last week was paid on time. What do you do?",
+      "question": "An SMS says a parcel in your name is held at customs and will be returned, with a case filed, unless you pay ₹1,500 to a UPI ID within the hour. You weren't expecting anything. What do you do?",
       "choices": [
         {
-          "text": "Offer to send the first instalment of the lot once the money has cleared in your own bank account, and the rest after each payment clears.",
+          "text": "Ignore the message and its link, and report it at cybercrime.gov.in. If you are expecting a parcel, check its tracking number on the courier's own website.",
           "verdict": "best"
         },
         {
-          "text": "Send the full lot today; last week's order proves they pay.",
+          "text": "Pay the ₹1,500; it's small and cheaper than dealing with a case.",
           "verdict": "trap"
         },
         {
-          "text": "Accept a post-dated cheque for the full amount and deliver everything.",
+          "text": "Call the number in the SMS to find out what the parcel contains.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "loss-aversion",
-    "name": "Loss aversion",
-    "one_line": "Losing ₹1,000 hurts about twice as much as gaining ₹1,000 pleases — and salespeople know it.",
-    "detail": "The same offer framed as a loss moves people far harder than framed as a gain, so persuasion is engineered to make inaction feel like losing something: expiring offers, 'you'll lose your spot', free trials that auto-convert once the thing feels yours. Noticing the frame restores the actual choice underneath it.",
+    "id": "cost-incidence",
+    "name": "Cost incidence",
+    "one_line": "Whoever writes the cheque is rarely who ends up paying.",
+    "detail": "A cost lands first on whoever is billed, then moves to whoever can't get out of the way: tenants, commuters, customers, taxpayers. Arguments about who 'pays' usually describe the first step only. To know what a cost means for you, follow it until it reaches someone with no alternative.",
     "elsewhere": [
-      "'Only 2 left at this price' converting far better than a discount.",
-      "Holding a falling stock to avoid realising a loss.",
-      "Free trials relying on the pain of giving something up."
+      "A property-tax rise that shows up months later in your rent.",
+      "'Free delivery' that is built into the menu price.",
+      "A fee charged to the shop that turns into a surcharge on your bill."
     ],
-    "test": "Is this being framed as something I'd lose? Restate it as a plain gain and see if I still want it.",
-    "today": "The Hindu and the Times of India report that BDA has halved regularisation charges, a 50% cut in guidance value, and is inviting applications for absolute sale deeds. A half-price window is a loss frame: the pull is 'don't miss it', not 'do I need this'. If you hold a BDA site, restate it as a plain gain (what a clear title gets you, at what cost) and decide on that, using BDA's own notice rather than an agent's pitch."
+    "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying.",
+    "today": "Karnataka says it bears 84% of Bengaluru Metro project costs and the Centre's share has fallen from 80% to 14%, per The Hindu, Deccan Herald and Moneycontrol, while Phase 3A's Hebbal–Sarjapur deadline has slipped to 2033. The state-versus-Centre split decides who signs, but the bill reaches residents through state taxes, fares and delay. When the next fare revision comes, read it as part of this argument."
   },
   "moved": [
     {
-      "tag": "Your record",
-      "what": "The Hindu reports DK Shivakumar announced a 50% cut in guidance value for regularising BDA sites, and the Times of India reports BDA is inviting applications for absolute sale deeds.",
-      "so_what": "If you or your family hold a BDA site without an absolute sale deed, this is the cheapest it has been. I only have the headlines, so get the deadline and document list from BDA directly before paying anyone to 'process' it."
-    },
-    {
       "tag": "Commute",
-      "what": "Moneycontrol reports a Blue Line train has reached Outer Ring Road as trial runs begin, and Swarajya reports trials between Byappanahalli and KR Puram as the line moves towards mainline testing.",
-      "so_what": "Trials come before safety certification and opening, so nothing changes on your ORR commute yet. Treat any rent or property pitch that promises it is 'metro-ready' with that in mind."
+      "what": "The Deccan Herald reports the Bannerghatta Road metro will start public service on November 14, and The Economic Times reports PM Modi will open the Pink Line stretch on November 13, taking the network past 100 km.",
+      "so_what": "If you travel along Bannerghatta Road, try the metro from Friday and time it against your usual route for a week before you change your routine. A PM visit on Thursday may bring traffic restrictions, so check Bengaluru Traffic Police updates before you leave."
     },
     {
-      "tag": "Commute",
-      "what": "Inshorts reports BMTC will share real-time bus data with Namma Yatri and BIAL, and that BMTC has added new bus stops near Namma Metro stations.",
-      "so_what": "Live bus positions may soon show up in apps you already use. Once they do, check them before walking to a stop, especially for airport buses. Until then, keep your usual buffer."
+      "tag": "Money",
+      "what": "Moneycontrol reports the Hebbal–Sarjapur metro corridor's deadline has been pushed to 2033 while Phase 3A waits for the Centre's approval.",
+      "so_what": "If a broker uses 'upcoming metro' to justify a higher rent or price near this corridor, the reported date is seven years away and not yet approved. Pay for what is there today."
     },
     {
-      "tag": "Worth booking",
-      "what": "The Indian Express and The Hindu report the Bengaluru–Mangaluru–Madgaon Vande Bharat is likely to be flagged off on November 13, while the Deccan Herald calls it 'good for Mangaluru, too long for Goa'.",
-      "so_what": "If you are going to Mangaluru, keep an eye on bookings opening. For Goa, compare the published journey time against your usual train or flight before you switch, and don't book around a date that is still only 'likely'."
+      "tag": "Safety",
+      "what": "The Hindu reports a man has been held for renting and mortgaging cars, with 12 cars worth ₹1.2 crore seized.",
+      "so_what": "If someone offers you a monthly payment to 'use' your car, the car can end up pledged to a third party. Keep the RC and keys under your control, put any deal in writing with their verified ID, and do not hand over a car to someone you cannot trace."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Indian Express's live updates report Karnataka's Chief Minister claiming ethanol blending has reduced vehicle mileage.",
+      "so_what": "This is a claim, not a measurement. To check your own vehicle, fill the tank to full twice and divide the kilometres in between by the litres, then compare with the figure you used to get."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports Bengaluru's air quality this Deepavali was 25% worse than last year.",
+      "so_what": "If anyone at home has asthma or a heart condition, check the AQI before morning walks this week and move exercise indoors on bad days."
     }
   ],
   "carry_over": {
-    "id": "cafe-bag-theft",
-    "prompt": "You're working in a café with your bag hanging on the chair behind you while someone pauses nearby; what is the tell that you're exposed?",
-    "answer": "If your wallet or phone is in a pocket or bag you cannot see or feel, it is available to anyone who walks past."
+    "id": "bulk-order-credit",
+    "prompt": "A new buyer wants a large lot delivered now and promises to pay later, after paying for a small first order on time; what is the tell?",
+    "answer": "A new buyer who wants the goods first and the money later is asking you to be their lender."
   },
   "quiz": [
     {
-      "question": "By how much did DK Shivakumar cut the guidance value for regularising BDA sites, per The Hindu?",
+      "question": "From which date will the Bannerghatta Road metro start public service, per the Deccan Herald?",
       "options": [
-        "25%",
-        "40%",
-        "50%",
-        "75%"
-      ],
-      "answer": 2,
-      "why": "The Hindu reports a 50% cut."
-    },
-    {
-      "question": "On which date is the Bengaluru–Mangaluru–Goa Vande Bharat likely to be flagged off?",
-      "options": [
-        "November 11",
+        "November 12",
         "November 13",
-        "November 17",
+        "November 14",
         "November 20"
       ],
-      "answer": 1,
-      "why": "The Hindu and The Indian Express both say November 13."
-    },
-    {
-      "question": "Between which two points are Blue Line trial runs reported, per Swarajya?",
-      "options": [
-        "Silk Board and HSR Layout",
-        "Byappanahalli and KR Puram",
-        "Hebbal and Yelahanka",
-        "Majestic and Vijayanagar"
-      ],
-      "answer": 1,
-      "why": "Swarajya reports runs from Byappanahalli to KR Puram."
-    },
-    {
-      "question": "When will Bengaluru host the first standalone Commonwealth Women Parliamentarians' conference?",
-      "options": [
-        "November 13–14",
-        "November 15–16",
-        "November 17–18",
-        "November 24–25"
-      ],
       "answer": 2,
-      "why": "The New Indian Express reports November 17–18."
+      "why": "The Deccan Herald reports public service from November 14; the inauguration is on November 13."
     },
     {
-      "question": "How many bird species does Bengaluru Urban have, per the Times of India?",
+      "question": "What share of Bengaluru Metro funding does Karnataka say the Centre now bears?",
       "options": [
-        "141",
-        "198",
-        "241",
-        "312"
+        "14%",
+        "16%",
+        "50%",
+        "80%"
       ],
-      "answer": 2,
-      "why": "The Times of India reports 241 species."
+      "answer": 0,
+      "why": "Deccan Herald reports the minister saying it fell from 80% to 14%."
+    },
+    {
+      "question": "To which year has the Hebbal–Sarjapur metro corridor deadline been pushed, per Moneycontrol?",
+      "options": [
+        "2028",
+        "2030",
+        "2031",
+        "2033"
+      ],
+      "answer": 3,
+      "why": "Moneycontrol reports 2033, with Phase 3A awaiting the Centre's nod."
+    },
+    {
+      "question": "How many cars were seized from the man held for renting and mortgaging them?",
+      "options": [
+        "7",
+        "12",
+        "20",
+        "31"
+      ],
+      "answer": 1,
+      "why": "The Hindu reports 12 cars worth ₹1.2 crore."
+    },
+    {
+      "question": "How much worse was Bengaluru's air quality this Deepavali than last year, per the Times of India?",
+      "options": [
+        "10%",
+        "25%",
+        "50%",
+        "80%"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports it was 25% worse."
     }
   ]
 }

@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-11",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-11T19:45:00+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 24.8,
+    "condition": "Overcast",
+    "high_c": 29.4,
+    "low_c": 18.6,
+    "rain_chance_pct": 2,
+    "tip": "Overcast and dry, 2% rain, from 18.6°C to 29.4°C. That makes Friday a good day to try the new Bannerghatta Road metro on foot from your stop. If the air feels heavy after Deepavali, check the AQI before walking."
+  },
+  "edge": {
+    "id": "parcel-customs",
+    "category": "Pressure play",
+    "title": "The parcel you never sent",
+    "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
+    "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
+    "move": [
+      "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
+      "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
+      "Report at cybercrime.gov.in; don't engage to 'find out more'."
+    ],
+    "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
+    "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments.",
+    "scenario": {
+      "question": "An SMS says a parcel in your name is held at customs and will be returned, with a case filed, unless you pay ₹1,500 to a UPI ID within the hour. You weren't expecting anything. What do you do?",
+      "choices": [
+        {
+          "text": "Ignore the message and its link, and report it at cybercrime.gov.in. If you are expecting a parcel, check its tracking number on the courier's own website.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay the ₹1,500; it's small and cheaper than dealing with a case.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Call the number in the SMS to find out what the parcel contains.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "cost-incidence",
+    "name": "Cost incidence",
+    "one_line": "Whoever writes the cheque is rarely who ends up paying.",
+    "detail": "A cost lands first on whoever is billed, then moves to whoever can't get out of the way: tenants, commuters, customers, taxpayers. Arguments about who 'pays' usually describe the first step only. To know what a cost means for you, follow it until it reaches someone with no alternative.",
+    "elsewhere": [
+      "A property-tax rise that shows up months later in your rent.",
+      "'Free delivery' that is built into the menu price.",
+      "A fee charged to the shop that turns into a surcharge on your bill."
+    ],
+    "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying.",
+    "today": "Karnataka says it bears 84% of Bengaluru Metro project costs and the Centre's share has fallen from 80% to 14%, per The Hindu, Deccan Herald and Moneycontrol, while Phase 3A's Hebbal–Sarjapur deadline has slipped to 2033. The state-versus-Centre split decides who signs, but the bill reaches residents through state taxes, fares and delay. When the next fare revision comes, read it as part of this argument."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Deccan Herald reports the Bannerghatta Road metro will start public service on November 14, and The Economic Times reports PM Modi will open the Pink Line stretch on November 13, taking the network past 100 km.",
+      "so_what": "If you travel along Bannerghatta Road, try the metro from Friday and time it against your usual route for a week before you change your routine. A PM visit on Thursday may bring traffic restrictions, so check Bengaluru Traffic Police updates before you leave."
+    },
+    {
+      "tag": "Money",
+      "what": "Moneycontrol reports the Hebbal–Sarjapur metro corridor's deadline has been pushed to 2033 while Phase 3A waits for the Centre's approval.",
+      "so_what": "If a broker uses 'upcoming metro' to justify a higher rent or price near this corridor, the reported date is seven years away and not yet approved. Pay for what is there today."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Hindu reports a man has been held for renting and mortgaging cars, with 12 cars worth ₹1.2 crore seized.",
+      "so_what": "If someone offers you a monthly payment to 'use' your car, the car can end up pledged to a third party. Keep the RC and keys under your control, put any deal in writing with their verified ID, and do not hand over a car to someone you cannot trace."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Indian Express's live updates report Karnataka's Chief Minister claiming ethanol blending has reduced vehicle mileage.",
+      "so_what": "This is a claim, not a measurement. To check your own vehicle, fill the tank to full twice and divide the kilometres in between by the litres, then compare with the figure you used to get."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports Bengaluru's air quality this Deepavali was 25% worse than last year.",
+      "so_what": "If anyone at home has asthma or a heart condition, check the AQI before morning walks this week and move exercise indoors on bad days."
+    }
+  ],
+  "carry_over": {
+    "id": "bulk-order-credit",
+    "prompt": "A new buyer wants a large lot delivered now and promises to pay later, after paying for a small first order on time; what is the tell?",
+    "answer": "A new buyer who wants the goods first and the money later is asking you to be their lender."
+  },
+  "quiz": [
+    {
+      "question": "From which date will the Bannerghatta Road metro start public service, per the Deccan Herald?",
+      "options": [
+        "November 12",
+        "November 13",
+        "November 14",
+        "November 20"
+      ],
+      "answer": 2,
+      "why": "The Deccan Herald reports public service from November 14; the inauguration is on November 13."
+    },
+    {
+      "question": "What share of Bengaluru Metro funding does Karnataka say the Centre now bears?",
+      "options": [
+        "14%",
+        "16%",
+        "50%",
+        "80%"
+      ],
+      "answer": 0,
+      "why": "Deccan Herald reports the minister saying it fell from 80% to 14%."
+    },
+    {
+      "question": "To which year has the Hebbal–Sarjapur metro corridor deadline been pushed, per Moneycontrol?",
+      "options": [
+        "2028",
+        "2030",
+        "2031",
+        "2033"
+      ],
+      "answer": 3,
+      "why": "Moneycontrol reports 2033, with Phase 3A awaiting the Centre's nod."
+    },
+    {
+      "question": "How many cars were seized from the man held for renting and mortgaging them?",
+      "options": [
+        "7",
+        "12",
+        "20",
+        "31"
+      ],
+      "answer": 1,
+      "why": "The Hindu reports 12 cars worth ₹1.2 crore."
+    },
+    {
+      "question": "How much worse was Bengaluru's air quality this Deepavali than last year, per the Times of India?",
+      "options": [
+        "10%",
+        "25%",
+        "50%",
+        "80%"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports it was 25% worse."
+    }
+  ]
+}

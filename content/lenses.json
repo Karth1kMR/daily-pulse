@@ -216,6 +216,18 @@
         "A flat shown in a video versus a key that turns in the lock."
       ],
       "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence."
+    },
+    {
+      "id": "cost-incidence",
+      "name": "Cost incidence",
+      "one_line": "Whoever writes the cheque is rarely who ends up paying.",
+      "detail": "A cost lands first on whoever is billed, then moves to whoever can't get out of the way: tenants, commuters, customers, taxpayers. Arguments about who 'pays' usually describe the first step only. To know what a cost means for you, follow it until it reaches someone with no alternative.",
+      "elsewhere": [
+        "A property-tax rise that shows up months later in your rent.",
+        "'Free delivery' that is built into the menu price.",
+        "A fee charged to the shop that turns into a surcharge on your bill."
+      ],
+      "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying."
     }
   ]
 }
