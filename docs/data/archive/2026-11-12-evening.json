@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-12",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-12T19:34:14+05:30",
+  "read_seconds": 80,
+  "weather": null,
+  "edge": {
+    "id": "gold-windfall",
+    "category": "Money trap",
+    "title": "The gold with a story attached",
+    "setup": "A stranger or a friend-of-a-friend has gold — inherited, found, blessed, or 'from a closed jeweller'. He will sell it well below market, or hand you a little as proof and offer more if you put money in. The story is detailed and slightly sacred, and there is a reason it must stay quiet.",
+    "tell": "A price below market, with a story that explains why it must be quick and secret.",
+    "move": [
+      "Never pay, lend or hand over anything before the metal is tested. A small sample being real is the bait, not the proof.",
+      "Test at a BIS-hallmarked jeweller or an assay centre of your choosing, not one the seller suggests.",
+      "Buy gold only from a registered jeweller who gives a bill and hallmarked pieces. If a seller refuses a bill, that refusal is the answer.",
+      "If you have already paid, report on 1930 or cybercrime.gov.in, and to the local police, the same day."
+    ],
+    "why": "A genuine bargain does not need a secret, a sacred reason or a deadline. The story exists to make you skip the one step that kills the con, which is verification. The secrecy also stops you from asking someone who would say no.",
+    "variants": "Same shape: 'treasure' found while digging, double-your-money schemes, a tout selling 'seized' goods cheap, crypto 'insider tips'.",
+    "scenario": {
+      "question": "A friend-of-a-friend says his uncle found old gold coins while digging a foundation. He hands you one to keep as proof and offers ten more at half the market rate, cash only, no bill, and asks you not to tell anyone. What do you do?",
+      "choices": [
+        {
+          "text": "Pay nothing and hand over nothing. Say you will buy only after the coins are tested at a BIS-hallmarked jeweller or assay centre you choose, with a bill, and let the deal die if he refuses.",
+          "verdict": "best"
+        },
+        {
+          "text": "Get the sample coin tested; if it is real, pay for the rest.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay a small advance to hold the deal while you think, since he says other buyers are waiting.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "sunk-cost",
+    "name": "Sunk cost",
+    "one_line": "Money and time already spent are gone, and should carry zero weight in what you do next.",
+    "detail": "Rationally, only future costs and benefits matter. Psychologically, abandoning something feels like converting an investment into a loss, so people escalate — another year in the wrong job, another ₹50,000 into a failing car, another two hours of a bad film. The trick that works: ask what you'd advise someone who'd just arrived at this exact situation with no history.",
+    "elsewhere": [
+      "Government projects continued because of money already spent.",
+      "Relationships extended by their length rather than their state.",
+      "Reading a book to the end because you're halfway."
+    ],
+    "test": "If I were arriving at this fresh today, with nothing already invested, would I choose it?",
+    "today": "The Times of India reports that Karnataka's regional airports are struggling now that UDAN subsidies have ended. The terminals and runways are already paid for and cannot be unbuilt, so that money should not decide whether routes keep being propped up; only future demand and future cost should. The same rule applies to you: a booking or a membership you have already paid for is not, by itself, a reason to keep using a route or plan that no longer works."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Moneycontrol and the Deccan Herald report traffic diversions in Bengaluru on 13 November for the PM's visit to open the Namma Metro Pink Line and flag off the Vande Bharat, and say schools in parts of the city have announced a holiday.",
+      "so_what": "Check whether your child's school is closed before the morning rush, and read the Bengaluru Traffic Police advisory tonight. If your route passes near the event venues, leave earlier or use metro lines that are not affected."
+    },
+    {
+      "tag": "Commute",
+      "what": "Railway Supply reports the Pink Line will take the metro network past 100 km, and The Hindu reports three Pink Line stations are to be renamed.",
+      "so_what": "When you start using the line, check station names on BMRCL's own map rather than an older map app or a screenshot, so you do not get off at the wrong stop or book a cab to a name that no longer exists."
+    },
+    {
+      "tag": "Money",
+      "what": "The Hindu reports that the Bengaluru–Mangaluru–Goa Vande Bharat Express charges an extra fare for the same distance.",
+      "so_what": "Before booking, compare its fare and journey time with an ordinary express on the same route on IRCTC. Pay the premium only if the time saved is worth it to you."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Times of India reports Karnataka's regional airports are struggling as UDAN subsidies end.",
+      "so_what": "If you rely on a short regional flight within Karnataka, expect fewer flights or higher fares. Book refundable fares and keep a train or bus option in mind for those trips."
+    }
+  ],
+  "carry_over": {
+    "id": "fake-challan",
+    "prompt": "A WhatsApp message shows your correct vehicle number and says a ₹500 challan will double after midnight unless you pay through the link or install the attached app; what is the tell?",
+    "answer": "A fine that comes with a link, an app to install, and a deadline of hours."
+  },
+  "quiz": [
+    {
+      "question": "On which date are traffic diversions planned in Bengaluru for the PM's visit, per the Deccan Herald?",
+      "options": [
+        "12 November",
+        "13 November",
+        "14 November",
+        "15 November"
+      ],
+      "answer": 1,
+      "why": "The Deccan Herald reports diversions on 13 November for the Pink Line inauguration."
+    },
+    {
+      "question": "How many Pink Line stations are to be renamed, per The Hindu?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "answer": 2,
+      "why": "The Hindu reports three Namma Metro Pink Line stations will be renamed."
+    },
+    {
+      "question": "What milestone will the Pink Line take the Namma Metro network past, per Railway Supply?",
+      "options": [
+        "50 km",
+        "75 km",
+        "100 km",
+        "150 km"
+      ],
+      "answer": 2,
+      "why": "Railway Supply reports the Pink Line takes the network past 100 km."
+    },
+    {
+      "question": "What does The Hindu report about the Bengaluru–Mangaluru–Goa Vande Bharat fare?",
+      "options": [
+        "It is free for the first week",
+        "An extra fare for the same distance",
+        "It is cheaper than buses",
+        "Only sleeper class is available"
+      ],
+      "answer": 1,
+      "why": "The Hindu headline: 'Same distance, extra fare on Bengaluru-Mangaluru-Goa VB Express'."
+    },
+    {
+      "question": "Why are Karnataka's regional airports struggling, per the Times of India?",
+      "options": [
+        "Runway repairs",
+        "UDAN subsidies have ended",
+        "A fuel shortage",
+        "New metro competition"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports they are struggling as UDAN subsidies end."
+    }
+  ]
+}
