@@ -1,148 +1,143 @@
 {
-  "date": "2026-11-11",
-  "edition": "evening",
+  "date": "2026-11-12",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-11T19:45:00+05:30",
+  "generated_at": "2026-11-12T07:34:34+05:30",
   "read_seconds": 85,
   "weather": {
-    "now_c": 24.8,
-    "condition": "Overcast",
-    "high_c": 29.4,
-    "low_c": 18.6,
-    "rain_chance_pct": 2,
-    "tip": "Overcast and dry, 2% rain, from 18.6°C to 29.4°C. That makes Friday a good day to try the new Bannerghatta Road metro on foot from your stop. If the air feels heavy after Deepavali, check the AQI before walking."
+    "now_c": 19.3,
+    "condition": "Mostly clear",
+    "high_c": 28.5,
+    "low_c": 17.9,
+    "rain_chance_pct": 0,
+    "tip": "Clear and dry, 17.9°C to 28.5°C with 0% chance of rain. With the PM in the city on Friday, 13 November, use today's easy weather to plan tomorrow's route and a metro fallback, rather than deciding at the junction."
   },
   "edge": {
-    "id": "parcel-customs",
-    "category": "Pressure play",
-    "title": "The parcel you never sent",
-    "setup": "A call or SMS: a courier in your name is held — contraband, expired documents, a customs duty unpaid. There's a small fee to release it, or a case will be filed. Sometimes the caller knows your address, because it leaked from a delivery app.",
-    "tell": "An unexpected problem whose solution is a small immediate payment to a stranger.",
+    "id": "fake-challan",
+    "category": "Money trap",
+    "title": "The fine that arrives as a link",
+    "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
+    "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
     "move": [
-      "No courier or customs process is ever resolved by phone to a UPI ID. Hang up.",
-      "If you genuinely expect a parcel, check the tracking number on the courier's own website — never via a link sent to you.",
-      "Report at cybercrime.gov.in; don't engage to 'find out more'."
+      "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
+      "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
+      "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
     ],
-    "why": "Small-fee scams work on expected value: ₹1,500 is below your threshold for serious scrutiny but above zero, and sent at scale. Noticing the shape — unexpected problem, immediate small payment, stranger's account — immunises you against the whole family at once.",
-    "variants": "Same shape: fake traffic-challan links, electricity bill disconnection SMS, 'your KYC will lapse' payments.",
+    "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
+    "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached.",
     "scenario": {
-      "question": "An SMS says a parcel in your name is held at customs and will be returned, with a case filed, unless you pay ₹1,500 to a UPI ID within the hour. You weren't expecting anything. What do you do?",
+      "question": "A WhatsApp message shows your correct vehicle number and says a ₹500 traffic challan is pending. It will double after midnight unless you pay through the link, or install the attached app to see the photo. What do you do?",
       "choices": [
         {
-          "text": "Ignore the message and its link, and report it at cybercrime.gov.in. If you are expecting a parcel, check its tracking number on the courier's own website.",
+          "text": "Ignore the link and the file. Type echallan.parivahan.gov.in into the browser yourself, or use the traffic police's own app, and search by your vehicle number.",
           "verdict": "best"
         },
         {
-          "text": "Pay the ₹1,500; it's small and cheaper than dealing with a case.",
+          "text": "Pay through the link; the vehicle number is right, so the challan must be real.",
           "verdict": "trap"
         },
         {
-          "text": "Call the number in the SMS to find out what the parcel contains.",
+          "text": "Install the attached app to see the photo first, then decide.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "cost-incidence",
-    "name": "Cost incidence",
-    "one_line": "Whoever writes the cheque is rarely who ends up paying.",
-    "detail": "A cost lands first on whoever is billed, then moves to whoever can't get out of the way: tenants, commuters, customers, taxpayers. Arguments about who 'pays' usually describe the first step only. To know what a cost means for you, follow it until it reaches someone with no alternative.",
+    "id": "costly-signals",
+    "name": "Costly signals",
+    "one_line": "A signal is only trustworthy if it is expensive for a liar to fake.",
+    "detail": "We rely on cheap markers of trust: a local phone number, a logo, a polished video, a confident tone. They work only while faking them costs more than the fraud earns. When technology makes a marker cheap to copy, it stops carrying information, and you must switch to something the faker cannot produce cheaply.",
     "elsewhere": [
-      "A property-tax rise that shows up months later in your rent.",
-      "'Free delivery' that is built into the menu price.",
-      "A fee charged to the shop that turns into a surcharge on your bill."
+      "A letterhead or PDF 'offer letter' versus a verified company email domain.",
+      "A five-star review count versus a reviewer with a long, varied history.",
+      "A flat shown in a video versus a key that turns in the lock."
     ],
-    "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying.",
-    "today": "Karnataka says it bears 84% of Bengaluru Metro project costs and the Centre's share has fallen from 80% to 14%, per The Hindu, Deccan Herald and Moneycontrol, while Phase 3A's Hebbal–Sarjapur deadline has slipped to 2033. The state-versus-Centre split decides who signs, but the bill reaches residents through state taxes, fares and delay. When the next fare revision comes, read it as part of this argument."
+    "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence.",
+    "today": "The Times of India headline reports Joshi has offered joint fuel tests as the row over the Chief Minister's claim that ethanol blending cuts mileage escalates. A claim costs nothing to make, from either side; agreeing to a shared, measured test that could prove you wrong is the expensive signal. Give more weight to whichever side accepts the test and publishes the method, and until then trust your own full-tank-to-full-tank mileage figure over both."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Deccan Herald reports the Bannerghatta Road metro will start public service on November 14, and The Economic Times reports PM Modi will open the Pink Line stretch on November 13, taking the network past 100 km.",
-      "so_what": "If you travel along Bannerghatta Road, try the metro from Friday and time it against your usual route for a week before you change your routine. A PM visit on Thursday may bring traffic restrictions, so check Bengaluru Traffic Police updates before you leave."
+      "what": "The Times of India reports a 1 km no-fly zone, with drones and aircraft banned, for the PM's Bengaluru visit on 13 November. DD News says he will unveil projects worth over ₹15,600 crore in the city, and the Deccan Herald says the Bannerghatta Road metro opens to the public on 14 November.",
+      "so_what": "Expect road restrictions around the venues on Friday; check Bengaluru Traffic Police updates before leaving and leave early. Do not fly a drone anywhere near the visit, even a small one."
     },
     {
-      "tag": "Money",
-      "what": "Moneycontrol reports the Hebbal–Sarjapur metro corridor's deadline has been pushed to 2033 while Phase 3A waits for the Centre's approval.",
-      "so_what": "If a broker uses 'upcoming metro' to justify a higher rent or price near this corridor, the reported date is seven years away and not yet approved. Pay for what is there today."
+      "tag": "Worth booking",
+      "what": "Moneycontrol reports the Bengaluru–Mangaluru–Goa Vande Bharat Express begins regular services on 15 November after a flag-off on 13 November, running via Mangaluru, Udupi, Gokarna and Karwar.",
+      "so_what": "If you are planning a coastal or Goa trip this season, check the fare and timings on IRCTC and compare door-to-door time with an overnight bus or flight. Book only on IRCTC or its app, not through links forwarded on WhatsApp."
     },
     {
-      "tag": "Safety",
-      "what": "The Hindu reports a man has been held for renting and mortgaging cars, with 12 cars worth ₹1.2 crore seized.",
-      "so_what": "If someone offers you a monthly payment to 'use' your car, the car can end up pledged to a third party. Keep the RC and keys under your control, put any deal in writing with their verified ID, and do not hand over a car to someone you cannot trace."
+      "tag": "Commute",
+      "what": "Moneycontrol reports Vingroup's electric taxi service, Green SM, has a Karnataka aggregator licence and the Times of India says it is set for a Bengaluru debut. The Hindu reports taxi unions oppose its entry.",
+      "so_what": "When it launches, compare fares for your two or three regular trips across apps for a couple of weeks. A new entrant's launch prices are a cost of winning customers, so do not plan your budget around them."
     },
     {
-      "tag": "Prices",
-      "what": "The Indian Express's live updates report Karnataka's Chief Minister claiming ethanol blending has reduced vehicle mileage.",
-      "so_what": "This is a claim, not a measurement. To check your own vehicle, fill the tank to full twice and divide the kilometres in between by the litres, then compare with the figure you used to get."
-    },
-    {
-      "tag": "Safety",
-      "what": "The Times of India reports Bengaluru's air quality this Deepavali was 25% worse than last year.",
-      "so_what": "If anyone at home has asthma or a heart condition, check the AQI before morning walks this week and move exercise indoors on bad days."
+      "tag": "Your record",
+      "what": "The Times of India reports FIRs against two Greater Bengaluru Authority officials for issuing illegal e-khatas.",
+      "so_what": "An e-khata issued by the authority's own staff can still be illegal. Before buying, renting long-term or lending against a property, have a lawyer check the title and the documents behind the khata, not just the khata itself."
     }
   ],
   "carry_over": {
-    "id": "bulk-order-credit",
-    "prompt": "A new buyer wants a large lot delivered now and promises to pay later, after paying for a small first order on time; what is the tell?",
-    "answer": "A new buyer who wants the goods first and the money later is asking you to be their lender."
+    "id": "parcel-customs",
+    "prompt": "An SMS says a parcel in your name is held at customs and will be returned, with a case filed, unless you pay ₹1,500 to a UPI ID within the hour; what is the tell?",
+    "answer": "An unexpected problem whose solution is a small immediate payment to a stranger."
   },
   "quiz": [
     {
-      "question": "From which date will the Bannerghatta Road metro start public service, per the Deccan Herald?",
+      "question": "From which date does the Bengaluru–Goa Vande Bharat Express begin regular services, per Moneycontrol?",
       "options": [
-        "November 12",
-        "November 13",
-        "November 14",
-        "November 20"
+        "13 November",
+        "14 November",
+        "15 November",
+        "20 November"
       ],
       "answer": 2,
-      "why": "The Deccan Herald reports public service from November 14; the inauguration is on November 13."
+      "why": "Moneycontrol reports regular services from 15 November; the flag-off is on 13 November."
     },
     {
-      "question": "What share of Bengaluru Metro funding does Karnataka say the Centre now bears?",
+      "question": "How large is the no-fly zone for the PM's Bengaluru visit on 13 November, per the Times of India?",
       "options": [
-        "14%",
-        "16%",
-        "50%",
-        "80%"
-      ],
-      "answer": 0,
-      "why": "Deccan Herald reports the minister saying it fell from 80% to 14%."
-    },
-    {
-      "question": "To which year has the Hebbal–Sarjapur metro corridor deadline been pushed, per Moneycontrol?",
-      "options": [
-        "2028",
-        "2030",
-        "2031",
-        "2033"
-      ],
-      "answer": 3,
-      "why": "Moneycontrol reports 2033, with Phase 3A awaiting the Centre's nod."
-    },
-    {
-      "question": "How many cars were seized from the man held for renting and mortgaging them?",
-      "options": [
-        "7",
-        "12",
-        "20",
-        "31"
+        "500 m",
+        "1 km",
+        "2 km",
+        "5 km"
       ],
       "answer": 1,
-      "why": "The Hindu reports 12 cars worth ₹1.2 crore."
+      "why": "The Times of India reports a 1 km no-fly zone, with drones and aircraft banned."
     },
     {
-      "question": "How much worse was Bengaluru's air quality this Deepavali than last year, per the Times of India?",
+      "question": "Which conglomerate's electric taxi service has received a Karnataka aggregator licence?",
       "options": [
-        "10%",
-        "25%",
-        "50%",
-        "80%"
+        "BYD",
+        "Vingroup",
+        "Tata",
+        "Hyundai"
       ],
       "answer": 1,
-      "why": "The Times of India reports it was 25% worse."
+      "why": "Moneycontrol reports Vingroup's service, which the Times of India names as Green SM."
+    },
+    {
+      "question": "What were two Greater Bengaluru Authority officials booked for, per the Times of India?",
+      "options": [
+        "Delaying metro land acquisition",
+        "Issuing illegal e-khatas",
+        "Approving illegal parties",
+        "Inflating garbage contracts"
+      ],
+      "answer": 1,
+      "why": "FIRs were issued against them for issuing illegal e-khatas."
+    },
+    {
+      "question": "What did Joshi offer, per the Times of India, as the ethanol row escalated?",
+      "options": [
+        "A fuel price cut",
+        "Joint fuel tests",
+        "An end to blending",
+        "Free engine checks"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports he offered joint fuel tests."
     }
   ]
 }

@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-12",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-12T07:34:34+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 19.3,
+    "condition": "Mostly clear",
+    "high_c": 28.5,
+    "low_c": 17.9,
+    "rain_chance_pct": 0,
+    "tip": "Clear and dry, 17.9°C to 28.5°C with 0% chance of rain. With the PM in the city on Friday, 13 November, use today's easy weather to plan tomorrow's route and a metro fallback, rather than deciding at the junction."
+  },
+  "edge": {
+    "id": "fake-challan",
+    "category": "Money trap",
+    "title": "The fine that arrives as a link",
+    "setup": "An SMS or WhatsApp message says a traffic challan is pending on your vehicle, with a small amount and a link or an app file to 'pay now before it doubles'. The vehicle number may be correct, the page looks official, and the deadline is tonight.",
+    "tell": "A fine that comes with a link, an app to install, and a deadline of hours.",
+    "move": [
+      "Do not tap the link or install any file sent in the message, even if the vehicle number is correct.",
+      "Check for challans yourself: type echallan.parivahan.gov.in into the browser, or use the traffic police's own app, and search by your vehicle number.",
+      "If you paid or entered card or UPI details, call your bank at once to block the card, then report on 1930 or cybercrime.gov.in."
+    ],
+    "why": "Vehicle numbers are visible to everyone, so a correct number proves nothing. The message borrows the authority of the traffic police and the fear of a growing penalty so you act before checking. A real fine can be looked up on the official site without any link from a stranger.",
+    "variants": "Same shape: 'FASTag KYC expired', 'electricity connection will be cut tonight', 'RC or licence suspended, click to update', any pending-dues message with an APK attached.",
+    "scenario": {
+      "question": "A WhatsApp message shows your correct vehicle number and says a ₹500 traffic challan is pending. It will double after midnight unless you pay through the link, or install the attached app to see the photo. What do you do?",
+      "choices": [
+        {
+          "text": "Ignore the link and the file. Type echallan.parivahan.gov.in into the browser yourself, or use the traffic police's own app, and search by your vehicle number.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay through the link; the vehicle number is right, so the challan must be real.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Install the attached app to see the photo first, then decide.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "costly-signals",
+    "name": "Costly signals",
+    "one_line": "A signal is only trustworthy if it is expensive for a liar to fake.",
+    "detail": "We rely on cheap markers of trust: a local phone number, a logo, a polished video, a confident tone. They work only while faking them costs more than the fraud earns. When technology makes a marker cheap to copy, it stops carrying information, and you must switch to something the faker cannot produce cheaply.",
+    "elsewhere": [
+      "A letterhead or PDF 'offer letter' versus a verified company email domain.",
+      "A five-star review count versus a reviewer with a long, varied history.",
+      "A flat shown in a video versus a key that turns in the lock."
+    ],
+    "test": "What would this signal cost a liar to fake? If almost nothing, treat it as no evidence.",
+    "today": "The Times of India headline reports Joshi has offered joint fuel tests as the row over the Chief Minister's claim that ethanol blending cuts mileage escalates. A claim costs nothing to make, from either side; agreeing to a shared, measured test that could prove you wrong is the expensive signal. Give more weight to whichever side accepts the test and publishes the method, and until then trust your own full-tank-to-full-tank mileage figure over both."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Times of India reports a 1 km no-fly zone, with drones and aircraft banned, for the PM's Bengaluru visit on 13 November. DD News says he will unveil projects worth over ₹15,600 crore in the city, and the Deccan Herald says the Bannerghatta Road metro opens to the public on 14 November.",
+      "so_what": "Expect road restrictions around the venues on Friday; check Bengaluru Traffic Police updates before leaving and leave early. Do not fly a drone anywhere near the visit, even a small one."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Moneycontrol reports the Bengaluru–Mangaluru–Goa Vande Bharat Express begins regular services on 15 November after a flag-off on 13 November, running via Mangaluru, Udupi, Gokarna and Karwar.",
+      "so_what": "If you are planning a coastal or Goa trip this season, check the fare and timings on IRCTC and compare door-to-door time with an overnight bus or flight. Book only on IRCTC or its app, not through links forwarded on WhatsApp."
+    },
+    {
+      "tag": "Commute",
+      "what": "Moneycontrol reports Vingroup's electric taxi service, Green SM, has a Karnataka aggregator licence and the Times of India says it is set for a Bengaluru debut. The Hindu reports taxi unions oppose its entry.",
+      "so_what": "When it launches, compare fares for your two or three regular trips across apps for a couple of weeks. A new entrant's launch prices are a cost of winning customers, so do not plan your budget around them."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports FIRs against two Greater Bengaluru Authority officials for issuing illegal e-khatas.",
+      "so_what": "An e-khata issued by the authority's own staff can still be illegal. Before buying, renting long-term or lending against a property, have a lawyer check the title and the documents behind the khata, not just the khata itself."
+    }
+  ],
+  "carry_over": {
+    "id": "parcel-customs",
+    "prompt": "An SMS says a parcel in your name is held at customs and will be returned, with a case filed, unless you pay ₹1,500 to a UPI ID within the hour; what is the tell?",
+    "answer": "An unexpected problem whose solution is a small immediate payment to a stranger."
+  },
+  "quiz": [
+    {
+      "question": "From which date does the Bengaluru–Goa Vande Bharat Express begin regular services, per Moneycontrol?",
+      "options": [
+        "13 November",
+        "14 November",
+        "15 November",
+        "20 November"
+      ],
+      "answer": 2,
+      "why": "Moneycontrol reports regular services from 15 November; the flag-off is on 13 November."
+    },
+    {
+      "question": "How large is the no-fly zone for the PM's Bengaluru visit on 13 November, per the Times of India?",
+      "options": [
+        "500 m",
+        "1 km",
+        "2 km",
+        "5 km"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports a 1 km no-fly zone, with drones and aircraft banned."
+    },
+    {
+      "question": "Which conglomerate's electric taxi service has received a Karnataka aggregator licence?",
+      "options": [
+        "BYD",
+        "Vingroup",
+        "Tata",
+        "Hyundai"
+      ],
+      "answer": 1,
+      "why": "Moneycontrol reports Vingroup's service, which the Times of India names as Green SM."
+    },
+    {
+      "question": "What were two Greater Bengaluru Authority officials booked for, per the Times of India?",
+      "options": [
+        "Delaying metro land acquisition",
+        "Issuing illegal e-khatas",
+        "Approving illegal parties",
+        "Inflating garbage contracts"
+      ],
+      "answer": 1,
+      "why": "FIRs were issued against them for issuing illegal e-khatas."
+    },
+    {
+      "question": "What did Joshi offer, per the Times of India, as the ethanol row escalated?",
+      "options": [
+        "A fuel price cut",
+        "Joint fuel tests",
+        "An end to blending",
+        "Free engine checks"
+      ],
+      "answer": 1,
+      "why": "The Times of India reports he offered joint fuel tests."
+    }
+  ]
+}
