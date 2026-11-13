@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-13",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-13T07:34:44+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 18.5,
+    "condition": "Overcast",
+    "high_c": 28.8,
+    "low_c": 17.0,
+    "rain_chance_pct": 0,
+    "tip": "Overcast and dry, 17.0°C to 28.8°C with 0% chance of rain. Still, grey mornings hold festival smoke close to the ground, so if your chest is sensitive keep a mask handy while you wait out today's PM-visit diversions."
+  },
+  "edge": {
+    "id": "lost-item-ransom",
+    "category": "Street tactic",
+    "title": "The phone held for ransom",
+    "setup": "You step out of a cab or auto and realise your phone is still on the back seat. You call it; the driver answers, agrees to return it, then names a price: 'petrol, time, risk', ₹3,000 or more, cash, now.",
+    "tell": "Someone returning your property who sets the price after you have shown you are desperate.",
+    "move": [
+      "Stay calm and do not agree a figure; the driver's leverage is your panic, so do not show it.",
+      "Report the lost item through the ride app's support first and note the trip details, so the booking itself is the record.",
+      "If the demand stands, call 112 or go to the nearest police station with the trip details; do not hand over cash for something that is yours."
+    ],
+    "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
+    "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid.",
+    "scenario": {
+      "question": "You get out of an auto near the new Pink Line station and realise your phone is on the seat. You call from a friend's phone; the driver answers, says he is already across the city, and will bring it back only for ₹3,000 in cash 'for petrol and time'. What do you do?",
+      "choices": [
+        {
+          "text": "Stay calm, agree no figure, note the trip details from the app, raise it with the ride app's support, and if he still demands money, call 112 or go to the nearest police station with those details.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay the ₹3,000 quickly, because the phone is worth far more and arguing might make him switch it off.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Haggle him down to ₹1,500 and meet him alone somewhere he chooses to hand over the cash.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "moral-hazard",
+    "name": "Moral hazard",
+    "one_line": "People take more risk when someone else carries the downside.",
+    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "elsewhere": [
+      "Limited liability encourages risk-taking — deliberately, as a feature.",
+      "A free replacement warranty subtly reduces how carefully a device is handled.",
+      "Deposit guarantees reduce depositors' scrutiny of their bank."
+    ],
+    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
+    "today": "The Deccan Herald warns that the Centre–state funding slugfest may cost Bengaluru Metro dearly, and The Hindu reports the Pink Line's partial opening leaves commuters wanting. When two governments share a project, each can pin a delay on the other, so neither carries the full downside; the commuter waiting for the rest of the line does. Apply the test to your own plans: if you are counting on the full line opening soon to change your commute or a house hunt, you are the one who eats the loss if it slips."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The PM is in Bengaluru today, 13 November, to open the Namma Metro Pink Line. The Deccan Herald and Moneycontrol report traffic diversions; the Times of India says schools on Bannerghatta Road have declared a holiday and exam candidates are told to plan travel.",
+      "so_what": "If your route touches Bannerghatta Road or the event area, leave well before your usual time or take a metro line that avoids it. If you have an exam or appointment today, build in an extra margin rather than trusting a map's estimate."
+    },
+    {
+      "tag": "Commute",
+      "what": "Inshorts reports the Pink Line opens to the public on 14 November. The Hindu says the partial opening leaves commuters wanting, and the ministry has approved renaming three of its stations.",
+      "so_what": "Before your first ride, check which stretch is actually open and the current station names on BMRCL's own map, and plan your last mile from where the open section ends, not from where the full line will eventually reach."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports lung complaints are expected to spike this week in Bengaluru from lingering post-Deepavali smoke.",
+      "so_what": "If you or someone at home has asthma or a chest condition, keep medicines within reach this week and move early-morning walks indoors or wear a well-fitting mask, especially on still, overcast mornings like today's."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports the KPSC is posting two invigilators per hall and allowing no phones at Sunday's exam.",
+      "so_what": "If you or someone in your family is writing it on Sunday, 15 November, decide in advance where the phone will stay, and arrange how you will reach the centre and get home without it."
+    },
+    {
+      "tag": "Commute",
+      "what": "Moneycontrol reports Vingroup's Green SM has received a Karnataka aggregator licence and, per ET Auto, plans electric ride-hailing in Bengaluru by December. India Today reports cab drivers allege rules were bypassed.",
+      "so_what": "When it launches, treat it as one more option to compare on fare and wait time, not a replacement. With a licence row live, keep your usual app installed in case early service is disrupted."
+    }
+  ],
+  "carry_over": {
+    "id": "gold-windfall",
+    "prompt": "A friend-of-a-friend offers gold coins his uncle 'found while digging' at half the market rate, cash only, no bill, and asks you to keep it quiet; what is the tell?",
+    "answer": "A price below market, with a story that explains why it must be quick and secret."
+  },
+  "quiz": [
+    {
+      "question": "On which date does the Pink Line open to the public, per Inshorts?",
+      "options": [
+        "13 November",
+        "14 November",
+        "15 November",
+        "1 December"
+      ],
+      "answer": 1,
+      "why": "Inshorts reports the Pink Line opens to the public on 14 November, a day after the inauguration."
+    },
+    {
+      "question": "Where have schools declared a holiday for the PM's visit, per the Times of India?",
+      "options": [
+        "Whitefield",
+        "Hebbal",
+        "Bannerghatta Road",
+        "Jayanagar"
+      ],
+      "answer": 2,
+      "why": "The Times of India reports schools on Bannerghatta Road declared a holiday."
+    },
+    {
+      "question": "What has the KPSC banned at Sunday's exam, per the Times of India?",
+      "options": [
+        "Calculators",
+        "Phones",
+        "Water bottles",
+        "Pens"
+      ],
+      "answer": 1,
+      "why": "The report says two invigilators per hall and no phones."
+    },
+    {
+      "question": "Which company's electric taxi service received a Karnataka aggregator licence, per Moneycontrol?",
+      "options": [
+        "Vingroup's Green SM",
+        "BluSmart",
+        "Tesla",
+        "BYD"
+      ],
+      "answer": 0,
+      "why": "Moneycontrol reports Vietnamese conglomerate Vingroup's electric taxi service got the licence."
+    },
+    {
+      "question": "Why are lung complaints expected to rise this week, per the Times of India?",
+      "options": [
+        "Pollen season",
+        "Lingering smoke after the festival",
+        "A factory fire",
+        "Road dust from metro work"
+      ],
+      "answer": 1,
+      "why": "The headline: 'Fire gone, but smoke remains: Lung complaints set to see spike this week in Bengaluru'."
+    }
+  ]
+}
