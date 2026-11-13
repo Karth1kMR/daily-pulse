@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-13",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-13T20:18:00+05:30",
+  "read_seconds": 90,
+  "weather": null,
+  "edge": {
+    "id": "ai-blast-video",
+    "category": "Pressure play",
+    "title": "The video that begs to be forwarded",
+    "setup": "On a day already full of real news, a metro opening, a global Microsoft outage, a tanker hit in the Strait of Hormuz, a clip lands in a family or office group: smoke, a loud bang, a landmark you know. The caption says 'share before it is deleted' and 'media is hiding this'. Your thumb is already over the forward button.",
+    "tell": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast.",
+    "move": [
+      "Stop before forwarding; a real blast in a city of this size is on several news sites and police handles within minutes.",
+      "Check one of: police or city police posts, or two established outlets. If neither carries it, treat it as fake.",
+      "Do not forward it even 'to warn people'; the person who shares it is on the record, and in October Bengaluru police arrested the maker of an AI-generated Vidhana Soudha blast video.",
+      "Tell the sender in the group that it is unverified and ask them to delete it."
+    ],
+    "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
+    "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down.",
+    "scenario": {
+      "question": "Tonight a video arrives in your apartment WhatsApp group showing smoke over a new Pink Line station, captioned 'Blast after inauguration, media hiding it, share fast'. Nothing about it is on the news sites you open. What do you do?",
+      "choices": [
+        {
+          "text": "Do not forward it, check the city police handle and two established outlets, and if none carry it, tell the group it is unverified and ask the sender to delete it.",
+          "verdict": "best"
+        },
+        {
+          "text": "Forward it to family with 'not sure if true, but stay safe', since a warning cannot hurt.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Trust it because the smoke and sound look completely real, and avoid the metro tomorrow.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "survivorship-bias",
+    "name": "Survivorship bias",
+    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
+    "elsewhere": [
+      "Dropout-founder stories, drawn from the tiny surviving tail.",
+      "Fund performance tables that quietly exclude closed funds.",
+      "Old buildings seeming better built — the shoddy ones were demolished."
+    ],
+    "test": "Who is missing from this dataset because they didn't make it this far?",
+    "today": "Today the Times of India, NDTV Food and Moneycontrol all ran the story of a Bengaluru couple who quit IT jobs, put ₹15 lakh into a healthy-meal service and reached ₹56 lakh in revenue in nine months. It is a real result, but you are reading it because it worked; the couples who put in the same money and shut down are not interviewed. Note too that revenue is not profit. Before a story like this nudges your own leap, ask how many tried the same and what their median outcome was."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Namma Metro Pink Line's 7.5 km stretch, inaugurated today, opens to the public from 14 November, taking the network past 103 km (Times of India, Deccan Herald). Deccan Herald reports the Jayadeva Hospital stop will become the city's third interchange.",
+      "so_what": "If your commute crosses the south, check this stretch's timings and frequency on BMRCL before Monday rather than assuming the full line. Expect crowding at Jayadeva in the first week as people try it."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "The PM flagged off a Bengaluru–Mangaluru–Madgaon Vande Bharat today (The Hindu, Times of India). BusinessLine says the Mangaluru–Bengaluru service starts Saturday and ghat-section problems have been resolved.",
+      "so_what": "If you travel to the coast or Goa, compare its day timings and fare on IRCTC against your usual overnight bus or train before booking a December trip; early weeks on new trains are when seats are easiest to get."
+    },
+    {
+      "tag": "Money",
+      "what": "The Hindu reports a Microsoft outage is hitting governments and organisations worldwide, and Microsoft has extended its mail timeout to 48 hours.",
+      "so_what": "If your work runs on Outlook or Teams, a mail you sent today may not have arrived. For anything with a deadline, an offer, a payment or a filing, confirm by phone or another channel instead of assuming it went through."
+    },
+    {
+      "tag": "Safety",
+      "what": "Karnataka's drugs regulator, after its food drive, has turned to medical devices and seized products worth ₹13.79 lakh in Bengaluru (Times of India, The Hindu).",
+      "so_what": "Buy devices like BP monitors, glucometers or thermometers from a licensed pharmacy or the brand's own store and keep the bill. A deep discount from an unknown seller is exactly the stock these drives are pulling."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Asianet Newsable reports the GBA is reviewing preparations for Bengaluru Jatre 2026, a 10-day festival from 4 December.",
+      "so_what": "Note 4 December in your calendar. If you plan to go with family, decide on a weekday visit and on the metro over driving; city festivals of this size bring parking chaos on weekends."
+    }
+  ],
+  "carry_over": {
+    "id": "lost-item-ransom",
+    "prompt": "You leave your phone in an auto and the driver who answers will return it only for ₹3,000 in cash 'for petrol and time'; what is the tell?",
+    "answer": "Someone returning your property who sets the price after you have shown you are desperate."
+  },
+  "quiz": [
+    {
+      "question": "How long is the Pink Line stretch inaugurated today, per the Times of India?",
+      "options": [
+        "5.2 km",
+        "7.5 km",
+        "12 km",
+        "21 km"
+      ],
+      "answer": 1,
+      "why": "TOI reports PM Modi inaugurated a 7.5 km Pink Line stretch."
+    },
+    {
+      "question": "Which Pink Line stop will become Bengaluru's third metro interchange, per Deccan Herald?",
+      "options": [
+        "Jayadeva Hospital",
+        "Majestic",
+        "MG Road",
+        "Silk Board"
+      ],
+      "answer": 0,
+      "why": "Deccan Herald: 'Jayadeva Hospital stop to become Bengaluru's 3rd metro interchange'."
+    },
+    {
+      "question": "To how long has Microsoft extended its mail timeout during the outage, per The Hindu?",
+      "options": [
+        "6 hours",
+        "12 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "answer": 3,
+      "why": "The Hindu reports Microsoft extended its mail timeout to 48 hours."
+    },
+    {
+      "question": "What was the value of medical devices seized in Bengaluru's enforcement drive?",
+      "options": [
+        "₹1.37 lakh",
+        "₹13.79 lakh",
+        "₹56 lakh",
+        "₹1.3 crore"
+      ],
+      "answer": 1,
+      "why": "Both the Times of India and The Hindu report devices worth ₹13.79 lakh were seized."
+    },
+    {
+      "question": "When does the 10-day Bengaluru Jatre 2026 begin, per Asianet Newsable?",
+      "options": [
+        "14 November",
+        "1 December",
+        "4 December",
+        "20 April"
+      ],
+      "answer": 2,
+      "why": "The GBA is reviewing preparations for the festival from 4 December."
+    }
+  ]
+}

@@ -1,148 +1,142 @@
 {
   "date": "2026-11-13",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-13T07:34:44+05:30",
-  "read_seconds": 85,
-  "weather": {
-    "now_c": 18.5,
-    "condition": "Overcast",
-    "high_c": 28.8,
-    "low_c": 17.0,
-    "rain_chance_pct": 0,
-    "tip": "Overcast and dry, 17.0°C to 28.8°C with 0% chance of rain. Still, grey mornings hold festival smoke close to the ground, so if your chest is sensitive keep a mask handy while you wait out today's PM-visit diversions."
-  },
+  "generated_at": "2026-11-13T20:18:00+05:30",
+  "read_seconds": 90,
+  "weather": null,
   "edge": {
-    "id": "lost-item-ransom",
-    "category": "Street tactic",
-    "title": "The phone held for ransom",
-    "setup": "You step out of a cab or auto and realise your phone is still on the back seat. You call it; the driver answers, agrees to return it, then names a price: 'petrol, time, risk', ₹3,000 or more, cash, now.",
-    "tell": "Someone returning your property who sets the price after you have shown you are desperate.",
+    "id": "ai-blast-video",
+    "category": "Pressure play",
+    "title": "The video that begs to be forwarded",
+    "setup": "On a day already full of real news, a metro opening, a global Microsoft outage, a tanker hit in the Strait of Hormuz, a clip lands in a family or office group: smoke, a loud bang, a landmark you know. The caption says 'share before it is deleted' and 'media is hiding this'. Your thumb is already over the forward button.",
+    "tell": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast.",
     "move": [
-      "Stay calm and do not agree a figure; the driver's leverage is your panic, so do not show it.",
-      "Report the lost item through the ride app's support first and note the trip details, so the booking itself is the record.",
-      "If the demand stands, call 112 or go to the nearest police station with the trip details; do not hand over cash for something that is yours."
+      "Stop before forwarding; a real blast in a city of this size is on several news sites and police handles within minutes.",
+      "Check one of: police or city police posts, or two established outlets. If neither carries it, treat it as fake.",
+      "Do not forward it even 'to warn people'; the person who shares it is on the record, and in October Bengaluru police arrested the maker of an AI-generated Vidhana Soudha blast video.",
+      "Tell the sender in the group that it is unverified and ask them to delete it."
     ],
-    "why": "The holder has a monopoly on one object that is worth far more to you than to them, so any price below 'give up' feels reasonable. Framing it as a favour makes refusing feel rude. Bringing a third party with a record of the trip, the app or the police, removes the monopoly and the pressure together.",
-    "variants": "Same shape: a 'finder' of a lost wallet asking for a reward first, a towing or parking man holding your vehicle until you pay an unofficial fee, a repair shop holding your device until an inflated bill is paid.",
+    "why": "Fear makes the clip feel urgent, and urgency is what the maker is after: every forward is free distribution. AI tools now make convincing footage cheap, so 'it looks real' proves nothing. The reliable check is not the picture but whether independent sources you already trust carry it. Forwarding also puts your name on it.",
+    "variants": "Same shape: a fake 'bridge collapse' or 'riot' clip, a voice note claiming a water or fuel shortage tomorrow, a forwarded 'government order' about a bank or app shutting down.",
     "scenario": {
-      "question": "You get out of an auto near the new Pink Line station and realise your phone is on the seat. You call from a friend's phone; the driver answers, says he is already across the city, and will bring it back only for ₹3,000 in cash 'for petrol and time'. What do you do?",
+      "question": "Tonight a video arrives in your apartment WhatsApp group showing smoke over a new Pink Line station, captioned 'Blast after inauguration, media hiding it, share fast'. Nothing about it is on the news sites you open. What do you do?",
       "choices": [
         {
-          "text": "Stay calm, agree no figure, note the trip details from the app, raise it with the ride app's support, and if he still demands money, call 112 or go to the nearest police station with those details.",
+          "text": "Do not forward it, check the city police handle and two established outlets, and if none carry it, tell the group it is unverified and ask the sender to delete it.",
           "verdict": "best"
         },
         {
-          "text": "Pay the ₹3,000 quickly, because the phone is worth far more and arguing might make him switch it off.",
+          "text": "Forward it to family with 'not sure if true, but stay safe', since a warning cannot hurt.",
           "verdict": "trap"
         },
         {
-          "text": "Haggle him down to ₹1,500 and meet him alone somewhere he chooses to hand over the cash.",
+          "text": "Trust it because the smoke and sound look completely real, and avoid the metro tomorrow.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "moral-hazard",
-    "name": "Moral hazard",
-    "one_line": "People take more risk when someone else carries the downside.",
-    "detail": "Insurance against theft reduces the care taken to prevent theft. Bailouts reduce the caution of the next lender. Deductibles, co-pays and skin-in-the-game rules exist specifically to re-link a decision to its consequence — which is why their removal, however humane it sounds, changes behaviour.",
+    "id": "survivorship-bias",
+    "name": "Survivorship bias",
+    "one_line": "You only see the things that made it, so you learn the wrong lesson from them.",
+    "detail": "The classic case: WWII engineers wanted to armour the bullet holes on returning planes, until Abraham Wald pointed out those were the survivable hits — the armour belonged where returning planes had no holes, because planes hit there never came back. Every 'habits of successful people' list has the same flaw: the identically-behaving failures aren't available to interview.",
     "elsewhere": [
-      "Limited liability encourages risk-taking — deliberately, as a feature.",
-      "A free replacement warranty subtly reduces how carefully a device is handled.",
-      "Deposit guarantees reduce depositors' scrutiny of their bank."
+      "Dropout-founder stories, drawn from the tiny surviving tail.",
+      "Fund performance tables that quietly exclude closed funds.",
+      "Old buildings seeming better built — the shoddy ones were demolished."
     ],
-    "test": "Who eats the loss if this goes wrong? Whoever it is, their caution is the only caution in the system.",
-    "today": "The Deccan Herald warns that the Centre–state funding slugfest may cost Bengaluru Metro dearly, and The Hindu reports the Pink Line's partial opening leaves commuters wanting. When two governments share a project, each can pin a delay on the other, so neither carries the full downside; the commuter waiting for the rest of the line does. Apply the test to your own plans: if you are counting on the full line opening soon to change your commute or a house hunt, you are the one who eats the loss if it slips."
+    "test": "Who is missing from this dataset because they didn't make it this far?",
+    "today": "Today the Times of India, NDTV Food and Moneycontrol all ran the story of a Bengaluru couple who quit IT jobs, put ₹15 lakh into a healthy-meal service and reached ₹56 lakh in revenue in nine months. It is a real result, but you are reading it because it worked; the couples who put in the same money and shut down are not interviewed. Note too that revenue is not profit. Before a story like this nudges your own leap, ask how many tried the same and what their median outcome was."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The PM is in Bengaluru today, 13 November, to open the Namma Metro Pink Line. The Deccan Herald and Moneycontrol report traffic diversions; the Times of India says schools on Bannerghatta Road have declared a holiday and exam candidates are told to plan travel.",
-      "so_what": "If your route touches Bannerghatta Road or the event area, leave well before your usual time or take a metro line that avoids it. If you have an exam or appointment today, build in an extra margin rather than trusting a map's estimate."
+      "what": "The Namma Metro Pink Line's 7.5 km stretch, inaugurated today, opens to the public from 14 November, taking the network past 103 km (Times of India, Deccan Herald). Deccan Herald reports the Jayadeva Hospital stop will become the city's third interchange.",
+      "so_what": "If your commute crosses the south, check this stretch's timings and frequency on BMRCL before Monday rather than assuming the full line. Expect crowding at Jayadeva in the first week as people try it."
     },
     {
-      "tag": "Commute",
-      "what": "Inshorts reports the Pink Line opens to the public on 14 November. The Hindu says the partial opening leaves commuters wanting, and the ministry has approved renaming three of its stations.",
-      "so_what": "Before your first ride, check which stretch is actually open and the current station names on BMRCL's own map, and plan your last mile from where the open section ends, not from where the full line will eventually reach."
+      "tag": "Worth booking",
+      "what": "The PM flagged off a Bengaluru–Mangaluru–Madgaon Vande Bharat today (The Hindu, Times of India). BusinessLine says the Mangaluru–Bengaluru service starts Saturday and ghat-section problems have been resolved.",
+      "so_what": "If you travel to the coast or Goa, compare its day timings and fare on IRCTC against your usual overnight bus or train before booking a December trip; early weeks on new trains are when seats are easiest to get."
+    },
+    {
+      "tag": "Money",
+      "what": "The Hindu reports a Microsoft outage is hitting governments and organisations worldwide, and Microsoft has extended its mail timeout to 48 hours.",
+      "so_what": "If your work runs on Outlook or Teams, a mail you sent today may not have arrived. For anything with a deadline, an offer, a payment or a filing, confirm by phone or another channel instead of assuming it went through."
     },
     {
       "tag": "Safety",
-      "what": "The Times of India reports lung complaints are expected to spike this week in Bengaluru from lingering post-Deepavali smoke.",
-      "so_what": "If you or someone at home has asthma or a chest condition, keep medicines within reach this week and move early-morning walks indoors or wear a well-fitting mask, especially on still, overcast mornings like today's."
+      "what": "Karnataka's drugs regulator, after its food drive, has turned to medical devices and seized products worth ₹13.79 lakh in Bengaluru (Times of India, The Hindu).",
+      "so_what": "Buy devices like BP monitors, glucometers or thermometers from a licensed pharmacy or the brand's own store and keep the bill. A deep discount from an unknown seller is exactly the stock these drives are pulling."
     },
     {
-      "tag": "Your record",
-      "what": "The Times of India reports the KPSC is posting two invigilators per hall and allowing no phones at Sunday's exam.",
-      "so_what": "If you or someone in your family is writing it on Sunday, 15 November, decide in advance where the phone will stay, and arrange how you will reach the centre and get home without it."
-    },
-    {
-      "tag": "Commute",
-      "what": "Moneycontrol reports Vingroup's Green SM has received a Karnataka aggregator licence and, per ET Auto, plans electric ride-hailing in Bengaluru by December. India Today reports cab drivers allege rules were bypassed.",
-      "so_what": "When it launches, treat it as one more option to compare on fare and wait time, not a replacement. With a licence row live, keep your usual app installed in case early service is disrupted."
+      "tag": "Worth booking",
+      "what": "Asianet Newsable reports the GBA is reviewing preparations for Bengaluru Jatre 2026, a 10-day festival from 4 December.",
+      "so_what": "Note 4 December in your calendar. If you plan to go with family, decide on a weekday visit and on the metro over driving; city festivals of this size bring parking chaos on weekends."
     }
   ],
   "carry_over": {
-    "id": "gold-windfall",
-    "prompt": "A friend-of-a-friend offers gold coins his uncle 'found while digging' at half the market rate, cash only, no bill, and asks you to keep it quiet; what is the tell?",
-    "answer": "A price below market, with a story that explains why it must be quick and secret."
+    "id": "lost-item-ransom",
+    "prompt": "You leave your phone in an auto and the driver who answers will return it only for ₹3,000 in cash 'for petrol and time'; what is the tell?",
+    "answer": "Someone returning your property who sets the price after you have shown you are desperate."
   },
   "quiz": [
     {
-      "question": "On which date does the Pink Line open to the public, per Inshorts?",
+      "question": "How long is the Pink Line stretch inaugurated today, per the Times of India?",
       "options": [
-        "13 November",
-        "14 November",
-        "15 November",
-        "1 December"
+        "5.2 km",
+        "7.5 km",
+        "12 km",
+        "21 km"
       ],
       "answer": 1,
-      "why": "Inshorts reports the Pink Line opens to the public on 14 November, a day after the inauguration."
+      "why": "TOI reports PM Modi inaugurated a 7.5 km Pink Line stretch."
     },
     {
-      "question": "Where have schools declared a holiday for the PM's visit, per the Times of India?",
+      "question": "Which Pink Line stop will become Bengaluru's third metro interchange, per Deccan Herald?",
       "options": [
-        "Whitefield",
-        "Hebbal",
-        "Bannerghatta Road",
-        "Jayanagar"
-      ],
-      "answer": 2,
-      "why": "The Times of India reports schools on Bannerghatta Road declared a holiday."
-    },
-    {
-      "question": "What has the KPSC banned at Sunday's exam, per the Times of India?",
-      "options": [
-        "Calculators",
-        "Phones",
-        "Water bottles",
-        "Pens"
-      ],
-      "answer": 1,
-      "why": "The report says two invigilators per hall and no phones."
-    },
-    {
-      "question": "Which company's electric taxi service received a Karnataka aggregator licence, per Moneycontrol?",
-      "options": [
-        "Vingroup's Green SM",
-        "BluSmart",
-        "Tesla",
-        "BYD"
+        "Jayadeva Hospital",
+        "Majestic",
+        "MG Road",
+        "Silk Board"
       ],
       "answer": 0,
-      "why": "Moneycontrol reports Vietnamese conglomerate Vingroup's electric taxi service got the licence."
+      "why": "Deccan Herald: 'Jayadeva Hospital stop to become Bengaluru's 3rd metro interchange'."
     },
     {
-      "question": "Why are lung complaints expected to rise this week, per the Times of India?",
+      "question": "To how long has Microsoft extended its mail timeout during the outage, per The Hindu?",
       "options": [
-        "Pollen season",
-        "Lingering smoke after the festival",
-        "A factory fire",
-        "Road dust from metro work"
+        "6 hours",
+        "12 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "answer": 3,
+      "why": "The Hindu reports Microsoft extended its mail timeout to 48 hours."
+    },
+    {
+      "question": "What was the value of medical devices seized in Bengaluru's enforcement drive?",
+      "options": [
+        "₹1.37 lakh",
+        "₹13.79 lakh",
+        "₹56 lakh",
+        "₹1.3 crore"
       ],
       "answer": 1,
-      "why": "The headline: 'Fire gone, but smoke remains: Lung complaints set to see spike this week in Bengaluru'."
+      "why": "Both the Times of India and The Hindu report devices worth ₹13.79 lakh were seized."
+    },
+    {
+      "question": "When does the 10-day Bengaluru Jatre 2026 begin, per Asianet Newsable?",
+      "options": [
+        "14 November",
+        "1 December",
+        "4 December",
+        "20 April"
+      ],
+      "answer": 2,
+      "why": "The GBA is reviewing preparations for the festival from 4 December."
     }
   ]
 }
