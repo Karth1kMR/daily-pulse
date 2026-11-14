@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-14",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-14T07:33:42+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 19.5,
+    "condition": "Clear",
+    "high_c": 28.9,
+    "low_c": 18.0,
+    "rain_chance_pct": 0,
+    "tip": "Clear and dry, 18 to 29°C with no rain expected: a good Saturday to try the new Pink Line stretch and its feeder bus while crowds are lighter, rather than learning the route in Monday's peak."
+  },
+  "edge": {
+    "id": "sim-box-local-number",
+    "category": "Caller trick",
+    "title": "The local number that isn't local",
+    "setup": "Your phone rings from an ordinary-looking Indian mobile number, even a Bengaluru-looking one. The caller sounds professional, quotes your bank or courier, and says your account or parcel has a problem that needs fixing on this call. Because the number looks local, you assume the call is real.",
+    "tell": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is.",
+    "move": [
+      "Do not share an OTP, PIN, card number or app screen, whatever the caller already knows about you.",
+      "Hang up and call back on the number printed on your card, statement or the official app, never on the number that called you.",
+      "If money has already moved, report it at once on the national cyber crime helpline 1930 and tell your bank.",
+      "Treat urgency ('within 10 minutes') as part of the script, not a reason to hurry."
+    ],
+    "why": "A phone number used to be hard to fake, so it worked as proof of identity. Equipment like a SIM box lets a caller located anywhere present as an ordinary local mobile number, so the number now proves nothing. What a fraudster cannot fake is you initiating the contact through a channel you already trust. Calling back on a number you looked up yourself restores that.",
+    "variants": "Same shape: a 'delivery agent' texting from a mobile number, a 'KYC update' call from a landline-looking number, a 'relative in trouble' call from an unknown local number.",
+    "scenario": {
+      "question": "Saturday morning, a Bengaluru mobile number calls. The caller gives your name and the last four digits of your card, says a ₹24,000 purchase is being made right now and that he can block it if you read out the code your bank just sent. What do you do?",
+      "choices": [
+        {
+          "text": "Hang up, open your bank's official app or call the number printed on the back of your card, and check for the transaction yourself.",
+          "verdict": "best"
+        },
+        {
+          "text": "Read out the code, since he already knows your card details and the number is a local one.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Ask him for his employee ID and a branch number, and continue if he gives them without hesitation.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "second-order",
+    "name": "Second-order effects",
+    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
+    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "elsewhere": [
+      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
+      "A company bans a tool, so work routes through an unmonitored one.",
+      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+    ],
+    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
+    "today": "The Pink Line stretch opened to the public today, and the first-order story is the one in every headline: Deccan Herald's 9-minute ride replacing years of Bannerghatta Road dread. Ask 'and then what?': five feeder bus routes start today because a station is only useful if you can reach it, and the stations' surroundings become more valuable, so watch rents and parking rules near them over the next year. If you are deciding where to rent along this line, price in the second round, not just today's shorter commute."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Pink Line's elevated stretch is open to the public from today. Deccan Herald reports the first train at 6 am, an 8-minute frequency at peak hours, and five new feeder bus services starting today at its stations. The Times of India says the underground section is likely to open next year.",
+      "so_what": "If your commute runs along Bannerghatta Road, try it this weekend, including the feeder bus from your end, before relying on it on Monday. Plan on the elevated stretch only; do not book a move or a job change around the underground section until it actually opens."
+    },
+    {
+      "tag": "Travel",
+      "what": "The Hindu reports all departing US flights were grounded because of a communication outage, and separately that Microsoft has given no time yet for full recovery from its global outage.",
+      "so_what": "If you or family are flying to or through the US in the next few days, check the airline's app for the flight status and rebooking options before leaving for the airport, and keep your booking reference handy offline in case email is slow."
+    },
+    {
+      "tag": "Prices",
+      "what": "The Times of India reports that closing the Tungabhadra canal from 15 November puts paddy on 12.6 lakh acres at risk.",
+      "so_what": "The Tungabhadra belt is a major source of the Sona Masuri rice many Bengaluru homes buy. If the crop is hit, retail rice prices can rise in the coming months, so if you buy in bulk, this is a reason to note today's price per kg and compare before your next big purchase."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports Blinkit has launched ambulance services in four Bengaluru areas.",
+      "so_what": "Before you need one, check in the app whether your area is covered and how it is booked, and save that next to the government 108 number. In an emergency you should already know which you will call first."
+    }
+  ],
+  "carry_over": {
+    "id": "ai-blast-video",
+    "prompt": "A clip of smoke over a new metro station arrives in your apartment group captioned 'media is hiding this, share fast', and no outlet you trust is carrying it; what is the tell?",
+    "answer": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast."
+  },
+  "quiz": [
+    {
+      "question": "What time does the first Pink Line train run, per Deccan Herald?",
+      "options": [
+        "5 am",
+        "5:30 am",
+        "6 am",
+        "7 am"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: 'Pink Line's first train at 6 am'."
+    },
+    {
+      "question": "What is the Pink Line's peak-hour frequency, per Deccan Herald?",
+      "options": [
+        "4 minutes",
+        "8 minutes",
+        "12 minutes",
+        "15 minutes"
+      ],
+      "answer": 1,
+      "why": "Deccan Herald reports an 8-minute frequency during peak hours."
+    },
+    {
+      "question": "How many new feeder bus services start on 14 November at Pink Line stations?",
+      "options": [
+        "Three",
+        "Five",
+        "Eight",
+        "Ten"
+      ],
+      "answer": 1,
+      "why": "Deccan Herald: '5 new feeder bus services to start on November 14'."
+    },
+    {
+      "question": "How many acres of paddy does the Tungabhadra canal closure put at risk, per the Times of India?",
+      "options": [
+        "1.26 lakh acres",
+        "6 lakh acres",
+        "12.6 lakh acres",
+        "26 lakh acres"
+      ],
+      "answer": 2,
+      "why": "TOI: the canal closure from 15 November puts paddy across 12.6 lakh acres at risk."
+    },
+    {
+      "question": "In how many Bengaluru areas has Blinkit launched ambulances, per the Times of India?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Ten"
+      ],
+      "answer": 1,
+      "why": "TOI: 'Blinkit launches ambulances in four Bengaluru areas'."
+    }
+  ]
+}
