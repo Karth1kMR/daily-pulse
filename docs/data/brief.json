@@ -1,144 +1,137 @@
 {
   "date": "2026-11-14",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-14T07:33:42+05:30",
+  "generated_at": "2026-11-14T19:34:16+05:30",
   "read_seconds": 85,
-  "weather": {
-    "now_c": 19.5,
-    "condition": "Clear",
-    "high_c": 28.9,
-    "low_c": 18.0,
-    "rain_chance_pct": 0,
-    "tip": "Clear and dry, 18 to 29°C with no rain expected: a good Saturday to try the new Pink Line stretch and its feeder bus while crowds are lighter, rather than learning the route in Monday's peak."
-  },
+  "weather": null,
   "edge": {
-    "id": "sim-box-local-number",
-    "category": "Caller trick",
-    "title": "The local number that isn't local",
-    "setup": "Your phone rings from an ordinary-looking Indian mobile number, even a Bengaluru-looking one. The caller sounds professional, quotes your bank or courier, and says your account or parcel has a problem that needs fixing on this call. Because the number looks local, you assume the call is real.",
-    "tell": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is.",
+    "id": "repair-estimate-lump-sum",
+    "category": "Leverage",
+    "title": "The repair bill you can't check",
+    "setup": "After a crash in the rain, your car is towed to the nearest authorised workshop. By evening you get a single figure by phone, a very large one, with the advice that it is the only way to restore the car. The garage knows what is broken. You do not, and the car is already on its lift.",
+    "tell": "One total figure, no itemised list, and nobody else has been allowed to look at the damage.",
     "move": [
-      "Do not share an OTP, PIN, card number or app screen, whatever the caller already knows about you.",
-      "Hang up and call back on the number printed on your card, statement or the official app, never on the number that called you.",
-      "If money has already moved, report it at once on the national cyber crime helpline 1930 and tell your bank.",
-      "Treat urgency ('within 10 minutes') as part of the script, not a reason to hurry."
+      "Ask for the estimate in writing, itemised by part and labour, and keep photos of the damage yourself.",
+      "If the car is insured, inform the insurer before repairs begin so its surveyor can assess the damage; do not authorise work on the strength of a phone figure.",
+      "Get a second estimate from another workshop for the same itemised list. The gap between two quotes is the information.",
+      "Do not sign a blank or lump-sum work authorisation, and ask for replaced parts back."
     ],
-    "why": "A phone number used to be hard to fake, so it worked as proof of identity. Equipment like a SIM box lets a caller located anywhere present as an ordinary local mobile number, so the number now proves nothing. What a fraudster cannot fake is you initiating the contact through a channel you already trust. Calling back on a number you looked up yourself restores that.",
-    "variants": "Same shape: a 'delivery agent' texting from a mobile number, a 'KYC update' call from a landline-looking number, a 'relative in trouble' call from an unknown local number.",
+    "why": "The workshop knows the true cost and you know only what it tells you, so a single unverifiable number can be as high as your fear allows. Itemising and a second pair of eyes turn a claim into something checkable. When you can't judge the price, you can still force the seller to make it comparable.",
+    "variants": "Same shape: a hospital package quoted as one figure, a flat-renovation contractor's lump sum, an appliance 'beyond repair' verdict from the only service centre you called.",
     "scenario": {
-      "question": "Saturday morning, a Bengaluru mobile number calls. The caller gives your name and the last four digits of your card, says a ₹24,000 purchase is being made right now and that he can block it if you read out the code your bank just sent. What do you do?",
+      "question": "Your scooter is at a service centre after a skid on a wet road. That evening they call with one figure, ₹18,000, say the work must start tonight to have it ready by Monday, and ask you to approve on the phone. What do you do?",
       "choices": [
         {
-          "text": "Hang up, open your bank's official app or call the number printed on the back of your card, and check for the transaction yourself.",
+          "text": "Ask for a written, itemised estimate by part and labour, inform your insurer before any work starts, and get a second quote for the same list.",
           "verdict": "best"
         },
         {
-          "text": "Read out the code, since he already knows your card details and the number is a local one.",
+          "text": "Approve on the call, since they have the vehicle open and know what is broken.",
           "verdict": "trap"
         },
         {
-          "text": "Ask him for his employee ID and a branch number, and continue if he gives them without hesitation.",
+          "text": "Haggle the total down to ₹15,000 and approve, treating the discount as proof the price is fair.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "second-order",
-    "name": "Second-order effects",
-    "one_line": "The first consequence of a change is usually obvious and usually not the one that matters.",
-    "detail": "First order: a metro line opens, your commute drops 40 minutes. Second order: everyone else's does too, so rents near the stations rise, which prices out the people the line was meant to serve, which changes who rides it. Most policy arguments are conducted entirely in first-order terms, which is why they keep surprising everyone.",
+    "id": "bottleneck",
+    "name": "The bottleneck",
+    "one_line": "A system moves only as fast as its slowest step, so improving any other step changes almost nothing.",
+    "detail": "Every journey, process or project is a chain, and one link sets the pace for the whole. Speed up a step that isn't the constraint and you get queues in front of the real one, not a faster result. The useful question is never 'what got better?' but 'what is still the slowest part, and did this touch it?'",
     "elsewhere": [
-      "A subsidy lowers a price, so demand rises, so the queue becomes the real cost.",
-      "A company bans a tool, so work routes through an unmonitored one.",
-      "Rent control holds rents, so landlords stop maintaining and supply shrinks."
+      "A faster laptop that doesn't help because the wait is on approvals, not computing.",
+      "A wider road that ends at the same junction signal.",
+      "A quick online application followed by a three-week document verification."
     ],
-    "test": "Ask 'and then what?' three times. The answer that surprises you is where the real story is.",
-    "today": "The Pink Line stretch opened to the public today, and the first-order story is the one in every headline: Deccan Herald's 9-minute ride replacing years of Bannerghatta Road dread. Ask 'and then what?': five feeder bus routes start today because a station is only useful if you can reach it, and the stations' surroundings become more valuable, so watch rents and parking rules near them over the next year. If you are deciding where to rent along this line, price in the second round, not just today's shorter commute."
+    "test": "Find the single slowest step. If a change doesn't touch it, expect little to change.",
+    "today": "The Pink Line's elevated stretch is open and Bengaluru's Metro has crossed 100 km, yet Public TV reports passengers already asking when the line will be fully operational, while BMTC starts feeder services and India Today asks why expansion took 15 years. For most riders the bottleneck isn't the train, it's the walk or ride to the station and the unfinished underground section. Judge the new line by your door-to-door time, including the feeder leg, not by the minutes between stations."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "The Pink Line's elevated stretch is open to the public from today. Deccan Herald reports the first train at 6 am, an 8-minute frequency at peak hours, and five new feeder bus services starting today at its stations. The Times of India says the underground section is likely to open next year.",
-      "so_what": "If your commute runs along Bannerghatta Road, try it this weekend, including the feeder bus from your end, before relying on it on Monday. Plan on the elevated stretch only; do not book a move or a job change around the underground section until it actually opens."
-    },
-    {
       "tag": "Travel",
-      "what": "The Hindu reports all departing US flights were grounded because of a communication outage, and separately that Microsoft has given no time yet for full recovery from its global outage.",
-      "so_what": "If you or family are flying to or through the US in the next few days, check the airline's app for the flight status and rebooking options before leaving for the airport, and keep your booking reference handy offline in case email is slow."
+      "what": "News On AIR reports Air India has issued a travel advisory over the communication outage at US airports. The Hindu reports Microsoft's global outage has ended, with services restored across affected systems.",
+      "so_what": "If you or family fly Air India to the US in the next few days, read the advisory and check the flight status in the app before leaving for the airport. The Microsoft side is resolved, so a failed check-in or email now is worth retrying rather than assuming it is still down."
     },
     {
-      "tag": "Prices",
-      "what": "The Times of India reports that closing the Tungabhadra canal from 15 November puts paddy on 12.6 lakh acres at risk.",
-      "so_what": "The Tungabhadra belt is a major source of the Sona Masuri rice many Bengaluru homes buy. If the crop is hit, retail rice prices can rise in the coming months, so if you buy in bulk, this is a reason to note today's price per kg and compare before your next big purchase."
+      "tag": "Worth booking",
+      "what": "The Times of India reports the Bengaluru–Goa Vande Bharat, via Mangaluru, has started regular services after its launch by the Prime Minister. The Hindu has published its route, timings and fares.",
+      "so_what": "A new daytime rail option to Goa and Mangaluru is now bookable on IRCTC. If you are planning a December trip, compare its fare and total time with flights now, before holiday demand fills the early weeks."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports a Bengaluru school was booked by authorities for cutting 12 tree branches without permission.",
+      "so_what": "Cutting branches, not just felling a tree, can lead to a case. If your apartment association or landlord plans pruning before the next monsoon, ask to see the written permission first, because the complaint lands on whoever ordered the work."
     },
     {
       "tag": "Safety",
-      "what": "The Times of India reports Blinkit has launched ambulance services in four Bengaluru areas.",
-      "so_what": "Before you need one, check in the app whether your area is covered and how it is booked, and save that next to the government 108 number. In an emergency you should already know which you will call first."
+      "what": "The Hindu, NDTV and Vartha Bharati report a toddler playing near a copper factory in Bengaluru died after falling into a bucket of hot chemicals.",
+      "so_what": "Small workshops in residential lanes often keep hot or corrosive liquids in open containers outdoors. If children in your building play near one, point it out to the unit and your residents' group, and keep play away from its doorway."
     }
   ],
   "carry_over": {
-    "id": "ai-blast-video",
-    "prompt": "A clip of smoke over a new metro station arrives in your apartment group captioned 'media is hiding this, share fast', and no outlet you trust is carrying it; what is the tell?",
-    "answer": "A shocking clip with no named source, no outlet reporting it, and a caption telling you to spread it fast."
+    "id": "sim-box-local-number",
+    "prompt": "A Bengaluru mobile number calls, knows your card's last four digits, and asks for the code your bank just sent so it can block a ₹24,000 purchase; what is the tell?",
+    "answer": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is."
   },
   "quiz": [
     {
-      "question": "What time does the first Pink Line train run, per Deccan Herald?",
+      "question": "How many tree branches was a Bengaluru school booked for cutting without permission, per the Times of India?",
       "options": [
-        "5 am",
-        "5:30 am",
-        "6 am",
-        "7 am"
-      ],
-      "answer": 2,
-      "why": "Deccan Herald: 'Pink Line's first train at 6 am'."
-    },
-    {
-      "question": "What is the Pink Line's peak-hour frequency, per Deccan Herald?",
-      "options": [
-        "4 minutes",
-        "8 minutes",
-        "12 minutes",
-        "15 minutes"
-      ],
-      "answer": 1,
-      "why": "Deccan Herald reports an 8-minute frequency during peak hours."
-    },
-    {
-      "question": "How many new feeder bus services start on 14 November at Pink Line stations?",
-      "options": [
-        "Three",
-        "Five",
-        "Eight",
-        "Ten"
-      ],
-      "answer": 1,
-      "why": "Deccan Herald: '5 new feeder bus services to start on November 14'."
-    },
-    {
-      "question": "How many acres of paddy does the Tungabhadra canal closure put at risk, per the Times of India?",
-      "options": [
-        "1.26 lakh acres",
-        "6 lakh acres",
-        "12.6 lakh acres",
-        "26 lakh acres"
-      ],
-      "answer": 2,
-      "why": "TOI: the canal closure from 15 November puts paddy across 12.6 lakh acres at risk."
-    },
-    {
-      "question": "In how many Bengaluru areas has Blinkit launched ambulances, per the Times of India?",
-      "options": [
-        "Two",
         "Four",
-        "Six",
-        "Ten"
+        "Eight",
+        "12",
+        "20"
+      ],
+      "answer": 2,
+      "why": "TOI: 'Bengaluru school booked for cutting 12 tree branches sans permission'."
+    },
+    {
+      "question": "With the Pink Line stretch, Bengaluru's Metro network has crossed which mark?",
+      "options": [
+        "50 km",
+        "75 km",
+        "100 km",
+        "150 km"
+      ],
+      "answer": 2,
+      "why": "The New Indian Express and The Indian Express report the network crossing 100 km."
+    },
+    {
+      "question": "Which airline issued a travel advisory over the communication outage at US airports?",
+      "options": [
+        "IndiGo",
+        "Air India",
+        "Akasa Air",
+        "Vistara"
       ],
       "answer": 1,
-      "why": "TOI: 'Blinkit launches ambulances in four Bengaluru areas'."
+      "why": "News On AIR: 'Air India issues travel advisory amid communication outage at US airports'."
+    },
+    {
+      "question": "When will Bengaluru host the Global Investors Meet 2027?",
+      "options": [
+        "January 10–12",
+        "February 13–15",
+        "April 20–22",
+        "June 5–7"
+      ],
+      "answer": 2,
+      "why": "The CSR Journal: Bengaluru to host Global Investors Meet 2027 from April 20–22."
+    },
+    {
+      "question": "What did Mysuru get, per the Times of India?",
+      "options": [
+        "India's first metro line outside a capital",
+        "India's first tilted 8K LED dome planetarium",
+        "A new international airport terminal",
+        "India's largest science museum"
+      ],
+      "answer": 1,
+      "why": "TOI: 'Mysuru gets India's first tilted 8K LED dome planetarium'."
     }
   ]
 }

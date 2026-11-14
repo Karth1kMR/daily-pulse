@@ -228,6 +228,18 @@
         "A fee charged to the shop that turns into a surcharge on your bill."
       ],
       "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying."
+    },
+    {
+      "id": "bottleneck",
+      "name": "The bottleneck",
+      "one_line": "A system moves only as fast as its slowest step, so improving any other step changes almost nothing.",
+      "detail": "Every journey, process or project is a chain, and one link sets the pace for the whole. Speed up a step that isn't the constraint and you get queues in front of the real one, not a faster result. The useful question is never 'what got better?' but 'what is still the slowest part, and did this touch it?'",
+      "elsewhere": [
+        "A faster laptop that doesn't help because the wait is on approvals, not computing.",
+        "A wider road that ends at the same junction signal.",
+        "A quick online application followed by a three-week document verification."
+      ],
+      "test": "Find the single slowest step. If a change doesn't touch it, expect little to change."
     }
   ]
 }
