@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-15",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-15T19:34:19+05:30",
+  "read_seconds": 85,
+  "weather": null,
+  "edge": {
+    "id": "branded-carry-bag",
+    "category": "Money trap",
+    "title": "The bag that advertises the shop",
+    "anchor": "The Times of India reports a Bengaluru consumer commission called it unfair that a man who bought liquor worth ₹2,170 was charged ₹20 for a carry bag bearing the store's own name and logo.",
+    "setup": "At the billing counter a line appears on the bill: carry bag, ₹20. Nobody offered it or asked you. The bag has the store's name and logo printed across it, so you walk home as their advertisement and pay for the privilege. It feels too small to argue about in a queue.",
+    "tell": "A small charge that appears on the bill without being offered first is counting on you not checking.",
+    "move": [
+      "Read the bill before you pay, not after, and ask for any line you did not agree to be removed.",
+      "Carry your own bag, or decline theirs before billing starts.",
+      "If it goes wrong, keep the bill and a photo of the bag, send a written complaint to the store first, and then approach the consumer commission."
+    ],
+    "why": "Small add-ons work because objecting costs more than the charge: time, the queue behind you, the fear of looking petty. So almost nobody objects, and across thousands of bills it is real money. A bag printed with the store's logo is also advertising for the store, which is why charging the customer for it can be challenged. The rule carries over to any line that arrives on a bill without being offered.",
+    "variants": "Same shape: a service charge added to a restaurant bill without asking, convenience fees that appear only at checkout, packaging or handling charges on takeaway and delivery.",
+    "scenario": {
+      "question": "You are buying groceries worth ₹1,800. At the counter, the bill already shows 'Carry bag ₹20', and the bag has the supermarket's logo printed on both sides. There is a queue behind you. What do you do?",
+      "choices": [
+        {
+          "text": "Before paying, ask for the bag charge to be removed and use your own bag or carry the items; if they refuse, keep the bill and a photo of the bag for a written complaint.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay it. It is only ₹20, and arguing in front of a queue is not worth it.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay now and plan to complain later, without keeping the bill or a photo of the bag.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "elsewhere": [
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+    ],
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "This weekend's Bengaluru feeds are dominated by vivid killings: the family murders by a cab driver, where The Hindu and Hindustan Times report a property dispute and gold sale as suspected motives, and a businessman attacked by two men on a bike, per India Today. Stories like these come to mind first, but the same feeds carry a quieter, more common risk: a father's plea, in the Times of India, after his teenager's pillion accident. When judging what to guard against this week, ask how often each thing happens to people like you, not how loudly it was reported."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "From tomorrow, 16 November, the Yellow Line runs 13 trains daily and peak-hour frequency drops to 5.5 minutes, The Hindu and Deccan Herald report. The Federal and The Hindu report first-day Pink Line riders also flagged gaps alongside the time saved.",
+      "so_what": "If you ride the Yellow Line, Monday's peak should mean shorter platform waits, so leave a few minutes later rather than earlier and see if it holds. If you are trying the Pink Line, time one full door-to-door trip before you change your routine."
+    },
+    {
+      "tag": "Commute",
+      "what": "Bangalore Mirror reports traffic trouble at Kogilu is growing as road work drags on.",
+      "so_what": "If your route to the airport or Yelahanka passes Kogilu, build in extra time this week, especially for a flight, rather than trusting the usual travel time."
+    },
+    {
+      "tag": "Travel",
+      "what": "The Hindu reports Cyclone Akvan is expected to move towards the Andhra coast by 19 November, with rainfall expected in Tamil Nadu and Bengal.",
+      "so_what": "If you are travelling to Chennai, coastal Andhra or Kolkata around 19 November, check your flight or train status the day before and avoid booking a tight connection."
+    },
+    {
+      "tag": "Worth going",
+      "what": "Deccan Herald reports the three-day Krishi Mela at GKVK began this weekend.",
+      "so_what": "Only the remaining days are left. If you wanted plants, seeds or produce, go early in the day, and if you are heading north through Kogilu afterwards, allow for the road work."
+    }
+  ],
+  "carry_over": {
+    "id": "digital-arrest",
+    "prompt": "A 'police officer' on video says a parcel in your name held drugs, reads back your PAN, and tells you to stay on camera, tell no one and move your savings to be cleared; what is the tell?",
+    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
+  },
+  "quiz": [
+    {
+      "question": "How much was the Bengaluru customer charged for a carry bag with the store's logo, which a consumer commission called unfair?",
+      "options": [
+        "₹5",
+        "₹10",
+        "₹20",
+        "₹50"
+      ],
+      "answer": 2,
+      "why": "TOI: man who bought liquor worth ₹2,170 objected to paying ₹20 for a carry bag bearing the store's own name and logo."
+    },
+    {
+      "question": "From which date does the Yellow Line run 13 trains daily?",
+      "options": [
+        "14 November",
+        "16 November",
+        "20 November",
+        "1 December"
+      ],
+      "answer": 1,
+      "why": "The Hindu: Yellow Line to run 13 trains daily from November 16."
+    },
+    {
+      "question": "Which coast is Cyclone Akvan expected to move towards by 19 November, per The Hindu?",
+      "options": [
+        "Odisha",
+        "Gujarat",
+        "Andhra",
+        "Kerala"
+      ],
+      "answer": 2,
+      "why": "The Hindu: Cyclone Akvan to move towards Andhra coast by November 19."
+    },
+    {
+      "question": "Where does Bangalore Mirror report traffic trouble is growing as road work drags?",
+      "options": [
+        "Kogilu",
+        "Silk Board",
+        "Hebbal",
+        "KR Puram"
+      ],
+      "answer": 0,
+      "why": "Bangalore Mirror: Kogilu's traffic trouble grows as road work drags."
+    },
+    {
+      "question": "How many riders did the Pink Line draw on day one, per Inshorts?",
+      "options": [
+        "13,409",
+        "23,409",
+        "33,409",
+        "43,409"
+      ],
+      "answer": 2,
+      "why": "Inshorts: Bengaluru's Namma Metro Pink Line draws 33,409 riders on Day 1."
+    }
+  ]
+}

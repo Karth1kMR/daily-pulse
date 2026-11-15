@@ -658,6 +658,20 @@
       ],
       "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
       "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice."
+    },
+    {
+      "id": "branded-carry-bag",
+      "category": "Money trap",
+      "title": "The bag that advertises the shop",
+      "setup": "At the billing counter a line appears on the bill: carry bag, ₹20. Nobody offered it or asked you. The bag has the store's name and logo printed across it, so you walk home as their advertisement and pay for the privilege. It feels too small to argue about in a queue.",
+      "tell": "A small charge that appears on the bill without being offered first is counting on you not checking.",
+      "move": [
+        "Read the bill before you pay, not after, and ask for any line you did not agree to be removed.",
+        "Carry your own bag, or decline theirs before billing starts.",
+        "If it goes wrong, keep the bill and a photo of the bag, send a written complaint to the store first, and then approach the consumer commission."
+      ],
+      "why": "Small add-ons work because objecting costs more than the charge: time, the queue behind you, the fear of looking petty. So almost nobody objects, and across thousands of bills it is real money. A bag printed with the store's logo is also advertising for the store, which is why charging the customer for it can be challenged. The rule carries over to any line that arrives on a bill without being offered.",
+      "variants": "Same shape: a service charge added to a restaurant bill without asking, convenience fees that appear only at checkout, packaging or handling charges on takeaway and delivery."
     }
   ]
 }

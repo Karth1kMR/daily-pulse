@@ -1,143 +1,137 @@
 {
   "date": "2026-11-15",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-15T07:33:44+05:30",
+  "generated_at": "2026-11-15T19:34:19+05:30",
   "read_seconds": 85,
-  "weather": {
-    "now_c": 20.4,
-    "condition": "Partly cloudy",
-    "high_c": 27.9,
-    "low_c": 19.2,
-    "rain_chance_pct": 0,
-    "tip": "Dry and clear, 19 to 28°C with no rain expected: a good Sunday for the three-day Krishi Mela at GKVK, but go in the morning, as the grounds are open and the afternoon will be the warmest part of the day. If you ride pillion there, tuck in any dupatta or loose scarf first."
-  },
+  "weather": null,
   "edge": {
-    "id": "digital-arrest",
-    "category": "Pressure play",
-    "title": "The police do not hold you on video",
-    "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
-    "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
+    "id": "branded-carry-bag",
+    "category": "Money trap",
+    "title": "The bag that advertises the shop",
+    "anchor": "The Times of India reports a Bengaluru consumer commission called it unfair that a man who bought liquor worth ₹2,170 was charged ₹20 for a carry bag bearing the store's own name and logo.",
+    "setup": "At the billing counter a line appears on the bill: carry bag, ₹20. Nobody offered it or asked you. The bag has the store's name and logo printed across it, so you walk home as their advertisement and pay for the privilege. It feels too small to argue about in a queue.",
+    "tell": "A small charge that appears on the bill without being offered first is counting on you not checking.",
     "move": [
-      "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
-      "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
-      "Tell one family member immediately — isolation is the only thing making this work."
+      "Read the bill before you pay, not after, and ask for any line you did not agree to be removed.",
+      "Carry your own bag, or decline theirs before billing starts.",
+      "If it goes wrong, keep the bill and a photo of the bag, send a written complaint to the store first, and then approach the consumer commission."
     ],
-    "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
-    "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls.",
+    "why": "Small add-ons work because objecting costs more than the charge: time, the queue behind you, the fear of looking petty. So almost nobody objects, and across thousands of bills it is real money. A bag printed with the store's logo is also advertising for the store, which is why charging the customer for it can be challenged. The rule carries over to any line that arrives on a bill without being offered.",
+    "variants": "Same shape: a service charge added to a restaurant bill without asking, convenience fees that appear only at checkout, packaging or handling charges on takeaway and delivery.",
     "scenario": {
-      "question": "A video call: a man in police uniform says a parcel in your name with drugs was seized, reads your PAN back to you, and says you are under 'digital arrest'. You must stay on camera, tell no one, and move your savings to an 'RBI verification account' to be cleared. What do you do?",
+      "question": "You are buying groceries worth ₹1,800. At the counter, the bill already shows 'Carry bag ₹20', and the bag has the supermarket's logo printed on both sides. There is a queue behind you. What do you do?",
       "choices": [
         {
-          "text": "Hang up, tell a family member, and call 1930 or report at cybercrime.gov.in from a different phone.",
+          "text": "Before paying, ask for the bag charge to be removed and use your own bag or carry the items; if they refuse, keep the bill and a photo of the bag for a written complaint.",
           "verdict": "best"
         },
         {
-          "text": "Stay on the call and transfer only a small amount to prove your innocence, since they already have your PAN.",
+          "text": "Pay it. It is only ₹20, and arguing in front of a queue is not worth it.",
           "verdict": "trap"
         },
         {
-          "text": "Keep the call going while you quietly check the officer's name online, so you don't seem uncooperative.",
+          "text": "Pay now and plan to complain later, without keeping the bill or a photo of the bag.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "regulatory-capture",
-    "name": "Regulatory capture",
-    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
-    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "id": "availability-heuristic",
+    "name": "The availability heuristic",
+    "one_line": "You judge how likely something is by how easily an example comes to mind.",
+    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
     "elsewhere": [
-      "Licensing rules that protect existing practitioners more than customers.",
-      "Safety standards written around one firm's existing process.",
-      "Compliance burdens that only large players can absorb."
+      "Fearing a kidnapping while texting at the wheel.",
+      "Overrating lottery odds after a winner is interviewed.",
+      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
     ],
-    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
-    "today": "The Times of India reports Bengaluru's taxi operators are asking for a cap on the Green SM fleet, saying it threatens their livelihoods. A cap on one competitor's numbers is the kind of rule that protects existing players more than riders. If a cap comes, ask what it does to your wait times and fares, not just to the operators who asked for it."
+    "test": "Am I estimating this from data, or from how easily a story came to mind?",
+    "today": "This weekend's Bengaluru feeds are dominated by vivid killings: the family murders by a cab driver, where The Hindu and Hindustan Times report a property dispute and gold sale as suspected motives, and a businessman attacked by two men on a bike, per India Today. Stories like these come to mind first, but the same feeds carry a quieter, more common risk: a father's plea, in the Times of India, after his teenager's pillion accident. When judging what to guard against this week, ask how often each thing happens to people like you, not how loudly it was reported."
   },
   "moved": [
     {
       "tag": "Commute",
-      "what": "The Hindu reports the Yellow Line will run 13 trains daily from 16 November, bringing peak-hour frequency to 5.5 minutes. The Pink Line's elevated stretch opened to the public with over 33,000 riders on day one, per Deccan Herald, and BMTC has started feeder services.",
-      "so_what": "From Monday, Yellow Line peak waits drop to about 5.5 minutes, so it may now beat your current route at office hours. If you are south of the city near Bannerghatta Road, time one door-to-door trip on the Pink Line plus feeder this week before committing to it."
+      "what": "From tomorrow, 16 November, the Yellow Line runs 13 trains daily and peak-hour frequency drops to 5.5 minutes, The Hindu and Deccan Herald report. The Federal and The Hindu report first-day Pink Line riders also flagged gaps alongside the time saved.",
+      "so_what": "If you ride the Yellow Line, Monday's peak should mean shorter platform waits, so leave a few minutes later rather than earlier and see if it holds. If you are trying the Pink Line, time one full door-to-door trip before you change your routine."
     },
     {
-      "tag": "Money",
-      "what": "The Times of India reports rising milk and paneer prices are squeezing paying guest accommodation budgets, and PG rents in Bengaluru are set to rise.",
-      "so_what": "If you live in a PG, expect a revision soon. Check your agreement for the notice period and what the rent covers, and ask for any increase in writing before you pay it."
+      "tag": "Commute",
+      "what": "Bangalore Mirror reports traffic trouble at Kogilu is growing as road work drags on.",
+      "so_what": "If your route to the airport or Yelahanka passes Kogilu, build in extra time this week, especially for a flight, rather than trusting the usual travel time."
     },
     {
-      "tag": "Safety",
-      "what": "The Times of India reports a father's appeal after his teenage child's accident: secure your dupatta before riding pillion.",
-      "so_what": "A loose dupatta, scarf or saree end can catch in a two-wheeler's rear wheel or chain in a second. Tuck it in or tie it before you get on, and say so to anyone riding behind you."
+      "tag": "Travel",
+      "what": "The Hindu reports Cyclone Akvan is expected to move towards the Andhra coast by 19 November, with rainfall expected in Tamil Nadu and Bengal.",
+      "so_what": "If you are travelling to Chennai, coastal Andhra or Kolkata around 19 November, check your flight or train status the day before and avoid booking a tight connection."
     },
     {
       "tag": "Worth going",
-      "what": "Deccan Herald reports a three-day Krishi Mela has begun at GKVK in Bengaluru.",
-      "so_what": "It runs for three days only. If you want plants, seeds or farm-fresh produce, today's dry weather makes this the day to go; arrive early to beat the crowds and the midday heat."
+      "what": "Deccan Herald reports the three-day Krishi Mela at GKVK began this weekend.",
+      "so_what": "Only the remaining days are left. If you wanted plants, seeds or produce, go early in the day, and if you are heading north through Kogilu afterwards, allow for the road work."
     }
   ],
   "carry_over": {
-    "id": "repair-estimate-lump-sum",
-    "prompt": "Your vehicle is at the workshop after a crash, and that evening they phone with one large total and say it is the only way to fix it; what is the tell?",
-    "answer": "One total figure, no itemised list, and nobody else has been allowed to look at the damage."
+    "id": "digital-arrest",
+    "prompt": "A 'police officer' on video says a parcel in your name held drugs, reads back your PAN, and tells you to stay on camera, tell no one and move your savings to be cleared; what is the tell?",
+    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
   },
   "quiz": [
     {
-      "question": "From 16 November, what will the Yellow Line's peak-hour frequency be, per The Hindu?",
+      "question": "How much was the Bengaluru customer charged for a carry bag with the store's logo, which a consumer commission called unfair?",
       "options": [
-        "3 minutes",
-        "5.5 minutes",
-        "8 minutes",
-        "10 minutes"
-      ],
-      "answer": 1,
-      "why": "The Hindu: Yellow Line to run 13 trains daily from 16 November; peak-hour frequency cut to 5.5 minutes."
-    },
-    {
-      "question": "How many commuters did the Pink Line attract on its first day, per Deccan Herald?",
-      "options": [
-        "Over 8,000",
-        "Over 15,000",
-        "Over 33,000",
-        "Over 1 lakh"
+        "₹5",
+        "₹10",
+        "₹20",
+        "₹50"
       ],
       "answer": 2,
-      "why": "Deccan Herald: 1st day of Pink line attracts over 33k commuters."
+      "why": "TOI: man who bought liquor worth ₹2,170 objected to paying ₹20 for a carry bag bearing the store's own name and logo."
     },
     {
-      "question": "Where has the three-day Krishi Mela begun in Bengaluru?",
+      "question": "From which date does the Yellow Line run 13 trains daily?",
       "options": [
-        "Palace Grounds",
-        "Lalbagh",
-        "GKVK",
-        "Freedom Park"
-      ],
-      "answer": 2,
-      "why": "Deccan Herald: Three-day Krishi Mela begins at GKVK."
-    },
-    {
-      "question": "Which rising prices does the Times of India say are pinching PG budgets?",
-      "options": [
-        "Rice and dal",
-        "Milk and paneer",
-        "Cooking gas and diesel",
-        "Vegetables and fruit"
+        "14 November",
+        "16 November",
+        "20 November",
+        "1 December"
       ],
       "answer": 1,
-      "why": "TOI: Milk, paneer prices pinch paying guest accommodation budgets; rents to rise in Bengaluru."
+      "why": "The Hindu: Yellow Line to run 13 trains daily from November 16."
     },
     {
-      "question": "Where is a Remembrance Day service being held in Bengaluru on 15 November?",
+      "question": "Which coast is Cyclone Akvan expected to move towards by 19 November, per The Hindu?",
       "options": [
-        "St Mark's Cathedral",
-        "St Mary's Basilica",
-        "Infant Jesus Church",
-        "St Patrick's Church"
+        "Odisha",
+        "Gujarat",
+        "Andhra",
+        "Kerala"
+      ],
+      "answer": 2,
+      "why": "The Hindu: Cyclone Akvan to move towards Andhra coast by November 19."
+    },
+    {
+      "question": "Where does Bangalore Mirror report traffic trouble is growing as road work drags?",
+      "options": [
+        "Kogilu",
+        "Silk Board",
+        "Hebbal",
+        "KR Puram"
       ],
       "answer": 0,
-      "why": "TOI: Remembrance Day service at St Mark's Cathedral in Bengaluru on November 15."
+      "why": "Bangalore Mirror: Kogilu's traffic trouble grows as road work drags."
+    },
+    {
+      "question": "How many riders did the Pink Line draw on day one, per Inshorts?",
+      "options": [
+        "13,409",
+        "23,409",
+        "33,409",
+        "43,409"
+      ],
+      "answer": 2,
+      "why": "Inshorts: Bengaluru's Namma Metro Pink Line draws 33,409 riders on Day 1."
     }
   ]
 }
