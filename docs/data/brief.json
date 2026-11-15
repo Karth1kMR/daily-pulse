@@ -1,137 +1,143 @@
 {
-  "date": "2026-11-14",
-  "edition": "evening",
+  "date": "2026-11-15",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-14T19:34:16+05:30",
+  "generated_at": "2026-11-15T07:33:44+05:30",
   "read_seconds": 85,
-  "weather": null,
+  "weather": {
+    "now_c": 20.4,
+    "condition": "Partly cloudy",
+    "high_c": 27.9,
+    "low_c": 19.2,
+    "rain_chance_pct": 0,
+    "tip": "Dry and clear, 19 to 28°C with no rain expected: a good Sunday for the three-day Krishi Mela at GKVK, but go in the morning, as the grounds are open and the afternoon will be the warmest part of the day. If you ride pillion there, tuck in any dupatta or loose scarf first."
+  },
   "edge": {
-    "id": "repair-estimate-lump-sum",
-    "category": "Leverage",
-    "title": "The repair bill you can't check",
-    "setup": "After a crash in the rain, your car is towed to the nearest authorised workshop. By evening you get a single figure by phone, a very large one, with the advice that it is the only way to restore the car. The garage knows what is broken. You do not, and the car is already on its lift.",
-    "tell": "One total figure, no itemised list, and nobody else has been allowed to look at the damage.",
+    "id": "digital-arrest",
+    "category": "Pressure play",
+    "title": "The police do not hold you on video",
+    "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
+    "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
     "move": [
-      "Ask for the estimate in writing, itemised by part and labour, and keep photos of the damage yourself.",
-      "If the car is insured, inform the insurer before repairs begin so its surveyor can assess the damage; do not authorise work on the strength of a phone figure.",
-      "Get a second estimate from another workshop for the same itemised list. The gap between two quotes is the information.",
-      "Do not sign a blank or lump-sum work authorisation, and ask for replaced parts back."
+      "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
+      "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
+      "Tell one family member immediately — isolation is the only thing making this work."
     ],
-    "why": "The workshop knows the true cost and you know only what it tells you, so a single unverifiable number can be as high as your fear allows. Itemising and a second pair of eyes turn a claim into something checkable. When you can't judge the price, you can still force the seller to make it comparable.",
-    "variants": "Same shape: a hospital package quoted as one figure, a flat-renovation contractor's lump sum, an appliance 'beyond repair' verdict from the only service centre you called.",
+    "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
+    "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls.",
     "scenario": {
-      "question": "Your scooter is at a service centre after a skid on a wet road. That evening they call with one figure, ₹18,000, say the work must start tonight to have it ready by Monday, and ask you to approve on the phone. What do you do?",
+      "question": "A video call: a man in police uniform says a parcel in your name with drugs was seized, reads your PAN back to you, and says you are under 'digital arrest'. You must stay on camera, tell no one, and move your savings to an 'RBI verification account' to be cleared. What do you do?",
       "choices": [
         {
-          "text": "Ask for a written, itemised estimate by part and labour, inform your insurer before any work starts, and get a second quote for the same list.",
+          "text": "Hang up, tell a family member, and call 1930 or report at cybercrime.gov.in from a different phone.",
           "verdict": "best"
         },
         {
-          "text": "Approve on the call, since they have the vehicle open and know what is broken.",
+          "text": "Stay on the call and transfer only a small amount to prove your innocence, since they already have your PAN.",
           "verdict": "trap"
         },
         {
-          "text": "Haggle the total down to ₹15,000 and approve, treating the discount as proof the price is fair.",
+          "text": "Keep the call going while you quietly check the officer's name online, so you don't seem uncooperative.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "bottleneck",
-    "name": "The bottleneck",
-    "one_line": "A system moves only as fast as its slowest step, so improving any other step changes almost nothing.",
-    "detail": "Every journey, process or project is a chain, and one link sets the pace for the whole. Speed up a step that isn't the constraint and you get queues in front of the real one, not a faster result. The useful question is never 'what got better?' but 'what is still the slowest part, and did this touch it?'",
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
     "elsewhere": [
-      "A faster laptop that doesn't help because the wait is on approvals, not computing.",
-      "A wider road that ends at the same junction signal.",
-      "A quick online application followed by a three-week document verification."
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
     ],
-    "test": "Find the single slowest step. If a change doesn't touch it, expect little to change.",
-    "today": "The Pink Line's elevated stretch is open and Bengaluru's Metro has crossed 100 km, yet Public TV reports passengers already asking when the line will be fully operational, while BMTC starts feeder services and India Today asks why expansion took 15 years. For most riders the bottleneck isn't the train, it's the walk or ride to the station and the unfinished underground section. Judge the new line by your door-to-door time, including the feeder leg, not by the minutes between stations."
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "The Times of India reports Bengaluru's taxi operators are asking for a cap on the Green SM fleet, saying it threatens their livelihoods. A cap on one competitor's numbers is the kind of rule that protects existing players more than riders. If a cap comes, ask what it does to your wait times and fares, not just to the operators who asked for it."
   },
   "moved": [
     {
-      "tag": "Travel",
-      "what": "News On AIR reports Air India has issued a travel advisory over the communication outage at US airports. The Hindu reports Microsoft's global outage has ended, with services restored across affected systems.",
-      "so_what": "If you or family fly Air India to the US in the next few days, read the advisory and check the flight status in the app before leaving for the airport. The Microsoft side is resolved, so a failed check-in or email now is worth retrying rather than assuming it is still down."
+      "tag": "Commute",
+      "what": "The Hindu reports the Yellow Line will run 13 trains daily from 16 November, bringing peak-hour frequency to 5.5 minutes. The Pink Line's elevated stretch opened to the public with over 33,000 riders on day one, per Deccan Herald, and BMTC has started feeder services.",
+      "so_what": "From Monday, Yellow Line peak waits drop to about 5.5 minutes, so it may now beat your current route at office hours. If you are south of the city near Bannerghatta Road, time one door-to-door trip on the Pink Line plus feeder this week before committing to it."
     },
     {
-      "tag": "Worth booking",
-      "what": "The Times of India reports the Bengaluru–Goa Vande Bharat, via Mangaluru, has started regular services after its launch by the Prime Minister. The Hindu has published its route, timings and fares.",
-      "so_what": "A new daytime rail option to Goa and Mangaluru is now bookable on IRCTC. If you are planning a December trip, compare its fare and total time with flights now, before holiday demand fills the early weeks."
-    },
-    {
-      "tag": "Your record",
-      "what": "The Times of India reports a Bengaluru school was booked by authorities for cutting 12 tree branches without permission.",
-      "so_what": "Cutting branches, not just felling a tree, can lead to a case. If your apartment association or landlord plans pruning before the next monsoon, ask to see the written permission first, because the complaint lands on whoever ordered the work."
+      "tag": "Money",
+      "what": "The Times of India reports rising milk and paneer prices are squeezing paying guest accommodation budgets, and PG rents in Bengaluru are set to rise.",
+      "so_what": "If you live in a PG, expect a revision soon. Check your agreement for the notice period and what the rent covers, and ask for any increase in writing before you pay it."
     },
     {
       "tag": "Safety",
-      "what": "The Hindu, NDTV and Vartha Bharati report a toddler playing near a copper factory in Bengaluru died after falling into a bucket of hot chemicals.",
-      "so_what": "Small workshops in residential lanes often keep hot or corrosive liquids in open containers outdoors. If children in your building play near one, point it out to the unit and your residents' group, and keep play away from its doorway."
+      "what": "The Times of India reports a father's appeal after his teenage child's accident: secure your dupatta before riding pillion.",
+      "so_what": "A loose dupatta, scarf or saree end can catch in a two-wheeler's rear wheel or chain in a second. Tuck it in or tie it before you get on, and say so to anyone riding behind you."
+    },
+    {
+      "tag": "Worth going",
+      "what": "Deccan Herald reports a three-day Krishi Mela has begun at GKVK in Bengaluru.",
+      "so_what": "It runs for three days only. If you want plants, seeds or farm-fresh produce, today's dry weather makes this the day to go; arrive early to beat the crowds and the midday heat."
     }
   ],
   "carry_over": {
-    "id": "sim-box-local-number",
-    "prompt": "A Bengaluru mobile number calls, knows your card's last four digits, and asks for the code your bank just sent so it can block a ₹24,000 purchase; what is the tell?",
-    "answer": "You are being asked to act on a call you did not start, and the number on your screen is the only proof of who it is."
+    "id": "repair-estimate-lump-sum",
+    "prompt": "Your vehicle is at the workshop after a crash, and that evening they phone with one large total and say it is the only way to fix it; what is the tell?",
+    "answer": "One total figure, no itemised list, and nobody else has been allowed to look at the damage."
   },
   "quiz": [
     {
-      "question": "How many tree branches was a Bengaluru school booked for cutting without permission, per the Times of India?",
+      "question": "From 16 November, what will the Yellow Line's peak-hour frequency be, per The Hindu?",
       "options": [
-        "Four",
-        "Eight",
-        "12",
-        "20"
-      ],
-      "answer": 2,
-      "why": "TOI: 'Bengaluru school booked for cutting 12 tree branches sans permission'."
-    },
-    {
-      "question": "With the Pink Line stretch, Bengaluru's Metro network has crossed which mark?",
-      "options": [
-        "50 km",
-        "75 km",
-        "100 km",
-        "150 km"
-      ],
-      "answer": 2,
-      "why": "The New Indian Express and The Indian Express report the network crossing 100 km."
-    },
-    {
-      "question": "Which airline issued a travel advisory over the communication outage at US airports?",
-      "options": [
-        "IndiGo",
-        "Air India",
-        "Akasa Air",
-        "Vistara"
+        "3 minutes",
+        "5.5 minutes",
+        "8 minutes",
+        "10 minutes"
       ],
       "answer": 1,
-      "why": "News On AIR: 'Air India issues travel advisory amid communication outage at US airports'."
+      "why": "The Hindu: Yellow Line to run 13 trains daily from 16 November; peak-hour frequency cut to 5.5 minutes."
     },
     {
-      "question": "When will Bengaluru host the Global Investors Meet 2027?",
+      "question": "How many commuters did the Pink Line attract on its first day, per Deccan Herald?",
       "options": [
-        "January 10–12",
-        "February 13–15",
-        "April 20–22",
-        "June 5–7"
+        "Over 8,000",
+        "Over 15,000",
+        "Over 33,000",
+        "Over 1 lakh"
       ],
       "answer": 2,
-      "why": "The CSR Journal: Bengaluru to host Global Investors Meet 2027 from April 20–22."
+      "why": "Deccan Herald: 1st day of Pink line attracts over 33k commuters."
     },
     {
-      "question": "What did Mysuru get, per the Times of India?",
+      "question": "Where has the three-day Krishi Mela begun in Bengaluru?",
       "options": [
-        "India's first metro line outside a capital",
-        "India's first tilted 8K LED dome planetarium",
-        "A new international airport terminal",
-        "India's largest science museum"
+        "Palace Grounds",
+        "Lalbagh",
+        "GKVK",
+        "Freedom Park"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: Three-day Krishi Mela begins at GKVK."
+    },
+    {
+      "question": "Which rising prices does the Times of India say are pinching PG budgets?",
+      "options": [
+        "Rice and dal",
+        "Milk and paneer",
+        "Cooking gas and diesel",
+        "Vegetables and fruit"
       ],
       "answer": 1,
-      "why": "TOI: 'Mysuru gets India's first tilted 8K LED dome planetarium'."
+      "why": "TOI: Milk, paneer prices pinch paying guest accommodation budgets; rents to rise in Bengaluru."
+    },
+    {
+      "question": "Where is a Remembrance Day service being held in Bengaluru on 15 November?",
+      "options": [
+        "St Mark's Cathedral",
+        "St Mary's Basilica",
+        "Infant Jesus Church",
+        "St Patrick's Church"
+      ],
+      "answer": 0,
+      "why": "TOI: Remembrance Day service at St Mark's Cathedral in Bengaluru on November 15."
     }
   ]
 }

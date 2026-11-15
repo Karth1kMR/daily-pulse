@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-15",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-15T07:33:44+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 20.4,
+    "condition": "Partly cloudy",
+    "high_c": 27.9,
+    "low_c": 19.2,
+    "rain_chance_pct": 0,
+    "tip": "Dry and clear, 19 to 28°C with no rain expected: a good Sunday for the three-day Krishi Mela at GKVK, but go in the morning, as the grounds are open and the afternoon will be the warmest part of the day. If you ride pillion there, tuck in any dupatta or loose scarf first."
+  },
+  "edge": {
+    "id": "digital-arrest",
+    "category": "Pressure play",
+    "title": "The police do not hold you on video",
+    "setup": "A call: a parcel in your name held at Mumbai customs, contents illegal. Transferred to a 'CBI officer' in uniform on video, a station behind him, a case number, your real PAN read back. You are told it's a sealed probe — tell no one, stay on camera, and 'verify' your funds in a government escrow account while they clear your name.",
+    "tell": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself.",
+    "move": [
+      "Hang up. Nothing lawful ever requires your continuous presence on a video call.",
+      "Call 1930 (cyber-fraud) or report at cybercrime.gov.in from a different phone.",
+      "Tell one family member immediately — isolation is the only thing making this work."
+    ],
+    "why": "There is no such thing as a digital arrest in Indian law. Police act with physical summons and paperwork. The entire scam is an isolation engine: uniform supplies authority, secrecy removes anyone who'd say 'that isn't a thing', and the clock removes your ability to check.",
+    "variants": "Same shape: 'your SIM is being used in a crime', fake TRAI disconnection calls, 'your son is in custody' ransom calls.",
+    "scenario": {
+      "question": "A video call: a man in police uniform says a parcel in your name with drugs was seized, reads your PAN back to you, and says you are under 'digital arrest'. You must stay on camera, tell no one, and move your savings to an 'RBI verification account' to be cleared. What do you do?",
+      "choices": [
+        {
+          "text": "Hang up, tell a family member, and call 1930 or report at cybercrime.gov.in from a different phone.",
+          "verdict": "best"
+        },
+        {
+          "text": "Stay on the call and transfer only a small amount to prove your innocence, since they already have your PAN.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Keep the call going while you quietly check the officer's name online, so you don't seem uncooperative.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "regulatory-capture",
+    "name": "Regulatory capture",
+    "one_line": "Over time, regulators tend to serve the industry they regulate rather than the public.",
+    "detail": "The industry is concentrated, well-funded and intensely interested; the public is diffuse and distracted. Expertise flows from industry, careers move between the two, and 'reasonable' rules drift toward whatever incumbents can comply with and newcomers can't. Watch what a rule does to barriers to entry — that's often its real function.",
+    "elsewhere": [
+      "Licensing rules that protect existing practitioners more than customers.",
+      "Safety standards written around one firm's existing process.",
+      "Compliance burdens that only large players can absorb."
+    ],
+    "test": "Does this rule make it harder to become a competitor, or safer to be a customer?",
+    "today": "The Times of India reports Bengaluru's taxi operators are asking for a cap on the Green SM fleet, saying it threatens their livelihoods. A cap on one competitor's numbers is the kind of rule that protects existing players more than riders. If a cap comes, ask what it does to your wait times and fares, not just to the operators who asked for it."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Hindu reports the Yellow Line will run 13 trains daily from 16 November, bringing peak-hour frequency to 5.5 minutes. The Pink Line's elevated stretch opened to the public with over 33,000 riders on day one, per Deccan Herald, and BMTC has started feeder services.",
+      "so_what": "From Monday, Yellow Line peak waits drop to about 5.5 minutes, so it may now beat your current route at office hours. If you are south of the city near Bannerghatta Road, time one door-to-door trip on the Pink Line plus feeder this week before committing to it."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports rising milk and paneer prices are squeezing paying guest accommodation budgets, and PG rents in Bengaluru are set to rise.",
+      "so_what": "If you live in a PG, expect a revision soon. Check your agreement for the notice period and what the rent covers, and ask for any increase in writing before you pay it."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports a father's appeal after his teenage child's accident: secure your dupatta before riding pillion.",
+      "so_what": "A loose dupatta, scarf or saree end can catch in a two-wheeler's rear wheel or chain in a second. Tuck it in or tie it before you get on, and say so to anyone riding behind you."
+    },
+    {
+      "tag": "Worth going",
+      "what": "Deccan Herald reports a three-day Krishi Mela has begun at GKVK in Bengaluru.",
+      "so_what": "It runs for three days only. If you want plants, seeds or farm-fresh produce, today's dry weather makes this the day to go; arrive early to beat the crowds and the midday heat."
+    }
+  ],
+  "carry_over": {
+    "id": "repair-estimate-lump-sum",
+    "prompt": "Your vehicle is at the workshop after a crash, and that evening they phone with one large total and say it is the only way to fix it; what is the tell?",
+    "answer": "One total figure, no itemised list, and nobody else has been allowed to look at the damage."
+  },
+  "quiz": [
+    {
+      "question": "From 16 November, what will the Yellow Line's peak-hour frequency be, per The Hindu?",
+      "options": [
+        "3 minutes",
+        "5.5 minutes",
+        "8 minutes",
+        "10 minutes"
+      ],
+      "answer": 1,
+      "why": "The Hindu: Yellow Line to run 13 trains daily from 16 November; peak-hour frequency cut to 5.5 minutes."
+    },
+    {
+      "question": "How many commuters did the Pink Line attract on its first day, per Deccan Herald?",
+      "options": [
+        "Over 8,000",
+        "Over 15,000",
+        "Over 33,000",
+        "Over 1 lakh"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: 1st day of Pink line attracts over 33k commuters."
+    },
+    {
+      "question": "Where has the three-day Krishi Mela begun in Bengaluru?",
+      "options": [
+        "Palace Grounds",
+        "Lalbagh",
+        "GKVK",
+        "Freedom Park"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: Three-day Krishi Mela begins at GKVK."
+    },
+    {
+      "question": "Which rising prices does the Times of India say are pinching PG budgets?",
+      "options": [
+        "Rice and dal",
+        "Milk and paneer",
+        "Cooking gas and diesel",
+        "Vegetables and fruit"
+      ],
+      "answer": 1,
+      "why": "TOI: Milk, paneer prices pinch paying guest accommodation budgets; rents to rise in Bengaluru."
+    },
+    {
+      "question": "Where is a Remembrance Day service being held in Bengaluru on 15 November?",
+      "options": [
+        "St Mark's Cathedral",
+        "St Mary's Basilica",
+        "Infant Jesus Church",
+        "St Patrick's Church"
+      ],
+      "answer": 0,
+      "why": "TOI: Remembrance Day service at St Mark's Cathedral in Bengaluru on November 15."
+    }
+  ]
+}
