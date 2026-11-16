@@ -240,6 +240,18 @@
         "A quick online application followed by a three-week document verification."
       ],
       "test": "Find the single slowest step. If a change doesn't touch it, expect little to change."
+    },
+    {
+      "id": "peak-load",
+      "name": "Peak load",
+      "one_line": "A shared system is sized for its busiest hour, so moving demand off the peak is often cheaper than adding capacity.",
+      "detail": "Roads, power grids, metro trains and servers are not overwhelmed by the daily total; they are overwhelmed by everyone arriving in the same short window. Capacity built for that window sits idle the rest of the day. Spreading the same demand across more hours frees up room without building anything, which is why staggered timings, off-peak pricing and flexible slots keep reappearing as fixes.",
+      "elsewhere": [
+        "Electricity tariffs that cost more in the evening than at night.",
+        "Airfares and hotel rates that jump on long weekends.",
+        "A bank branch that is empty at 15:00 and full at 10:30."
+      ],
+      "test": "Is the problem the total, or everyone wanting it at the same time? If it is the timing, ask who could move."
     }
   ]
 }

@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-16",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-16T19:34:56+05:30",
+  "read_seconds": 90,
+  "edge": {
+    "id": "fare-dispute-walk-away",
+    "category": "Street safety",
+    "title": "The fare argument you can lose and still win",
+    "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
+    "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
+    "move": [
+      "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
+      "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
+      "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
+    ],
+    "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
+    "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
+    "scenario": {
+      "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
+      "choices": [
+        {
+          "text": "Move away, note the plate number, and complain to the traffic police later.",
+          "verdict": "best"
+        },
+        {
+          "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay the extra ₹150 with no record and leave without noting anything.",
+          "verdict": "ok"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "peak-load",
+    "name": "Peak load",
+    "one_line": "A shared system is sized for its busiest hour, so moving demand off the peak is often cheaper than adding capacity.",
+    "detail": "Roads, power grids, metro trains and servers are not overwhelmed by the daily total; they are overwhelmed by everyone arriving in the same short window. Capacity built for that window sits idle the rest of the day. Spreading the same demand across more hours frees up room without building anything, which is why staggered timings, off-peak pricing and flexible slots keep reappearing as fixes.",
+    "elsewhere": [
+      "Electricity tariffs that cost more in the evening than at night.",
+      "Airfares and hotel rates that jump on long weekends.",
+      "A bank branch that is empty at 15:00 and full at 10:30."
+    ],
+    "test": "Is the problem the total, or everyone wanting it at the same time? If it is the timing, ask who could move.",
+    "today": "Bangalore Mirror reports Prime Minister Narendra Modi telling CM DK Shivakumar to change office timings to fix traffic. The same week, The Hindu reports the skydeck estimate rising from ₹500 crore to ₹800 crore and Deccan Herald reports the ORR revamp still not started at ₹486 crore. Staggered hours attack the peak rather than adding capacity, and if your employer allows it, shifting your own start by an hour is the one version of this you can try tomorrow."
+  },
+  "moved": [
+    {
+      "tag": "Money",
+      "what": "The Times of India reports a Bengaluru woman put ₹4 lakh in an FD with a cooperative society and got back only ₹3 lakh at maturity. The consumer commission ordered the society to pay ₹1.12 lakh with 12% interest and ₹30,000 compensation.",
+      "so_what": "A cooperative society is not a bank, so do not treat its FD as bank-safe. If you hold one and maturity money is delayed, keep the receipt and every message; the consumer commission is a route that worked here."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Indian Express reports that after deletions in the special intensive revision of voter rolls, Karnataka plans a police-led household survey in Bengaluru. The New Indian Express reports the CM has told police to maintain a database of residents.",
+      "so_what": "Check that your name is still on the voter roll using the Election Commission's voter search. When the survey reaches your door, ask for ID and give only what it needs; no genuine survey needs an OTP or a payment."
+    },
+    {
+      "tag": "Your record",
+      "what": "Deccan Herald reports the Defence Ministry's PCDA will hold a SPARSH outreach programme in Bengaluru this week.",
+      "so_what": "If you or a parent draws a defence pension, this is the week to fix a SPARSH problem in person. Check the venue and date in the report and carry pension and ID papers."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Bengaluru Tech Summit 2026 opens on 17 November with a focus on AI, deeptech and robotics; The Economic Times expects 25,000 delegates and 1,000 startups.",
+      "so_what": "If you work in tech or are job-hunting, check the programme and registration tonight. Expect heavier traffic near the venue for the duration."
+    },
+    {
+      "tag": "Travel",
+      "what": "The Times of India reports 2,400 US flights cancelled and 8,800 delayed as recovery drags on.",
+      "so_what": "If you or family are flying to or through the US this week, check flight status before leaving for the airport and know the airline's rebooking options."
+    }
+  ],
+  "carry_over": {
+    "id": "guaranteed-returns-scheme",
+    "prompt": "A relative has been paid 2% a month for a year by a 'land-backed' scheme, and the agent offers you a bonus for each person you bring in; what is the tell?",
+    "answer": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you."
+  },
+  "quiz": [
+    {
+      "question": "On which date does Bengaluru Tech Summit 2026 open?",
+      "options": [
+        "15 November",
+        "17 November",
+        "20 November",
+        "25 November"
+      ],
+      "answer": 1,
+      "why": "The News Minute: Bengaluru Tech Summit 2026 to open on Nov 17 with a focus on AI, deeptech and robotics."
+    },
+    {
+      "question": "The Bengaluru skydeck cost estimate has risen from ₹500 crore to how much?",
+      "options": [
+        "₹600 crore",
+        "₹700 crore",
+        "₹800 crore",
+        "₹1,000 crore"
+      ],
+      "answer": 2,
+      "why": "The Hindu: Bengaluru skydeck cost estimate rises from ₹500 crore to ₹800 crore."
+    },
+    {
+      "question": "A year on, what is the reported cost of the ORR revamp that is yet to take off?",
+      "options": [
+        "₹286 crore",
+        "₹386 crore",
+        "₹486 crore",
+        "₹586 crore"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: Bengaluru's ORR revamp yet to take off; cost rises to Rs 486 crore."
+    },
+    {
+      "question": "In the cooperative society FD case, what interest rate did the consumer commission order on ₹1.12 lakh?",
+      "options": [
+        "6%",
+        "9%",
+        "12%",
+        "18%"
+      ],
+      "answer": 2,
+      "why": "TOI: the commission ordered the society to pay Rs 1.12 lakh with 12% interest and Rs 30,000 compensation."
+    },
+    {
+      "question": "How many US flights were reported cancelled as the flight chaos continued?",
+      "options": [
+        "240",
+        "1,200",
+        "2,400",
+        "8,800"
+      ],
+      "answer": 2,
+      "why": "TOI: 2,400 flights cancelled and 8,800 delayed as recovery drags on."
+    }
+  ]
+}

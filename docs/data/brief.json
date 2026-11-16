@@ -1,148 +1,140 @@
 {
   "date": "2026-11-16",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-16T07:33:41+05:30",
-  "read_seconds": 85,
-  "weather": {
-    "now_c": 19.4,
-    "condition": "Overcast",
-    "high_c": 28.1,
-    "low_c": 18.7,
-    "rain_chance_pct": 0,
-    "tip": "Overcast, 19 to 28°C, no rain expected: a dry Monday to try the Pink Line or time a new route. If you drive near Dr Rajkumar Road, the heavy-vehicle ban there will push lorries onto nearby roads, so leave a little earlier."
-  },
+  "generated_at": "2026-11-16T19:34:56+05:30",
+  "read_seconds": 90,
   "edge": {
-    "id": "guaranteed-returns-scheme",
-    "category": "Money trap",
-    "title": "The scheme that always pays on time",
-    "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
-    "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
+    "id": "fare-dispute-walk-away",
+    "category": "Street safety",
+    "title": "The fare argument you can lose and still win",
+    "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
+    "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
     "move": [
-      "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
-      "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
-      "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
+      "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
+      "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
+      "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
     ],
-    "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
-    "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit.",
+    "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
+    "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
     "scenario": {
-      "question": "A relative shows you a scheme that has paid them 2% a month, on time, for a year. The local agent offers you the same, says it is backed by land, hands you a printed bond certificate, and adds that you get a bonus for each person you bring in. What do you do?",
+      "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
       "choices": [
         {
-          "text": "Ask which regulator it is registered with, such as SEBI or RBI, and check that yourself. If you cannot trace it to one, put nothing in and bring nobody in.",
+          "text": "Move away, note the plate number, and complain to the traffic police later.",
           "verdict": "best"
         },
         {
-          "text": "Invest, since your relative has been paid on time every month for a year.",
+          "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
           "verdict": "trap"
         },
         {
-          "text": "Start small and bring in a few friends so the bonuses cover your risk.",
-          "verdict": "trap"
+          "text": "Pay the extra ₹150 with no record and leave without noting anything.",
+          "verdict": "ok"
         }
       ]
     }
   },
   "lens": {
-    "id": "opportunity-cost",
-    "name": "Opportunity cost",
-    "one_line": "The true price of anything is the best thing you gave up to get it.",
-    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
+    "id": "peak-load",
+    "name": "Peak load",
+    "one_line": "A shared system is sized for its busiest hour, so moving demand off the peak is often cheaper than adding capacity.",
+    "detail": "Roads, power grids, metro trains and servers are not overwhelmed by the daily total; they are overwhelmed by everyone arriving in the same short window. Capacity built for that window sits idle the rest of the day. Spreading the same demand across more hours frees up room without building anything, which is why staggered timings, off-peak pricing and flexible slots keep reappearing as fixes.",
     "elsewhere": [
-      "A cheap flat 25 km out, priced in hours of your life per year.",
-      "Studying one more degree versus the earnings and experience forgone.",
-      "A free app paid for with attention and data."
+      "Electricity tariffs that cost more in the evening than at night.",
+      "Airfares and hotel rates that jump on long weekends.",
+      "A bank branch that is empty at 15:00 and full at 10:30."
     ],
-    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
-    "today": "The New Indian Express reports the new Pink Line stretch is saving time for South Bengaluru commuters, and Inshorts reports 33,409 riders on day one. The real cost of your current commute is not the fare, it is the hours a slower route takes from you every week. If the Pink Line touches your route, compare it in time saved per week, not only in rupees per trip."
+    "test": "Is the problem the total, or everyone wanting it at the same time? If it is the timing, ask who could move.",
+    "today": "Bangalore Mirror reports Prime Minister Narendra Modi telling CM DK Shivakumar to change office timings to fix traffic. The same week, The Hindu reports the skydeck estimate rising from ₹500 crore to ₹800 crore and Deccan Herald reports the ORR revamp still not started at ₹486 crore. Staggered hours attack the peak rather than adding capacity, and if your employer allows it, shifting your own start by an hour is the one version of this you can try tomorrow."
   },
   "moved": [
     {
       "tag": "Money",
-      "what": "The Times of India reports the state government is moving to revise the guidance value for property, the second revision in three years, which may raise registration costs. It follows recent increases in milk and bus fares.",
-      "so_what": "If you are close to buying or registering a flat or site, ask your lawyer or builder this week what the current guidance value is and whether registering before the revision would save you money. Check the date it takes effect before you plan around it."
-    },
-    {
-      "tag": "Commute",
-      "what": "Urban Acres reports white-topping work on Dr Rajkumar Road has brought a ban on heavy vehicles there.",
-      "so_what": "If your route uses Dr Rajkumar Road or the roads next to it, expect lorries and buses to be diverted onto nearby streets, and allow extra time until the work is done."
-    },
-    {
-      "tag": "Commute",
-      "what": "The Hindu reports BMRCL has announced Pink Line timings while commuters are asking for faster completion of the underground section. The Federal reports first-day riders saw gaps as well as time savings.",
-      "so_what": "Check the published first and last train times before you rely on the Pink Line for a late return. The underground stretch is not open yet, so plan the rest of the trip by road for now."
+      "what": "The Times of India reports a Bengaluru woman put ₹4 lakh in an FD with a cooperative society and got back only ₹3 lakh at maturity. The consumer commission ordered the society to pay ₹1.12 lakh with 12% interest and ₹30,000 compensation.",
+      "so_what": "A cooperative society is not a bank, so do not treat its FD as bank-safe. If you hold one and maturity money is delayed, keep the receipt and every message; the consumer commission is a route that worked here."
     },
     {
       "tag": "Your record",
-      "what": "Deccan Herald reports CM DK Shivakumar says the government is planning door-to-door data collection across Bengaluru for residential records.",
-      "so_what": "When the survey starts, expect officials at your door. Ask for ID, give only what the survey needs, and never share an OTP, bank detail or payment, because fraudsters can copy a real government drive."
+      "what": "The Indian Express reports that after deletions in the special intensive revision of voter rolls, Karnataka plans a police-led household survey in Bengaluru. The New Indian Express reports the CM has told police to maintain a database of residents.",
+      "so_what": "Check that your name is still on the voter roll using the Election Commission's voter search. When the survey reaches your door, ask for ID and give only what it needs; no genuine survey needs an OTP or a payment."
     },
     {
-      "tag": "Safety",
-      "what": "The Times of India reports a Bengaluru woman lost ₹8 lakh in an Instagram gift scam.",
-      "so_what": "If a gift from an online contact needs you to pay a fee, customs charge or tax to release it, it is the scam. Stop paying and report it on 1930 or cybercrime.gov.in."
+      "tag": "Your record",
+      "what": "Deccan Herald reports the Defence Ministry's PCDA will hold a SPARSH outreach programme in Bengaluru this week.",
+      "so_what": "If you or a parent draws a defence pension, this is the week to fix a SPARSH problem in person. Check the venue and date in the report and carry pension and ID papers."
+    },
+    {
+      "tag": "Worth booking",
+      "what": "Bengaluru Tech Summit 2026 opens on 17 November with a focus on AI, deeptech and robotics; The Economic Times expects 25,000 delegates and 1,000 startups.",
+      "so_what": "If you work in tech or are job-hunting, check the programme and registration tonight. Expect heavier traffic near the venue for the duration."
+    },
+    {
+      "tag": "Travel",
+      "what": "The Times of India reports 2,400 US flights cancelled and 8,800 delayed as recovery drags on.",
+      "so_what": "If you or family are flying to or through the US this week, check flight status before leaving for the airport and know the airline's rebooking options."
     }
   ],
   "carry_over": {
-    "id": "branded-carry-bag",
-    "prompt": "At the counter, a ₹20 carry bag with the store's logo appears on your bill though nobody offered it; what is the tell?",
-    "answer": "A small charge that appears on the bill without being offered first is counting on you not checking."
+    "id": "guaranteed-returns-scheme",
+    "prompt": "A relative has been paid 2% a month for a year by a 'land-backed' scheme, and the agent offers you a bonus for each person you bring in; what is the tell?",
+    "answer": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you."
   },
   "quiz": [
     {
-      "question": "Which road has a heavy vehicle ban because of white-topping work?",
+      "question": "On which date does Bengaluru Tech Summit 2026 open?",
       "options": [
-        "Dr Rajkumar Road",
-        "Bellary Road",
-        "Hosur Road",
-        "Old Madras Road"
-      ],
-      "answer": 0,
-      "why": "Urban Acres: white-topping work brings heavy vehicle ban on Dr Rajkumar Road."
-    },
-    {
-      "question": "How much did a Bengaluru woman lose in an Instagram gift scam, per The Times of India?",
-      "options": [
-        "₹80,000",
-        "₹2 lakh",
-        "₹8 lakh",
-        "₹18 lakh"
-      ],
-      "answer": 2,
-      "why": "TOI: Bengaluru woman duped of Rs 8 lakh in Instagram gift scam."
-    },
-    {
-      "question": "The planned revision of property guidance value would be the state's which revision in three years?",
-      "options": [
-        "First",
-        "Second",
-        "Third",
-        "Fourth"
+        "15 November",
+        "17 November",
+        "20 November",
+        "25 November"
       ],
       "answer": 1,
-      "why": "TOI: the state moves to revise guidance value for the second time in three years."
+      "why": "The News Minute: Bengaluru Tech Summit 2026 to open on Nov 17 with a focus on AI, deeptech and robotics."
     },
     {
-      "question": "When will the Bengaluru Habba be held, according to CM Shivakumar?",
+      "question": "The Bengaluru skydeck cost estimate has risen from ₹500 crore to how much?",
       "options": [
-        "November",
-        "December",
-        "January",
-        "February"
-      ],
-      "answer": 1,
-      "why": "Deccan Herald: Bengaluru Habba to be held in December."
-    },
-    {
-      "question": "Where is Indusfood Bengaluru being held from 25 to 27 November?",
-      "options": [
-        "Palace Grounds",
-        "KTPO Whitefield",
-        "BIEC",
-        "Jayamahal Palace"
+        "₹600 crore",
+        "₹700 crore",
+        "₹800 crore",
+        "₹1,000 crore"
       ],
       "answer": 2,
-      "why": "FoodTechBiz: Indusfood Bengaluru, 25 to 27 November 2026 at Bangalore International Exhibition Centre (BIEC)."
+      "why": "The Hindu: Bengaluru skydeck cost estimate rises from ₹500 crore to ₹800 crore."
+    },
+    {
+      "question": "A year on, what is the reported cost of the ORR revamp that is yet to take off?",
+      "options": [
+        "₹286 crore",
+        "₹386 crore",
+        "₹486 crore",
+        "₹586 crore"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: Bengaluru's ORR revamp yet to take off; cost rises to Rs 486 crore."
+    },
+    {
+      "question": "In the cooperative society FD case, what interest rate did the consumer commission order on ₹1.12 lakh?",
+      "options": [
+        "6%",
+        "9%",
+        "12%",
+        "18%"
+      ],
+      "answer": 2,
+      "why": "TOI: the commission ordered the society to pay Rs 1.12 lakh with 12% interest and Rs 30,000 compensation."
+    },
+    {
+      "question": "How many US flights were reported cancelled as the flight chaos continued?",
+      "options": [
+        "240",
+        "1,200",
+        "2,400",
+        "8,800"
+      ],
+      "answer": 2,
+      "why": "TOI: 2,400 flights cancelled and 8,800 delayed as recovery drags on."
     }
   ]
 }
