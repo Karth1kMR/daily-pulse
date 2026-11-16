@@ -1,137 +1,148 @@
 {
-  "date": "2026-11-15",
-  "edition": "evening",
+  "date": "2026-11-16",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-15T19:34:19+05:30",
+  "generated_at": "2026-11-16T07:33:41+05:30",
   "read_seconds": 85,
-  "weather": null,
+  "weather": {
+    "now_c": 19.4,
+    "condition": "Overcast",
+    "high_c": 28.1,
+    "low_c": 18.7,
+    "rain_chance_pct": 0,
+    "tip": "Overcast, 19 to 28°C, no rain expected: a dry Monday to try the Pink Line or time a new route. If you drive near Dr Rajkumar Road, the heavy-vehicle ban there will push lorries onto nearby roads, so leave a little earlier."
+  },
   "edge": {
-    "id": "branded-carry-bag",
+    "id": "guaranteed-returns-scheme",
     "category": "Money trap",
-    "title": "The bag that advertises the shop",
-    "anchor": "The Times of India reports a Bengaluru consumer commission called it unfair that a man who bought liquor worth ₹2,170 was charged ₹20 for a carry bag bearing the store's own name and logo.",
-    "setup": "At the billing counter a line appears on the bill: carry bag, ₹20. Nobody offered it or asked you. The bag has the store's name and logo printed across it, so you walk home as their advertisement and pay for the privilege. It feels too small to argue about in a queue.",
-    "tell": "A small charge that appears on the bill without being offered first is counting on you not checking.",
+    "title": "The scheme that always pays on time",
+    "setup": "A neighbour or relative shows you the payouts: interest credited on the dot every month, a bond certificate, a friendly local agent who earns a commission for bringing you in. The return is a few points above anything a bank or mutual fund offers, and it is described as safe because it is 'asset-backed' or 'land-backed'.",
+    "tell": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you.",
     "move": [
-      "Read the bill before you pay, not after, and ask for any line you did not agree to be removed.",
-      "Carry your own bag, or decline theirs before billing starts.",
-      "If it goes wrong, keep the bill and a photo of the bag, send a written complaint to the store first, and then approach the consumer commission."
+      "Ask who regulates it. A deposit or investment scheme should be traceable to a registered regulator such as SEBI or RBI, or be a bank product; a certificate alone proves nothing.",
+      "Do not judge it by the payouts you have seen. Early payouts are what the scheme spends to look real.",
+      "If money is already in, stop adding more and do not recruit anyone. Report to the police or the state CID economic offences unit and keep every receipt and bond."
     ],
-    "why": "Small add-ons work because objecting costs more than the charge: time, the queue behind you, the fear of looking petty. So almost nobody objects, and across thousands of bills it is real money. A bag printed with the store's logo is also advertising for the store, which is why charging the customer for it can be challenged. The rule carries over to any line that arrives on a bill without being offered.",
-    "variants": "Same shape: a service charge added to a restaurant bill without asking, convenience fees that appear only at checkout, packaging or handling charges on takeaway and delivery.",
+    "why": "Guaranteed high returns cannot be earned honestly, so the money paying old investors can only be coming from new investors. The people you meet are the ones who were paid, so the evidence always looks good, and agents who earn commission believe it too. It collapses when new money slows, and by then the people still inside hold the loss.",
+    "variants": "Same shape: chit-fund and 'land bond' schemes, crypto or forex 'doubling' groups, multi-level marketing where the real product is the next recruit.",
     "scenario": {
-      "question": "You are buying groceries worth ₹1,800. At the counter, the bill already shows 'Carry bag ₹20', and the bag has the supermarket's logo printed on both sides. There is a queue behind you. What do you do?",
+      "question": "A relative shows you a scheme that has paid them 2% a month, on time, for a year. The local agent offers you the same, says it is backed by land, hands you a printed bond certificate, and adds that you get a bonus for each person you bring in. What do you do?",
       "choices": [
         {
-          "text": "Before paying, ask for the bag charge to be removed and use your own bag or carry the items; if they refuse, keep the bill and a photo of the bag for a written complaint.",
+          "text": "Ask which regulator it is registered with, such as SEBI or RBI, and check that yourself. If you cannot trace it to one, put nothing in and bring nobody in.",
           "verdict": "best"
         },
         {
-          "text": "Pay it. It is only ₹20, and arguing in front of a queue is not worth it.",
+          "text": "Invest, since your relative has been paid on time every month for a year.",
           "verdict": "trap"
         },
         {
-          "text": "Pay now and plan to complain later, without keeping the bill or a photo of the bag.",
+          "text": "Start small and bring in a few friends so the bonuses cover your risk.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "availability-heuristic",
-    "name": "The availability heuristic",
-    "one_line": "You judge how likely something is by how easily an example comes to mind.",
-    "detail": "Ease of recall is driven by how recent, vivid and emotionally charged an event was — not its frequency. News selects for exactly those properties, so consuming more news systematically distorts your risk sense rather than sharpening it. This is the single strongest argument for reading less news and understanding more structure.",
+    "id": "opportunity-cost",
+    "name": "Opportunity cost",
+    "one_line": "The true price of anything is the best thing you gave up to get it.",
+    "detail": "₹5 lakh in a fixed deposit isn't 'safe' in isolation — its real cost is whatever that money would have done elsewhere, against inflation. Two hours commuting costs whatever those two hours were worth. This is also the honest way to evaluate any 'free' thing: free tends to be paid in time, attention or optionality.",
     "elsewhere": [
-      "Fearing a kidnapping while texting at the wheel.",
-      "Overrating lottery odds after a winner is interviewed.",
-      "Believing an industry is collapsing because layoffs are covered and hiring isn't."
+      "A cheap flat 25 km out, priced in hours of your life per year.",
+      "Studying one more degree versus the earnings and experience forgone.",
+      "A free app paid for with attention and data."
     ],
-    "test": "Am I estimating this from data, or from how easily a story came to mind?",
-    "today": "This weekend's Bengaluru feeds are dominated by vivid killings: the family murders by a cab driver, where The Hindu and Hindustan Times report a property dispute and gold sale as suspected motives, and a businessman attacked by two men on a bike, per India Today. Stories like these come to mind first, but the same feeds carry a quieter, more common risk: a father's plea, in the Times of India, after his teenager's pillion accident. When judging what to guard against this week, ask how often each thing happens to people like you, not how loudly it was reported."
+    "test": "Not 'can I afford this?' but 'what is the best thing I'm giving up to have it?'",
+    "today": "The New Indian Express reports the new Pink Line stretch is saving time for South Bengaluru commuters, and Inshorts reports 33,409 riders on day one. The real cost of your current commute is not the fare, it is the hours a slower route takes from you every week. If the Pink Line touches your route, compare it in time saved per week, not only in rupees per trip."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "From tomorrow, 16 November, the Yellow Line runs 13 trains daily and peak-hour frequency drops to 5.5 minutes, The Hindu and Deccan Herald report. The Federal and The Hindu report first-day Pink Line riders also flagged gaps alongside the time saved.",
-      "so_what": "If you ride the Yellow Line, Monday's peak should mean shorter platform waits, so leave a few minutes later rather than earlier and see if it holds. If you are trying the Pink Line, time one full door-to-door trip before you change your routine."
+      "tag": "Money",
+      "what": "The Times of India reports the state government is moving to revise the guidance value for property, the second revision in three years, which may raise registration costs. It follows recent increases in milk and bus fares.",
+      "so_what": "If you are close to buying or registering a flat or site, ask your lawyer or builder this week what the current guidance value is and whether registering before the revision would save you money. Check the date it takes effect before you plan around it."
     },
     {
       "tag": "Commute",
-      "what": "Bangalore Mirror reports traffic trouble at Kogilu is growing as road work drags on.",
-      "so_what": "If your route to the airport or Yelahanka passes Kogilu, build in extra time this week, especially for a flight, rather than trusting the usual travel time."
+      "what": "Urban Acres reports white-topping work on Dr Rajkumar Road has brought a ban on heavy vehicles there.",
+      "so_what": "If your route uses Dr Rajkumar Road or the roads next to it, expect lorries and buses to be diverted onto nearby streets, and allow extra time until the work is done."
     },
     {
-      "tag": "Travel",
-      "what": "The Hindu reports Cyclone Akvan is expected to move towards the Andhra coast by 19 November, with rainfall expected in Tamil Nadu and Bengal.",
-      "so_what": "If you are travelling to Chennai, coastal Andhra or Kolkata around 19 November, check your flight or train status the day before and avoid booking a tight connection."
+      "tag": "Commute",
+      "what": "The Hindu reports BMRCL has announced Pink Line timings while commuters are asking for faster completion of the underground section. The Federal reports first-day riders saw gaps as well as time savings.",
+      "so_what": "Check the published first and last train times before you rely on the Pink Line for a late return. The underground stretch is not open yet, so plan the rest of the trip by road for now."
     },
     {
-      "tag": "Worth going",
-      "what": "Deccan Herald reports the three-day Krishi Mela at GKVK began this weekend.",
-      "so_what": "Only the remaining days are left. If you wanted plants, seeds or produce, go early in the day, and if you are heading north through Kogilu afterwards, allow for the road work."
+      "tag": "Your record",
+      "what": "Deccan Herald reports CM DK Shivakumar says the government is planning door-to-door data collection across Bengaluru for residential records.",
+      "so_what": "When the survey starts, expect officials at your door. Ask for ID, give only what the survey needs, and never share an OTP, bank detail or payment, because fraudsters can copy a real government drive."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports a Bengaluru woman lost ₹8 lakh in an Instagram gift scam.",
+      "so_what": "If a gift from an online contact needs you to pay a fee, customs charge or tax to release it, it is the scam. Stop paying and report it on 1930 or cybercrime.gov.in."
     }
   ],
   "carry_over": {
-    "id": "digital-arrest",
-    "prompt": "A 'police officer' on video says a parcel in your name held drugs, reads back your PAN, and tells you to stay on camera, tell no one and move your savings to be cleared; what is the tell?",
-    "answer": "Any demand to stay on the line, stay on camera, or tell nobody is the attack itself."
+    "id": "branded-carry-bag",
+    "prompt": "At the counter, a ₹20 carry bag with the store's logo appears on your bill though nobody offered it; what is the tell?",
+    "answer": "A small charge that appears on the bill without being offered first is counting on you not checking."
   },
   "quiz": [
     {
-      "question": "How much was the Bengaluru customer charged for a carry bag with the store's logo, which a consumer commission called unfair?",
+      "question": "Which road has a heavy vehicle ban because of white-topping work?",
       "options": [
-        "₹5",
-        "₹10",
-        "₹20",
-        "₹50"
-      ],
-      "answer": 2,
-      "why": "TOI: man who bought liquor worth ₹2,170 objected to paying ₹20 for a carry bag bearing the store's own name and logo."
-    },
-    {
-      "question": "From which date does the Yellow Line run 13 trains daily?",
-      "options": [
-        "14 November",
-        "16 November",
-        "20 November",
-        "1 December"
-      ],
-      "answer": 1,
-      "why": "The Hindu: Yellow Line to run 13 trains daily from November 16."
-    },
-    {
-      "question": "Which coast is Cyclone Akvan expected to move towards by 19 November, per The Hindu?",
-      "options": [
-        "Odisha",
-        "Gujarat",
-        "Andhra",
-        "Kerala"
-      ],
-      "answer": 2,
-      "why": "The Hindu: Cyclone Akvan to move towards Andhra coast by November 19."
-    },
-    {
-      "question": "Where does Bangalore Mirror report traffic trouble is growing as road work drags?",
-      "options": [
-        "Kogilu",
-        "Silk Board",
-        "Hebbal",
-        "KR Puram"
+        "Dr Rajkumar Road",
+        "Bellary Road",
+        "Hosur Road",
+        "Old Madras Road"
       ],
       "answer": 0,
-      "why": "Bangalore Mirror: Kogilu's traffic trouble grows as road work drags."
+      "why": "Urban Acres: white-topping work brings heavy vehicle ban on Dr Rajkumar Road."
     },
     {
-      "question": "How many riders did the Pink Line draw on day one, per Inshorts?",
+      "question": "How much did a Bengaluru woman lose in an Instagram gift scam, per The Times of India?",
       "options": [
-        "13,409",
-        "23,409",
-        "33,409",
-        "43,409"
+        "₹80,000",
+        "₹2 lakh",
+        "₹8 lakh",
+        "₹18 lakh"
       ],
       "answer": 2,
-      "why": "Inshorts: Bengaluru's Namma Metro Pink Line draws 33,409 riders on Day 1."
+      "why": "TOI: Bengaluru woman duped of Rs 8 lakh in Instagram gift scam."
+    },
+    {
+      "question": "The planned revision of property guidance value would be the state's which revision in three years?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "answer": 1,
+      "why": "TOI: the state moves to revise guidance value for the second time in three years."
+    },
+    {
+      "question": "When will the Bengaluru Habba be held, according to CM Shivakumar?",
+      "options": [
+        "November",
+        "December",
+        "January",
+        "February"
+      ],
+      "answer": 1,
+      "why": "Deccan Herald: Bengaluru Habba to be held in December."
+    },
+    {
+      "question": "Where is Indusfood Bengaluru being held from 25 to 27 November?",
+      "options": [
+        "Palace Grounds",
+        "KTPO Whitefield",
+        "BIEC",
+        "Jayamahal Palace"
+      ],
+      "answer": 2,
+      "why": "FoodTechBiz: Indusfood Bengaluru, 25 to 27 November 2026 at Bangalore International Exhibition Centre (BIEC)."
     }
   ]
 }
