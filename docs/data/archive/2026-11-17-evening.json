@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-17",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-17T19:45:00+05:30",
+  "read_seconds": 80,
+  "weather": {
+    "now_c": 23.5,
+    "condition": "Overcast",
+    "high_c": 28.7,
+    "low_c": 18.8,
+    "rain_chance_pct": 0,
+    "tip": "Overcast and dry, 18.8 to 28.7°C with 0% chance of rain. The cool early hours are when this week's fatal crash happened amid thick fog, so if you drive before sunrise tomorrow, slow down and keep to low beam."
+  },
+  "edge": {
+    "id": "fake-refund-link",
+    "category": "Money trap",
+    "title": "The refund that costs you",
+    "setup": "A delivery arrives damaged, or an order goes wrong. Within minutes someone calls or messages, sounding like customer care, and offers an instant refund. To process it, they ask you to scan a QR, tap a link, approve a request, or install an app so they can 'see the problem'.",
+    "tell": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these.",
+    "move": [
+      "Hang up and go to the app or website yourself. Refunds appear in your original payment method without you approving anything.",
+      "Never enter your UPI PIN or an OTP to 'receive' money. A PIN screen means money is leaving your account.",
+      "Never install a screen-sharing or 'support' app at a caller's request; it shows them your banking screens and OTPs.",
+      "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+    ],
+    "why": "The scammer needs you to authorise the payment, because only you can. So the con reframes sending as receiving and puts a plausible reason, a damaged parcel, in front of a moment when you are already annoyed. The detection rule works for any version: receiving never needs your action on a payment screen.",
+    "variants": "Same shape: cashback links, wrong-delivery refunds, 'excess payment' return requests, KYC-update refunds.",
+    "scenario": {
+      "question": "A food order arrives with the container split open. Ten minutes later a caller says they are from the app's support team, apologises, and says a ₹450 refund is waiting: you only need to approve the UPI request they have just sent and enter your PIN. What do you do?",
+      "choices": [
+        {
+          "text": "Hang up, open the app yourself and raise the complaint there. A genuine refund goes back to your original payment method without you approving anything.",
+          "verdict": "best"
+        },
+        {
+          "text": "Approve the request and enter your PIN; it is only ₹450 and it saves a long chat with support.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Decline the request but install the 'support' app they suggest so they can see the problem on your screen.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "chestertons-fence",
+    "name": "Chesterton's fence",
+    "one_line": "Before removing something that looks pointless, find out why it was put there.",
+    "detail": "A rule, a process or a fence in a field that serves no visible purpose may be solving a problem you can't see precisely because it's being solved. The discipline isn't conservatism — it's the requirement to understand the original reason first, after which you may well still remove it, but now knowing the cost.",
+    "elsewhere": [
+      "A weird approval step that quietly prevents a rare, expensive error.",
+      "Legacy code nobody dares delete, for reasons occasionally excellent.",
+      "A family practice that looks superstitious and encodes something practical."
+    ],
+    "test": "Do I understand why this exists? If not, I'm not yet qualified to remove it.",
+    "today": "The Times of India reports a forum held a 24-hour protest demanding the Brahmarakootlu tollgate be removed. A toll plaza is the textbook fence: annoying every trip, and usually there because it repays the cost of building or maintaining the road. Before backing any 'remove it' campaign, find out what the toll funds and who pays for that instead if it goes, because removal moves the cost rather than ending it."
+  },
+  "moved": [
+    {
+      "tag": "Safety",
+      "what": "Two engineering students on a college outreach trip were killed and four injured when their car hit a tree in Bengaluru; NDTV reports it happened amid thick fog.",
+      "so_what": "Fog cuts your stopping distance margin to almost nothing. On early-morning drives, slow down well below the limit, use low beam rather than high beam, and do not overtake when you cannot see the road ahead."
+    },
+    {
+      "tag": "Your rights",
+      "what": "The Times of India reports a consumer commission ordered Meghana Foods to pay a customer ₹10,000, including ₹5,000 punitive damages, for charging ₹15.75 for its branded takeaway bag. The commission said the restaurant got paid while gaining free publicity.",
+      "so_what": "If a shop or restaurant bills you for a bag carrying its own logo, keep the bill. That bill is your evidence for a complaint at the district consumer commission."
+    },
+    {
+      "tag": "Commute",
+      "what": "Public TV English reports the Pink Line's 13.76 km underground section will open in 6 to 7 months.",
+      "so_what": "Treat that as a best case, not a date. Do not sign a lease or switch jobs on the assumption that it will be running by mid-2027."
+    },
+    {
+      "tag": "Your record",
+      "what": "Deccan Herald reports the Defence Ministry's PCDA will hold a SPARSH outreach programme in Bengaluru this week.",
+      "so_what": "If you or a parent draws a defence pension, this is a chance to fix SPARSH record or pension problems in person. Take the PPO number and Aadhaar along."
+    },
+    {
+      "tag": "Travel",
+      "what": "Hindustan Times reports Andhra Pradesh and Odisha are on alert over cyclonic storm Akvan.",
+      "so_what": "If you have a flight, train or drive to coastal Andhra or Odisha this week, check the operator's status before you leave home, and book refundable fares until the storm passes."
+    }
+  ],
+  "carry_over": {
+    "id": "hospital-estimate",
+    "prompt": "At discharge, the hospital desk hands you a bill ₹60,000 over the quoted package and says it must be paid before your father can leave; what is the tell?",
+    "answer": "You're being asked to agree to money at the exact moment you are least able to walk away."
+  },
+  "quiz": [
+    {
+      "question": "How much did a Bengaluru customer pay for Meghana Foods' branded takeaway bag?",
+      "options": [
+        "₹5.75",
+        "₹10.50",
+        "₹15.75",
+        "₹25.00"
+      ],
+      "answer": 2,
+      "why": "The Times of India: man paid ₹15.75 for the branded takeaway bag."
+    },
+    {
+      "question": "How much did the consumer commission order Meghana Foods to pay in total?",
+      "options": [
+        "₹2,000",
+        "₹5,000",
+        "₹10,000",
+        "₹25,000"
+      ],
+      "answer": 2,
+      "why": "The Times of India: ₹10,000, including ₹5,000 punitive damages."
+    },
+    {
+      "question": "How long is the Pink Line's underground section that is due to open in 6 to 7 months?",
+      "options": [
+        "7.5 km",
+        "10.2 km",
+        "13.76 km",
+        "21.3 km"
+      ],
+      "answer": 2,
+      "why": "Public TV English: 13.76 km underground section of the Pink Line to open in 6 to 7 months."
+    },
+    {
+      "question": "Which edition of the Bengaluru Tech Summit opened on 17 November?",
+      "options": [
+        "25th",
+        "27th",
+        "29th",
+        "31st"
+      ],
+      "answer": 2,
+      "why": "The Hindu: 29th edition of Bengaluru Tech Summit to kick off on 17 November."
+    },
+    {
+      "question": "When is Indusfood Bengaluru being held at BIEC?",
+      "options": [
+        "18 to 20 November",
+        "25 to 27 November",
+        "2 to 4 December",
+        "9 to 11 December"
+      ],
+      "answer": 1,
+      "why": "FoodTechBiz: Indusfood Bengaluru, 25 to 27 November 2026 at BIEC."
+    }
+  ]
+}
