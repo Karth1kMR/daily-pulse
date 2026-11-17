@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-17",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-17T07:33:50+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 19.9,
+    "condition": "Clear",
+    "high_c": 29.1,
+    "low_c": 18.9,
+    "rain_chance_pct": 0,
+    "tip": "Clear and dry, 18.9 to 29.1°C with 0% chance of rain: a good day to ride the new Pink Line stretch and walk the last mile from your stop, so you know the gap before you rely on it in a rush hour."
+  },
+  "edge": {
+    "id": "hospital-estimate",
+    "category": "Leverage",
+    "title": "The estimate that grows",
+    "setup": "An admission with a quoted package. By discharge the bill has grown — consumables, a consultant visit you don't remember, a room upgrade 'because nothing else was free'. Insurance covers part; the cash difference is yours, and you're being asked to settle before discharge while someone is still in a bed.",
+    "tell": "You're being asked to agree to money at the exact moment you are least able to walk away.",
+    "move": [
+      "Ask for the itemised bill, not the summary — and ask on day one, not at discharge. Daily interim bills are your right and they stop surprises compounding.",
+      "Get the insurer's pre-authorisation in writing before a planned procedure, with the package explicitly named.",
+      "Question room-category upgrades: most policies cap room rent, and exceeding it can proportionally cut your entire claim, not just the room charge.",
+      "Unresolved: the hospital's grievance cell, then the insurance ombudsman — free, and genuinely effective on billing disputes."
+    ],
+    "why": "The leverage asymmetry is total — the other party controls information, time and someone you love. The only workable counter is to move every decision earlier, to a moment when you can still ask questions. Pre-authorisation and daily bills are both just ways of buying back time.",
+    "variants": "Same shape: mechanics calling mid-repair, vets at the consultation, any quote where work has already begun.",
+    "scenario": {
+      "question": "Your father is admitted for a planned procedure on a quoted package. On day three, at discharge, the desk hands you a bill ₹60,000 over the quote and says it must be paid before he can leave. What do you do?",
+      "choices": [
+        {
+          "text": "Ask for the itemised bill, check each line against the package and the insurer's pre-authorisation, and take disputed items to the hospital's grievance cell.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay the full amount now so he can go home, and plan to sort it out with the hospital later.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay the undisputed part, and get the disputed lines noted in writing before you settle.",
+          "verdict": "ok"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "network-effects",
+    "name": "Network effects",
+    "one_line": "A line, app or network gets most of its value from what it connects to, so the first piece of it usually disappoints.",
+    "detail": "A single metro stretch, a payments app with few merchants or a phone exchange with ten subscribers is useful only for the few trips or transactions that start and end inside it. Each new link adds value to every existing one, so usefulness grows much faster than size. That is why early pieces look underused and then usage jumps when they join the rest of the system, and why judging a network on its first section is usually a mistake.",
+    "elsewhere": [
+      "UPI was a curiosity until enough shops accepted it, then it became the default.",
+      "A gated community's WhatsApp group is noise until most flats join, then it is where water and power updates appear first.",
+      "A credit card is worth little if the shops you use do not take it."
+    ],
+    "test": "Am I judging this by what it connects today, or by what it will connect once the missing link is built? And when is that link actually due?",
+    "today": "The Federal reports the Pink Line opened with gaps that first-day commuters noticed, NEWSTRAIL reports riders waiting for its connection to the wider Metro network, and CNA reports that poor connectivity keeps Bengaluru residents reliant on cars. Metro Rail News still counted 33,409 riders on day one. A 7.5 km stretch on its own serves only trips that begin and end along it; its real value arrives with the interchange, so judge it then and not this week."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "The Pink Line's 7.5 km priority section is in revenue service with Alstom's CBTC signalling, and Metro Rail News reports 33,409 riders on day one. The Federal reports first-day commuters still found gaps.",
+      "so_what": "If your trip runs along this stretch, try it once off-peak and time the walk or feeder to your door. It does not yet link to the rest of the Metro network, so keep your old route for anything that needs a transfer."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Hindu reports Karnataka will prohibit half helmets by the New Year.",
+      "so_what": "If you or anyone in your home rides with a half helmet, replace it with a full helmet before 1 January. It protects more, and it will soon be a fine."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports digital meters will be mandatory for all cabs in Bengaluru, with a 100-cab cap set for Green SM.",
+      "so_what": "Once meters are in, the meter reading is your reference in any fare dispute. Note the reading and the number plate at the start of a trip, not after an argument begins."
+    },
+    {
+      "tag": "Your record",
+      "what": "The Times of India reports the Election Commission has ordered a special summary revision in Karnataka focused on 'left out' voters. The Hindu reports there are no application records for over 1.13 lakh new enrolments in Bengaluru's final rolls.",
+      "so_what": "Search your name on the Election Commission's voter portal this week. If it is missing or wrong, the revision is the window to apply; keep the acknowledgement number."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports Sweden is seeking Indian STEM professionals to fill 18,000 tech vacancies.",
+      "so_what": "If you are tempted, apply through employers and official Swedish channels directly. Any agent who asks for a fee to 'secure' a Swedish job offer is running the job-fee play."
+    }
+  ],
+  "carry_over": {
+    "id": "fare-dispute-walk-away",
+    "prompt": "An auto driver demands ₹150 more than the meter and starts shouting as you step out; what is the tell?",
+    "answer": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range."
+  },
+  "quiz": [
+    {
+      "question": "How many riders did the Pink Line record on its first day?",
+      "options": [
+        "13,409",
+        "23,409",
+        "33,409",
+        "43,409"
+      ],
+      "answer": 2,
+      "why": "Metro Rail News: Bengaluru Metro Pink Line hits 33,409 riders on day 1."
+    },
+    {
+      "question": "How long is the Pink Line stretch now running with Alstom's CBTC signalling?",
+      "options": [
+        "3.5 km",
+        "5.5 km",
+        "7.5 km",
+        "12.5 km"
+      ],
+      "answer": 2,
+      "why": "Metro Rail News: Alstom CBTC runs Pink Line's 7.5 km stretch."
+    },
+    {
+      "question": "By when does Karnataka plan to prohibit half helmets?",
+      "options": [
+        "Republic Day",
+        "The New Year",
+        "Ugadi",
+        "1 April"
+      ],
+      "answer": 1,
+      "why": "The Hindu: Karnataka to prohibit use of half helmets by New Year."
+    },
+    {
+      "question": "How many tech vacancies is Sweden seeking Indian STEM professionals to fill?",
+      "options": [
+        "8,000",
+        "12,000",
+        "18,000",
+        "28,000"
+      ],
+      "answer": 2,
+      "why": "The Times of India: Sweden seeks Indian STEM professionals to fill 18,000 tech vacancies."
+    },
+    {
+      "question": "For how many new enrolments in Bengaluru's final voter rolls are there no application records?",
+      "options": [
+        "Over 13,000",
+        "Over 1.13 lakh",
+        "Over 11.3 lakh",
+        "Over 3 lakh"
+      ],
+      "answer": 1,
+      "why": "The Hindu: no application records for over 1.13 lakh new enrolments in Bengaluru's final voter rolls."
+    }
+  ]
+}

@@ -1,140 +1,149 @@
 {
-  "date": "2026-11-16",
-  "edition": "evening",
+  "date": "2026-11-17",
+  "edition": "morning",
   "city": "Bengaluru",
-  "generated_at": "2026-11-16T19:34:56+05:30",
-  "read_seconds": 90,
+  "generated_at": "2026-11-17T07:33:50+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 19.9,
+    "condition": "Clear",
+    "high_c": 29.1,
+    "low_c": 18.9,
+    "rain_chance_pct": 0,
+    "tip": "Clear and dry, 18.9 to 29.1°C with 0% chance of rain: a good day to ride the new Pink Line stretch and walk the last mile from your stop, so you know the gap before you rely on it in a rush hour."
+  },
   "edge": {
-    "id": "fare-dispute-walk-away",
-    "category": "Street safety",
-    "title": "The fare argument you can lose and still win",
-    "setup": "The meter and the driver's demand differ, you are tired, and the driver is getting louder. You are right, it is your money, and every instinct says to stand your ground at the roadside.",
-    "tell": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range.",
+    "id": "hospital-estimate",
+    "category": "Leverage",
+    "title": "The estimate that grows",
+    "setup": "An admission with a quoted package. By discharge the bill has grown — consumables, a consultant visit you don't remember, a room upgrade 'because nothing else was free'. Insurance covers part; the cash difference is yours, and you're being asked to settle before discharge while someone is still in a bed.",
+    "tell": "You're being asked to agree to money at the exact moment you are least able to walk away.",
     "move": [
-      "Step out and put distance between you and the vehicle before you argue further; pay what you consider fair or walk away, whichever ends the contact sooner.",
-      "Photograph the number plate and note the time and place, so you can complain afterwards from a safe spot.",
-      "Report it to the Bengaluru traffic police or the app's support afterwards; the complaint works the same an hour later, and you will be there to file it."
+      "Ask for the itemised bill, not the summary — and ask on day one, not at discharge. Daily interim bills are your right and they stop surprises compounding.",
+      "Get the insurer's pre-authorisation in writing before a planned procedure, with the package explicitly named.",
+      "Question room-category upgrades: most policies cap room rent, and exceeding it can proportionally cut your entire claim, not just the room charge.",
+      "Unresolved: the hospital's grievance cell, then the insurance ombudsman — free, and genuinely effective on billing disputes."
     ],
-    "why": "Fare fights escalate because both sides feel the principle matters more than the amount. The amount is small and recoverable, while a confrontation with an angry person is not. Ending physical contact first and complaining later keeps the principle and removes the risk.",
-    "variants": "Same shape: parking disputes, road rage after a minor scrape, delivery or cab-cancellation arguments, a noisy neighbour at your door.",
+    "why": "The leverage asymmetry is total — the other party controls information, time and someone you love. The only workable counter is to move every decision earlier, to a moment when you can still ask questions. Pre-authorisation and daily bills are both just ways of buying back time.",
+    "variants": "Same shape: mechanics calling mid-repair, vets at the consultation, any quote where work has already begun.",
     "scenario": {
-      "question": "An auto driver demands ₹150 more than the meter and starts shouting as you step out. What do you do?",
+      "question": "Your father is admitted for a planned procedure on a quoted package. On day three, at discharge, the desk hands you a bill ₹60,000 over the quote and says it must be paid before he can leave. What do you do?",
       "choices": [
         {
-          "text": "Move away, note the plate number, and complain to the traffic police later.",
+          "text": "Ask for the itemised bill, check each line against the package and the insurer's pre-authorisation, and take disputed items to the hospital's grievance cell.",
           "verdict": "best"
         },
         {
-          "text": "Stay and argue until he accepts the meter fare; it is a matter of principle.",
+          "text": "Pay the full amount now so he can go home, and plan to sort it out with the hospital later.",
           "verdict": "trap"
         },
         {
-          "text": "Pay the extra ₹150 with no record and leave without noting anything.",
+          "text": "Pay the undisputed part, and get the disputed lines noted in writing before you settle.",
           "verdict": "ok"
         }
       ]
     }
   },
   "lens": {
-    "id": "peak-load",
-    "name": "Peak load",
-    "one_line": "A shared system is sized for its busiest hour, so moving demand off the peak is often cheaper than adding capacity.",
-    "detail": "Roads, power grids, metro trains and servers are not overwhelmed by the daily total; they are overwhelmed by everyone arriving in the same short window. Capacity built for that window sits idle the rest of the day. Spreading the same demand across more hours frees up room without building anything, which is why staggered timings, off-peak pricing and flexible slots keep reappearing as fixes.",
+    "id": "network-effects",
+    "name": "Network effects",
+    "one_line": "A line, app or network gets most of its value from what it connects to, so the first piece of it usually disappoints.",
+    "detail": "A single metro stretch, a payments app with few merchants or a phone exchange with ten subscribers is useful only for the few trips or transactions that start and end inside it. Each new link adds value to every existing one, so usefulness grows much faster than size. That is why early pieces look underused and then usage jumps when they join the rest of the system, and why judging a network on its first section is usually a mistake.",
     "elsewhere": [
-      "Electricity tariffs that cost more in the evening than at night.",
-      "Airfares and hotel rates that jump on long weekends.",
-      "A bank branch that is empty at 15:00 and full at 10:30."
+      "UPI was a curiosity until enough shops accepted it, then it became the default.",
+      "A gated community's WhatsApp group is noise until most flats join, then it is where water and power updates appear first.",
+      "A credit card is worth little if the shops you use do not take it."
     ],
-    "test": "Is the problem the total, or everyone wanting it at the same time? If it is the timing, ask who could move.",
-    "today": "Bangalore Mirror reports Prime Minister Narendra Modi telling CM DK Shivakumar to change office timings to fix traffic. The same week, The Hindu reports the skydeck estimate rising from ₹500 crore to ₹800 crore and Deccan Herald reports the ORR revamp still not started at ₹486 crore. Staggered hours attack the peak rather than adding capacity, and if your employer allows it, shifting your own start by an hour is the one version of this you can try tomorrow."
+    "test": "Am I judging this by what it connects today, or by what it will connect once the missing link is built? And when is that link actually due?",
+    "today": "The Federal reports the Pink Line opened with gaps that first-day commuters noticed, NEWSTRAIL reports riders waiting for its connection to the wider Metro network, and CNA reports that poor connectivity keeps Bengaluru residents reliant on cars. Metro Rail News still counted 33,409 riders on day one. A 7.5 km stretch on its own serves only trips that begin and end along it; its real value arrives with the interchange, so judge it then and not this week."
   },
   "moved": [
     {
+      "tag": "Commute",
+      "what": "The Pink Line's 7.5 km priority section is in revenue service with Alstom's CBTC signalling, and Metro Rail News reports 33,409 riders on day one. The Federal reports first-day commuters still found gaps.",
+      "so_what": "If your trip runs along this stretch, try it once off-peak and time the walk or feeder to your door. It does not yet link to the rest of the Metro network, so keep your old route for anything that needs a transfer."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Hindu reports Karnataka will prohibit half helmets by the New Year.",
+      "so_what": "If you or anyone in your home rides with a half helmet, replace it with a full helmet before 1 January. It protects more, and it will soon be a fine."
+    },
+    {
       "tag": "Money",
-      "what": "The Times of India reports a Bengaluru woman put ₹4 lakh in an FD with a cooperative society and got back only ₹3 lakh at maturity. The consumer commission ordered the society to pay ₹1.12 lakh with 12% interest and ₹30,000 compensation.",
-      "so_what": "A cooperative society is not a bank, so do not treat its FD as bank-safe. If you hold one and maturity money is delayed, keep the receipt and every message; the consumer commission is a route that worked here."
+      "what": "The Times of India reports digital meters will be mandatory for all cabs in Bengaluru, with a 100-cab cap set for Green SM.",
+      "so_what": "Once meters are in, the meter reading is your reference in any fare dispute. Note the reading and the number plate at the start of a trip, not after an argument begins."
     },
     {
       "tag": "Your record",
-      "what": "The Indian Express reports that after deletions in the special intensive revision of voter rolls, Karnataka plans a police-led household survey in Bengaluru. The New Indian Express reports the CM has told police to maintain a database of residents.",
-      "so_what": "Check that your name is still on the voter roll using the Election Commission's voter search. When the survey reaches your door, ask for ID and give only what it needs; no genuine survey needs an OTP or a payment."
+      "what": "The Times of India reports the Election Commission has ordered a special summary revision in Karnataka focused on 'left out' voters. The Hindu reports there are no application records for over 1.13 lakh new enrolments in Bengaluru's final rolls.",
+      "so_what": "Search your name on the Election Commission's voter portal this week. If it is missing or wrong, the revision is the window to apply; keep the acknowledgement number."
     },
     {
-      "tag": "Your record",
-      "what": "Deccan Herald reports the Defence Ministry's PCDA will hold a SPARSH outreach programme in Bengaluru this week.",
-      "so_what": "If you or a parent draws a defence pension, this is the week to fix a SPARSH problem in person. Check the venue and date in the report and carry pension and ID papers."
-    },
-    {
-      "tag": "Worth booking",
-      "what": "Bengaluru Tech Summit 2026 opens on 17 November with a focus on AI, deeptech and robotics; The Economic Times expects 25,000 delegates and 1,000 startups.",
-      "so_what": "If you work in tech or are job-hunting, check the programme and registration tonight. Expect heavier traffic near the venue for the duration."
-    },
-    {
-      "tag": "Travel",
-      "what": "The Times of India reports 2,400 US flights cancelled and 8,800 delayed as recovery drags on.",
-      "so_what": "If you or family are flying to or through the US this week, check flight status before leaving for the airport and know the airline's rebooking options."
+      "tag": "Money",
+      "what": "The Times of India reports Sweden is seeking Indian STEM professionals to fill 18,000 tech vacancies.",
+      "so_what": "If you are tempted, apply through employers and official Swedish channels directly. Any agent who asks for a fee to 'secure' a Swedish job offer is running the job-fee play."
     }
   ],
   "carry_over": {
-    "id": "guaranteed-returns-scheme",
-    "prompt": "A relative has been paid 2% a month for a year by a 'land-backed' scheme, and the agent offers you a bonus for each person you bring in; what is the tell?",
-    "answer": "A return that is higher than the market and also guaranteed, paid out to you by recruiting more people like you."
+    "id": "fare-dispute-walk-away",
+    "prompt": "An auto driver demands ₹150 more than the meter and starts shouting as you step out; what is the tell?",
+    "answer": "If a dispute is about a few hundred rupees and the other person is angry, being right is not worth staying in range."
   },
   "quiz": [
     {
-      "question": "On which date does Bengaluru Tech Summit 2026 open?",
+      "question": "How many riders did the Pink Line record on its first day?",
       "options": [
-        "15 November",
-        "17 November",
-        "20 November",
-        "25 November"
+        "13,409",
+        "23,409",
+        "33,409",
+        "43,409"
+      ],
+      "answer": 2,
+      "why": "Metro Rail News: Bengaluru Metro Pink Line hits 33,409 riders on day 1."
+    },
+    {
+      "question": "How long is the Pink Line stretch now running with Alstom's CBTC signalling?",
+      "options": [
+        "3.5 km",
+        "5.5 km",
+        "7.5 km",
+        "12.5 km"
+      ],
+      "answer": 2,
+      "why": "Metro Rail News: Alstom CBTC runs Pink Line's 7.5 km stretch."
+    },
+    {
+      "question": "By when does Karnataka plan to prohibit half helmets?",
+      "options": [
+        "Republic Day",
+        "The New Year",
+        "Ugadi",
+        "1 April"
       ],
       "answer": 1,
-      "why": "The News Minute: Bengaluru Tech Summit 2026 to open on Nov 17 with a focus on AI, deeptech and robotics."
+      "why": "The Hindu: Karnataka to prohibit use of half helmets by New Year."
     },
     {
-      "question": "The Bengaluru skydeck cost estimate has risen from ₹500 crore to how much?",
+      "question": "How many tech vacancies is Sweden seeking Indian STEM professionals to fill?",
       "options": [
-        "₹600 crore",
-        "₹700 crore",
-        "₹800 crore",
-        "₹1,000 crore"
+        "8,000",
+        "12,000",
+        "18,000",
+        "28,000"
       ],
       "answer": 2,
-      "why": "The Hindu: Bengaluru skydeck cost estimate rises from ₹500 crore to ₹800 crore."
+      "why": "The Times of India: Sweden seeks Indian STEM professionals to fill 18,000 tech vacancies."
     },
     {
-      "question": "A year on, what is the reported cost of the ORR revamp that is yet to take off?",
+      "question": "For how many new enrolments in Bengaluru's final voter rolls are there no application records?",
       "options": [
-        "₹286 crore",
-        "₹386 crore",
-        "₹486 crore",
-        "₹586 crore"
+        "Over 13,000",
+        "Over 1.13 lakh",
+        "Over 11.3 lakh",
+        "Over 3 lakh"
       ],
-      "answer": 2,
-      "why": "Deccan Herald: Bengaluru's ORR revamp yet to take off; cost rises to Rs 486 crore."
-    },
-    {
-      "question": "In the cooperative society FD case, what interest rate did the consumer commission order on ₹1.12 lakh?",
-      "options": [
-        "6%",
-        "9%",
-        "12%",
-        "18%"
-      ],
-      "answer": 2,
-      "why": "TOI: the commission ordered the society to pay Rs 1.12 lakh with 12% interest and Rs 30,000 compensation."
-    },
-    {
-      "question": "How many US flights were reported cancelled as the flight chaos continued?",
-      "options": [
-        "240",
-        "1,200",
-        "2,400",
-        "8,800"
-      ],
-      "answer": 2,
-      "why": "TOI: 2,400 flights cancelled and 8,800 delayed as recovery drags on."
+      "answer": 1,
+      "why": "The Hindu: no application records for over 1.13 lakh new enrolments in Bengaluru's final voter rolls."
     }
   ]
 }

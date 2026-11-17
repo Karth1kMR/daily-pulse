@@ -252,6 +252,18 @@
         "A bank branch that is empty at 15:00 and full at 10:30."
       ],
       "test": "Is the problem the total, or everyone wanting it at the same time? If it is the timing, ask who could move."
+    },
+    {
+      "id": "network-effects",
+      "name": "Network effects",
+      "one_line": "A line, app or network gets most of its value from what it connects to, so the first piece of it usually disappoints.",
+      "detail": "A single metro stretch, a payments app with few merchants or a phone exchange with ten subscribers is useful only for the few trips or transactions that start and end inside it. Each new link adds value to every existing one, so usefulness grows much faster than size. That is why early pieces look underused and then usage jumps when they join the rest of the system, and why judging a network on its first section is usually a mistake.",
+      "elsewhere": [
+        "UPI was a curiosity until enough shops accepted it, then it became the default.",
+        "A gated community's WhatsApp group is noise until most flats join, then it is where water and power updates appear first.",
+        "A credit card is worth little if the shops you use do not take it."
+      ],
+      "test": "Am I judging this by what it connects today, or by what it will connect once the missing link is built? And when is that link actually due?"
     }
   ]
 }
