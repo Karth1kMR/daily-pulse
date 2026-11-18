@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-18",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-18T07:45:00+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 18.9,
+    "condition": "Overcast",
+    "high_c": 28.4,
+    "low_c": 17.6,
+    "rain_chance_pct": 0,
+    "tip": "Overcast and dry, 17.6 to 28.4°C with 0% chance of rain. A good day to try a new Pink Line station with one of the new feeder buses and time your door-to-door trip before you rely on it for work."
+  },
+  "edge": {
+    "id": "used-vehicle",
+    "category": "Money trap",
+    "title": "The 40,000 km that were 90,000",
+    "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
+    "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
+    "move": [
+      "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
+      "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
+      "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
+      "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
+    ],
+    "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
+    "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute.",
+    "scenario": {
+      "question": "You find a two-year-old scooter listed at a fair price. The odometer reads 18,000 km, the seller says it is single-owner and always serviced, shows you photos of a stamped service booklet, and asks for a ₹5,000 token today because another buyer is coming in the evening. What do you do?",
+      "choices": [
+        {
+          "text": "Before paying anything, pull the service history from the manufacturer's network using the VIN, check ownership and hypothecation on vahan.parivahan.gov.in, and get a mechanic to inspect it. If the other buyer takes it meanwhile, let them.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay the token now; the scooter looks clean, the odometer is low and the booklet photos look genuine.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Pay in full today at a small discount and sort out the RC transfer and paperwork later when you have time.",
+          "verdict": "trap"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "planning-fallacy",
+    "name": "Planning fallacy",
+    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
+    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+    "elsewhere": [
+      "Home renovations finishing weeks after the contractor's date.",
+      "Your own 'it will take ten minutes' tasks.",
+      "Possession dates promised by builders."
+    ],
+    "test": "What did the last three similar things actually take, and why would this one be different?",
+    "today": "Livemint reports the Hebbal–Sarjapur metro corridor's completion deadline has been pushed to April 2033, and the Times of India reports the Jakkur railway overbridge is only now ready for inauguration after a 15-year wait. Both started with a best-case schedule that never priced in land, approvals or contractor delays. When you plan a move, a lease or a commute around a project, use the city's track record on similar projects, not the announced date."
+  },
+  "moved": [
+    {
+      "tag": "Commute",
+      "what": "Deccan Herald reports South Western Railway has sought a 33-day closure of the Hennur–Bagalur stretch.",
+      "so_what": "It is a request, not yet an order. If you use Hennur–Bagalur Road, including as an airport route, watch for the closure dates and work out an alternative before they are announced."
+    },
+    {
+      "tag": "Commute",
+      "what": "Inshorts reports the newly opened Pink Line has 28 new feeder buses, as Namma Metro crosses 100 km.",
+      "so_what": "If you live or work near a Pink Line station, check whether a feeder route covers your last mile. It can decide whether the metro beats your current cab or bike trip."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports a woman fell on the road and, as bystanders rushed to help, a thief fled with her laptop bag.",
+      "so_what": "A commotion is when bags go missing. If you stop to help or to look, keep your own bag in hand, and if you help someone, pick up their belongings first."
+    },
+    {
+      "tag": "Safety",
+      "what": "The Times of India reports a 40-year-old Bengaluru man died after being slapped in a road-rage argument.",
+      "so_what": "A single blow can kill. In a road-rage stand-off, stay in the vehicle with doors locked, do not argue, note the number plate and call 112."
+    },
+    {
+      "tag": "Your plans",
+      "what": "Livemint reports the Hebbal–Sarjapur metro corridor's completion deadline has been pushed to April 2033.",
+      "so_what": "Do not pay a premium in rent or a flat price on the promise of that line. Treat 2033 as the earliest date, not the latest."
+    }
+  ],
+  "carry_over": {
+    "id": "fake-refund-link",
+    "prompt": "Your food order arrives damaged and a 'support' caller says a ₹450 refund is waiting: just approve the UPI request they sent and enter your PIN; what is the tell?",
+    "answer": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these."
+  },
+  "quiz": [
+    {
+      "question": "How many new feeder buses has the Pink Line got?",
+      "options": [
+        "28",
+        "12",
+        "20",
+        "40"
+      ],
+      "answer": 0,
+      "why": "Inshorts: Bengaluru Metro Pink Line gets 28 new feeder buses."
+    },
+    {
+      "question": "For how many days has South Western Railway sought to close the Hennur–Bagalur stretch?",
+      "options": [
+        "15",
+        "21",
+        "33",
+        "45"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: SWR seeks 33-day closure of Hennur-Bagalur stretch."
+    },
+    {
+      "question": "What is the new completion deadline for the Hebbal–Sarjapur metro corridor?",
+      "options": [
+        "December 2028",
+        "March 2030",
+        "April 2033",
+        "June 2035"
+      ],
+      "answer": 2,
+      "why": "Livemint: Hebbal-Sarjapur corridor completion deadline pushed to April 2033."
+    },
+    {
+      "question": "How long did the Jakkur railway overbridge take before being ready for inauguration?",
+      "options": [
+        "5 years",
+        "10 years",
+        "20 years",
+        "15 years"
+      ],
+      "answer": 3,
+      "why": "The Times of India: Jakkur railway overbridge ready for inauguration after a 15-year wait."
+    },
+    {
+      "question": "With the Pink Line opening, Namma Metro's network crossed which mark?",
+      "options": [
+        "50 km",
+        "100 km",
+        "75 km",
+        "150 km"
+      ],
+      "answer": 1,
+      "why": "Construction World: PM Modi flags off Pink Line as Bengaluru Metro crosses 100 km."
+    }
+  ]
+}
