@@ -1,149 +1,138 @@
 {
   "date": "2026-11-18",
-  "edition": "morning",
+  "edition": "evening",
   "city": "Bengaluru",
-  "generated_at": "2026-11-18T07:45:00+05:30",
+  "generated_at": "2026-11-18T19:40:00+05:30",
   "read_seconds": 85,
-  "weather": {
-    "now_c": 18.9,
-    "condition": "Overcast",
-    "high_c": 28.4,
-    "low_c": 17.6,
-    "rain_chance_pct": 0,
-    "tip": "Overcast and dry, 17.6 to 28.4°C with 0% chance of rain. A good day to try a new Pink Line station with one of the new feeder buses and time your door-to-door trip before you rely on it for work."
-  },
+  "weather": null,
   "edge": {
-    "id": "used-vehicle",
+    "id": "holiday-membership-pitch",
     "category": "Money trap",
-    "title": "The 40,000 km that were 90,000",
-    "setup": "A used car or two-wheeler, priced fairly, looks clean, owner seems decent. Odometer readings are trivially rolled back on digital clusters. The real history sits in records the seller hopes you won't pull.",
-    "tell": "Every claim is from the seller's mouth; none is from a record you fetched yourself.",
+    "title": "The holiday you pay for before you take it",
+    "anchor": "The Times of India reports a Bengaluru man paid ₹90,000 for a Country Vacations holiday membership and sought cancellation within six weeks without using any benefits; the NCDRC called the company's reliance on its 'no-refund' clause patently unfair.",
+    "setup": "A call says you have won a free stay or a gift voucher, and you only need to attend a short presentation with your spouse. Two hours in, after a nice lunch, the offer is a multi-year holiday membership at a 'today only' price, with an easy card swipe and a contract nobody has time to read.",
+    "tell": "The price is valid only in the room, and the contract only after you've paid.",
     "move": [
-      "Pull the service history from the manufacturer's network using the VIN — it carries true mileage at each service.",
-      "Check vahan.parivahan.gov.in for ownership count, insurance, and any hypothecation still live. A loan not closed means the bank, not the seller, effectively holds the papers.",
-      "Pay a trusted mechanic for a pre-purchase inspection. It's the highest-return ₹1,000 in the entire transaction.",
-      "Complete RC transfer within 14 days — until then, every challan and accident is legally yours."
+      "Never sign or pay at the presentation. Ask for the full contract, cancellation and refund terms to take home; a real offer survives a night.",
+      "Read the cancellation and 'no-refund' clauses before paying anything, and check reviews and consumer-forum cases against the company's name.",
+      "If you have paid and want out, cancel in writing at once and keep proof. A 'no-refund' clause does not automatically bind you: Indian consumer forums have called such reliance unfair.",
+      "For a complaint, start with the National Consumer Helpline (1915) or e-daakhil.nic.in before going to the district consumer commission."
     ],
-    "why": "This is the market for lemons: the seller knows the car's history and you don't, so good cars get underpriced and bad ones oversold. Every fix works by converting the seller's private knowledge into a public record you can check yourself.",
-    "variants": "Same shape: refurbished phones with swapped batteries, 'single-owner' furniture, rental agreements hiding a pending dispute.",
+    "why": "The presentation is engineered so you decide while you're grateful for the free gift, tired, and told the price disappears at the door. Each pressure removes the one thing that protects you: time to compare. Anything that only works on a same-day decision is priced for people who did not compare.",
+    "variants": "Same shape: gym and club memberships sold on a 'founding member' price, 'free' skin or hair consultations that end in a package, timeshares, education courses with a 'scholarship' that expires tonight.",
     "scenario": {
-      "question": "You find a two-year-old scooter listed at a fair price. The odometer reads 18,000 km, the seller says it is single-owner and always serviced, shows you photos of a stamped service booklet, and asks for a ₹5,000 token today because another buyer is coming in the evening. What do you do?",
+      "question": "You and your partner get a call: you've won a free two-night resort stay, just attend a 90-minute presentation at a hotel. After lunch, the sales manager offers a 10-year holiday membership at ₹1.2 lakh, 'only for today's guests', and says you can pay a ₹20,000 deposit on your card now and read the papers at home. What do you do?",
       "choices": [
         {
-          "text": "Before paying anything, pull the service history from the manufacturer's network using the VIN, check ownership and hypothecation on vahan.parivahan.gov.in, and get a mechanic to inspect it. If the other buyer takes it meanwhile, let them.",
+          "text": "Decline to pay anything today. Ask for the full contract and refund terms to take home, check consumer-forum cases against the company, and decide after comparing. If the price vanishes overnight, let it.",
           "verdict": "best"
         },
         {
-          "text": "Pay the token now; the scooter looks clean, the odometer is low and the booklet photos look genuine.",
+          "text": "Pay the ₹20,000 deposit to lock in the price; you can always cancel later if the papers look bad.",
           "verdict": "trap"
         },
         {
-          "text": "Pay in full today at a small discount and sort out the RC transfer and paperwork later when you have time.",
+          "text": "Sign the full contract on EMI since the monthly amount is small and the free stay is already yours.",
           "verdict": "trap"
         }
       ]
     }
   },
   "lens": {
-    "id": "planning-fallacy",
-    "name": "Planning fallacy",
-    "one_line": "We estimate time and cost from the best-case plan, so projects almost always run late and over budget.",
-    "detail": "People picture the plan going smoothly and forget the delays that hit every real project: approvals, weather, supply, rework. Asking 'how long did similar projects actually take?' gives a far better estimate than asking 'how long should this take?'. It is the base rate applied to schedules.",
+    "id": "compounding",
+    "name": "Compounding",
+    "one_line": "Small consistent changes beat big sporadic ones, because the result is multiplicative, not additive.",
+    "detail": "Intuition is linear; compounding isn't, which is why almost everyone underestimates it. ₹5,000 a month at 12% is about ₹11 lakh in 10 years and roughly ₹50 lakh in 20 — most of that gain arriving in the final stretch. The same shape governs skills, reputation and debt. Credit-card interest at 3.5% a month is this force running against you at roughly 50% a year.",
     "elsewhere": [
-      "Home renovations finishing weeks after the contractor's date.",
-      "Your own 'it will take ten minutes' tasks.",
-      "Possession dates promised by builders."
+      "Daily reading beating occasional cramming.",
+      "Minimum card payments keeping a balance alive for years.",
+      "Reputation: slow to build, then suddenly everything arrives at once."
     ],
-    "test": "What did the last three similar things actually take, and why would this one be different?",
-    "today": "Livemint reports the Hebbal–Sarjapur metro corridor's completion deadline has been pushed to April 2033, and the Times of India reports the Jakkur railway overbridge is only now ready for inauguration after a 15-year wait. Both started with a best-case schedule that never priced in land, approvals or contractor delays. When you plan a move, a lease or a commute around a project, use the city's track record on similar projects, not the announced date."
+    "test": "Is this a one-time event, or something that multiplies? Multiplying things deserve disproportionate attention.",
+    "today": "The Times of India reports Karnataka food inflation hit 12.16%, with milk, rice, pulses and oil driving Bengaluru grocery bills up. At that pace prices compound: a ₹10,000 monthly grocery bill becomes roughly ₹12,500 in two years if the rate holds. A salary hike or savings rate that does not beat it is quietly shrinking, so judge your increments against your own bill, not the headline number."
   },
   "moved": [
     {
-      "tag": "Commute",
-      "what": "Deccan Herald reports South Western Railway has sought a 33-day closure of the Hennur–Bagalur stretch.",
-      "so_what": "It is a request, not yet an order. If you use Hennur–Bagalur Road, including as an airport route, watch for the closure dates and work out an alternative before they are announced."
+      "tag": "Prices",
+      "what": "The Times of India reports Karnataka food inflation has hit 12.16%, with milk, rice, pulses and oil pushing up Bengaluru grocery bills.",
+      "so_what": "Staples are what is rising, not treats. Stock up on non-perishables like rice, dal and oil when a store or app runs an offer, and compare per-kg prices rather than pack prices."
+    },
+    {
+      "tag": "Money",
+      "what": "Deccan Herald reports Karnataka has flagged petrol with up to 31% ethanol blending and asked for ethanol content to be disclosed on fuel bills.",
+      "so_what": "If your vehicle is older or not E20-rated, track your mileage over the next few fills. A sudden drop is a reason to change pumps, and keep your fuel bills in case disclosure becomes mandatory."
     },
     {
       "tag": "Commute",
-      "what": "Inshorts reports the newly opened Pink Line has 28 new feeder buses, as Namma Metro crosses 100 km.",
-      "so_what": "If you live or work near a Pink Line station, check whether a feeder route covers your last mile. It can decide whether the metro beats your current cab or bike trip."
+      "what": "Asianet Newsable reports Pink Line ridership is rising and Bannerghatta Road traffic is easing; BMTC has added 28 feeder buses across five new routes.",
+      "so_what": "If you drive on Bannerghatta Road, the easing is partly because others switched. Try one week of metro plus feeder bus and compare door-to-door time before traffic fills back in."
     },
     {
-      "tag": "Safety",
-      "what": "The Times of India reports a woman fell on the road and, as bystanders rushed to help, a thief fled with her laptop bag.",
-      "so_what": "A commotion is when bags go missing. If you stop to help or to look, keep your own bag in hand, and if you help someone, pick up their belongings first."
-    },
-    {
-      "tag": "Safety",
-      "what": "The Times of India reports a 40-year-old Bengaluru man died after being slapped in a road-rage argument.",
-      "so_what": "A single blow can kill. In a road-rage stand-off, stay in the vehicle with doors locked, do not argue, note the number plate and call 112."
-    },
-    {
-      "tag": "Your plans",
-      "what": "Livemint reports the Hebbal–Sarjapur metro corridor's completion deadline has been pushed to April 2033.",
-      "so_what": "Do not pay a premium in rent or a flat price on the promise of that line. Treat 2033 as the earliest date, not the latest."
+      "tag": "Civic",
+      "what": "Bengaluru's police has been reorganised into five commissionerates under a new chief commissioner, R Hithendra, Deccan Herald and The Hindu report.",
+      "so_what": "If you have an open complaint or FIR, note your station's new commissionerate and save the zonal contacts once published, so escalation does not stall during the handover."
     }
   ],
   "carry_over": {
-    "id": "fake-refund-link",
-    "prompt": "Your food order arrives damaged and a 'support' caller says a ₹450 refund is waiting: just approve the UPI request they sent and enter your PIN; what is the tell?",
-    "answer": "A refund asked you to do something with your PIN, your OTP, a QR or your screen. Money coming in never needs any of these."
+    "id": "used-vehicle",
+    "prompt": "A clean two-year-old scooter at a fair price, low odometer, 'single owner', service booklet photos, and a ₹5,000 token wanted today because another buyer is coming; what is the tell?",
+    "answer": "Every claim is from the seller's mouth; none is from a record you fetched yourself."
   },
   "quiz": [
     {
-      "question": "How many new feeder buses has the Pink Line got?",
+      "question": "What level has Karnataka's food inflation reached, per The Times of India?",
       "options": [
-        "28",
-        "12",
-        "20",
-        "40"
-      ],
-      "answer": 0,
-      "why": "Inshorts: Bengaluru Metro Pink Line gets 28 new feeder buses."
-    },
-    {
-      "question": "For how many days has South Western Railway sought to close the Hennur–Bagalur stretch?",
-      "options": [
-        "15",
-        "21",
-        "33",
-        "45"
+        "6.8%",
+        "9.4%",
+        "12.16%",
+        "15.2%"
       ],
       "answer": 2,
-      "why": "Deccan Herald: SWR seeks 33-day closure of Hennur-Bagalur stretch."
+      "why": "The Times of India: Karnataka food inflation hits 12.16%."
     },
     {
-      "question": "What is the new completion deadline for the Hebbal–Sarjapur metro corridor?",
+      "question": "How much did the Bengaluru man pay for the holiday membership he tried to cancel?",
       "options": [
-        "December 2028",
-        "March 2030",
-        "April 2033",
-        "June 2035"
-      ],
-      "answer": 2,
-      "why": "Livemint: Hebbal-Sarjapur corridor completion deadline pushed to April 2033."
-    },
-    {
-      "question": "How long did the Jakkur railway overbridge take before being ready for inauguration?",
-      "options": [
-        "5 years",
-        "10 years",
-        "20 years",
-        "15 years"
-      ],
-      "answer": 3,
-      "why": "The Times of India: Jakkur railway overbridge ready for inauguration after a 15-year wait."
-    },
-    {
-      "question": "With the Pink Line opening, Namma Metro's network crossed which mark?",
-      "options": [
-        "50 km",
-        "100 km",
-        "75 km",
-        "150 km"
+        "₹45,000",
+        "₹90,000",
+        "₹1.5 lakh",
+        "₹60,000"
       ],
       "answer": 1,
-      "why": "Construction World: PM Modi flags off Pink Line as Bengaluru Metro crosses 100 km."
+      "why": "The Times of India: man paid ₹90,000 for a Country Vacations membership; NCDRC called the no-refund reliance patently unfair."
+    },
+    {
+      "question": "Karnataka flagged petrol with ethanol blending of up to what level?",
+      "options": [
+        "20%",
+        "25%",
+        "31%",
+        "40%"
+      ],
+      "answer": 2,
+      "why": "Deccan Herald: Karnataka escalates E20 concerns, flags petrol with up to 31% blending."
+    },
+    {
+      "question": "Into how many commissionerates has Bengaluru's police been reorganised?",
+      "options": [
+        "Three",
+        "Four",
+        "Six",
+        "Five"
+      ],
+      "answer": 3,
+      "why": "Deccan Herald: R Hithendra is chief commissioner as Bengaluru gets 5 commissionerates."
+    },
+    {
+      "question": "Per The Times of India, what per-km rates are behind the taxi drivers' protest against Green SM's entry?",
+      "options": [
+        "₹8 vs ₹24",
+        "₹10 vs ₹20",
+        "₹12 vs ₹18",
+        "₹5 vs ₹15"
+      ],
+      "answer": 0,
+      "why": "The Times of India: Rs 8 vs Rs 24 per km — why Bengaluru taxi drivers are protesting Green SM's entry."
     }
   ]
 }

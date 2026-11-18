@@ -672,6 +672,21 @@
       ],
       "why": "Small add-ons work because objecting costs more than the charge: time, the queue behind you, the fear of looking petty. So almost nobody objects, and across thousands of bills it is real money. A bag printed with the store's logo is also advertising for the store, which is why charging the customer for it can be challenged. The rule carries over to any line that arrives on a bill without being offered.",
       "variants": "Same shape: a service charge added to a restaurant bill without asking, convenience fees that appear only at checkout, packaging or handling charges on takeaway and delivery."
+    },
+    {
+      "id": "holiday-membership-pitch",
+      "category": "Money trap",
+      "title": "The holiday you pay for before you take it",
+      "setup": "A call says you have won a free stay or a gift voucher, and you only need to attend a short presentation with your spouse. Two hours in, after a nice lunch, the offer is a multi-year holiday membership at a 'today only' price, with an easy card swipe and a contract nobody has time to read.",
+      "tell": "The price is valid only in the room, and the contract only after you've paid.",
+      "move": [
+        "Never sign or pay at the presentation. Ask for the full contract, cancellation and refund terms to take home; a real offer survives a night.",
+        "Read the cancellation and 'no-refund' clauses before paying anything, and check reviews and consumer-forum cases against the company's name.",
+        "If you have paid and want out, cancel in writing at once and keep proof. A 'no-refund' clause does not automatically bind you: Indian consumer forums have called such reliance unfair.",
+        "For a complaint, start with the National Consumer Helpline (1915) or e-daakhil.nic.in before going to the district consumer commission."
+      ],
+      "why": "The presentation is engineered so you decide while you're grateful for the free gift, tired, and told the price disappears at the door. Each pressure removes the one thing that protects you: time to compare. Anything that only works on a same-day decision is priced for people who did not compare.",
+      "variants": "Same shape: gym and club memberships sold on a 'founding member' price, 'free' skin or hair consultations that end in a package, timeshares, education courses with a 'scholarship' that expires tonight."
     }
   ]
 }
