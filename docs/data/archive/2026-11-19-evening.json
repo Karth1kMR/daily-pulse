@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-19",
+  "edition": "evening",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-19T19:45:00+05:30",
+  "read_seconds": 80,
+  "edge": {
+    "id": "favour-carry",
+    "category": "Safety trap",
+    "title": "The favour in your luggage",
+    "setup": "Someone you barely know, a friend of a friend or a new acquaintance at the gate, asks you to carry a small sealed packet, gift or pair of shoes on your trip, just to hand over at the other end. It feels like a favour, and refusing feels rude.",
+    "tell": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong.",
+    "move": [
+      "Say no to anything sealed that you did not pack yourself, however small or friendly the request. A courier exists for exactly this.",
+      "If you must carry something for someone you trust, open it, look through it and pack it yourself.",
+      "If an item turns up in your bag that you did not pack, tell airport staff before screening, not after."
+    ],
+    "why": "At a checkpoint the bag in your hand is treated as yours. The sender's convenience becomes your problem, and the sender is the one party who knows what is inside. Refusing costs a moment of awkwardness; the downside of agreeing has no ceiling.",
+    "variants": "Same shape: 'just hold this bag while I step out', delivering a parcel for a tenant, carrying cash or medicine across a border for a stranger.",
+    "scenario": {
+      "question": "You are flying home from Bengaluru for a family function. At the gate, a man you got chatting with in the queue says his cousin will meet your flight, and asks if you can carry a small sealed box of 'sweets' for her because his bag is over the limit. He seems friendly and it is only a small box. What do you do?",
+      "choices": [
+        {
+          "text": "Decline politely and suggest he send it by courier. You do not carry anything sealed that you did not pack yourself, however small.",
+          "verdict": "best"
+        },
+        {
+          "text": "Take it. It is only sweets, he seems decent, and refusing would be rude.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Take it, but first ask him to show you the box and tell you what is inside.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Agree only if you can open it, check it yourself and pack it in your own bag.",
+          "verdict": "risky"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "induced-demand",
+    "name": "Induced demand",
+    "one_line": "Adding road capacity creates new trips that fill it, so congestion returns at a higher throughput.",
+    "detail": "People who had given up on a route — shifted their timing, taken transit, moved closer — return once it gets easier. The new lane doesn't serve the old traffic; it reveals suppressed demand that was always there. Measured honestly, travel time often lands back where it started within a few years, now with more vehicles.",
+    "elsewhere": [
+      "Build more parking and more people drive in.",
+      "Add engineers to a late project and the scope expands to absorb them.",
+      "Widen a hospital's OPD and the waiting room refills."
+    ],
+    "test": "When someone promises more capacity will fix congestion, ask: what was suppressed, and what happens when it comes back?",
+    "today": "The Indian Express reports Deputy CM Shivakumar saying Bengaluru may get a new Hebbal-style flyover to ease airport traffic, alongside the proposed 19.2-km Ulsoor-Bagalur elevated corridor (The Hindu). Each is pitched as relief, but a faster road to the airport also pulls in trips people now avoid or route elsewhere, and draws more building along north Bengaluru. If you are choosing where to live on the promise of an easier airport run, assume the saving shrinks once the road is open."
+  },
+  "moved": [
+    {
+      "tag": "Money",
+      "what": "Outlook Money reports the Karnataka High Court has allowed a gratuity claim despite less than five years of service. It lands the same day The Times of India reports a Namma Metro employee was denied ₹1.75 lakh for falling short by under three months.",
+      "so_what": "If you were refused gratuity for falling just short of five years, do not treat the refusal as final. Get the employer's reason in writing and take advice on whether the ruling applies to you before you let it go."
+    },
+    {
+      "tag": "Worth checking",
+      "what": "Malaysia is ending visa-free entry for Indians from next year, NDTV reports, with new entry rules to follow.",
+      "so_what": "If a Malaysia trip is planned for early next year, check the new entry rules before you pay for anything non-refundable, and budget time for a visa application."
+    },
+    {
+      "tag": "Safety",
+      "what": "Bengaluru City Police has been restructured into five commissionerates under a Chief Commissioner, with Hithendra appointed as the city's first (The Hindu, The New Indian Express). The Hindu notes the new system has dual reporting lines built in.",
+      "so_what": "In an emergency 112 and your local station stay the way in. If you have a complaint or FIR already open, keep its number and the investigating officer's name handy, since restructuring can change who handles it."
+    },
+    {
+      "tag": "Commute",
+      "what": "Railway vents have been launched to ease flooding at Sai Layout and Hennur, The Times of India reports.",
+      "so_what": "If you live, rent or are house-hunting around Sai Layout or Hennur, the fix is new and untested in a heavy spell. Judge the area by how it holds up in the next downpour, not by the launch."
+    }
+  ],
+  "carry_over": {
+    "id": "mrp-ceiling",
+    "prompt": "Your father's monthly BP tablets are rung up at the printed MRP, as they have been every month for a year; what is that printed number, really?",
+    "answer": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay."
+  },
+  "quiz": [
+    {
+      "question": "Into how many commissionerates has Bengaluru City Police been restructured?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Seven"
+      ],
+      "answer": 2,
+      "why": "The News Minute and The Hindu: five commissionerates under a Chief Commissioner."
+    },
+    {
+      "question": "Who has become Bengaluru's first Chief Commissioner of Police?",
+      "options": [
+        "Hithendra",
+        "B. Dayananda",
+        "Alok Kumar",
+        "Seemant Kumar Singh"
+      ],
+      "answer": 0,
+      "why": "The New Indian Express: Hithendra becomes Bengaluru's first Chief Commissioner of Police."
+    },
+    {
+      "question": "The Bengaluru skydeck's cost estimate has risen from ₹500 crore to how much?",
+      "options": [
+        "₹650 crore",
+        "₹800 crore",
+        "₹1,000 crore",
+        "₹1,200 crore"
+      ],
+      "answer": 1,
+      "why": "The Hindu: skydeck cost estimate rises from ₹500 crore to ₹800 crore."
+    },
+    {
+      "question": "What share of national venture funding does Bengaluru capture, per the report The Hindu cites?",
+      "options": [
+        "27%",
+        "36%",
+        "47%",
+        "58%"
+      ],
+      "answer": 2,
+      "why": "The Hindu: Bengaluru captures 47% of national venture funding."
+    },
+    {
+      "question": "How many e-khatas has Karnataka set as the target in its rural property digitisation drive, by December 2027?",
+      "options": [
+        "8.8 lakh",
+        "48 lakh",
+        "88 lakh",
+        "1.2 crore"
+      ],
+      "answer": 2,
+      "why": "The Times of India: deadline to issue 88 lakh e-khatas by Dec 2027."
+    }
+  ]
+}
