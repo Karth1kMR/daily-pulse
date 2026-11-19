@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-19",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-19T07:45:00+05:30",
+  "read_seconds": 90,
+  "weather": {
+    "now_c": 19.3,
+    "condition": "Overcast",
+    "high_c": 28.9,
+    "low_c": 17.9,
+    "rain_chance_pct": 0,
+    "tip": "Dry and mild, 17.9° to 28.9° with no rain expected, so a good day to sort a voter-roll correction or e-khata check in person at the ward or panchayat office instead of putting it off."
+  },
+  "edge": {
+    "id": "mrp-ceiling",
+    "category": "Money trap",
+    "title": "The price printed on the strip",
+    "setup": "At the chemist, or buying anything packaged, you pay the MRP without a thought. It is printed, official-looking and the same on every shelf, so it feels like the price. For a long-term medicine bought every month, the gap between that number and what the shop paid can be large.",
+    "tell": "MRP is the most a seller may charge, not what the product cost and not a price you have to pay.",
+    "move": [
+      "Ask for the cheapest option with the same salt and strength, and compare the per-tablet price, not the brand.",
+      "For a medicine you buy monthly, price it at two or three chemists and a Jan Aushadhi Kendra before settling on one.",
+      "Take the bill every time, and treat a discount off MRP as normal to ask for, not a favour."
+    ],
+    "why": "The seller knows what the product cost; you see only a printed ceiling. When one side can see the cost and the other cannot, the ceiling quietly becomes the going price. Comparing on salt and strength puts back the information the label hides.",
+    "variants": "Same shape: 'MRP' on water and snacks at airports and venues, accessories sold at the full tag, 'sale' tags that cut from an inflated MRP.",
+    "scenario": {
+      "question": "Your father's monthly BP tablets come to ₹780 a strip at the chemist near home. You have paid MRP every month for a year without asking. This month the pharmacist, as usual, just rings up the printed price. What do you do?",
+      "choices": [
+        {
+          "text": "Ask for the same salt and strength from a cheaper maker, compare the per-tablet price, and check the same medicine at a second chemist and a Jan Aushadhi Kendra before you settle on where to buy it each month.",
+          "verdict": "best"
+        },
+        {
+          "text": "Pay the MRP. It is printed on the strip, so it must be the fair price, and every shop charges the same.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Switch to whatever brand the pharmacist recommends as 'better', even though it costs more per tablet.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Ask this chemist for a discount but skip comparing elsewhere.",
+          "verdict": "risky"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "base-rates",
+    "name": "Base rates",
+    "one_line": "How common something is in general tells you more than how vivid this particular case is.",
+    "detail": "A horrifying story about one crime says nothing about whether crime rose. Your sense of risk is built almost entirely from stories, and stories are selected for how striking they are, not how typical. The corrective is boring and effective: before reacting, ask what the denominator is.",
+    "elsewhere": [
+      "A startup founder's biography is a sample of one from a pool with a 90% failure rate.",
+      "A rare drug side-effect reported in the news, against how many prescriptions.",
+      "Plane crash coverage versus the per-kilometre fatality rate."
+    ],
+    "test": "Out of how many? If you can't name the denominator, you don't yet have information — you have an anecdote.",
+    "today": "The Times of India, The Hindu and The News Minute all report a waste picker tied up and set ablaze in Girinagar, and TOI reports a speeding crash that killed four on the Bengaluru-Hyderabad highway. Three outlets on one story makes it feel common; the headlines give no denominator, so they tell you nothing about whether your area got riskier. The useful question is the boring one: out of how many trips, or how many nights, and what does the base rate say you should actually change?"
+  },
+  "moved": [
+    {
+      "tag": "Your record",
+      "what": "The Greater Bengaluru Authority has announced its Special Summary Revision schedule, with the final voter list due on 20 January (The Times of India). Separately, The Hindu reports there is no application record for over 1.13 lakh new voters in Bengaluru.",
+      "so_what": "Search your name on the electoral roll this week rather than in January. If it is missing or wrong, the revision window before the final list is when it can be fixed; after 20 January you are arguing with a published list."
+    },
+    {
+      "tag": "Money",
+      "what": "The Times of India reports a Namma Metro employee who worked 4 years, 9 months and 12 days was denied ₹1.75 lakh in gratuity for falling short of five years.",
+      "so_what": "If you are near five years with an employer and thinking of resigning, check your exact joining date and service record with HR before you fix a last working day. A few weeks can decide whether gratuity is paid at all."
+    },
+    {
+      "tag": "Worth checking",
+      "what": "IndiGo has joined Air India and Akasa in suspending flights to Saudi Arabia until 30 November, The Times of India reports.",
+      "so_what": "If you or family are booked to Saudi before 30 November, check the booking status now and ask the airline for a refund or a free date change in writing, rather than waiting for a last-day cancellation."
+    },
+    {
+      "tag": "Your record",
+      "what": "Karnataka has stepped up its rural property digitisation drive with a deadline to issue 88 lakh e-khatas, The Times of India reports, with revenue and panchayat polls in view.",
+      "so_what": "If you or your parents own a site or house in a panchayat area, check whether its e-khata has been issued and that the name and measurements match your papers. Errors are easier to correct during the drive than when you sell or take a loan."
+    },
+    {
+      "tag": "Commute",
+      "what": "A 19.2-km elevated corridor from Ulsoor to Bagalur has been proposed to ease airport traffic (The Hindu), and the state is considering a new flyover for north Bengaluru-airport traffic (Deccan Chronicle).",
+      "so_what": "These are proposals, not funded projects. If you are buying or renting in north Bengaluru, price it on today's commute, not a promised corridor; a long construction phase is more certain than the saving."
+    }
+  ],
+  "carry_over": {
+    "id": "holiday-membership-pitch",
+    "prompt": "A 'free' resort stay ends in a presentation offering a 10-year holiday membership at a today-only price, with a card deposit now and the papers to read at home; what is the tell?",
+    "answer": "The price is valid only in the room, and the contract only after you've paid."
+  },
+  "quiz": [
+    {
+      "question": "When is Bengaluru's final voter list due under the GBA's Special Summary Revision schedule?",
+      "options": [
+        "20 December",
+        "1 January",
+        "20 January",
+        "15 February"
+      ],
+      "answer": 2,
+      "why": "The Times of India: GBA announces Special Summary Revision schedule; final voter list on Jan 20."
+    },
+    {
+      "question": "For how many new voters in Bengaluru is there no application record, per The Hindu?",
+      "options": [
+        "Over 13,000",
+        "Over 1.13 lakh",
+        "Over 11 lakh",
+        "Over 3.1 lakh"
+      ],
+      "answer": 1,
+      "why": "The Hindu: SIR — no application record for over 1.13 lakh new voters in Bengaluru."
+    },
+    {
+      "question": "How much gratuity was the Bengaluru Metro employee denied for serving 4 years, 9 months and 12 days?",
+      "options": [
+        "₹75,000",
+        "₹1.75 lakh",
+        "₹2.5 lakh",
+        "₹1.2 lakh"
+      ],
+      "answer": 1,
+      "why": "The Times of India: worked 4 years, 9 months and 12 days, not 5 years, and was denied Rs 1.75 lakh gratuity."
+    },
+    {
+      "question": "How long is the proposed elevated corridor from Ulsoor to Bagalur?",
+      "options": [
+        "12.5 km",
+        "19.2 km",
+        "24 km",
+        "9.6 km"
+      ],
+      "answer": 1,
+      "why": "The Hindu: new 19.2-km elevated corridor from Ulsoor to Bagalur proposed to ease airport traffic."
+    },
+    {
+      "question": "Until when have IndiGo, Air India and Akasa suspended Saudi flights?",
+      "options": [
+        "25 November",
+        "30 November",
+        "15 December",
+        "31 December"
+      ],
+      "answer": 1,
+      "why": "The Times of India: IndiGo joins Air India, Akasa in suspending Saudi flights until November 30."
+    }
+  ]
+}
