@@ -264,6 +264,18 @@
         "A credit card is worth little if the shops you use do not take it."
       ],
       "test": "Am I judging this by what it connects today, or by what it will connect once the missing link is built? And when is that link actually due?"
+    },
+    {
+      "id": "concentrated-benefits",
+      "name": "Concentrated benefits, diffuse costs",
+      "one_line": "A small charge spread across many people survives because no single person loses enough to fight it, while the one collecting it gains a lot.",
+      "detail": "Fifteen rupees from one customer is not worth an afternoon; fifteen rupees from every customer is real money to the shop. Each victim does the sensible sum and lets it go, so the practice continues for everyone. The cost of objecting, not the size of the wrong, decides what persists. Fixes work by lowering that cost or pooling the losses: cheap complaint forums, penalties larger than the overcharge, published rulings others can cite.",
+      "elsewhere": [
+        "Convenience fees added at the last step of an online booking.",
+        "A society maintenance line item nobody can explain but nobody questions.",
+        "Bank charges of a few rupees each that add up over a year."
+      ],
+      "test": "Is this too small for me to fight, and is that exactly why it is being charged?"
     }
   ]
 }

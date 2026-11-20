@@ -1,152 +1,145 @@
 {
-  "date": "2026-11-20",
-  "edition": "morning",
-  "city": "Bengaluru",
-  "generated_at": "2026-11-20T07:34:21+05:30",
-  "read_seconds": 85,
-  "weather": {
-    "now_c": 19.9,
-    "condition": "Mostly clear",
-    "high_c": 29.0,
-    "low_c": 18.5,
-    "rain_chance_pct": 0,
-    "tip": "Dry and clear, 18.5° to 29° with no rain expected. If a weekend Nandi Hills trip is on, check the newly announced traffic restrictions on Nandi Hills Road before you leave, since clear skies will bring the crowds."
-  },
-  "edge": {
-    "id": "fake-payment-screenshot",
-    "category": "Street tactic",
-    "title": "The screenshot that isn't money",
-    "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
-    "tell": "Confirmation came from their screen, not from your bank.",
-    "move": [
-      "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
-      "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
-      "For sales, meet inside a bank branch or a busy shop — not a parking lot."
-    ],
-    "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
-    "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain.",
-    "scenario": {
-      "question": "You are selling your old phone to a buyer from an online listing, meeting outside a mall in Bengaluru. He shows you a UPI success screen with the right amount, your name and a reference number, says his bank's server is slow and it will reflect in an hour, and reaches for the phone. Your own bank app shows nothing yet. What do you do?",
-      "choices": [
-        {
-          "text": "Keep hold of the phone and say you will hand it over when your own bank app or SMS confirms the money. Nothing on his screen counts.",
-          "verdict": "best"
-        },
-        {
-          "text": "Hand it over. The screen has the right amount, your name and a reference number, and delays do happen.",
-          "verdict": "trap"
-        },
-        {
-          "text": "Photograph his screen and his face as proof, then hand it over.",
-          "verdict": "trap"
-        },
-        {
-          "text": "Take his ID card as security and let him go with the phone until the money arrives.",
-          "verdict": "risky"
-        }
-      ]
-    }
-  },
-  "lens": {
-    "id": "asymmetric-information",
-    "name": "Asymmetric information",
-    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
-    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
-    "elsewhere": [
-      "Freelance marketplaces race to the bottom without reviews.",
-      "Insurance pools get sicker when only the sick buy in.",
-      "A degree works partly as a costly signal of something an employer can't directly see."
-    ],
-    "test": "What can the other side see that I can't — and what would make it visible?",
-    "today": "Moneycontrol reports Visa, Mastercard and JPMorgan have disclosed customer data exposure through a cyberattack on a third-party vendor. You cannot see which vendors hold your details or what leaked, but whoever took them can, so a caller who knows your card number or recent spends has proved nothing about who they are. The fix is the one this model always points to: verify through a channel they cannot control, such as the number printed on your card."
-  },
-  "moved": [
-    {
-      "tag": "Money",
-      "what": "A Bengaluru restaurant has been fined ₹10,000 for charging ₹15 for a branded takeaway bag, The Times of India reports.",
-      "so_what": "If a bill carries a charge for a bag printed with the shop's own name, ask for it to come off. If they refuse, keep the bill: this ruling shows a complaint over ₹15 can stick."
-    },
-    {
-      "tag": "Safety",
-      "what": "Visa, Mastercard and JPMorgan have disclosed customer data exposure in a cyberattack on a third-party vendor, Moneycontrol reports.",
-      "so_what": "Expect calls that quote your card details or recent transactions. Knowing them proves nothing: hang up and call the number on the back of your card yourself before confirming anything."
-    },
-    {
-      "tag": "Commute",
-      "what": "The Jakkur railway overbridge has opened after a 15-year delay, The Times of India reports, with land acquisition and re-tendering cited as the hurdles.",
-      "so_what": "If your route crosses the rail line near Jakkur, try the bridge this week and time it against your usual way before settling back into habit."
-    },
-    {
-      "tag": "Commute",
-      "what": "The state has approved a ₹2,321-crore white-topping project covering 131 km of Bengaluru roads (Deccan Herald), part of ₹4,000 crore of city projects cleared by the Cabinet (The Hindu).",
-      "so_what": "White-topping means stretches closed or narrowed for weeks at a time. When the road list is published, check whether your daily route is on it and plan an alternative before the barricades go up, not after."
-    },
-    {
-      "tag": "Worth checking",
-      "what": "Cyclone Akvan is heading to Odisha, with three lakh people evacuated and 423 rescue teams deployed, The Hindu reports.",
-      "so_what": "If you or family are travelling to Odisha or along the east coast in the next few days, check flight and train status before leaving home and get any change or refund confirmed in writing."
-    }
+ "date": "2026-11-20",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-20T19:35:18+05:30",
+ "read_seconds": 80,
+ "weather": null,
+ "edge": {
+  "id": "filmed-in-public",
+  "category": "Safety",
+  "title": "The phone that is pointed, not used",
+  "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
+  "tell": "A phone held still with the lens toward you and no one touching the screen.",
+  "move": [
+   "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
+   "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
+   "Note the coach, station and time, then file a police complaint the same day."
   ],
-  "carry_over": {
-    "id": "favour-carry",
-    "prompt": "A friendly stranger at the gate asks you to carry a small sealed box of 'sweets' for his cousin, who will meet your flight; what is really being asked of you?",
-    "answer": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong."
-  },
-  "quiz": [
+  "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
+  "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame.",
+  "scenario": {
+   "question": "You are standing in a crowded Namma Metro coach on your way home. The man next to you has held his phone still at hip height for two stops, lens pointed at you, thumb nowhere near the screen. The next station is a minute away. What do you do?",
+   "choices": [
     {
-      "question": "How many kilometres of Bengaluru roads does the newly approved ₹2,321-crore white-topping project cover?",
-      "options": [
-        "131 km",
-        "31 km",
-        "81 km",
-        "231 km"
-      ],
-      "answer": 0,
-      "why": "Deccan Herald: ₹2,321 crore white-topping project for 131 km of roads across Bengaluru."
+     "text": "Say loudly, 'Please stop recording me', ask the person beside you to stay as a witness, and alert metro staff at the next stop so he cannot slip out.",
+     "verdict": "best"
     },
     {
-      "question": "What share of India's native AI startup funding does Bengaluru account for, per the report cited this week?",
-      "options": [
-        "18.5%",
-        "27.1%",
-        "36.3%",
-        "47.0%"
-      ],
-      "answer": 2,
-      "why": "People Matters and Deccan Chronicle: Bengaluru accounts for 36.3% of India's native AI startup funding."
+     "text": "Wait until you are completely sure before making a scene. You might be imagining it.",
+     "verdict": "trap"
     },
     {
-      "question": "How long was the Jakkur railway overbridge delayed before it opened?",
-      "options": [
-        "5 years",
-        "15 years",
-        "10 years",
-        "20 years"
-      ],
-      "answer": 1,
-      "why": "The Times of India: Jakkur railway overbridge opens after a 15-year delay."
+     "text": "Say nothing now, get off at your stop and decide later whether it is worth reporting.",
+     "verdict": "trap"
     },
     {
-      "question": "How much was a Bengaluru restaurant fined for charging ₹15 for a branded takeaway bag?",
-      "options": [
-        "₹1,500",
-        "₹5,000",
-        "₹10,000",
-        "₹25,000"
-      ],
-      "answer": 2,
-      "why": "The Times of India: restaurant fined ₹10,000 for charging ₹15 for a branded food takeaway bag."
-    },
-    {
-      "question": "How many taxi aggregators are licensed in Bengaluru, as the state plans to overhaul its decade-old rules?",
-      "options": [
-        "5",
-        "9",
-        "21",
-        "13"
-      ],
-      "answer": 3,
-      "why": "The Times of India: 13 taxi aggregators licensed in Bengaluru."
+     "text": "Quietly move to the other end of the coach so you are out of frame.",
+     "verdict": "risky"
     }
-  ]
+   ]
+  }
+ },
+ "lens": {
+  "id": "concentrated-benefits",
+  "name": "Concentrated benefits, diffuse costs",
+  "one_line": "A small charge spread across many people survives because no single person loses enough to fight it, while the one collecting it gains a lot.",
+  "detail": "Fifteen rupees from one customer is not worth an afternoon; fifteen rupees from every customer is real money to the shop. Each victim does the sensible sum and lets it go, so the practice continues for everyone. The cost of objecting, not the size of the wrong, decides what persists. Fixes work by lowering that cost or pooling the losses: cheap complaint forums, penalties larger than the overcharge, published rulings others can cite.",
+  "elsewhere": [
+   "Convenience fees added at the last step of an online booking.",
+   "A society maintenance line item nobody can explain but nobody questions.",
+   "Bank charges of a few rupees each that add up over a year."
+  ],
+  "test": "Is this too small for me to fight, and is that exactly why it is being charged?",
+  "today": "A Bengaluru consumer forum has held Blinkit guilty of deficiency in service over a ₹479 chocolate pack in which three of six bars had expired two months earlier, The Times of India reports, and a restaurant has been fined ₹10,000 for a ₹15 carry bag. Both losses were too small for most people to pursue, which is why such practices last. Each ruling lowers the cost of the next complaint, because the next customer can cite it."
+ },
+ "moved": [
+  {
+   "tag": "Safety",
+   "what": "A Bengaluru techie lost ₹5.5 lakh in fraud on AMEX and RBL credit cards without making any transactions or sharing any OTPs, The Times of India reports.",
+   "so_what": "Not sharing an OTP is not full protection. Turn on SMS and app alerts for every card tonight, including ones you rarely use, and report any charge you did not make to the bank in writing the same day: under RBI rules, how quickly you report decides how much of the loss you have to bear."
+  },
+  {
+   "tag": "Your record",
+   "what": "EPIC numbers deleted during the Special Intensive Revision (SIR) of voter rolls in Bengaluru have been reissued to different people, The Hindu reports, as the state turns to the city's civic polls.",
+   "so_what": "Search your EPIC number on the Election Commission's voter portal and check that it still shows your name and address. If it does not, raise it now, while the rolls are still being revised, not on polling day."
+  },
+  {
+   "tag": "Money",
+   "what": "Consumer commissions have ruled against Blinkit over expired chocolates in a ₹479 order, and ordered a flying academy to pay ₹10 lakh to a man whose course never started after more than two years, The Times of India reports.",
+   "so_what": "For quick-commerce orders, check expiry dates at the door and photograph anything wrong before you throw it away. For any course or service paid upfront, keep the receipt and written promises: the commission route works for ₹479 and for ₹10 lakh."
+  },
+  {
+   "tag": "Commute",
+   "what": "The Supreme Court has rejected Karnataka's plea in the bike-taxi case, YourStory reports, meaning the services may return to Bengaluru.",
+   "so_what": "Do not change your commute plans yet. When services restart, book only through the app and check the plate matches; a rider offering a ride off the app is outside any insurance or complaint system."
+  },
+  {
+   "tag": "Your record",
+   "what": "The Supreme Court has barred coercive action against about 4,500 homebuyers of a stalled Bengaluru project until they get possession of their flats, Deccan Herald reports.",
+   "so_what": "If you are paying EMIs on a stalled under-construction flat, this order is worth reading closely and showing to your lender or lawyer; keep every demand letter and payment record."
+  }
+ ],
+ "carry_over": {
+  "id": "fake-payment-screenshot",
+  "prompt": "A buyer shows you a UPI success screen with the right amount and your name, says his bank is slow, and reaches for the phone you are selling; what counts as proof you were paid?",
+  "answer": "Confirmation came from their screen, not from your bank."
+ },
+ "quiz": [
+  {
+   "question": "How much did a Bengaluru techie lose in the AMEX and RBL card fraud reported this week, without sharing any OTP?",
+   "options": [
+    "₹55,000",
+    "₹1.5 lakh",
+    "₹5.5 lakh",
+    "₹15 lakh"
+   ],
+   "answer": 2,
+   "why": "The Times of India: techie loses ₹5.5 lakh in AMEX, RBL card fraud with no transactions made and no OTPs shared."
+  },
+  {
+   "question": "In the Blinkit case, how many of the six chocolates in the ₹479 gift pack had expired?",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "All six"
+   ],
+   "answer": 2,
+   "why": "The Times of India: 3 of 6 chocolates had expired two months earlier; the consumer forum held Blinkit guilty of deficiency in service."
+  },
+  {
+   "question": "How many homebuyers of a stalled Bengaluru project are protected by the Supreme Court's order against coercive action?",
+   "options": [
+    "About 450",
+    "About 1,500",
+    "About 4,500",
+    "About 45,000"
+   ],
+   "answer": 2,
+   "why": "Deccan Herald and Verdictum: nearly 4,500 homebuyers protected until they get possession."
+  },
+  {
+   "question": "How much did the consumer commission order the flying academy to pay the man whose pilot course never started?",
+   "options": [
+    "₹1 lakh",
+    "₹5 lakh",
+    "₹10 lakh",
+    "₹25 lakh"
+   ],
+   "answer": 2,
+   "why": "The Times of India: he paid the academy ₹10 lakh and the commission ordered ₹10 lakh to be paid to him."
+  },
+  {
+   "question": "How much funding was announced from venture capital firms at the Future Makers Conclave at the Bengaluru Tech Summit?",
+   "options": [
+    "₹105 crore",
+    "₹1,050 crore",
+    "₹2,321 crore",
+    "₹10,250 crore"
+   ],
+   "answer": 1,
+   "why": "Deccan Herald: ₹1,050 crore from 24 venture capital firms."
+  }
+ ]
 }
