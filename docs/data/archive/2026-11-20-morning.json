@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-20",
+  "edition": "morning",
+  "city": "Bengaluru",
+  "generated_at": "2026-11-20T07:34:21+05:30",
+  "read_seconds": 85,
+  "weather": {
+    "now_c": 19.9,
+    "condition": "Mostly clear",
+    "high_c": 29.0,
+    "low_c": 18.5,
+    "rain_chance_pct": 0,
+    "tip": "Dry and clear, 18.5° to 29° with no rain expected. If a weekend Nandi Hills trip is on, check the newly announced traffic restrictions on Nandi Hills Road before you leave, since clear skies will bring the crowds."
+  },
+  "edge": {
+    "id": "fake-payment-screenshot",
+    "category": "Street tactic",
+    "title": "The screenshot that isn't money",
+    "setup": "You're selling a phone, or you run a small counter. The buyer holds up a UPI success screen — right amount, right name, a reference number, 'bank server is slow, it'll reflect in an hour'. They're already walking away with the goods. There are apps whose only purpose is generating that screen.",
+    "tell": "Confirmation came from their screen, not from your bank.",
+    "move": [
+      "Only your own SMS, bank app balance, or payment-device voice alert counts. Nothing on their phone is evidence.",
+      "Say the sentence plainly: 'I'll hand it over when my bank confirms.' It is not rude; it's the norm.",
+      "For sales, meet inside a bank branch or a busy shop — not a parking lot."
+    ],
+    "why": "Trust normally travels with money. Screenshots break that link by making the proof forgeable and instant. Every defence restores the link: confirmation must arrive through a channel the other person cannot author.",
+    "variants": "Same shape: forged NEFT receipts, fake courier-dispatch proofs, 'payment initiated' emails from a lookalike domain.",
+    "scenario": {
+      "question": "You are selling your old phone to a buyer from an online listing, meeting outside a mall in Bengaluru. He shows you a UPI success screen with the right amount, your name and a reference number, says his bank's server is slow and it will reflect in an hour, and reaches for the phone. Your own bank app shows nothing yet. What do you do?",
+      "choices": [
+        {
+          "text": "Keep hold of the phone and say you will hand it over when your own bank app or SMS confirms the money. Nothing on his screen counts.",
+          "verdict": "best"
+        },
+        {
+          "text": "Hand it over. The screen has the right amount, your name and a reference number, and delays do happen.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Photograph his screen and his face as proof, then hand it over.",
+          "verdict": "trap"
+        },
+        {
+          "text": "Take his ID card as security and let him go with the phone until the money arrives.",
+          "verdict": "risky"
+        }
+      ]
+    }
+  },
+  "lens": {
+    "id": "asymmetric-information",
+    "name": "Asymmetric information",
+    "one_line": "When one side knows much more than the other, the market degrades toward the worse goods.",
+    "detail": "If buyers can't tell good used cars from bad, they offer an average price. Owners of genuinely good cars refuse to sell at that price and leave the market, so the average quality drops, so the price drops further. Quality collapses — not from dishonesty, but from unverifiability. Every real fix is a verification mechanism: warranties, certification, inspection, reputation.",
+    "elsewhere": [
+      "Freelance marketplaces race to the bottom without reviews.",
+      "Insurance pools get sicker when only the sick buy in.",
+      "A degree works partly as a costly signal of something an employer can't directly see."
+    ],
+    "test": "What can the other side see that I can't — and what would make it visible?",
+    "today": "Moneycontrol reports Visa, Mastercard and JPMorgan have disclosed customer data exposure through a cyberattack on a third-party vendor. You cannot see which vendors hold your details or what leaked, but whoever took them can, so a caller who knows your card number or recent spends has proved nothing about who they are. The fix is the one this model always points to: verify through a channel they cannot control, such as the number printed on your card."
+  },
+  "moved": [
+    {
+      "tag": "Money",
+      "what": "A Bengaluru restaurant has been fined ₹10,000 for charging ₹15 for a branded takeaway bag, The Times of India reports.",
+      "so_what": "If a bill carries a charge for a bag printed with the shop's own name, ask for it to come off. If they refuse, keep the bill: this ruling shows a complaint over ₹15 can stick."
+    },
+    {
+      "tag": "Safety",
+      "what": "Visa, Mastercard and JPMorgan have disclosed customer data exposure in a cyberattack on a third-party vendor, Moneycontrol reports.",
+      "so_what": "Expect calls that quote your card details or recent transactions. Knowing them proves nothing: hang up and call the number on the back of your card yourself before confirming anything."
+    },
+    {
+      "tag": "Commute",
+      "what": "The Jakkur railway overbridge has opened after a 15-year delay, The Times of India reports, with land acquisition and re-tendering cited as the hurdles.",
+      "so_what": "If your route crosses the rail line near Jakkur, try the bridge this week and time it against your usual way before settling back into habit."
+    },
+    {
+      "tag": "Commute",
+      "what": "The state has approved a ₹2,321-crore white-topping project covering 131 km of Bengaluru roads (Deccan Herald), part of ₹4,000 crore of city projects cleared by the Cabinet (The Hindu).",
+      "so_what": "White-topping means stretches closed or narrowed for weeks at a time. When the road list is published, check whether your daily route is on it and plan an alternative before the barricades go up, not after."
+    },
+    {
+      "tag": "Worth checking",
+      "what": "Cyclone Akvan is heading to Odisha, with three lakh people evacuated and 423 rescue teams deployed, The Hindu reports.",
+      "so_what": "If you or family are travelling to Odisha or along the east coast in the next few days, check flight and train status before leaving home and get any change or refund confirmed in writing."
+    }
+  ],
+  "carry_over": {
+    "id": "favour-carry",
+    "prompt": "A friendly stranger at the gate asks you to carry a small sealed box of 'sweets' for his cousin, who will meet your flight; what is really being asked of you?",
+    "answer": "You are being asked to answer for contents you cannot verify, for a person who will not be there if it goes wrong."
+  },
+  "quiz": [
+    {
+      "question": "How many kilometres of Bengaluru roads does the newly approved ₹2,321-crore white-topping project cover?",
+      "options": [
+        "131 km",
+        "31 km",
+        "81 km",
+        "231 km"
+      ],
+      "answer": 0,
+      "why": "Deccan Herald: ₹2,321 crore white-topping project for 131 km of roads across Bengaluru."
+    },
+    {
+      "question": "What share of India's native AI startup funding does Bengaluru account for, per the report cited this week?",
+      "options": [
+        "18.5%",
+        "27.1%",
+        "36.3%",
+        "47.0%"
+      ],
+      "answer": 2,
+      "why": "People Matters and Deccan Chronicle: Bengaluru accounts for 36.3% of India's native AI startup funding."
+    },
+    {
+      "question": "How long was the Jakkur railway overbridge delayed before it opened?",
+      "options": [
+        "5 years",
+        "15 years",
+        "10 years",
+        "20 years"
+      ],
+      "answer": 1,
+      "why": "The Times of India: Jakkur railway overbridge opens after a 15-year delay."
+    },
+    {
+      "question": "How much was a Bengaluru restaurant fined for charging ₹15 for a branded takeaway bag?",
+      "options": [
+        "₹1,500",
+        "₹5,000",
+        "₹10,000",
+        "₹25,000"
+      ],
+      "answer": 2,
+      "why": "The Times of India: restaurant fined ₹10,000 for charging ₹15 for a branded food takeaway bag."
+    },
+    {
+      "question": "How many taxi aggregators are licensed in Bengaluru, as the state plans to overhaul its decade-old rules?",
+      "options": [
+        "5",
+        "9",
+        "21",
+        "13"
+      ],
+      "answer": 3,
+      "why": "The Times of India: 13 taxi aggregators licensed in Bengaluru."
+    }
+  ]
+}
