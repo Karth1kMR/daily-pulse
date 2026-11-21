@@ -1,0 +1,139 @@
+{
+ "date": "2026-11-21",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-21T19:45:00+05:30",
+ "read_seconds": 80,
+ "edge": {
+  "id": "upi-wrong-transfer",
+  "category": "Money trap",
+  "title": "The accidental ₹8,000",
+  "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
+  "tell": "They want the refund to go somewhere other than exactly where it came from.",
+  "move": [
+   "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
+   "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
+   "Screenshot everything before you touch anything."
+  ],
+  "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
+  "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'.",
+  "scenario": {
+   "question": "₹8,000 from an unknown sender lands in your account on Saturday evening. Minutes later a message: it was meant for their mother's medicine, please send it back, and here is a different UPI ID to send it to because the original account is 'blocked'. What do you do?",
+   "choices": [
+    {
+     "text": "Don't send anything. Screenshot the credit and the messages, call your bank, report an unknown credit and let the bank reverse it.",
+     "verdict": "best"
+    },
+    {
+     "text": "Send it to the new UPI ID straight away. The money is real and they sound desperate.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Open the payment link they share so the refund goes through their 'official' channel.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Send it back to the same account it came from, without telling your bank.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "the-record-wins",
+  "name": "The record wins",
+  "one_line": "A dispute is usually decided not by who is right but by who can show it.",
+  "detail": "Courts, consumer commissions, banks and insurers do not see what happened; they see what each side can put on paper. The side with the photo, the bill, the written complaint or the footage gets to tell the story, and a claim the other side cannot back up tends to fall away. That cuts both ways: an organisation that controls the records usually wins, unless it fails to produce them. So the cheapest protection in any dealing is to create your own record at the moment things go wrong, while it is still easy.",
+  "elsewhere": [
+   "A deposit dispute with a landlord that turns on whether you photographed the flat on the day you moved in.",
+   "An insurance claim that depends on the discharge summary and itemised bills, not on what the doctor told you.",
+   "A UPI fraud report where the time of your complaint to the bank decides how much you can recover."
+  ],
+  "test": "If this goes wrong, what record will I be able to show, and who holds it?",
+  "today": "A consumer commission has ordered BMRCL to pay a passenger ₹5,000 after a Metro grab handle snapped, injuring his nose and breaking ₹3,000 spectacles. BMRCL said he had put his entire body weight on the handle but did not produce CCTV footage, The Times of India reports, and the claim failed. In a separate case the same day, a commission held a doctor negligent and ordered ₹2 lakh compensation after a failed twin pregnancy: in both, the side that could document what happened was heard."
+ },
+ "moved": [
+  {
+   "tag": "Your record",
+   "what": "A consumer commission ordered BMRCL to pay ₹5,000 to a passenger hurt when a Metro grab handle snapped mid-journey; BMRCL blamed him but did not produce CCTV footage, The Times of India reports.",
+   "so_what": "Small claims against big public bodies can succeed. If a service injures you or damages your things, photograph it on the spot, keep the ticket or card record, and get a written complaint acknowledged the same day; that record is what a commission will look at."
+  },
+  {
+   "tag": "Commute",
+   "what": "Bike taxis are set to return after the Supreme Court dismissed the Karnataka government's plea against a High Court order, The Times of India reports.",
+   "so_what": "Wait for the bike-taxi option to reappear inside the apps before you use one. A rider offering a ride off-app leaves you with no trip record, no fare receipt and no one to complain to; when you do book, check the plate and rider match the app before you get on."
+  },
+  {
+   "tag": "Worth knowing",
+   "what": "Bengaluru airport is trialling simultaneous departures from both runways, with launch likely on 27 November, Moneycontrol reports.",
+   "so_what": "This may shorten take-off queues at peak hours, but it does nothing for the road to the airport or the security line. Keep your usual buffer for the drive and check-in."
+  },
+  {
+   "tag": "Money",
+   "what": "An SBI-backed property expo opened in Bengaluru on 21 November, City Today News reports.",
+   "so_what": "Expo offers are built to get a booking amount on the day. Before paying anything, check the project's RERA registration and get the loan terms in writing from the bank, not the builder's stall."
+  }
+ ],
+ "carry_over": {
+  "id": "first-meeting-indoors",
+  "prompt": "Someone you've chatted with for a week on a dating app suggests skipping the café and meeting alone at a friend's empty flat; what is the sign this is the wrong first meeting?",
+  "answer": "The first meeting is private, at a place you did not choose, with no one who knows where you are."
+ },
+ "quiz": [
+  {
+   "question": "How much did a consumer commission order BMRCL to pay the passenger hurt by a snapped grab handle?",
+   "options": [
+    "₹3,000",
+    "₹5,000",
+    "₹50,000",
+    "₹2 lakh"
+   ],
+   "answer": 1,
+   "why": "The Times of India: consumer commission orders Rs 5,000 payout after BMRCL fails to produce CCTV footage."
+  },
+  {
+   "question": "What did BMRCL fail to produce in the grab-handle case?",
+   "options": [
+    "The train's maintenance log",
+    "The passenger's ticket",
+    "CCTV footage",
+    "A medical report"
+   ],
+   "answer": 2,
+   "why": "The Times of India: BMRCL claimed the passenger put his entire body weight on the handle but failed to produce CCTV footage."
+  },
+  {
+   "question": "Whose plea did the Supreme Court dismiss, clearing the way for bike taxis to return?",
+   "options": [
+    "Rapido's",
+    "The Karnataka government's",
+    "BMTC's",
+    "An auto drivers' union's"
+   ],
+   "answer": 1,
+   "why": "The Times of India: bike taxis to return as SC bins Karnataka plea against HC order."
+  },
+  {
+   "question": "When is Bengaluru airport likely to launch simultaneous departures from both runways?",
+   "options": [
+    "21 November",
+    "25 November",
+    "27 November",
+    "1 December"
+   ],
+   "answer": 2,
+   "why": "Moneycontrol: launch of simultaneous departures likely on Nov 27."
+  },
+  {
+   "question": "How much compensation did a consumer commission order a doctor to pay after a failed twin pregnancy case?",
+   "options": [
+    "₹50,000",
+    "₹1 lakh",
+    "₹2 lakh",
+    "₹5 lakh"
+   ],
+   "answer": 2,
+   "why": "The Times of India: consumer commission holds doctor negligent, orders Rs 2 lakh compensation."
+  }
+ ]
+}
