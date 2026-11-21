@@ -1,145 +1,148 @@
 {
- "date": "2026-11-20",
- "edition": "evening",
+ "date": "2026-11-21",
+ "edition": "morning",
  "city": "Bengaluru",
- "generated_at": "2026-11-20T19:35:18+05:30",
+ "generated_at": "2026-11-21T07:33:49+05:30",
  "read_seconds": 80,
- "weather": null,
+ "weather": {
+  "now_c": 19.7,
+  "condition": "Clear",
+  "high_c": 28.7,
+  "low_c": 18.2,
+  "rain_chance_pct": 0,
+  "tip": "Clear and dry, 18.2° rising to 28.7° with no rain expected. A cool, easy Saturday morning is a good time to try the new Jakkur overbridge before the weekday rush, and if you have a first date this evening, a busy outdoor café is the pleasant choice anyway."
+ },
  "edge": {
-  "id": "filmed-in-public",
-  "category": "Safety",
-  "title": "The phone that is pointed, not used",
-  "setup": "You're in a crowded metro coach or a bus. Someone nearby holds a phone still at chest or hip height, lens toward you, thumb nowhere near the screen. You tell yourself you are imagining it, and by the time you are sure, the doors have opened and they are gone.",
-  "tell": "A phone held still with the lens toward you and no one touching the screen.",
+  "id": "first-meeting-indoors",
+  "category": "Safety trap",
+  "title": "The first meeting indoors",
+  "setup": "You've been chatting with someone from a dating app for a week. They're easy to talk to and suggest skipping the café: a friend's place is empty this evening, it's quieter, and there's no point paying for coffee. You are told to come alone, and you mention you'll wear your usual chain and ring.",
+  "tell": "The first meeting is private, at a place you did not choose, with no one who knows where you are.",
   "move": [
-   "Act before the next stop: say loudly, 'Please stop recording me', so people around you hear it.",
-   "Ask a co-passenger to stay as a witness and alert metro or bus staff, so the person cannot slip away at the doors.",
-   "Note the coach, station and time, then file a police complaint the same day."
+   "Meet first in a busy public place you pick, in daylight or early evening.",
+   "Send a friend the person's name, photos and your live location before you go; agree a check-in time.",
+   "Do not wear or carry gold or other valuables to a first meeting, and do not go to an address you cannot leave on your own.",
+   "If anything feels wrong, leave first and explain later; 112 is the national emergency number."
   ],
-  "why": "Filming works only while it goes unnoticed and the person can leave. Naming it aloud, in front of witnesses, before the doors open removes both. Delay is the filmer's whole advantage, so the move is to act in the first minute.",
-  "variants": "Same shape: a lens under a changing-room gap, a phone angled up a stairwell, a 'selfie' with you deliberately in the frame.",
+  "why": "Every protection a stranger has to earn from you, such as witnesses, an exit, and someone who knows where you are, disappears when you move indoors on their terms. A stranger does not need to be dangerous for you to lose these; they only need you to agree to give them up before you know them.",
+  "variants": "Same shape: a 'quick look' at a flat with no one else around, a buyer who wants to meet at your home to inspect jewellery, a ride-share stranger who suggests a detour.",
   "scenario": {
-   "question": "You are standing in a crowded Namma Metro coach on your way home. The man next to you has held his phone still at hip height for two stops, lens pointed at you, thumb nowhere near the screen. The next station is a minute away. What do you do?",
+   "question": "You have been chatting with someone from a dating app for a week. On Saturday evening they message: their friend's flat in a part of town you don't know is empty, it's quieter than a café, come alone. Nobody else knows you are meeting. What do you do?",
    "choices": [
     {
-     "text": "Say loudly, 'Please stop recording me', ask the person beside you to stay as a witness, and alert metro staff at the next stop so he cannot slip out.",
+     "text": "Say you'd rather meet first at a busy café you choose, send a friend their name, photos and your live location, and agree a check-in time.",
      "verdict": "best"
     },
     {
-     "text": "Wait until you are completely sure before making a scene. You might be imagining it.",
+     "text": "Go to the flat. A week of good conversation is enough to know someone.",
      "verdict": "trap"
     },
     {
-     "text": "Say nothing now, get off at your stop and decide later whether it is worth reporting.",
+     "text": "Go, but don't tell anyone, so it doesn't feel awkward if it goes well.",
      "verdict": "trap"
     },
     {
-     "text": "Quietly move to the other end of the coach so you are out of frame.",
+     "text": "Agree to the flat, but ask them to pick you up so you don't have to find the address.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "concentrated-benefits",
-  "name": "Concentrated benefits, diffuse costs",
-  "one_line": "A small charge spread across many people survives because no single person loses enough to fight it, while the one collecting it gains a lot.",
-  "detail": "Fifteen rupees from one customer is not worth an afternoon; fifteen rupees from every customer is real money to the shop. Each victim does the sensible sum and lets it go, so the practice continues for everyone. The cost of objecting, not the size of the wrong, decides what persists. Fixes work by lowering that cost or pooling the losses: cheap complaint forums, penalties larger than the overcharge, published rulings others can cite.",
+  "id": "seams",
+  "name": "Problems live at the seams",
+  "one_line": "When one system is split into several, the work that falls between the pieces is the work most likely to go undone.",
+  "detail": "Inside each unit, someone owns the job. At the boundary between units, everyone can reasonably say it belongs to the other side, and handovers are where files, calls and responsibility get dropped. Splitting a big organisation usually makes each piece easier to run and the joins harder to manage. So the question about any reorganisation is not whether the pieces are better, but who owns the cases that cross them.",
   "elsewhere": [
-   "Convenience fees added at the last step of an online booking.",
-   "A society maintenance line item nobody can explain but nobody questions.",
-   "Bank charges of a few rupees each that add up over a year."
+   "A road dug up by one utility and left unrepaired because resurfacing belongs to another.",
+   "A complaint bounced between a building's developer, its association and the civic body.",
+   "A hospital bill disputed between the insurer and the TPA, each pointing at the other."
   ],
-  "test": "Is this too small for me to fight, and is that exactly why it is being charged?",
-  "today": "A Bengaluru consumer forum has held Blinkit guilty of deficiency in service over a ₹479 chocolate pack in which three of six bars had expired two months earlier, The Times of India reports, and a restaurant has been fined ₹10,000 for a ₹15 carry bag. Both losses were too small for most people to pursue, which is why such practices last. Each ruling lowers the cost of the next complaint, because the next customer can cite it."
+  "test": "If this goes wrong, which two offices will each say it belongs to the other?",
+  "today": "The Hindu reports that Bengaluru's police restructuring has left some divisions overburdened and others underutilised, and Deccan Herald says the top-heavy five-commissionerate split has exposed command overlaps; the chief minister is now discussing integrating them. Five commissionerates means more boundaries, and complaints that cross them, such as a phone stolen in one area and traced to another, are where delays tend to show up. Until the lines settle, file at the nearest station and keep the acknowledgement and FIR number."
  },
  "moved": [
   {
-   "tag": "Safety",
-   "what": "A Bengaluru techie lost ₹5.5 lakh in fraud on AMEX and RBL credit cards without making any transactions or sharing any OTPs, The Times of India reports.",
-   "so_what": "Not sharing an OTP is not full protection. Turn on SMS and app alerts for every card tonight, including ones you rarely use, and report any charge you did not make to the bank in writing the same day: under RBI rules, how quickly you report decides how much of the loss you have to bear."
-  },
-  {
-   "tag": "Your record",
-   "what": "EPIC numbers deleted during the Special Intensive Revision (SIR) of voter rolls in Bengaluru have been reissued to different people, The Hindu reports, as the state turns to the city's civic polls.",
-   "so_what": "Search your EPIC number on the Election Commission's voter portal and check that it still shows your name and address. If it does not, raise it now, while the rolls are still being revised, not on polling day."
-  },
-  {
-   "tag": "Money",
-   "what": "Consumer commissions have ruled against Blinkit over expired chocolates in a ₹479 order, and ordered a flying academy to pay ₹10 lakh to a man whose course never started after more than two years, The Times of India reports.",
-   "so_what": "For quick-commerce orders, check expiry dates at the door and photograph anything wrong before you throw it away. For any course or service paid upfront, keep the receipt and written promises: the commission route works for ₹479 and for ₹10 lakh."
+   "tag": "Commute",
+   "what": "BMRCL has sought safety clearance to begin trial runs on the Pink Line's underground stretch and is aiming for a May 2027 opening, Moneycontrol and Swarajya report. A separate News18 report says trial runs have begun on the Blue Line.",
+   "so_what": "Trial runs come before safety approval, and opening dates often slip. If you are choosing a flat or signing a lease because a Pink Line or Blue Line station is coming, plan around today's commute, not the target date."
   },
   {
    "tag": "Commute",
-   "what": "The Supreme Court has rejected Karnataka's plea in the bike-taxi case, YourStory reports, meaning the services may return to Bengaluru.",
-   "so_what": "Do not change your commute plans yet. When services restart, book only through the app and check the plate matches; a rider offering a ride off the app is outside any insurance or complaint system."
+   "what": "The Jakkur railway overbridge has opened after a 15-year wait and is expected to ease traffic in North Bengaluru, Asianet Newsable reports.",
+   "so_what": "If you drive through Jakkur towards Yelahanka or the airport side, try the overbridge once at your usual hour this week and time it against your old route. Expect traffic to shift onto it, and onto the roads leading to it."
   },
   {
-   "tag": "Your record",
-   "what": "The Supreme Court has barred coercive action against about 4,500 homebuyers of a stalled Bengaluru project until they get possession of their flats, Deccan Herald reports.",
-   "so_what": "If you are paying EMIs on a stalled under-construction flat, this order is worth reading closely and showing to your lender or lawyer; keep every demand letter and payment record."
+   "tag": "Prices",
+   "what": "Gold is heading for its worst week since March, with bets on a US Federal Reserve rate hike and forced selling weighing on prices, FXStreet reports.",
+   "so_what": "Indian gold prices broadly follow the international price. If you are buying for the wedding season, one weak week is not a signal to rush. Splitting the purchase across a few dates evens out the swings, and whenever you buy, check for the BIS hallmark and HUID on the piece and the bill."
+  },
+  {
+   "tag": "Health",
+   "what": "Karnataka has launched a five-year plan to tackle antibiotic resistance, The Times of India reports.",
+   "so_what": "The easiest part of that plan is in your hands. Do not ask a pharmacist for antibiotics for a cold or viral fever, because they do not work on viruses. When a doctor does prescribe them, finish the full course."
   }
  ],
  "carry_over": {
-  "id": "fake-payment-screenshot",
-  "prompt": "A buyer shows you a UPI success screen with the right amount and your name, says his bank is slow, and reaches for the phone you are selling; what counts as proof you were paid?",
-  "answer": "Confirmation came from their screen, not from your bank."
+  "id": "filmed-in-public",
+  "prompt": "On a crowded metro coach, someone has held a phone still at hip height for two stops, lens toward you, thumb off the screen, and you are not yet sure; what is the sign that you are being filmed?",
+  "answer": "A phone held still with the lens toward you and no one touching the screen."
  },
  "quiz": [
   {
-   "question": "How much did a Bengaluru techie lose in the AMEX and RBL card fraud reported this week, without sharing any OTP?",
+   "question": "How long did North Bengaluru wait for the Jakkur railway overbridge, which has now opened?",
    "options": [
-    "₹55,000",
-    "₹1.5 lakh",
-    "₹5.5 lakh",
-    "₹15 lakh"
+    "5 years",
+    "10 years",
+    "15 years",
+    "20 years"
    ],
    "answer": 2,
-   "why": "The Times of India: techie loses ₹5.5 lakh in AMEX, RBL card fraud with no transactions made and no OTPs shared."
+   "why": "Asianet Newsable: Jakkur Railway Overbridge opens after a 15-year wait."
   },
   {
-   "question": "In the Blinkit case, how many of the six chocolates in the ₹479 gift pack had expired?",
+   "question": "When is BMRCL aiming to open the Pink Line's underground stretch?",
    "options": [
-    "One",
-    "Two",
-    "Three",
-    "All six"
-   ],
-   "answer": 2,
-   "why": "The Times of India: 3 of 6 chocolates had expired two months earlier; the consumer forum held Blinkit guilty of deficiency in service."
-  },
-  {
-   "question": "How many homebuyers of a stalled Bengaluru project are protected by the Supreme Court's order against coercive action?",
-   "options": [
-    "About 450",
-    "About 1,500",
-    "About 4,500",
-    "About 45,000"
-   ],
-   "answer": 2,
-   "why": "Deccan Herald and Verdictum: nearly 4,500 homebuyers protected until they get possession."
-  },
-  {
-   "question": "How much did the consumer commission order the flying academy to pay the man whose pilot course never started?",
-   "options": [
-    "₹1 lakh",
-    "₹5 lakh",
-    "₹10 lakh",
-    "₹25 lakh"
-   ],
-   "answer": 2,
-   "why": "The Times of India: he paid the academy ₹10 lakh and the commission ordered ₹10 lakh to be paid to him."
-  },
-  {
-   "question": "How much funding was announced from venture capital firms at the Future Makers Conclave at the Bengaluru Tech Summit?",
-   "options": [
-    "₹105 crore",
-    "₹1,050 crore",
-    "₹2,321 crore",
-    "₹10,250 crore"
+    "December 2026",
+    "May 2027",
+    "December 2027",
+    "Mid-2028"
    ],
    "answer": 1,
-   "why": "Deccan Herald: ₹1,050 crore from 24 venture capital firms."
+   "why": "Swarajya: Bengaluru Metro seeks safety nod for Pink Line underground trials, eyes May 2027 opening."
+  },
+  {
+   "question": "Into how many police commissionerates has Bengaluru been split, according to Deccan Herald's report on command overlaps?",
+   "options": [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+   ],
+   "answer": 3,
+   "why": "Deccan Herald: the top-heavy five-commissionerate split exposes command overlaps."
+  },
+  {
+   "question": "In the bike-taxi case, whose plea did the Supreme Court reject?",
+   "options": [
+    "The bike-taxi riders' union's",
+    "The Karnataka government's",
+    "A ride aggregator's",
+    "BMTC's"
+   ],
+   "answer": 1,
+   "why": "YourStory: bike taxis may return to Bengaluru as the Supreme Court rejects Karnataka's plea."
+  },
+  {
+   "question": "How long is the plan Karnataka has launched to tackle antibiotic resistance?",
+   "options": [
+    "One year",
+    "Three years",
+    "Five years",
+    "Ten years"
+   ],
+   "answer": 2,
+   "why": "The Times of India: Karnataka launches five-year plan to tackle antibiotic resistance."
   }
  ]
 }
