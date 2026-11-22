@@ -1,139 +1,147 @@
 {
- "date": "2026-11-21",
- "edition": "evening",
+ "date": "2026-11-22",
+ "edition": "morning",
  "city": "Bengaluru",
- "generated_at": "2026-11-21T19:45:00+05:30",
+ "generated_at": "2026-11-22T07:45:00+05:30",
  "read_seconds": 80,
+ "weather": {
+  "now_c": 18.3,
+  "condition": "Foggy",
+  "high_c": 28.9,
+  "low_c": 18.1,
+  "rain_chance_pct": 0,
+  "tip": "Fog early, then dry and close to 29°C by afternoon with no rain expected. If a property expo is on your Sunday list, use the clear afternoon to drive past the actual project site instead of deciding at the stall."
+ },
  "edge": {
-  "id": "upi-wrong-transfer",
+  "id": "branch-staff-side-deal",
   "category": "Money trap",
-  "title": "The accidental ₹8,000",
-  "setup": "₹8,000 lands in your account. A distressed message follows: wrong number, elderly mother's medicine money, please return. The transaction is real — you can see it. They ask you to send it back to a different UPI ID than the one it came from, or via a link they share.",
-  "tell": "They want the refund to go somewhere other than exactly where it came from.",
+  "title": "The helpful man at the branch",
+  "setup": "A branch executive you have known for years says there is a better return than your FD, a special scheme that is not on the website. Hand over the cheque or cash today, he will 'process it internally' and give you a handwritten acknowledgement. He is in uniform, at his desk, inside the bank.",
+  "tell": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement.",
   "move": [
-   "Never return it yourself. Call your bank, report an unknown credit, let the bank reverse it.",
-   "If the money came from a stolen account or a loan app, your voluntary transfer makes you the visible link in the chain.",
-   "Screenshot everything before you touch anything."
+   "Pay only by transfer from your own account to a product you can see in your own app or on a system-generated receipt.",
+   "Never hand cash or a cheque to an individual, whatever the building he sits in.",
+   "Check your statement and SMS the same day; if the entry is missing, escalate in writing to the branch manager and the bank's grievance channel."
   ],
-  "why": "The money is usually stolen or borrowed in someone else's name. You are being recruited as a mule — an account that launders it one hop further. The bank reversal costs you nothing; the manual refund hands them a clean path and leaves your name on it.",
-  "variants": "Same shape: 'extra salary credited by mistake', refund-for-cancelled-order overpayments, 'I sent you the full amount, send back the difference'.",
+  "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
+  "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit.",
   "scenario": {
-   "question": "₹8,000 from an unknown sender lands in your account on Saturday evening. Minutes later a message: it was meant for their mother's medicine, please send it back, and here is a different UPI ID to send it to because the original account is 'blocked'. What do you do?",
+   "question": "A branch executive you have dealt with for years leans across his desk: there is a scheme paying more than your FD, not on the website, only for regular customers. Give him a cheque today made out as he says, and he will process it internally and hand you a signed note. What do you do?",
    "choices": [
     {
-     "text": "Don't send anything. Screenshot the credit and the messages, call your bank, report an unknown credit and let the bank reverse it.",
+     "text": "Decline the side route. Ask for the product by name, invest only by transfer into something that shows up in your own app or on a system-generated receipt, and check your statement the same day.",
      "verdict": "best"
     },
     {
-     "text": "Send it to the new UPI ID straight away. The money is real and they sound desperate.",
+     "text": "Hand him the cheque. He is in uniform, inside the bank, and you have known him for years.",
      "verdict": "trap"
     },
     {
-     "text": "Open the payment link they share so the refund goes through their 'official' channel.",
+     "text": "Give him cash instead of a cheque so there is less paperwork, and keep his handwritten acknowledgement safely.",
      "verdict": "trap"
     },
     {
-     "text": "Send it back to the same account it came from, without telling your bank.",
+     "text": "Go ahead, but ask him to text you a photo of the scheme brochure first.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "the-record-wins",
-  "name": "The record wins",
-  "one_line": "A dispute is usually decided not by who is right but by who can show it.",
-  "detail": "Courts, consumer commissions, banks and insurers do not see what happened; they see what each side can put on paper. The side with the photo, the bill, the written complaint or the footage gets to tell the story, and a claim the other side cannot back up tends to fall away. That cuts both ways: an organisation that controls the records usually wins, unless it fails to produce them. So the cheapest protection in any dealing is to create your own record at the moment things go wrong, while it is still easy.",
+  "id": "defaults",
+  "name": "Defaults decide",
+  "one_line": "Most people take whatever option is already in front of them, so whoever sets the default usually sets the outcome.",
+  "detail": "Choosing takes effort, and an option that is preselected, nearest or already filled in feels like the recommended one. So the auto-renew box, the insurance bundled with a loan, the lender sitting at the builder's stall and the app's suggested tip win far more often than their merits justify. The person who arranges the default is rarely neutral: they put there whatever pays them best. The defence is cheap: notice when an option arrived without you choosing it, and compare it against one alternative you found yourself.",
   "elsewhere": [
-   "A deposit dispute with a landlord that turns on whether you photographed the flat on the day you moved in.",
-   "An insurance claim that depends on the discharge summary and itemised bills, not on what the doctor told you.",
-   "A UPI fraud report where the time of your complaint to the bank decides how much you can recover."
+   "The insurance policy added to a personal loan by default, which you can ask to remove before signing.",
+   "The auto-renewing subscription whose cancellation takes more steps than signing up did.",
+   "The tax regime or payroll option that applies unless you tell your employer otherwise before the deadline."
   ],
-  "test": "If this goes wrong, what record will I be able to show, and who holds it?",
-  "today": "A consumer commission has ordered BMRCL to pay a passenger ₹5,000 after a Metro grab handle snapped, injuring his nose and breaking ₹3,000 spectacles. BMRCL said he had put his entire body weight on the handle but did not produce CCTV footage, The Times of India reports, and the claim failed. In a separate case the same day, a commission held a doctor negligent and ordered ₹2 lakh compensation after a failed twin pregnancy: in both, the side that could document what happened was heard."
+  "test": "Did I choose this, or was it simply the option already in front of me?",
+  "today": "The Times mega expo in Bengaluru puts 30-plus builders and a home loan team under one roof, The Times of India reports. That convenience is the point: when a lender is already at the next table, its loan becomes the default, and most buyers never price a second one. Before you sign anything there, get one written quote from a bank you approached yourself."
  },
  "moved": [
   {
-   "tag": "Your record",
-   "what": "A consumer commission ordered BMRCL to pay ₹5,000 to a passenger hurt when a Metro grab handle snapped mid-journey; BMRCL blamed him but did not produce CCTV footage, The Times of India reports.",
-   "so_what": "Small claims against big public bodies can succeed. If a service injures you or damages your things, photograph it on the spot, keep the ticket or card record, and get a written complaint acknowledged the same day; that record is what a commission will look at."
-  },
-  {
    "tag": "Commute",
-   "what": "Bike taxis are set to return after the Supreme Court dismissed the Karnataka government's plea against a High Court order, The Times of India reports.",
-   "so_what": "Wait for the bike-taxi option to reappear inside the apps before you use one. A rider offering a ride off-app leaves you with no trip record, no fare receipt and no one to complain to; when you do book, check the plate and rider match the app before you get on."
+   "what": "BMRCL has sought CMRS approval to start underground trials on the Pink Line up to Shivajinagar, Metro Rail News reports, while Blue Line trial runs have begun with the airport line targeted for March 2028, Asianet Newsable reports.",
+   "so_what": "Trials are not opening dates. Don't sign a lease or turn down a flat on the promise of a Pink Line or airport-line station; price the commute you can make today, and treat 2028 as a target, not a date."
   },
   {
-   "tag": "Worth knowing",
-   "what": "Bengaluru airport is trialling simultaneous departures from both runways, with launch likely on 27 November, Moneycontrol reports.",
-   "so_what": "This may shorten take-off queues at peak hours, but it does nothing for the road to the airport or the security line. Keep your usual buffer for the drive and check-in."
+   "tag": "Your record",
+   "what": "The Chief Justice of India, Surya Kant, said no student should be penalised on the basis of an AI-detection tool alone, Live Law reports.",
+   "so_what": "If you, or a student in your family, is flagged by an AI checker, ask in writing for the evidence beyond the score. Drafts, version history and notes are what show the work was yours, so keep them until results are final."
   },
   {
    "tag": "Money",
-   "what": "An SBI-backed property expo opened in Bengaluru on 21 November, City Today News reports.",
-   "so_what": "Expo offers are built to get a booking amount on the day. Before paying anything, check the project's RERA registration and get the loan terms in writing from the bank, not the builder's stall."
+   "what": "National Public School on Sarjapur Road has announced its closure over a land dispute, The Times of India reports.",
+   "so_what": "Parents there should collect fee receipts, transfer certificates and academic records in writing now, and ask how fees already paid for the year will be refunded. For any school admission, advance fees ride on the institution's hold on its land, so ask about it before paying."
+  },
+  {
+   "tag": "Money",
+   "what": "Bitcoin has fallen to a more than two-year low as global markets sink, Moneycontrol reports.",
+   "so_what": "Falls like this bring out 'buy the dip' groups and recovery schemes. Anyone promising a fixed or guaranteed return on crypto is selling the scheme, not the market; if you invest at all, use a platform you opened yourself, not one a group sent you."
   }
  ],
  "carry_over": {
-  "id": "first-meeting-indoors",
-  "prompt": "Someone you've chatted with for a week on a dating app suggests skipping the café and meeting alone at a friend's empty flat; what is the sign this is the wrong first meeting?",
-  "answer": "The first meeting is private, at a place you did not choose, with no one who knows where you are."
+  "id": "upi-wrong-transfer",
+  "prompt": "₹8,000 from a stranger lands in your account, followed by a tearful request to send it back to a different UPI ID; what is the giveaway?",
+  "answer": "They want the refund to go somewhere other than exactly where it came from."
  },
  "quiz": [
   {
-   "question": "How much did a consumer commission order BMRCL to pay the passenger hurt by a snapped grab handle?",
+   "question": "Up to which station has BMRCL sought CMRS approval for Pink Line underground trials?",
    "options": [
-    "₹3,000",
-    "₹5,000",
-    "₹50,000",
-    "₹2 lakh"
+    "MG Road",
+    "Shivajinagar",
+    "Majestic",
+    "Dairy Circle"
    ],
    "answer": 1,
-   "why": "The Times of India: consumer commission orders Rs 5,000 payout after BMRCL fails to produce CCTV footage."
+   "why": "Metro Rail News: BMRCL seeks CMRS nod to start underground trials up to Shivajinagar."
   },
   {
-   "question": "What did BMRCL fail to produce in the grab-handle case?",
+   "question": "When is Bengaluru's airport Metro line targeted to open?",
    "options": [
-    "The train's maintenance log",
-    "The passenger's ticket",
-    "CCTV footage",
-    "A medical report"
+    "March 2027",
+    "December 2027",
+    "March 2028",
+    "December 2029"
    ],
    "answer": 2,
-   "why": "The Times of India: BMRCL claimed the passenger put his entire body weight on the handle but failed to produce CCTV footage."
+   "why": "Asianet Newsable: Blue Line trial runs begin; airport line targeted for March 2028."
   },
   {
-   "question": "Whose plea did the Supreme Court dismiss, clearing the way for bike taxis to return?",
+   "question": "According to the CJI, a student should not be penalised on the basis of what alone?",
    "options": [
-    "Rapido's",
-    "The Karnataka government's",
-    "BMTC's",
-    "An auto drivers' union's"
+    "An anonymous complaint",
+    "An AI-detection tool",
+    "A plagiarism report from another university",
+    "A missed deadline"
    ],
    "answer": 1,
-   "why": "The Times of India: bike taxis to return as SC bins Karnataka plea against HC order."
+   "why": "Live Law: no student should be penalised based on AI detection tool alone, says CJI Surya Kant."
   },
   {
-   "question": "When is Bengaluru airport likely to launch simultaneous departures from both runways?",
+   "question": "Why has National Public School on Sarjapur Road announced its closure?",
    "options": [
-    "21 November",
-    "25 November",
-    "27 November",
-    "1 December"
+    "Low enrolment",
+    "A fee regulation order",
+    "A land dispute",
+    "Building safety violations"
    ],
    "answer": 2,
-   "why": "Moneycontrol: launch of simultaneous departures likely on Nov 27."
+   "why": "The Times of India: NPS-Sarjapur Road announces closure over land dispute."
   },
   {
-   "question": "How much compensation did a consumer commission order a doctor to pay after a failed twin pregnancy case?",
+   "question": "Bitcoin has fallen to its lowest level in more than how long?",
    "options": [
-    "₹50,000",
-    "₹1 lakh",
-    "₹2 lakh",
-    "₹5 lakh"
+    "Six months",
+    "One year",
+    "Two years",
+    "Five years"
    ],
    "answer": 2,
-   "why": "The Times of India: consumer commission holds doctor negligent, orders Rs 2 lakh compensation."
+   "why": "Moneycontrol: Bitcoin falls to more than 2-year low as global markets sink."
   }
  ]
 }

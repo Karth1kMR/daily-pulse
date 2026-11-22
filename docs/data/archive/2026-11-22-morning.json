@@ -1,0 +1,147 @@
+{
+ "date": "2026-11-22",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-22T07:45:00+05:30",
+ "read_seconds": 80,
+ "weather": {
+  "now_c": 18.3,
+  "condition": "Foggy",
+  "high_c": 28.9,
+  "low_c": 18.1,
+  "rain_chance_pct": 0,
+  "tip": "Fog early, then dry and close to 29°C by afternoon with no rain expected. If a property expo is on your Sunday list, use the clear afternoon to drive past the actual project site instead of deciding at the stall."
+ },
+ "edge": {
+  "id": "branch-staff-side-deal",
+  "category": "Money trap",
+  "title": "The helpful man at the branch",
+  "setup": "A branch executive you have known for years says there is a better return than your FD, a special scheme that is not on the website. Hand over the cheque or cash today, he will 'process it internally' and give you a handwritten acknowledgement. He is in uniform, at his desk, inside the bank.",
+  "tell": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement.",
+  "move": [
+   "Pay only by transfer from your own account to a product you can see in your own app or on a system-generated receipt.",
+   "Never hand cash or a cheque to an individual, whatever the building he sits in.",
+   "Check your statement and SMS the same day; if the entry is missing, escalate in writing to the branch manager and the bank's grievance channel."
+  ],
+  "why": "A familiar face and a bank's walls stand in for verification, but only your own record of the transaction proves where the money went. A side deal is built to live outside that record, so it cannot be seen, insured or reversed. The check works on any scheme, whoever is offering it.",
+  "variants": "Same shape: the agent who 'invests' premiums himself, the society treasurer who holds the corpus in his own account, the relative who 'pools' money for a chit.",
+  "scenario": {
+   "question": "A branch executive you have dealt with for years leans across his desk: there is a scheme paying more than your FD, not on the website, only for regular customers. Give him a cheque today made out as he says, and he will process it internally and hand you a signed note. What do you do?",
+   "choices": [
+    {
+     "text": "Decline the side route. Ask for the product by name, invest only by transfer into something that shows up in your own app or on a system-generated receipt, and check your statement the same day.",
+     "verdict": "best"
+    },
+    {
+     "text": "Hand him the cheque. He is in uniform, inside the bank, and you have known him for years.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Give him cash instead of a cheque so there is less paperwork, and keep his handwritten acknowledgement safely.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Go ahead, but ask him to text you a photo of the scheme brochure first.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "defaults",
+  "name": "Defaults decide",
+  "one_line": "Most people take whatever option is already in front of them, so whoever sets the default usually sets the outcome.",
+  "detail": "Choosing takes effort, and an option that is preselected, nearest or already filled in feels like the recommended one. So the auto-renew box, the insurance bundled with a loan, the lender sitting at the builder's stall and the app's suggested tip win far more often than their merits justify. The person who arranges the default is rarely neutral: they put there whatever pays them best. The defence is cheap: notice when an option arrived without you choosing it, and compare it against one alternative you found yourself.",
+  "elsewhere": [
+   "The insurance policy added to a personal loan by default, which you can ask to remove before signing.",
+   "The auto-renewing subscription whose cancellation takes more steps than signing up did.",
+   "The tax regime or payroll option that applies unless you tell your employer otherwise before the deadline."
+  ],
+  "test": "Did I choose this, or was it simply the option already in front of me?",
+  "today": "The Times mega expo in Bengaluru puts 30-plus builders and a home loan team under one roof, The Times of India reports. That convenience is the point: when a lender is already at the next table, its loan becomes the default, and most buyers never price a second one. Before you sign anything there, get one written quote from a bank you approached yourself."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "BMRCL has sought CMRS approval to start underground trials on the Pink Line up to Shivajinagar, Metro Rail News reports, while Blue Line trial runs have begun with the airport line targeted for March 2028, Asianet Newsable reports.",
+   "so_what": "Trials are not opening dates. Don't sign a lease or turn down a flat on the promise of a Pink Line or airport-line station; price the commute you can make today, and treat 2028 as a target, not a date."
+  },
+  {
+   "tag": "Your record",
+   "what": "The Chief Justice of India, Surya Kant, said no student should be penalised on the basis of an AI-detection tool alone, Live Law reports.",
+   "so_what": "If you, or a student in your family, is flagged by an AI checker, ask in writing for the evidence beyond the score. Drafts, version history and notes are what show the work was yours, so keep them until results are final."
+  },
+  {
+   "tag": "Money",
+   "what": "National Public School on Sarjapur Road has announced its closure over a land dispute, The Times of India reports.",
+   "so_what": "Parents there should collect fee receipts, transfer certificates and academic records in writing now, and ask how fees already paid for the year will be refunded. For any school admission, advance fees ride on the institution's hold on its land, so ask about it before paying."
+  },
+  {
+   "tag": "Money",
+   "what": "Bitcoin has fallen to a more than two-year low as global markets sink, Moneycontrol reports.",
+   "so_what": "Falls like this bring out 'buy the dip' groups and recovery schemes. Anyone promising a fixed or guaranteed return on crypto is selling the scheme, not the market; if you invest at all, use a platform you opened yourself, not one a group sent you."
+  }
+ ],
+ "carry_over": {
+  "id": "upi-wrong-transfer",
+  "prompt": "₹8,000 from a stranger lands in your account, followed by a tearful request to send it back to a different UPI ID; what is the giveaway?",
+  "answer": "They want the refund to go somewhere other than exactly where it came from."
+ },
+ "quiz": [
+  {
+   "question": "Up to which station has BMRCL sought CMRS approval for Pink Line underground trials?",
+   "options": [
+    "MG Road",
+    "Shivajinagar",
+    "Majestic",
+    "Dairy Circle"
+   ],
+   "answer": 1,
+   "why": "Metro Rail News: BMRCL seeks CMRS nod to start underground trials up to Shivajinagar."
+  },
+  {
+   "question": "When is Bengaluru's airport Metro line targeted to open?",
+   "options": [
+    "March 2027",
+    "December 2027",
+    "March 2028",
+    "December 2029"
+   ],
+   "answer": 2,
+   "why": "Asianet Newsable: Blue Line trial runs begin; airport line targeted for March 2028."
+  },
+  {
+   "question": "According to the CJI, a student should not be penalised on the basis of what alone?",
+   "options": [
+    "An anonymous complaint",
+    "An AI-detection tool",
+    "A plagiarism report from another university",
+    "A missed deadline"
+   ],
+   "answer": 1,
+   "why": "Live Law: no student should be penalised based on AI detection tool alone, says CJI Surya Kant."
+  },
+  {
+   "question": "Why has National Public School on Sarjapur Road announced its closure?",
+   "options": [
+    "Low enrolment",
+    "A fee regulation order",
+    "A land dispute",
+    "Building safety violations"
+   ],
+   "answer": 2,
+   "why": "The Times of India: NPS-Sarjapur Road announces closure over land dispute."
+  },
+  {
+   "question": "Bitcoin has fallen to its lowest level in more than how long?",
+   "options": [
+    "Six months",
+    "One year",
+    "Two years",
+    "Five years"
+   ],
+   "answer": 2,
+   "why": "Moneycontrol: Bitcoin falls to more than 2-year low as global markets sink."
+  }
+ ]
+}

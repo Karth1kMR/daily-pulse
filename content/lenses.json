@@ -300,6 +300,18 @@
         "A UPI fraud report where the time of your complaint to the bank decides how much you can recover."
       ],
       "test": "If this goes wrong, what record will I be able to show, and who holds it?"
+    },
+    {
+      "id": "defaults",
+      "name": "Defaults decide",
+      "one_line": "Most people take whatever option is already in front of them, so whoever sets the default usually sets the outcome.",
+      "detail": "Choosing takes effort, and an option that is preselected, nearest or already filled in feels like the recommended one. So the auto-renew box, the insurance bundled with a loan, the lender sitting at the builder's stall and the app's suggested tip win far more often than their merits justify. The person who arranges the default is rarely neutral: they put there whatever pays them best. The defence is cheap: notice when an option arrived without you choosing it, and compare it against one alternative you found yourself.",
+      "elsewhere": [
+        "The insurance policy added to a personal loan by default, which you can ask to remove before signing.",
+        "The auto-renewing subscription whose cancellation takes more steps than signing up did.",
+        "The tax regime or payroll option that applies unless you tell your employer otherwise before the deadline."
+      ],
+      "test": "Did I choose this, or was it simply the option already in front of me?"
     }
   ]
 }
