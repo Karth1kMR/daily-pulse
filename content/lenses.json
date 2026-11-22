@@ -312,6 +312,18 @@
         "The tax regime or payroll option that applies unless you tell your employer otherwise before the deadline."
       ],
       "test": "Did I choose this, or was it simply the option already in front of me?"
+    },
+    {
+      "id": "paper-not-the-thing",
+      "name": "Checking the paper, not the thing",
+      "one_line": "A check that only looks at documents can be passed by documents, so whoever can produce the right paper gets through every time.",
+      "detail": "Most approvals are made at a desk: a bill, a delivery note, a signature, a stamp. Each one is checked against the others, so if all the paper agrees, the payment goes through, whether or not the goods, the work or the person behind it ever existed. A fraud aimed at such a system does not need to fool anyone about reality, only to produce consistent paper. The defence is to make at least one check touch the physical thing, by someone who does not also sign the bill.",
+      "elsewhere": [
+        "A contractor's bill for waterproofing that nobody climbed onto the terrace to see.",
+        "A housing society's maintenance spend approved from invoices, with no one counting the items delivered.",
+        "An insurance or reimbursement claim settled because the documents matched, not because the treatment happened."
+      ],
+      "test": "Has anyone who isn't paid by this bill actually seen the thing it says was delivered?"
     }
   ]
 }

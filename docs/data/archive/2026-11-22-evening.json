@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-22",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-22T19:34:01+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 25.4,
+  "condition": "Clear",
+  "high_c": 28.9,
+  "low_c": 18.2,
+  "rain_chance_pct": 0,
+  "tip": "Clear and dry with no rain expected, dropping to about 18°C overnight. If you are trying a bike taxi on an early start tomorrow, that is when the pillion seat is coldest: carry a layer, and given how hard helmet enforcement is running, confirm the rider has a helmet for you before you get on."
+ },
+ "edge": {
+  "id": "coop-society-fd",
+  "category": "Money trap",
+  "title": "The deposit that isn't in a bank",
+  "setup": "A neighbour recommends a 'co-operative' that pays about a point more than bank FDs, with a neat receipt, a friendly office near the market and a name that sounds like a bank. You can open the FD in ten minutes with a cheque. Nothing about it looks different from the branch you already use.",
+  "tell": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI.",
+  "move": [
+   "Before depositing, check that the institution is a licensed bank, not a society. Look it up on the RBI's list of banks.",
+   "If it is a society, treat the money as unprotected by the bank deposit insurance and put in only what you could wait years to recover.",
+   "Keep the receipt and pay by cheque or transfer. If maturity is refused, complain in writing early and ask where a consumer or co-operative registrar complaint can be filed."
+  ],
+  "why": "A higher rate is the price of weaker protection, but the receipt looks the same either way, so the risk is invisible until maturity. The check is about what the institution is, not how it looks or how many neighbours use it. It works on any deposit scheme.",
+  "variants": "Same shape: the chit fund with a registered-sounding name, the 'nidhi' that offers monthly interest, the builder's 'deposit scheme' sold as an FD.",
+  "scenario": {
+   "question": "A neighbour swears by a 'co-operative' near the market paying about a point more than your bank FD. The office is neat, the receipt looks like a bank's, and you can open the deposit in ten minutes with a cheque. What do you do?",
+   "choices": [
+    {
+     "text": "Read the name on the receipt first. If it says 'society' or 'credit co-operative' rather than a bank on the RBI's list, either skip it or put in only money you could wait years to recover, and pay by cheque or transfer.",
+     "verdict": "best"
+    },
+    {
+     "text": "Open it today. Half the street banks there and nobody has had a problem.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Move your whole FD across for the extra point, since the receipt looks exactly like your bank's.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Deposit a smaller amount in cash to try it out for a year.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "paper-not-the-thing",
+  "name": "Checking the paper, not the thing",
+  "one_line": "A check that only looks at documents can be passed by documents, so whoever can produce the right paper gets through every time.",
+  "detail": "Most approvals are made at a desk: a bill, a delivery note, a signature, a stamp. Each one is checked against the others, so if all the paper agrees, the payment goes through, whether or not the goods, the work or the person behind it ever existed. A fraud aimed at such a system does not need to fool anyone about reality, only to produce consistent paper. The defence is to make at least one check touch the physical thing, by someone who does not also sign the bill.",
+  "elsewhere": [
+   "A contractor's bill for waterproofing that nobody climbed onto the terrace to see.",
+   "A housing society's maintenance spend approved from invoices, with no one counting the items delivered.",
+   "An insurance or reimbursement claim settled because the documents matched, not because the treatment happened."
+  ],
+  "test": "Has anyone who isn't paid by this bill actually seen the thing it says was delivered?",
+  "today": "Bills for 2,820 spare parts that never reached BMTC were cleared anyway, Moneycontrol reports, with fake bills used to siphon off nearly ₹4 crore, according to BusinessLine. The paperwork agreed with itself, so it passed. The same gap opens in your own life whenever you pay a contractor or approve a society expense from an invoice no one checked against the actual work."
+ },
+ "moved": [
+  {
+   "tag": "Your record",
+   "what": "Helmetless riding cases in Bengaluru have more than doubled compared with 2025, touching 42.90 lakh, The Hindu reports.",
+   "so_what": "Enforcement at that volume is camera-led, so fines can pile up against your vehicle number without anyone stopping you. Check pending challans yourself on the official e-challan site, never through a link that arrives by SMS or WhatsApp."
+  },
+  {
+   "tag": "Commute",
+   "what": "Bike taxis have been given the green signal in Bengaluru, and commuters are asking for safeguards, The Times of India reports.",
+   "so_what": "Before you sit on the pillion, match the plate and rider's face to the app, share the live trip, and make sure there is a helmet for you. If any of those is missing, cancel and rebook; the next ride is minutes away."
+  },
+  {
+   "tag": "Commute",
+   "what": "A right-to-protest campaign has called for mass civil disobedience on November 28, Deccan Herald reports, while the new police chief says the government has asked the police to reconsider restricting all protests to Freedom Park, The Hindu reports.",
+   "so_what": "November 28 is this Saturday. The headlines don't say where people will gather, so check the traffic police advisory that morning before driving through the city centre, and keep any time-bound plans flexible."
+  },
+  {
+   "tag": "Health",
+   "what": "Karnataka ASHA workers' indefinite strike, demanding a ₹15,000 honorarium, has entered its sixth day, Deccan Herald reports, with about 20,000 of them camping in Bengaluru, according to NDTV.",
+   "so_what": "If your household, or someone who works for you, depends on an ASHA worker for vaccination reminders or pregnancy follow-ups, don't wait for the visit. Go to the nearest primary health centre directly and check what is due."
+  },
+  {
+   "tag": "Your record",
+   "what": "BMRCL has been ordered to pay ₹5,000 to a Metro passenger, Inshorts reports. Separately, The Times of India reports a passenger's nose was injured and his ₹3,000 spectacles broken when a grab handle snapped mid-journey.",
+   "so_what": "If public transport injures you or breaks your things, build the record on the spot: photos, train or bus number, time and station, and a written complaint to the operator the same day. That record is what a claim later rests on."
+  }
+ ],
+ "carry_over": {
+  "id": "branch-staff-side-deal",
+  "prompt": "A branch executive you've known for years offers a better-than-FD scheme that isn't on the website, if you hand him a cheque to process internally; what is the giveaway?",
+  "answer": "Your money leaves your hands, but no entry appears under your name in your own bank app or statement."
+ },
+ "quiz": [
+  {
+   "question": "How many helmetless riding cases has Bengaluru recorded, more than double 2025's count?",
+   "options": [
+    "12.40 lakh",
+    "21.45 lakh",
+    "42.90 lakh",
+    "85.80 lakh"
+   ],
+   "answer": 2,
+   "why": "The Hindu: helmetless riding cases in Bengaluru more than double compared to 2025, touch 42.90 lakh."
+  },
+  {
+   "question": "How many spare parts were billed to BMTC but never reached it?",
+   "options": [
+    "282",
+    "820",
+    "2,820",
+    "28,200"
+   ],
+   "answer": 2,
+   "why": "Moneycontrol: 2,820 spare parts never reached BMTC, but bills were cleared."
+  },
+  {
+   "question": "What monthly honorarium are striking Karnataka ASHA workers demanding?",
+   "options": [
+    "₹8,000",
+    "₹10,000",
+    "₹12,000",
+    "₹15,000"
+   ],
+   "answer": 3,
+   "why": "Deccan Herald: ASHA workers' indefinite strike enters sixth day demanding Rs 15k honorarium."
+  },
+  {
+   "question": "On which date has the right-to-protest campaign called for mass civil disobedience?",
+   "options": [
+    "November 25",
+    "November 26",
+    "November 28",
+    "December 1"
+   ],
+   "answer": 2,
+   "why": "Deccan Herald: the campaign gives call for mass civil disobedience on November 28."
+  },
+  {
+   "question": "How much has BMRCL been ordered to pay a Metro passenger?",
+   "options": [
+    "₹3,000",
+    "₹5,000",
+    "₹10,000",
+    "₹25,000"
+   ],
+   "answer": 1,
+   "why": "Inshorts: BMRCL ordered to pay ₹5,000 to Metro passenger."
+  }
+ ]
+}
