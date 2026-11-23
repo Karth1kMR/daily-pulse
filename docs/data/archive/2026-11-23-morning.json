@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-23",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-23T07:33:29+05:30",
+ "read_seconds": 85,
+ "weather": {
+  "now_c": 20.1,
+  "condition": "Clear",
+  "high_c": 29.8,
+  "low_c": 19.0,
+  "rain_chance_pct": 2,
+  "tip": "Cool and clear this morning, warming to nearly 30°C by afternoon with almost no chance of rain. If you are heading to Namma Oota or any outdoor queue later, go early or carry water; and in light of today's Bisleri story, check the seal on any bottle you buy there."
+ },
+ "edge": {
+  "id": "fake-profit-dashboard",
+  "category": "Money trap",
+  "title": "The profit you can only see",
+  "setup": "Someone you met online adds you to a trading group where members post daily gains. A 'mentor' points you to an app or site, you deposit a small sum, and the screen shows it growing. A small withdrawal even works. Then a much bigger opportunity appears, with a deadline.",
+  "tell": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first.",
+  "move": [
+   "Invest only through a broker or platform you can find on SEBI's list of registered intermediaries, and open the app from the official store listing, not from a link sent to you.",
+   "Never pay a 'tax', 'fee' or 'verification deposit' to release your own money. A real broker deducts charges from the balance.",
+   "If money has gone, call the national cyber-crime helpline 1930 at once and report at cybercrime.gov.in, since early reports give the best chance of freezing the receiving account."
+  ],
+  "why": "A balance on a screen is just a number the operator controls. The first small withdrawal is bait that buys trust, and the real test, taking out a large sum, only arrives after you have committed most. The check is about who controls the ledger, so it works for any app, group or 'mentor' offering returns.",
+  "variants": "Same shape: the crypto 'staking' site, the IPO-allotment group, the 'VIP' forex channel, the task-for-pay app that shows earnings you cannot withdraw.",
+  "scenario": {
+   "question": "A friendly contact from an online trading group points you to an app. Your ₹10,000 deposit shows ₹16,000 after three weeks, and a ₹2,000 withdrawal came through fine. Now the 'mentor' says a pre-IPO slot closes tonight, and to unlock your balance for it you must first pay a ₹25,000 'verification fee'. What do you do?",
+   "choices": [
+    {
+     "text": "Pay nothing more. Check whether the platform appears on SEBI's list of registered intermediaries; if it does not, treat the balance as lost, stop contact, and report on 1930 or cybercrime.gov.in the same day.",
+     "verdict": "best"
+    },
+    {
+     "text": "Pay the fee. The earlier withdrawal worked, so the app is clearly real.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask the mentor to deduct the fee from your balance instead, and go ahead if he agrees.",
+     "verdict": "risky"
+    },
+    {
+     "text": "Borrow from a friend to cover the fee, since the slot closes tonight and you'll repay from the profit.",
+     "verdict": "trap"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "principal-agent",
+  "name": "Principal–agent problem",
+  "one_line": "The person acting for you is paid for something subtly different from what you want.",
+  "detail": "A broker is paid when a deal closes, not when you choose well. An insurance agent is paid on commission, which differs by product. A contractor is paid for the job, not for the job lasting. None of this requires bad intent — the incentive is enough. Knowing the pay structure predicts the advice better than knowing the person.",
+  "elsewhere": [
+   "Fund managers judged quarterly take risks that look fine quarterly.",
+   "A politician's horizon is the next election; infrastructure's horizon is thirty years.",
+   "A mechanic paid per part replaced finds more parts to replace."
+  ],
+  "test": "Before weighing advice, ask: what exactly triggers this person getting paid?",
+  "today": "The Enforcement Directorate has flagged malpractices in 13 KPSC recruitment notifications in a status report to the Karnataka High Court, The Times of India reports. A recruitment body acts for every candidate and the public, but the people running it are not rewarded when the honest candidate gets the post, which is why the process needs outside checks. Apply the same question to any 'consultant' or agent who offers to help you or a relative into a government job: what exactly triggers his payment, and does it depend on you actually being selected fairly?"
+ },
+ "moved": [
+  {
+   "tag": "Your record",
+   "what": "Karnataka is moving into a routine special summary revision of the electoral rolls, after the controversy over the special intensive revision, The Times of India reports.",
+   "so_what": "A revision is the window in which names are added, corrected and removed. Search your name and your family's on the Election Commission's official voter portal now, and if anything is wrong or missing, file the correction during the revision rather than finding out on polling day."
+  },
+  {
+   "tag": "Prices",
+   "what": "India's food regulator is taking Bisleri to court over a water quality finding, Reuters reports.",
+   "so_what": "A well-known label is not a quality test. Whichever brand you buy, check that the seal is intact before opening, keep the bottle or can until it is finished, and watch for any official notice naming batch numbers."
+  },
+  {
+   "tag": "Commute",
+   "what": "A ₹77-crore flyover is planned at Konanakunte Cross to ease congestion, The Indian Express reports, and officials have removed tiles outside Forum Mall to restore the footpath, according to The Times of India.",
+   "so_what": "If you use Kanakapura Road around Konanakunte Cross, expect construction and diversions once work starts, which usually lasts longer than planned. Factor that into any lease or school decision on that stretch now, not after the barricades go up."
+  },
+  {
+   "tag": "Commute",
+   "what": "The right-to-protest campaign's call for mass civil disobedience on November 28 stands, Deccan Herald reports, as a report documents the impact of restricting protests to Freedom Park, The Hindu reports.",
+   "so_what": "November 28 is this Saturday. Check the traffic police advisory that morning before driving through the city centre, and keep time-bound plans for that day flexible."
+  },
+  {
+   "tag": "Worth booking",
+   "what": "DIDAC India 2026, an education and skills exhibition, opens in Bengaluru on November 25, EdexLive reports. The Namma Oota food, art and science festival has opened at Science Gallery Bengaluru, Deccan Herald reports.",
+   "so_what": "If you are weighing a course or a skills switch, DIDAC from Wednesday is a chance to compare providers in one place. Treat any on-the-spot discount or 'placement guarantee' as a sales pitch and get it in writing before paying."
+  }
+ ],
+ "carry_over": {
+  "id": "coop-society-fd",
+  "prompt": "A neighbour's 'co-operative' pays a point more than your bank FD and its receipt looks just like a bank's; what do you check first?",
+  "answer": "The name on the receipt says 'society' or 'credit co-operative', not a bank licensed by the RBI."
+ },
+ "quiz": [
+  {
+   "question": "How many people have been booked in the BMTC spare parts scam?",
+   "options": [
+    "7",
+    "12",
+    "21",
+    "40"
+   ],
+   "answer": 2,
+   "why": "The New Indian Express: 21 booked in Rs 3.97 crore BMTC spare parts scam."
+  },
+  {
+   "question": "What is the planned cost of the new flyover at Konanakunte Cross?",
+   "options": [
+    "₹27 crore",
+    "₹48 crore",
+    "₹77 crore",
+    "₹120 crore"
+   ],
+   "answer": 2,
+   "why": "The Indian Express: new Rs 77-crore flyover to decongest Konanakunte Cross."
+  },
+  {
+   "question": "In how many KPSC recruitment notifications has the Enforcement Directorate flagged malpractices?",
+   "options": [
+    "5",
+    "9",
+    "13",
+    "21"
+   ],
+   "answer": 2,
+   "why": "The Times of India: ED flags malpractices in 13 KPSC recruitment notifications, submits status report to Karnataka high court."
+  },
+  {
+   "question": "How many participants did the Bengaluru Marathon 2026 draw?",
+   "options": [
+    "6,000",
+    "8,500",
+    "11,000",
+    "15,000"
+   ],
+   "answer": 2,
+   "why": "NDTV Sports: Bengaluru Marathon 2026 draws record 11,000 participants and earns international status."
+  },
+  {
+   "question": "From which date will Bengaluru host the DIDAC India 2026 education and skills exhibition?",
+   "options": [
+    "November 23",
+    "November 25",
+    "November 28",
+    "December 1"
+   ],
+   "answer": 1,
+   "why": "EdexLive: DIDAC India 2026, Bengaluru to host education and skills exhibition from November 25."
+  }
+ ]
+}
