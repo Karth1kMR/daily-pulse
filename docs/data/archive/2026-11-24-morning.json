@@ -1,0 +1,154 @@
+{
+ "date": "2026-11-24",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-24T07:34:30+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 22.2,
+  "condition": "Overcast",
+  "high_c": 28.1,
+  "low_c": 20.8,
+  "rain_chance_pct": 96,
+  "tip": "Rain is near-certain today, so with yesterday's pole collapse in mind, don't shelter or park under poles, hoardings or sagging cables when it starts, and allow extra time on any road with fresh digging."
+ },
+ "edge": {
+  "id": "video-call-sextortion",
+  "category": "Safety trap",
+  "title": "The video call that is being recorded",
+  "anchor": "A Bengaluru man lost ₹2.2 lakh after a dating-app video call turned into a sextortion trap, The Times of India reports.",
+  "setup": "A match on a dating app is friendly, attractive and quick to move the chat to WhatsApp. Within a day or two they suggest a video call late at night, and on the call they turn intimate fast and ask you to do the same. Minutes after it ends, a new number sends you a clip of yourself next to a list of your friends and family from social media, with a demand for money or it goes to all of them.",
+  "tell": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you.",
+  "move": [
+   "Keep early video calls with new matches short and fully clothed, and decline any that turn sexual before you have met in person.",
+   "Keep your friend and follower lists private, since that list is what the threat is built on.",
+   "If a demand arrives, do not pay and do not negotiate; stop replying, but do not delete the chat.",
+   "Screenshot the profile, numbers, messages and any payment details, then report on 1930 or cybercrime.gov.in the same day and tell one person you trust."
+  ],
+  "why": "The whole scheme runs on shame and speed: the footage takes seconds to capture, and the threat works only if you pay before you think. Paying buys nothing, because there is no way to check that a copy was deleted, and it proves you are someone who pays, so the demand usually comes back larger. The leverage disappears once the blackmailer sees you will not engage and the matter is already with the police.",
+  "variants": "Same shape: a 'wrong number' video call that shows a stranger undressing, a fake 'police officer' who calls afterwards about the video, a 'YouTube removal' agent who charges a fee to take a clip down.",
+  "scenario": {
+   "question": "Ten minutes after a late-night video call with a new match, an unknown number sends you a clip of yourself from the call and a screenshot of your Instagram followers. The message says: pay ₹25,000 in the next hour or it goes to everyone on the list. What do you do?",
+   "choices": [
+    {
+     "text": "Stop replying, do not pay, screenshot the clip message, numbers and payment details, report on 1930 or cybercrime.gov.in, and tell someone you trust.",
+     "verdict": "best"
+    },
+    {
+     "text": "Pay the ₹25,000 once so it goes away before anyone sees it.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Plead with them and offer a smaller amount to delete the video.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Delete the chat and your accounts straight away so there is nothing left.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "currency-mismatch",
+  "name": "Currency mismatch",
+  "one_line": "Owing money in a currency you don't earn turns every move in the exchange rate into a bill you never agreed to.",
+  "detail": "When your income is in rupees but a debt or a regular cost is in dollars or euros, a falling rupee raises what you owe without you borrowing a paisa more. The extra never shows up as a decision anyone made; it arrives through the exchange rate. That is why the risk stays invisible in calm years and then lands all at once. The defence is to match what you owe with what you earn, or to hold a buffer in the currency you will need.",
+  "elsewhere": [
+   "An overseas education loan or a child's fees abroad paid from a rupee salary.",
+   "A foreign trip or course priced in dollars and paid months after you budgeted for it.",
+   "A freelancer's software and cloud bills charged in dollars against income earned in rupees."
+  ],
+  "test": "If the rupee fell 10% tomorrow, which of my payments would go up?",
+  "today": "Namma Metro's finance costs rose 220% to ₹1,793 crore, which Metro Rail News links to the rupee's fall, while farebox revenue hit a record ₹1,126 crore and the loss still widened to ₹1,710 crore, Moneycontrol reports. Riders and fares both grew, but a cost set by the exchange rate grew faster than anything the Metro controls. Before taking on any payment in a foreign currency, ask what it costs you if the rupee keeps sliding."
+ },
+ "moved": [
+  {
+   "tag": "Money",
+   "what": "Eleven unauthorised transactions drained ₹42.4 lakh from a Bengaluru firm's account in 30 minutes, The Times of India reports.",
+   "so_what": "Speed is the whole attack: the money left before anyone could react. On any business or family account with net banking, set a daily transfer limit well below the balance, make sure alerts reach a phone someone watches, and if a debit you did not make appears, call the bank and 1930 within minutes."
+  },
+  {
+   "tag": "Commute",
+   "what": "Karnataka's minister says there is no immediate proposal to raise Namma Metro fares, ThePrint reports, even as the Metro's loss widened to ₹1,710 crore.",
+   "so_what": "No need to rush into changing your commute or buying ahead. 'No immediate proposal' is a delay, not a decision, so keep yesterday's check on your monthly Metro spend in mind."
+  },
+  {
+   "tag": "Your money",
+   "what": "The Hebbal–Sarjapur Red Line may slip to 2033 because the Centre's approval is still pending, Metro Rail News reports.",
+   "so_what": "If a builder or broker on Sarjapur Road or the ORR is charging extra for 'metro coming soon', you would be paying today for a line at least seven years away. Price a rent or purchase on the commute that exists now."
+  },
+  {
+   "tag": "Safety",
+   "what": "A concrete pole fell on a moving car in Bengaluru, leaving a businessman with serious spinal injuries; his family blames BESCOM for shoddy work, The Hindu and The Times of India report.",
+   "so_what": "Do not park or wait under a pole that leans or sits beside freshly dug ground. If there is one on your street, report it to BESCOM in writing with a photo and location, so there is a record if it falls."
+  },
+  {
+   "tag": "Commute",
+   "what": "Bengaluru Jatre opens on 4 December with a grand procession on MG Road and Brigade Road, The Times of India reports.",
+   "so_what": "If you usually drive or cab through the CBD, plan to take the Metro on 4 December and check the traffic police's diversion advisory that morning."
+  }
+ ],
+ "carry_over": {
+  "id": "vendor-substitution",
+  "prompt": "Your wedding photographer promised on the phone to shoot it himself with a four-person team, but the quotation says only 'Premium wedding package' and he wants 70% today. What is the giveaway?",
+  "answer": "The thing you were promised in conversation is missing from the paper you signed."
+ },
+ "quiz": [
+  {
+   "question": "How much did a Bengaluru man lose after a dating-app video call turned into sextortion?",
+   "options": [
+    "₹22,000",
+    "₹2.2 lakh",
+    "₹4.2 lakh",
+    "₹22 lakh"
+   ],
+   "answer": 1,
+   "why": "The Times of India: Dating app video call turns into sextortion trap, Bengaluru man loses Rs 2.2 lakh."
+  },
+  {
+   "question": "How long did it take for 11 unauthorised transactions to drain ₹42.4 lakh from a Bengaluru firm?",
+   "options": [
+    "30 minutes",
+    "3 hours",
+    "One day",
+    "One week"
+   ],
+   "answer": 0,
+   "why": "The Times of India: 11 unauthorised transactions drain Rs 42.4 lakh from Bengaluru firm in 30 minutes."
+  },
+  {
+   "question": "By how much did Namma Metro's finance costs rise, according to Metro Rail News?",
+   "options": [
+    "22%",
+    "49%",
+    "120%",
+    "220%"
+   ],
+   "answer": 3,
+   "why": "Metro Rail News: Bengaluru Metro's finance costs surge 220% to ₹1,793 crore amid rupee depreciation."
+  },
+  {
+   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
+   "options": [
+    "2028",
+    "2030",
+    "2033",
+    "2035"
+   ],
+   "answer": 2,
+   "why": "Metro Rail News: Hebbal-Sarjapur corridor may slip to 2033 as the Centre's approval remains pending."
+  },
+  {
+   "question": "By how much has BWSSB's jurisdiction grown?",
+   "options": [
+    "196 sq km",
+    "896 sq km",
+    "2,196 sq km",
+    "3,453 sq km"
+   ],
+   "answer": 2,
+   "why": "The Times of India: BWSSB jurisdiction rises by 2,196 sqkm as Bengaluru plans water expansion."
+  }
+ ]
+}

@@ -324,6 +324,18 @@
         "An insurance or reimbursement claim settled because the documents matched, not because the treatment happened."
       ],
       "test": "Has anyone who isn't paid by this bill actually seen the thing it says was delivered?"
+    },
+    {
+      "id": "currency-mismatch",
+      "name": "Currency mismatch",
+      "one_line": "Owing money in a currency you don't earn turns every move in the exchange rate into a bill you never agreed to.",
+      "detail": "When your income is in rupees but a debt or a regular cost is in dollars or euros, a falling rupee raises what you owe without you borrowing a paisa more. The extra never shows up as a decision anyone made; it arrives through the exchange rate. That is why the risk stays invisible in calm years and then lands all at once. The defence is to match what you owe with what you earn, or to hold a buffer in the currency you will need.",
+      "elsewhere": [
+        "An overseas education loan or a child's fees abroad paid from a rupee salary.",
+        "A foreign trip or course priced in dollars and paid months after you budgeted for it.",
+        "A freelancer's software and cloud bills charged in dollars against income earned in rupees."
+      ],
+      "test": "If the rupee fell 10% tomorrow, which of my payments would go up?"
     }
   ]
 }

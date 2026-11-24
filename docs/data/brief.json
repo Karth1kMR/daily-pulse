@@ -1,146 +1,154 @@
 {
- "date": "2026-11-23",
- "edition": "evening",
+ "date": "2026-11-24",
+ "edition": "morning",
  "city": "Bengaluru",
- "generated_at": "2026-11-23T19:35:04+05:30",
- "read_seconds": 80,
- "weather": null,
+ "generated_at": "2026-11-24T07:34:30+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 22.2,
+  "condition": "Overcast",
+  "high_c": 28.1,
+  "low_c": 20.8,
+  "rain_chance_pct": 96,
+  "tip": "Rain is near-certain today, so with yesterday's pole collapse in mind, don't shelter or park under poles, hoardings or sagging cables when it starts, and allow extra time on any road with fresh digging."
+ },
  "edge": {
-  "id": "vendor-substitution",
-  "category": "Money trap",
-  "title": "The vendor who sends someone else",
-  "setup": "It is wedding and event season. You book a photographer, caterer or decorator and pay a large advance. The sales call promised the senior person, 'personal coverage' and a named team. The agreement you sign says only 'photography package'. On the day, assistants you have never met turn up and the person you paid is elsewhere.",
-  "tell": "The thing you were promised in conversation is missing from the paper you signed.",
+  "id": "video-call-sextortion",
+  "category": "Safety trap",
+  "title": "The video call that is being recorded",
+  "anchor": "A Bengaluru man lost ₹2.2 lakh after a dating-app video call turned into a sextortion trap, The Times of India reports.",
+  "setup": "A match on a dating app is friendly, attractive and quick to move the chat to WhatsApp. Within a day or two they suggest a video call late at night, and on the call they turn intimate fast and ask you to do the same. Minutes after it ends, a new number sends you a clip of yourself next to a list of your friends and family from social media, with a demand for money or it goes to all of them.",
+  "tell": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you.",
   "move": [
-   "Before paying, get every promise written into the booking: who will attend in person, how many people, which hours, what is delivered and by when.",
-   "Pay in stages and keep the largest part until delivery, never the full amount upfront.",
-   "If the vendor will not write the promise down, treat that as your answer and book someone else.",
-   "If it goes wrong, keep the messages, receipts and the agreement, send a written complaint first, and then approach the consumer commission."
+   "Keep early video calls with new matches short and fully clothed, and decline any that turn sexual before you have met in person.",
+   "Keep your friend and follower lists private, since that list is what the threat is built on.",
+   "If a demand arrives, do not pay and do not negotiate; stop replying, but do not delete the chat.",
+   "Screenshot the profile, numbers, messages and any payment details, then report on 1930 or cybercrime.gov.in the same day and tell one person you trust."
   ],
-  "why": "Verbal promises are cheap for a seller to make and impossible for you to enforce. A vendor sells the senior name to win the booking and then delivers whatever is cheapest, and only the signed terms can be held against them. Writing a promise down costs an honest vendor nothing, which is why a vendor who resists it is telling you something.",
-  "variants": "Same shape: a contractor who promises a named supervisor, a coaching class that promises a particular teacher, a caterer who shows a tasting menu and serves another.",
+  "why": "The whole scheme runs on shame and speed: the footage takes seconds to capture, and the threat works only if you pay before you think. Paying buys nothing, because there is no way to check that a copy was deleted, and it proves you are someone who pays, so the demand usually comes back larger. The leverage disappears once the blackmailer sees you will not engage and the matter is already with the police.",
+  "variants": "Same shape: a 'wrong number' video call that shows a stranger undressing, a fake 'police officer' who calls afterwards about the video, a 'YouTube removal' agent who charges a fee to take a clip down.",
   "scenario": {
-   "question": "You are booking a photographer for a family wedding in December. The studio owner promises on the phone that he will shoot it himself with a four-person team, and asks for a 70% advance today to 'block the date'. The quotation he sends says only 'Premium wedding package, ₹1,40,000'. What do you do?",
+   "question": "Ten minutes after a late-night video call with a new match, an unknown number sends you a clip of yourself from the call and a screenshot of your Instagram followers. The message says: pay ₹25,000 in the next hour or it goes to everyone on the list. What do you do?",
    "choices": [
     {
-     "text": "Reply asking him to add to the quotation who will attend in person, team size, hours and delivery dates, and offer a smaller advance with the balance on delivery. Pay only once the written terms match the call.",
+     "text": "Stop replying, do not pay, screenshot the clip message, numbers and payment details, report on 1930 or cybercrime.gov.in, and tell someone you trust.",
      "verdict": "best"
     },
     {
-     "text": "Pay the 70% today. He sounded sincere and the date might go.",
+     "text": "Pay the ₹25,000 once so it goes away before anyone sees it.",
      "verdict": "trap"
     },
     {
-     "text": "Pay, and screenshot his Instagram posts showing him shooting weddings as proof of what he offers.",
+     "text": "Plead with them and offer a smaller amount to delete the video.",
      "verdict": "trap"
     },
     {
-     "text": "Pay a smaller advance but leave the quotation as it is, since you will remind him nearer the date.",
+     "text": "Delete the chat and your accounts straight away so there is nothing left.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "cost-incidence",
-  "name": "Cost incidence",
-  "one_line": "Whoever writes the cheque is rarely who ends up paying.",
-  "detail": "A cost lands first on whoever is billed, then moves to whoever can't get out of the way: tenants, commuters, customers, taxpayers. Arguments about who 'pays' usually describe the first step only. To know what a cost means for you, follow it until it reaches someone with no alternative.",
+  "id": "currency-mismatch",
+  "name": "Currency mismatch",
+  "one_line": "Owing money in a currency you don't earn turns every move in the exchange rate into a bill you never agreed to.",
+  "detail": "When your income is in rupees but a debt or a regular cost is in dollars or euros, a falling rupee raises what you owe without you borrowing a paisa more. The extra never shows up as a decision anyone made; it arrives through the exchange rate. That is why the risk stays invisible in calm years and then lands all at once. The defence is to match what you owe with what you earn, or to hold a buffer in the currency you will need.",
   "elsewhere": [
-   "A property-tax rise that shows up months later in your rent.",
-   "'Free delivery' that is built into the menu price.",
-   "A fee charged to the shop that turns into a surcharge on your bill."
+   "An overseas education loan or a child's fees abroad paid from a rupee salary.",
+   "A foreign trip or course priced in dollars and paid months after you budgeted for it.",
+   "A freelancer's software and cloud bills charged in dollars against income earned in rupees."
   ],
-  "test": "If this cost went up tomorrow, whose price, fare or tax would change? That person is the one paying.",
-  "today": "Namma Metro's ridership rose 12% while its fare revenue jumped 50%, and its loss still widened to ₹1,717 crore, The Times of India reports. Revenue growing four times faster than riders means each trip is bringing in more, so the cost of running the system is landing on the people who have no cheaper way to cross the city. With the loss still widening, ask who closes that gap next: the rider's fare, the taxpayer, or both."
+  "test": "If the rupee fell 10% tomorrow, which of my payments would go up?",
+  "today": "Namma Metro's finance costs rose 220% to ₹1,793 crore, which Metro Rail News links to the rupee's fall, while farebox revenue hit a record ₹1,126 crore and the loss still widened to ₹1,710 crore, Moneycontrol reports. Riders and fares both grew, but a cost set by the exchange rate grew faster than anything the Metro controls. Before taking on any payment in a foreign currency, ask what it costs you if the rupee keeps sliding."
  },
  "moved": [
   {
-   "tag": "Commute",
-   "what": "Namma Metro ridership is up 12% and fare revenue up 50%, but the loss has widened to ₹1,717 crore, The Times of India reports.",
-   "so_what": "A widening loss keeps pressure on fares. If Metro is your daily commute, work out your monthly spend now so a future revision does not catch your budget off guard, and compare it with a bus pass or a mixed route."
-  },
-  {
    "tag": "Money",
-   "what": "The Sensex fell 1,484 points and the Nifty closed at 25,349.65 on Monday, dragged down by bank stocks, BusinessLine reports.",
-   "so_what": "If you hold SIPs or index funds, a one-day fall is not a reason to stop them; stopping locks in the low. If you were waiting to put in a lump sum you had already set aside, a down day costs you nothing to use, but do not borrow to 'buy the dip'."
+   "what": "Eleven unauthorised transactions drained ₹42.4 lakh from a Bengaluru firm's account in 30 minutes, The Times of India reports.",
+   "so_what": "Speed is the whole attack: the money left before anyone could react. On any business or family account with net banking, set a daily transfer limit well below the balance, make sure alerts reach a phone someone watches, and if a debit you did not make appears, call the bank and 1930 within minutes."
   },
   {
-   "tag": "Your record",
-   "what": "The state government is raising the minimum site size in housing schemes to 30x40 feet, The Times of India reports.",
-   "so_what": "If you or your family are applying for a site in a government housing scheme, expect a bigger plot and a bigger price. Read the official notification for the final size and cost before paying any application or registration amount."
+   "tag": "Commute",
+   "what": "Karnataka's minister says there is no immediate proposal to raise Namma Metro fares, ThePrint reports, even as the Metro's loss widened to ₹1,710 crore.",
+   "so_what": "No need to rush into changing your commute or buying ahead. 'No immediate proposal' is a delay, not a decision, so keep yesterday's check on your monthly Metro spend in mind."
   },
   {
-   "tag": "Your record",
-   "what": "The Karnataka High Court has held that contract appointees cannot be removed arbitrarily before their tenure ends, The Times of India reports.",
-   "so_what": "If you are on a fixed-term contract, keep your appointment order and any extension letters where you can find them. The tenure written on that paper is what you can hold an employer to."
+   "tag": "Your money",
+   "what": "The Hebbal–Sarjapur Red Line may slip to 2033 because the Centre's approval is still pending, Metro Rail News reports.",
+   "so_what": "If a builder or broker on Sarjapur Road or the ORR is charging extra for 'metro coming soon', you would be paying today for a line at least seven years away. Price a rent or purchase on the commute that exists now."
   },
   {
-   "tag": "Worth booking",
-   "what": "Bengaluru Jatre runs from 4 to 13 December with over 200 events and 500 folk artists across the city, including a Sunidhi Chauhan concert, The Indian Express and Deccan Chronicle report.",
-   "so_what": "Block a weekend evening now if you want to go. For any ticketed show, buy only through the channel the organisers announce, not a reseller link forwarded on WhatsApp."
+   "tag": "Safety",
+   "what": "A concrete pole fell on a moving car in Bengaluru, leaving a businessman with serious spinal injuries; his family blames BESCOM for shoddy work, The Hindu and The Times of India report.",
+   "so_what": "Do not park or wait under a pole that leans or sits beside freshly dug ground. If there is one on your street, report it to BESCOM in writing with a photo and location, so there is a record if it falls."
+  },
+  {
+   "tag": "Commute",
+   "what": "Bengaluru Jatre opens on 4 December with a grand procession on MG Road and Brigade Road, The Times of India reports.",
+   "so_what": "If you usually drive or cab through the CBD, plan to take the Metro on 4 December and check the traffic police's diversion advisory that morning."
   }
  ],
  "carry_over": {
-  "id": "fake-profit-dashboard",
-  "prompt": "Your trading-app balance has grown and a small withdrawal worked, but now you must pay a 'verification fee' to unlock the rest for a deal closing tonight. What is the giveaway?",
-  "answer": "Your profit exists only on a screen run by the people asking for your next deposit, and getting money out needs another payment first."
+  "id": "vendor-substitution",
+  "prompt": "Your wedding photographer promised on the phone to shoot it himself with a four-person team, but the quotation says only 'Premium wedding package' and he wants 70% today. What is the giveaway?",
+  "answer": "The thing you were promised in conversation is missing from the paper you signed."
  },
  "quiz": [
   {
-   "question": "How large is Namma Metro's loss, according to the latest figures reported?",
+   "question": "How much did a Bengaluru man lose after a dating-app video call turned into sextortion?",
    "options": [
-    "₹517 crore",
-    "₹1,117 crore",
-    "₹1,717 crore",
-    "₹2,170 crore"
-   ],
-   "answer": 2,
-   "why": "The Times of India: Namma Metro ridership up 12%, fare revenue jumps 50%; loss widens to Rs 1,717 crore."
-  },
-  {
-   "question": "When does the Bengaluru Jatre festival begin?",
-   "options": [
-    "25 November",
-    "1 December",
-    "4 December",
-    "13 December"
-   ],
-   "answer": 2,
-   "why": "Deccan Chronicle: Bengaluru Jatre from Dec 4–13 to showcase the city's cultural diversity."
-  },
-  {
-   "question": "By how many points did the Sensex fall on 23 November?",
-   "options": [
-    "484",
-    "984",
-    "1,484",
-    "2,048"
-   ],
-   "answer": 2,
-   "why": "BusinessLine: Sensex plunges 1,484 points, Nifty dives to 25,349.65, dragged by banks."
-  },
-  {
-   "question": "What new minimum site size is the government setting for housing schemes?",
-   "options": [
-    "20x30 feet",
-    "30x40 feet",
-    "30x50 feet",
-    "40x60 feet"
+    "₹22,000",
+    "₹2.2 lakh",
+    "₹4.2 lakh",
+    "₹22 lakh"
    ],
    "answer": 1,
-   "why": "The Times of India: Govt to increase min site size to 30x40 feet in housing schemes."
+   "why": "The Times of India: Dating app video call turns into sextortion trap, Bengaluru man loses Rs 2.2 lakh."
   },
   {
-   "question": "How many mega tree parks are planned for Bengaluru?",
+   "question": "How long did it take for 11 unauthorised transactions to drain ₹42.4 lakh from a Bengaluru firm?",
    "options": [
-    "5",
-    "10",
-    "15",
-    "25"
+    "30 minutes",
+    "3 hours",
+    "One day",
+    "One week"
    ],
-   "answer": 1,
-   "why": "The Times of India: 10 mega tree parks planned to give Bengaluru more lung space."
+   "answer": 0,
+   "why": "The Times of India: 11 unauthorised transactions drain Rs 42.4 lakh from Bengaluru firm in 30 minutes."
+  },
+  {
+   "question": "By how much did Namma Metro's finance costs rise, according to Metro Rail News?",
+   "options": [
+    "22%",
+    "49%",
+    "120%",
+    "220%"
+   ],
+   "answer": 3,
+   "why": "Metro Rail News: Bengaluru Metro's finance costs surge 220% to ₹1,793 crore amid rupee depreciation."
+  },
+  {
+   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
+   "options": [
+    "2028",
+    "2030",
+    "2033",
+    "2035"
+   ],
+   "answer": 2,
+   "why": "Metro Rail News: Hebbal-Sarjapur corridor may slip to 2033 as the Centre's approval remains pending."
+  },
+  {
+   "question": "By how much has BWSSB's jurisdiction grown?",
+   "options": [
+    "196 sq km",
+    "896 sq km",
+    "2,196 sq km",
+    "3,453 sq km"
+   ],
+   "answer": 2,
+   "why": "The Times of India: BWSSB jurisdiction rises by 2,196 sqkm as Bengaluru plans water expansion."
   }
  ]
 }
