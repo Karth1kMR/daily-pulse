@@ -336,6 +336,18 @@
         "A freelancer's software and cloud bills charged in dollars against income earned in rupees."
       ],
       "test": "If the rupee fell 10% tomorrow, which of my payments would go up?"
+    },
+    {
+      "id": "refutation-gap",
+      "name": "Cheap to claim, costly to check",
+      "one_line": "A claim that takes seconds to make can take hours or days to disprove, so whoever makes it controls everyone else's time.",
+      "detail": "Sending a threat, a rumour or an accusation costs almost nothing; checking it properly costs real people, money and attention, and it has to be done because the rare true one is too expensive to ignore. That gap is why hoaxes, viral complaints and fake alerts keep coming: the sender pays nothing and the checker pays everything. As a reader, the useful habit is to notice which side of the gap you are on, and not to pass a claim along before the costly check has been done.",
+      "elsewhere": [
+        "A forwarded message saying a brand of water or medicine is unsafe, which the company then spends days denying.",
+        "A one-line negative review that a small shop cannot answer without a long public explanation.",
+        "A false complaint to a housing society or employer that takes weeks of meetings to clear."
+      ],
+      "test": "Before I believe or forward this, who has actually done the slow check, and what did they find?"
     }
   ]
 }

@@ -1,154 +1,153 @@
 {
  "date": "2026-11-24",
- "edition": "morning",
+ "edition": "evening",
  "city": "Bengaluru",
- "generated_at": "2026-11-24T07:34:30+05:30",
+ "generated_at": "2026-11-24T19:34:51+05:30",
  "read_seconds": 90,
  "weather": {
-  "now_c": 22.2,
-  "condition": "Overcast",
-  "high_c": 28.1,
+  "now_c": 21.6,
+  "condition": "Light drizzle",
+  "high_c": 28.4,
   "low_c": 20.8,
-  "rain_chance_pct": 96,
-  "tip": "Rain is near-certain today, so with yesterday's pole collapse in mind, don't shelter or park under poles, hoardings or sagging cables when it starts, and allow extra time on any road with fresh digging."
+  "rain_chance_pct": 100,
+  "tip": "Drizzle now and rain all but certain, and BWSSB cuts Cauvery water from 06:00 to 18:00 tomorrow, so fill your buckets and sump tonight rather than counting on a morning top-up."
  },
  "edge": {
-  "id": "video-call-sextortion",
-  "category": "Safety trap",
-  "title": "The video call that is being recorded",
-  "anchor": "A Bengaluru man lost ₹2.2 lakh after a dating-app video call turned into a sextortion trap, The Times of India reports.",
-  "setup": "A match on a dating app is friendly, attractive and quick to move the chat to WhatsApp. Within a day or two they suggest a video call late at night, and on the call they turn intimate fast and ask you to do the same. Minutes after it ends, a new number sends you a clip of yourself next to a list of your friends and family from social media, with a demand for money or it goes to all of them.",
-  "tell": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you.",
+  "id": "scan-to-receive",
+  "category": "Money trap",
+  "title": "The QR you scan to get paid",
+  "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
+  "tell": "You were asked for your UPI PIN to receive money.",
   "move": [
-   "Keep early video calls with new matches short and fully clothed, and decline any that turn sexual before you have met in person.",
-   "Keep your friend and follower lists private, since that list is what the threat is built on.",
-   "If a demand arrives, do not pay and do not negotiate; stop replying, but do not delete the chat.",
-   "Screenshot the profile, numbers, messages and any payment details, then report on 1930 or cybercrime.gov.in the same day and tell one person you trust."
+   "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
+   "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
+   "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
+   "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
   ],
-  "why": "The whole scheme runs on shame and speed: the footage takes seconds to capture, and the threat works only if you pay before you think. Paying buys nothing, because there is no way to check that a copy was deleted, and it proves you are someone who pays, so the demand usually comes back larger. The leverage disappears once the blackmailer sees you will not engage and the matter is already with the police.",
-  "variants": "Same shape: a 'wrong number' video call that shows a stranger undressing, a fake 'police officer' who calls afterwards about the video, a 'YouTube removal' agent who charges a fee to take a clip down.",
+  "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
+  "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters.",
   "scenario": {
-   "question": "Ten minutes after a late-night video call with a new match, an unknown number sends you a clip of yourself from the call and a screenshot of your Instagram followers. The message says: pay ₹25,000 in the next hour or it goes to everyone on the list. What do you do?",
+   "question": "You've listed an old cycle for ₹6,000. A buyer on WhatsApp agrees the price, says his bank app won't let him send to new contacts, and sends you a QR code: 'Scan this and enter your PIN, the ₹6,000 will come to you.' What do you do?",
    "choices": [
     {
-     "text": "Stop replying, do not pay, screenshot the clip message, numbers and payment details, report on 1930 or cybercrime.gov.in, and tell someone you trust.",
+     "text": "Don't scan it. Send him your own UPI ID or QR and tell him to pay from his side; hand over the cycle only once the money shows in your bank app.",
      "verdict": "best"
     },
     {
-     "text": "Pay the ₹25,000 once so it goes away before anyone sees it.",
+     "text": "Scan it and enter your PIN, since the screen shows ₹6,000 and that's the agreed price.",
      "verdict": "trap"
     },
     {
-     "text": "Plead with them and offer a smaller amount to delete the video.",
+     "text": "Scan it but try a small ₹1 test first to see which way the money moves.",
      "verdict": "trap"
     },
     {
-     "text": "Delete the chat and your accounts straight away so there is nothing left.",
+     "text": "Ask him to send a screenshot of the payment instead and release the cycle on that.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "currency-mismatch",
-  "name": "Currency mismatch",
-  "one_line": "Owing money in a currency you don't earn turns every move in the exchange rate into a bill you never agreed to.",
-  "detail": "When your income is in rupees but a debt or a regular cost is in dollars or euros, a falling rupee raises what you owe without you borrowing a paisa more. The extra never shows up as a decision anyone made; it arrives through the exchange rate. That is why the risk stays invisible in calm years and then lands all at once. The defence is to match what you owe with what you earn, or to hold a buffer in the currency you will need.",
+  "id": "refutation-gap",
+  "name": "Cheap to claim, costly to check",
+  "one_line": "A claim that takes seconds to make can take hours or days to disprove, so whoever makes it controls everyone else's time.",
+  "detail": "Sending a threat, a rumour or an accusation costs almost nothing; checking it properly costs real people, money and attention, and it has to be done because the rare true one is too expensive to ignore. That gap is why hoaxes, viral complaints and fake alerts keep coming: the sender pays nothing and the checker pays everything. As a reader, the useful habit is to notice which side of the gap you are on, and not to pass a claim along before the costly check has been done.",
   "elsewhere": [
-   "An overseas education loan or a child's fees abroad paid from a rupee salary.",
-   "A foreign trip or course priced in dollars and paid months after you budgeted for it.",
-   "A freelancer's software and cloud bills charged in dollars against income earned in rupees."
+   "A forwarded message saying a brand of water or medicine is unsafe, which the company then spends days denying.",
+   "A one-line negative review that a small shop cannot answer without a long public explanation.",
+   "A false complaint to a housing society or employer that takes weeks of meetings to clear."
   ],
-  "test": "If the rupee fell 10% tomorrow, which of my payments would go up?",
-  "today": "Namma Metro's finance costs rose 220% to ₹1,793 crore, which Metro Rail News links to the rupee's fall, while farebox revenue hit a record ₹1,126 crore and the loss still widened to ₹1,710 crore, Moneycontrol reports. Riders and fares both grew, but a cost set by the exchange rate grew faster than anything the Metro controls. Before taking on any payment in a foreign currency, ask what it costs you if the rupee keeps sliding."
+  "test": "Before I believe or forward this, who has actually done the slow check, and what did they find?",
+  "today": "One email naming Diljit Dosanjh's 29 November Bengaluru concert and Madavara Metro station has led to an FIR from North Cybercrime Police and a security probe, The Hindu and Deccan Herald report. On the same day BIAL had to put out a clarification that the 'maggots' in a lounge meal were sprouted dal. Each claim cost its sender seconds and is costing others days, so wait for the people doing the slow check before you cancel plans or forward a scare."
  },
  "moved": [
   {
-   "tag": "Money",
-   "what": "Eleven unauthorised transactions drained ₹42.4 lakh from a Bengaluru firm's account in 30 minutes, The Times of India reports.",
-   "so_what": "Speed is the whole attack: the money left before anyone could react. On any business or family account with net banking, set a daily transfer limit well below the balance, make sure alerts reach a phone someone watches, and if a debit you did not make appears, call the bank and 1930 within minutes."
-  },
-  {
-   "tag": "Commute",
-   "what": "Karnataka's minister says there is no immediate proposal to raise Namma Metro fares, ThePrint reports, even as the Metro's loss widened to ₹1,710 crore.",
-   "so_what": "No need to rush into changing your commute or buying ahead. 'No immediate proposal' is a delay, not a decision, so keep yesterday's check on your monthly Metro spend in mind."
-  },
-  {
-   "tag": "Your money",
-   "what": "The Hebbal–Sarjapur Red Line may slip to 2033 because the Centre's approval is still pending, Metro Rail News reports.",
-   "so_what": "If a builder or broker on Sarjapur Road or the ORR is charging extra for 'metro coming soon', you would be paying today for a line at least seven years away. Price a rent or purchase on the commute that exists now."
+   "tag": "Water",
+   "what": "BWSSB is shutting Cauvery pumping stations for emergency repairs, so water supply will be disrupted from 06:00 to 18:00 on 25 November, The Times of India reports.",
+   "so_what": "Store drinking and washing water tonight. If your building relies on a sump and overhead tank, ask the manager or watchman to fill both before 06:00, and expect low pressure for a while after 18:00 as lines refill."
   },
   {
    "tag": "Safety",
-   "what": "A concrete pole fell on a moving car in Bengaluru, leaving a businessman with serious spinal injuries; his family blames BESCOM for shoddy work, The Hindu and The Times of India report.",
-   "so_what": "Do not park or wait under a pole that leans or sits beside freshly dug ground. If there is one on your street, report it to BESCOM in writing with a photo and location, so there is a record if it falls."
+   "what": "An email threatening an IED blast at Diljit Dosanjh's 29 November concert and at Madavara Metro station is under investigation, and police have registered an FIR, The Hindu and The South First report.",
+   "so_what": "If you're going, expect tighter checks at the venue and the station: carry little, keep your ticket and ID ready, and arrive early. Follow the police's official updates rather than forwards."
+  },
+  {
+   "tag": "Your rights",
+   "what": "A Bengaluru man charged a ₹4 'location surcharge' on medicines took MedPlus to consumer court, which ordered the pharmacy to pay ₹5,000 compensation and ₹2,000 costs, The Times of India reports.",
+   "so_what": "Check your pharmacy bill for extra line items. A small charge you never agreed to is worth questioning, and the bill itself is your evidence, so keep it."
+  },
+  {
+   "tag": "Money",
+   "what": "A cooperative society that stopped paying on a ₹2.5 lakh FD after June 2024 has been told by a consumer commission to return it with 13% interest and ₹25,000 compensation, The Times of India reports.",
+   "so_what": "If you hold a deposit with a cooperative society, check that interest is still arriving on schedule. The first missed payment is when to act, with your receipts in hand, not after months of promises."
   },
   {
    "tag": "Commute",
-   "what": "Bengaluru Jatre opens on 4 December with a grand procession on MG Road and Brigade Road, The Times of India reports.",
-   "so_what": "If you usually drive or cab through the CBD, plan to take the Metro on 4 December and check the traffic police's diversion advisory that morning."
+   "what": "Trial runs have begun on the Namma Metro Blue Line and are being extended up to Marathahalli, NDTV and Public TV report.",
+   "so_what": "Trials are not an opening date. Don't base a move or a lease along the ORR on this line yet; plan on the commute that exists today."
   }
  ],
  "carry_over": {
-  "id": "vendor-substitution",
-  "prompt": "Your wedding photographer promised on the phone to shoot it himself with a four-person team, but the quotation says only 'Premium wedding package' and he wants 70% today. What is the giveaway?",
-  "answer": "The thing you were promised in conversation is missing from the paper you signed."
+  "id": "video-call-sextortion",
+  "prompt": "A new match rushes you onto a late-night video call that turns intimate fast, and minutes later a stranger sends you the clip with a list of your contacts. What should have tipped you off?",
+  "answer": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you."
  },
  "quiz": [
   {
-   "question": "How much did a Bengaluru man lose after a dating-app video call turned into sextortion?",
+   "question": "During which hours will BWSSB's water supply be disrupted on 25 November?",
    "options": [
-    "₹22,000",
-    "₹2.2 lakh",
-    "₹4.2 lakh",
-    "₹22 lakh"
+    "00:00 to 12:00",
+    "06:00 to 18:00",
+    "09:00 to 21:00",
+    "18:00 to 06:00"
    ],
    "answer": 1,
-   "why": "The Times of India: Dating app video call turns into sextortion trap, Bengaluru man loses Rs 2.2 lakh."
+   "why": "The Times of India: supply disrupted for 12 hours as BWSSB shuts Cauvery pumping stations from 6am to 6pm."
   },
   {
-   "question": "How long did it take for 11 unauthorised transactions to drain ₹42.4 lakh from a Bengaluru firm?",
+   "question": "How much was the 'location surcharge' a Bengaluru man was charged on medicines?",
    "options": [
-    "30 minutes",
-    "3 hours",
-    "One day",
-    "One week"
+    "₹4",
+    "₹40",
+    "₹400",
+    "₹5,000"
    ],
    "answer": 0,
-   "why": "The Times of India: 11 unauthorised transactions drain Rs 42.4 lakh from Bengaluru firm in 30 minutes."
+   "why": "The Times of India: a ₹4 surcharge; the consumer court ordered ₹5,000 compensation and ₹2,000 costs."
   },
   {
-   "question": "By how much did Namma Metro's finance costs rise, according to Metro Rail News?",
+   "question": "At what interest rate was the cooperative society ordered to return the ₹2.5 lakh FD?",
    "options": [
-    "22%",
-    "49%",
-    "120%",
-    "220%"
-   ],
-   "answer": 3,
-   "why": "Metro Rail News: Bengaluru Metro's finance costs surge 220% to ₹1,793 crore amid rupee depreciation."
-  },
-  {
-   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
-   "options": [
-    "2028",
-    "2030",
-    "2033",
-    "2035"
+    "7%",
+    "9%",
+    "13%",
+    "18%"
    ],
    "answer": 2,
-   "why": "Metro Rail News: Hebbal-Sarjapur corridor may slip to 2033 as the Centre's approval remains pending."
+   "why": "The Times of India: return Rs 2.5L with 13% interest and Rs 25k as compensation."
   },
   {
-   "question": "By how much has BWSSB's jurisdiction grown?",
+   "question": "Which Metro station was named in the threat email about Diljit Dosanjh's concert?",
    "options": [
-    "196 sq km",
-    "896 sq km",
-    "2,196 sq km",
-    "3,453 sq km"
+    "Majestic",
+    "Madavara",
+    "MG Road",
+    "Bommasandra"
+   ],
+   "answer": 1,
+   "why": "The South First: IED threat to the November 29 concert and Madavara Metro station."
+  },
+  {
+   "question": "Up to which area are Blue Line metro test runs being extended?",
+   "options": [
+    "Hebbal",
+    "Whitefield",
+    "Marathahalli",
+    "Silk Board"
    ],
    "answer": 2,
-   "why": "The Times of India: BWSSB jurisdiction rises by 2,196 sqkm as Bengaluru plans water expansion."
+   "why": "Public TV English: test runs of Blue Line metro to be extended up to Marathahalli."
   }
  ]
 }

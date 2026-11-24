@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-24",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-24T19:34:51+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 21.6,
+  "condition": "Light drizzle",
+  "high_c": 28.4,
+  "low_c": 20.8,
+  "rain_chance_pct": 100,
+  "tip": "Drizzle now and rain all but certain, and BWSSB cuts Cauvery water from 06:00 to 18:00 tomorrow, so fill your buckets and sump tonight rather than counting on a morning top-up."
+ },
+ "edge": {
+  "id": "scan-to-receive",
+  "category": "Money trap",
+  "title": "The QR you scan to get paid",
+  "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
+  "tell": "You were asked for your UPI PIN to receive money.",
+  "move": [
+   "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
+   "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
+   "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
+   "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+  ],
+  "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
+  "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters.",
+  "scenario": {
+   "question": "You've listed an old cycle for ₹6,000. A buyer on WhatsApp agrees the price, says his bank app won't let him send to new contacts, and sends you a QR code: 'Scan this and enter your PIN, the ₹6,000 will come to you.' What do you do?",
+   "choices": [
+    {
+     "text": "Don't scan it. Send him your own UPI ID or QR and tell him to pay from his side; hand over the cycle only once the money shows in your bank app.",
+     "verdict": "best"
+    },
+    {
+     "text": "Scan it and enter your PIN, since the screen shows ₹6,000 and that's the agreed price.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Scan it but try a small ₹1 test first to see which way the money moves.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask him to send a screenshot of the payment instead and release the cycle on that.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "refutation-gap",
+  "name": "Cheap to claim, costly to check",
+  "one_line": "A claim that takes seconds to make can take hours or days to disprove, so whoever makes it controls everyone else's time.",
+  "detail": "Sending a threat, a rumour or an accusation costs almost nothing; checking it properly costs real people, money and attention, and it has to be done because the rare true one is too expensive to ignore. That gap is why hoaxes, viral complaints and fake alerts keep coming: the sender pays nothing and the checker pays everything. As a reader, the useful habit is to notice which side of the gap you are on, and not to pass a claim along before the costly check has been done.",
+  "elsewhere": [
+   "A forwarded message saying a brand of water or medicine is unsafe, which the company then spends days denying.",
+   "A one-line negative review that a small shop cannot answer without a long public explanation.",
+   "A false complaint to a housing society or employer that takes weeks of meetings to clear."
+  ],
+  "test": "Before I believe or forward this, who has actually done the slow check, and what did they find?",
+  "today": "One email naming Diljit Dosanjh's 29 November Bengaluru concert and Madavara Metro station has led to an FIR from North Cybercrime Police and a security probe, The Hindu and Deccan Herald report. On the same day BIAL had to put out a clarification that the 'maggots' in a lounge meal were sprouted dal. Each claim cost its sender seconds and is costing others days, so wait for the people doing the slow check before you cancel plans or forward a scare."
+ },
+ "moved": [
+  {
+   "tag": "Water",
+   "what": "BWSSB is shutting Cauvery pumping stations for emergency repairs, so water supply will be disrupted from 06:00 to 18:00 on 25 November, The Times of India reports.",
+   "so_what": "Store drinking and washing water tonight. If your building relies on a sump and overhead tank, ask the manager or watchman to fill both before 06:00, and expect low pressure for a while after 18:00 as lines refill."
+  },
+  {
+   "tag": "Safety",
+   "what": "An email threatening an IED blast at Diljit Dosanjh's 29 November concert and at Madavara Metro station is under investigation, and police have registered an FIR, The Hindu and The South First report.",
+   "so_what": "If you're going, expect tighter checks at the venue and the station: carry little, keep your ticket and ID ready, and arrive early. Follow the police's official updates rather than forwards."
+  },
+  {
+   "tag": "Your rights",
+   "what": "A Bengaluru man charged a ₹4 'location surcharge' on medicines took MedPlus to consumer court, which ordered the pharmacy to pay ₹5,000 compensation and ₹2,000 costs, The Times of India reports.",
+   "so_what": "Check your pharmacy bill for extra line items. A small charge you never agreed to is worth questioning, and the bill itself is your evidence, so keep it."
+  },
+  {
+   "tag": "Money",
+   "what": "A cooperative society that stopped paying on a ₹2.5 lakh FD after June 2024 has been told by a consumer commission to return it with 13% interest and ₹25,000 compensation, The Times of India reports.",
+   "so_what": "If you hold a deposit with a cooperative society, check that interest is still arriving on schedule. The first missed payment is when to act, with your receipts in hand, not after months of promises."
+  },
+  {
+   "tag": "Commute",
+   "what": "Trial runs have begun on the Namma Metro Blue Line and are being extended up to Marathahalli, NDTV and Public TV report.",
+   "so_what": "Trials are not an opening date. Don't base a move or a lease along the ORR on this line yet; plan on the commute that exists today."
+  }
+ ],
+ "carry_over": {
+  "id": "video-call-sextortion",
+  "prompt": "A new match rushes you onto a late-night video call that turns intimate fast, and minutes later a stranger sends you the clip with a list of your contacts. What should have tipped you off?",
+  "answer": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you."
+ },
+ "quiz": [
+  {
+   "question": "During which hours will BWSSB's water supply be disrupted on 25 November?",
+   "options": [
+    "00:00 to 12:00",
+    "06:00 to 18:00",
+    "09:00 to 21:00",
+    "18:00 to 06:00"
+   ],
+   "answer": 1,
+   "why": "The Times of India: supply disrupted for 12 hours as BWSSB shuts Cauvery pumping stations from 6am to 6pm."
+  },
+  {
+   "question": "How much was the 'location surcharge' a Bengaluru man was charged on medicines?",
+   "options": [
+    "₹4",
+    "₹40",
+    "₹400",
+    "₹5,000"
+   ],
+   "answer": 0,
+   "why": "The Times of India: a ₹4 surcharge; the consumer court ordered ₹5,000 compensation and ₹2,000 costs."
+  },
+  {
+   "question": "At what interest rate was the cooperative society ordered to return the ₹2.5 lakh FD?",
+   "options": [
+    "7%",
+    "9%",
+    "13%",
+    "18%"
+   ],
+   "answer": 2,
+   "why": "The Times of India: return Rs 2.5L with 13% interest and Rs 25k as compensation."
+  },
+  {
+   "question": "Which Metro station was named in the threat email about Diljit Dosanjh's concert?",
+   "options": [
+    "Majestic",
+    "Madavara",
+    "MG Road",
+    "Bommasandra"
+   ],
+   "answer": 1,
+   "why": "The South First: IED threat to the November 29 concert and Madavara Metro station."
+  },
+  {
+   "question": "Up to which area are Blue Line metro test runs being extended?",
+   "options": [
+    "Hebbal",
+    "Whitefield",
+    "Marathahalli",
+    "Silk Board"
+   ],
+   "answer": 2,
+   "why": "Public TV English: test runs of Blue Line metro to be extended up to Marathahalli."
+  }
+ ]
+}
