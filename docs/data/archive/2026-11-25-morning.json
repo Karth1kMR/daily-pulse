@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-25",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-25T07:34:14+05:30",
+ "read_seconds": 85,
+ "weather": {
+  "now_c": 20.5,
+  "condition": "Overcast",
+  "high_c": 26.8,
+  "low_c": 20.1,
+  "rain_chance_pct": 96,
+  "tip": "Rain is close to certain today and The Times of India lists a power shutdown in parts of the city. When the supply comes back, keep wet hands off switches, extension boards and the geyser, and treat any buzz from a gate, pole or tap as live."
+ },
+ "edge": {
+  "id": "water-tingle",
+  "category": "Physical safety",
+  "title": "The tingle in the water",
+  "setup": "It has been raining all evening. You are at the pool, in the society gym's shower, or just pushing open your building's metal gate in wet shoes, and you feel a faint tingle, buzz or prickle on your skin. It is mild, nobody else has said anything, and everything looks well maintained. It is easy to put down to the cold or your imagination.",
+  "tell": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise.",
+  "move": [
+   "Get out of the water at once and tell the others to get out. Do not wait to be sure.",
+   "If someone is unresponsive in the water, do not jump in after them, because you can become the next casualty. Shout for staff, ask for the power to be switched off and call 112.",
+   "Report it to the front desk or society office, and do not go back in until someone qualified has checked it.",
+   "At home, keep wet hands and feet away from switches, extension boards and water heaters, and replace any cracked or exposed wiring."
+  ],
+  "why": "Water conducts electricity, and a wet body conducts it far better than dry skin. A pool is a metal-and-wire environment (lights, pumps, ladders) sitting in water, so a small fault can put current where people are. The tingle is the early, survivable warning; the only cheap defence is to act on it before it becomes a larger current. A premium look says nothing about the wiring behind it.",
+  "variants": "Same shape: a mild shock from a bathroom geyser or tap, a wet-floor kitchen appliance that buzzes, a metal lamp post or hoarding that tingles in the rain.",
+  "scenario": {
+   "question": "It's been raining since the afternoon. You get home in wet shoes and, as you push the metal gate of your apartment, you feel a faint buzz in your palm. The watchman shrugs: 'It does that sometimes in the rain, sir, nothing happens.' What do you do?",
+   "choices": [
+    {
+     "text": "Let go, step away from the gate and the puddle, stop others from touching it, and report it to the society office and the electricity company now so someone qualified checks it before anyone uses the gate again.",
+     "verdict": "best"
+    },
+    {
+     "text": "Push through quickly. It's only a mild buzz and the watchman says it happens all the time.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Touch it again with a dry hand to check whether it was really a shock.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Use the side entrance tonight and mention it to the society office when you see them later in the week.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "selection-effects",
+  "name": "Selection effects",
+  "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+  "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
+  "elsewhere": [
+   "'Our customers love us' — the unhappy ones already left.",
+   "Exam toppers from a coaching centre that only admits toppers.",
+   "Crime statistics shaped by which complaints get registered."
+  ],
+  "test": "How did these people end up in this group — and who never had the chance to?",
+  "today": "NDTV is running the story of a man who called Bengaluru traffic 'insane' after a two-hour drive from the airport. It is news because someone posted it; the drives that took the usual time were never posted, so a feed of viral trips tells you about the worst runs, not the typical one. Plan an airport trip from the map's estimate for your actual departure hour, then add a margin, rather than from the scariest story you have seen this week."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "Blue Line trial runs have begun on the K.R. Puram to Doddanekundi stretch, with public operations targeted for mid-2027, The Hindu and India Today report. Separately, Metro Rail News reports the Hebbal–Sarjapur Red Line may slip to 2033 as the Centre's approval is still pending.",
+   "so_what": "If a metro line is part of why you are choosing a flat or an office, use the realistic date, not the brochure one: about eight months away for the ORR line, if it holds, and possibly seven years for Hebbal–Sarjapur. Price the commute you will have until then."
+  },
+  {
+   "tag": "Prices",
+   "what": "A Metro fare hike is not on the cards for now, Karnataka minister Krishna Byre Gowda said, according to Metro Rail News. The Hindu reports Namma Metro ridership grew 12.29% while fare revenue jumped 49% to ₹1,125 crore.",
+   "so_what": "No fare change to plan around in the near term. 'For now' is not a promise, though, so if you are weighing a monthly pass or a move based on metro costs, budget on today's fares holding for months, not years."
+  },
+  {
+   "tag": "Power",
+   "what": "A power shutdown is scheduled in parts of Bengaluru, The Times of India reported late last night.",
+   "so_what": "Check your area against BESCOM's published outage list this morning. If you are on it, charge your phone, laptop and power bank first, and plan any work calls around the cut."
+  },
+  {
+   "tag": "Your record",
+   "what": "Bengaluru police are probing the forgery of six verification certificates, including one used for a U.S. H-1B visa, The Hindu reports.",
+   "so_what": "If you need a police verification for a visa or a new job, apply through the official channel yourself and keep the receipt. Paying someone to 'arrange' one quickly can leave a forged document with your name on it, and it is your application that gets rejected."
+  },
+  {
+   "tag": "Your rights",
+   "what": "A doctor has been directed to pay ₹2 lakh to a woman who needed three procedures in three weeks after prolonged bleeding, The Times of India reports.",
+   "so_what": "After any procedure, ask for and keep the discharge summary, prescriptions and bills. If things go wrong, those papers are what make a complaint possible."
+  }
+ ],
+ "carry_over": {
+  "id": "scan-to-receive",
+  "prompt": "A buyer for your old cycle sends a QR code and says 'Scan it and enter your PIN, the ₹6,000 will come to you.' What gives it away?",
+  "answer": "You were asked for your UPI PIN to receive money."
+ },
+ "quiz": [
+  {
+   "question": "Which stretch of the Blue Line has started trial runs?",
+   "options": [
+    "Silk Board to HSR Layout",
+    "K.R. Puram to Doddanekundi",
+    "Hebbal to Sarjapur",
+    "Majestic to MG Road"
+   ],
+   "answer": 1,
+   "why": "The Times of India and ETV Bharat: trial runs begin from KR Puram to Doddanekundi."
+  },
+  {
+   "question": "When are public operations on the Blue Line targeted to begin?",
+   "options": [
+    "December 2026",
+    "Mid-2027",
+    "2029",
+    "2033"
+   ],
+   "answer": 1,
+   "why": "The Hindu: public operations targeted for mid-2027, says the minister."
+  },
+  {
+   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
+   "options": [
+    "2027",
+    "2029",
+    "2031",
+    "2033"
+   ],
+   "answer": 3,
+   "why": "Metro Rail News: the corridor may slip to 2033 as the Centre's approval remains pending."
+  },
+  {
+   "question": "How much fare revenue did Namma Metro record, according to The Hindu?",
+   "options": [
+    "₹325 crore",
+    "₹749 crore",
+    "₹1,125 crore",
+    "₹2,050 crore"
+   ],
+   "answer": 2,
+   "why": "The Hindu: ridership up 12.29%; fare revenue jumps 49% to ₹1,125 crore."
+  },
+  {
+   "question": "How many forged verification certificates are Bengaluru police probing?",
+   "options": [
+    "Two",
+    "Four",
+    "Six",
+    "Twelve"
+   ],
+   "answer": 2,
+   "why": "The Hindu: police probe forgery of six verification certificates, including one for a U.S. H-1B visa."
+  }
+ ]
+}

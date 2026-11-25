@@ -1,153 +1,153 @@
 {
- "date": "2026-11-24",
- "edition": "evening",
+ "date": "2026-11-25",
+ "edition": "morning",
  "city": "Bengaluru",
- "generated_at": "2026-11-24T19:34:51+05:30",
- "read_seconds": 90,
+ "generated_at": "2026-11-25T07:34:14+05:30",
+ "read_seconds": 85,
  "weather": {
-  "now_c": 21.6,
-  "condition": "Light drizzle",
-  "high_c": 28.4,
-  "low_c": 20.8,
-  "rain_chance_pct": 100,
-  "tip": "Drizzle now and rain all but certain, and BWSSB cuts Cauvery water from 06:00 to 18:00 tomorrow, so fill your buckets and sump tonight rather than counting on a morning top-up."
+  "now_c": 20.5,
+  "condition": "Overcast",
+  "high_c": 26.8,
+  "low_c": 20.1,
+  "rain_chance_pct": 96,
+  "tip": "Rain is close to certain today and The Times of India lists a power shutdown in parts of the city. When the supply comes back, keep wet hands off switches, extension boards and the geyser, and treat any buzz from a gate, pole or tap as live."
  },
  "edge": {
-  "id": "scan-to-receive",
-  "category": "Money trap",
-  "title": "The QR you scan to get paid",
-  "setup": "You're selling something online. The buyer says his app is acting up, so he sends a QR code or a payment request and tells you to scan it or approve it so the money lands. A few taps and a PIN later, your balance is lower, not higher.",
-  "tell": "You were asked for your UPI PIN to receive money.",
+  "id": "water-tingle",
+  "category": "Physical safety",
+  "title": "The tingle in the water",
+  "setup": "It has been raining all evening. You are at the pool, in the society gym's shower, or just pushing open your building's metal gate in wet shoes, and you feel a faint tingle, buzz or prickle on your skin. It is mild, nobody else has said anything, and everything looks well maintained. It is easy to put down to the cold or your imagination.",
+  "tell": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise.",
   "move": [
-   "Receiving money never needs your PIN. A PIN screen means money is leaving your account.",
-   "Read the screen before you type anything. If it says Pay, or shows an amount you are about to send, close it.",
-   "Offer your own QR or UPI ID and let the buyer pay you. A genuine buyer will.",
-   "If money has gone, call your bank immediately and report on 1930 or cybercrime.gov.in the same day."
+   "Get out of the water at once and tell the others to get out. Do not wait to be sure.",
+   "If someone is unresponsive in the water, do not jump in after them, because you can become the next casualty. Shout for staff, ask for the power to be switched off and call 112.",
+   "Report it to the front desk or society office, and do not go back in until someone qualified has checked it.",
+   "At home, keep wet hands and feet away from switches, extension boards and water heaters, and replace any cracked or exposed wiring."
   ],
-  "why": "UPI lets only the payer authorise a payment, with a PIN. Any step that asks the receiver for a PIN is the payer step in disguise. The con works by relabelling the direction of money, and the PIN is the one thing that cannot be faked.",
-  "variants": "Same shape: 'refund' links that ask for a PIN, collect requests labelled cashback, QR codes pasted on parcels or posters.",
+  "why": "Water conducts electricity, and a wet body conducts it far better than dry skin. A pool is a metal-and-wire environment (lights, pumps, ladders) sitting in water, so a small fault can put current where people are. The tingle is the early, survivable warning; the only cheap defence is to act on it before it becomes a larger current. A premium look says nothing about the wiring behind it.",
+  "variants": "Same shape: a mild shock from a bathroom geyser or tap, a wet-floor kitchen appliance that buzzes, a metal lamp post or hoarding that tingles in the rain.",
   "scenario": {
-   "question": "You've listed an old cycle for ₹6,000. A buyer on WhatsApp agrees the price, says his bank app won't let him send to new contacts, and sends you a QR code: 'Scan this and enter your PIN, the ₹6,000 will come to you.' What do you do?",
+   "question": "It's been raining since the afternoon. You get home in wet shoes and, as you push the metal gate of your apartment, you feel a faint buzz in your palm. The watchman shrugs: 'It does that sometimes in the rain, sir, nothing happens.' What do you do?",
    "choices": [
     {
-     "text": "Don't scan it. Send him your own UPI ID or QR and tell him to pay from his side; hand over the cycle only once the money shows in your bank app.",
+     "text": "Let go, step away from the gate and the puddle, stop others from touching it, and report it to the society office and the electricity company now so someone qualified checks it before anyone uses the gate again.",
      "verdict": "best"
     },
     {
-     "text": "Scan it and enter your PIN, since the screen shows ₹6,000 and that's the agreed price.",
+     "text": "Push through quickly. It's only a mild buzz and the watchman says it happens all the time.",
      "verdict": "trap"
     },
     {
-     "text": "Scan it but try a small ₹1 test first to see which way the money moves.",
+     "text": "Touch it again with a dry hand to check whether it was really a shock.",
      "verdict": "trap"
     },
     {
-     "text": "Ask him to send a screenshot of the payment instead and release the cycle on that.",
+     "text": "Use the side entrance tonight and mention it to the society office when you see them later in the week.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "refutation-gap",
-  "name": "Cheap to claim, costly to check",
-  "one_line": "A claim that takes seconds to make can take hours or days to disprove, so whoever makes it controls everyone else's time.",
-  "detail": "Sending a threat, a rumour or an accusation costs almost nothing; checking it properly costs real people, money and attention, and it has to be done because the rare true one is too expensive to ignore. That gap is why hoaxes, viral complaints and fake alerts keep coming: the sender pays nothing and the checker pays everything. As a reader, the useful habit is to notice which side of the gap you are on, and not to pass a claim along before the costly check has been done.",
+  "id": "selection-effects",
+  "name": "Selection effects",
+  "one_line": "How a group got assembled usually explains the result better than anything about its members.",
+  "detail": "A survey of app users can't tell you about people who deleted it. Hospital data on a disease overrepresents severe cases, because mild ones never came. Online reviews over-sample the delighted and the furious. Before accepting a comparison between two groups, the first question is always how each group came to be in the sample.",
   "elsewhere": [
-   "A forwarded message saying a brand of water or medicine is unsafe, which the company then spends days denying.",
-   "A one-line negative review that a small shop cannot answer without a long public explanation.",
-   "A false complaint to a housing society or employer that takes weeks of meetings to clear."
+   "'Our customers love us' — the unhappy ones already left.",
+   "Exam toppers from a coaching centre that only admits toppers.",
+   "Crime statistics shaped by which complaints get registered."
   ],
-  "test": "Before I believe or forward this, who has actually done the slow check, and what did they find?",
-  "today": "One email naming Diljit Dosanjh's 29 November Bengaluru concert and Madavara Metro station has led to an FIR from North Cybercrime Police and a security probe, The Hindu and Deccan Herald report. On the same day BIAL had to put out a clarification that the 'maggots' in a lounge meal were sprouted dal. Each claim cost its sender seconds and is costing others days, so wait for the people doing the slow check before you cancel plans or forward a scare."
+  "test": "How did these people end up in this group — and who never had the chance to?",
+  "today": "NDTV is running the story of a man who called Bengaluru traffic 'insane' after a two-hour drive from the airport. It is news because someone posted it; the drives that took the usual time were never posted, so a feed of viral trips tells you about the worst runs, not the typical one. Plan an airport trip from the map's estimate for your actual departure hour, then add a margin, rather than from the scariest story you have seen this week."
  },
  "moved": [
   {
-   "tag": "Water",
-   "what": "BWSSB is shutting Cauvery pumping stations for emergency repairs, so water supply will be disrupted from 06:00 to 18:00 on 25 November, The Times of India reports.",
-   "so_what": "Store drinking and washing water tonight. If your building relies on a sump and overhead tank, ask the manager or watchman to fill both before 06:00, and expect low pressure for a while after 18:00 as lines refill."
+   "tag": "Commute",
+   "what": "Blue Line trial runs have begun on the K.R. Puram to Doddanekundi stretch, with public operations targeted for mid-2027, The Hindu and India Today report. Separately, Metro Rail News reports the Hebbal–Sarjapur Red Line may slip to 2033 as the Centre's approval is still pending.",
+   "so_what": "If a metro line is part of why you are choosing a flat or an office, use the realistic date, not the brochure one: about eight months away for the ORR line, if it holds, and possibly seven years for Hebbal–Sarjapur. Price the commute you will have until then."
   },
   {
-   "tag": "Safety",
-   "what": "An email threatening an IED blast at Diljit Dosanjh's 29 November concert and at Madavara Metro station is under investigation, and police have registered an FIR, The Hindu and The South First report.",
-   "so_what": "If you're going, expect tighter checks at the venue and the station: carry little, keep your ticket and ID ready, and arrive early. Follow the police's official updates rather than forwards."
+   "tag": "Prices",
+   "what": "A Metro fare hike is not on the cards for now, Karnataka minister Krishna Byre Gowda said, according to Metro Rail News. The Hindu reports Namma Metro ridership grew 12.29% while fare revenue jumped 49% to ₹1,125 crore.",
+   "so_what": "No fare change to plan around in the near term. 'For now' is not a promise, though, so if you are weighing a monthly pass or a move based on metro costs, budget on today's fares holding for months, not years."
+  },
+  {
+   "tag": "Power",
+   "what": "A power shutdown is scheduled in parts of Bengaluru, The Times of India reported late last night.",
+   "so_what": "Check your area against BESCOM's published outage list this morning. If you are on it, charge your phone, laptop and power bank first, and plan any work calls around the cut."
+  },
+  {
+   "tag": "Your record",
+   "what": "Bengaluru police are probing the forgery of six verification certificates, including one used for a U.S. H-1B visa, The Hindu reports.",
+   "so_what": "If you need a police verification for a visa or a new job, apply through the official channel yourself and keep the receipt. Paying someone to 'arrange' one quickly can leave a forged document with your name on it, and it is your application that gets rejected."
   },
   {
    "tag": "Your rights",
-   "what": "A Bengaluru man charged a ₹4 'location surcharge' on medicines took MedPlus to consumer court, which ordered the pharmacy to pay ₹5,000 compensation and ₹2,000 costs, The Times of India reports.",
-   "so_what": "Check your pharmacy bill for extra line items. A small charge you never agreed to is worth questioning, and the bill itself is your evidence, so keep it."
-  },
-  {
-   "tag": "Money",
-   "what": "A cooperative society that stopped paying on a ₹2.5 lakh FD after June 2024 has been told by a consumer commission to return it with 13% interest and ₹25,000 compensation, The Times of India reports.",
-   "so_what": "If you hold a deposit with a cooperative society, check that interest is still arriving on schedule. The first missed payment is when to act, with your receipts in hand, not after months of promises."
-  },
-  {
-   "tag": "Commute",
-   "what": "Trial runs have begun on the Namma Metro Blue Line and are being extended up to Marathahalli, NDTV and Public TV report.",
-   "so_what": "Trials are not an opening date. Don't base a move or a lease along the ORR on this line yet; plan on the commute that exists today."
+   "what": "A doctor has been directed to pay ₹2 lakh to a woman who needed three procedures in three weeks after prolonged bleeding, The Times of India reports.",
+   "so_what": "After any procedure, ask for and keep the discharge summary, prescriptions and bills. If things go wrong, those papers are what make a complaint possible."
   }
  ],
  "carry_over": {
-  "id": "video-call-sextortion",
-  "prompt": "A new match rushes you onto a late-night video call that turns intimate fast, and minutes later a stranger sends you the clip with a list of your contacts. What should have tipped you off?",
-  "answer": "A stranger who rushes you onto a video call and makes it intimate is recording you, not getting to know you."
+  "id": "scan-to-receive",
+  "prompt": "A buyer for your old cycle sends a QR code and says 'Scan it and enter your PIN, the ₹6,000 will come to you.' What gives it away?",
+  "answer": "You were asked for your UPI PIN to receive money."
  },
  "quiz": [
   {
-   "question": "During which hours will BWSSB's water supply be disrupted on 25 November?",
+   "question": "Which stretch of the Blue Line has started trial runs?",
    "options": [
-    "00:00 to 12:00",
-    "06:00 to 18:00",
-    "09:00 to 21:00",
-    "18:00 to 06:00"
+    "Silk Board to HSR Layout",
+    "K.R. Puram to Doddanekundi",
+    "Hebbal to Sarjapur",
+    "Majestic to MG Road"
    ],
    "answer": 1,
-   "why": "The Times of India: supply disrupted for 12 hours as BWSSB shuts Cauvery pumping stations from 6am to 6pm."
+   "why": "The Times of India and ETV Bharat: trial runs begin from KR Puram to Doddanekundi."
   },
   {
-   "question": "How much was the 'location surcharge' a Bengaluru man was charged on medicines?",
+   "question": "When are public operations on the Blue Line targeted to begin?",
    "options": [
-    "₹4",
-    "₹40",
-    "₹400",
-    "₹5,000"
-   ],
-   "answer": 0,
-   "why": "The Times of India: a ₹4 surcharge; the consumer court ordered ₹5,000 compensation and ₹2,000 costs."
-  },
-  {
-   "question": "At what interest rate was the cooperative society ordered to return the ₹2.5 lakh FD?",
-   "options": [
-    "7%",
-    "9%",
-    "13%",
-    "18%"
-   ],
-   "answer": 2,
-   "why": "The Times of India: return Rs 2.5L with 13% interest and Rs 25k as compensation."
-  },
-  {
-   "question": "Which Metro station was named in the threat email about Diljit Dosanjh's concert?",
-   "options": [
-    "Majestic",
-    "Madavara",
-    "MG Road",
-    "Bommasandra"
+    "December 2026",
+    "Mid-2027",
+    "2029",
+    "2033"
    ],
    "answer": 1,
-   "why": "The South First: IED threat to the November 29 concert and Madavara Metro station."
+   "why": "The Hindu: public operations targeted for mid-2027, says the minister."
   },
   {
-   "question": "Up to which area are Blue Line metro test runs being extended?",
+   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
    "options": [
-    "Hebbal",
-    "Whitefield",
-    "Marathahalli",
-    "Silk Board"
+    "2027",
+    "2029",
+    "2031",
+    "2033"
+   ],
+   "answer": 3,
+   "why": "Metro Rail News: the corridor may slip to 2033 as the Centre's approval remains pending."
+  },
+  {
+   "question": "How much fare revenue did Namma Metro record, according to The Hindu?",
+   "options": [
+    "₹325 crore",
+    "₹749 crore",
+    "₹1,125 crore",
+    "₹2,050 crore"
    ],
    "answer": 2,
-   "why": "Public TV English: test runs of Blue Line metro to be extended up to Marathahalli."
+   "why": "The Hindu: ridership up 12.29%; fare revenue jumps 49% to ₹1,125 crore."
+  },
+  {
+   "question": "How many forged verification certificates are Bengaluru police probing?",
+   "options": [
+    "Two",
+    "Four",
+    "Six",
+    "Twelve"
+   ],
+   "answer": 2,
+   "why": "The Hindu: police probe forgery of six verification certificates, including one for a U.S. H-1B visa."
   }
  ]
 }
