@@ -1,0 +1,147 @@
+{
+ "date": "2026-11-25",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-25T19:34:46+05:30",
+ "read_seconds": 85,
+ "weather": {
+  "now_c": 21.0,
+  "condition": "Overcast",
+  "high_c": 26.4,
+  "low_c": 20.2,
+  "rain_chance_pct": 100,
+  "tip": "Rain is near certain through the evening, and The Times of India listed a power shutdown in parts of the city today. If your area was on it, charge your phone and power bank as soon as supply is back, and keep wet hands off switches and the geyser."
+ },
+ "edge": {
+  "id": "rental-advance",
+  "category": "Money trap",
+  "title": "The flat that doesn't exist",
+  "setup": "You find a 2BHK listed well under market rate. The 'owner' is warm, shares photos, an Aadhaar copy, even a video walkthrough. He's posted abroad / in the army / transferred to Delhi, so a 'caretaker' will hand over keys. He just needs the token advance today because three others are interested. Everything checks out except one thing: you have not stood inside that flat.",
+  "tell": "Money is moving before a key has turned in a lock you touched.",
+  "move": [
+   "Never transfer anything before physically standing inside the flat with someone who can open it.",
+   "Match the name on the EC/khata or tax receipt to the person's ID yourself — don't accept a forwarded photo.",
+   "If pressure to pay today appears, treat that as the scam announcing itself, not as competition."
+  ],
+  "why": "Documents are cheap to forge and free to send. Physical access is not. Every version of this scam works by substituting a convincing artefact (ID scan, video, rent agreement PDF) for the one costly thing a real owner always has: the ability to let you in.",
+  "variants": "Same shape: used-car 'in transit from Pune', PG deposits, farmland plots 'near the new airport', pet sales with a transport fee.",
+  "scenario": {
+   "question": "You find a 2BHK in HSR Layout at ₹8,000 under the going rate. The 'owner' on WhatsApp says he has just been transferred to Delhi, sends his Aadhaar copy and a video walkthrough, and says a caretaker will hand over the keys next week. Two other families are interested, so he needs a ₹25,000 token advance by tonight to hold it for you. What do you do?",
+   "choices": [
+    {
+     "text": "Pay nothing until you have stood inside the flat with someone who can open it, and matched the owner's name on the khata or tax receipt to his ID yourself. If the deadline means you lose it, let it go.",
+     "verdict": "best"
+    },
+    {
+     "text": "Transfer the ₹25,000 now. You have seen his Aadhaar and a video of the flat, and a token is normal in Bengaluru.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask him to send a signed rent agreement PDF first, then pay the advance once it arrives.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Offer a smaller ₹5,000 advance to hold it until you can visit at the weekend.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "goodharts-law",
+  "name": "Goodhart's Law",
+  "one_line": "When a measure becomes a target, it stops measuring what it used to.",
+  "detail": "Any number used to judge people will be optimised directly, often by routes that bypass the thing the number was standing in for. Not usually by cheating — by honest, rational effort aimed at the metric rather than the goal, because the metric is what's rewarded.",
+  "elsewhere": [
+   "Police judged on cases closed may book easier cases and discourage hard complaints.",
+   "Schools judged on pass rates quietly move weak students out before the exam.",
+   "Support teams judged on ticket-closing time close tickets fast, unresolved."
+  ],
+  "test": "What number are these people judged on, and what's the cheapest way to move it that doesn't involve doing the actual job?",
+  "today": "The Times of India describes the jammers, scanners and five-layer locks the Karnataka Examinations Authority now uses, while a Nandan Nilekani-led task force reviews the state's exam model. Once a single rank decides a seat, the rank itself becomes the target, and some effort shifts from learning the subject to gaming the test, which is why the authority has to spend so heavily just to keep the number honest. When you judge a candidate, a coaching centre or a course by one score, ask what the cheapest way to move that score would be."
+ },
+ "moved": [
+  {
+   "tag": "Safety",
+   "what": "Police have registered an FIR after an email threatened IED blasts at the venue of Diljit Dosanjh's 29 November concert and at Madavara Metro station, The Hindu and The South First report. North Cybercrime Police are investigating; Outlook Traveller has published the concert's traffic advisory.",
+   "so_what": "If you are going on 29 November, arrive early for longer security checks, note two exits when you get in, and agree a meeting point outside in case phones jam. Do not forward threat messages; pass anything specific to 112."
+  },
+  {
+   "tag": "Money",
+   "what": "A Bengaluru woman's ₹12.7 lakh Groww portfolio fell to ₹84,508 after a tech glitch during a ₹10 lakh withdrawal; the consumer commission told the firm to refund ₹11.85 lakh with 6% interest and pay ₹12,000, The Times of India reports.",
+   "so_what": "If an investing or banking app shows a balance or order you did not make, screenshot it with the time, raise a written complaint in the app and by email, and keep the ticket number. That record is what turns a glitch into a refund."
+  },
+  {
+   "tag": "Your rights",
+   "what": "A consumer commission ordered Voltas to pay ₹33,770 to a Bengaluru man whose AC was damaged by its technicians during a ₹1,770 reinstallation after he moved from Chennai, The Times of India reports.",
+   "so_what": "When a service visit damages something, photograph it before the technician leaves, get the job sheet, and complain in writing to the company. The compensation here was about 19 times the service fee."
+  },
+  {
+   "tag": "Your record",
+   "what": "The High Court has held that accident claims tribunals must rely on the age in the postmortem report when claimants produce no other supporting documents, The Times of India reports.",
+   "so_what": "In a motor accident claim, the age recorded for the deceased shapes the compensation. Keep each family member's birth certificate or school record where the family can find it, so the record is not left to an estimate."
+  }
+ ],
+ "carry_over": {
+  "id": "water-tingle",
+  "prompt": "You push your building's metal gate in wet shoes, feel a faint buzz, and the watchman says it always does that in the rain. What should you take it as?",
+  "answer": "A tingle, buzz or shock while wet. Treat it as electricity until proven otherwise."
+ },
+ "quiz": [
+  {
+   "question": "For which date is Diljit Dosanjh's Bengaluru concert, which received a bomb threat?",
+   "options": [
+    "22 November",
+    "26 November",
+    "29 November",
+    "6 December"
+   ],
+   "answer": 2,
+   "why": "The South First: IED threat to Diljit Dosanjh's 29 November Bengaluru concert."
+  },
+  {
+   "question": "Which Metro station was named in the threat email along with the concert venue?",
+   "options": [
+    "Majestic",
+    "Madavara",
+    "Yelachenahalli",
+    "Baiyappanahalli"
+   ],
+   "answer": 1,
+   "why": "The South First: the threat named the concert and Madavara Metro station."
+  },
+  {
+   "question": "How much was the Groww customer's portfolio worth after the glitch?",
+   "options": [
+    "₹84,508",
+    "₹1.2 lakh",
+    "₹10 lakh",
+    "₹11.85 lakh"
+   ],
+   "answer": 0,
+   "why": "The Times of India: the ₹12.7 lakh portfolio fell to ₹84,508 during a ₹10 lakh withdrawal."
+  },
+  {
+   "question": "How much compensation was Voltas ordered to pay over the damaged AC?",
+   "options": [
+    "₹1,770",
+    "₹12,000",
+    "₹33,770",
+    "₹1 lakh"
+   ],
+   "answer": 2,
+   "why": "The Times of India: the consumer commission ordered Voltas to pay ₹33,770."
+  },
+  {
+   "question": "How much did Brigade Group record in sales at its Bengaluru residential launch?",
+   "options": [
+    "₹160 crore",
+    "₹600 crore",
+    "₹1,600 crore",
+    "₹16,000 crore"
+   ],
+   "answer": 2,
+   "why": "Business Standard: Brigade Group records ₹1,600 crore sales at Bengaluru residential launch."
+  }
+ ]
+}
