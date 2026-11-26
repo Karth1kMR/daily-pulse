@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-26",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-26T07:34:10+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 20.5,
+  "condition": "Overcast",
+  "high_c": 28.0,
+  "low_c": 19.9,
+  "rain_chance_pct": 78,
+  "tip": "Rain is likely today (78%) after overnight showers waterlogged roads yesterday, and Ballari Road has three days of wedding-season diversions. If you have an airport run, leave 30–45 minutes earlier than usual and check the diversion before you set out."
+ },
+ "edge": {
+  "id": "mortgaged-plot",
+  "category": "Money trap",
+  "title": "The plot whose papers all come from the seller",
+  "setup": "You like a plot or flat in a layout. The seller shows a registered sale deed, khata and a neat bundle of photocopies, and the price is fair. What you cannot see from that bundle is whether the same property is already pledged to a lender, or has been sold to someone else.",
+  "tell": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself.",
+  "move": [
+   "Get an Encumbrance Certificate yourself from the sub-registrar's office or the state's online registration portal, covering the full ownership history. It lists registered mortgages and sales.",
+   "Match the seller's name, survey number and khata across the sale deed, the EC and the tax receipt. Any mismatch means stop.",
+   "Pay the main amount only at registration, by traceable transfer to the seller named in the deed, never in cash or to a third party.",
+   "If a bank is funding your purchase, ask it to confirm in writing that its own lawyer has searched the title."
+  ],
+  "why": "Anything a seller hands you was chosen by the seller. A registry record is created independently of them, so it can show what they left out. Property fraud survives because buyers verify the documents they are given instead of the sources those documents should agree with.",
+  "variants": "Same shape: a used car with a hidden loan hypothecation, a flat sold twice by a builder, 'clear title' on inherited land with co-heirs nobody mentions.",
+  "scenario": {
+   "question": "You find a 30x40 site in a layout off Sarjapur Road at a fair price. The seller shows you the registered sale deed, the khata and a neat file of photocopies, all in his name. He says another buyer is ready, so he wants ₹5 lakh as advance this week and the rest at registration. What do you do?",
+   "choices": [
+    {
+     "text": "Pay nothing yet. Pull the Encumbrance Certificate yourself from the sub-registrar's office or the state registration portal, match the name, survey number and khata across the deed, EC and tax receipt, and pay the main amount only at registration by bank transfer to the seller named in the deed.",
+     "verdict": "best"
+    },
+    {
+     "text": "Pay the ₹5 lakh. The deed is registered and the khata is in his name, so the title is clearly his.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask the seller to send you a fresh EC and pay once he forwards it.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Pay a smaller ₹50,000 to hold it while you get the papers checked.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "anchoring",
+  "name": "Anchoring",
+  "one_line": "The first number you see sets the scale you judge every later number against.",
+  "detail": "Once a figure is in your head, later figures feel big or small relative to it rather than to what is actually fair. A large first number makes a smaller second one feel like a concession, even when the second is still well above where you started. Sellers, negotiators and price-setters use this deliberately; the defence is to compare against the original baseline, not against the number you were just shown.",
+  "elsewhere": [
+   "A 'was ₹4,999, now ₹2,499' tag on a product that never really sold at ₹4,999.",
+   "A broker quoting a high rent first, so a 'reduced' figure still above the area rate feels like a win.",
+   "A contractor's inflated first estimate that makes the revised one look reasonable."
+  ],
+  "test": "Compared with what it was before anyone moved the number, is this actually cheaper?",
+  "today": "The Times of India reports that the Karnataka Milk Federation has cut Nandini curd by ₹2/kg, shortly after raising it by ₹14/kg, and households and hoteliers are not treating it as relief. They are right: measured against the old price, curd is still ₹12/kg dearer. The cut feels generous only because the ₹14 hike is now the anchor."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "The Times of India reports three days of wedding-season traffic diversions on Ballari Road.",
+   "so_what": "Ballari Road is the main route to the airport. Check the traffic police advisory for the exact stretch and timings before any airport trip in the next three days, and build in extra time."
+  },
+  {
+   "tag": "Prices",
+   "what": "The Karnataka Milk Federation has cut Nandini curd by ₹2/kg after a recent ₹14/kg hike, The Times of India reports; households and hoteliers say it is not enough.",
+   "so_what": "Curd is still ₹12/kg dearer than before the hike. Budget against the old price, and expect hotels and caterers to keep the higher rates they set after the hike."
+  },
+  {
+   "tag": "Safety",
+   "what": "Police seized gold worth ₹57 lakh from two men who posed as delivery boys to target locked houses in Bengaluru, The Times of India reports.",
+   "so_what": "A delivery bag or uniform is not identity. If you are away for a few days, ask a neighbour to clear parcels and newspapers, and never confirm to a stranger at the door or on the phone that the flat will be empty."
+  },
+  {
+   "tag": "Commute",
+   "what": "Trial runs have begun on Namma Metro's Blue Line between KR Puram and Silk Board on the ORR. The New Indian Express says the 19-km corridor will open by mid-2027; NammaWard says opening remains a target.",
+   "so_what": "If you are choosing a flat on the ORR for Metro access, decide as though the line is not there yet. Opening dates announced at the trial stage tend to slip."
+  },
+  {
+   "tag": "Civic",
+   "what": "The Greater Bengaluru Authority plans to asphalt 2,875 km of roads by February, with the minister setting that deadline for most works, Deccan Herald and The Hindu report.",
+   "so_what": "Expect more night resurfacing and lane closures through February. If your street has a broken patch or drain, raise it with your ward office now, while crews are already scheduled."
+  }
+ ],
+ "carry_over": {
+  "id": "rental-advance",
+  "prompt": "An 'owner' just transferred to Delhi sends his Aadhaar and a video of a cheap 2BHK and wants a token advance tonight, before you have been inside. What is the tell?",
+  "answer": "Money is moving before a key has turned in a lock you touched."
+ },
+ "quiz": [
+  {
+   "question": "For how many days are the wedding-season traffic diversions on Ballari Road?",
+   "options": [
+    "1",
+    "3",
+    "7",
+    "10"
+   ],
+   "answer": 1,
+   "why": "The Times of India: 3-day traffic diversions on Ballari Road."
+  },
+  {
+   "question": "By how much had Nandini curd been hiked before the latest ₹2/kg cut?",
+   "options": [
+    "₹2/kg",
+    "₹5/kg",
+    "₹10/kg",
+    "₹14/kg"
+   ],
+   "answer": 3,
+   "why": "The Times of India: after a ₹14/kg hike, KMF cut curd by ₹2/kg."
+  },
+  {
+   "question": "After both changes, how much dearer is Nandini curd than before the hike?",
+   "options": [
+    "₹2/kg",
+    "₹10/kg",
+    "₹12/kg",
+    "₹16/kg"
+   ],
+   "answer": 2,
+   "why": "₹14/kg up, then ₹2/kg down, leaves it ₹12/kg higher."
+  },
+  {
+   "question": "How many km of roads does the GBA plan to asphalt by February?",
+   "options": [
+    "875 km",
+    "1,200 km",
+    "2,875 km",
+    "5,000 km"
+   ],
+   "answer": 2,
+   "why": "Deccan Herald: GBA to asphalt 2,875 km of roads by February."
+  },
+  {
+   "question": "What was the value of gold seized from the duo posing as delivery boys?",
+   "options": [
+    "₹5.7 lakh",
+    "₹27 lakh",
+    "₹57 lakh",
+    "₹5.7 crore"
+   ],
+   "answer": 2,
+   "why": "The Times of India: gold worth ₹57 lakh seized."
+  }
+ ]
+}
