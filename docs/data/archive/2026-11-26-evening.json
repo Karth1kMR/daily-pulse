@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-26",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-26T19:34:26+05:30",
+ "read_seconds": 90,
+ "weather": {
+  "now_c": 22.7,
+  "condition": "Overcast",
+  "high_c": 27.4,
+  "low_c": 20.0,
+  "rain_chance_pct": 67,
+  "tip": "Rain is likely this evening (67%), and Palace Grounds has traffic diversions tonight and tomorrow. Wet roads plus diversions slow everything north of the centre, so if you are heading towards Hebbal or the airport, leave earlier than usual and check the advisory first."
+ },
+ "edge": {
+  "id": "otp-bank-call",
+  "category": "Pressure play",
+  "title": "The caller who already knows you",
+  "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
+  "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
+  "move": [
+   "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
+   "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
+   "Knowing your details proves a leak happened, not that the caller is legitimate."
+  ],
+  "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
+  "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search.",
+  "scenario": {
+   "question": "Your phone rings at 19:40. The caller says he is from your bank's fraud desk, reads out your name and the last four digits of your card, and mentions your dinner bill in Koramangala last week. He says a ₹48,000 charge has just been blocked and an OTP is coming to confirm it is really you. The SMS arrives. What do you do?",
+   "choices": [
+    {
+     "text": "Say you will call the number on the back of your card, hang up, and do exactly that. Read the OTP message itself before anything else; it states what it authorises.",
+     "verdict": "best"
+    },
+    {
+     "text": "Read out the OTP. He knows your card digits and your recent spend, so he must be the bank.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask him to verify himself first by telling you your full card number, then share the OTP if he gets it right.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Stay on the line but refuse the OTP, and let him walk you through 'securing' the account in your banking app.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "complements",
+  "name": "Complements",
+  "one_line": "Some things are only worth as much as the thing they must be used with.",
+  "detail": "A good with a necessary partner delivers value only when both are present: a printer and ink, a phone and a network, a road and a way onto it. Improving one half while the other stays weak adds little, and the weak half quietly sets the real value of the whole. When judging any new asset or service, ask what it depends on and whether that partner exists yet.",
+  "elsewhere": [
+   "A flat near a new station that you cannot walk to safely, so you drive anyway.",
+   "An EV bought before there is a charging point at your building.",
+   "A fast fibre plan on a router that cannot carry the speed."
+  ],
+  "test": "What does this need alongside it to be useful, and does that exist yet?",
+  "today": "The Hindu reports that BMTC has invited bids for 200 mini-buses to improve last-mile Metro connectivity and serve narrow roads; Swarajya puts the order at ₹304 crore. That is the complement problem stated plainly: a Metro line is worth only as much as your way to and from the station. Until feeders actually run, judge a station by the walk or ride at both ends, not by the line on the map."
+ },
+ "moved": [
+  {
+   "tag": "Commute",
+   "what": "Deccan Herald reports traffic diversions around Palace Grounds on 26, 27 and 29 November. Separately, Ballari Road has three days of wedding-season diversions, The Times of India reports.",
+   "so_what": "If your route to the airport or Hebbal passes Palace Grounds, check the traffic police advisory for the exact roads before you leave tonight, tomorrow and Sunday, and allow extra time."
+  },
+  {
+   "tag": "Your record",
+   "what": "An 81-year-old Bengaluru man had to travel by train after Akasa Air advanced his flight without notice. A consumer commission ordered the airline to pay ₹1,000 and EaseMyTrip to refund ₹600 with 9% interest, with both paying ₹3,000 in costs, The Times of India reports.",
+   "so_what": "A schedule change you were not told about is a claim, not bad luck. Keep the original booking confirmation and screenshot every change message with its timestamp; that file is what a consumer commission acts on."
+  },
+  {
+   "tag": "Money",
+   "what": "A Bengaluru woman's ₹12.7 lakh Groww portfolio showed ₹84,508 after a tech glitch during a ₹10 lakh withdrawal, The Times of India reports.",
+   "so_what": "Before any large redemption, screenshot your holdings and note the time. If an app shows a number you do not recognise, check your depository statement and raise a written ticket with the broker the same day, rather than placing new trades to fix it."
+  },
+  {
+   "tag": "Entitlement",
+   "what": "Technical glitches crippled ration distribution in Karnataka, leaving about half of the 1.25 crore beneficiaries in a lurch, The Times of India reports.",
+   "so_what": "If your household or someone who works for you depends on a ration card, check whether this month's quota was actually drawn, and ask the shop what happens to an undrawn quota before the month closes."
+  },
+  {
+   "tag": "Commute",
+   "what": "Metro Rail News reports that the Hebbal–Sarjapur Red Line may slip to 2033 because the Centre's approval is still pending.",
+   "so_what": "If you are paying a premium for a flat because of the Red Line, price it as though the line does not exist this decade. An unapproved project has no reliable date."
+  }
+ ],
+ "carry_over": {
+  "id": "mortgaged-plot",
+  "prompt": "A seller shows you a registered deed, khata and a file of photocopies for a fairly priced plot and wants ₹5 lakh advance this week. What is the tell?",
+  "answer": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself."
+ },
+ "quiz": [
+  {
+   "question": "On which November dates are there traffic diversions around Palace Grounds?",
+   "options": [
+    "24, 25 and 26",
+    "26, 27 and 29",
+    "27, 28 and 30",
+    "Only 29"
+   ],
+   "answer": 1,
+   "why": "Deccan Herald: diversions around Palace Grounds on November 26, 27 and 29."
+  },
+  {
+   "question": "How much did the consumer commission order Akasa Air to pay the 81-year-old passenger?",
+   "options": [
+    "₹600",
+    "₹1,000",
+    "₹3,000",
+    "₹10,000"
+   ],
+   "answer": 1,
+   "why": "The Times of India: Akasa to pay ₹1,000; EaseMyTrip to refund ₹600 with 9% interest; both to pay ₹3,000 costs."
+  },
+  {
+   "question": "What did the Groww portfolio show after the glitch, against its ₹12.7 lakh value?",
+   "options": [
+    "₹8,450",
+    "₹84,508",
+    "₹2.7 lakh",
+    "₹10 lakh"
+   ],
+   "answer": 1,
+   "why": "The Times of India: the ₹12.7 lakh portfolio fell to ₹84,508 after a tech glitch."
+  },
+  {
+   "question": "How many mini-buses has BMTC invited bids for, for Metro feeder routes and narrow roads?",
+   "options": [
+    "50",
+    "100",
+    "200",
+    "500"
+   ],
+   "answer": 2,
+   "why": "The Hindu: BMTC invites bids for 200 mini-buses."
+  },
+  {
+   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
+   "options": [
+    "2027",
+    "2029",
+    "2031",
+    "2033"
+   ],
+   "answer": 3,
+   "why": "Metro Rail News: the Red Line may slip to 2033 as Centre's approval remains pending."
+  }
+ ]
+}

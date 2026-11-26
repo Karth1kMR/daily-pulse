@@ -360,6 +360,18 @@
         "A contractor's inflated first estimate that makes the revised one look reasonable."
       ],
       "test": "Compared with what it was before anyone moved the number, is this actually cheaper?"
+    },
+    {
+      "id": "complements",
+      "name": "Complements",
+      "one_line": "Some things are only worth as much as the thing they must be used with.",
+      "detail": "A good with a necessary partner delivers value only when both are present: a printer and ink, a phone and a network, a road and a way onto it. Improving one half while the other stays weak adds little, and the weak half quietly sets the real value of the whole. When judging any new asset or service, ask what it depends on and whether that partner exists yet.",
+      "elsewhere": [
+        "A flat near a new station that you cannot walk to safely, so you drive anyway.",
+        "An EV bought before there is a charging point at your building.",
+        "A fast fibre plan on a router that cannot carry the speed."
+      ],
+      "test": "What does this need alongside it to be useful, and does that exist yet?"
     }
   ]
 }
