@@ -1,152 +1,153 @@
 {
- "date": "2026-11-26",
- "edition": "evening",
+ "date": "2026-11-27",
+ "edition": "morning",
  "city": "Bengaluru",
- "generated_at": "2026-11-26T19:34:26+05:30",
+ "generated_at": "2026-11-27T07:34:05+05:30",
  "read_seconds": 90,
  "weather": {
-  "now_c": 22.7,
+  "now_c": 20.6,
   "condition": "Overcast",
-  "high_c": 27.4,
+  "high_c": 29.4,
   "low_c": 20.0,
-  "rain_chance_pct": 67,
-  "tip": "Rain is likely this evening (67%), and Palace Grounds has traffic diversions tonight and tomorrow. Wet roads plus diversions slow everything north of the centre, so if you are heading towards Hebbal or the airport, leave earlier than usual and check the advisory first."
+  "rain_chance_pct": 87,
+  "tip": "Rain is likely again today (87%) on roads that already waterlogged overnight, and the city's asphalting drive is narrowing lanes on major stretches. That combination slows every junction, so leave 20 minutes earlier both ways, and if you are heading to the Diljit Dosanjh concert, add time for security checks too."
  },
  "edge": {
-  "id": "otp-bank-call",
-  "category": "Pressure play",
-  "title": "The caller who already knows you",
-  "setup": "Someone calls from 'your bank'. They know your name, the last four digits of your card, your recent transaction at a Koramangala restaurant. They're calling about a fraudulent charge they've blocked, and need to verify you're really you — an OTP is on its way.",
-  "tell": "Anyone asking you to read out a code is, by definition, not your bank.",
+  "id": "repackaged-medicine",
+  "category": "Safety trap",
+  "title": "The strip that looks right",
+  "setup": "You need a course of antibiotics, or a regular medicine for someone at home. An online listing or a small shop offers it noticeably cheaper than the chemist you normally use. The strip looks right, the box looks right, and the seller is cheerful about it. You have no way to read what is inside.",
+  "tell": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number.",
   "move": [
-   "Say: 'I'll call the number on the back of my card.' Then hang up and do exactly that.",
-   "Read the OTP message itself — it states the purpose. It usually says you are authorising the very transaction they claim to be blocking.",
-   "Knowing your details proves a leak happened, not that the caller is legitimate."
+   "Buy prescription medicines only from a licensed chemist, and ask for a printed bill that carries the batch number and expiry date.",
+   "Check that the batch number and expiry on the bill match what is printed on the strip and the outer box. A mismatch, smudged print or a re-stuck label means you stop there.",
+   "If a price is far below the going rate, treat it as the finding, not as a bargain. Compare it against a second licensed chemist before you buy.",
+   "If a medicine seems wrong or does nothing, keep the packaging and the bill and report it to the state drugs control department; do not throw the evidence away."
   ],
-  "why": "Your personal data is already circulating — breaches, delivery apps, that form you filled at a mall kiosk. Scammers exploit a false equation in your head: 'knows private things' = 'is authorised'. An OTP exists precisely so that no one but you ever needs it.",
-  "variants": "Same shape: 'KYC expiring today', electricity-disconnection SMS with a callback number, fake customer-care numbers ranked high on search.",
+  "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
+  "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice.",
   "scenario": {
-   "question": "Your phone rings at 19:40. The caller says he is from your bank's fraud desk, reads out your name and the last four digits of your card, and mentions your dinner bill in Koramangala last week. He says a ₹48,000 charge has just been blocked and an OTP is coming to confirm it is really you. The SMS arrives. What do you do?",
+   "question": "Someone at home needs a five-day course of antibiotics. An online listing offers the same brand at about 40% below what your usual chemist charges, with delivery tonight. The photo shows the right strip and box. The seller says a bill is 'not needed for this item'. What do you do?",
    "choices": [
     {
-     "text": "Say you will call the number on the back of your card, hang up, and do exactly that. Read the OTP message itself before anything else; it states what it authorises.",
+     "text": "Buy from a licensed chemist who gives a printed bill with the batch number and expiry, and check that both match the strip and the box before you open it.",
      "verdict": "best"
     },
     {
-     "text": "Read out the OTP. He knows your card digits and your recent spend, so he must be the bank.",
+     "text": "Order it. The packaging in the photo matches the brand exactly, so it must be genuine.",
      "verdict": "trap"
     },
     {
-     "text": "Ask him to verify himself first by telling you your full card number, then share the OTP if he gets it right.",
+     "text": "Order it and keep the delivery screenshot as proof in case it does not work.",
      "verdict": "trap"
     },
     {
-     "text": "Stay on the line but refuse the OTP, and let him walk you through 'securing' the account in your banking app.",
+     "text": "Order it, but compare the strip against an old one at home when it arrives before deciding to use it.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "complements",
-  "name": "Complements",
-  "one_line": "Some things are only worth as much as the thing they must be used with.",
-  "detail": "A good with a necessary partner delivers value only when both are present: a printer and ink, a phone and a network, a road and a way onto it. Improving one half while the other stays weak adds little, and the weak half quietly sets the real value of the whole. When judging any new asset or service, ask what it depends on and whether that partner exists yet.",
+  "id": "fixed-costs",
+  "name": "Fixed costs",
+  "one_line": "When most of the cost does not move with use, more use does not fix the books quickly.",
+  "detail": "Costs come in two kinds: those that rise with every unit sold (fuel, ingredients, a driver's shift) and those owed regardless (loan repayments, interest, rent, depreciation). When the second kind dominates, growth in customers helps only slowly, and anything that raises the fixed part, such as a rate rise or a weaker rupee on a foreign loan, can swamp it. Before concluding that more users will rescue something, ask where the money actually goes.",
   "elsewhere": [
-   "A flat near a new station that you cannot walk to safely, so you drive anyway.",
-   "An EV bought before there is a charging point at your building.",
-   "A fast fibre plan on a router that cannot carry the speed."
+   "A car whose EMI, insurance and parking cost the same whether you drive it twice a month or daily, so the real question is the cost per trip.",
+   "A restaurant full every night that still shuts because its rent was fixed at the peak.",
+   "A household where the home-loan EMI, not the grocery bill, decides how badly a pay cut hurts."
   ],
-  "test": "What does this need alongside it to be useful, and does that exist yet?",
-  "today": "The Hindu reports that BMTC has invited bids for 200 mini-buses to improve last-mile Metro connectivity and serve narrow roads; Swarajya puts the order at ₹304 crore. That is the complement problem stated plainly: a Metro line is worth only as much as your way to and from the station. Until feeders actually run, judge a station by the walk or ride at both ends, not by the line on the map."
+  "test": "Which of these costs would still be owed if usage doubled, or halved?",
+  "today": "Prop News Time reports Namma Metro ridership grew 12.29 per cent while its loss before tax widened to ₹1,717 crore, and Construction World reports that exchange-rate losses pushed finance costs above revenue. More riders cannot outrun costs tied to loans and the rupee. When a system's loss sits on the finance side, the fixes on the table are usually fares, subsidies or refinancing, not footfall, so do not assume growing ridership will keep your fare where it is."
  },
  "moved": [
   {
    "tag": "Commute",
-   "what": "Deccan Herald reports traffic diversions around Palace Grounds on 26, 27 and 29 November. Separately, Ballari Road has three days of wedding-season diversions, The Times of India reports.",
-   "so_what": "If your route to the airport or Hebbal passes Palace Grounds, check the traffic police advisory for the exact roads before you leave tonight, tomorrow and Sunday, and allow extra time."
+   "what": "Overnight rain waterlogged Bengaluru roads and disrupted morning traffic, DD News reports. The forecast puts today's rain chance at 87%.",
+   "so_what": "Leave earlier than usual this morning and again this evening, and avoid underpasses and low stretches that flooded overnight; they take hours to drain once the rain returns."
   },
   {
-   "tag": "Your record",
-   "what": "An 81-year-old Bengaluru man had to travel by train after Akasa Air advanced his flight without notice. A consumer commission ordered the airline to pay ₹1,000 and EaseMyTrip to refund ₹600 with 9% interest, with both paying ₹3,000 in costs, The Times of India reports.",
-   "so_what": "A schedule change you were not told about is a claim, not bad luck. Keep the original booking confirmation and screenshot every change message with its timestamp; that file is what a consumer commission acts on."
+   "tag": "Safety",
+   "what": "Police have registered an FIR after an emailed bomb threat targeted Diljit Dosanjh's Bengaluru concert, and the show is under security watch, The New Indian Express and Moneycontrol report.",
+   "so_what": "If you are going, expect longer security checks: carry only what fits in your pockets, arrive early, and note two exits when you get in. Check the police traffic advisory for the venue before you leave."
   },
   {
-   "tag": "Money",
-   "what": "A Bengaluru woman's ₹12.7 lakh Groww portfolio showed ₹84,508 after a tech glitch during a ₹10 lakh withdrawal, The Times of India reports.",
-   "so_what": "Before any large redemption, screenshot your holdings and note the time. If an app shows a number you do not recognise, check your depository statement and raise a written ticket with the broker the same day, rather than placing new trades to fix it."
-  },
-  {
-   "tag": "Entitlement",
-   "what": "Technical glitches crippled ration distribution in Karnataka, leaving about half of the 1.25 crore beneficiaries in a lurch, The Times of India reports.",
-   "so_what": "If your household or someone who works for you depends on a ration card, check whether this month's quota was actually drawn, and ask the shop what happens to an undrawn quota before the month closes."
+   "tag": "Safety",
+   "what": "A toddler playing outside his home was run over and killed by a water tanker, The Hindu, The Times of India and Deccan Herald report.",
+   "so_what": "A loaded tanker on a narrow residential lane has blind spots large enough to hide a child. When one is delivering on your street, keep small children inside or holding your hand until it has left."
   },
   {
    "tag": "Commute",
-   "what": "Metro Rail News reports that the Hebbal–Sarjapur Red Line may slip to 2033 because the Centre's approval is still pending.",
-   "so_what": "If you are paying a premium for a flat because of the Red Line, price it as though the line does not exist this decade. An unapproved project has no reliable date."
+   "what": "Bengaluru plans to asphalt 2,300 km of roads by February and white-top another 130 km across 88 stretches, with ₹5,394 crore allocated, The Times of India reports.",
+   "so_what": "Expect lane closures and diversions on major roads through February. White-topping closes a stretch for weeks, not nights, so if your daily route is on the list, find your alternative now rather than on the first jammed morning."
+  },
+  {
+   "tag": "Commute",
+   "what": "Trial runs have begun on the Blue Line Phase 2A stretch from KR Puram towards Mahadevapura, with completion targeted for mid-2027, Swarajya and Indian Infrastructure Magazine report.",
+   "so_what": "Trials are not an opening. If you commute along the Outer Ring Road, plan for at least another eighteen months of road travel, and treat any rent premium for 'upcoming Metro' accordingly."
   }
  ],
  "carry_over": {
-  "id": "mortgaged-plot",
-  "prompt": "A seller shows you a registered deed, khata and a file of photocopies for a fairly priced plot and wants ₹5 lakh advance this week. What is the tell?",
-  "answer": "Every paper you are shown was handed over by the seller; none is a record you pulled yourself."
+  "id": "otp-bank-call",
+  "prompt": "A caller from 'your bank' knows your name, your card's last four digits and a recent bill, and says an OTP is coming to verify it is really you. What is the tell?",
+  "answer": "Anyone asking you to read out a code is, by definition, not your bank."
  },
  "quiz": [
   {
-   "question": "On which November dates are there traffic diversions around Palace Grounds?",
+   "question": "By how much did Namma Metro ridership grow, per Prop News Time?",
    "options": [
-    "24, 25 and 26",
-    "26, 27 and 29",
-    "27, 28 and 30",
-    "Only 29"
-   ],
-   "answer": 1,
-   "why": "Deccan Herald: diversions around Palace Grounds on November 26, 27 and 29."
-  },
-  {
-   "question": "How much did the consumer commission order Akasa Air to pay the 81-year-old passenger?",
-   "options": [
-    "₹600",
-    "₹1,000",
-    "₹3,000",
-    "₹10,000"
-   ],
-   "answer": 1,
-   "why": "The Times of India: Akasa to pay ₹1,000; EaseMyTrip to refund ₹600 with 9% interest; both to pay ₹3,000 costs."
-  },
-  {
-   "question": "What did the Groww portfolio show after the glitch, against its ₹12.7 lakh value?",
-   "options": [
-    "₹8,450",
-    "₹84,508",
-    "₹2.7 lakh",
-    "₹10 lakh"
-   ],
-   "answer": 1,
-   "why": "The Times of India: the ₹12.7 lakh portfolio fell to ₹84,508 after a tech glitch."
-  },
-  {
-   "question": "How many mini-buses has BMTC invited bids for, for Metro feeder routes and narrow roads?",
-   "options": [
-    "50",
-    "100",
-    "200",
-    "500"
+    "5.4%",
+    "8.1%",
+    "12.29%",
+    "20%"
    ],
    "answer": 2,
-   "why": "The Hindu: BMTC invites bids for 200 mini-buses."
+   "why": "Prop News Time: ridership grew 12.29 per cent as loss before tax widened."
   },
   {
-   "question": "To which year may the Hebbal–Sarjapur Red Line slip?",
+   "question": "What was Namma Metro's widened loss before tax?",
    "options": [
-    "2027",
+    "₹304 crore",
+    "₹1,717 crore",
+    "₹5,394 crore",
+    "₹717 crore"
+   ],
+   "answer": 1,
+   "why": "Prop News Time: loss before tax widened to ₹1,717 crore."
+  },
+  {
+   "question": "How many kilometres of roads does Bengaluru plan to asphalt by February?",
+   "options": [
+    "130 km",
+    "880 km",
+    "2,300 km",
+    "5,394 km"
+   ],
+   "answer": 2,
+   "why": "The Times of India: 2,300 km to be asphalted, plus 130 km white-topped across 88 stretches."
+  },
+  {
+   "question": "What share of riders wear helmets, according to the Karnataka road-safety study?",
+   "options": [
+    "24%",
+    "30%",
+    "50%",
+    "70%"
+   ],
+   "answer": 1,
+   "why": "The Hindu: only 30% wear helmets and 24% exceed speed limits."
+  },
+  {
+   "question": "When is the Blue Line Phase 2A stretch from KR Puram towards Mahadevapura targeted for completion?",
+   "options": [
+    "December 2026",
+    "Mid-2027",
     "2029",
-    "2031",
     "2033"
    ],
-   "answer": 3,
-   "why": "Metro Rail News: the Red Line may slip to 2033 as Centre's approval remains pending."
+   "answer": 1,
+   "why": "Swarajya: trials launched, targeting mid-2027 completion."
   }
  ]
 }

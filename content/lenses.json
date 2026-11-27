@@ -372,6 +372,18 @@
         "A fast fibre plan on a router that cannot carry the speed."
       ],
       "test": "What does this need alongside it to be useful, and does that exist yet?"
+    },
+    {
+      "id": "fixed-costs",
+      "name": "Fixed costs",
+      "one_line": "When most of the cost does not move with use, more use does not fix the books quickly.",
+      "detail": "Costs come in two kinds: those that rise with every unit sold (fuel, ingredients, a driver's shift) and those owed regardless (loan repayments, interest, rent, depreciation). When the second kind dominates, growth in customers helps only slowly, and anything that raises the fixed part, such as a rate rise or a weaker rupee on a foreign loan, can swamp it. Before concluding that more users will rescue something, ask where the money actually goes.",
+      "elsewhere": [
+        "A car whose EMI, insurance and parking cost the same whether you drive it twice a month or daily, so the real question is the cost per trip.",
+        "A restaurant full every night that still shuts because its rent was fixed at the peak.",
+        "A household where the home-loan EMI, not the grocery bill, decides how badly a pay cut hurts."
+      ],
+      "test": "Which of these costs would still be owed if usage doubled, or halved?"
     }
   ]
 }
