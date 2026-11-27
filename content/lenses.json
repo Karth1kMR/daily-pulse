@@ -384,6 +384,18 @@
         "A household where the home-loan EMI, not the grocery bill, decides how badly a pay cut hurts."
       ],
       "test": "Which of these costs would still be owed if usage doubled, or halved?"
+    },
+    {
+      "id": "stocks-and-flows",
+      "name": "Stocks and flows",
+      "one_line": "A backlog keeps growing until what goes out each day overtakes what comes in, however much capacity is announced.",
+      "detail": "A stock is an amount sitting somewhere: a pile of untreated sewage, a queue of pending files, a balance on a card. A flow is the rate at which it fills or drains. The stock only shrinks when the outflow is larger than the inflow, and it shrinks only by that difference. Announced capacity is not outflow until it is running, and if the inflow keeps rising the gap can stay open even after new capacity arrives. To judge whether a problem is getting better, compare the two rates, not the size of the promise.",
+      "elsewhere": [
+        "A credit-card balance that grows even though you pay every month, because the interest added is larger than what you pay off.",
+        "A court or a government office whose pending cases rise while it disposes of more files than ever, because new filings rise faster.",
+        "An inbox that never empties because you answer forty mails a day and receive fifty."
+      ],
+      "test": "How much comes in each day, how much goes out, and which of the two is actually changing?"
     }
   ]
 }

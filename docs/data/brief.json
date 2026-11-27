@@ -1,153 +1,140 @@
 {
  "date": "2026-11-27",
- "edition": "morning",
+ "edition": "evening",
  "city": "Bengaluru",
- "generated_at": "2026-11-27T07:34:05+05:30",
- "read_seconds": 90,
- "weather": {
-  "now_c": 20.6,
-  "condition": "Overcast",
-  "high_c": 29.4,
-  "low_c": 20.0,
-  "rain_chance_pct": 87,
-  "tip": "Rain is likely again today (87%) on roads that already waterlogged overnight, and the city's asphalting drive is narrowing lanes on major stretches. That combination slows every junction, so leave 20 minutes earlier both ways, and if you are heading to the Diljit Dosanjh concert, add time for security checks too."
- },
+ "generated_at": "2026-11-27T19:34:36+05:30",
+ "read_seconds": 85,
+ "weather": null,
  "edge": {
-  "id": "repackaged-medicine",
-  "category": "Safety trap",
-  "title": "The strip that looks right",
-  "setup": "You need a course of antibiotics, or a regular medicine for someone at home. An online listing or a small shop offers it noticeably cheaper than the chemist you normally use. The strip looks right, the box looks right, and the seller is cheerful about it. You have no way to read what is inside.",
-  "tell": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number.",
+  "id": "job-fee",
+  "category": "Money trap",
+  "title": "The job that charges you",
+  "setup": "An offer letter arrives — good company, better package than you expected, perhaps an overseas tech role of the kind countries like Denmark are now publicly recruiting Bengaluru for. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification or visa-processing fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+  "tell": "Money flowing from employee to employer, in any form, at any stage.",
   "move": [
-   "Buy prescription medicines only from a licensed chemist, and ask for a printed bill that carries the batch number and expiry date.",
-   "Check that the batch number and expiry on the bill match what is printed on the strip and the outer box. A mismatch, smudged print or a re-stuck label means you stop there.",
-   "If a price is far below the going rate, treat it as the finding, not as a bargain. Compare it against a second licensed chemist before you buy.",
-   "If a medicine seems wrong or does nothing, keep the packaging and the bill and report it to the state drugs control department; do not throw the evidence away."
+   "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+   "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+   "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
   ],
-  "why": "You cannot verify a medicine yourself, so you rely on signals that are cheap to fake: the packaging, the brand name, a confident seller. The only part a counterfeiter cannot fake cheaply is a paper trail that runs back to a licensed supplier, and a price that makes sense. The mechanism is that the buyer knows least at the moment of purchase, and the seller knows exactly what is in the box. So you demand the one thing that moves information to your side: a bill with a batch number.",
-  "variants": "Same shape: counterfeit supplements and protein powder, refilled branded cosmetics, 'original' spare parts for a car or phone, re-sealed bottled water or cooking oil, a cheap 'sealed' phone with no invoice.",
+  "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+  "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad.",
   "scenario": {
-   "question": "Someone at home needs a five-day course of antibiotics. An online listing offers the same brand at about 40% below what your usual chemist charges, with delivery tonight. The photo shows the right strip and box. The seller says a bill is 'not needed for this item'. What do you do?",
+   "question": "A recruiter messages you about a software role in Copenhagen: relocation paid, salary well above your current one. After one short video call you get an offer letter on a letterhead that looks right. To start your work-permit paperwork, they ask for a ₹18,000 'visa-processing deposit', refundable after you join. What do you do?",
    "choices": [
     {
-     "text": "Buy from a licensed chemist who gives a printed bill with the batch number and expiry, and check that both match the strip and the box before you open it.",
+     "text": "Pay nothing. Find the company's official website and switchboard yourself, call to ask whether this offer and recruiter are real, and check that the sender's email domain is exactly theirs.",
      "verdict": "best"
     },
     {
-     "text": "Order it. The packaging in the photo matches the brand exactly, so it must be genuine.",
+     "text": "Pay it. The deposit is refundable and small next to the salary, so the downside is limited.",
      "verdict": "trap"
     },
     {
-     "text": "Order it and keep the delivery screenshot as proof in case it does not work.",
+     "text": "Ask the recruiter for their company registration number and a copy of their licence, and pay once they send them.",
      "verdict": "trap"
     },
     {
-     "text": "Order it, but compare the strip against an old one at home when it arrives before deciding to use it.",
+     "text": "Pay half now and promise the rest once the visa appointment is booked.",
      "verdict": "risky"
     }
    ]
   }
  },
  "lens": {
-  "id": "fixed-costs",
-  "name": "Fixed costs",
-  "one_line": "When most of the cost does not move with use, more use does not fix the books quickly.",
-  "detail": "Costs come in two kinds: those that rise with every unit sold (fuel, ingredients, a driver's shift) and those owed regardless (loan repayments, interest, rent, depreciation). When the second kind dominates, growth in customers helps only slowly, and anything that raises the fixed part, such as a rate rise or a weaker rupee on a foreign loan, can swamp it. Before concluding that more users will rescue something, ask where the money actually goes.",
+  "id": "stocks-and-flows",
+  "name": "Stocks and flows",
+  "one_line": "A backlog keeps growing until what goes out each day overtakes what comes in, however much capacity is announced.",
+  "detail": "A stock is an amount sitting somewhere: a pile of untreated sewage, a queue of pending files, a balance on a card. A flow is the rate at which it fills or drains. The stock only shrinks when the outflow is larger than the inflow, and it shrinks only by that difference. Announced capacity is not outflow until it is running, and if the inflow keeps rising the gap can stay open even after new capacity arrives. To judge whether a problem is getting better, compare the two rates, not the size of the promise.",
   "elsewhere": [
-   "A car whose EMI, insurance and parking cost the same whether you drive it twice a month or daily, so the real question is the cost per trip.",
-   "A restaurant full every night that still shuts because its rent was fixed at the peak.",
-   "A household where the home-loan EMI, not the grocery bill, decides how badly a pay cut hurts."
+   "A credit-card balance that grows even though you pay every month, because the interest added is larger than what you pay off.",
+   "A court or a government office whose pending cases rise while it disposes of more files than ever, because new filings rise faster.",
+   "An inbox that never empties because you answer forty mails a day and receive fifty."
   ],
-  "test": "Which of these costs would still be owed if usage doubled, or halved?",
-  "today": "Prop News Time reports Namma Metro ridership grew 12.29 per cent while its loss before tax widened to ₹1,717 crore, and Construction World reports that exchange-rate losses pushed finance costs above revenue. More riders cannot outrun costs tied to loans and the rupee. When a system's loss sits on the finance side, the fixes on the table are usually fares, subsidies or refinancing, not footfall, so do not assume growing ridership will keep your fare where it is."
+  "test": "How much comes in each day, how much goes out, and which of the two is actually changing?",
+  "today": "The Times of India reports that half of Bengaluru's sewage is still untreated, with 45 treatment plants in the pipeline. Plants in the pipeline are a promise of outflow, while the inflow of sewage grows with every new building in the city. Until the plants are running and treating more than the city adds, assume the lakes and drains near you stay as they are, and weigh that before paying a premium for a 'lake-view' flat."
  },
  "moved": [
   {
-   "tag": "Commute",
-   "what": "Overnight rain waterlogged Bengaluru roads and disrupted morning traffic, DD News reports. The forecast puts today's rain chance at 87%.",
-   "so_what": "Leave earlier than usual this morning and again this evening, and avoid underpasses and low stretches that flooded overnight; they take hours to drain once the rain returns."
+   "tag": "Your record",
+   "what": "The Greater Bengaluru Authority has begun sending e-Khatas to 24 lakh property owners on WhatsApp, free of charge, The Hindu and The New Indian Express report.",
+   "so_what": "The service is free, so any message asking you to pay, or to install an app to 'download your e-Khata', is not from the GBA. When yours arrives, check the owner name, property number and area against your sale deed now; an error is far easier to fix today than when you sell or apply for a loan."
   },
   {
-   "tag": "Safety",
-   "what": "Police have registered an FIR after an emailed bomb threat targeted Diljit Dosanjh's Bengaluru concert, and the show is under security watch, The New Indian Express and Moneycontrol report.",
-   "so_what": "If you are going, expect longer security checks: carry only what fits in your pockets, arrive early, and note two exits when you get in. Check the police traffic advisory for the venue before you leave."
+   "tag": "Money",
+   "what": "A consumer commission ordered a builder to refund a Bengaluru buyer's ₹2 lakh plot booking amount with 9% interest and ₹25,000 compensation, after he cancelled because legal documents were missing and the builder did not refund despite a written assurance, The Times of India reports.",
+   "so_what": "Ask for the title documents before you pay any booking amount, not after, and get the refund terms in writing. If a builder sits on a refund, a consumer commission complaint is a real route, and the written assurance is what wins it."
   },
   {
-   "tag": "Safety",
-   "what": "A toddler playing outside his home was run over and killed by a water tanker, The Hindu, The Times of India and Deccan Herald report.",
-   "so_what": "A loaded tanker on a narrow residential lane has blind spots large enough to hide a child. When one is delivering on your street, keep small children inside or holding your hand until it has left."
+   "tag": "Worth booking",
+   "what": "Airfares are still 28% above pre-festival levels three weeks after Diwali and Chhath, with wedding-season demand keeping them up, The Times of India reports. A separate TOI report names Bengaluru the country's hottest year-end travel pick, ahead of Delhi.",
+   "so_what": "The usual post-festival dip has not come this year. If your December dates are fixed, compare fares now instead of waiting for them to fall, and expect hotels and flights into Bengaluru to be busy at year-end too."
   },
   {
-   "tag": "Commute",
-   "what": "Bengaluru plans to asphalt 2,300 km of roads by February and white-top another 130 km across 88 stretches, with ₹5,394 crore allocated, The Times of India reports.",
-   "so_what": "Expect lane closures and diversions on major roads through February. White-topping closes a stretch for weeks, not nights, so if your daily route is on the list, find your alternative now rather than on the first jammed morning."
-  },
-  {
-   "tag": "Commute",
-   "what": "Trial runs have begun on the Blue Line Phase 2A stretch from KR Puram towards Mahadevapura, with completion targeted for mid-2027, Swarajya and Indian Infrastructure Magazine report.",
-   "so_what": "Trials are not an opening. If you commute along the Outer Ring Road, plan for at least another eighteen months of road travel, and treat any rent premium for 'upcoming Metro' accordingly."
+   "tag": "Money",
+   "what": "Bescom consumers are set to get a refund of 35 paise a unit from April 2027, The Times of India reports.",
+   "so_what": "Nothing to do now. On a home using 300 units a month that works out to about ₹105 off each bill, so check your April 2027 bill shows it, and do not respond to any call or link offering to 'process' the refund for you."
   }
  ],
  "carry_over": {
-  "id": "otp-bank-call",
-  "prompt": "A caller from 'your bank' knows your name, your card's last four digits and a recent bill, and says an OTP is coming to verify it is really you. What is the tell?",
-  "answer": "Anyone asking you to read out a code is, by definition, not your bank."
+  "id": "repackaged-medicine",
+  "prompt": "An online listing offers your usual medicine at 40% below the chemist's price, the strip and box look right, and the seller says no bill is needed. What is the tell?",
+  "answer": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number."
  },
  "quiz": [
   {
-   "question": "By how much did Namma Metro ridership grow, per Prop News Time?",
+   "question": "How many property owners is the GBA sending e-Khatas to on WhatsApp?",
    "options": [
-    "5.4%",
-    "8.1%",
-    "12.29%",
-    "20%"
+    "2.4 lakh",
+    "12 lakh",
+    "24 lakh",
+    "45 lakh"
    ],
    "answer": 2,
-   "why": "Prop News Time: ridership grew 12.29 per cent as loss before tax widened."
+   "why": "The Hindu and The New Indian Express: e-Khatas are being sent free to 24 lakh property owners."
   },
   {
-   "question": "What was Namma Metro's widened loss before tax?",
+   "question": "What refund per unit are Bescom consumers set to get from April 2027?",
    "options": [
-    "₹304 crore",
-    "₹1,717 crore",
-    "₹5,394 crore",
-    "₹717 crore"
+    "10 paise",
+    "35 paise",
+    "₹1",
+    "₹3.5"
    ],
    "answer": 1,
-   "why": "Prop News Time: loss before tax widened to ₹1,717 crore."
+   "why": "The Times of India: a 35 paise per unit refund from April 2027."
   },
   {
-   "question": "How many kilometres of roads does Bengaluru plan to asphalt by February?",
+   "question": "How far above pre-festival levels are airfares three weeks after Diwali and Chhath?",
    "options": [
-    "130 km",
-    "880 km",
-    "2,300 km",
-    "5,394 km"
+    "8%",
+    "15%",
+    "28%",
+    "50%"
    ],
    "answer": 2,
-   "why": "The Times of India: 2,300 km to be asphalted, plus 130 km white-topped across 88 stretches."
+   "why": "The Times of India: fares remain 28% above pre-festival levels, held up by wedding-season demand."
   },
   {
-   "question": "What share of riders wear helmets, according to the Karnataka road-safety study?",
+   "question": "What share of Bengaluru's sewage is still untreated, per The Times of India?",
    "options": [
-    "24%",
-    "30%",
-    "50%",
-    "70%"
+    "About a tenth",
+    "About a quarter",
+    "About half",
+    "Nearly all"
    ],
-   "answer": 1,
-   "why": "The Hindu: only 30% wear helmets and 24% exceed speed limits."
+   "answer": 2,
+   "why": "The Times of India: half of the city's sewage is untreated, with 45 treatment plants in the pipeline."
   },
   {
-   "question": "When is the Blue Line Phase 2A stretch from KR Puram towards Mahadevapura targeted for completion?",
+   "question": "In the plot-booking case, what interest rate did the consumer commission order on the ₹2 lakh refund?",
    "options": [
-    "December 2026",
-    "Mid-2027",
-    "2029",
-    "2033"
+    "6%",
+    "9%",
+    "12%",
+    "18%"
    ],
    "answer": 1,
-   "why": "Swarajya: trials launched, targeting mid-2027 completion."
+   "why": "The Times of India: refund of ₹2 lakh with 9% interest plus ₹25,000 compensation."
   }
  ]
 }

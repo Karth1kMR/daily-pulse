@@ -1,0 +1,140 @@
+{
+ "date": "2026-11-27",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-27T19:34:36+05:30",
+ "read_seconds": 85,
+ "weather": null,
+ "edge": {
+  "id": "job-fee",
+  "category": "Money trap",
+  "title": "The job that charges you",
+  "setup": "An offer letter arrives — good company, better package than you expected, perhaps an overseas tech role of the kind countries like Denmark are now publicly recruiting Bengaluru for. HR is responsive and warm. There's a refundable registration, or a laptop deposit, or a background-verification or visa-processing fee. ₹4,000 to ₹25,000, payable today to confirm the seat.",
+  "tell": "Money flowing from employee to employer, in any form, at any stage.",
+  "move": [
+   "Legitimate employers never charge you. Not for verification, not for equipment, not refundably.",
+   "Verify via the company's official domain and switchboard — never a number or email in the offer itself.",
+   "Check the offer's email domain character by character. @infosys-hr.com is not @infosys.com."
+  ],
+  "why": "The scam exploits the asymmetry of hope: a job changes your life, so a small fee feels like a rounding error against the upside. That asymmetry is also why victims stay silent, which is why these keep running.",
+  "variants": "Same shape: work-from-home data-entry kits, 'task' and review-earning schemes that start by paying you, visa-processing fees for offers abroad.",
+  "scenario": {
+   "question": "A recruiter messages you about a software role in Copenhagen: relocation paid, salary well above your current one. After one short video call you get an offer letter on a letterhead that looks right. To start your work-permit paperwork, they ask for a ₹18,000 'visa-processing deposit', refundable after you join. What do you do?",
+   "choices": [
+    {
+     "text": "Pay nothing. Find the company's official website and switchboard yourself, call to ask whether this offer and recruiter are real, and check that the sender's email domain is exactly theirs.",
+     "verdict": "best"
+    },
+    {
+     "text": "Pay it. The deposit is refundable and small next to the salary, so the downside is limited.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Ask the recruiter for their company registration number and a copy of their licence, and pay once they send them.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Pay half now and promise the rest once the visa appointment is booked.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "stocks-and-flows",
+  "name": "Stocks and flows",
+  "one_line": "A backlog keeps growing until what goes out each day overtakes what comes in, however much capacity is announced.",
+  "detail": "A stock is an amount sitting somewhere: a pile of untreated sewage, a queue of pending files, a balance on a card. A flow is the rate at which it fills or drains. The stock only shrinks when the outflow is larger than the inflow, and it shrinks only by that difference. Announced capacity is not outflow until it is running, and if the inflow keeps rising the gap can stay open even after new capacity arrives. To judge whether a problem is getting better, compare the two rates, not the size of the promise.",
+  "elsewhere": [
+   "A credit-card balance that grows even though you pay every month, because the interest added is larger than what you pay off.",
+   "A court or a government office whose pending cases rise while it disposes of more files than ever, because new filings rise faster.",
+   "An inbox that never empties because you answer forty mails a day and receive fifty."
+  ],
+  "test": "How much comes in each day, how much goes out, and which of the two is actually changing?",
+  "today": "The Times of India reports that half of Bengaluru's sewage is still untreated, with 45 treatment plants in the pipeline. Plants in the pipeline are a promise of outflow, while the inflow of sewage grows with every new building in the city. Until the plants are running and treating more than the city adds, assume the lakes and drains near you stay as they are, and weigh that before paying a premium for a 'lake-view' flat."
+ },
+ "moved": [
+  {
+   "tag": "Your record",
+   "what": "The Greater Bengaluru Authority has begun sending e-Khatas to 24 lakh property owners on WhatsApp, free of charge, The Hindu and The New Indian Express report.",
+   "so_what": "The service is free, so any message asking you to pay, or to install an app to 'download your e-Khata', is not from the GBA. When yours arrives, check the owner name, property number and area against your sale deed now; an error is far easier to fix today than when you sell or apply for a loan."
+  },
+  {
+   "tag": "Money",
+   "what": "A consumer commission ordered a builder to refund a Bengaluru buyer's ₹2 lakh plot booking amount with 9% interest and ₹25,000 compensation, after he cancelled because legal documents were missing and the builder did not refund despite a written assurance, The Times of India reports.",
+   "so_what": "Ask for the title documents before you pay any booking amount, not after, and get the refund terms in writing. If a builder sits on a refund, a consumer commission complaint is a real route, and the written assurance is what wins it."
+  },
+  {
+   "tag": "Worth booking",
+   "what": "Airfares are still 28% above pre-festival levels three weeks after Diwali and Chhath, with wedding-season demand keeping them up, The Times of India reports. A separate TOI report names Bengaluru the country's hottest year-end travel pick, ahead of Delhi.",
+   "so_what": "The usual post-festival dip has not come this year. If your December dates are fixed, compare fares now instead of waiting for them to fall, and expect hotels and flights into Bengaluru to be busy at year-end too."
+  },
+  {
+   "tag": "Money",
+   "what": "Bescom consumers are set to get a refund of 35 paise a unit from April 2027, The Times of India reports.",
+   "so_what": "Nothing to do now. On a home using 300 units a month that works out to about ₹105 off each bill, so check your April 2027 bill shows it, and do not respond to any call or link offering to 'process' the refund for you."
+  }
+ ],
+ "carry_over": {
+  "id": "repackaged-medicine",
+  "prompt": "An online listing offers your usual medicine at 40% below the chemist's price, the strip and box look right, and the seller says no bill is needed. What is the tell?",
+  "answer": "The price is below what every other chemist charges, or the seller cannot give you a bill showing the batch number."
+ },
+ "quiz": [
+  {
+   "question": "How many property owners is the GBA sending e-Khatas to on WhatsApp?",
+   "options": [
+    "2.4 lakh",
+    "12 lakh",
+    "24 lakh",
+    "45 lakh"
+   ],
+   "answer": 2,
+   "why": "The Hindu and The New Indian Express: e-Khatas are being sent free to 24 lakh property owners."
+  },
+  {
+   "question": "What refund per unit are Bescom consumers set to get from April 2027?",
+   "options": [
+    "10 paise",
+    "35 paise",
+    "₹1",
+    "₹3.5"
+   ],
+   "answer": 1,
+   "why": "The Times of India: a 35 paise per unit refund from April 2027."
+  },
+  {
+   "question": "How far above pre-festival levels are airfares three weeks after Diwali and Chhath?",
+   "options": [
+    "8%",
+    "15%",
+    "28%",
+    "50%"
+   ],
+   "answer": 2,
+   "why": "The Times of India: fares remain 28% above pre-festival levels, held up by wedding-season demand."
+  },
+  {
+   "question": "What share of Bengaluru's sewage is still untreated, per The Times of India?",
+   "options": [
+    "About a tenth",
+    "About a quarter",
+    "About half",
+    "Nearly all"
+   ],
+   "answer": 2,
+   "why": "The Times of India: half of the city's sewage is untreated, with 45 treatment plants in the pipeline."
+  },
+  {
+   "question": "In the plot-booking case, what interest rate did the consumer commission order on the ₹2 lakh refund?",
+   "options": [
+    "6%",
+    "9%",
+    "12%",
+    "18%"
+   ],
+   "answer": 1,
+   "why": "The Times of India: refund of ₹2 lakh with 9% interest plus ₹25,000 compensation."
+  }
+ ]
+}
