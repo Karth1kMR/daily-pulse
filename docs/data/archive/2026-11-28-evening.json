@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-28",
+ "edition": "evening",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-28T19:34:29+05:30",
+ "read_seconds": 85,
+ "weather": {
+  "now_c": 23.7,
+  "condition": "Clear",
+  "high_c": 28.2,
+  "low_c": 19.6,
+  "rain_chance_pct": 2,
+  "tip": "A clear, dry evening at 23.7° with a 2% chance of rain, dropping to about 19.6° overnight, so weekend crowds will be out at the planetarium exhibition and the concerts. Crowds are where phones get lifted: front pocket, zip closed, and know your IMEI before you leave home."
+ },
+ "edge": {
+  "id": "phone-snatch",
+  "category": "Safety",
+  "title": "The first twenty minutes after your phone goes",
+  "anchor": "A serial PG intruder in Bengaluru, out on bail, flashed women and stole phones before he was held, The Indian Express reports; The Hindu says he was shot in the leg while resisting arrest.",
+  "setup": "Phone gone — lifted from a PG room or a bag on a crowded bus, snatched at a signal, left in an auto. The handset is the small loss. What's sitting on it: UPI apps, bank OTPs arriving by SMS, email that can reset every password you own, photos of documents.",
+  "tell": "The sequence is SIM, then banking, then handset — in that order, and the order is the whole thing.",
+  "move": [
+   "Block the SIM first, from any phone. While it's live, every OTP you own is being delivered to the thief.",
+   "From a laptop: sign out of all sessions on Google/Apple, then freeze UPI and net banking.",
+   "Block the handset itself on ceir.gov.in using the IMEI — it bricks the device across all networks in India. File the FIR; you'll need it.",
+   "Keep your IMEI somewhere that isn't your phone. Today."
+  ],
+  "why": "People instinctively chase the hardware and lose the accounts. The thief's value is almost never resale — it's the twenty-minute window where your SMS inbox is in their hand. Speed on the SIM beats everything else combined.",
+  "variants": "Same shape: a lost wallet (cards before cash), a compromised email (sessions before password), a stolen laptop (remote wipe before FIR).",
+  "scenario": {
+   "question": "It's 21:30 and your phone has been lifted from your bag on a crowded BMTC bus. A friend hands you theirs. You have UPI, net banking and your email on the stolen phone. What do you do first?",
+   "choices": [
+    {
+     "text": "Call your mobile operator from your friend's phone and block the SIM now. Then, from a laptop, sign out of all Google or Apple sessions and freeze UPI and net banking, block the handset on ceir.gov.in using the IMEI, and file the FIR.",
+     "verdict": "best"
+    },
+    {
+     "text": "Keep calling your own number in the hope that whoever has it picks up and agrees to return it.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Go home, sleep on it, and visit the operator's store for a duplicate SIM in the morning.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Spend the first half hour tracking the phone's location on a map and heading there yourself.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "more-looking-more-finding",
+  "name": "More looking, more finding",
+  "one_line": "A rise in what gets found often means more people are looking, not that more is happening.",
+  "detail": "Every count of failures, frauds or faults is really two numbers multiplied together: how often the thing happens, and how hard anyone is looking for it. When a regulator starts testing, a police unit starts a drive, or a hospital buys a better scanner, the reported number jumps even if reality has not moved. The reverse matters more for daily life: the products, landlords and companies that have never appeared in a failure report have usually not been cleared, only not been checked. Absence of bad news is evidence of a test only where a test was actually run.",
+  "elsewhere": [
+   "A spike in reported cyber fraud cases after a new complaint portal launches, which partly measures how easy it has become to report.",
+   "A building with no recorded fire-safety violations because no inspector has visited it in years.",
+   "A used car with a clean record that simply has never been taken to an authorised service centre."
+  ],
+  "test": "Was this actually tested, or has it just not been looked at yet?",
+  "today": "India's bottled-water crackdown has widened after a new Bisleri sample was found with bacteria, Reuters reports. Each new failure is partly a sign that more samples are now being tested, so a brand that has not been named has not been cleared; it may simply not have been checked yet. Judge the water by the seal, the batch number and the date on the bottle in your hand, not by whether the brand has been in the news."
+ },
+ "moved": [
+  {
+   "tag": "Safety",
+   "what": "India's bottled-water crackdown has widened, with a new Bisleri sample found to contain bacteria, Reuters reports.",
+   "so_what": "A well-known brand is not a test result. Buy only bottles with an intact seal and a legible batch number and date, and if anyone at home falls ill after drinking packaged water, keep the bottle: the batch number is what makes a complaint traceable."
+  },
+  {
+   "tag": "Money",
+   "what": "A Bengaluru woman gave a new ₹12,540 silk saree to Tumbledry for dry cleaning and got it back with burnt zari and black marks; a consumer commission has ordered the firm to pay her the full cost, The Times of India reports.",
+   "so_what": "Before handing over anything expensive for cleaning or repair, photograph it and have its condition written on the receipt. That record is what turns 'it was already like that' into a refund at a consumer commission."
+  },
+  {
+   "tag": "Commute",
+   "what": "Trials have begun on the Metro Blue Line, with passenger services targeted for mid-2027, Construction World reports.",
+   "so_what": "Trials are not service. Keep planning airport and Outer Ring Road trips by road through 2027, and treat 'mid-2027' as the earliest date, not the expected one."
+  },
+  {
+   "tag": "Safety",
+   "what": "Diljit Dosanjh says he will not cancel his Bengaluru concert despite bomb threats, Mid-Day and The Economic Times report.",
+   "so_what": "If you hold tickets, the show is on, so expect slower security checks at the gate. Arrive early, carry as little as possible, keep your phone in a front pocket, and note the exits on the way in, not on the way out."
+  }
+ ],
+ "carry_over": {
+  "id": "loan-app-harassment",
+  "prompt": "After one missed repayment on a ₹10,000 app loan, an agent is messaging your manager and relatives, threatening morphed photos unless you pay ₹38,000 to a personal UPI ID within the hour. What is the tell?",
+  "answer": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it."
+ },
+ "quiz": [
+  {
+   "question": "After a phone is stolen, what should you block first?",
+   "options": [
+    "The handset, on ceir.gov.in",
+    "The SIM",
+    "Your email password",
+    "Your social media accounts"
+   ],
+   "answer": 1,
+   "why": "Today's Edge: SIM, then banking, then handset. While the SIM is live, every OTP goes to the thief."
+  },
+  {
+   "question": "What was found in the new Bisleri sample, per Reuters?",
+   "options": [
+    "Microplastics",
+    "Lead",
+    "Bacteria",
+    "Excess fluoride"
+   ],
+   "answer": 2,
+   "why": "Reuters: India's bottled-water crackdown widened as a new Bisleri sample was found with bacteria."
+  },
+  {
+   "question": "What did the consumer commission order Tumbledry to pay for the damaged ₹12,540 silk saree?",
+   "options": [
+    "Half its cost",
+    "A free re-cleaning",
+    "The full cost",
+    "A ₹1,000 voucher"
+   ],
+   "answer": 2,
+   "why": "The Times of India: the commission ordered the firm to pay the full cost."
+  },
+  {
+   "question": "When are passenger services on the Metro Blue Line targeted to start?",
+   "options": [
+    "December 2026",
+    "January 2027",
+    "Mid-2027",
+    "2028"
+   ],
+   "answer": 2,
+   "why": "Construction World: trials have begun, with services targeted for mid-2027."
+  },
+  {
+   "question": "About how many people were detained in Bengaluru during protests over the Freedom Park restriction, per Deccan Herald?",
+   "options": [
+    "About 10",
+    "About 100",
+    "About 500",
+    "About 1,000"
+   ],
+   "answer": 1,
+   "why": "Deccan Herald: around 100 were detained during protests demanding 'freedom from Freedom Park'."
+  }
+ ]
+}

@@ -408,6 +408,18 @@
         "A water tanker paid by the trip, with nobody measuring how many litres actually arrive in your sump."
       ],
       "test": "Who read this number, who gains if it is off, and who, if anyone, checks them?"
+    },
+    {
+      "id": "more-looking-more-finding",
+      "name": "More looking, more finding",
+      "one_line": "A rise in what gets found often means more people are looking, not that more is happening.",
+      "detail": "Every count of failures, frauds or faults is really two numbers multiplied together: how often the thing happens, and how hard anyone is looking for it. When a regulator starts testing, a police unit starts a drive, or a hospital buys a better scanner, the reported number jumps even if reality has not moved. The reverse matters more for daily life: the products, landlords and companies that have never appeared in a failure report have usually not been cleared, only not been checked. Absence of bad news is evidence of a test only where a test was actually run.",
+      "elsewhere": [
+        "A spike in reported cyber fraud cases after a new complaint portal launches, which partly measures how easy it has become to report.",
+        "A building with no recorded fire-safety violations because no inspector has visited it in years.",
+        "A used car with a clean record that simply has never been taken to an authorised service centre."
+      ],
+      "test": "Was this actually tested, or has it just not been looked at yet?"
     }
   ]
 }
