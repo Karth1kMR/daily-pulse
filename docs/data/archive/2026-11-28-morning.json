@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-28",
+ "edition": "morning",
+ "city": "Bengaluru",
+ "generated_at": "2026-11-28T07:33:57+05:30",
+ "read_seconds": 85,
+ "weather": {
+  "now_c": 20.1,
+  "condition": "Overcast",
+  "high_c": 28.8,
+  "low_c": 19.5,
+  "rain_chance_pct": 2,
+  "tip": "Dry and overcast today, with a 2% chance of rain and a high of 28.8°, which makes it a good weekend for going out: the Uttara Karnataka Utsava is on Sunday, 29 November, and the planetarium's three-day exhibition has just opened. If you are crossing the east of the city, route around the Nagawara flyover–Tin Factory stretch."
+ },
+ "edge": {
+  "id": "loan-app-harassment",
+  "category": "Pressure play",
+  "title": "When the app calls your contacts",
+  "setup": "A small loan taken through an app that approved it in minutes. A payment slips. Now the calls start — to you, then to your contacts, your manager, your family. Morphed photos, abuse, a 'legal notice' from a lawyer who doesn't exist. The amount owed keeps changing.",
+  "tell": "The pressure is aimed at your reputation, not your bank account — which means it's outside the law, not inside it.",
+  "move": [
+   "Recovery agents may not call before 8am, after 7pm, or contact people who didn't guarantee the loan. Harassment is a police matter: FIR, plus a complaint on the RBI's CMS portal (cms.rbi.org.in).",
+   "Check whether the lender is an RBI-registered NBFC. Many are not — unregistered lenders have no legal recovery path at all.",
+   "Revoke the app's contacts and photos permission immediately, then uninstall. Keep every screenshot.",
+   "Pay what is genuinely owed through a traceable channel, never to a personal UPI ID."
+  ],
+  "why": "These operations monetise shame, not debt. The loan is small on purpose — the business model is the humiliation leverage, which is why the threats escalate socially rather than legally. Naming the actual legal framework collapses it, because the framework was never on their side.",
+  "variants": "Same shape: fake 'legal notice' WhatsApps, sextortion video calls, 'we'll inform your employer' threats.",
+  "anchor": "A Bengaluru woman has paid ₹15 lakh to 43 loan apps and still faces threats of morphed photos over repayment, The Times of India reports.",
+  "scenario": {
+   "question": "You took a ₹10,000 loan through an app that approved it in minutes. You missed one repayment date. Now a recovery agent is messaging your manager and two relatives, saying morphed photos of you will be circulated unless you pay ₹38,000 to a personal UPI ID within the hour. What do you do?",
+   "choices": [
+    {
+     "text": "Don't pay the UPI ID. Revoke the app's contacts and photos permissions and uninstall it, screenshot every message, file a police complaint, and check whether the lender is RBI-registered before repaying what you genuinely owe through a traceable channel.",
+     "verdict": "best"
+    },
+    {
+     "text": "Pay the ₹38,000 to the UPI ID right away so the messages stop before more people see them.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Take a loan from another instant app to clear this one quickly and quietly.",
+     "verdict": "trap"
+    },
+    {
+     "text": "Call the agent and negotiate a smaller amount, then pay that to the same UPI ID.",
+     "verdict": "risky"
+    }
+   ]
+  }
+ },
+ "lens": {
+  "id": "who-holds-the-meter",
+  "name": "Who holds the meter",
+  "one_line": "Whoever takes the measurement controls the number, so the first question about any figure is who read it and who checks them.",
+  "detail": "Most transactions settle on a measurement: litres at a pump, units on an electricity meter, kilometres on a taxi meter, the weight on a vendor's scale, the blend ratio at a fuel depot. The party that owns the instrument and reads it has both the means and the motive to shade it, usually by amounts too small to notice on a single bill. Honest numbers survive only where someone else can check: a seal, an independent inspector, a reading you can watch yourself, or a second instrument. When a dispute arises, the side that kept its own record of the measurement usually wins.",
+  "elsewhere": [
+   "An auto meter that runs fast, which is why you watch it start at the base fare before the ride begins.",
+   "A vendor's scale that never shows zero before your vegetables go on it.",
+   "A water tanker paid by the trip, with nobody measuring how many litres actually arrive in your sump."
+  ],
+  "test": "Who read this number, who gains if it is off, and who, if anyone, checks them?",
+  "today": "Karnataka has served a show-cause notice on Indian Oil's Bengaluru terminal over discrepancies in how ethanol was measured, The Hindu, The New Indian Express and BusinessLine report. The blend in your tank is a number set by whoever runs the measurement upstream, and you only hear about a gap because a regulator checked the checker. At the pump, the one measurement you can watch is the dispenser: see it start from zero, and keep the printed slip if your mileage suddenly drops."
+ },
+ "moved": [
+  {
+   "tag": "Safety",
+   "what": "A man booked an auto, borrowed the driver's phone and used it to make bomb threats against the Karnataka Chief Minister, The Indian Express reports; the Times of India says he has been arrested.",
+   "so_what": "Whatever a stranger does on your phone is traced to your number first. If someone asks to borrow it for an 'urgent call', dial the number yourself, keep it on speaker and keep the phone in your hand."
+  },
+  {
+   "tag": "Commute",
+   "what": "The Nagawara flyover to Tin Factory commute has turned into a nightmare, Deccan Herald reports. The four-lane underpass on Old Airport Road is now due to open by January 2027, and The Indian Express says Bengaluru's most delayed flyover may not open even in early 2027.",
+   "so_what": "Plan your east-side commute around the roads as they are today, not the announced opening dates. If you use the Nagawara–Tin Factory stretch, try leaving outside the peak or switching part of the trip to the Metro for the next few weeks."
+  },
+  {
+   "tag": "Worth booking",
+   "what": "The Uttara Karnataka Utsava will be held on 29 November (The Hindu). A three-day 'Science in Action' exhibition has opened at the Bengaluru planetarium, and the three-day Indian Cacao and Craft Chocolate Festival has returned (Deccan Herald).",
+   "so_what": "Three dated options for this weekend, and the weather is dry. Check timings and venues on the organisers' pages before you set out, since the reports do not all give them."
+  },
+  {
+   "tag": "Civic",
+   "what": "Fish have died in Jakkur Lake, and a sewage leak is suspected, The Times of India reports.",
+   "so_what": "If you walk or cycle around Jakkur, keep children and pets out of the water and away from the dead fish for now. If you live nearby and the smell reaches you, report it to the Greater Bengaluru Authority so the leak gets a complaint number on record."
+  }
+ ],
+ "carry_over": {
+  "id": "job-fee",
+  "prompt": "An offer letter for a well-paid role arrives after one short call, and HR asks for a refundable ₹18,000 visa-processing deposit to confirm your seat. What is the tell?",
+  "answer": "Money flowing from employee to employer, in any form, at any stage."
+ },
+ "quiz": [
+  {
+   "question": "How many loan apps did the Bengaluru woman in the TOI report pay a total of ₹15 lakh to?",
+   "options": [
+    "4",
+    "13",
+    "43",
+    "143"
+   ],
+   "answer": 2,
+   "why": "The Times of India: she paid ₹15 lakh to 43 loan apps and still faces threats of morphed photos."
+  },
+  {
+   "question": "What did Karnataka serve on Indian Oil's Bengaluru terminal?",
+   "options": [
+    "A closure order",
+    "A show-cause notice over ethanol measurement discrepancies",
+    "A fine for fuel price overcharging",
+    "A licence renewal"
+   ],
+   "answer": 1,
+   "why": "The Hindu, The New Indian Express and BusinessLine: a show-cause notice over ethanol measurement discrepancies."
+  },
+  {
+   "question": "By when is the four-lane underpass on Old Airport Road due to open?",
+   "options": [
+    "December 2026",
+    "January 2027",
+    "June 2027",
+    "December 2027"
+   ],
+   "answer": 1,
+   "why": "The New Indian Express: it is set to open to traffic by January 2027."
+  },
+  {
+   "question": "What is suspected behind the fishkill at Jakkur Lake?",
+   "options": [
+    "A heatwave",
+    "A chemical spill from a factory",
+    "A sewage leak",
+    "Overfishing"
+   ],
+   "answer": 2,
+   "why": "The Times of India: a sewage leak is suspected."
+  },
+  {
+   "question": "How did the man who threatened the Karnataka CM make the call, per The Indian Express?",
+   "options": [
+    "From a public phone booth",
+    "From a hacked SIM",
+    "From the auto driver's phone after booking his auto",
+    "From an internet calling app"
+   ],
+   "answer": 2,
+   "why": "The Indian Express: he booked an auto and used the driver's phone."
+  }
+ ]
+}

@@ -396,6 +396,18 @@
         "An inbox that never empties because you answer forty mails a day and receive fifty."
       ],
       "test": "How much comes in each day, how much goes out, and which of the two is actually changing?"
+    },
+    {
+      "id": "who-holds-the-meter",
+      "name": "Who holds the meter",
+      "one_line": "Whoever takes the measurement controls the number, so the first question about any figure is who read it and who checks them.",
+      "detail": "Most transactions settle on a measurement: litres at a pump, units on an electricity meter, kilometres on a taxi meter, the weight on a vendor's scale, the blend ratio at a fuel depot. The party that owns the instrument and reads it has both the means and the motive to shade it, usually by amounts too small to notice on a single bill. Honest numbers survive only where someone else can check: a seal, an independent inspector, a reading you can watch yourself, or a second instrument. When a dispute arises, the side that kept its own record of the measurement usually wins.",
+      "elsewhere": [
+        "An auto meter that runs fast, which is why you watch it start at the base fare before the ride begins.",
+        "A vendor's scale that never shows zero before your vegetables go on it.",
+        "A water tanker paid by the trip, with nobody measuring how many litres actually arrive in your sump."
+      ],
+      "test": "Who read this number, who gains if it is off, and who, if anyone, checks them?"
     }
   ]
 }
